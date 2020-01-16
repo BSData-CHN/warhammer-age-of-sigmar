@@ -6,7 +6,7 @@
     <publication id="cac4-1eec-pubN107006" name="Forgeworld: Monstrous Arcanum"/>
     <publication id="cac4-1eec-pubN109547" name="Start Collecting: 恐虐 Bloodbound"/>
     <publication id="cac4-1eec-pubN110134" name="Battalion Set: 恐虐 Bloodbound Slaughterstorm"/>
-    <publication id="cac4-1eec-pubN111094" name="Warscroll Compendium: Daemons of 混沌 (2015)"/>
+    <publication id="cac4-1eec-pubN111094" name="Warscroll Compendium: 混沌恶魔 (2015)"/>
     <publication id="cac4-1eec-pubN112244" name="Battletome: Everchosen"/>
     <publication id="cac4-1eec-pubN114183" name="Start Collecting: Daemons of 恐虐"/>
     <publication id="cac4-1eec-pubN114770" name="Battletome: 恐虐 Bloodbound (2015)"/>
@@ -152,7 +152,7 @@
     <categoryEntry id="1c84-df70-ead8-d11c" name="混沌 SPAWN" hidden="false"/>
     <categoryEntry id="a154-9fce-7de2-439f" name="SOUL GRINDER" hidden="false"/>
     <categoryEntry id="37de-a6c9-b8c0-610e" name="TAMURKHAN&apos;S HORDE" hidden="false"/>
-    <categoryEntry id="9156-9f50-b935-6006" name="DAEMON PRINCE" hidden="false"/>
+    <categoryEntry id="9156-9f50-b935-6006" name="恶魔王子" hidden="false"/>
     <categoryEntry id="0adb-3e44-760d-015f" name="FURIES" hidden="false"/>
     <categoryEntry id="0124-e1e8-c2e7-ef6b" name="MAZRALL THE BUTCHER" hidden="false"/>
     <categoryEntry id="0d42-43fb-57b1-0841" name="SKAARAC THE BLOODBORN" hidden="false"/>
@@ -336,7 +336,7 @@
         <categoryLink id="d26e-58e5-b26b-997a" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c922-0e7f-61d6-c680" name="黑暗仆从 Daemon Prince" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
+    <entryLink id="c922-0e7f-61d6-c680" name="黑暗仆从 恶魔王子" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3ee4-b9a7-3425-1ce6" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="b0f7-4970-4339-6935" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -357,7 +357,7 @@
         <categoryLink id="dc7f-0fbc-aa99-a469" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f726-d283-09ad-8220" name="? Mazrall the Butcher, Daemon Prince of 恐虐" hidden="false" collective="false" import="true" targetId="de8c-b9b6-51fb-6c9a" type="selectionEntry">
+    <entryLink id="f726-d283-09ad-8220" name="? Mazrall the Butcher, 恶魔王子 of 恐虐" hidden="false" collective="false" import="true" targetId="de8c-b9b6-51fb-6c9a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7b97-c17a-02cd-50cd" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
@@ -6488,9 +6488,9 @@
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ce7-8f12-7675-5e3d" name="Daemon Prince (of 恐虐)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8ce7-8f12-7675-5e3d" name="恶魔王子 (of 恐虐)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="743e-9a11-6590-ce6f" name="Daemon Prince of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="743e-9a11-6590-ce6f" name="恶魔王子 of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <modifiers>
             <modifier type="set" field="8655-6213-2824-1752" value="12">
               <conditions>
@@ -6555,7 +6555,7 @@
           <profiles>
             <profile id="8889-d93c-3667-987c" name="Immortal Champion: 恐虐" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Immortal Champion: When you set up this model, you can declare that it is dedicated to 恐虐 [...] when you do replace its Curse Soul-eater ability with [...] 恐虐 Daemon Prince [...] You can add 1 to all hit rolls made for a 恐虐 Daemon Prince.</characteristic>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Immortal Champion: When you set up this model, you can declare that it is dedicated to 恐虐 [...] when you do replace its Curse Soul-eater ability with [...] 恐虐 恶魔王子 [...] You can add 1 to all hit rolls made for a 恐虐 恶魔王子.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6692,7 +6692,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de8c-b9b6-51fb-6c9a" name="Mazrall the Butcher, Daemon Prince of 恐虐" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="de8c-b9b6-51fb-6c9a" name="Mazrall the Butcher, 恶魔王子 of 恐虐" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77ea-b808-0f17-2232" type="max"/>
       </constraints>
@@ -6702,7 +6702,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy unit that is within 1&quot; of this model after this model makes a charge move. On a 4+ that unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9251-2daf-7fa4-580d" name="Mazrall the Butcher, Daemon Prince of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="9251-2daf-7fa4-580d" name="Mazrall the Butcher, 恶魔王子 of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -7014,7 +7014,7 @@
         <categoryLink id="4054-92f7-3300-e356" name="Battalion" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a278-438b-fb3f-ea97" name="1 Bloodthirster of Insensate Rage, Bloodthirster of Unfettered Fury, Wrath of 恐虐 Bloodthirster or 恐虐 Daemon Prince" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a278-438b-fb3f-ea97" name="1 Bloodthirster of Insensate Rage, Bloodthirster of Unfettered Fury, Wrath of 恐虐 Bloodthirster or 恐虐 恶魔王子" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="175c-6883-727e-4083" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c67a-57dc-3da7-e9f0" type="max"/>
@@ -7038,7 +7038,7 @@
                 <categoryLink id="ff5a-1114-dd45-c9f9" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7b23-e5e3-c48b-5e9c" name="Daemon Prince (of 恐虐)" hidden="false" collective="false" import="true" targetId="8ce7-8f12-7675-5e3d" type="selectionEntry">
+            <entryLink id="7b23-e5e3-c48b-5e9c" name="恶魔王子 (of 恐虐)" hidden="false" collective="false" import="true" targetId="8ce7-8f12-7675-5e3d" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="330e-b74c-f827-cc8e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
                 <categoryLink id="e5ea-691a-fd99-02e0" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -8726,7 +8726,7 @@
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="7447-9328-3dfb-48e1" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="5895-e447-bc89-f155" name="混沌 - Beasts of 混沌 - Data" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="5895-e447-bc89-f155" name="混沌 - Beasts of 混沌 - 数据" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="2601-b63b-4dc3-c686" name="混沌 - 黑暗仆从 Data" targetId="e0d8-b631-6934-ee34" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -270,7 +270,7 @@
         <categoryLink id="6c51-4237-591b-9930" name="邪恶法术" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4323-125a-e48d-d0fa" name="Daemon Prince" hidden="false" collective="false" import="true" targetId="60de-03d1-b9b0-dc08" type="selectionEntry"/>
+    <entryLink id="4323-125a-e48d-d0fa" name="恶魔王子" hidden="false" collective="false" import="true" targetId="60de-03d1-b9b0-dc08" type="selectionEntry"/>
     <entryLink id="16a0-5845-30a2-916e" name="Soul Grinder" hidden="false" collective="false" import="true" targetId="4f41-1c22-84e9-6cfa" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a73d-eaab-d0d8-6dc9" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
@@ -3318,9 +3318,9 @@ If that HERO has an artefact of power, they can sacrifice that instead of suffer
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60de-03d1-b9b0-dc08" name="Daemon Prince of 色孽" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="60de-03d1-b9b0-dc08" name="恶魔王子 of 色孽" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1936-d33f-0edb-8195" name="Daemon Prince of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="1936-d33f-0edb-8195" name="恶魔王子 of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">8&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -3330,12 +3330,12 @@ If that HERO has an artefact of power, they can sacrifice that instead of suffer
         </profile>
         <profile id="033c-eece-8276-f93e" name="Magic" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">混沌 WIZARDS know the Summon Daemon Prince spell, in addition to any others they know.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">混沌 WIZARDS know the Summon 恶魔王子 spell, in addition to any others they know.</characteristic>
           </characteristics>
         </profile>
         <profile id="8d18-d61b-9224-c15d" name="Immortal Champion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When your opponent selects a unit within 3&quot; of the Daemon Prince to pile in and attack in the combat phase, you can immeditately select the Daemon Prince to pile in and attack before the enemy unit, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When your opponent selects a unit within 3&quot; of the 恶魔王子 to pile in and attack in the combat phase, you can immeditately select the 恶魔王子 to pile in and attack before the enemy unit, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3714,7 +3714,7 @@ If that HERO has an artefact of power, they can sacrifice that instead of suffer
                 <categoryLink id="2847-f555-02b3-419d" name="Other" hidden="false" targetId="065e-fda7-fd27-1f40" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="2430-ef1e-c40b-856c" name="Daemon Prince of 色孽" hidden="false" collective="false" import="true" targetId="60de-03d1-b9b0-dc08" type="selectionEntry">
+            <entryLink id="2430-ef1e-c40b-856c" name="恶魔王子 of 色孽" hidden="false" collective="false" import="true" targetId="60de-03d1-b9b0-dc08" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="21ab-98a2-da74-06c8" name="Other" hidden="false" targetId="065e-fda7-fd27-1f40" primary="false"/>
               </categoryLinks>
@@ -4149,8 +4149,8 @@ If that HERO has an artefact of power, they can sacrifice that instead of suffer
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="99a3-c1b6-08b9-8eca" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="54fe-be38-10f0-a0c4" name="混沌 - Beasts of 混沌 - Data" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="54fe-be38-10f0-a0c4" name="混沌 - Beasts of 混沌 - 数据" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="778f-2a82-5fea-197d" name="混沌 - 黑暗仆从 Data" targetId="e0d8-b631-6934-ee34" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="1a48-132e-27f4-2cc5" name="混沌 - Daemons of 混沌" targetId="c8da-7df9-793f-98ba" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="1a48-132e-27f4-2cc5" name="混沌 - 混沌恶魔" targetId="c8da-7df9-793f-98ba" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

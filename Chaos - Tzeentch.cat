@@ -59,7 +59,7 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="8aa4-d812-a406-633f" name="GIGANTIC 混沌 SPAWN" hidden="false"/>
-    <categoryEntry id="2abb-a147-0d83-5204" name="DAEMON PRINCE" hidden="false"/>
+    <categoryEntry id="2abb-a147-0d83-5204" name="恶魔王子" hidden="false"/>
     <categoryEntry id="36d4-f127-206e-7444" name="TAMURKHAN&apos;S HORDE" hidden="false"/>
     <categoryEntry id="90ec-8475-f7a7-bd48" name="MUTALITH VORTEX BEAST" hidden="false"/>
     <categoryEntry id="fa5a-6b72-a4df-e132" name="FLAMER" hidden="false"/>
@@ -322,7 +322,7 @@
         <categoryLink id="3544-93ec-4e01-369f" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cc09-18e2-87fe-d2ca" name="Daemon Prince (of Tzeentch)" hidden="false" collective="false" import="true" targetId="98ab-ec1b-d0f6-28c4" type="selectionEntry">
+    <entryLink id="cc09-18e2-87fe-d2ca" name="恶魔王子 (of Tzeentch)" hidden="false" collective="false" import="true" targetId="98ab-ec1b-d0f6-28c4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c34a-e2e1-355d-3a11" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="3ed1-530a-c379-0fe1" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -4853,15 +4853,15 @@
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98ab-ec1b-d0f6-28c4" name="Daemon Prince (of Tzeentch)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="98ab-ec1b-d0f6-28c4" name="恶魔王子 (of Tzeentch)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3470-c98a-121d-412b" name="Daemon Prince of Tzeentch" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+        <profile id="3470-c98a-121d-412b" name="恶魔王子 of Tzeentch" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
             <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield</characteristic>
           </characteristics>
         </profile>
-        <profile id="5626-ea0f-9002-1bbf" name="Daemon Prince of Tzeentch" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="5626-ea0f-9002-1bbf" name="恶魔王子 of Tzeentch" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <modifiers>
             <modifier type="set" field="8655-6213-2824-1752" value="12">
               <conditions>
@@ -6586,7 +6586,7 @@
             <categoryLink id="4617-58fd-ce72-ba62" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="d5d5-5466-6926-1948" name="-Daemon Prince (of Tzeentch)" hidden="false" collective="false" import="true" targetId="98ab-ec1b-d0f6-28c4" type="selectionEntry">
+        <entryLink id="d5d5-5466-6926-1948" name="-恶魔王子 (of Tzeentch)" hidden="false" collective="false" import="true" targetId="98ab-ec1b-d0f6-28c4" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="9ad0-c2f2-c8e9-1625" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
             <categoryLink id="4767-2023-5649-d566" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -6743,7 +6743,7 @@
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="2997-5129-2895-f2e4" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="f838-6008-2615-833f" name="混沌 - Beasts of 混沌 - Data" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="f838-6008-2615-833f" name="混沌 - Beasts of 混沌 - 数据" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="85b8-977b-f62e-537f" name="混沌 - 黑暗仆从 Data" targetId="e0d8-b631-6934-ee34" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

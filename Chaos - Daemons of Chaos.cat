@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c8da-7df9-793f-98ba" name="混沌 - Daemons of 混沌" revision="11" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c8da-7df9-793f-98ba" name="混沌 - 混沌恶魔" revision="11" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c8da-7df9-pubN65537" name="Grand Alliance: 混沌"/>
   </publications>
@@ -25,9 +25,9 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="84c9-64c0-ec5a-64cb" name="FURIES" hidden="false"/>
-    <categoryEntry id="d5b2-b6bb-d9a1-2e91" name="DAEMON PRINCE" hidden="false"/>
+    <categoryEntry id="d5b2-b6bb-d9a1-2e91" name="恶魔王子" hidden="false"/>
     <categoryEntry id="9434-3e6d-2934-849d" name="SOUL GRINDER" hidden="false"/>
-    <categoryEntry id="3461-9201-d262-e792" name="BE&apos;LAKOR" hidden="false"/>
+    <categoryEntry id="3461-9201-d262-e792" name="比拉克" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="2122-46f3-20b5-6135" name="Allegiance" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
@@ -35,13 +35,13 @@
         <categoryLink id="daac-add2-5c92-b04b" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="36c3-9d14-d807-e72e" name="Be&apos;lakor, 混沌 Daemon Prince" hidden="false" collective="false" import="false" targetId="af87-90a5-8d54-9041" type="selectionEntry">
+    <entryLink id="36c3-9d14-d807-e72e" name="比拉克, 混沌恶魔王子" hidden="false" collective="false" import="false" targetId="af87-90a5-8d54-9041" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c524-caaf-4b0f-bf05" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="085e-8c20-b329-6905" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a564-2a13-336b-6b65" name="Daemon Prince" hidden="false" collective="false" import="false" targetId="abad-0b15-0f55-b62d" type="selectionEntry">
+    <entryLink id="a564-2a13-336b-6b65" name="恶魔王子" hidden="false" collective="false" import="false" targetId="abad-0b15-0f55-b62d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5d0d-82d9-425e-4767" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="958c-fb4b-189f-d97d" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -83,13 +83,13 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af87-90a5-8d54-9041" name="Be&apos;lakor, 混沌 Daemon Prince" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="af87-90a5-8d54-9041" name="比拉克, 混沌恶魔王子" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9784-9b35-9549-a7c8" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a1d-237a-277a-405a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="270e-f584-e253-d376" name="Be&apos;lakor" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+        <profile id="270e-f584-e253-d376" name="比拉克" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">2</characteristic>
             <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Enfeeble Foe</characteristic>
@@ -127,7 +127,7 @@
             <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick one visible enemy unit within 18&quot;. Until your next hero phase, the opposing player must subtract 1 from any wound rolls he makes for that unit in the combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e721-df3b-35e9-4219" name="Be&apos;lakor, 混沌 Daemon Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="e721-df3b-35e9-4219" name="比拉克, 混沌恶魔王子" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">12&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -152,9 +152,9 @@
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abad-0b15-0f55-b62d" name="Daemon Prince" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="abad-0b15-0f55-b62d" name="恶魔王子" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="336c-52b8-851c-832b" name="Daemon Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="336c-52b8-851c-832b" name="恶魔王子" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <modifiers>
             <modifier type="set" field="8655-6213-2824-1752" value="12">
               <conditions>
@@ -187,32 +187,32 @@
         </profile>
         <profile id="7fe1-91b3-c225-5436" name="Cursed Soul-eater" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Daemon Prince that is not dedicated to one of the 混沌 Gods heals 1 wound at the end of any combat phase in which it killed any models. If it killed any HEROES or MONSTERS, it heals D3 wounds instead.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A 恶魔王子 that is not dedicated to one of the 混沌 Gods heals 1 wound at the end of any combat phase in which it killed any models. If it killed any HEROES or MONSTERS, it heals D3 wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="e623-08bb-7b93-82da" name="Immortal Champion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When you set up this model, you can declare that it is dedicated to 恐虐, 纳垢, 色孽 or TZEENTCH.  If you do, the Daemon Prince replaces its Cursed Soul-eater ability with the relevant ability from the Immortal Champion table.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When you set up this model, you can declare that it is dedicated to 恐虐, 纳垢, 色孽 or TZEENTCH.  If you do, the 恶魔王子 replaces its Cursed Soul-eater ability with the relevant ability from the Immortal Champion table.</characteristic>
           </characteristics>
         </profile>
         <profile id="07b9-9c7e-a0ca-4e94" name="恐虐" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes, their veins running with liquid fire, are blood-crazed champions. You can add 1 to all hit rolls made for a 恐虐 Daemon Prince.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes, their veins running with liquid fire, are blood-crazed champions. You can add 1 to all hit rolls made for a 恐虐 恶魔王子.</characteristic>
           </characteristics>
         </profile>
         <profile id="4d16-a417-e737-12df" name="纳垢" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are bloated with disease, and are unnaturally resistent to harm. A 纳垢 Daemon Prince has a save of 3+.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are bloated with disease, and are unnaturally resistent to harm. A 纳垢 恶魔王子 has a save of 3+.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea7a-2bf6-8396-fa18" name="Tzeentch" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are surrounded by a nimbus of magical light. A Tzeentch Daemon Prince is a wizard. It can attempt to cast one spell in each of your hero phases, and attempt to unbind one spell in each enemy hero phase. A Tzeentch Daemon Prince knows the Arcane Bolt and Mystic Shield Spells.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are surrounded by a nimbus of magical light. A Tzeentch 恶魔王子 is a wizard. It can attempt to cast one spell in each of your hero phases, and attempt to unbind one spell in each enemy hero phase. A Tzeentch 恶魔王子 knows the Arcane Bolt and Mystic Shield Spells.</characteristic>
           </characteristics>
         </profile>
         <profile id="2135-68ed-d682-c6f0" name="色孽" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are lithe and exotic, their every movement impossibly quick. When your opponent selects a unit within 3&quot; of the Daemon Prince to pile in and attack in the combat phase, you can immediately select the Daemon Prince to pile in and attack before the enemy unit, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are lithe and exotic, their every movement impossibly quick. When your opponent selects a unit within 3&quot; of the 恶魔王子 to pile in and attack in the combat phase, you can immediately select the 恶魔王子 to pile in and attack before the enemy unit, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>

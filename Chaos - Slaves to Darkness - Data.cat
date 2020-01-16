@@ -40,7 +40,7 @@
     <categoryEntry id="0513-d95b-1cf0-71fd" name="混沌 SPAWN" hidden="false"/>
     <categoryEntry id="4d1b-af5b-3b36-6425" name="混沌 WARRIORS" hidden="false"/>
     <categoryEntry id="5f3f-1875-359d-fa1b" name="混沌 WARSHRINE" hidden="false"/>
-    <categoryEntry id="84ea-2e37-06de-d81e" name="DAEMON PRINCE" hidden="false"/>
+    <categoryEntry id="84ea-2e37-06de-d81e" name="恶魔王子" hidden="false"/>
     <categoryEntry id="7511-1dd8-d7c0-18e8" name="DARKOATH CHIEFTAIN" hidden="false"/>
     <categoryEntry id="e4dd-5cfa-cb1b-cb21" name="DARKOATH WARQUEEN" hidden="false"/>
     <categoryEntry id="02b4-a965-7a25-897d" name="EXALTED HERO OF 混沌" hidden="false"/>
@@ -2186,9 +2186,9 @@
         <cost name="pts" typeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2a4-c572-6ab2-6b4e" name="黑暗仆从 Daemon Prince" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b2a4-c572-6ab2-6b4e" name="黑暗仆从 恶魔王子" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="324c-c9bd-6385-df6c" name="Daemon Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="324c-c9bd-6385-df6c" name="恶魔王子" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">12&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -2644,7 +2644,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01c7-0868-3567-e306" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4a43-c6aa-7c38-9195" name="Daemon Prince" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
+            <entryLink id="4a43-c6aa-7c38-9195" name="恶魔王子" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="384e-c6ce-2de1-35f0" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
                 <categoryLink id="b61f-08bc-170f-de53" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -4570,13 +4570,13 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0927-637b-0094-312e" name="Be&apos;lakor" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0927-637b-0094-312e" name="比拉克" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7661-c9e2-ad50-27af" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e133-fb72-cb9a-391a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="64d9-90e3-cfbe-7e1c" name="Be&apos;lakor" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+        <profile id="64d9-90e3-cfbe-7e1c" name="比拉克" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">2</characteristic>
             <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Enfeeble Foe</characteristic>
@@ -4616,7 +4616,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
             <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1c5c-04f5-dc2a-37ca" name="Be&apos;lakor" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="1c5c-04f5-dc2a-37ca" name="比拉克" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">12&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -4635,7 +4635,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         <categoryLink id="ebb7-a8d4-feca-f1cd" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="0b83-da7d-e287-4e6e" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="557a-f925-d7dd-2e58" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
-        <categoryLink id="e8e0-58a9-1c07-9689" name="DAEMON PRINCE" hidden="false" targetId="84ea-2e37-06de-d81e" primary="false"/>
+        <categoryLink id="e8e0-58a9-1c07-9689" name="恶魔王子" hidden="false" targetId="84ea-2e37-06de-d81e" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="542f-7cd4-e585-6b2e" name="General" hidden="false" collective="false" import="true" targetId="ef0e-df26-edb6-5ac7" type="selectionEntry"/>

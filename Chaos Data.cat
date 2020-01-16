@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0339-0157-6910-d29c" name="混沌 Data" revision="17" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0339-0157-6910-d29c" name="混沌 数据" revision="17" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c9b2-1fe6-pubN65537" name="Battletome: Beasts of 混沌"/>
     <publication id="c9b2-1fe6-pubN83353" name="1"/>
@@ -784,7 +784,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
         <profile id="f21d-9082-21cf-c51b" name="Infernal Flames" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit and roll 1 dice for each model in the target unit that is within 18&quot; of the caster; the unit suffers 1 mortal wound for each roll of 4 or more. Roll 3 dice for each MONSTER or WAR MACHINE in the target unit, rather than only 1 dice.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit and roll 1 dice for each model in the target unit that is within 18&quot; of the caster; the unit suffers 1 mortal wound for each roll of 4 or more. Roll 3 dice for each MONSTER or WAR MACHINE in the target unit, rather than only 1 dice.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -945,7 +945,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
         <profile id="ccae-6db8-758b-4c00" name="Infernal Flames" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit and roll 1 dice for each model in the target unit that is within 18&quot; of the caster; the unit suffers 1 mortal wound for each roll of 4 or more. Roll 3 dice for each MONSTER or WAR MACHINE in the target unit, rather than only 1 dice.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit and roll 1 dice for each model in the target unit that is within 18&quot; of the caster; the unit suffers 1 mortal wound for each roll of 4 or more. Roll 3 dice for each MONSTER or WAR MACHINE in the target unit, rather than only 1 dice.</characteristic>
           </characteristics>
         </profile>
         <profile id="fb2a-8e4c-9fd0-769d" name="Gaunt Summoner" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -1120,7 +1120,7 @@ Choose 1 unit from the following list:
         <profile id="6c2a-c7da-6a91-df38" name="Infernal Flames" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them, and roll 1 dice for each model in that unit. For each 5+, that unit suffers 1 mortal wound. If that unit is a MONSTER or WAR MACHINE, roll 3 dice for each model instead.</characteristic>
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them, and roll 1 dice for each model in that unit. For each 5+, that unit suffers 1 mortal wound. If that unit is a MONSTER or WAR MACHINE, roll 3 dice for each model instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1384,7 +1384,7 @@ At the start of your hero phase, you can pick 1 friendly RAVAGERS HERO (excludin
                 <profile id="1ce1-5a03-cc3b-c9d2" name="Crippling Rain" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
                   <characteristics>
                     <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                    <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. In addition, reduce the Move characteristic of that unit by the number of mortal wounds inflicted by this spell until your next hero phase.</characteristic>
+                    <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 18&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. In addition, reduce the Move characteristic of that unit by the number of mortal wounds inflicted by this spell until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2365,7 +2365,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="760e-cc33-009a-dc57" name="Bolt of Tzeentch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2381,7 +2381,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="2700-c7b8-f2f3-6523" name="Arcane Suggestion" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">“If successfully cast, choose an enemy unit (but not a HERO or MONSTER) within 18&quot;, roll a dice and consult the following D3 Result: ROLL - 1 It’s Hopeless: The unit immediately suffers D3 mortal wounds. ROLL - 2 Drop Your Weapons:Until the end of this turn, subtract 1 from hit and wound rolls for the unit. ROLL - 3 Turn Around: Until the end of this turn, subtract 1 from save rolls for the unit</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">“如果施放成功, choose an enemy unit (but not a HERO or MONSTER) within 18&quot;, roll a dice and consult the following D3 Result: ROLL - 1 It’s Hopeless: The unit immediately suffers D3 mortal wounds. ROLL - 2 Drop Your Weapons:Until the end of this turn, subtract 1 from hit and wound rolls for the unit. ROLL - 3 Turn Around: Until the end of this turn, subtract 1 from save rolls for the unit</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2397,7 +2397,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="58b3-42d4-067c-853a" name="Glimpse the Future" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only one of your WIZARDS can attempt to cast this spell per turn. If successfully cast, roll a dice and add it to your Destiny Dice pool.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only one of your WIZARDS can attempt to cast this spell per turn. 如果施放成功, roll a dice and add it to your Destiny Dice pool.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2413,7 +2413,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="d6e1-2772-2e43-e857" name="Shield of Fate" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly TZEENTCH unit within 18&quot; of the caster. Until the start of your next hero phase, you can re-roll save rolls of 1 for the unit if you have 1-3 Destiny Dice, save rolls of 1 and 2 if you have 4-6 Destiny Dice, or save rolls of 1, 2 and 3 if you have 7-9 Destiny Dice. The dice results you can re-roll will change accordingly if any Destiny Dice are added to or expended from your pool.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly TZEENTCH unit within 18&quot; of the caster. Until the start of your next hero phase, you can re-roll save rolls of 1 for the unit if you have 1-3 Destiny Dice, save rolls of 1 and 2 if you have 4-6 Destiny Dice, or save rolls of 1, 2 and 3 if you have 7-9 Destiny Dice. The dice results you can re-roll will change accordingly if any Destiny Dice are added to or expended from your pool.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2429,7 +2429,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="b402-425b-adb3-8846" name="Infusion Arcanum" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next hero phase you can add 1 to all hit and wound rolls for the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until your next hero phase you can add 1 to all hit and wound rolls for the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2445,7 +2445,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="52d8-830d-70df-e1cc" name="Treacherous Bond" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible friendly unit within 18&quot; of the caster. Until your next hero phase, so long as the bonded unit is within 9&quot; of the caster, roll a dice whenever the caster suffers an unsaved wound or mortal wound; on a 2 or more the chosen unit suffers the wound or mortal wound instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible friendly unit within 18&quot; of the caster. Until your next hero phase, so long as the bonded unit is within 9&quot; of the caster, roll a dice whenever the caster suffers an unsaved wound or mortal wound; on a 2 or more the chosen unit suffers the wound or mortal wound instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2667,7 +2667,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="517b-0610-094c-30cd" name="Magnifcent Buboes" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy HERO within 21&quot; of the caster that is visible to them. The hero suffers D3 mortal wounds. In addition, subtract 1 from their hit rolls, casting rolls and unbinding rolls until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy HERO within 21&quot; of the caster that is visible to them. The hero suffers D3 mortal wounds. In addition, subtract 1 from their hit rolls, casting rolls and unbinding rolls until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2680,7 +2680,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="91d3-0d2e-4616-373f" name="Plague Squall" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll 7 dice. For each roll of 6, you can pick an enemy unit that is visible to the caster. That unit suffers D3 mortal wounds. If you roll more than one 6, you must pick a different enemy unit to suffer each set of mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll 7 dice. For each roll of 6, you can pick an enemy unit that is visible to the caster. That unit suffers D3 mortal wounds. If you roll more than one 6, you must pick a different enemy unit to suffer each set of mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2693,7 +2693,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="eed6-50de-c0ef-361e" name="Cloying Quagmire" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, select an enemy unit within 14&quot; of the caster that is visible to them. Then roll a dice, and compare it to the enemy unit’s Save characteristic. If the roll is equal to or higher than the Save characteristic, the unit suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, select an enemy unit within 14&quot; of the caster that is visible to them. Then roll a dice, and compare it to the enemy unit’s Save characteristic. If the roll is equal to or higher than the Save characteristic, the unit suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3680,7 +3680,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="7096-a736-4191-a96a" name="Bolt of Tzeentch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3696,7 +3696,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="863f-23c6-081e-1f44" name="Treason of Tzeentch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit with 2 or more models that is within 18” of the caster and which is visible to them. Roll a dice for each model in the unit you picked. It suffers 1 mortal wound for each dice roll of 6 or more. If, after any of the mortal wounds caused by this spell are allocated, only one model remains in the unit, any remaining mortal wounds caused by this spell are negated and have no effect.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit with 2 or more models that is within 18” of the caster and which is visible to them. Roll a dice for each model in the unit you picked. It suffers 1 mortal wound for each dice roll of 6 or more. If, after any of the mortal wounds caused by this spell are allocated, only one model remains in the unit, any remaining mortal wounds caused by this spell are negated and have no effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3712,7 +3712,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="8bdb-0290-cdfc-29a6" name="Arcane Transformation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible friendly HEROwithin 18&quot; of the caster. You can permanently increase that model’s Move, Bravery or the Attacks characteristic of one of its weapons by 1. However, each HERO can only be chosen as the target of this spell once per battle.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible friendly HEROwithin 18&quot; of the caster. You can permanently increase that model’s Move, Bravery or the Attacks characteristic of one of its weapons by 1. However, each HERO can only be chosen as the target of this spell once per battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3728,7 +3728,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="83e6-8cb4-a172-c400" name="Unchecked Mutation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster.That unit suffers D3 mortal wounds. After the mortal wounds have been allocated, roll a dice. On a roll of 5 or more, the unit suffers 1 more mortal wound. If the unit suffers 1 more mortal wound, roll a dice after the mortal wound has been allocated; on a roll of 5 or more the unit suffers 1 more mortal wound, and so on until you fail to roll a 5 or more. *FAQ v1.4*</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster.That unit suffers D3 mortal wounds. After the mortal wounds have been allocated, roll a dice. On a roll of 5 or more, the unit suffers 1 more mortal wound. If the unit suffers 1 more mortal wound, roll a dice after the mortal wound has been allocated; on a roll of 5 or more the unit suffers 1 more mortal wound, and so on until you fail to roll a 5 or more. *FAQ v1.4*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3744,7 +3744,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="cca8-44c8-c55d-e640" name="Fold Reality" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible friendly unit of TZEENTCH DAEMONS within 18&quot; of the caster and roll a dice. On a roll of 2 or more, you can return that many slain models to the unit. On a roll of 1, the unit is wiped out!</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible friendly unit of TZEENTCH DAEMONS within 18&quot; of the caster and roll a dice. On a roll of 2 or more, you can return that many slain models to the unit. On a roll of 1, the unit is wiped out!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3760,7 +3760,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="782f-f3ae-9ff5-f79b" name="Tzeentch&apos;s Inferno" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">9</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster. Roll 9 dice – for each 6 that you roll the unit you picked suffers D3 mortal wounds. *FAQ v1.4*</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster. Roll 9 dice – for each 6 that you roll the unit you picked suffers D3 mortal wounds. *FAQ v1.4*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4393,7 +4393,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="947a-428f-110d-869e" name="Bolt of Tzeentch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4409,7 +4409,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="c000-91ea-609f-6a67" name="Treason of Tzeentch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit with 2 or more models that is within 18” of the caster and which is visible to them. Roll a dice for each model in the unit you picked. It suffers 1 mortal wound for each dice roll of 6 or more. If, after any of the mortal wounds caused by this spell are allocated, only one model remains in the unit, any remaining mortal wounds caused by this spell are negated and have no effect.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit with 2 or more models that is within 18” of the caster and which is visible to them. Roll a dice for each model in the unit you picked. It suffers 1 mortal wound for each dice roll of 6 or more. If, after any of the mortal wounds caused by this spell are allocated, only one model remains in the unit, any remaining mortal wounds caused by this spell are negated and have no effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4425,7 +4425,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="3efc-2f4c-aed5-65f2" name="Arcane Transformation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible friendly HEROwithin 18&quot; of the caster. You can permanently increase that model’s Move, Bravery or the Attacks characteristic of one of its weapons by 1. However, each HERO can only be chosen as the target of this spell once per battle.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible friendly HEROwithin 18&quot; of the caster. You can permanently increase that model’s Move, Bravery or the Attacks characteristic of one of its weapons by 1. However, each HERO can only be chosen as the target of this spell once per battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4441,7 +4441,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="9fae-568e-6811-d9e7" name="Unchecked Mutation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster.That unit suffers D3 mortal wounds. After the mortal wounds have been allocated, roll a dice. On a roll of 5 or more, the unit suffers 1 more mortal wound. If the unit suffers 1 more mortal wound, roll a dice after the mortal wound has been allocated; on a roll of 5 or more the unit suffers 1 more mortal wound, and so on until you fail to roll a 5 or more. *FAQ v1.4*</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster.That unit suffers D3 mortal wounds. After the mortal wounds have been allocated, roll a dice. On a roll of 5 or more, the unit suffers 1 more mortal wound. If the unit suffers 1 more mortal wound, roll a dice after the mortal wound has been allocated; on a roll of 5 or more the unit suffers 1 more mortal wound, and so on until you fail to roll a 5 or more. *FAQ v1.4*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4457,7 +4457,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="720a-5211-ed14-ebf7" name="Fold Reality" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible friendly unit of TZEENTCH DAEMONS within 18&quot; of the caster and roll a dice. On a roll of 2 or more, you can return that many slain models to the unit. On a roll of 1, the unit is wiped out!</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible friendly unit of TZEENTCH DAEMONS within 18&quot; of the caster and roll a dice. On a roll of 2 or more, you can return that many slain models to the unit. On a roll of 1, the unit is wiped out!</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4473,7 +4473,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="a2ba-f699-ab9f-8fa4" name="Tzeentch&apos;s Inferno" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">9</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster. Roll 9 dice – for each 6 that you roll the unit you picked suffers D3 mortal wounds. *FAQ v1.4*</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster. Roll 9 dice – for each 6 that you roll the unit you picked suffers D3 mortal wounds. *FAQ v1.4*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4516,7 +4516,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="a267-6865-9f52-795b" name="Bolt of Tzeentch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible enemy unit within 18&quot; of the caster. The unit you pick suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4532,7 +4532,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="e506-9bcb-7fd0-0c72" name="Arcane Suggestion" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">“If successfully cast, choose an enemy unit (but not a HERO or MONSTER) within 18&quot;, roll a dice and consult the following D3 Result: ROLL - 1 It’s Hopeless: The unit immediately suffers D3 mortal wounds. ROLL - 2 Drop Your Weapons:Until the end of this turn, subtract 1 from hit and wound rolls for the unit. ROLL - 3 Turn Around: Until the end of this turn, subtract 1 from save rolls for the unit</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">“如果施放成功, choose an enemy unit (but not a HERO or MONSTER) within 18&quot;, roll a dice and consult the following D3 Result: ROLL - 1 It’s Hopeless: The unit immediately suffers D3 mortal wounds. ROLL - 2 Drop Your Weapons:Until the end of this turn, subtract 1 from hit and wound rolls for the unit. ROLL - 3 Turn Around: Until the end of this turn, subtract 1 from save rolls for the unit</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4548,7 +4548,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="6acc-e4f8-2725-1af0" name="Glimpse the Future" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only one of your WIZARDS can attempt to cast this spell per turn. If successfully cast, roll a dice and add it to your Destiny Dice pool.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only one of your WIZARDS can attempt to cast this spell per turn. 如果施放成功, roll a dice and add it to your Destiny Dice pool.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4564,7 +4564,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="1613-e830-a621-de3f" name="Shield of Fate" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly TZEENTCH unit within 18&quot; of the caster. Until the start of your next hero phase, you can re-roll save rolls of 1 for the unit if you have 1-3 Destiny Dice, save rolls of 1 and 2 if you have 4-6 Destiny Dice, or save rolls of 1, 2 and 3 if you have 7-9 Destiny Dice. The dice results you can re-roll will change accordingly if any Destiny Dice are added to or expended from your pool.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly TZEENTCH unit within 18&quot; of the caster. Until the start of your next hero phase, you can re-roll save rolls of 1 for the unit if you have 1-3 Destiny Dice, save rolls of 1 and 2 if you have 4-6 Destiny Dice, or save rolls of 1, 2 and 3 if you have 7-9 Destiny Dice. The dice results you can re-roll will change accordingly if any Destiny Dice are added to or expended from your pool.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4580,7 +4580,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="8f58-9ac4-e40f-5ae9" name="Infusion Arcanum" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next hero phase you can add 1 to all hit and wound rolls for the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until your next hero phase you can add 1 to all hit and wound rolls for the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4596,7 +4596,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="acea-c52c-9abd-1bb0" name="Treacherous Bond" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible friendly unit within 18&quot; of the caster. Until your next hero phase, so long as the bonded unit is within 9&quot; of the caster, roll a dice whenever the caster suffers an unsaved wound or mortal wound; on a 2 or more the chosen unit suffers the wound or mortal wound instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible friendly unit within 18&quot; of the caster. Until your next hero phase, so long as the bonded unit is within 9&quot; of the caster, roll a dice whenever the caster suffers an unsaved wound or mortal wound; on a 2 or more the chosen unit suffers the wound or mortal wound instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4734,7 +4734,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="94de-c4df-1d41-5882" name="Favoured Poxes" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 14&quot; of the caster that is visible to them. Subtract 1 from hit, wound and save rolls for that unit until the caster moves, attempts to cast a spell or is slain.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 14&quot; of the caster that is visible to them. Subtract 1 from hit, wound and save rolls for that unit until the caster moves, attempts to cast a spell or is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4747,7 +4747,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="c5d5-e99e-6c9e-a009" name="Glorious Afflictions" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 21&quot; of the caster that is visible to them. The unit’s Move characteristic and any run or charge rolls made for them are halved (rounding up) until your next hero phase. In addition, units that can normally fly cannot do so until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 21&quot; of the caster that is visible to them. The unit’s Move characteristic and any run or charge rolls made for them are halved (rounding up) until your next hero phase. In addition, units that can normally fly cannot do so until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4760,7 +4760,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="a103-9d1d-3b67-d578" name="Sumptuous Pestilence" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, each enemy unit within 7&quot; of the caster suffers 1 mortal wound. Units with more than 5 models suffer D3 mortal wounds instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, each enemy unit within 7&quot; of the caster suffers 1 mortal wound. Units with more than 5 models suffer D3 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5392,7 +5392,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="a57f-bcd5-3fff-5dd9" name="Binding Damnation" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. Until your next hero phase, that unit fights at the end of the combat phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them. Until your next hero phase, that unit fights at the end of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5405,7 +5405,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="f81d-240b-ee07-4d17" name="Ruinous Vigour" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗仆从 MONSTER wholly within 12&quot; of the caster and visible to them. Until your next hero phase, when you look up a value on that MONSTER’s damage table, it is treated as if it has suffered 0 wounds.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly 黑暗仆从 MONSTER wholly within 12&quot; of the caster and visible to them. Until your next hero phase, when you look up a value on that MONSTER’s damage table, it is treated as if it has suffered 0 wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5418,7 +5418,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="f052-8ded-cdb0-af02" name="Call to Glory" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">5</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗仆从 HERO wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that HERO if target is a HERO or MONSTER until your next hero phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly 黑暗仆从 HERO wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that HERO if target is a HERO or MONSTER until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5431,7 +5431,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="e444-d683-f539-eb54" name="Mask of Darkness" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 12&quot; of the caster and visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That unit cannot move in the following movement phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 12&quot; of the caster and visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That unit cannot move in the following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5444,7 +5444,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="5404-dbe0-9d4b-ad84" name="Whispers of 混沌" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If any models from that unit are slain by this spell, that unit cannot move until the start of your next hero phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If any models from that unit are slain by this spell, that unit cannot move until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5457,7 +5457,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="68ca-43a6-0524-69bf" name="Spite-tongue Curse" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">3</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. That unit suffers 3 mortal wounds. If the casting roll is unsuccessful or the spell is unbound, the caster suffers 3 mortal wounds.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them. That unit suffers 3 mortal wounds. If the casting roll is unsuccessful or the spell is unbound, the caster suffers 3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>

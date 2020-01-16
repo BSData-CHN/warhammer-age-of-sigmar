@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="522a-d5b0-4c7e-321d" name="秩序 - Cities of Sigmar" revision="12" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="deec-d475-pubN65537" name="Grand Alliance: Order"/>
+    <publication id="deec-d475-pubN65537" name="大联盟: 秩序"/>
     <publication id="e440-9199-1072-a7a0" name="Cities of Sigmar Battletome"/>
   </publications>
   <categoryEntries>
@@ -282,7 +282,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="ca6f-37ff-283b-3cdb" name="Scenery" hidden="false" targetId="bc8a-9257-1601-6d62" primary="false"/>
-        <categoryLink id="cac2-cc6c-9b33-8854" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false">
+        <categoryLink id="cac2-cc6c-9b33-8854" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="4779-812b-1dc7-c90c" type="max"/>
           </constraints>
@@ -1158,7 +1158,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="40a7-f61a-bd3d-4e3b" name="Stormkeeps" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">1 in every 4 units in a Cities of Sigmar army can be a STORMCAST ETERNALS unit. Those units gain the CITIES OF SIGMAR keyword and the city keyword chosen for your army.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">1 in every 4 units in a Cities of Sigmar army can be a 雷铸神兵 unit. Those units gain the CITIES OF SIGMAR keyword and the city keyword chosen for your army.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3665,7 +3665,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="db1b-93cb-1ff5-eeef" name="Transmutation of Lead" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of the unit you picked, rounding up. In addition, if that unit has a Save characteristic of 2+, 3+ or 4+, you can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of the unit you picked, rounding up. In addition, if that unit has a Save characteristic of 2+, 3+ or 4+, you can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3678,7 +3678,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="d6c0-169a-3442-d911" name="Mystifying Miasma" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3691,7 +3691,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="ac6b-4426-8e11-d42b" name="Fireball" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3704,7 +3704,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="ed99-b95d-e3b4-62bd" name="Light of Battle" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">4</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a unit within 18&quot;. That unit does not need to take battleshock tests until your next hero phase. The magical aura surrounding that unit alao ennobles nearby allies until your next hero phase; other units from your army within 6&quot; of this unit in the battleshock phase add 1 to their Bravery.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a unit within 18&quot;. That unit does not need to take battleshock tests until your next hero phase. The magical aura surrounding that unit alao ennobles nearby allies until your next hero phase; other units from your army within 6&quot; of this unit in the battleshock phase add 1 to their Bravery.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3717,7 +3717,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="4e59-02a6-e7cd-0ca8" name="Pall of Doom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 2 from the Bravery characteristic of that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 2 from the Bravery characteristic of that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3730,7 +3730,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="a93e-10f8-c5a4-d281" name="Pha’s Protection" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3743,7 +3743,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="ed9f-748e-d128-242f" name="Chain Lightning" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then, roll a dice for every other enemy unit within 6&quot; of the original target. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then, roll a dice for every other enemy unit within 6&quot; of the original target. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3756,7 +3756,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="14c2-e6d8-29c0-7bbf" name="Shield of Thorns" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Until your next hero phase, any enemy unit that finishes a charge move within 3&quot; of that unit suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Until your next hero phase, any enemy unit that finishes a charge move within 3&quot; of that unit suffers D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3769,7 +3769,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="304a-ccde-ae54-1928" name="Wildform" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3801,7 +3801,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="34eb-4e96-46ab-8f5b" name="Amber Spear" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 point on the battlefield within 18&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster’s base. Roll a dice for each unit that has models passed across by this line. On a 2+, that unit suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 point on the battlefield within 18&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster’s base. Roll a dice for each unit that has models passed across by this line. On a 2+, that unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="f212-c0a5-7351-d537" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -3863,7 +3863,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="d5eb-0bb5-f1fe-e258" name="Wildform" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="5c0b-9033-84a8-211f" name="Two-headed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4164,7 +4164,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="d85a-b4dc-c317-01df" name="Burning Gaze" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible unit within 18&quot;. That unit suffers D3 mortal wounds.  Double the number of wounds inflicted if the target has 10 or more models, and tripple them if the target has 20 or more.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible unit within 18&quot;. That unit suffers D3 mortal wounds.  Double the number of wounds inflicted if the target has 10 or more models, and tripple them if the target has 20 or more.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="4aaa-b04f-4c12-78a3" name="White Battlemage" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
@@ -4430,7 +4430,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="01ba-37dc-2346-fb98" name="Comet of Casandora" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a unit within 18&quot; of the caster.  Your opponent must then select one of his units that is within 18&quot; of the caster (this can be the same unit as the one you chose).  Then roll a dice; on a 1, 2, or 3 the unit your opponent picked is struck by the falling comet, and on a 4 or more, the unit you picked is struck.  That unit suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a unit within 18&quot; of the caster.  Your opponent must then select one of his units that is within 18&quot; of the caster (this can be the same unit as the one you chose).  Then roll a dice; on a 1, 2, or 3 the unit your opponent picked is struck by the falling comet, and on a 4 or more, the unit you picked is struck.  That unit suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4527,7 +4527,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="8f79-9c8c-1852-1d30" name="Bladewind" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them and roll 9 dice. For each roll that is lower than that unit’s Save characteristic, that unit suffers 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them and roll 9 dice. For each roll that is lower than that unit’s Save characteristic, that unit suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="ef57-ae2d-8998-75c0" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -4763,7 +4763,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="a7d1-746b-3841-1ce5" name="Word of Pain" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, subtract 1 from hit rolls for attacks made by that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, subtract 1 from hit rolls for attacks made by that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="181f-e59a-b751-1a31" name="Blood Sacrifice" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -9063,7 +9063,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
         <profile id="20fd-93f6-de9d-10c2" name="Armour of Thorns" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly WANDERERS unit wholly within 18&quot; of the caster that is visible to them. Until that unit moves, that unit is treated as being in cover.
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly WANDERERS unit wholly within 18&quot; of the caster that is visible to them. Until that unit moves, that unit is treated as being in cover.
 
 In addition, until that unit moves, if the unmodified save roll for an attack made with a melee weapon that targets that unit is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
           </characteristics>
@@ -9879,7 +9879,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <profile id="03cf-3034-fd80-2bb2" name="Wings of Fire" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit that is visible to the caster. Add 1 to run and charge rolls for that unit until the start of your next hero phase. In addition, until the start of your next hero phase, that unit can fly</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit that is visible to the caster. Add 1 to run and charge rolls for that unit until the start of your next hero phase. In addition, until the start of your next hero phase, that unit can fly</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9895,7 +9895,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <profile id="054f-fd09-caa5-26c3" name="Cindercloud" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, subtract 1 from hit rolls for attacks that target friendly units wholly within 9&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, subtract 1 from hit rolls for attacks that target friendly units wholly within 9&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9911,7 +9911,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <profile id="3c79-6a99-3783-0566" name="Twin-tailed Comet" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If that unit has 10 or more models, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If that unit has 10 or more models, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10086,7 +10086,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="e6da-f48b-c3bf-6bc1" name="Lifesurge" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly model within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that model.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly model within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10102,7 +10102,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="f5ae-bf6d-96ad-645c" name="Cage of Thorns" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Halve the Move characteristic of that unit until the start of your next hero phase. In addition, until the start of your next hero phase, the first time that unit moves, it suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Halve the Move characteristic of that unit until the start of your next hero phase. In addition, until the start of your next hero phase, the first time that unit moves, it suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10118,7 +10118,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="2ce3-adfa-bfe8-7214" name="Ironoak Skin" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10275,7 +10275,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="8c2e-6fb1-e701-cdc5" name="Descending Ash Cloud" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10291,7 +10291,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="c291-1a30-5032-0152" name="Eroding Blast" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 terrain feature wholly within 18&quot; of the caster that is visible to them. Roll 1 dice for each model within 1&quot; of that terrain feature. For each 5+, that model’s unit suffers 1 mortal wound. In addition, until your next hero phase, that terrain feature has the Deadly scenery rule in addition to any other scenery rules it may have.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 terrain feature wholly within 18&quot; of the caster that is visible to them. Roll 1 dice for each model within 1&quot; of that terrain feature. For each 5+, that model’s unit suffers 1 mortal wound. In addition, until your next hero phase, that terrain feature has the Deadly scenery rule in addition to any other scenery rules it may have.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10307,7 +10307,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="585d-b37f-f4b3-bcba" name="Choking Fumes" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 15&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 15&quot; of the caster. For each 5+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 15&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 15&quot; of the caster. For each 5+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10464,7 +10464,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="f07c-9d9d-1eb1-e85e" name="Amber Tide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, halve that unit’s Move characteristic.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, halve that unit’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10480,7 +10480,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="fc7c-d3cc-af48-f6ad" name="Phoenix Cry" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, subtract 1 from the Bravery characteristic of enemy units while they are within 18&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, subtract 1 from the Bravery characteristic of enemy units while they are within 18&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10496,7 +10496,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="7d47-b207-1d60-cb33" name="Golden Mist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can heal D3 wounds allocated to each friendly PHOENICIUM unit within 12&quot; of the caster that is visible to them.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, you can heal D3 wounds allocated to each friendly PHOENICIUM unit within 12&quot; of the caster that is visible to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10653,7 +10653,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="4fb0-42f7-4d4a-4d98" name="Sap Strength" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10669,7 +10669,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="1f00-8038-00bc-b187" name="Shadow Daggers" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 9&quot; of the caster that is visible to them. That unit suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 9&quot; of the caster that is visible to them. That unit suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10685,7 +10685,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="0bc4-ed54-ce57-3d65" name="Vitriolic Spray" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 6&quot; of the caster that is visible to them. Until the start of your next hero phase, that unit has a Save characteristic of ‘-’.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 6&quot; of the caster that is visible to them. Until the start of your next hero phase, that unit has a Save characteristic of ‘-’.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10907,7 +10907,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="34fe-893e-af1f-29f0" name="Roaming Wildfire" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then roll a dice for each other enemy unit within 6&quot; of that unit. On a 4+, that other unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then roll a dice for each other enemy unit within 6&quot; of that unit. On a 4+, that other unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10923,7 +10923,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="0844-1def-3df2-673d" name="Sear Wounds" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10939,7 +10939,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="45c5-3ed3-58dc-b41f" name="Elemental Cyclone" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 12&quot; of the caster. For each 4+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 12&quot; of the caster. For each 4+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10955,7 +10955,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="5006-a1b9-6f85-b253" name="Ignite Weapons" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Add 1 to wound rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Add 1 to wound rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10971,7 +10971,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="4d42-39a8-72b2-56f2" name="Crystal Aegis" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, add 1 to rolls for the Eldritch Attunement battle trait (see opposite) for friendly HALLOWHEART units wholly within 12&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, add 1 to rolls for the Eldritch Attunement battle trait (see opposite) for friendly HALLOWHEART units wholly within 12&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10987,7 +10987,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="c735-4cbc-eeaf-e9d7" name="Warding Brand" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, roll a dice each time a wound inflicted by a melee weapon is allocated to a model from that unit and not negated. On a 4+, the attacking unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, roll a dice each time a wound inflicted by a melee weapon is allocated to a model from that unit and not negated. On a 4+, the attacking unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11144,7 +11144,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="783d-2ed1-f5db-97a0" name="Aura of Glory" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, add 1 to the Attacks characteristic of melee weapons used by friendly TEMPEST’S EYE units while they are wholly within 12&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, add 1 to the Attacks characteristic of melee weapons used by friendly TEMPEST’S EYE units while they are wholly within 12&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11160,7 +11160,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="6def-3ed9-6dad-11e8" name="Strike of Eagles" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 30&quot; of the caster that is visible to them, and roll 6 dice. For each 4+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 30&quot; of the caster that is visible to them, and roll 6 dice. For each 4+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11176,7 +11176,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="fc07-bae2-42e9-d18a" name="Celestial Visions" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, you receive 1 extra command point.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11189,6 +11189,6 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="22e0-2a9a-1fc7-b22e" name="秩序 - Kharadron Overlords - 数据" targetId="3981-271d-5871-845b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - Stormcast Eternals - 数据" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - 雷铸神兵 - 数据" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

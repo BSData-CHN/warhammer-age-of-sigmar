@@ -840,7 +840,7 @@
         <profile id="b2ad-28b6-8c19-2bd7" name="Summon Aethervoid Pendulum" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Aethervoid Pendulum model wholly within 6寸 of the caster so that it points lengthways in the direction you wish it to move.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up an Aethervoid Pendulum model wholly within 6寸 of the caster so that it points lengthways in the direction you wish it to move.</characteristic>
           </characteristics>
         </profile>
         <profile id="21f3-0955-0b5b-632a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -883,7 +883,7 @@
         <profile id="6979-410e-f790-d43c" name="Summon Balewind Vortex" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">WIZARDS with a Wounds characteristic of 9 or more, that are part of a unit of two or more models, or that are already on a Balewind Vortex, cannot attempt to cast this spell. If successfully cast, set up a Balewind Vortex model within 1寸 of the caster and more than 3寸 from any enemy models, and then place the caster on the upper platform.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">WIZARDS with a Wounds characteristic of 9 or more, that are part of a unit of two or more models, or that are already on a Balewind Vortex, cannot attempt to cast this spell. 如果施放成功, set up a Balewind Vortex model within 1寸 of the caster and more than 3寸 from any enemy models, and then place the caster on the upper platform.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ef7-6e77-e5be-458b" name="Against the Aetheric Wind" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -927,7 +927,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="9590-acdc-1b4e-0963" name="Summon Chronomatic Cogs" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Chronomantic Cogs model wholly within 12寸 of the caster. </characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Chronomantic Cogs model wholly within 12寸 of the caster. </characteristic>
           </characteristics>
         </profile>
         <profile id="4fe0-7a89-9044-9495" name="Mechanisms of Time" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -953,7 +953,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="e8c0-ded6-d453-a796" name="Summon Emerald Lifeswarm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Emerald Lifeswarm model wholly within 15寸 of the caster. </characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up an Emerald Lifeswarm model wholly within 15寸 of the caster. </characteristic>
           </characteristics>
         </profile>
         <profile id="6183-1ed2-30a1-468a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -992,7 +992,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="048c-412c-c308-90f9" name="Summon Geminids of Uhl-Gyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up both models within 6寸 of each other and both wholly within 18寸 of the caster. You must then nominate one model to be the Light Geminid and the other to be the Shadow Geminid.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up both models within 6寸 of each other and both wholly within 18寸 of the caster. You must then nominate one model to be the Light Geminid and the other to be the Shadow Geminid.</characteristic>
           </characteristics>
         </profile>
         <profile id="8b3d-a71a-02e8-e999" name="Unleashed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1042,7 +1042,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="1fb0-73e9-129c-891c" name="Summon Horrorghast" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Horrorghast model wholly within 12寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Horrorghast model wholly within 12寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea2b-6e1d-a138-8396" name="Prey on Fear" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1081,7 +1081,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="801d-6be1-0510-970e" name="Summon Lauchon the Soulseeker" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Lauchon the Soulseeker model wholly within 12寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Lauchon the Soulseeker model wholly within 12寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="203f-cce0-0c04-21cc" name="Navigate Deathly Tides" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1125,7 +1125,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="e2a0-be45-7c5a-1d9c" name="Summon Malevolent Maelstrom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Malevolent Maelstrom model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Malevolent Maelstrom model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="af8c-d343-e2c2-d9e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1169,7 +1169,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="34d7-8e3b-b9ac-04ca" name="Summon Prismatic Palisade" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Prismatic Palisade model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Prismatic Palisade model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="73bc-6abe-4c52-6d23" name="Blinding Light" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1205,7 +1205,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="8677-969c-7c16-007d" name="Summon Purple Sun of Shyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Purple Sun of Shyish model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Purple Sun of Shyish model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="9a94-5efa-6797-25e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1254,7 +1254,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="b191-e4f0-c10b-2543" name="Summon Quicksilver Swords" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Quicksilver Swords model wholly within 10寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Quicksilver Swords model wholly within 10寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="035d-bc7f-cc14-3cc0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1298,7 +1298,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="8123-c8c4-8bc6-cf0f" name="Summon Ravenak&apos;s Gnashing Jaws" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Ravenak’s Gnashing Jaws model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Ravenak’s Gnashing Jaws model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="0222-5edd-ad18-48a4" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1342,7 +1342,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="6b93-3b5f-92bd-87df" name="Summon Shards of Valagharr" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Shards of Valagharr model wholly within 6寸 of the caster, and then set up the second Shards of Valagharr model wholly within 12寸 of the first.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up the first Shards of Valagharr model wholly within 6寸 of the caster, and then set up the second Shards of Valagharr model wholly within 12寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="01e5-7b2f-ac0e-5ec3" name="Ensnaring Soul-drain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1378,7 +1378,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="8bc3-efdf-b033-2e24" name="Summon Soulscream Bridge" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Soulscream Bridge model wholly within 6寸 of the caster, and then set up the second Soulscream Bridge model wholly within 12寸 of the first.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up the first Soulscream Bridge model wholly within 6寸 of the caster, and then set up the second Soulscream Bridge model wholly within 12寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="3cd2-74a2-532b-25a5" name="Deathly Passage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1414,7 +1414,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="f12d-a1e0-5270-2892" name="Summon Soulsnare Shackles" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Soulsnare Shackles model wholly within 12寸 of the caster, then set up the second and third Soulsnare Shackles models wholly within 6寸 of the first.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Soulsnare Shackles model wholly within 12寸 of the caster, then set up the second and third Soulsnare Shackles models wholly within 6寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="0df7-ad58-26dc-d044" name="Bound for the Great Oubliette" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1445,7 +1445,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="09f9-9e4f-449d-b8f2" name="Summon Suffocating﻿﻿ Gravetide﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Suffocating Gravetide model wholly within 4寸 of the caster. </characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Suffocating Gravetide model wholly within 4寸 of the caster. </characteristic>
           </characteristics>
         </profile>
         <profile id="2bc2-6e1b-9c63-97c5" name="Necrotic Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1494,7 +1494,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="d37a-5a1b-11ad-fb89" name="Summon B﻿urning Head﻿﻿﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Burning Head model wholly within 3寸 of the caster.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up a Burning Head model wholly within 3寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="c2a1-0a2c-f5ce-467b" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1543,7 +1543,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <profile id="c3e6-0504-1147-d44a" name="Summon Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Umbral Spellportal model wholly within 12寸 of the caster, and then set up the second Umbral Spellportal model wholly within 18寸 of the first.</characteristic>
+            <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up the first Umbral Spellportal model wholly within 12寸 of the caster, and then set up the second Umbral Spellportal model wholly within 18寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a1a-1532-0887-c5d7" name="Arcane Passage" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2587,7 +2587,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="f306-24f5-fc80-aef9" name="缠绕之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为缠绕之刃。若装备者用这把武器对敌军英雄或者怪兽造成一个或更多命中，在该阶段那个目标的命中骰子-1.</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为缠绕之刃.若装备者用这把武器对敌军英雄或者怪兽造成一个或更多命中,在该阶段那个目标的命中骰子-1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2605,7 +2605,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="e387-e771-770f-df3f" name="林木法杖" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在近战阶段开始时，选择装备者视野3 寸内一个敌方英雄，投D6，5+则其本阶段不能切入</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在近战阶段开始时,选择装备者视野3 寸内一个敌方英雄,投D6,5+则其本阶段不能切入</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2623,7 +2623,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="4afd-f2e6-b490-8661" name="纪伦之击" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的武器成为纪伦之击，其命中和造伤+1。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的武器成为纪伦之击,其命中和造伤+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2641,7 +2641,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="0a70-7426-d0e2-f62c" name="碎裂刀锋" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，为装备者9 寸内的每个敌方单位投D6，6+受到1 点致命伤害。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的射击阶段,为装备者9 寸内的每个敌方单位投D6,6+受到1 点致命伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2659,7 +2659,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="8efc-9cae-f0f0-ee85" name="玉伤棘刺" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为碎玉棘刺。如果这件武器的命中为6+则该次攻击在原伤害上额外多造成一点致命伤害。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为碎玉棘刺.如果这件武器的命中为6+则该次攻击在原伤害上额外多造成一点致命伤害.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2677,7 +2677,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="87eb-d74e-a1e9-06fa" name="纪拉锤堡之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为神锤堡之刃。为其攻击次数+1.</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为神锤堡之刃.为其攻击次数+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2752,7 +2752,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="07f6-7fa7-96a2-ab12" name="超魅之种" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的对手的射击阶段结束时选择装备者视野8 寸的一个敌方单位，投D6，5+则那个单位在接下来的冲锋阶段中无法冲锋。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的对手的射击阶段结束时选择装备者视野8 寸的一个敌方单位,投D6,5+则那个单位在接下来的冲锋阶段中无法冲锋.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2770,7 +2770,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="0f52-e252-90f1-7993" name="恢复魔杖" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段，选择一个装备者视野6 寸内的友方模型，为其回复一点生命值。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段,选择一个装备者视野6 寸内的友方模型,为其回复一点生命值.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2788,7 +2788,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="97ae-8b59-27cd-47b4" name="纪伦护手" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者切入时可多移动3寸。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者切入时可多移动3寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2806,7 +2806,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="10d8-dc26-5c81-537c" name="绿沼之瓶" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性效果，在你的英雄阶段，装备者喝下瓶中魔药，回复D6 生命值。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性效果,在你的英雄阶段,装备者喝下瓶中魔药,回复D6 生命值.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2824,7 +2824,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="b38d-8da2-4b98-14be" name="翠绿斗篷" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段，装备者可如法师一样驱散一个无尽法术，若装备者是法师，则本次驱散不影响其本阶段施法</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段,装备者可如法师一样驱散一个无尽法术,若装备者是法师,则本次驱散不影响其本阶段施法</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2842,7 +2842,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="d11d-df26-af25-0ff6" name="青玉宝冠" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">每次装备者的保护为未修正的6，回复其一点生命值。</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">每次装备者的保护为未修正的6,回复其一点生命值.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4456,37 +4456,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="dbea-58cc-3513-1868" name="Stoke Rage" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 12寸 of the caster that is visible to them. Add 1 to wound rolls and charge rolls for that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 12寸 of the caster that is visible to them. Add 1 to wound rolls and charge rolls for that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="c833-e77e-7d86-96fe" name="Inferno Blades" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 12寸 of the caster. Add 1 to the Damage characteristic of melee weapons used by that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 12寸 of the caster. Add 1 to the Damage characteristic of melee weapons used by that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="da41-8a88-bda1-7c5f" name="Fiery Blast" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster that is visible to them. Roll a dice for each unit (friend or foe) within 3寸 of this point. On a 4+ that unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 18寸 of the caster that is visible to them. Roll a dice for each unit (friend or foe) within 3寸 of this point. On a 4+ that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="297e-c1cf-ad98-4df9" name="Glare of Vulcatrix" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 9寸 of the caster that is visible to them. Roll a dice; if the result is higher than the unit’s Wounds characteristic, a model from that unit is slain.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 9寸 of the caster that is visible to them. Roll a dice; if the result is higher than the unit’s Wounds characteristic, a model from that unit is slain.</characteristic>
               </characteristics>
             </profile>
             <profile id="5312-c3ec-1d59-ed83" name="Parch" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18寸 of the caster. That unit must halve its Move characteristic until your next hero phase. In addition, roll a dice each time that unit completes a charge move until your next hero phase. On a 5+ the unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18寸 of the caster. That unit must halve its Move characteristic until your next hero phase. In addition, roll a dice each time that unit completes a charge move until your next hero phase. On a 5+ the unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="b054-6b9d-5733-a302" name="Incandescent Form" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, subtract 1 from hit rolls for attacks that target the caster until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, subtract 1 from hit rolls for attacks that target the caster until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4499,37 +4499,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="2c42-d061-a087-9527" name="Rain of Lead" publicationId="e51d-b1a3-pubEHOGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, subtract 1寸 from that unit’s Move characteristic until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, subtract 1寸 from that unit’s Move characteristic until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="0f74-a77d-dd05-d038" name="Curse of Rust" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. Subtract 1 from hit rolls and save rolls for that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12寸 of the caster that is visible to them. Subtract 1 from hit rolls and save rolls for that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="ed1d-11ec-1a8d-004a" name="Molten Gaze" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each unit other than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each unit other than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="1617-a762-c075-2410" name="Rule of Burning Iron" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. Roll a dice for each model in that unit. For each 6+ that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12寸 of the caster that is visible to them. Roll a dice for each model in that unit. For each 6+ that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="3784-d44d-177e-60e3" name="Glittering Robe" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, re-roll save rolls of 1 for the caster until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, re-roll save rolls of 1 for the caster until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="02b9-131b-e438-e1da" name="Transmutation" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18寸 of the caster that is visible to them and roll 3 dice. For each roll that is greater than that unit’s Wounds characteristic, 1 model from that unit is slain.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18寸 of the caster that is visible to them and roll 3 dice. For each roll that is greater than that unit’s Wounds characteristic, 1 model from that unit is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4542,37 +4542,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="4980-8f82-01df-d8c1" name="The Amber Spear" publicationId="e51d-b1a3-pubEHOGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each unit other than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each unit other than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="47d2-8fe8-a1cd-fcd4" name="Bestial Spirit" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, if the unit suffers 3 mortal wounds from this spell, subtract 1 from its Bravery characteristic until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, if the unit suffers 3 mortal wounds from this spell, subtract 1 from its Bravery characteristic until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="b570-a87b-a5d6-4314" name="Flock of Doom" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18寸 of the caster that is visible to them and roll 12 dice. For each 6+ that enemy unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18寸 of the caster that is visible to them and roll 12 dice. For each 6+ that enemy unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="c34f-e0f3-8aa6-27b2" name="Impenetrable Hide" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can re-roll failed save rolls for the caster until the start of your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, you can re-roll failed save rolls for the caster until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="796c-59cd-7791-1fb9" name="Cower" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy MONSTER within 12寸 of the caster that is visible to them and roll 2D6. If the result is higher than that MONSTER ’s Bravery characteristic, it cannot make a charge move in your opponent’s next turn.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy MONSTER within 12寸 of the caster that is visible to them and roll 2D6. If the result is higher than that MONSTER ’s Bravery characteristic, it cannot make a charge move in your opponent’s next turn.</characteristic>
               </characteristics>
             </profile>
             <profile id="130c-f54d-8df0-2a75" name="Primal Hunter" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly HERO within 12寸 of the caster that is visible to them. Re-roll failed charge rolls and hit rolls for that HERO until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly HERO within 12寸 of the caster that is visible to them. Re-roll failed charge rolls and hit rolls for that HERO until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4585,37 +4585,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="bf34-4284-e813-d06a" name="Whipvines" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster that is visible to them. Roll a dice for each enemy unit within 3寸 of this point. On a 4+ the unit being rolled for suffers 1 mortal wound.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 18寸 of the caster that is visible to them. Roll a dice for each enemy unit within 3寸 of this point. On a 4+ the unit being rolled for suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="981d-92e1-a330-a142" name="Mirrorpool" publicationId="e51d-b1a3-pubETJDK" page="72; 1" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, remove the caster from the battlefield and set them up again anywhere within 18寸 of their previous position, more than 9寸 from any enemy models. It may not move in the subsequent movement phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, remove the caster from the battlefield and set them up again anywhere within 18寸 of their previous position, more than 9寸 from any enemy models. It may not move in the subsequent movement phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="8ead-e4d4-d566-1cad" name="Realmblood" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, heal D3 wounds allocated to the caster.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, heal D3 wounds allocated to the caster.</characteristic>
               </characteristics>
             </profile>
             <profile id="ad7d-da4d-95bf-85d7" name="Briarstorm" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster. Until your next hero phase, any unit that finishes a move within 3寸 of that point suffers D3 mortal wounds.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 18寸 of the caster. Until your next hero phase, any unit that finishes a move within 3寸 of that point suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="c6ac-bacc-b44a-ee43" name="Flesh to Stone" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, re-roll successful wound rolls for attacks that target the caster until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, re-roll successful wound rolls for attacks that target the caster until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="f1e2-5c25-57d9-2a96" name="Sicklewind" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each unit other than the caster that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each unit other than the caster that has models passed across by this line suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4628,37 +4628,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="6a62-fd42-aa4d-5e6a" name="Exorcising Beam" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. If the enemy unit is a DAEMON or 死亡 unit, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. If the enemy unit is a DAEMON or 死亡 unit, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
             <profile id="bf05-2d97-bcc4-15f5" name="Light of Battle" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 18寸 of the caster. Do not take battleshock tests for that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 18寸 of the caster. Do not take battleshock tests for that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="1106-ad78-0b0e-c029" name="Vengeful Illumination" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18寸 of the caster that is visible to them. Add 1 to hit rolls for attacks made with missile weapons that target that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18寸 of the caster that is visible to them. Add 1 to hit rolls for attacks made with missile weapons that target that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="42b6-a83b-993f-08c1" name="Aetheric Net" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster. Roll a dice for each unit (friend or foe) within 3寸 of that point. On a 4+ that unit suffers 1 mortal wound, and its Move characteristic is halved until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 18寸 of the caster. Roll a dice for each unit (friend or foe) within 3寸 of that point. On a 4+ that unit suffers 1 mortal wound, and its Move characteristic is halved until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="b132-e233-e288-8114" name="Healing Glow" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 6寸 of the caster that is visible to them. Heal D3 wounds allocated to that unit.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 6寸 of the caster that is visible to them. Heal D3 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
             <profile id="777d-7786-4576-16e8" name="Banishment" publicationId="e51d-b1a3-pubEFCFK" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 12寸 of the caster that is visible to them. Your opponent must remove that unit from the battlefield and then set it up again, anywhere on the battlefield more than 24寸 from the caster and more than 9寸 from any other models from the caster’s army.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 12寸 of the caster that is visible to them. Your opponent must remove that unit from the battlefield and then set it up again, anywhere on the battlefield more than 24寸 from the caster and more than 9寸 from any other models from the caster’s army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4671,37 +4671,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="6e51-da62-4ca8-04ad" name="Word of Ending" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy HERO within 12寸 of the caster that is visible to them and roll a dice. If the result is more than the number of wounds allocated to that model, it suffers D3 mortal wounds.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy HERO within 12寸 of the caster that is visible to them and roll a dice. If the result is more than the number of wounds allocated to that model, it suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="80ae-e158-1210-7d7c" name="Night&apos;s Touch" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 6寸 of the caster that is visible to them. Ignore modifiers (positive and negative) when making save rolls for that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 6寸 of the caster that is visible to them. Ignore modifiers (positive and negative) when making save rolls for that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="80b8-a2bc-5bf4-8b4d" name="Soulshroud" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 12寸 of the caster that is visible to them. That unit is not affected by other spells until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 12寸 of the caster that is visible to them. That unit is not affected by other spells until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="7ae9-bda5-9bee-9446" name="Unnatural Darkness" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 12寸 of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 12寸 of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="4f5e-3629-2e27-f24b" name="Soulflay" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy HERO within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, if the unit suffers 3 mortal wounds from this spell, subtract 2 from its Bravery characteristic until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy HERO within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, if the unit suffers 3 mortal wounds from this spell, subtract 2 from its Bravery characteristic until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="19ff-bb06-bb69-7dd5" name="Ethereal Guide" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, add 1 to hit rolls for attacks made by the caster until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, add 1 to hit rolls for attacks made by the caster until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4714,37 +4714,37 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="7b58-9346-d870-903a" name="Labyrinth of Sorrows" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. Halve the Move characteristic of that unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12寸 of the caster that is visible to them. Halve the Move characteristic of that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="b468-8c05-4668-3d4c" name="Crown of Asphyxiation" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy unit within 3寸 of the caster. On a 4+ that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll a dice for each enemy unit within 3寸 of the caster. On a 4+ that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="5483-9381-e6dd-60c6" name="The Enfeebling" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster. Re-roll failed wound rolls for attacks that target this unit until your next hero phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12寸 of the caster. Re-roll failed wound rolls for attacks that target this unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="6a2d-6e7c-c48b-10bb" name="Phantasmal Guardian" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice each time you allocate a wound or mortal wound to the caster until your next hero phase. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll a dice each time you allocate a wound or mortal wound to the caster until your next hero phase. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
             <profile id="9abb-8076-099a-4563" name="Bridge of Shadows" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit wholly within 12寸 of the caster and remove it from the battlefield. Set it up anywhere on the battlefield that is wholly within 24寸 of the caster and more than 9寸 from any enemy models. It may not move in the subsequent movement phase.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit wholly within 12寸 of the caster and remove it from the battlefield. Set it up anywhere on the battlefield that is wholly within 24寸 of the caster and more than 9寸 from any enemy models. It may not move in the subsequent movement phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="1078-c3cd-bed1-ea1c" name="Aetheric Tendrils" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. If that unit is a HERO or MONSTER, you can make a normal move with that unit as if it had a Move characteristic of 4寸.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. If that unit is a HERO or MONSTER, you can make a normal move with that unit as if it had a Move characteristic of 4寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4764,18 +4764,18 @@ to set up the WIZARD, then the WIZARD is slain.</description>
     <profile id="ae02-a84f-a903-1ff8" name="奥术飞弹" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">若成功施法，可在施法者 18 英寸范围内挑选一个可视敌方单位。该单位受到 1 处致命伤。结果为 10 点或更大时，该单位将受到 D3 处致命伤。</characteristic>
+        <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">若成功施法,可在施法者 18 英寸范围内挑选一个可视敌方单位.该单位受到 1 处致命伤.结果为 10 点或更大时,该单位将受到 D3 处致命伤.</characteristic>
       </characteristics>
     </profile>
     <profile id="b41f-f1ce-7aa5-4f81" name="秘法护盾" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-        <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">若成功施法，可在施法者 18 英寸范围内挑选一个可视友方单位。在您的下一个英雄阶段之前，对该单位结果为 1 点的防御掷骰进行重新掷骰。</characteristic>
+        <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">若成功施法,可在施法者 18 英寸范围内挑选一个可视友方单位.在您的下一个英雄阶段之前,对该单位结果为 1 点的防御掷骰进行重新掷骰.</characteristic>
       </characteristics>
     </profile>
     <profile id="8e0c-cbe4-27be-8a30" name="飞行" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位可以飞行。</characteristic>
+        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位可以飞行.</characteristic>
       </characteristics>
     </profile>
     <profile id="6884-967e-0150-274e" name="Unbridled Malice" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">

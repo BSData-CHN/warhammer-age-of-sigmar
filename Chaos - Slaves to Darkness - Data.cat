@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e0d8-b631-6934-ee34" name="混沌 - 黑暗仆从 Data" revision="9" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e0d8-b631-6934-ee34" name="混沌 - 黑暗仆从 数据" revision="9" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="798b-2f60-pubN65537" name="Grand Alliance: 混沌"/>
+    <publication id="798b-2f60-pubN65537" name="大联盟: 混沌"/>
     <publication id="798b-2f60-pubN85643" name="Forgeworld: Monstrous Arcanum"/>
   </publications>
   <profileTypes>
@@ -1539,7 +1539,7 @@
             <profile id="b607-9aa2-f6ea-ee45" name="Daemonic Power" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 18&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that unit until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 18&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1671,7 +1671,7 @@
         <profile id="883a-6e96-1757-9c7a" name="Winds of 混沌" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 5, that unit suffers 1 mortal wound. For each 6, that unit suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 18&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 5, that unit suffers 1 mortal wound. For each 6, that unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="3298-8f06-7940-b366" name="Oracular Visions" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -3141,7 +3141,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         <profile id="dade-ea77-71ee-9a69" name="Traitor&apos;s Mist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 黑暗仆从 unit wholly within 15&quot; of the caster that is visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. It cannot move in the subsequent movement phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly 黑暗仆从 unit wholly within 15&quot; of the caster that is visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. It cannot move in the subsequent movement phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4613,7 +4613,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         <profile id="b84b-3b61-3f88-4d08" name="Enfeeble Foe" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster and visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="1c5c-04f5-dc2a-37ca" name="比拉克" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -4667,7 +4667,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         </profile>
         <profile id="671d-c09a-6a92-9c7c" name="Pact of Soul and Iron" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model. In addition, you can re-roll wound rolls for attacks made by this model that target a STORMCAST ETERNAL unit.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model. In addition, you can re-roll wound rolls for attacks made by this model that target a 雷铸神兵 unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="ee2b-c156-5138-ed20" name="Theddra Skull-Scryer" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
@@ -4679,7 +4679,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         <profile id="45da-40d4-8716-1822" name="Enfeeblement" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4742,7 +4742,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         </profile>
         <profile id="da93-263b-4da3-5769" name="Pact of Soul and Iron" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this unit. In addition, you can re-roll wound rolls for attacks made by this unit that target a STORMCAST ETERNAL unit.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this unit. In addition, you can re-roll wound rolls for attacks made by this unit that target a 雷铸神兵 unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5613,7 +5613,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         <profile id="3749-b46f-83e8-6f18" name="Summon Eightfold Doom-Sigil" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only 黑暗仆从 WIZARDS can attempt to cast this spell. If successfully cast, set up an Eightfold Doom-Sigil model wholly within 12&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only 黑暗仆从 WIZARDS can attempt to cast this spell. 如果施放成功, set up an Eightfold Doom-Sigil model wholly within 12&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="bd84-bec2-1f14-b012" name="Empowered by Atrocity" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5638,7 +5638,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         <profile id="97ab-51ef-31e7-ba75" name="Summon Darkfire Daemonrift" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only 黑暗仆从 WIZARDS can attempt to cast this spell. If successfully cast, set up a Darkfire Daemonrift model wholly within 9&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only 黑暗仆从 WIZARDS can attempt to cast this spell. 如果施放成功, set up a Darkfire Daemonrift model wholly within 9&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="44ad-81b3-2540-22d5" name="Reality Screams" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5681,7 +5681,7 @@ Until your next hero phase, your opponent must roll a dice each time that unit a
         <profile id="70b3-fdfc-da81-2c63" name="Summon Realmscourge Rupture" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only 黑暗仆从 WIZARDS can attempt to cast this spell. If successfully cast, set up a Realmscourge Rupture model wholly within 9&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only 黑暗仆从 WIZARDS can attempt to cast this spell. 如果施放成功, set up a Realmscourge Rupture model wholly within 9&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="3d5f-054c-74cd-0c77" name="Debilitating Shockwave" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5839,7 +5839,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
         <profile id="d21b-d01f-def9-fb07" name="Stolen Sting" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them. Worsen the Rend characteristic of that unit’s melee weapons by 1 until your next hero phase. A unit cannot be affected by this spell more than once per turn.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster and visible to them. Worsen the Rend characteristic of that unit’s melee weapons by 1 until your next hero phase. A unit cannot be affected by this spell more than once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6461,7 +6461,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <profile id="1d51-1f93-e27f-ecd9" name="Binding Damnation" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. Until your next hero phase, that unit fights at the end of the combat phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them. Until your next hero phase, that unit fights at the end of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6474,7 +6474,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <profile id="8934-18fe-8b9f-e536" name="Ruinous Vigour" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗仆从 MONSTER wholly within 12&quot; of the caster and visible to them. Until your next hero phase, when you look up a value on that MONSTER’s damage table, it is treated as if it has suffered 0 wounds.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly 黑暗仆从 MONSTER wholly within 12&quot; of the caster and visible to them. Until your next hero phase, when you look up a value on that MONSTER’s damage table, it is treated as if it has suffered 0 wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6487,7 +6487,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <profile id="664a-6a53-c598-d580" name="Call to Glory" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">5</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗仆从 HERO wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that HERO if target is a HERO or MONSTER until your next hero phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly 黑暗仆从 HERO wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that HERO if target is a HERO or MONSTER until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6500,7 +6500,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <profile id="4b3a-d317-bda0-2d6e" name="Mask of Darkness" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 12&quot; of the caster and visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That unit cannot move in the following movement phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 12&quot; of the caster and visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That unit cannot move in the following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6513,7 +6513,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <profile id="9b7e-6be3-c004-be8b" name="Whispers of 混沌" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If any models from that unit are slain by this spell, that unit cannot move until the start of your next hero phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If any models from that unit are slain by this spell, that unit cannot move until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6526,7 +6526,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <profile id="ea98-5701-582e-290b" name="Spite-tongue Curse" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">3</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. That unit suffers 3 mortal wounds. If the casting roll is unsuccessful or the spell is unbound, the caster suffers 3 mortal wounds.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 enemy unit within 12&quot; of the caster and visible to them. That unit suffers 3 mortal wounds. If the casting roll is unsuccessful or the spell is unbound, the caster suffers 3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6561,6 +6561,6 @@ In addition, until the end of the battle round, halve the Move characteristic of
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="e2ba-3838-2584-6349" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="e2ba-3838-2584-6349" name="混沌 数据" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

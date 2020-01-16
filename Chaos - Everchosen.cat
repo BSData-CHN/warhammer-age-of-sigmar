@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="56f3-5dea-05d2-1dd5" name="Chaos - Everchosen" revision="13" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="56f3-5dea-05d2-1dd5" name="混沌 - Everchosen" revision="13" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="56f3-5dea-pubN65537" name="Chaos Battletome Everchosen"/>
-    <publication id="56f3-5dea-pubN66419" name="Chaos Battletome - Everchosen"/>
+    <publication id="56f3-5dea-pubN65537" name="混沌 Battletome Everchosen"/>
+    <publication id="56f3-5dea-pubN66419" name="混沌 Battletome - Everchosen"/>
   </publications>
   <profileTypes>
     <profileType id="f7f4-b79f-f613-624c" name="Triple-headed Monstrosity">
@@ -50,7 +50,7 @@
         <categoryLink id="133a-5942-4cdb-c44b" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ea4a-f305-0a83-3334" name="Overlords of Chaos" hidden="false" collective="false" import="true" targetId="8f4d-9ed3-2142-1662" type="selectionEntry">
+    <entryLink id="ea4a-f305-0a83-3334" name="Overlords of 混沌" hidden="false" collective="false" import="true" targetId="8f4d-9ed3-2142-1662" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c9fa-2b1a-bf07-60f4" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
@@ -65,7 +65,7 @@
         <categoryLink id="1bc7-80ff-4afe-ab94" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4ce7-0ade-878b-beff" name="Gaunt Summoner &amp; Chaos Familiars" hidden="false" collective="false" import="true" targetId="32de-5ab3-e368-f002" type="selectionEntry"/>
+    <entryLink id="4ce7-0ade-878b-beff" name="Gaunt Summoner &amp; 混沌 Familiars" hidden="false" collective="false" import="true" targetId="32de-5ab3-e368-f002" type="selectionEntry"/>
     <entryLink id="3707-722c-e45c-df0e" name="Gaunt Summoner of Tzeentch" hidden="false" collective="false" import="true" targetId="3df8-78a6-7028-906a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bc80-10fb-0486-4532" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -142,7 +142,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a save roll made for Archaon is a 6 (before modifying the roll in any way), the attacking model&apos;s unit suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9065-7f25-cf8b-40a4" name="Chaos Runeshield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="9065-7f25-cf8b-40a4" name="混沌 Runeshield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time Archaon suffers a mortal wound. On a 5 or a 6, that mortal wound is ignored.</characteristic>
           </characteristics>
@@ -154,7 +154,7 @@
         </profile>
         <profile id="37ba-397e-95de-a422" name="Warlord Without Equal" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your hero phase, if Archaon is your general and is on the battlefield. If you do so, all other Chaos Heroes in your army can use 1 command ability that is on their warscroll and which can be used in the hero phase without a command point being spent. *ERRATA Jul&apos;18*</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your hero phase, if Archaon is your general and is on the battlefield. If you do so, all other 混沌 Heroes in your army can use 1 command ability that is on their warscroll and which can be used in the hero phase without a command point being spent. *ERRATA Jul&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="d21f-1928-9007-b3df" name="Archaon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -330,7 +330,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6759-101d-f0cf-66f5" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="014b-863f-0eb3-8028" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="014b-863f-0eb3-8028" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -392,7 +392,7 @@
         </profile>
         <profile id="4b47-e74b-9975-1657" name="Archaon&apos;s Command" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If Archaon is on the battlefield in your hero phase, he can bestow this unit of Varanguard with one of the following keywords: KHORNE, NURGLE, TZEENTCH or SLAANESH. This unit then has that keyword for the remainder of the battle, or until Archaon bestows a different one upon them during any of your following hero phases (at which point the new keyword replaces the previous one). Archaon can bestow each unit of Varanguard under his command with a different keyword if he so wishes.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If Archaon is on the battlefield in your hero phase, he can bestow this unit of Varanguard with one of the following keywords: 恐虐, 纳垢, TZEENTCH or 色孽. This unit then has that keyword for the remainder of the battle, or until Archaon bestows a different one upon them during any of your following hero phases (at which point the new keyword replaces the previous one). Archaon can bestow each unit of Varanguard under his command with a different keyword if he so wishes.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a30-0f95-685c-9d5d" name="Varanguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -421,7 +421,7 @@
             <cost name="pts" typeId="points" value="260.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="18c0-cdab-a6da-398f" name="Steeds of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="18c0-cdab-a6da-398f" name="Steeds of 混沌" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="958a-1b8f-117e-c0b0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0980-d059-57ee-b654" type="min"/>
@@ -556,9 +556,9 @@
             <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">Archaon’s Grand Host consists of the following battalions:</characteristic>
           </characteristics>
         </profile>
-        <profile id="35f5-6459-3042-aece" name="Overlords of Chaos" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="35f5-6459-3042-aece" name="Overlords of 混沌" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">Overlords of Chaos</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">Overlords of 混沌</characteristic>
           </characteristics>
         </profile>
         <profile id="d437-d2b4-85d0-0c2d" name="Warscroll Battalions" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
@@ -591,14 +591,14 @@
             <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Bloodmarked Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="1566-2443-50aa-08bb" name="MORTAL KHORNE HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="1566-2443-50aa-08bb" name="MORTAL 恐虐 HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL KHORNE HERO</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 恐虐 HERO</characteristic>
           </characteristics>
         </profile>
-        <profile id="ddc6-7a1b-2c7a-57e1" name="MORTAL KHORNE Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="ddc6-7a1b-2c7a-57e1" name="MORTAL 恐虐 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">8 MORTAL KHORNE units</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">8 MORTAL 恐虐 units</characteristic>
           </characteristics>
         </profile>
         <profile id="e52f-20eb-ef5d-7621" name="Brand of the Blood God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
@@ -659,16 +659,16 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f4d-9ed3-2142-1662" name="Battalion: Overlords of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8f4d-9ed3-2142-1662" name="Battalion: Overlords of 混沌" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="6348-b2d6-bb3a-a533" name="Dark Vizier" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If Archaon is within 3&quot; of the Overlords of Chaos&apos; Gaunt Summoner in your hero phase, he can demand a boon of a prophecy.  When he does so, roll a dice; you can look at the result of this dice but you should keep it hidden from your opponent.  At the start of the next battle round, reveal this dice instead of deciding which player will take the first turn in the usual way; if the hidden dice result is a 1, 2 or 3, your opponent takes the first turn; if it is a 4, 5 or 6 you take it.  This foresight means Archaon will know in advance who will take the first turn in the next battle round and can adjust his plans accordingly.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If Archaon is within 3&quot; of the Overlords of 混沌&apos; Gaunt Summoner in your hero phase, he can demand a boon of a prophecy.  When he does so, roll a dice; you can look at the result of this dice but you should keep it hidden from your opponent.  At the start of the next battle round, reveal this dice instead of deciding which player will take the first turn in the usual way; if the hidden dice result is a 1, 2 or 3, your opponent takes the first turn; if it is a 4, 5 or 6 you take it.  This foresight means Archaon will know in advance who will take the first turn in the next battle round and can adjust his plans accordingly.</characteristic>
           </characteristics>
         </profile>
         <profile id="7cb3-01fa-d5dc-001a" name="The Will of the Everchosen" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If Archaon is on the battlefield in your hero phase, pick a unit that is within 20&quot; of him, or anywhere if the Overlords of Chaos&apos; Gaunt Summoner is on the battlefield.  Until your next hero phase, the Varanguard can re-roll failed hit and wound rolls when attacking that unit.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If Archaon is on the battlefield in your hero phase, pick a unit that is within 20&quot; of him, or anywhere if the Overlords of 混沌&apos; Gaunt Summoner is on the battlefield.  Until your next hero phase, the Varanguard can re-roll failed hit and wound rolls when attacking that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -706,7 +706,7 @@
                 <categoryLink id="65e6-a068-11a6-bf3c" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="74b6-8564-782f-cd77" name="Gaunt Summoner &amp; Chaos Familiars" hidden="false" collective="false" import="true" targetId="32de-5ab3-e368-f002" type="selectionEntry">
+            <entryLink id="74b6-8564-782f-cd77" name="Gaunt Summoner &amp; 混沌 Familiars" hidden="false" collective="false" import="true" targetId="32de-5ab3-e368-f002" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="9840-eb24-72c8-a1d6" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
@@ -734,14 +734,14 @@
             <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Plaguetouched Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="b5b2-5f63-dcf4-8870" name="MORTAL NURGLE HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="b5b2-5f63-dcf4-8870" name="MORTAL 纳垢 HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL NURGLE HERO</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 纳垢 HERO</characteristic>
           </characteristics>
         </profile>
-        <profile id="86bc-838a-cbbb-9568" name="MORTAL NURGLE Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="86bc-838a-cbbb-9568" name="MORTAL 纳垢 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">7 MORTAL NURGLE units</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">7 MORTAL 纳垢 units</characteristic>
           </characteristics>
         </profile>
         <profile id="b095-4bad-2990-2453" name="Grandfather&apos;s Favour" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
@@ -769,14 +769,14 @@
             <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Pleasurebound Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="a94d-ffd6-50cd-b492" name="MORTAL SLAANESH HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="a94d-ffd6-50cd-b492" name="MORTAL 色孽 HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL SLAANESH HERO</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 色孽 HERO</characteristic>
           </characteristics>
         </profile>
-        <profile id="4b76-4932-3599-cc03" name="MORTAL SLAANESH Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="4b76-4932-3599-cc03" name="MORTAL 色孽 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">6 MORTAL SLAANESH units</characteristic>
+            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">6 MORTAL 色孽 units</characteristic>
           </characteristics>
         </profile>
         <profile id="8ad0-b671-4e28-1cad" name="Caress of the Dark Prince" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
@@ -812,7 +812,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27a7-81bf-169b-c781" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="438e-ba3f-8973-4747" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
+        <entryLink id="438e-ba3f-8973-4747" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2a88-1999-bace-fc3d" name="Artefacts" hidden="false" collective="false" import="true">
@@ -833,12 +833,12 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a728-be89-632b-50c3" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="b50d-918e-078c-4807" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
+        <entryLink id="b50d-918e-078c-4807" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
         <entryLink id="ea91-06a0-c783-2716" name="Realm Artefacts of Power" hidden="false" collective="false" import="true" targetId="37b0-af21-630c-d8af" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="ce75-094c-1b55-e746" name="Chaos Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ce75-094c-1b55-e746" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

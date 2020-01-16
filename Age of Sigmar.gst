@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="e51d-b1a3-75fc-dc33" name="战锤：西格玛时代" revision="58" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
-    <publication id="e51d-b1a3-pubEC" name="The General&apos;s Handbook"/>
-    <publication id="e51d-b1a3-pubEQ" name="Core Rules"/>
-    <publication id="e51d-b1a3-pubE5LCI" name="General&apos;s Handbook 2018"/>
-    <publication id="e51d-b1a3-pubEQOCI" name="General&apos;s Handbook 2017"/>
-    <publication id="e51d-b1a3-pubETJDK" name="Malign Sorcery; Official Errata, December 2018"/>
-    <publication id="e51d-b1a3-pubEFCFK" name="Malign Sorcery; Errata, July 2018"/>
-    <publication id="e51d-b1a3-pubEKHGM" name="Malign Sorcery"/>
-    <publication id="e51d-b1a3-pubEHOGM" name="Malign Sorcery"/>
+    <publication id="e51d-b1a3-pubEC" name="将军手册"/>
+    <publication id="e51d-b1a3-pubEQ" name="核心规则"/>
+    <publication id="e51d-b1a3-pubE5LCI" name="将军手册 2018"/>
+    <publication id="e51d-b1a3-pubEQOCI" name="将军手册 2017"/>
+    <publication id="e51d-b1a3-pubETJDK" name="邪恶法术; 官方勘误, December 2018"/>
+    <publication id="e51d-b1a3-pubEFCFK" name="邪恶法术; Errata, July 2018"/>
+    <publication id="e51d-b1a3-pubEKHGM" name="邪恶法术"/>
+    <publication id="e51d-b1a3-pubEHOGM" name="邪恶法术"/>
   </publications>
   <costTypes>
     <costType id="points" name="分" defaultCostLimit="0.0"/>
@@ -73,9 +73,9 @@
         <characteristicType id="d4dc-8e81-bc0e-b8f0" name="描述"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="c749-bae4-71a8-0c36" name="Command Trait">
+    <profileType id="c749-bae4-71a8-0c36" name="指挥特性">
       <characteristicTypes>
-        <characteristicType id="ee96-6f3a-e5ca-2350" name="Command Trait Details"/>
+        <characteristicType id="ee96-6f3a-e5ca-2350" name="详情"/>
       </characteristicTypes>
     </profileType>
     <profileType id="bdc6-78da-3796-60a3" name="战斗阵型能力">
@@ -128,11 +128,11 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="c4f8-4679-229d-7c37" name="CREW" hidden="false"/>
-    <categoryEntry id="7cdd-80ea-cbeb-8e16" name="CHAOS" hidden="false"/>
+    <categoryEntry id="7cdd-80ea-cbeb-8e16" name="混沌" hidden="false"/>
     <categoryEntry id="87e8-c095-f059-5f7b" name="阵营" hidden="false"/>
     <categoryEntry id="b970-b3bf-e1a4-a6fc" name="秩序" hidden="false"/>
-    <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="DEATH" hidden="false"/>
-    <categoryEntry id="d963-a5fb-c348-2371" name="DESTRUCTION" hidden="false"/>
+    <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="死亡" hidden="false"/>
+    <categoryEntry id="d963-a5fb-c348-2371" name="毁灭" hidden="false"/>
     <categoryEntry id="2654-58fb-a46f-b28d" name="卡拉顿霸主" hidden="false"/>
     <categoryEntry id="9efd-7c5d-dc14-2302" name="DAUGHTERS OF KHAINE" hidden="false"/>
     <categoryEntry id="b396-0600-80d6-cee9" name="雷铸神兵" hidden="false"/>
@@ -140,17 +140,17 @@
     <categoryEntry id="1f30-24b4-f90b-c2c2" name="DARKLING COVENS" hidden="false"/>
     <categoryEntry id="4e6a-bfb6-606f-fc89" name="DISPOSSESSED" hidden="false"/>
     <categoryEntry id="4ec3-efa9-35ba-d55f" name="FYRESLAYERS" hidden="false"/>
-    <categoryEntry id="3aa6-d62f-0782-ea99" name="FREE PEOPLES" hidden="false"/>
+    <categoryEntry id="3aa6-d62f-0782-ea99" name="自由民" hidden="false"/>
     <categoryEntry id="461d-c7cb-74f1-84e8" name="SERAPHON" hidden="false"/>
     <categoryEntry id="9085-6734-ca06-e1e3" name="WANDERERS" hidden="false"/>
     <categoryEntry id="812f-790a-4f66-0476" name="BRAYHERD" hidden="false"/>
-    <categoryEntry id="3963-2e99-aa63-c65e" name="SLAANESH" hidden="false"/>
-    <categoryEntry id="dd77-19a5-28eb-cbec" name="NURGLE" hidden="false"/>
-    <categoryEntry id="f22b-976f-fc38-366a" name="KHORNE" hidden="false"/>
-    <categoryEntry id="4ba7-618a-4e30-2e0c" name="SLAVES TO DARKNESS" hidden="false"/>
+    <categoryEntry id="3963-2e99-aa63-c65e" name="色孽" hidden="false"/>
+    <categoryEntry id="dd77-19a5-28eb-cbec" name="纳垢" hidden="false"/>
+    <categoryEntry id="f22b-976f-fc38-366a" name="恐虐" hidden="false"/>
+    <categoryEntry id="4ba7-618a-4e30-2e0c" name="黑暗仆从" hidden="false"/>
     <categoryEntry id="5432-a6f0-46f0-db4a" name="PESTILENS" hidden="false"/>
     <categoryEntry id="0aa0-da78-a43c-3e8c" name="SKRYRE" hidden="false"/>
-    <categoryEntry id="8f8a-7c29-799e-ace9" name="SKAVEN" hidden="false"/>
+    <categoryEntry id="8f8a-7c29-799e-ace9" name="斯卡文" hidden="false"/>
     <categoryEntry id="7d12-f4c5-3832-0f19" name="奸奇" hidden="false"/>
     <categoryEntry id="6b35-0508-c6cc-6592" name="FLESH-EATER COURTS" hidden="false"/>
     <categoryEntry id="c352-dff7-7050-6f8d" name="NIGHTHAUNT" hidden="false"/>
@@ -178,8 +178,8 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8466-6600-12e7-0833" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="31f4-2067-3ade-e6f8" name="ENDLESS SPELL" hidden="false"/>
-    <categoryEntry id="eecb-ed66-d474-9ddd" name="无尽法术" hidden="false"/>
+    <categoryEntry id="31f4-2067-3ade-e6f8" name="无尽法术" hidden="false"/>
+    <categoryEntry id="eecb-ed66-d474-9ddd" name="邪恶法术" hidden="false"/>
     <categoryEntry id="8be8-3ccd-be93-b55e" name="指挥点数" hidden="false"/>
     <categoryEntry id="5647-b7a8-9716-1d17" name="AETHERVOID PENDULUM" hidden="false"/>
     <categoryEntry id="0ac5-cc94-b7fe-7160" name="BALEWIND VORTEX" hidden="false"/>
@@ -208,7 +208,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aeab-ce73-e115-d5bd" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="2c4b-6186-2939-7f2b" name="BEASTS OF CHAOS" hidden="false"/>
+    <categoryEntry id="2c4b-6186-2939-7f2b" name="BEASTS OF 混沌" hidden="false"/>
     <categoryEntry id="088b-3a27-03f7-8249" name="Named" hidden="false"/>
     <categoryEntry id="2ff5-b7a1-655a-1655" name="GREATER DAEMON" hidden="false"/>
     <categoryEntry id="1d34-b962-7c7b-f287" name="SOULSCREAM BRIDGE" hidden="false"/>
@@ -433,7 +433,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7025-70e4-7ad4-407a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f0b1-06e5-134a-1cd1" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
+        <categoryLink id="f0b1-06e5-134a-1cd1" name="邪恶法术" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
         <categoryLink id="4f35-ed38-e2f8-b024" name="Command Points" hidden="false" targetId="8be8-3ccd-be93-b55e" primary="false"/>
         <categoryLink id="3e68-25b0-23a7-10a3" name="Realm of Battle" hidden="false" targetId="5e28-c4f1-4a92-b75c" primary="false">
           <constraints>
@@ -505,7 +505,7 @@
         </categoryLink>
         <categoryLink id="3482-1176-7c83-8374" name="Command Points" hidden="false" targetId="8be8-3ccd-be93-b55e" primary="false"/>
         <categoryLink id="c800-4d89-230a-a2e4" name="Game Options" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
-        <categoryLink id="fcf3-8315-3d50-aede" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
+        <categoryLink id="fcf3-8315-3d50-aede" name="邪恶法术" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
         <categoryLink id="e7ee-4c42-6e86-db5a" name="Realm of Battle" hidden="false" targetId="5e28-c4f1-4a92-b75c" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="8c2f-68f0-5136-3cf2" type="max"/>
@@ -645,9 +645,9 @@
         <categoryLink id="5552-cffb-c874-4e24" name="Realm of Battle" hidden="false" targetId="5e28-c4f1-4a92-b75c" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="28b7-9a3f-0f7b-c498" name="Endless Spell: Aethervoid Pendulum" hidden="false" collective="false" import="true" targetId="98c8-838b-2c8a-a9f7" type="selectionEntry">
+    <entryLink id="28b7-9a3f-0f7b-c498" name="无尽法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" targetId="98c8-838b-2c8a-a9f7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8ff7-043d-6044-8c48" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
+        <categoryLink id="8ff7-043d-6044-8c48" name="邪恶法术" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1d24-610d-46d2-30bf" name="Balewind Vortex" hidden="false" collective="false" import="true" targetId="98b9-64b2-7123-b7a2" type="selectionEntry">
@@ -665,7 +665,7 @@
         <categoryLink id="102e-6e47-67c3-a9c8" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="21eb-635c-39bd-dd60" name="Endless Spell: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" targetId="1ce8-9373-9c22-75a0" type="selectionEntry">
+    <entryLink id="21eb-635c-39bd-dd60" name="无尽法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" targetId="1ce8-9373-9c22-75a0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="819f-b709-0da8-07b1" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -717,7 +717,7 @@
     </entryLink>
     <entryLink id="857f-aa6c-227e-b1f8" name="Soulsnare Shackles" hidden="false" collective="false" import="true" targetId="ec18-8377-8f6b-2591" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="56ee-27fa-24d6-b548" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
+        <categoryLink id="56ee-27fa-24d6-b548" name="邪恶法术" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="432a-de1d-1d97-f4f2" name="Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" targetId="d6de-646a-4dcc-e37d" type="selectionEntry">
@@ -730,7 +730,7 @@
         <categoryLink id="a795-b9f6-5518-72bc" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5094-7652-a4bc-244c" name="Endless Spell: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" targetId="d2dc-7e1a-c2e7-4cff" type="selectionEntry">
+    <entryLink id="5094-7652-a4bc-244c" name="无尽法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" targetId="d2dc-7e1a-c2e7-4cff" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f865-805f-d0d2-56bb" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -832,7 +832,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98c8-838b-2c8a-a9f7" name="Endless Spell: Aethervoid Pendulum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98c8-838b-2c8a-a9f7" name="无尽法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a657-de49-e2b9-d312" type="max"/>
       </constraints>
@@ -845,7 +845,7 @@
         </profile>
         <profile id="21f3-0955-0b5b-632a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory endless spell. It can move up to 8寸 and can fly. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory 无尽法术. It can move up to 8寸 and can fly. </characteristic>
           </characteristics>
         </profile>
         <profile id="a0f5-049e-5f6b-92f7" name="Slicing Into Reality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -875,7 +875,7 @@
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98b9-64b2-7123-b7a2" name="Endless Spell: Balewind Vortex" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98b9-64b2-7123-b7a2" name="无尽法术: Balewind Vortex" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8106-c203-2ed0-e575" type="max"/>
       </constraints>
@@ -902,7 +902,7 @@
           <description>As long as the Balewind Vortex remains on the battlefield, the caster and the Balewind Vortex are treated as being a single model
 from the caster’s army that uses the caster’s warscroll as well as the endless spells rules. It is treated as an enemy model by the opposing player’s army. A WIZARD on a Balewind Vortex cannot move. 
 
-If a WIZARD on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional spell that the WIZARD would have received in that hero phase, and still counts as the single attempt they can make to dispel an endless spell this hero phase, but allows them to use any remaining spell casting attempts normally. 
+If a WIZARD on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional spell that the WIZARD would have received in that hero phase, and still counts as the single attempt they can make to dispel an 无尽法术 this hero phase, but allows them to use any remaining spell casting attempts normally.
 
 If the WIZARD on the Balewind Vortex is slain, then the Balewind Vortex is immediately dispelled and removed from play along with the slain WIZARD. 
 
@@ -919,7 +919,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a8c-091f-84b5-47aa" name="Endless Spell: Chronomatic Cogs" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a8c-091f-84b5-47aa" name="无尽法术: Chronomatic Cogs" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="437a-85d6-7962-09c8" type="max"/>
       </constraints>
@@ -945,7 +945,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec28-3ec9-f2fa-82e5" name="Endless Spell: Emerald Lifeswarm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec28-3ec9-f2fa-82e5" name="无尽法术: Emerald Lifeswarm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41d8-6605-1f4e-1c94" type="max"/>
       </constraints>
@@ -958,7 +958,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="6183-1ed2-30a1-468a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory endless spell. Emerald Lifeswarms can move up to 10寸 and can fly.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory 无尽法术. Emerald Lifeswarms can move up to 10寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ee9-f13f-669c-33d7" name="Bounteous Healing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -984,7 +984,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ce8-9373-9c22-75a0" name="Endless Spell: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1ce8-9373-9c22-75a0" name="无尽法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f50a-76ec-115a-6e1d" type="max"/>
       </constraints>
@@ -1017,7 +1017,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="634a-99d6-067a-57e1" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory endless spell. They can move up to 8寸 and can fly. When you move this endless spell, the second model must finish its move within 6寸 of the first. If this is impossible, this spell is dispelled. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory 无尽法术. They can move up to 8寸 and can fly. When you move this 无尽法术, the second model must finish its move within 6寸 of the first. If this is impossible, this spell is dispelled. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1034,7 +1034,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="befc-365b-06f8-5575" name="Endless Spell: Horrorghast" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="befc-365b-06f8-5575" name="无尽法术: Horrorghast" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1106-8e19-e64d-9a0a" type="max"/>
       </constraints>
@@ -1052,12 +1052,12 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="9346-aa17-cae4-7273" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12寸 instead of up to 9寸.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, this model can move up to 12寸 instead of up to 9寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="e908-33ca-d3e1-dbcb" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory endless spell. It can move up to 9寸 and can fly. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory 无尽法术. It can move up to 9寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1065,7 +1065,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <infoLink id="b6c5-3639-29e8-2d96" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e16b-e04d-41ad-aa44" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="e16b-e04d-41ad-aa44" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6f84-3b9b-a972-b2f5" name="HORRORGHAST" hidden="false" targetId="9945-bd78-56ea-5cde" primary="false"/>
         <categoryLink id="66e7-40f4-73ab-dd04" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
@@ -1073,7 +1073,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f68-29ac-db98-ff85" name="Endless Spell: Lauchon the Soulseeker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1f68-29ac-db98-ff85" name="无尽法术: Lauchon the Soulseeker" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b648-223d-ea42-50c8" type="max"/>
       </constraints>
@@ -1091,7 +1091,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="a466-232b-e51d-b504" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 18寸 instead of up to 12寸.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, this model can move up to 18寸 instead of up to 12寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="227e-905e-a8a2-360c" name="Soul Price" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1101,7 +1101,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="bcbf-2a21-bf34-e39c" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory endless spell. It can move up to 12寸 and can fly. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory 无尽法术. It can move up to 12寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1109,7 +1109,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <infoLink id="1ea1-53b4-1328-493e" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e2c8-ee2b-6a8a-3bfc" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="e2c8-ee2b-6a8a-3bfc" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6877-c245-4af4-c221" name="LAUCHON THE SOULSEEKER" hidden="false" targetId="3b54-23ed-a577-ea1f" primary="false"/>
         <categoryLink id="5d52-d94b-a444-45b1" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
@@ -1117,7 +1117,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37a1-b025-6723-3fe1" name="Endless Spell: Malevolent Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="37a1-b025-6723-3fe1" name="无尽法术: Malevolent Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84f5-216e-20fd-46e5" type="max"/>
       </constraints>
@@ -1130,7 +1130,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="af8c-d343-e2c2-d9e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory endless spell. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="abb3-1c3a-812b-214c" name="Devourerer of Sorcery and Souls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1145,7 +1145,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="5226-8299-4978-2ab2" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, allocate 1 additional energy point to this model at the start of each battle round.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, allocate 1 additional energy point to this model at the start of each battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1161,7 +1161,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ae1-8e71-327d-0893" name="Endless Spell: Prismatic Palisade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7ae1-8e71-327d-0893" name="无尽法术: Prismatic Palisade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af02-c60b-9133-fa30" type="max"/>
       </constraints>
@@ -1197,7 +1197,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e7b-ce3f-9348-58e1" name="Endless Spell: Purple Sun of Shyish" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e7b-ce3f-9348-58e1" name="无尽法术: Purple Sun of Shyish" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="607a-4963-04ba-d79f" type="max"/>
       </constraints>
@@ -1210,10 +1210,10 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="9a94-5efa-6797-25e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory endless spell. It can move up to 9寸 and can fly. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory 无尽法术. It can move up to 9寸 and can fly. </characteristic>
           </characteristics>
         </profile>
-        <profile id="376e-119b-d822-4395" name="Swirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="376e-119b-d822-4395" name="Swirling 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
           </characteristics>
@@ -1230,7 +1230,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="eb5c-ce49-e22f-6df3" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move 12寸 instead of 9寸. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, this model can move 12寸 instead of 9寸. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1246,7 +1246,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc18-4df9-1a28-2df9" name="Endless Spell: Quicksilver Swords" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bc18-4df9-1a28-2df9" name="无尽法术: Quicksilver Swords" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e19-66ea-d689-4ae3" type="max"/>
       </constraints>
@@ -1259,7 +1259,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="035d-bc7f-cc14-3cc0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory endless spell. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f8f-9119-6422-7799" name="Volley of Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1269,7 +1269,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="c023-e731-5488-7bf0" name="Dancing Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 unit within 6寸 of it and roll 12 dice. For each roll of 6+ that unit suffers 1 mortal wound. If the unit being rolled for is a CHAOS unit, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 unit within 6寸 of it and roll 12 dice. For each roll of 6+ that unit suffers 1 mortal wound. If the unit being rolled for is a 混沌 unit, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="ead7-9952-e01f-b3b3" name="Empowered by Chamon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1290,7 +1290,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a99d-b987-6fa6-96f6" name="Endless Spell: Ravenak&apos;s Gnashing Jaws" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a99d-b987-6fa6-96f6" name="无尽法术: Ravenak&apos;s Gnashing Jaws" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88dc-7fbb-a0af-313d" type="max"/>
       </constraints>
@@ -1303,7 +1303,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="0222-5edd-ad18-48a4" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory endless spell. It can move up to 12寸 and can fly.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory 无尽法术. It can move up to 12寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="983f-75f4-4a12-f26b" name="Endless Appetite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1334,7 +1334,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58a3-4afb-62c5-dd39" name="Endless Spell: Shards of Valagharr" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="58a3-4afb-62c5-dd39" name="无尽法术: Shards of Valagharr" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0021-b32d-ca2b-f4f9" type="max"/>
       </constraints>
@@ -1347,22 +1347,22 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="01e5-7b2f-ac0e-5ec3" name="Ensnaring Soul-drain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, draw an imaginary straight line 1mm wide between the closest parts of the bases of the two Shards of Valagharr models from this endless spell. Each unit passed across by this line is ensnared until the end of that turn. Halve the Move characteristic of a unit that is ensnared. In addition, subtract 1 from hit rolls for attacks made by units that are ensnared.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, draw an imaginary straight line 1mm wide between the closest parts of the bases of the two Shards of Valagharr models from this 无尽法术. Each unit passed across by this line is ensnared until the end of that turn. Halve the Move characteristic of a unit that is ensnared. In addition, subtract 1 from hit rolls for attacks made by units that are ensnared.</characteristic>
           </characteristics>
         </profile>
         <profile id="77e0-b51d-00d4-aa72" name="Twilight Translocation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this endless spell from the battlefield and set it up again anywhere on the battlefield wholly within 12寸 of the other Shards of Valagharr model from this endless spell.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this 无尽法术 from the battlefield and set it up again anywhere on the battlefield wholly within 12寸 of the other Shards of Valagharr model from this 无尽法术.</characteristic>
           </characteristics>
         </profile>
         <profile id="fac8-201d-3681-0dac" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the first Shards of Valagharr model can be set up wholly within 12寸 of the caster, instead of 6寸.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, the first Shards of Valagharr model can be set up wholly within 12寸 of the caster, instead of 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="057a-08ae-cbb8-08b7" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="057a-08ae-cbb8-08b7" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="1a41-5fe0-2b91-319a" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
         <categoryLink id="430e-40d4-1072-bd3a" name="SHARDS OF VALAGHARR" hidden="false" targetId="cff6-06c5-3294-b74b" primary="false"/>
       </categoryLinks>
@@ -1370,7 +1370,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98da-d52f-7608-3034" name="Endless Spell: Soulscream Bridge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98da-d52f-7608-3034" name="无尽法术: Soulscream Bridge" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb75-934b-daee-022e" type="max"/>
       </constraints>
@@ -1383,22 +1383,22 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="3cd2-74a2-532b-25a5" name="Deathly Passage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6寸 of one Soulscream Bridge model from this endless spell can travel across the Soulscream Bridge. If they do so, remove that unit from the battlefield and set it up again wholly within 6寸 of the other Soulscream Bridge model from this endless spell, more than 9寸 from any enemy units. That unit cannot make a normal move that phase. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6寸 of one Soulscream Bridge model from this 无尽法术 can travel across the Soulscream Bridge. If they do so, remove that unit from the battlefield and set it up again wholly within 6寸 of the other Soulscream Bridge model from this 无尽法术, more than 9寸 from any enemy units. That unit cannot make a normal move that phase. </characteristic>
           </characteristics>
         </profile>
         <profile id="eb78-8010-9568-2703" name="Nightmarish Construct" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 6寸 of a Soulscream Bridge model. This ability has no effect on DEATH units.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 6寸 of a Soulscream Bridge model. This ability has no effect on 死亡 units.</characteristic>
           </characteristics>
         </profile>
         <profile id="01c1-54ee-b341-4681" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second Soulscream Bridge model can be set up wholly within 24寸 of the first, instead of within 12寸 of the first.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, the second Soulscream Bridge model can be set up wholly within 24寸 of the first, instead of within 12寸 of the first.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="4201-3b80-3b82-7bc5" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="4201-3b80-3b82-7bc5" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="173d-484d-26a5-168a" name="SOULSCREAM BRIDGE" hidden="false" targetId="1d34-b962-7c7b-f287" primary="false"/>
         <categoryLink id="c390-75ad-8a01-32d9" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
@@ -1406,7 +1406,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec18-8377-8f6b-2591" name="Endless Spell: Soulsnare Shackles" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec18-8377-8f6b-2591" name="无尽法术: Soulsnare Shackles" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a82-fc9b-c487-a064" type="max"/>
       </constraints>
@@ -1424,7 +1424,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="33a8-200f-b7a1-472b" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second and third Soulsnare Shackles models can be set up wholly within 9寸 of the first, instead of 6寸.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, the second and third Soulsnare Shackles models can be set up wholly within 9寸 of the first, instead of 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1437,7 +1437,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6de-646a-4dcc-e37d" name="Endless Spell: Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6de-646a-4dcc-e37d" name="无尽法术: Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d42-657b-97ab-f23f" type="max"/>
       </constraints>
@@ -1465,12 +1465,12 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="4846-a1b3-6a09-82f7" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12寸 instead of 8寸.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of 死亡, this model can move up to 12寸 instead of 8寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="3a60-d81a-79c4-dee0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory endless spell. It can move up to 8寸 and can fly. </characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory 无尽法术. It can move up to 8寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1486,7 +1486,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad9-857b-32ff-e44e" name="Endless Spell: The B﻿urning Head﻿﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ad9-857b-32ff-e44e" name="无尽法术: The B﻿urning Head﻿﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ee-e3e1-6970-f451" type="max"/>
       </constraints>
@@ -1499,7 +1499,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="c2a1-0a2c-f5ce-467b" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory endless spell. It can move up to 9寸 and can fly.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory 无尽法术. It can move up to 9寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="7de4-5c93-a18e-9d5f" name="Fiery Missile" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1535,7 +1535,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="Endless Spell: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="无尽法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="339b-832b-1f41-84f3" type="max"/>
       </constraints>
@@ -1548,7 +1548,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </profile>
         <profile id="0a1a-1532-0887-c5d7" name="Arcane Passage" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If a Wizard successfully casts a spell while they are within 1寸 of an Umbral Spellportal model, the range and visibility of the spell can be measured from the other Umbral Spellportal model from this endless spell. After the range and visibility for a spell has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory endless spell finishes a move within 6寸 of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6寸 of the other Umbral Spellportal model from this endless spell. After an endless spell finishes a move within 6寸 of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
+            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If a Wizard successfully casts a spell while they are within 1寸 of an Umbral Spellportal model, the range and visibility of the spell can be measured from the other Umbral Spellportal model from this 无尽法术. After the range and visibility for a spell has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory 无尽法术 finishes a move within 6寸 of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6寸 of the other Umbral Spellportal model from this 无尽法术. After an 无尽法术 finishes a move within 6寸 of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="f61c-06bd-bd2e-6ce5" name="Empowered by Ulgu" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1668,7 +1668,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e02e-6203-a19f-c021" name="Artefacts of Death" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e02e-6203-a19f-c021" name="Artefacts of 死亡" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d817-47b4-70da-dc76" type="max"/>
       </constraints>
@@ -1680,7 +1680,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="5865-fb09-7643-0772" name="Cursed Book" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">You and your opponent must subtract 1 from hit rolls made for units within 3寸 of the bearer, unless the unit has the DEATH keyword.</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">You and your opponent must subtract 1 from hit rolls made for units within 3寸 of the bearer, unless the unit has the 死亡 keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1716,7 +1716,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="cf43-0de1-7c17-8d94" name="Blade of Dark Summons" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Once per battle, in your hero phase, you can set up a SUMMONABLE DEATH unit wholly within 12寸 of the bearer and more than 3寸 from any enemy models, and add it to your army. The models in the unit must have a combined Wounds characteristic of no more than a 2D6 roll.</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Once per battle, in your hero phase, you can set up a SUMMONABLE 死亡 unit wholly within 12寸 of the bearer and more than 3寸 from any enemy models, and add it to your army. The models in the unit must have a combined Wounds characteristic of no more than a 2D6 roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1783,7 +1783,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="74cc-aa8c-c476-db29" name="Death Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="74cc-aa8c-c476-db29" name="死亡 Command Traits" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6812-2b77-e282-18ad" type="max"/>
       </constraints>
@@ -1793,9 +1793,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3661-8fdb-f699-ab10" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0764-cc0b-794f-7edb" name="Ruler of the Night" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="0764-cc0b-794f-7edb" name="Ruler of the Night" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions battle trait if they are within 12寸 of this general rather than only 6寸.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Friendly 死亡 units are affected by the Deathless Minions battle trait if they are within 12寸 of this general rather than only 6寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1808,9 +1808,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a9-1fbd-c1f7-b05d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="741d-e927-a84a-a2f3" name="Predator of the Shadows" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="741d-e927-a84a-a2f3" name="Predator of the Shadows" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for this general if they are in cover.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for this general if they are in cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1818,14 +1818,14 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="83d0-b10b-7b0f-bb84" name="3. Death Incarnate" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="83d0-b10b-7b0f-bb84" name="3. 死亡 Incarnate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="490b-eaec-c34e-521e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9055-f2ef-067f-738e" name="Death Incarnate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="9055-f2ef-067f-738e" name="死亡 Incarnate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick an enemy unit within 3寸 of this general and roll 2D6. If the roll equals or exceeds the enemy unit’s Bravery characteristic, inflict D3 mortal wounds on the unit.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick an enemy unit within 3寸 of this general and roll 2D6. If the roll equals or exceeds the enemy unit’s Bravery characteristic, inflict D3 mortal wounds on the unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1838,9 +1838,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5dd-14b0-8eea-2b0c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="20c8-5780-7f3e-ded5" name="Master of the Black Arts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="20c8-5780-7f3e-ded5" name="Master of the Black Arts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general is a WIZARD who knows the Arcane Bolt and Mystic Shield spells. If this general is already a wizard, add 1 to all of their casting and unbinding rolls instead.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general is a WIZARD who knows the Arcane Bolt and Mystic Shield spells. If this general is already a wizard, add 1 to all of their casting and unbinding rolls instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1853,9 +1853,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ca-69ba-36a1-ecfa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dcaf-3a22-b916-c683" name="Red Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="dcaf-3a22-b916-c683" name="Red Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">The first time this general is picked to fight in each combat phase, roll a dice at the end of that fight. On a 5+ they can immediately fight again.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">The first time this general is picked to fight in each combat phase, roll a dice at the end of that fight. On a 5+ they can immediately fight again.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1865,9 +1865,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="10c5-32f0-ca6f-7e7c" name="6. Supernatural Horror" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7c4d-ae2f-91a1-4769" name="Supernatural Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="7c4d-ae2f-91a1-4769" name="Supernatural Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1877,7 +1877,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ca3c-6bfc-07f1-2953" name="Artefacts of Destruction" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ca3c-6bfc-07f1-2953" name="Artefacts of 毁灭" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="811a-5a80-4e1a-78b7" type="max"/>
       </constraints>
@@ -1992,16 +1992,16 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1319-8f5e-1ff1-08c9" name="Destruction Command Traits" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1319-8f5e-1ff1-08c9" name="毁灭 Command Traits" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="effb-aa38-5e89-7631" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="dace-f335-0d87-3b0d" name="1. Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="bcd1-9176-4492-23ec" name="Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="bcd1-9176-4492-23ec" name="Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick a terrain feature that is within 6寸 of your general and at least 5 other friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick a terrain feature that is within 6寸 of your general and at least 5 other friendly 毁灭 models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2011,9 +2011,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="b456-2252-df66-a511" name="2. Might is Right" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7e70-bb8b-13b3-bb52" name="Might is Right" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="7e70-bb8b-13b3-bb52" name="Might is Right" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the wound rolls made for the general’s melee weapons.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the wound rolls made for the general’s melee weapons.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2023,9 +2023,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="33e4-5c70-c48b-9472" name="3. Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="abd9-cb56-8363-375f" name="Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="abd9-cb56-8363-375f" name="Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When this General is picked to fight, pick one of their melee weapons. Add 1 to the attach characterisict of that melee weapon for the fight. While 3 or more wounds are allocated to this general, instread add 2 to the Attacks characteristic of that melee weapon for that fight.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When this General is picked to fight, pick one of their melee weapons. Add 1 to the attach characterisict of that melee weapon for the fight. While 3 or more wounds are allocated to this general, instread add 2 to the Attacks characteristic of that melee weapon for that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2035,9 +2035,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="6b78-5f06-40c7-eab6" name="4. Bellowing Tyrant" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e6c7-5519-f527-355c" name="Bellowing Tyrant" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="e6c7-5519-f527-355c" name="Bellowing Tyrant" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick a friendly DESTRUCTION unit within 6寸 of the general in your hero phase. Until your next hero phase, add 1 to charge and run rolls for the unit, and use the general’s Bravery characteristic for the unit instead of its own.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick a friendly 毁灭 unit within 6寸 of the general in your hero phase. Until your next hero phase, add 1 to charge and run rolls for the unit, and use the general’s Bravery characteristic for the unit instead of its own.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2047,9 +2047,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="e5b1-baeb-ed1b-e3f3" name="5. Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1851-80dd-639c-fce5" name="Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="1851-80dd-639c-fce5" name="Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the general’s Wounds characteristic.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2059,9 +2059,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="fdf2-ddc3-5dd8-f6e6" name="6. Ravager" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="6c53-2a68-0348-adc4" name="Ravager" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="6c53-2a68-0348-adc4" name="Ravager" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 3 to the Rampaging Destroyers dice roll (see battle traits) for the general instead of 2.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 3 to the Rampaging Destroyers dice roll (see battle traits) for the general instead of 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2071,16 +2071,16 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f179-9104-3d7f-1ea1" name="Chaos Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f179-9104-3d7f-1ea1" name="混沌 Command Traits" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e106-91bb-bef8-c7e9" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="5584-75b3-7445-e2cf" name="1. Dark Avenger" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d11e-4267-ecf7-1094" name="Dark Avenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="d11e-4267-ecf7-1094" name="Dark Avenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this general’s melee weapons if the target unit has the ORDER keyword.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this general’s melee weapons if the target unit has the ORDER keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2090,9 +2090,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="aa8d-2468-307b-7223" name="2. Spiteful Duelist" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="9c75-4d0a-1a86-b59d" name="Spiteful Duelist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="9c75-4d0a-1a86-b59d" name="Spiteful Duelist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time this general is picked to fight, you can re-roll one wound roll for one of their attacks in that fight.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time this general is picked to fight, you can re-roll one wound roll for one of their attacks in that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2102,9 +2102,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="2ed5-ce10-22f2-9b67" name="3. Cunning Deceiver" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="babc-4418-2091-f9c2" name="Cunning Deceiver" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="babc-4418-2091-f9c2" name="Cunning Deceiver" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Roll a dice at the start of each of your hero phases as long as this general has not been slain. On a 5+ you receive 1 extra command point.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Roll a dice at the start of each of your hero phases as long as this general has not been slain. On a 5+ you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2114,9 +2114,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="ce7b-5079-8e73-49df" name="4. Lord of War" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="264c-5601-8894-49c6" name="Lord of War" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="264c-5601-8894-49c6" name="Lord of War" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick a friendly CHAOSunit within 3寸 of this general and roll a dice. On a 4+ you can add 1 to hit rolls for the unit you picked until your next hero phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your hero phase, pick a friendly CHAOSunit within 3寸 of this general and roll a dice. On a 4+ you can add 1 to hit rolls for the unit you picked until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2126,9 +2126,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="100a-f21d-30bd-0e9a" name="5. Terrifying Presence" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="5b4b-6ac6-d235-c9da" name="Terrifying Presence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="5b4b-6ac6-d235-c9da" name="Terrifying Presence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2138,9 +2138,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="3f5f-faca-cb53-7d82" name="6. Great Destroyer" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="617b-164a-a339-55ae" name="Great Destroyer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="617b-164a-a339-55ae" name="Great Destroyer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see battle trait) for units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see battle trait) for units while they are within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2157,9 +2157,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
       <selectionEntries>
         <selectionEntry id="b044-526f-fd89-213a" name="1. Strategic Genius" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="2f4a-1ff3-4b8c-b752" name="Strategic Genius" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="2f4a-1ff3-4b8c-b752" name="Strategic Genius" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive 1 extra command point.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2169,9 +2169,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="e366-464a-ed9e-3071" name="2. Inspiring" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f14b-13a5-16f7-d8f3" name="Inspiring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="f14b-13a5-16f7-d8f3" name="Inspiring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2181,9 +2181,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="0bfc-2753-ba37-63ec" name="3. Dauntless" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3b26-c45b-9b90-ff4f" name="Dauntless" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="3b26-c45b-9b90-ff4f" name="Dauntless" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2193,9 +2193,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="cda1-69d4-81a2-af6f" name="4. Tenacious" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d599-6a50-2186-f4c7" name="Tenacious" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="d599-6a50-2186-f4c7" name="Tenacious" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2205,9 +2205,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="e6ce-6770-a355-3db5" name="5. Legendary Fighter" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3413-3555-3979-858b" name="Legendary Fighter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="3413-3555-3979-858b" name="Legendary Fighter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When this general is selected to fight, add 1 to the Attacks characteristic of one of their melee weapons for that fight.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When this general is selected to fight, add 1 to the Attacks characteristic of one of their melee weapons for that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2217,9 +2217,9 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
         <selectionEntry id="0d9f-944c-3eb5-5e54" name="6. Master of Defence" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c089-92fd-691d-89eb" name="Master of Defence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c089-92fd-691d-89eb" name="Master of Defence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each tim you allocate a wound or mortal wound to this general, roll a dice. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each tim you allocate a wound or mortal wound to this general, roll a dice. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2344,7 +2344,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3c13-922a-683d-7de7" name="Artefacts of Chaos" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3c13-922a-683d-7de7" name="Artefacts of 混沌" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="180e-001b-6cfa-238a" type="max"/>
       </constraints>
@@ -2367,12 +2367,12 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bce7-28e0-79ca-8ec1" name="2. Chaos Runeblade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bce7-28e0-79ca-8ec1" name="2. 混沌 Runeblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04b9-bd63-8e03-b108" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0043-fadd-e00b-8ebc" name="Chaos Runeblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="0043-fadd-e00b-8ebc" name="混沌 Runeblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
                 <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Increase the Attacks characteristic of that weapon by 1.</characteristic>
               </characteristics>
@@ -2403,12 +2403,12 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4048-8842-13f8-6487" name="4. Chaos Talisman" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4048-8842-13f8-6487" name="4. 混沌 Talisman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="675a-b8d6-59f5-114f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f0fd-58df-77bf-7a88" name="Chaos Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="f0fd-58df-77bf-7a88" name="混沌 Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
                 <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+, the wound is negated. Add 1 to the roll if the wound was inflicted by a model with the ORDER keyword.</characteristic>
               </characteristics>
@@ -2443,7 +2443,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="fe7c-fded-1e2c-6c81" name="Crown of Conquest" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Friendly CHAOS units do not have to take battleshock tests while they are within 6寸 of the bearer.</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Friendly 混沌 units do not have to take battleshock tests while they are within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2453,7 +2453,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9e00-edd6-ffdf-3f9c" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9e00-edd6-ffdf-3f9c" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2470,7 +2470,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="409a-1a19-61fc-ebab" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 16寸 of the PRIEST and which is visible to them. You can add 1 to the save rolls for the unit you picked until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 16寸 of the PRIEST and which is visible to them. You can add 1 to the save rolls for the unit you picked until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2482,7 +2482,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="933a-c947-9fb0-e0a6" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 3寸 of the PRIEST. The unit you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 3寸 of the PRIEST. The unit you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2494,7 +2494,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="bb1e-a8e5-4e0f-1fe6" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE HERO from your army that is within 16寸 of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 HERO from your army that is within 16寸 of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2506,7 +2506,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="a821-00f5-c6fc-2645" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE unit from your army that is within 16寸 of the PRIEST and which is visible to them. The unit that you picked does not have t take battleshock tests until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a 恐虐 unit from your army that is within 16寸 of the PRIEST and which is visible to them. The unit that you picked does not have t take battleshock tests until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2518,7 +2518,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="4cd3-aaf5-0845-37e4" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 16寸 of the PRIEST and which is visible to them. Add 1 to the hit rolls of the unit you picked until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 16寸 of the PRIEST and which is visible to them. Add 1 to the hit rolls of the unit you picked until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4166,7 +4166,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
           <profiles>
             <profile id="04d2-fb64-23c3-6aa9" name="Lens of Refraction" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly unit within 6寸 of the bearer suffers any mortal wounds inflicted by a spell or endless spell, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
+                <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly unit within 6寸 of the bearer suffers any mortal wounds inflicted by a spell or 无尽法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4401,7 +4401,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="c0f9-cbae-79d2-3d07" name="Malign Portents Artefacts - Mortal Slaanesh" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="c0f9-cbae-79d2-3d07" name="Malign Portents Artefacts - Mortal 色孽" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -4628,7 +4628,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
             <profile id="6a62-fd42-aa4d-5e6a" name="Exorcising Beam" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. If the enemy unit is a DAEMON or DEATH unit, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="效果" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12寸 of the caster that is visible to them. That unit suffers D3 mortal wounds. If the enemy unit is a DAEMON or 死亡 unit, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
             <profile id="bf05-2d97-bcc4-15f5" name="Light of Battle" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -4757,7 +4757,7 @@ to set up the WIZARD, then the WIZARD is slain.</description>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="4571-8f36-98ca-2d16" name="Rampaging Destroyers" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false">
-      <description>Roll a dice in your hero phase for your general and each DESTRUCTION HERO in your army. Add 2 to the roll for the general. On a roll of 6 or more, pick a friendly DESTRUCTION unit within 6寸 of the general or HERO being rolled for. That unit can immediately move 6寸 if it is more than 12寸 from the enemy, can immediately pile in if it is within 3寸 of the enemy, or can immediately declare a charge in any other circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</description>
+      <description>Roll a dice in your hero phase for your general and each 毁灭 HERO in your army. Add 2 to the roll for the general. On a roll of 6 or more, pick a friendly 毁灭 unit within 6寸 of the general or HERO being rolled for. That unit can immediately move 6寸 if it is more than 12寸 from the enemy, can immediately pile in if it is within 3寸 of the enemy, or can immediately declare a charge in any other circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4780,12 +4780,12 @@ to set up the WIZARD, then the WIZARD is slain.</description>
     </profile>
     <profile id="6884-967e-0150-274e" name="Unbridled Malice" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">When a friendly CHAOS unit is picked to fight, roll a dice if it is within 12寸 of your general or 3寸 of a friendly HERO. On a 6+, add 1 to hit rolls for the unit for that fight.</characteristic>
+        <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">When a friendly 混沌 unit is picked to fight, roll a dice if it is within 12寸 of your general or 3寸 of a friendly HERO. On a 6+, add 1 to hit rolls for the unit for that fight.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d2d8-2ac6-109a-256f" name="Deathless Minions (GA:Death)" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
+    <profile id="d2d8-2ac6-109a-256f" name="Deathless Minions (GA:死亡)" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">Each time you allocate a wound or mortal wound to a friendly DEATH model within 6寸 of your general or a friendly DEATH HERO, roll a dice. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">Each time you allocate a wound or mortal wound to a friendly 死亡 model within 6寸 of your general or a friendly 死亡 HERO, roll a dice. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

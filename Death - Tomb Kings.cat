@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f04f-431a-40ad-2ba9" name="Death: Tomb Kings (Warscroll Compendium)" revision="7" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f04f-431a-40ad-2ba9" name="死亡: Tomb Kings (Warscroll Compendium)" revision="7" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f04f-431a-pubN65537" name="Tomb Kings: Warscrolls Compendium (2017)"/>
     <publication id="f04f-431a-pubN71414" name="Tomb Kings (2015)"/>
@@ -1333,7 +1333,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0395-882a-0826-8ab8" name="Allegiance: *Death*" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0395-882a-0826-8ab8" name="Allegiance: *死亡*" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="3c3b-6616-5069-c3d7" name="Deathless Minions" hidden="false" targetId="3998-f3e4-90e7-348a" type="profile"/>
               </infoLinks>
@@ -4868,7 +4868,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this unit’s melee weapons if it has 20 or more models. If it has 30 or more models, add 2 instead.</characteristic>
           </characteristics>
         </profile>
-        <profile id="15a0-dda0-8199-29df" name="Serve in Death" publicationId="f04f-431a-pubN74567" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="15a0-dda0-8199-29df" name="Serve in 死亡" publicationId="f04f-431a-pubN74567" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to this unit’s hit rolls while it is within 18&quot; of any friendly Embalmed Hero.</characteristic>
           </characteristics>
@@ -4979,7 +4979,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4524-f252-20bc-b183" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6554-9d30-93ee-003a" name="Artefacts of Death" hidden="false" collective="false" targetId="e02e-6203-a19f-c021" type="selectionEntryGroup">
+        <entryLink id="6554-9d30-93ee-003a" name="Artefacts of 死亡" hidden="false" collective="false" targetId="e02e-6203-a19f-c021" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5003,13 +5003,13 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e77-24a2-b606-64b8" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3197-3bfc-8607-ef79" name="Death Command Traits" hidden="false" collective="false" targetId="74cc-aa8c-c476-db29" type="selectionEntryGroup"/>
+        <entryLink id="3197-3bfc-8607-ef79" name="死亡 Command Traits" hidden="false" collective="false" targetId="74cc-aa8c-c476-db29" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="cf8b-aa33-2ab7-c034" name="Locus of Shyish" hidden="false">
-      <description>If you make an unmodified casting roll of 9+ for a DEATH WIZARD that is attempting to cast a spell from the Lore of the Deathmages or the Lore of the Vampires, and it is not unbound, then after resolving the effects of that spell you may immediately resolve them for a second time.</description>
+      <description>If you make an unmodified casting roll of 9+ for a 死亡 WIZARD that is attempting to cast a spell from the Lore of the Deathmages or the Lore of the Vampires, and it is not unbound, then after resolving the effects of that spell you may immediately resolve them for a second time.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5040,7 +5040,7 @@
     </profile>
     <profile id="82d7-72c8-891a-50e8" name="STANDARD BEARER" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
       <characteristics>
-        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Models in this unit may be Standard Bearers. Subtract 1 from the Bravery characteristic of enemy units whilst they are within 6&quot; of any DEATH Standard Bearers.</characteristic>
+        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Models in this unit may be Standard Bearers. Subtract 1 from the Bravery characteristic of enemy units whilst they are within 6&quot; of any 死亡 Standard Bearers.</characteristic>
       </characteristics>
     </profile>
     <profile id="16e6-849a-6966-8f7e" name="Cryptsword" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5060,12 +5060,12 @@
     </profile>
     <profile id="fb6d-c2b0-6c7a-ecd3" name="The Unquiet Dead" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
       <characteristics>
-        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After territories have been determined, but before any units have been set up, you may pick up to 2 points in your territory and up to 2 points anywhere on the battlefield to be gravesites. You may wish to place suitable markers on these points. Instead of setting up a SUMMONABLE unit on the battlefield, you can place it to one side and say that it is set up in the grave. You can do this with as many units as you wish.  At the end of your movement phase, for each DEATH HERO within 9&quot; of a gravesite, you may pick a single unit in the grave and set it up wholly within 9&quot; of that gravesite and more than 9&quot; from any enemy models. Any model that is unable to be set up in this way is slain. If a unit is still in the grave at the end of the battle, it is considered to be slain.</characteristic>
+        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After territories have been determined, but before any units have been set up, you may pick up to 2 points in your territory and up to 2 points anywhere on the battlefield to be gravesites. You may wish to place suitable markers on these points. Instead of setting up a SUMMONABLE unit on the battlefield, you can place it to one side and say that it is set up in the grave. You can do this with as many units as you wish.  At the end of your movement phase, for each 死亡 HERO within 9&quot; of a gravesite, you may pick a single unit in the grave and set it up wholly within 9&quot; of that gravesite and more than 9&quot; from any enemy models. Any model that is unable to be set up in this way is slain. If a unit is still in the grave at the end of the battle, it is considered to be slain.</characteristic>
       </characteristics>
     </profile>
     <profile id="3998-f3e4-90e7-348a" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
       <characteristics>
-        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATH unit within 6&quot; of your general or another friendly DEATH HERO. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 死亡 unit within 6&quot; of your general or another friendly 死亡 HERO. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

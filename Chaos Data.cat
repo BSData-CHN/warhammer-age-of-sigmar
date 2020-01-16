@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0339-0157-6910-d29c" name="Chaos Data" revision="17" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0339-0157-6910-d29c" name="混沌 Data" revision="17" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="c9b2-1fe6-pubN65537" name="Battletome: Beasts of Chaos"/>
+    <publication id="c9b2-1fe6-pubN65537" name="Battletome: Beasts of 混沌"/>
     <publication id="c9b2-1fe6-pubN83353" name="1"/>
-    <publication id="4be9-7bc9-ca17-b1b4" name="Chaos Battletome: Maggotkin of Nurgle"/>
+    <publication id="4be9-7bc9-ca17-b1b4" name="混沌 Battletome: Maggotkin of 纳垢"/>
   </publications>
   <profileTypes>
     <profileType id="7b16-1457-b3e4-b90c" name="Chimera Wounds">
@@ -35,7 +35,7 @@
         <characteristicType id="d5b0-7d16-f65b-4b39" name="Cost"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5e08-385d-d0b5-1a1e" name="Summon Daemons of Nurgle">
+    <profileType id="5e08-385d-d0b5-1a1e" name="Summon Daemons of 纳垢">
       <characteristicTypes>
         <characteristicType id="c472-5508-d8bb-1667" name="Cost"/>
       </characteristicTypes>
@@ -55,7 +55,7 @@
         <characteristicType id="70aa-1485-ad49-102d" name="Cost"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="56f6-e336-faed-bb00" name="Aura of Chaos Power">
+    <profileType id="56f6-e336-faed-bb00" name="Aura of 混沌 Power">
       <characteristicTypes>
         <characteristicType id="8e00-4c24-48e5-3381" name="Ability"/>
       </characteristicTypes>
@@ -86,14 +86,14 @@
     <categoryEntry id="d809-dc0b-17c2-c7ac" name="WARHERD" hidden="false"/>
     <categoryEntry id="0eff-3787-7ce8-f79b" name="CYGOR" hidden="false"/>
     <categoryEntry id="d58d-ffaa-6d24-1a5e" name="GHORGON" hidden="false"/>
-    <categoryEntry id="4d26-d95f-9bcd-aeff" name="MONSTERS OF CHAOS" hidden="false"/>
-    <categoryEntry id="120a-b4f8-cf68-0480" name="CHAOS WARHOUNDS" hidden="false"/>
+    <categoryEntry id="4d26-d95f-9bcd-aeff" name="MONSTERS OF 混沌" hidden="false"/>
+    <categoryEntry id="120a-b4f8-cf68-0480" name="混沌 WARHOUNDS" hidden="false"/>
     <categoryEntry id="675d-4c51-5823-2962" name="JABBERSLYTHE" hidden="false"/>
     <categoryEntry id="e2f4-9429-13a3-c681" name="COCKATRICE" hidden="false"/>
-    <categoryEntry id="bb97-9935-5ccd-67b7" name="CHAOS SPAWN" hidden="false"/>
+    <categoryEntry id="bb97-9935-5ccd-67b7" name="混沌 SPAWN" hidden="false"/>
     <categoryEntry id="248f-83c5-8cea-6ac2" name="CHIMERA" hidden="false"/>
     <categoryEntry id="c2ae-c785-1e40-0891" name="GARGANT" hidden="false"/>
-    <categoryEntry id="7fd3-01d8-3a52-8de5" name="CHAOS GARGANT" hidden="false"/>
+    <categoryEntry id="7fd3-01d8-3a52-8de5" name="混沌 GARGANT" hidden="false"/>
     <categoryEntry id="0a23-1dea-91f1-9ad3" name="DRAGON OGOR" hidden="false"/>
     <categoryEntry id="7020-fecd-a479-8a04" name="SHAGGOTH" hidden="false"/>
     <categoryEntry id="9a13-aa85-e9e2-9793" name="THUNDERSCORN" hidden="false"/>
@@ -109,9 +109,9 @@
   <sharedSelectionEntries>
     <selectionEntry id="1982-d915-63a1-b8fb" name="1. Arch-Slaughterer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7a84-0481-685b-039e" name="Arch-Slaughterer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="7a84-0481-685b-039e" name="Arch-Slaughterer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time an attack made by this general with a melee weapon slays an enemy HERO or MONSTER, you receive 2 Blood Tithe points instead of 1.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time an attack made by this general with a melee weapon slays an enemy HERO or MONSTER, you receive 2 Blood Tithe points instead of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -121,9 +121,9 @@
     </selectionEntry>
     <selectionEntry id="1fee-d7c7-7a12-758c" name="2. Unrivalled Battlelust" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4c6d-16fe-a262-4a51" name="Unrivalled Battlelust" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="4c6d-16fe-a262-4a51" name="Unrivalled Battlelust" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the end of your opponent&apos;s charge phase, if this general is within 12&quot; of any enemy units (but not within 3&quot; of any enemy units), you can attempt to make a charge move with this general.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the end of your opponent&apos;s charge phase, if this general is within 12&quot; of any enemy units (but not within 3&quot; of any enemy units), you can attempt to make a charge move with this general.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -133,9 +133,9 @@
     </selectionEntry>
     <selectionEntry id="40b7-86d2-2f0b-164b" name="3. Slaughterborn" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8210-18e0-4dbf-be3a" name="Slaughterborn" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="8210-18e0-4dbf-be3a" name="Slaughterborn" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with melee weapons by this general.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with melee weapons by this general.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -145,9 +145,9 @@
     </selectionEntry>
     <selectionEntry id="6e55-96a1-c28d-3347" name="1. Grandfather&apos;s Blessing" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7ed5-bd52-34ac-938c" name="Grandfather&apos;s Blessing" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="7ed5-bd52-34ac-938c" name="Grandfather&apos;s Blessing" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your hero phase, you can move the Cycle of Corruption one stage forward or backward if your general has not been slain.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your hero phase, you can move the Cycle of Corruption one stage forward or backward if your general has not been slain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -157,9 +157,9 @@
     </selectionEntry>
     <selectionEntry id="0ac8-3f27-65a4-8f35" name="2. Living Plague" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="133b-b6cf-ccae-5dfc" name="Living Plague" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="133b-b6cf-ccae-5dfc" name="Living Plague" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice for each enemy unit within 1&quot; of your general. On a 4+ the unit being rolled for suffers 1 mortal wound and you receive 1 contagion point.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice for each enemy unit within 1&quot; of your general. On a 4+ the unit being rolled for suffers 1 mortal wound and you receive 1 contagion point.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -169,9 +169,9 @@
     </selectionEntry>
     <selectionEntry id="6071-13c4-6f0e-7336" name="3. Hulking Physique" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ede9-2b7b-11fa-d7d1" name="Hulking Physique" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="ede9-2b7b-11fa-d7d1" name="Hulking Physique" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for your general in the combat phase.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for your general in the combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -181,9 +181,9 @@
     </selectionEntry>
     <selectionEntry id="5383-6978-9324-eb23" name="3. Magical Supremacy" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9c61-0f3b-bcd3-9e42" name="Magical Supremacy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="9c61-0f3b-bcd3-9e42" name="Magical Supremacy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 12&quot; to the range at which your general can attempt to unbind spells.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 12&quot; to the range at which your general can attempt to unbind spells.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -193,9 +193,9 @@
     </selectionEntry>
     <selectionEntry id="a68c-f836-7ae7-10e7" name="2. Nexus of Fate" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d740-8fb7-8ee0-d4b1" name="Nexus of Fate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+        <profile id="d740-8fb7-8ee0-d4b1" name="Nexus of Fate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If your general is on the battlefield at the start of your hero phase, roll a dice; on a 1 or 6, you can choose to replace one Destiny Dice from your pool with the number you rolled.</characteristic>
+            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If your general is on the battlefield at the start of your hero phase, roll a dice; on a 1 or 6, you can choose to replace one Destiny Dice from your pool with the number you rolled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -203,16 +203,16 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7d9-b723-6fdb-51cb" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7d9-b723-6fdb-51cb" name="色孽" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1fa-074b-aa3b-15e2" type="max"/>
       </constraints>
       <profiles>
         <profile id="c1c2-940b-4ea0-7222" name="Feast of Depravities" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of SLAANESH DAEMONS to the battlefield if you collect enough depravity points (DPs). Each time a wound or mortal wound is inflicted on an enemy model by an attack made by a friendly SLAANESH HERO or a spell cast by a friendly SLAANESH HERO, and that enemy model is not slain by that wound or mortal wound, you receive 1 depravity point. In addition, every time a wound or mortal wound is allocated to a friendly SLAANESH HERO and not negated, and that friendly model is not slain by that wound or mortal wound, you receive 1 depravity point.
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of 色孽 DAEMONS to the battlefield if you collect enough depravity points (DPs). Each time a wound or mortal wound is inflicted on an enemy model by an attack made by a friendly 色孽 HERO or a spell cast by a friendly 色孽 HERO, and that enemy model is not slain by that wound or mortal wound, you receive 1 depravity point. In addition, every time a wound or mortal wound is allocated to a friendly 色孽 HERO and not negated, and that friendly model is not slain by that wound or mortal wound, you receive 1 depravity point.
 
-If you have any depravity points at the end of your movement phase, you can summon one or more units from the list below to the battlefield, and add them to your army. Each unit you summon costs a number of depravity points, as shown on the list, and you can only summon a unit if you have enough depravity points to pay its cost. Summoned units must be set up wholly within 12&quot; of a friendly SLAANESH HERO and more than 9&quot; from any enemy units. Subtract the cost of the summoned unit from the number of depravity points you have immediately after it has been set up.</characteristic>
+If you have any depravity points at the end of your movement phase, you can summon one or more units from the list below to the battlefield, and add them to your army. Each unit you summon costs a number of depravity points, as shown on the list, and you can only summon a unit if you have enough depravity points to pay its cost. Summoned units must be set up wholly within 12&quot; of a friendly 色孽 HERO and more than 9&quot; from any enemy units. Subtract the cost of the summoned unit from the number of depravity points you have immediately after it has been set up.</characteristic>
           </characteristics>
         </profile>
         <profile id="446b-f154-4a48-4afe" name="Locus of Diversion" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -224,12 +224,12 @@ If a unit that is affected by this battle trait is also affected by any rules th
         </profile>
         <profile id="7228-10dd-3553-915e" name="Euphoric Killers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If the unmodified hit roll for an attack made with a melee weapon by a CHAOS SLAANESH model is 6, that attack inflicts 2 hits on the target instead of 1. Make a wound and save roll for each hit. If the attacking model’s unit has 20 or more models, its attacks inflict 3 hits on an unmodified hit roll of 6 instead.</characteristic>
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If the unmodified hit roll for an attack made with a melee weapon by a 混沌 色孽 model is 6, that attack inflicts 2 hits on the target instead of 1. Make a wound and save roll for each hit. If the attacking model’s unit has 20 or more models, its attacks inflict 3 hits on an unmodified hit roll of 6 instead.</characteristic>
           </characteristics>
         </profile>
-        <profile id="689a-8d6d-780d-2af4" name="Hosts of Slaanesh" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+        <profile id="689a-8d6d-780d-2af4" name="Hosts of 色孽" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Slaanesh allegiance for your army, you must also choose a Host of Slaanesh keyword for your army. You can choose for your army to be an INVADERS HOST, a PRETENDERS HOST, or a GODSEEKERS HOST. All units in your army gain the keyword of the host that you have chosen. All units with that keyword benefit from the host’s allegiance abilities, which are presented on the following pages, in addition to the allegiance abilities they have for being from a Slaanesh army.</characteristic>
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the 色孽 allegiance for your army, you must also choose a Host of 色孽 keyword for your army. You can choose for your army to be an INVADERS HOST, a PRETENDERS HOST, or a GODSEEKERS HOST. All units in your army gain the keyword of the host that you have chosen. All units with that keyword benefit from the host’s allegiance abilities, which are presented on the following pages, in addition to the allegiance abilities they have for being from a 色孽 army.</characteristic>
           </characteristics>
         </profile>
         <profile id="df66-f89d-bb9d-3623" name="(16) 10 Daemonettes" hidden="false" typeId="1fa2-590a-fcd4-f2a2" typeName="Depravity Point Table">
@@ -247,7 +247,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="b198-e549-0614-9c8a">45</characteristic>
           </characteristics>
         </profile>
-        <profile id="fafc-4539-fe0c-4eef" name="(13) 1 Viceleader, Herald of Slaanesh" hidden="false" typeId="1fa2-590a-fcd4-f2a2" typeName="Depravity Point Table">
+        <profile id="fafc-4539-fe0c-4eef" name="(13) 1 Viceleader, Herald of 色孽" hidden="false" typeId="1fa2-590a-fcd4-f2a2" typeName="Depravity Point Table">
           <characteristics>
             <characteristic name="Cost" typeId="b198-e549-0614-9c8a">15</characteristic>
           </characteristics>
@@ -262,7 +262,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="b198-e549-0614-9c8a">17</characteristic>
           </characteristics>
         </profile>
-        <profile id="9b34-9988-57db-3edd" name="(10) 1 Infernal Enrapturess, Herald of Slaanesh" hidden="false" typeId="1fa2-590a-fcd4-f2a2" typeName="Depravity Point Table">
+        <profile id="9b34-9988-57db-3edd" name="(10) 1 Infernal Enrapturess, Herald of 色孽" hidden="false" typeId="1fa2-590a-fcd4-f2a2" typeName="Depravity Point Table">
           <characteristics>
             <characteristic name="Cost" typeId="b198-e549-0614-9c8a">17</characteristic>
           </characteristics>
@@ -314,13 +314,13 @@ If a unit that is affected by this battle trait is also affected by any rules th
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="98ab-c93a-fe10-bc5f" name="Hosts of Slaanesh" hidden="false" collective="false" import="true" targetId="6ef7-1ab0-9923-7fee" type="selectionEntryGroup"/>
+        <entryLink id="98ab-c93a-fe10-bc5f" name="Hosts of 色孽" hidden="false" collective="false" import="true" targetId="6ef7-1ab0-9923-7fee" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b541-3b22-08bb-d772" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b541-3b22-08bb-d772" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cd58-f2c2-f861-e9a6" name="Blood for the Blood God!" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
@@ -339,12 +339,12 @@ If a unit that is affected by this battle trait is also affected by any rules th
         </profile>
         <profile id="c7a4-56b9-0b8b-989e" name="3" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Murderlust: Pick 1 friendly KHORNE unit; that unit can make a normal move. If it is within 12&quot; of an enemy model, it can either make a normal move or attempt to make a charge move. </characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Murderlust: Pick 1 friendly 恐虐 unit; that unit can make a normal move. If it is within 12&quot; of an enemy model, it can either make a normal move or attempt to make a charge move. </characteristic>
           </characteristics>
         </profile>
         <profile id="7c59-b7ea-fdd3-44ab" name="4" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Apoplectic Frenzy: Pick 1 friendly KHORNE unit within 3&quot; of an enemy unit. That KHORNE unit can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Apoplectic Frenzy: Pick 1 friendly 恐虐 unit within 3&quot; of an enemy unit. That 恐虐 unit can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="c9ef-8405-a7fe-2ce5" name="5" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
@@ -354,17 +354,17 @@ If a unit that is affected by this battle trait is also affected by any rules th
         </profile>
         <profile id="b513-b4b7-cf40-0ffc" name="6" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Relentless Fury: Until your next hero phase, each time a friendly KHORNE model is slain in the combat phase, before the model is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Relentless Fury: Until your next hero phase, each time a friendly 恐虐 model is slain in the combat phase, before the model is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="53be-1111-f402-7d1e" name="7" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Crimson Rain: You can choose this reward once per battle. Immediately after you do so, and at the start of each of your subsequent hero phases, you can heal up to D3 wounds allocated to each friendly KHORNE unit on the battlefield.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Crimson Rain: You can choose this reward once per battle. Immediately after you do so, and at the start of each of your subsequent hero phases, you can heal up to D3 wounds allocated to each friendly 恐虐 unit on the battlefield.</characteristic>
           </characteristics>
         </profile>
         <profile id="9cdd-abbf-87c3-932a" name="8" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Slaughter Triumphant: You can choose this reward once per battle. After you do so, if the unmodified hit roll for an attack made with a melee weapon by a friendly KHORNE unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound roll and save roll for each hit.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Slaughter Triumphant: You can choose this reward once per battle. After you do so, if the unmodified hit roll for an attack made with a melee weapon by a friendly 恐虐 unit is 6, that attack scores 2 hits on the target instead of 1. Make a wound roll and save roll for each hit.</characteristic>
           </characteristics>
         </profile>
         <profile id="18cd-9282-6d84-33e8" name="(03) 1 Bloodthirster of Insensate Rage" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
@@ -372,7 +372,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">8</characteristic>
           </characteristics>
         </profile>
-        <profile id="1cd6-32de-5d3a-4a84" name="(02) 1 Wrath of Khorne Bloodthirster" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
+        <profile id="1cd6-32de-5d3a-4a84" name="(02) 1 Wrath of 恐虐 Bloodthirster" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">8</characteristic>
           </characteristics>
@@ -382,9 +382,9 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="8695-0c77-7b9e-1678" name="Summon Daemons of Khorne" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+        <profile id="8695-0c77-7b9e-1678" name="Summon Daemons of 恐虐" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of KHORNE DAEMONS to the battlefield by expending Blood Tithe points. If you have 2 or more Blood Tithe points at the end of your movement phase, you can summon one unit from the list below onto the battlefield, and add it to your army. Each unit you summon costs a number of Blood Tithe points to pay its cost. If you summon a unit in this manner, your Blood Tithe points total is reset to zero immediately after the unit has been set up (you cannot save any Blood Tithe points you did not use). Units summoned in this way must be set up wholly within 12&quot; of a friendly KHORNE HERO or SKULL ALTAR and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of 恐虐 DAEMONS to the battlefield by expending Blood Tithe points. If you have 2 or more Blood Tithe points at the end of your movement phase, you can summon one unit from the list below onto the battlefield, and add it to your army. Each unit you summon costs a number of Blood Tithe points to pay its cost. If you summon a unit in this manner, your Blood Tithe points total is reset to zero immediately after the unit has been set up (you cannot save any Blood Tithe points you did not use). Units summoned in this way must be set up wholly within 12&quot; of a friendly 恐虐 HERO or SKULL ALTAR and more than 9&quot; from any enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile id="79e3-e822-e294-ae4a" name="(05) 20 Bloodletters" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
@@ -402,7 +402,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e1e-1b9c-172e-87ac" name="(15) 1 Bloodmaster, Herald of Khorne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
+        <profile id="4e1e-1b9c-172e-87ac" name="(15) 1 Bloodmaster, Herald of 恐虐" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">2</characteristic>
           </characteristics>
@@ -412,7 +412,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="198a-4ff6-0bcc-455d" name="(13) 1 Skullmaster, Herald of Khorne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
+        <profile id="198a-4ff6-0bcc-455d" name="(13) 1 Skullmaster, Herald of 恐虐" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">3</characteristic>
           </characteristics>
@@ -422,7 +422,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="a784-e9c1-d286-8614" name="(11) 1 Herald of Khorne on Blood Throne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
+        <profile id="a784-e9c1-d286-8614" name="(11) 1 Herald of 恐虐 on Blood Throne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">4</characteristic>
           </characteristics>
@@ -442,14 +442,14 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">2</characteristic>
           </characteristics>
         </profile>
-        <profile id="a7c2-aee2-e2a0-c37c" name="(01) 1 Exalted Greater Daemon of Khorne " hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
+        <profile id="a7c2-aee2-e2a0-c37c" name="(01) 1 Exalted Greater Daemon of 恐虐 " hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - Unit Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">16</characteristic>
           </characteristics>
         </profile>
         <profile id="3a10-c998-d24f-7111" name="Locus of Fury" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can re-roll hit rolls of 1 for attacks made by friendly KHORNE DAEMON units while they are wholly within 12&quot; of any friendly KHORNE DAEMON HEROES, or wholly within 16&quot; of any friendly KHORNE GREATER DAEMONS.</characteristic>
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can re-roll hit rolls of 1 for attacks made by friendly 恐虐 DAEMON units while they are wholly within 12&quot; of any friendly 恐虐 DAEMON HEROES, or wholly within 16&quot; of any friendly 恐虐 GREATER DAEMONS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -463,21 +463,21 @@ If a unit that is affected by this battle trait is also affected by any rules th
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff93-966b-c16d-8149" name="Nurgle" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ff93-966b-c16d-8149" name="纳垢" page="" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4d08-bb08-5b1e-d416" name="Cycle of Corruption" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice at the start of the first battle round of any battle that includes any NURGLE armies, before rolling to see who has the first turn. Refer to the table to see which stage of the Cycle of Corruption is currently taking place - this applies to all NURGLE armies. The Cycle of Corruption moves on one step at the start of each new battle round. For example, if the roll on the Cycle of Corruption table was a 5, then Nauseous Revulsion would apply in the first battle round, Rampant Disease in the second, Corrupted Regrowth in the third, and so on. The rule for the current stage applies for the duration of the battle round.</characteristic>
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice at the start of the first battle round of any battle that includes any 纳垢 armies, before rolling to see who has the first turn. Refer to the table to see which stage of the Cycle of Corruption is currently taking place - this applies to all 纳垢 armies. The Cycle of Corruption moves on one step at the start of each new battle round. For example, if the roll on the Cycle of Corruption table was a 5, then Nauseous Revulsion would apply in the first battle round, Rampant Disease in the second, Corrupted Regrowth in the third, and so on. The rule for the current stage applies for the duration of the battle round.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5d37-a3b4-7df8-c564" name="The Garden of Nurgle" page="60" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+        <profile id="5d37-a3b4-7df8-c564" name="The Garden of 纳垢" page="60" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
             <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After all other terrain features are set up, but before you choose a territory or set up your army, you can set up one Feculent Gnarlmaw (pg 103) anywhere on the battlefield that is more than 1&quot; from any other terrain feature. If both players can set up a Feculent Gnarlmaw, each player rolls a dice, rolling again in the case of a tie, and whoever rolls higher can choose the order in which the Feculent Gnarlmaws are set up.</characteristic>
           </characteristics>
         </profile>
-        <profile id="db57-be7a-63c2-1bcf" name="Summon Daemons of Nurgle" page="61" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+        <profile id="db57-be7a-63c2-1bcf" name="Summon Daemons of 纳垢" page="61" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of NURGLE DAEMONS to the battlefield if you collect enough contagion points. At the start of each of your hero phases, you receive 3 contagion points if there are any friendly NURGLE models in your own territory, and 3 additional contagion points if there are any friendly NURGLE models in your opponent’s territory. If there are no enemy models in the same territory as friendly NURGLE models, you receive 1 extra contagion point for that territory. In addition, you receive D3 contagion points for each Feculent Gnarlmaw that has no enemy models within 3&quot; of it.  If you have 7 or more contagion points at the end of your movement phase, you can summon one or more units from the following list to the battlefield, and add them to your army. Each unit you summon costs a number of contagion points, as shown on the list, and you can only summon a unit if you have enough contagion points remaining to pay its cost.  Summoned units must be set up wholly within 12&quot; of a Feculent Gnarlmaw or a friendly NURGLE HERO, and more than 9&quot; from any enemy models. If the summoned unit is a Feculent Gnarlmaw, it must also be set up more than 1&quot; from any terrain features. Subtract the cost of the summoned unit from the number of contagion points you have available immediately after it has been set up.</characteristic>
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of 纳垢 DAEMONS to the battlefield if you collect enough contagion points. At the start of each of your hero phases, you receive 3 contagion points if there are any friendly 纳垢 models in your own territory, and 3 additional contagion points if there are any friendly 纳垢 models in your opponent’s territory. If there are no enemy models in the same territory as friendly 纳垢 models, you receive 1 extra contagion point for that territory. In addition, you receive D3 contagion points for each Feculent Gnarlmaw that has no enemy models within 3&quot; of it.  If you have 7 or more contagion points at the end of your movement phase, you can summon one or more units from the following list to the battlefield, and add them to your army. Each unit you summon costs a number of contagion points, as shown on the list, and you can only summon a unit if you have enough contagion points remaining to pay its cost.  Summoned units must be set up wholly within 12&quot; of a Feculent Gnarlmaw or a friendly 纳垢 HERO, and more than 9&quot; from any enemy models. If the summoned unit is a Feculent Gnarlmaw, it must also be set up more than 1&quot; from any terrain features. Subtract the cost of the summoned unit from the number of contagion points you have available immediately after it has been set up.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -489,7 +489,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
           <profiles>
             <profile id="1e56-5d32-cabe-b5b7" name="Tamurkhan&apos;s Horde Army" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
               <characteristics>
-                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Maggotkin of Nurgle allegiance for your army, you can give it the TAMURKHAN&apos;S HORDE keyword. All MAGGOTKIN OF NURGLE units in your army gain that keyword (with the exception of named characters that do not already have the TAMURKHAN&apos;S HORDE keyword on their warscroll). All units with that keyword benefit from the Tamurkhan&apos;s Horde allegiance abilities, in addition to the allegiance abilities in Battletome: Maggotkin of Nurgle.</characteristic>
+                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Maggotkin of 纳垢 allegiance for your army, you can give it the TAMURKHAN&apos;S HORDE keyword. All MAGGOTKIN OF 纳垢 units in your army gain that keyword (with the exception of named characters that do not already have the TAMURKHAN&apos;S HORDE keyword on their warscroll). All units with that keyword benefit from the Tamurkhan&apos;s Horde allegiance abilities, in addition to the allegiance abilities in Battletome: Maggotkin of 纳垢.</characteristic>
               </characteristics>
             </profile>
             <profile id="39df-1b3c-d90d-f193" name="Winds of Corruption" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -518,37 +518,37 @@ If a unit that is affected by this battle trait is also affected by any rules th
               <profiles>
                 <profile id="59a6-af40-0501-27c6" name="1. Unnatural Vitality" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Add 2&quot; to the move characteristic of NURGLE units.</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Add 2&quot; to the move characteristic of 纳垢 units.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="f1e4-c0b2-cd55-27c6" name="2. Fecund Vigour" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Add 1 to the wound rolls of all attacks made by NURGLE units in the combat phase.</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Add 1 to the wound rolls of all attacks made by 纳垢 units in the combat phase.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="6db9-684e-7833-8f98" name="3. The Burgeoning" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Roll a dice for each unit within 1&quot; of a terrain feature at the start of your hero phase. On a roll of 5 or more the unit suffers 1 mortal wound. NURGLE units heal 1 wound instead.</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Roll a dice for each unit within 1&quot; of a terrain feature at the start of your hero phase. On a roll of 5 or more the unit suffers 1 mortal wound. 纳垢 units heal 1 wound instead.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8930-638c-11ab-aae3" name="4. Plague of Misery" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Re-roll battleshock test rolls of 1 for enemy units (excluding NURGLE units).</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Re-roll battleshock test rolls of 1 for enemy units (excluding 纳垢 units).</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="34c8-de0f-910a-fc63" name="5. Nauseous Revulsion" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Re-roll wound rolls of 6 or more for attacks made by enemy units (excluding NURGLE units) in the combat phase.</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">Re-roll wound rolls of 6 or more for attacks made by enemy units (excluding 纳垢 units) in the combat phase.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="2cc7-0aa4-6cf3-f75c" name="6. Rampant Disease" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">At the start of your hero phase, pick D3 different enemy units (excluding NURGLE units) within 12&quot; of each other. Each unit suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">At the start of your hero phase, pick D3 different enemy units (excluding 纳垢 units) within 12&quot; of each other. Each unit suffers D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="0e0f-a821-31da-1161" name="Corrupted Regrowth" publicationId="4be9-7bc9-ca17-b1b4" page="59" hidden="false" typeId="42a2-33a9-9123-aca4" typeName="Cycle of Corruption">
                   <characteristics>
-                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">NURGLE units heal D3 wounds at the start of their hero phase.</characteristic>
+                    <characteristic name="Effect" typeId="fb21-7a55-687d-0cf0">纳垢 units heal D3 wounds at the start of their hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -556,87 +556,87 @@ If a unit that is affected by this battle trait is also affected by any rules th
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9163-c0e0-7459-fe71" name="Summon Daemons of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9163-c0e0-7459-fe71" name="Summon Daemons of 纳垢" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9259-ae11-9b42-068c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9b7b-f46a-2189-8c0d" name="(01) 1 Great Unclean One" publicationId="4be9-7bc9-ca17-b1b4" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="9b7b-f46a-2189-8c0d" name="(01) 1 Great Unclean One" publicationId="4be9-7bc9-ca17-b1b4" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">28</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d9a0-d501-0c28-663d" name="(02) 1 Horticulous Slimux" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="d9a0-d501-0c28-663d" name="(02) 1 Horticulous Slimux" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">21</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="159b-8668-7e26-510e" name="(03) 3 Plague Drones" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="159b-8668-7e26-510e" name="(03) 3 Plague Drones" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">21</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="e936-8716-13b3-a2f4" name="(04) 20 Plaguebearers" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="e936-8716-13b3-a2f4" name="(04) 20 Plaguebearers" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">21</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="1b42-9dc8-1e3d-d1cd" name="(05) 1 Poxbringer, Herald of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="1b42-9dc8-1e3d-d1cd" name="(05) 1 Poxbringer, Herald of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="729c-1de7-05b7-38b1" name="(06) 1 Sloppity Bilepiper, Herald of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="729c-1de7-05b7-38b1" name="(06) 1 Sloppity Bilepiper, Herald of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="71b4-50e4-2047-87d1" name="(07) 1 Spoilpox Scrivener, Herald of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="71b4-50e4-2047-87d1" name="(07) 1 Spoilpox Scrivener, Herald of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="1f81-5888-d068-5e7b" name="(08) 10 Plaguebearers" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="1f81-5888-d068-5e7b" name="(08) 10 Plaguebearers" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="2033-0d3b-dba1-aafa" name="(09) 1 Beast of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="2033-0d3b-dba1-aafa" name="(09) 1 Beast of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="039c-ccf1-c83e-85e7" name="(10) 3 Nurgling bases" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="039c-ccf1-c83e-85e7" name="(10) 3 Nurgling bases" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="7990-9fad-e09a-a38c" name="(11) 5 Plaguebearers" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="7990-9fad-e09a-a38c" name="(11) 5 Plaguebearers" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">7</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="714b-b3d0-dd68-07ba" name="(12) 1 Nurgling base" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="714b-b3d0-dd68-07ba" name="(12) 1 Nurgling base" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">7</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="710c-e2d3-6f81-1be3" name="(13) 1 Feculent Gnarlmaw" publicationId="4be9-7bc9-ca17-b1b4" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="710c-e2d3-6f81-1be3" name="(13) 1 Feculent Gnarlmaw" publicationId="4be9-7bc9-ca17-b1b4" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">7</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="5a31-8509-1437-6607" name="(00) 3 Daemon Plague Toads of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="5a31-8509-1437-6607" name="(00) 3 Daemon Plague Toads of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">14</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="84ef-6470-1644-05be" name="(00) 3 Daemon Pox Riders of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="84ef-6470-1644-05be" name="(00) 3 Daemon Pox Riders of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">21</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="9944-9a79-0856-7d5e" name="(00) 1 Exalted Greater Daemon of Nurgle" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of Nurgle">
+                <profile id="9944-9a79-0856-7d5e" name="(00) 1 Exalted Greater Daemon of 纳垢" hidden="false" typeId="5e08-385d-d0b5-1a1e" typeName="Summon Daemons of 纳垢">
                   <characteristics>
                     <characteristic name="Cost" typeId="c472-5508-d8bb-1667">35</characteristic>
                   </characteristics>
@@ -733,7 +733,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4bd5-9ba3-7bfb-49ef" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4bd5-9ba3-7bfb-49ef" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="b484-708c-6839-3e17" name="Unbridled Malice" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
       </infoLinks>
@@ -765,9 +765,9 @@ If a unit that is affected by this battle trait is also affected by any rules th
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="32de-5ab3-e368-f002" name="Gaunt Summoner &amp; Chaos Familiars" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="32de-5ab3-e368-f002" name="Gaunt Summoner &amp; 混沌 Familiars" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3aec-6817-f280-2656" name="Gaunt Summoner &amp; Chaos Familiars" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="3aec-6817-f280-2656" name="Gaunt Summoner &amp; 混沌 Familiars" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">5</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -775,7 +775,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="cfbb-970d-44a5-6ac0" name="Gaunt Summoner &amp; Chaos Familiars" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+        <profile id="cfbb-970d-44a5-6ac0" name="Gaunt Summoner &amp; 混沌 Familiars" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">2/2</characteristic>
             <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield and Infernal Flames</characteristic>
@@ -803,33 +803,33 @@ If a unit that is affected by this battle trait is also affected by any rules th
         <categoryLink id="aea3-eb82-1f3e-9721" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="389d-01df-8071-b1a3" name="Chaos Familiars" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="389d-01df-8071-b1a3" name="混沌 Familiars" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f11b-3de5-ef99-01ef" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf31-db53-8060-e53a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2edd-cc6c-4a61-af41" name="Chaos Familiars" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="2edd-cc6c-4a61-af41" name="混沌 Familiars" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The Gaunt Summoner is accompanied by four Chaos Familiars: Tweak, Slop, Blot and Pug. Whenever the Gaunt Summoner is setup or finished a move, place each surviving Familiar within 1&quot; of him. The range to or from the Gaunt Summoner can be measured to his own model or to any of his Chaos Familiars. When a wound is inflicted upon the Gaunt Summoner, the attacker can choose for the wound to either affect the Gaunt Summoner normally, or for it to remove one of the Chaos Familiars instead. All remaining Chaos Familiars are removed if the Gaunt Summoner is slain.  The Chaos Familiars have the following effects as long as they are alive (they cannot do anything else).</characteristic>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The Gaunt Summoner is accompanied by four 混沌 Familiars: Tweak, Slop, Blot and Pug. Whenever the Gaunt Summoner is setup or finished a move, place each surviving Familiar within 1&quot; of him. The range to or from the Gaunt Summoner can be measured to his own model or to any of his 混沌 Familiars. When a wound is inflicted upon the Gaunt Summoner, the attacker can choose for the wound to either affect the Gaunt Summoner normally, or for it to remove one of the 混沌 Familiars instead. All remaining 混沌 Familiars are removed if the Gaunt Summoner is slain.  The 混沌 Familiars have the following effects as long as they are alive (they cannot do anything else).</characteristic>
               </characteristics>
             </profile>
-            <profile id="0a39-78f5-a0e8-0a11" name="Chaos Familiars - Tweak (bird)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="0a39-78f5-a0e8-0a11" name="混沌 Familiars - Tweak (bird)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
                 <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the hit rolls for the Gaunt Summoner&apos;s Warptongue Blade, as long as he is accompanied by Tweak.</characteristic>
               </characteristics>
             </profile>
-            <profile id="4827-a97c-5ade-45c5" name="Chaos Familiars - Slop (fish)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="4827-a97c-5ade-45c5" name="混沌 Familiars - Slop (fish)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
                 <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Your opponent must subtract 1 from the save rolls of enemy models that are within 3&quot; of the Gaunt Summoner, as long as he is accompanied by Slop.</characteristic>
               </characteristics>
             </profile>
-            <profile id="e279-c18b-577c-5e62" name="Chaos Familiars - Blot (book)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="e279-c18b-577c-5e62" name="混沌 Familiars - Blot (book)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
                 <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the casting rolls for the Gaunt Summoner, as long as he is accompanied by Blot.</characteristic>
               </characteristics>
             </profile>
-            <profile id="9848-37ed-5965-743a" name="Chaos Familiars - Pug (moon faced imp)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="9848-37ed-5965-743a" name="混沌 Familiars - Pug (moon faced imp)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
                 <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Your opponent must subtract 1 from any hit rolls that target the Gaunt Summoner in the combat phase, as long as he is accompanied by Pug.</characteristic>
               </characteristics>
@@ -898,7 +898,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
           <entryLinks>
             <entryLink id="1869-b807-f9bf-62fc" name="Traits: Tzeentch Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
             <entryLink id="d190-c915-9ba4-95a8" name="Traits: Tzeentch Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
-            <entryLink id="e504-1942-f91c-f10b" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
+            <entryLink id="e504-1942-f91c-f10b" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
             <entryLink id="5fef-136f-7c1e-cda8" name="Traits: Tzeentch Daemon" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -925,7 +925,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
           </constraints>
           <entryLinks>
             <entryLink id="5b8e-ebb3-a81f-4de8" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
-            <entryLink id="b5f0-9f27-3345-13af" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
+            <entryLink id="b5f0-9f27-3345-13af" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
             <entryLink id="d92e-d1b6-9020-2756" name="Artefacts: Fated Artefacts" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
             <entryLink id="504c-2db2-6d85-dd72" name="Artefacts: Fated Artefacts" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
           </entryLinks>
@@ -1035,7 +1035,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
           </constraints>
           <entryLinks>
             <entryLink id="fdce-04e7-9042-8b26" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
-            <entryLink id="edf4-cd15-6758-d328" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
+            <entryLink id="edf4-cd15-6758-d328" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
             <entryLink id="2a42-aa3f-53bb-27e3" name="Artefacts: Fated Artefacts" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
             <entryLink id="abdd-8073-e754-5d20" name="Artefacts: Fated Artefacts" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
           </entryLinks>
@@ -1048,7 +1048,7 @@ If a unit that is affected by this battle trait is also affected by any rules th
           <entryLinks>
             <entryLink id="b1cc-e0ef-55f8-5f51" name="Traits: Tzeentch Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
             <entryLink id="bdb6-c474-64a8-0c3c" name="Traits: Tzeentch Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
-            <entryLink id="06f4-0572-056c-56c0" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
+            <entryLink id="06f4-0572-056c-56c0" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
             <entryLink id="e4b4-722c-39f9-9b98" name="Traits: Tzeentch Daemon" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1240,50 +1240,50 @@ Choose 1 unit from the following list:
         <cost name="pts" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="812a-a8b3-7158-4adb" name="Slaves to Darkness" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="812a-a8b3-7158-4adb" name="黑暗仆从" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5c24-c1c6-edc4-f483" name="Aura of Khorne" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of Chaos Power">
+        <profile id="5c24-c1c6-edc4-f483" name="Aura of 恐虐" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">You can re-roll hit rolls of 1 for attacks made with melee weapons by friendly SLAVES TO DARKNESS KHORNE units wholly within 12&quot; of this model. In addition, if this model is a general, add 1 to wound rolls for attacks made with melee weapons by friendly SLAVES TO DARKNESS KHORNE units wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">You can re-roll hit rolls of 1 for attacks made with melee weapons by friendly 黑暗仆从 恐虐 units wholly within 12&quot; of this model. In addition, if this model is a general, add 1 to wound rolls for attacks made with melee weapons by friendly 黑暗仆从 恐虐 units wholly within 12&quot; of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2b3f-2505-0247-8b50" name="Aura of Chaos Undivided" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of Chaos Power">
+        <profile id="2b3f-2505-0247-8b50" name="Aura of 混沌 Undivided" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">Do not take battleshock tests for friendly SLAVES TO DARKNESS UNDIVIDED units wholly within 12&quot; of this model. In addition, if this model is a general, roll a dice each time you allocate a wound or mortal wound to a friendly SLAVES TO DARKNESS UNDIVIDED unit wholly within 12&quot; of this model. On a 6, that wound or mortal wound is negated.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">Do not take battleshock tests for friendly 黑暗仆从 UNDIVIDED units wholly within 12&quot; of this model. In addition, if this model is a general, roll a dice each time you allocate a wound or mortal wound to a friendly 黑暗仆从 UNDIVIDED unit wholly within 12&quot; of this model. On a 6, that wound or mortal wound is negated.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1eb7-1dd8-5a27-2dd9" name="Aura of Nurgle" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of Chaos Power">
+        <profile id="1eb7-1dd8-5a27-2dd9" name="Aura of 纳垢" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">If the unmodified wound roll for an attack made with a melee weapon by a friendly SLAVES TO DARKNESS NURGLE unit wholly within 12&quot; of any friendly models with this ability is 6, add 1 to the damage inflicted by that attack. In addition, if this model is a general, subtract 1 from hit rolls for attacks made with missile weapons that target friendly SLAVES TO DARKNESS NURGLE units wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">If the unmodified wound roll for an attack made with a melee weapon by a friendly 黑暗仆从 纳垢 unit wholly within 12&quot; of any friendly models with this ability is 6, add 1 to the damage inflicted by that attack. In addition, if this model is a general, subtract 1 from hit rolls for attacks made with missile weapons that target friendly 黑暗仆从 纳垢 units wholly within 12&quot; of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1989-ca8b-f1c4-ba95" name="Aura of Slaanesh" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of Chaos Power">
+        <profile id="1989-ca8b-f1c4-ba95" name="Aura of 色孽" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">If the unmodified hit roll for an attack made with a melee weapon by a friendly SLAVES TO DARKNESS SLAANESH unit wholly within 12&quot; of this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit. In addition, if this model is a general, you can re-roll run and charge rolls for friendly SLAVES TO DARKNESS SLAANESH units wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">If the unmodified hit roll for an attack made with a melee weapon by a friendly 黑暗仆从 色孽 unit wholly within 12&quot; of this model is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit. In addition, if this model is a general, you can re-roll run and charge rolls for friendly 黑暗仆从 色孽 units wholly within 12&quot; of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="02ef-025d-550e-a551" name="Aura of Tzeentch" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of Chaos Power">
+        <profile id="02ef-025d-550e-a551" name="Aura of Tzeentch" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">You can re-roll save rolls of 1 for attacks that target friendly SLAVES TO DARKNESS TZEENTCH units wholly within 12&quot; of this model. In addition, if this model is a general, each time a friendly SLAVES TO DARKNESS TZEENTCH unit wholly within 12&quot; of this model is affected by a spell or endless spell, you can roll a dice. If you do so, on a 5+, ignore the effects of that spell or endless spell on that unit.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">You can re-roll save rolls of 1 for attacks that target friendly 黑暗仆从 TZEENTCH units wholly within 12&quot; of this model. In addition, if this model is a general, each time a friendly 黑暗仆从 TZEENTCH unit wholly within 12&quot; of this model is affected by a spell or 无尽法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that spell or 无尽法术 on that unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6eb2-b0ed-cfc0-c77e" name="Aura of Chaos Power" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="6eb2-b0ed-cfc0-c77e" name="Aura of 混沌 Power" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Each SLAVES TO DARKNESS HERO in a Slaves to Darkness army has one of the following Aura of Chaos abilities. The Aura of Chaos a HERO has is determined by its Mark of Chaos keyword: KHORNE HEROES have the Aura of Khorne, TZEENTCH HEROES have the Aura of Tzeentch, NURGLE HEROES have the Aura of Nurgle, SLAANESH HEROES have the Aura of Slaanesh, and UNDIVIDED HEROES have the Aura of Chaos Undivided.
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Each 黑暗仆从 HERO in a 黑暗仆从 army has one of the following Aura of 混沌 abilities. The Aura of 混沌 a HERO has is determined by its Mark of 混沌 keyword: 恐虐 HEROES have the Aura of 恐虐, TZEENTCH HEROES have the Aura of Tzeentch, 纳垢 HEROES have the Aura of 纳垢, 色孽 HEROES have the Aura of 色孽, and UNDIVIDED HEROES have the Aura of 混沌 Undivided.
 
-If you select a unit with more than one Mark of Chaos keyword to be part of your army, you must pick which one will apply to that unit for the duration of the battle.</characteristic>
+If you select a unit with more than one Mark of 混沌 keyword to be part of your army, you must pick which one will apply to that unit for the duration of the battle.</characteristic>
           </characteristics>
         </profile>
         <profile id="1bb9-9933-636f-9031" name="Eye of the Gods" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
           <characteristics>
-            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">At the end of the combat phase, if any attacks made by a friendly SLAVES TO DARKNESS HERO that has the EYE OF THE GODS keyword destroyed any enemy HEROES or MONSTERS in that phase, you can make 1 roll on the Eye of the Gods table below for that friendly HERO.
+            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">At the end of the combat phase, if any attacks made by a friendly 黑暗仆从 HERO that has the EYE OF THE GODS keyword destroyed any enemy HEROES or MONSTERS in that phase, you can make 1 roll on the Eye of the Gods table below for that friendly HERO.
 
 Rewards gained by rolling on this table apply for the rest of the battle. Duplicate rewards are treated as ‘Snubbed by the Gods’ instead</characteristic>
           </characteristics>
         </profile>
         <profile id="7af2-1514-0fe0-f332" name="02 - Spawndom" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
           <characteristics>
-            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add 1 SLAVES TO DARKNESS CHAOS SPAWN to your army. If you do so, set up 1 SLAVES TO DARKNESS CHAOS SPAWN model within 1&quot; of this HERO, then this HERO is slain. If you do not add a SLAVES TO DARKNESS CHAOS SPAWN to your army, this HERO suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add 1 黑暗仆从 混沌 SPAWN to your army. If you do so, set up 1 黑暗仆从 混沌 SPAWN model within 1&quot; of this HERO, then this HERO is slain. If you do not add a 黑暗仆从 混沌 SPAWN to your army, this HERO suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="d2b3-f38d-f038-d55d" name="03 - Slaughterer&apos;s Strength" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
@@ -1303,23 +1303,23 @@ Rewards gained by rolling on this table apply for the rest of the battle. Duplic
         </profile>
         <profile id="bce6-719d-b78f-4f9c" name="09-10 - Daemonic Legions" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
           <characteristics>
-            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add 1 of the following units to your army. The unit you add is determined by this HERO’s Mark of Chaos. Set up the unit wholly within 12&quot; of this HERO and more than 9&quot; from any enemy units.
-• Khorne: 10 Bloodletters
-• Nurgle: 10 Plaguebearers
-• Slaanesh: 10 Daemonettes
+            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add 1 of the following units to your army. The unit you add is determined by this HERO’s Mark of 混沌. Set up the unit wholly within 12&quot; of this HERO and more than 9&quot; from any enemy units.
+• 恐虐: 10 Bloodletters
+• 纳垢: 10 Plaguebearers
+• 色孽: 10 Daemonettes
 • Tzeentch: 10 Pink Horrors
 • Undivided: 6 Furies</characteristic>
           </characteristics>
         </profile>
         <profile id="64c0-f2cf-91fc-53f2" name="11-12 - Dark Apotheosis" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
           <characteristics>
-            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add a SLAVES TO DARKNESS DAEMON PRINCE to your army. If you do so, set it up within 1&quot; of this HERO then remove this HERO from play (they do not count as slain).
+            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add a 黑暗仆从 DAEMON PRINCE to your army. If you do so, set it up within 1&quot; of this HERO then remove this HERO from play (they do not count as slain).
 
-If the HERO had the UNDIVIDED keyword, the DAEMON PRINCE must instead have one of the following Mark of Chaos keywords: KHORNE, NURGLE, SLAANESH or TZEENTCH. Otherwise, the DAEMON PRINCE must have the same Mark of Chaos keyword that the HERO had.
+If the HERO had the UNDIVIDED keyword, the DAEMON PRINCE must instead have one of the following Mark of 混沌 keywords: 恐虐, 纳垢, 色孽 or TZEENTCH. Otherwise, the DAEMON PRINCE must have the same Mark of 混沌 keyword that the HERO had.
 
 The DAEMON PRINCE keeps any command traits and artefacts of power that the HERO had. If the HERO was a WIZARD, the DAEMON PRINCE is a WIZARD, can make the same number of casting, dispelling and unbinding attempts, and knows the same spells. If the HERO was your general, the DAEMON PRINCE is now your general.
 
-If you do not set up a SLAVES TO DARKNESS DAEMON PRINCE, you can heal up to D3 wounds allocated to this HERO.</characteristic>
+If you do not set up a 黑暗仆从 DAEMON PRINCE, you can heal up to D3 wounds allocated to this HERO.</characteristic>
           </characteristics>
         </profile>
         <profile id="4f56-4abd-17c9-b695" name="04 - Murderous Mutation" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
@@ -1327,9 +1327,9 @@ If you do not set up a SLAVES TO DARKNESS DAEMON PRINCE, you can heal up to D3 w
             <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">Pick 1 of this HERO’s melee weapons. Add 1 to the Attacks characteristic of that weapon.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8496-b7f9-89ba-115d" name="06 - Flames of Chaos" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
+        <profile id="8496-b7f9-89ba-115d" name="06 - Flames of 混沌" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
           <characteristics>
-            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">Each time this HERO is affected by a spell or endless spell you can roll a dice. If you do so, on a 4+, ignore the effects of that spell or endless spell on this HERO.</characteristic>
+            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">Each time this HERO is affected by a spell or 无尽法术 you can roll a dice. If you do so, on a 4+, ignore the effects of that spell or 无尽法术 on this HERO.</characteristic>
           </characteristics>
         </profile>
         <profile id="92cd-ffe2-3a84-503b" name="08 - Unholy Resilience" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
@@ -1349,14 +1349,14 @@ If you do not set up a SLAVES TO DARKNESS DAEMON PRINCE, you can heal up to D3 w
               <profiles>
                 <profile id="9f30-195a-5fc6-ff46" name="Glory for the Taking" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If your general is not a DAEMON PRINCE, you can pick 1 command trait for up to 5 different friendly RAVAGERS HEROES (excluding DAEMON PRINCES) in addition to the command trait your general can have. You must pick a different command trait for each of these HEROES, and none of them can have more than 1 command trait. You can use these command traits for these HEROES even though they are not your general.
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If your general is not a DAEMON PRINCE, you can pick 1 指挥特性 for up to 5 different friendly RAVAGERS HEROES (excluding DAEMON PRINCES) in addition to the 指挥特性 your general can have. You must pick a different 指挥特性 for each of these HEROES, and none of them can have more than 1 指挥特性. You can use these command traits for these HEROES even though they are not your general.
 
-At the start of your hero phase, you can pick 1 friendly RAVAGERS HERO (excluding DAEMON PRINCES) that is on the battlefield and has a command trait to stake their claim as warlord. If you do so, that HERO becomes the army general until your next hero phase.</characteristic>
+At the start of your hero phase, you can pick 1 friendly RAVAGERS HERO (excluding DAEMON PRINCES) that is on the battlefield and has a 指挥特性 to stake their claim as warlord. If you do so, that HERO becomes the army general until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="1185-6979-b243-36c8" name="Rally the Tribes" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
                   <characteristics>
-                    <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick the model that is currently your general. The same model cannot be picked more than once per battle. That model rallies 1 unit of 10 CHAOS MARAUDERS, 1 unit of 5 CHAOS MARAUDER HORSEMEN or 1 CULTISTS unit of up to 10 models to the battlefield. The unit is added to your army, and must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
+                    <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick the model that is currently your general. The same model cannot be picked more than once per battle. That model rallies 1 unit of 10 混沌 MARAUDERS, 1 unit of 5 混沌 MARAUDER HORSEMEN or 1 CULTISTS unit of up to 10 models to the battlefield. The unit is added to your army, and must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1378,7 +1378,7 @@ At the start of your hero phase, you can pick 1 friendly RAVAGERS HERO (excludin
                 </profile>
                 <profile id="fe38-396d-3ecc-7023" name="Cabalists" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Pick 1 friendly CABALISTS unit within 3&quot; of the WIZARD performing this binding ritual and roll a dice. On a 3+, the ritual is successful and D3 models from that unit are slain. Then, pick 1 predatory endless spell within 12&quot; of that WIZARD. If 1 model was slain by this ritual, you can move that endless spell up to 3&quot;. If 2 models were slain by this ritual, you can move that endless spell up to 6&quot;. If 3 models were slain by this ritual, you can move that endless spell up to 9&quot;.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Pick 1 friendly CABALISTS unit within 3&quot; of the WIZARD performing this binding ritual and roll a dice. On a 3+, the ritual is successful and D3 models from that unit are slain. Then, pick 1 predatory 无尽法术 within 12&quot; of that WIZARD. If 1 model was slain by this ritual, you can move that 无尽法术 up to 3&quot;. If 2 models were slain by this ritual, you can move that 无尽法术 up to 6&quot;. If 3 models were slain by this ritual, you can move that 无尽法术 up to 9&quot;.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="1ce1-5a03-cc3b-c9d2" name="Crippling Rain" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
@@ -1396,7 +1396,7 @@ At the start of your hero phase, you can pick 1 friendly RAVAGERS HERO (excludin
               <profiles>
                 <profile id="ee53-c401-a9ef-85da" name="Sacrilegious Might" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Friendly units with the same Mark of Chaos keyword as your general are affected by your general’s Aura of Chaos ability while they are wholly within 18&quot; of your general.
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Friendly units with the same Mark of 混沌 keyword as your general are affected by your general’s Aura of 混沌 ability while they are wholly within 18&quot; of your general.
 In addition, roll a dice each time you allocate a wound or mortal wound to a DESPOILERS DAEMON PRINCE that is a general. On a 5+, that wound or mortal wound is negated.</characteristic>
                   </characteristics>
                 </profile>
@@ -1428,7 +1428,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
               <profiles>
                 <profile id="96bd-bb3e-43ec-3021" name="Exalted Grand Marshal of the Apocalypse" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If ARCHAON is your general and on the battlefield, friendly HOST OF THE EVERCHOSEN units are affected by his Aura of Chaos ability if they are wholly within 18&quot; of him.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If ARCHAON is your general and on the battlefield, friendly HOST OF THE EVERCHOSEN units are affected by his Aura of 混沌 ability if they are wholly within 18&quot; of him.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7225-6e2e-9fd1-c7ed" name="Fearless in His Presence" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -1461,7 +1461,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
                   <selectionEntries>
                     <selectionEntry id="1ef6-4015-198d-de18" name="1. The First Circle" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
-                        <profile id="859b-ec0b-12c1-c9f3" name="The Swords of Chaos" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+                        <profile id="859b-ec0b-12c1-c9f3" name="The Swords of 混沌" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                           <characteristics>
                             <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">At the start of the first battle round, after determining who has the first turn, you can remove any friendly FIRST CIRCLE units from the battlefield and set them up again (any restrictions in the set-up instructions for the battleplan being used still apply).</characteristic>
                           </characteristics>
@@ -1497,7 +1497,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
                     </selectionEntry>
                     <selectionEntry id="aa2f-1aff-e5d6-2ce2" name="4. The Fourth Circle" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
-                        <profile id="19f9-497f-dc1d-3fb2" name="The Reavers of Chaos" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+                        <profile id="19f9-497f-dc1d-3fb2" name="The Reavers of 混沌" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                           <characteristics>
                             <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">In your hero phase, you can pick 1 terrain feature within 3&quot; of any friendly FOURTH CIRCLE units. Each enemy unit within 3&quot; of that terrain features suffers D3 mortal wounds (roll separately for each unit).</characteristic>
                           </characteristics>
@@ -1603,11 +1603,11 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9680-f449-8188-3797" name="2. Collar of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9680-f449-8188-3797" name="2. Collar of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cd91-5ab5-eca6-0c25" name="Collar of Khorne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cd91-5ab5-eca6-0c25" name="Collar of 恐虐" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">This unit can attempt to unbind one spell in each enemy hero phase in the same manner as a WIZARD. In addition, this unit can attempt to dispel one endless spell at the start of your hero phase in the same manner as a WIZARD. </characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">This unit can attempt to unbind one spell in each enemy hero phase in the same manner as a WIZARD. In addition, this unit can attempt to dispel one 无尽法术 at the start of your hero phase in the same manner as a WIZARD. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1680,7 +1680,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2db0-3894-8f6a-94b5" name="Traits: Khorne Mortal" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="2db0-3894-8f6a-94b5" name="Traits: 恐虐 Mortal" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -1699,9 +1699,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       <selectionEntries>
         <selectionEntry id="7892-d868-2c72-2581" name="4. Hungry for Glory" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="366f-8025-0f7d-9200" name="Hungry for Glory" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="366f-8025-0f7d-9200" name="Hungry for Glory" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll all hit and wound rolls of 1 made by this general that target an enemy HERO or MONSTER.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll all hit and wound rolls of 1 made by this general that target an enemy HERO or MONSTER.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1711,9 +1711,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="f530-1c97-9e74-2367" name="5. Berzerker Lord" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="6a9d-10e2-b2e0-77dc" name="Berzerker Lord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="6a9d-10e2-b2e0-77dc" name="Berzerker Lord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time you allocate a wound or mortal wound to this general. On a 5+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time you allocate a wound or mortal wound to this general. On a 5+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1723,9 +1723,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="7c03-305e-82ff-e109" name="6. Violent Urgency" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="9478-b0dd-9b2b-10ad" name="Violent Urgency" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="9478-b0dd-9b2b-10ad" name="Violent Urgency" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for friendly KHORNE units that are wholly within 12&quot; of this general when the charge roll is made.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for friendly 恐虐 units that are wholly within 12&quot; of this general when the charge roll is made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1740,7 +1740,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         <entryLink id="bb40-7953-f35f-81a1" name="3. Slaughterborn" hidden="false" collective="false" import="true" targetId="40b7-86d2-2f0b-164b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e7ff-4d02-bb3b-4151" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e7ff-4d02-bb3b-4151" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ee-eaf3-774d-bdd9" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db3-4531-1c97-fc26" type="max"/>
@@ -1750,7 +1750,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="8e9f-24a1-2013-0ee8" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can  chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick 1 friendly KHORNE unit wholly within 16&quot; of the model chanting this prayer and visible to them. Add 1 to save rolls for that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can  chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick 1 friendly 恐虐 unit wholly within 16&quot; of the model chanting this prayer and visible to them. Add 1 to save rolls for that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1762,7 +1762,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="cc70-c724-39b1-6dc5" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a KHORNE unit wholly within 8&quot; of the model chanting this prayer. That unit suffers D3 mortal wounds and you receive 1 Blood Tithe point.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a 恐虐 unit wholly within 8&quot; of the model chanting this prayer. That unit suffers D3 mortal wounds and you receive 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1774,7 +1774,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="3c29-2f68-e31e-cfb5" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a friendly KHORNE HERO wholly within 16&quot; of the model chanting this prayer and visible to them. You can heal up to D3 wounds allocated to that unit.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a friendly 恐虐 HERO wholly within 16&quot; of the model chanting this prayer and visible to them. You can heal up to D3 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1786,7 +1786,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="18d5-7b07-318f-cc9c" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick a KHORNE unit from your army that is within 16&quot; of the PRIEST and which is visible to them. The unit that you picked does not have to take battleshock tests until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick a 恐虐 unit from your army that is within 16&quot; of the PRIEST and which is visible to them. The unit that you picked does not have to take battleshock tests until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1798,7 +1798,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="265e-e32e-1394-3845" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 16&quot; of the PRIEST and which is visible to them. Add 1 to the hit rolls of the unit you picked until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">At the start of your hero phase, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 16&quot; of the PRIEST and which is visible to them. Add 1 to the hit rolls of the unit you picked until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1934,9 +1934,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a80-9d74-6d63-6d4d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="fa6c-baba-4b8d-b599" name="Hew the Foe" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="fa6c-baba-4b8d-b599" name="Hew the Foe" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of the general&apos;s melee weapons.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of the general&apos;s melee weapons.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1967,9 +1967,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="92e0-2a8c-6206-93f2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5e71-7b8b-494f-d894" name="Slaughterer&apos;s Thirst" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="5e71-7b8b-494f-d894" name="Slaughterer&apos;s Thirst" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 4&quot; to the Move characteristic of this general. In addition, you can re-roll charge rolls for this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 4&quot; to the Move characteristic of this general. In addition, you can re-roll charge rolls for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2000,9 +2000,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf77-952e-8e4f-55bc" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5f1f-a8a4-1f26-2cd0" name="Master Decapitator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="5f1f-a8a4-1f26-2cd0" name="Master Decapitator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You receive 2 Blood Tithe points instead of 1 when your general slays a HERO.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You receive 2 Blood Tithe points instead of 1 when your general slays a HERO.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2037,9 +2037,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87dc-670a-a31a-51b2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="da6c-d77e-0d95-f455" name="Mage Eater" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="da6c-d77e-0d95-f455" name="Mage Eater" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, if this general attempts to unbind a spell and the unmodified unbinding roll is 8, that spell is successfully unbound and the caster suffers D6 mortal wounds. If this general can already unbind spells, they can attempt to unbind 1 extra spell in the enemy hero phase (only the first unbinding roll in the phase can inflict mortal wounds).</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. In addition, if this general attempts to unbind a spell and the unmodified unbinding roll is 8, that spell is successfully unbound and the caster suffers D6 mortal wounds. If this general can already unbind spells, they can attempt to unbind 1 extra spell in the enemy hero phase (only the first unbinding roll in the phase can inflict mortal wounds).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2143,7 +2143,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="af8d-d930-51f9-b596" name="Skullshard Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a spell or endless spell, you can roll a dice. If y ou do so, on a 2+ ignore the effects of that spell on the bearer.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a spell or 无尽法术, you can roll a dice. If y ou do so, on a 2+ ignore the effects of that spell on the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2187,7 +2187,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8a09-f2db-da88-b9ff" name="Traits: Nurgle Mortal" page="62" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="8a09-f2db-da88-b9ff" name="Traits: 纳垢 Mortal" page="62" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2207,9 +2207,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       <selectionEntries>
         <selectionEntry id="d7f2-dba8-cb0e-08c2" name="4. Hideous Visage" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cb5d-170a-852d-918c" name="Hideous Visage" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="cb5d-170a-852d-918c" name="Hideous Visage" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 3&quot; of your general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 3&quot; of your general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2219,9 +2219,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="e3cd-8b89-9af9-c68c" name="5. Overpowering Stench" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="eee2-a1c9-5831-5ee8" name="Overpowering Stench" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="eee2-a1c9-5831-5ee8" name="Overpowering Stench" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll hit rolls of 6+ for attacks that target your general in the combat phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll hit rolls of 6+ for attacks that target your general in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2231,9 +2231,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="c5a1-ed98-5647-c5d9" name="6. Virulent Contagion" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="ab53-501f-4c4b-bafe" name="Virulent Contagion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="ab53-501f-4c4b-bafe" name="Virulent Contagion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic by 1 for attacks made by your general in the combat phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic by 1 for attacks made by your general in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2301,9 +2301,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0a91-c1e0-7bd1-b521" name="4. The Eye of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0a91-c1e0-7bd1-b521" name="4. The Eye of 纳垢" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a6bd-0212-c534-d46b" name="The Eye of Nurgle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a6bd-0212-c534-d46b" name="The Eye of 纳垢" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
                 <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your hero phase, you can roll 2D6 if there are any enemy models within 12&quot; of the bearer. If the result is exactly 7, then the closest enemy model to the bearer is slain.</characteristic>
               </characteristics>
@@ -2495,9 +2495,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="9adc-03b6-e49a-6c43" name="4. Blessing of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="9a8f-0217-eef0-1fcf" name="Blessing of Tzeentch" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="9a8f-0217-eef0-1fcf" name="Blessing of Tzeentch" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time your general suffers a wound or mortal wound, roll a dice; on a roll of 6, the wound is ignored.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time your general suffers a wound or mortal wound, roll a dice; on a roll of 6, the wound is ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2507,9 +2507,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="2986-db0b-6829-5d78" name="5. Soul Burn" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7a26-9037-8953-c17c" name="Soul Burn" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="7a26-9037-8953-c17c" name="Soul Burn" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time you make a wound roll of 6 or higher for any of your general’s melee weapons, the target unit suffers 1 mortal wound in addition to any other damage it suffers.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time you make a wound roll of 6 or higher for any of your general’s melee weapons, the target unit suffers 1 mortal wound in addition to any other damage it suffers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2519,9 +2519,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="4f92-6e62-aeea-6422" name="6. Illusionist" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e7b8-c4a3-90ba-a4be" name="Illusionist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="e7b8-c4a3-90ba-a4be" name="Illusionist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Your opponent must subtract 1 from any hit rolls that target your general in the shooting phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Your opponent must subtract 1 from any hit rolls that target your general in the shooting phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2575,7 +2575,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="d122-94a8-c41b-1729" name="Changeblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Changeblade. Whenever a Hero is slain by a wound inflicted by this weapon, before you remove the hero’s model, you can add a Tzeentch Chaos Spawn to your army and set it up within 1&quot; of the hero’s model. *Errata Jul&apos;18*</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Changeblade. Whenever a Hero is slain by a wound inflicted by this weapon, before you remove the hero’s model, you can add a Tzeentch 混沌 Spawn to your army and set it up within 1&quot; of the hero’s model. *Errata Jul&apos;18*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2725,7 +2725,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="d9b1-ca43-0626-240f" name="Battle Rapture" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Pick 1 friendly MORTAL SLAANESH unit wholly within 18&quot; of the caster that is visible to them. Do not take battleshock tests for that unit until your next hero phase. If the casting roll is 10+, you can pick up to 3 friendly MORTAL SLAANESH units that are wholly within 18&quot; of the caster and visible to them, instead of 1.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Pick 1 friendly MORTAL 色孽 unit wholly within 18&quot; of the caster that is visible to them. Do not take battleshock tests for that unit until your next hero phase. If the casting roll is 10+, you can pick up to 3 friendly MORTAL 色孽 units that are wholly within 18&quot; of the caster and visible to them, instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2761,7 +2761,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6ef7-1ab0-9923-7fee" name="Hosts of Slaanesh" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="6ef7-1ab0-9923-7fee" name="Hosts of 色孽" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7da0-57c0-f951-d456" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fb8-9ead-19d5-7a24" type="max"/>
@@ -2771,7 +2771,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="82f0-146e-74b5-3321" name="Figureheads of the Dark Prince" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
               <characteristics>
-                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">An INVADERS HOST army can have up to 3 generals instead of 1. Only 1 of the generals (your choice) can have a command trait, but all 3 are considered to be a general for the purposes of using command abilities. However, an INVADERS HOST general cannot use a command trait or command ability while they are within 12&quot; of any other friendly INVADERS HOST generals. In addition, each time one of your generals is slain for the first time, you receive 1 extra command point.</characteristic>
+                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">An INVADERS HOST army can have up to 3 generals instead of 1. Only 1 of the generals (your choice) can have a 指挥特性, but all 3 are considered to be a general for the purposes of using command abilities. However, an INVADERS HOST general cannot use a 指挥特性 or command ability while they are within 12&quot; of any other friendly INVADERS HOST generals. In addition, each time one of your generals is slain for the first time, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
             <profile id="e6c3-5bc7-f549-7d16" name="Escalating Havoc" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -2793,12 +2793,12 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="3f29-259e-7bc3-e24c" name="Heir to the Throne" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
               <characteristics>
-                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If the general of a PRETENDERS HOST army is a HERO, they have 2 different command traits instead of 1 command trait. If you randomly generate the traits, roll again if the second result is the same as the first. In addition, you can re-roll hit rolls of 1 for attacks made with melee and missile weapons by friendly PRETENDERS HOST units while they have 10 or more models.</characteristic>
+                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If the general of a PRETENDERS HOST army is a HERO, they have 2 different command traits instead of 1 指挥特性. If you randomly generate the traits, roll again if the second result is the same as the first. In addition, you can re-roll hit rolls of 1 for attacks made with melee and missile weapons by friendly PRETENDERS HOST units while they have 10 or more models.</characteristic>
               </characteristics>
             </profile>
             <profile id="c977-db14-8dee-7f06" name="Pretenders Hedonite Host" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
               <characteristics>
-                <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Supreme Sybarites battalion in a PRETENDERS HOST army must have only 1 CHAOS SLAANESH HERO instead of 3-6.</characteristic>
+                <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Supreme Sybarites battalion in a PRETENDERS HOST army must have only 1 混沌 色孽 HERO instead of 3-6.</characteristic>
               </characteristics>
             </profile>
             <profile id="b496-ea90-16dd-c14b" name="Warlord Supreme" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -2842,7 +2842,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             </profile>
             <profile id="b431-57bb-108d-f01c" name="Deadly Symbiosis" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
               <characteristics>
-                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">When you receive depravity points because a friendly SLAANESH HERO has inflicted a wound or mortal wound, or has suffered a wound or mortal wound, you receive 2 depravity points instead of 1 if that SLAANESH HERO is within 12&quot; of SYLL’ESSKE.</characteristic>
+                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">When you receive depravity points because a friendly 色孽 HERO has inflicted a wound or mortal wound, or has suffered a wound or mortal wound, you receive 2 depravity points instead of 1 if that 色孽 HERO is within 12&quot; of SYLL’ESSKE.</characteristic>
               </characteristics>
             </profile>
             <profile id="4c22-9275-859b-fadf" name="Syll&apos;esskan Host" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -2901,9 +2901,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="1383-2ee6-2602-953d" name="4. Territorial" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f974-d9f3-576a-bba2" name="Territorial" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="f974-d9f3-576a-bba2" name="Territorial" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the number of depravity points you receive from the Escalating Havoc battle trait if this general is wholly within enemy territory at the start of your hero phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the number of depravity points you receive from the Escalating Havoc battle trait if this general is wholly within enemy territory at the start of your hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2913,9 +2913,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="4dcf-71e8-7422-836a" name="6. Delusions of Infallibility" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c5dc-7e57-c2c3-8e75" name="Delusions of Infallibility" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c5dc-7e57-c2c3-8e75" name="Delusions of Infallibility" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Wounds characteristic of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Wounds characteristic of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2925,9 +2925,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="f6f5-4503-f134-43f7" name="5. Skin-taker" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cb14-3ace-0141-33f1" name="Skin-taker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="cb14-3ace-0141-33f1" name="Skin-taker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, if any enemy models were slain by wounds inflicted by this general&apos;s attacks in that combat phase, you can heal D3 wounds allocated to this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, if any enemy models were slain by wounds inflicted by this general&apos;s attacks in that combat phase, you can heal D3 wounds allocated to this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2937,9 +2937,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="7769-a5f6-1561-784e" name="3. Hurler of Obscenities" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1ef6-1d44-c5af-4b00" name="Hurler of Obscenities" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="1ef6-1d44-c5af-4b00" name="Hurler of Obscenities" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, you can pick 1 enemy HERO within 6&quot; of this general. Until the end of that combat phase, add 1 to hit rolls for attacks made by that enemy HERO that target this general, but subtract 1 from save rolls for attacks that target that enemy HERO.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, you can pick 1 enemy HERO within 6&quot; of this general. Until the end of that combat phase, add 1 to hit rolls for attacks made by that enemy HERO that target this general, but subtract 1 from save rolls for attacks that target that enemy HERO.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3106,9 +3106,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318d-63b6-143f-9ea2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a517-2df8-b785-f195" name="Strongest Alone" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="a517-2df8-b785-f195" name="Strongest Alone" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made by this general while there are no other friendly models within 6&quot; of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made by this general while there are no other friendly models within 6&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3121,9 +3121,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d3-d77a-c429-a6b8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ff65-bdd1-8bfc-80d1" name="Inspirer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="ff65-bdd1-8bfc-80d1" name="Inspirer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly PRETENDERS HOST units while they are wholly within 9&quot; of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly PRETENDERS HOST units while they are wholly within 9&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3136,9 +3136,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e73-83f2-ef24-1c79" type="max"/>
           </constraints>
           <profiles>
-            <profile id="53ef-c27f-0c6c-a933" name="Hunter of Godbeasts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="53ef-c27f-0c6c-a933" name="Hunter of Godbeasts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the damage inflicted by successful attacks made by this general that target a MONSTER.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the damage inflicted by successful attacks made by this general that target a MONSTER.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3146,14 +3146,14 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="084e-3feb-bea4-2562" name="3.True Child of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="084e-3feb-bea4-2562" name="3.True Child of 色孽" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb99-2b14-85a3-e8cd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="159c-3567-c983-8850" name="True Child of Slaanesh" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="159c-3567-c983-8850" name="True Child of 色孽" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, before determining which player has the first turn, roll 6 dice. You receive 1 depravity point for each roll of 5+.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, before determining which player has the first turn, roll 6 dice. You receive 1 depravity point for each roll of 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3190,9 +3190,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="620c-1b24-d505-48a2" name="2. Pendant of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="620c-1b24-d505-48a2" name="2. Pendant of 色孽" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7469-bda4-c85a-e69e" name="Pendant of Slaanesh" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7469-bda4-c85a-e69e" name="Pendant of 色孽" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
                 <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of your hero phase, you can heal up to D3 wounds allocated to the bearer.</characteristic>
               </characteristics>
@@ -3311,9 +3311,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="3d44-ebe5-b31c-bda5" name="4. Trail-sniffer" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="6691-73ea-3717-3444" name="Trail-sniffer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="6691-73ea-3717-3444" name="Trail-sniffer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice for this general if this general is wholly within enemy territory. On a 3+, add 1 to the Attacks characteristic of this general&apos;s melee weapons until your next hero phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice for this general if this general is wholly within enemy territory. On a 3+, add 1 to the Attacks characteristic of this general&apos;s melee weapons until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3323,9 +3323,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="05c1-bf23-261d-36d1" name="6. Speed-chaser" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1663-3361-7ed7-c7d4" name="Speed-chaser" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="1663-3361-7ed7-c7d4" name="Speed-chaser" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can retreat and still charge later in the same turn.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can retreat and still charge later in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3335,9 +3335,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="71db-ac4d-07e5-73fa" name="5. Symphoniac" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="df3a-1cfa-f336-17cb" name="Symphoniac" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="df3a-1cfa-f336-17cb" name="Symphoniac" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, roll 1 dice for each enemy unit within 3&quot; of this general. On a 2+ that enemy unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, roll 1 dice for each enemy unit within 3&quot; of this general. On a 2+ that enemy unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3347,9 +3347,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="993e-3a73-60c3-64fb" name="3. Into the Fray" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="b1c4-5434-ee81-3ae6" name="Into the Fray" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="b1c4-5434-ee81-3ae6" name="Into the Fray" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">The hit roll for the first attack made by this general during the battle is automatically a 6 (do not roll the dice).</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">The hit roll for the first attack made by this general during the battle is automatically a 6 (do not roll the dice).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3375,7 +3375,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="8de5-3b9b-02e4-f7f7" name="Cameo of the Dark Prince" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your hero phase, the bearer can use this artefact. If they do so, you receive 1 command point, and until your next hero phase you do not have to take battleshock tests for friendly CHAOS SLAANESH units while they are wholly within 18&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your hero phase, the bearer can use this artefact. If they do so, you receive 1 command point, and until your next hero phase you do not have to take battleshock tests for friendly 混沌 色孽 units while they are wholly within 18&quot; of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3449,9 +3449,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8fe5-3404-fe21-e030" name="6. Bindings of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8fe5-3404-fe21-e030" name="6. Bindings of 色孽" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="587c-d788-88a7-b5e8" name="Bindings of Slaanesh" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="587c-d788-88a7-b5e8" name="Bindings of 色孽" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
                 <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick 1 enemy HERO within 3&quot; of the bearer and roll 2D6. If the roll is greater than the enemy HERO&apos;s Move characteristic, subtract 1 from hit rolls for attacks made by that enemy HERO until the end of that phase. In addition, if the roll is greater than that enemy HERO&apos;s Wounds characteristic, that enemy HERO suffers D3 mortal wounds.</characteristic>
               </characteristics>
@@ -3614,9 +3614,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="6a9d-a7f6-740d-ae9d" name="4. Boundless Mutation" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8807-5cd0-1213-8147" name="Boundless Mutation" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="8807-5cd0-1213-8147" name="Boundless Mutation" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of each of your hero phases, roll a dice; on a 2 or more, your general heals D3 wounds. On a roll of 1, your general suffers 1 mortal wound; if this slays the general, before you remove the general’s model, you can add a Tzeentch Chaos Spawn to your army and set it up within 1&quot; of your general. *Errata Jul&apos;18*</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of each of your hero phases, roll a dice; on a 2 or more, your general heals D3 wounds. On a roll of 1, your general suffers 1 mortal wound; if this slays the general, before you remove the general’s model, you can add a Tzeentch 混沌 Spawn to your army and set it up within 1&quot; of your general. *Errata Jul&apos;18*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3626,9 +3626,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="1a6f-cd33-fb78-6f46" name="5. Cult Demagogue" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e002-bb10-0729-8db1" name="Cult Demagogue" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="e002-bb10-0729-8db1" name="Cult Demagogue" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Bravery characteristic of friendly Tzeentch Arcanite units whilst they are within 9” of the general. *FAQ v1.4*</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Bravery characteristic of friendly Tzeentch Arcanite units whilst they are within 9” of the general. *FAQ v1.4*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3638,9 +3638,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="5405-32d0-740d-c454" name="6. Arcane Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c276-5b7b-8b5a-3bd6" name="Arcane Sacrifice" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c276-5b7b-8b5a-3bd6" name="Arcane Sacrifice" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, you can inflict D3 mortal wounds on a friendly unit within 3&quot; of your general. If you do so, then you can re-roll any failed casting rolls for your general for the duration of that phase, and increase the range of any spells they cast by 9”.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, you can inflict D3 mortal wounds on a friendly unit within 3&quot; of your general. If you do so, then you can re-roll any failed casting rolls for your general for the duration of that phase, and increase the range of any spells they cast by 9”.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3810,9 +3810,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="c12a-81d5-f27a-46cc" name="4. Daemonspark" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7aed-d9a7-5b11-f72b" name="Daemonspark" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="7aed-d9a7-5b11-f72b" name="Daemonspark" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, in your hero phase, you can unleash the Daemonspark. Add 1 to the Damage characteristic of all of your general’s melee weapons for the rest of the turn.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, in your hero phase, you can unleash the Daemonspark. Add 1 to the Damage characteristic of all of your general’s melee weapons for the rest of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3822,9 +3822,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="f62d-bfd8-13c5-0f56" name="5. Incorporeal Form" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="da36-d9d8-08ca-edd7" name="Incorporeal Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="da36-d9d8-08ca-edd7" name="Incorporeal Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Your opponent must subtract 1 from any hit rolls that target your general in the combat phase.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Your opponent must subtract 1 from any hit rolls that target your general in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3834,9 +3834,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="241f-d1c8-c6ad-3985" name="6. Aether Tether" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="be3b-9078-a889-46b2" name="Aether Tether" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="be3b-9078-a889-46b2" name="Aether Tether" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for your general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for your general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4196,11 +4196,11 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15c9-5241-4662-decf" name="2. Nurgle&apos;s Nail" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15c9-5241-4662-decf" name="2. 纳垢&apos;s Nail" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="45a1-0647-12ae-77ae" name="Nurgle&apos;s Nail" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="45a1-0647-12ae-77ae" name="纳垢&apos;s Nail" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Nurgle’s Nail. At the end of each combat phase, roll 2D6 for each enemy model that was allocated any wounds caused by Nurgle’s Nail in that phase and was not slain. If the result is exactly 7, the model being rolled for is slain. Any other result has no effect.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be 纳垢’s Nail. At the end of each combat phase, roll 2D6 for each enemy model that was allocated any wounds caused by 纳垢’s Nail in that phase and was not slain. If the result is exactly 7, the model being rolled for is slain. Any other result has no effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4212,7 +4212,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="f60c-c63e-d908-0b9d" name="The Bountiful Swarm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of your hero phase, pick an enemy model within 3&quot; of the bearer and then roll a dice. If the roll is greater than that model’s Wounds characteristic, then it is slain. If a model with a Wounds characteristic of 4+ is slain by the Bountiful Swarm, before you remove the model, you can add a Beast of Nurgle to your army and set it up within 1&quot; of the enemy model.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of your hero phase, pick an enemy model within 3&quot; of the bearer and then roll a dice. If the roll is greater than that model’s Wounds characteristic, then it is slain. If a model with a Wounds characteristic of 4+ is slain by the Bountiful Swarm, before you remove the model, you can add a Beast of 纳垢 to your army and set it up within 1&quot; of the enemy model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4236,7 +4236,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="4bfe-47e7-0ae8-d343" name="Tome of a Thousand Poxes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the bearer is a WIZARD, add 1 to the casting rolls for any spells from the Lore of Nurgle that they attempt to cast. If the bearer is not a WIZARD, they can attempt to cast the Sumptuous Pestilence spell (pg 67) in each of your hero phases (they cannot unbind spells).</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the bearer is a WIZARD, add 1 to the casting rolls for any spells from the Lore of 纳垢 that they attempt to cast. If the bearer is not a WIZARD, they can attempt to cast the Sumptuous Pestilence spell (pg 67) in each of your hero phases (they cannot unbind spells).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4627,7 +4627,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink id="b9db-4aab-413d-39b4" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="b9db-4aab-413d-39b4" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4642,16 +4642,16 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         <entryLink id="8872-3b58-c9c0-69af" name="Traits: Ruinous Overlords" hidden="false" collective="false" import="true" targetId="e3ff-2b48-800c-c641" type="selectionEntryGroup"/>
         <entryLink id="983b-b285-7284-8124" name="Traits: Tzeentch Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
         <entryLink id="17e8-1e61-3b3a-2c30" name="Traits: Aspects of the Perfect Liege" hidden="false" collective="false" import="true" targetId="efc7-556b-c158-a7e2" type="selectionEntryGroup"/>
-        <entryLink id="d506-e4d9-5d09-8ee7" name="Traits: Nurgle Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
+        <entryLink id="d506-e4d9-5d09-8ee7" name="Traits: 纳垢 Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
         <entryLink id="6df6-95dc-26ba-eee3" name="Traits: Tzeentch Daemon" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
-        <entryLink id="d39e-c45b-ca35-5eee" name="Traits: Khorne Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
-        <entryLink id="eba7-ff07-3e5a-9884" name="Traits: Nurgle Daemon" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup"/>
+        <entryLink id="d39e-c45b-ca35-5eee" name="Traits: 恐虐 Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
+        <entryLink id="eba7-ff07-3e5a-9884" name="Traits: 纳垢 Daemon" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup"/>
         <entryLink id="336c-e739-bb4a-a9ff" name="Traits: Masters of Dark Sorcery" hidden="false" collective="false" import="true" targetId="a2f4-4e22-5cb9-c475" type="selectionEntryGroup"/>
         <entryLink id="0985-369f-0f75-90df" name="Traits: Obsessions of the Invader" hidden="false" collective="false" import="true" targetId="f0b1-f554-bc8b-f75c" type="selectionEntryGroup"/>
         <entryLink id="8e98-03e5-e2b5-f675" name="Traits: Aspects of the Ascended" hidden="false" collective="false" import="true" targetId="3dd8-663d-e647-5e96" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="357f-59b8-5edf-fd53" name="Traits: Nurgle Daemon" publicationId="4be9-7bc9-ca17-b1b4" page="62" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="357f-59b8-5edf-fd53" name="Traits: 纳垢 Daemon" publicationId="4be9-7bc9-ca17-b1b4" page="62" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -4671,9 +4671,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       <selectionEntries>
         <selectionEntry id="d030-7cbe-f97d-99cf" name="4. Tainted Corruptor" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a048-b410-fcfb-2e28" name="Tainted Corruptor" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="a048-b410-fcfb-2e28" name="Tainted Corruptor" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of each of your hero phases, you can pick one terrain feature that is within 3&quot; of your general. For the rest of the battle, that terrain feature has the Sickness Blossoms scenery rule from the Feculent Gnarlmaw warscroll (pg 103), in addition to any other rules it already had.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of each of your hero phases, you can pick one terrain feature that is within 3&quot; of your general. For the rest of the battle, that terrain feature has the Sickness Blossoms scenery rule from the Feculent Gnarlmaw warscroll (pg 103), in addition to any other rules it already had.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4683,9 +4683,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="6479-88aa-388f-fc10" name="5. Nurgling Infestation" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d5c3-a802-5716-772d" name="Nurgling Infestation" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="d5c3-a802-5716-772d" name="Nurgling Infestation" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of a combat phase, you can inflict D3 mortal wounds on an enemy unit that is within 3&quot; of your general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of a combat phase, you can inflict D3 mortal wounds on an enemy unit that is within 3&quot; of your general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4695,9 +4695,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="b4e3-ecd8-af9b-4023" name="6. Pestilent Breath" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c6ff-636f-5533-adaf" name="Pestilent Breath" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c6ff-636f-5533-adaf" name="Pestilent Breath" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your shooting phase, pick one enemy unit within 6&quot; of your general. Roll a dice for each model in that unit that is within 6&quot; of your general. The unit suffers 1 mortal wound for each roll of 5+.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your shooting phase, pick one enemy unit within 6&quot; of your general. Roll a dice for each model in that unit that is within 6&quot; of your general. The unit suffers 1 mortal wound for each roll of 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4770,7 +4770,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="13b6-c8b5-a858-1636" name="Artefacts: Chaos Esoterica" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="13b6-c8b5-a858-1636" name="Artefacts: 混沌 Esoterica" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -5057,7 +5057,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
           <profiles>
             <profile id="1593-aee3-41c8-417b" name="Mark of the High-favoured" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Friendly RAVAGERS units are affected by the bearer’s Aura of Chaos ability while they are wholly within 18&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Friendly RAVAGERS units are affected by the bearer’s Aura of 混沌 ability while they are wholly within 18&quot; of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5104,9 +5104,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       <selectionEntries>
         <selectionEntry id="1bb6-6d3d-bafe-cdaa" name="1. Bolstered by Hate" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="74c3-6c4d-21b6-1005" name="Bolstered by Hate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="74c3-6c4d-21b6-1005" name="Bolstered by Hate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5116,9 +5116,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="4dc7-a1d3-3b76-886e" name="2. Lord of Terror" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c054-0f6e-7753-8f22" name="Lord of Terror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c054-0f6e-7753-8f22" name="Lord of Terror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 6&quot; of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 6&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5128,9 +5128,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="6a11-88d8-732b-8541" name="3. Lightning Reflexes" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f827-c3f1-e1be-490e" name="Lightning Reflexes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="f827-c3f1-e1be-490e" name="Lightning Reflexes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with missile weapons that target this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with missile weapons that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5140,9 +5140,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="5038-d596-2c8d-ac91" name="4. Radiance of Dark Glory" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="56f3-b9b0-3c34-8f89" name="Radiance of Dark Glory" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="56f3-b9b0-3c34-8f89" name="Radiance of Dark Glory" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your hero phase, you can pick 1 friendly DESPOILERS unit wholly within 18&quot; of this general and roll a dice. On a 3+, you can heal up to D3 wounds allocated to that unit.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your hero phase, you can pick 1 friendly DESPOILERS unit wholly within 18&quot; of this general and roll a dice. On a 3+, you can heal up to D3 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5152,9 +5152,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="05d3-50ac-9999-02d8" name="5. Distorting Miasma" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="517b-6c51-db25-dae6" name="Distorting Miasma" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="517b-6c51-db25-dae6" name="Distorting Miasma" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can give a terrain feature the Pitch-black and Nightmare Chasm scenery rules (pg 74) if this general finishes a move within 9&quot; of it.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can give a terrain feature the Pitch-black and Nightmare Chasm scenery rules (pg 74) if this general finishes a move within 9&quot; of it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5164,9 +5164,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="16e3-0273-db8d-7b07" name="6. Paragon of Ruin" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c9ae-a345-1ff5-0cbc" name="Paragon of Ruin" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c9ae-a345-1ff5-0cbc" name="Paragon of Ruin" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">After set-up is complete but before the first battle round begins, D3 friendly DESPOILERS units can move up to 5&quot;.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">After set-up is complete but before the first battle round begins, D3 friendly DESPOILERS units can move up to 5&quot;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5195,9 +5195,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       <selectionEntries>
         <selectionEntry id="00bd-ecd3-5aff-82aa" name="1. Bolstered by Hate" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="213b-94a5-f24b-c7c6" name="Bolstered by Hate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="213b-94a5-f24b-c7c6" name="Bolstered by Hate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5207,9 +5207,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="babc-e85e-84b1-2fa5" name="2. Lord of Terror" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="2b17-4eb5-eb90-6b19" name="Lord of Terror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="2b17-4eb5-eb90-6b19" name="Lord of Terror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 6&quot; of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 6&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5219,9 +5219,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="dc6e-5e33-a2a5-1894" name="3. Favoured of the Pantheon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c577-f6c9-e02b-0ea0" name="Favoured of the Pantheon" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="c577-f6c9-e02b-0ea0" name="Favoured of the Pantheon" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can add or subtract 2 from the result of any rolls made for this general on the Eye of the Gods table.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can add or subtract 2 from the result of any rolls made for this general on the Eye of the Gods table.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5231,9 +5231,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="57ce-6549-6071-9e2b" name="4. Mighty Ritualist" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e12b-472b-3429-e548" name="Mighty Ritualist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="e12b-472b-3429-e548" name="Mighty Ritualist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When this general attempts to perform a Ritual of Sorcerous Might, that ritual is successful on a 2+.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When this general attempts to perform a Ritual of Sorcerous Might, that ritual is successful on a 2+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5243,9 +5243,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="6d5a-c16f-498b-9ed0" name="5. Blasphemous Influence" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8092-bc9c-225b-45fc" name="Blasphemous Influence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="8092-bc9c-225b-45fc" name="Blasphemous Influence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When this general attempts to perform a Ritual of Corruption, that ritual is successful on a 2+. </characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When this general attempts to perform a Ritual of Corruption, that ritual is successful on a 2+. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5255,9 +5255,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="adc4-4e9f-bfd2-1d88" name="6. All for One" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="21b7-7365-5232-1ba4" name="All for One" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="21b7-7365-5232-1ba4" name="All for One" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, when this general successfully performs a binding ritual, for each model slain by that ritual you can heal 1 wound allocated to this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, when this general successfully performs a binding ritual, for each model slain by that ritual you can heal 1 wound allocated to this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5281,9 +5281,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       <selectionEntries>
         <selectionEntry id="a87c-cdbe-a4e9-b737" name="1. Bolstered by Hate" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4514-7f28-964b-a2d0" name="Bolstered by Hate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="4514-7f28-964b-a2d0" name="Bolstered by Hate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5293,9 +5293,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="d8be-be5b-bda5-6682" name="2. Unquestioned Resolve" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="748c-22b6-eba5-25a2" name="Unquestioned Resolve" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="748c-22b6-eba5-25a2" name="Unquestioned Resolve" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per turn, you can use the At the Double, Forward to Victory or Inspiring Presence command ability without a command point being spent if the friendly unit is a CULTISTS unit within 12&quot; of this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per turn, you can use the At the Double, Forward to Victory or Inspiring Presence command ability without a command point being spent if the friendly unit is a CULTISTS unit within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5305,9 +5305,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="b0ac-a4f8-7954-9218" name="3. Favoured of the Pantheon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="18ab-b923-6fb5-98ca" name="Favoured of the Pantheon" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="18ab-b923-6fb5-98ca" name="Favoured of the Pantheon" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can add or subtract 2 from the result of any rolls made for this general on the Eye of the Gods table.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can add or subtract 2 from the result of any rolls made for this general on the Eye of the Gods table.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5317,9 +5317,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="cd3b-b5d1-9c67-e7c9" name="4. Eternal Vendetta" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7b21-e3c5-79b1-720f" name="Eternal Vendetta" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="7b21-e3c5-79b1-720f" name="Eternal Vendetta" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this general. In addition, you can re-roll hit rolls for attacks made by this general that target ORDER units.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this general. In addition, you can re-roll hit rolls for attacks made by this general that target ORDER units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5329,9 +5329,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="f253-4eed-720e-7a07" name="5. Flames of Spite" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="ff8e-b85e-91ab-a9d9" name="Flames of Spite" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="ff8e-b85e-91ab-a9d9" name="Flames of Spite" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made by this general is 6, the target suffers 1 mortal wound in addition to any normal damage.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made by this general is 6, the target suffers 1 mortal wound in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5341,9 +5341,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         </selectionEntry>
         <selectionEntry id="0820-c4a9-af69-2579" name="6. Master of Deception" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0969-3426-02eb-d265" name="Master of Deception" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="0969-3426-02eb-d265" name="Master of Deception" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with melee weapons that target this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with melee weapons that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5359,7 +5359,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
       </constraints>
       <entryLinks>
         <entryLink id="df1e-3503-4f5b-1253" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
-        <entryLink id="8b56-ae38-bb4e-6e73" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="8b56-ae38-bb4e-6e73" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5371,7 +5371,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         <entryLink id="ee01-9141-db61-515f" name="Artefacts: Fated Artefacts" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
         <entryLink id="ccb8-8d6a-f06d-a44d" name="Artefacts: Trophies of Conquest" hidden="false" collective="false" import="true" targetId="5385-353b-a92e-dce9" type="selectionEntryGroup"/>
         <entryLink id="12e5-ddb3-07cd-1b6d" name="Artefacts: Infernal Treasures" hidden="false" collective="false" import="true" targetId="c241-ffc0-5e72-e1a7" type="selectionEntryGroup"/>
-        <entryLink id="4277-9a18-fa97-f27b" name="Artefacts: Chaos Esoterica" hidden="false" collective="false" import="true" targetId="13b6-c8b5-a858-1636" type="selectionEntryGroup"/>
+        <entryLink id="4277-9a18-fa97-f27b" name="Artefacts: 混沌 Esoterica" hidden="false" collective="false" import="true" targetId="13b6-c8b5-a858-1636" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0f9a-157e-f1bb-3f9d" name="Lore of the Damned" hidden="false" collective="false" import="true">
@@ -5405,7 +5405,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="f81d-240b-ee07-4d17" name="Ruinous Vigour" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly SLAVES TO DARKNESS MONSTER wholly within 12&quot; of the caster and visible to them. Until your next hero phase, when you look up a value on that MONSTER’s damage table, it is treated as if it has suffered 0 wounds.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗仆从 MONSTER wholly within 12&quot; of the caster and visible to them. Until your next hero phase, when you look up a value on that MONSTER’s damage table, it is treated as if it has suffered 0 wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5418,7 +5418,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="f052-8ded-cdb0-af02" name="Call to Glory" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">5</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly SLAVES TO DARKNESS HERO wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that HERO if target is a HERO or MONSTER until your next hero phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗仆从 HERO wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that HERO if target is a HERO or MONSTER until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5431,7 +5431,7 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <profile id="e444-d683-f539-eb54" name="Mask of Darkness" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly MORTAL SLAVES TO DARKNESS unit wholly within 12&quot; of the caster and visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That unit cannot move in the following movement phase.</characteristic>
+                <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly MORTAL 黑暗仆从 unit wholly within 12&quot; of the caster and visible to them. Remove that unit from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That unit cannot move in the following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5439,9 +5439,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9e6c-e43e-9312-d5fa" name="3. Whispers of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9e6c-e43e-9312-d5fa" name="3. Whispers of 混沌" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="5404-dbe0-9d4b-ad84" name="Whispers of Chaos" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+            <profile id="5404-dbe0-9d4b-ad84" name="Whispers of 混沌" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
               <characteristics>
                 <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
                 <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 enemy unit within 12&quot; of the caster and visible to them. Roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If any models from that unit are slain by this spell, that unit cannot move until the start of your next hero phase.</characteristic>
@@ -5474,9 +5474,9 @@ Nightmare Chasm: At the start of each hero phase, roll a dice for this terrain f
         <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the end of your movement phase, if this model is within 9&quot; of a Realmgate it can use its Book of Profane Secrets. If it does so, you can summon 1 unit from the list below to the battlefield, and add it to your army. The summoned unit must be set up wholly within 9&quot; of a this model and wholly within 9&quot; of the Realmgate, and more than 9&quot; from any enemy units. Choose a unit from the following list: • 10 Pink Horrors • 10 Bloodletters • 10 Plaguebearers • 10 Daemonettes *Errata Jul&apos;18*</characteristic>
       </characteristics>
     </profile>
-    <profile id="0d84-788a-4fe9-49f4" name="Magical Supremacy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+    <profile id="0d84-788a-4fe9-49f4" name="Magical Supremacy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
       <characteristics>
-        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 12&quot; to the range at which your general can attempt to unbind spells.</characteristic>
+        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 12&quot; to the range at which your general can attempt to unbind spells.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

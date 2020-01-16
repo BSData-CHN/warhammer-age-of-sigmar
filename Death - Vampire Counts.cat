@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3850-c064-3a8c-d17a" name="Death: Vampire Counts (Warscroll Compendium)" revision="4" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3850-c064-3a8c-d17a" name="死亡: Vampire Counts (Warscroll Compendium)" revision="4" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3850-c064-pubN65537" name="Vampire Counts: Warscrolls Compendium (2017)"/>
     <publication id="3850-c064-pubN66244" name="Vampire Counts: Warscrolls Compendium"/>
@@ -40,7 +40,7 @@
         <characteristicType id="a22d-fcce-e696-075e" name="Nightmarish Claws and Fangs"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="6d48-1590-a7ff-4516" name="Evocation of Death Level">
+    <profileType id="6d48-1590-a7ff-4516" name="Evocation of 死亡 Level">
       <characteristicTypes>
         <characteristicType id="0968-4539-05b1-823e" name="Ability"/>
       </characteristicTypes>
@@ -109,7 +109,7 @@
     <profileType id="370f-9356-a89a-06b3" name="Terrorgheist Wound Table">
       <characteristicTypes>
         <characteristicType id="2ad2-839b-d5ee-5770" name="Move"/>
-        <characteristicType id="dfdc-a86c-e979-1eb7" name="Death Shriek"/>
+        <characteristicType id="dfdc-a86c-e979-1eb7" name="死亡 Shriek"/>
         <characteristicType id="5b09-7a6b-dd30-faf1" name="Skeletal Claws"/>
       </characteristicTypes>
     </profileType>
@@ -169,7 +169,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0395-882a-0826-8ab8" name="Allegiance: *Death*" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0395-882a-0826-8ab8" name="Allegiance: *死亡*" hidden="false" collective="false" type="upgrade">
               <infoLinks>
                 <infoLink id="3c3b-6616-5069-c3d7" name="Deathless Minions" hidden="false" targetId="3998-f3e4-90e7-348a" type="profile"/>
               </infoLinks>
@@ -340,7 +340,7 @@
             <profile id="1d48-2cce-f42c-f559" name="Hellish Vigour" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Death unit within 18&quot;.  That unit’s Move characteristic is doubled in its next movement phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 死亡 unit within 18&quot;.  That unit’s Move characteristic is doubled in its next movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -502,7 +502,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4524-f252-20bc-b183" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6554-9d30-93ee-003a" name="Artefacts of Death" hidden="false" collective="false" targetId="e02e-6203-a19f-c021" type="selectionEntryGroup">
+        <entryLink id="6554-9d30-93ee-003a" name="Artefacts of 死亡" hidden="false" collective="false" targetId="e02e-6203-a19f-c021" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -530,19 +530,19 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e77-24a2-b606-64b8" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3197-3bfc-8607-ef79" name="Death Command Traits" hidden="false" collective="false" targetId="74cc-aa8c-c476-db29" type="selectionEntryGroup"/>
+        <entryLink id="3197-3bfc-8607-ef79" name="死亡 Command Traits" hidden="false" collective="false" targetId="74cc-aa8c-c476-db29" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="cf8b-aa33-2ab7-c034" name="Locus of Shyish" hidden="false">
-      <description>If you make an unmodified casting roll of 9+ for a DEATH WIZARD that is attempting to cast a spell from the Lore of the Deathmages or the Lore of the Vampires, and it is not unbound, then after resolving the effects of that spell you may immediately resolve them for a second time.</description>
+      <description>If you make an unmodified casting roll of 9+ for a 死亡 WIZARD that is attempting to cast a spell from the Lore of the Deathmages or the Lore of the Vampires, and it is not unbound, then after resolving the effects of that spell you may immediately resolve them for a second time.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="3998-f3e4-90e7-348a" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
       <characteristics>
-        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATH unit within 6&quot; of your general or another friendly DEATH HERO. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 死亡 unit within 6&quot; of your general or another friendly 死亡 HERO. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

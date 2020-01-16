@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8c11-75b5-5857-1b26" name="Chaos - Legion of Azgorh" revision="11" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8c11-75b5-5857-1b26" name="混沌 - Legion of Azgorh" revision="11" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8c11-75b5-pubN65537" name="The Legion of Azgorh Warscrolls Compendium"/>
     <publication id="8c11-75b5-pubN67268" name="Warscroll: Shar’tor the Executioner"/>
@@ -1526,7 +1526,7 @@
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="7dd6-ab20-c4ae-00b4" name="Death from On High" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="7dd6-ab20-c4ae-00b4" name="死亡 from On High" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This model’s Deathshrieker Rockets can target enemy units that are not visible to the attacking model. In addition, add 1 to hit rolls for attacks made with Deathshrieker Rockets if the target unit has 5 or more models.</characteristic>
           </characteristics>
@@ -1991,9 +1991,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec2c-4448-c668-aa8c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ce74-fe99-620c-0868" name="Allegiance: Chaos" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ce74-fe99-620c-0868" name="Allegiance: 混沌" hidden="false" collective="false" type="upgrade">
               <infoLinks>
-                <infoLink id="15f2-097f-e587-dfa1" name="Unpredictable Destruction" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
+                <infoLink id="15f2-097f-e587-dfa1" name="Unpredictable 毁灭" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="633d-906f-4e28-599c" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
@@ -2100,9 +2100,9 @@
     </selectionEntry>
     <selectionEntry id="0201-bd62-966c-1cc6" name="Battalion: Execution Herd" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="5c21-591c-6a9b-156a" name="Marked for Death" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="5c21-591c-6a9b-156a" name="Marked for 死亡" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">After set-up is complete, but before the battle begins, pick 1 enemy unit to be marked for death. You can re-roll hit rolls for attacks made by units from this battalion that target that unit. If that unit is destroyed, you can choose a new unit to be marked for death in your next hero phase.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">After set-up is complete, but before the battle begins, pick 1 enemy unit to be marked for 死亡. You can re-roll hit rolls for attacks made by units from this battalion that target that unit. If that unit is destroyed, you can choose a new unit to be marked for 死亡 in your next hero phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2217,7 +2217,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a62e-ae93-7767-0046" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="2837-33c5-7fb4-bb09" name="Artefacts of Chaos" hidden="false" collective="false" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="2837-33c5-7fb4-bb09" name="Artefacts of 混沌" hidden="false" collective="false" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2243,7 +2243,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ba6-f158-6b78-f00b" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="5b22-a550-4a81-3ad5" name="Chaos Command Traits" hidden="false" collective="false" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="5b22-a550-4a81-3ad5" name="混沌 Command Traits" hidden="false" collective="false" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2337,9 +2337,9 @@
       <selectionEntries>
         <selectionEntry id="2d80-b10c-a7a9-1db6" name="1. Contemptuous" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="94e7-5a59-3b0b-3f17" name="Contemptuous" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+            <profile id="94e7-5a59-3b0b-3f17" name="Contemptuous" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this general.</characteristic>
+                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3815-2bb0-7dfb-a9ed" name="Destruction - Moonclan Grots" revision="10" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3815-2bb0-7dfb-a9ed" name="毁灭 - Moonclan Grots" revision="10" battleScribeVersion="2.02" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="3815-2bb0-pubN65537" name="Grand Alliance: Destruction"/>
+    <publication id="3815-2bb0-pubN65537" name="Grand Alliance: 毁灭"/>
     <publication id="3815-2bb0-pubN72125" name="Age of Sigmar: The Rules"/>
-    <publication id="3815-2bb0-pubN72154" name="Destruction Battletomb: Ironjawz"/>
+    <publication id="3815-2bb0-pubN72154" name="毁灭 Battletomb: Ironjawz"/>
   </publications>
   <profileTypes>
     <profileType id="f7ce-f73f-e66e-8a92" name="Damage Table: Stornhorn">
@@ -28,7 +28,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="d850-d9b0-684b-9f3a" name="Destruction" hidden="false"/>
+    <categoryEntry id="d850-d9b0-684b-9f3a" name="毁灭" hidden="false"/>
     <categoryEntry id="f643-013c-7718-007d" name="Orruk" hidden="false"/>
     <categoryEntry id="748c-7ab7-fb11-16a9" name="Ironjawz" hidden="false"/>
     <categoryEntry id="03eb-456f-dd6c-7024" name="Ardboys" hidden="false"/>
@@ -196,7 +196,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="db37-22b2-39f5-f49e" name="*Destruction*" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="db37-22b2-39f5-f49e" name="*毁灭*" hidden="false" collective="false" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
@@ -1056,7 +1056,7 @@
         </profile>
         <profile id="0e20-4034-20d6-6e95" name="Watch Out!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0"> Mangler Squigs can cause mayhem even in their wildly bouncing death throes. If slain, roll a dice for each unit within 6&quot; of the Mangler Squigs, friend or foe, before the model is removed from the battlefield. On a roll of 4 or more that unit suffers D3 mortal wounds. Remove the Mangler Squigs from the battlefield after resolving any damage.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0"> Mangler Squigs can cause mayhem even in their wildly bouncing 死亡 throes. If slain, roll a dice for each unit within 6&quot; of the Mangler Squigs, friend or foe, before the model is removed from the battlefield. On a roll of 4 or more that unit suffers D3 mortal wounds. Remove the Mangler Squigs from the battlefield after resolving any damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1226,7 +1226,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a2c-e152-c0d7-9730" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="741f-4862-3cc7-24d9" name="Artefacts of Destruction" hidden="false" collective="false" targetId="ca3c-6bfc-07f1-2953" type="selectionEntryGroup"/>
+        <entryLink id="741f-4862-3cc7-24d9" name="Artefacts of 毁灭" hidden="false" collective="false" targetId="ca3c-6bfc-07f1-2953" type="selectionEntryGroup"/>
         <entryLink id="032e-a3fe-33c0-f911" name="Realm Artefacts of Power" hidden="false" collective="false" targetId="37b0-af21-630c-d8af" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -1242,7 +1242,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ff-085d-df38-6fe5" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a1a5-b137-bd64-3566" name="Destruction Command Traits" hidden="false" collective="false" targetId="1319-8f5e-1ff1-08c9" type="selectionEntryGroup"/>
+        <entryLink id="a1a5-b137-bd64-3566" name="毁灭 Command Traits" hidden="false" collective="false" targetId="1319-8f5e-1ff1-08c9" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

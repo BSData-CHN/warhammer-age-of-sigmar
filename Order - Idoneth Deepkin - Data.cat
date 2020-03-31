@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b713-a274-2a46-fe02" name="秩序 - Idoneth Deepkin - 数据" revision="24" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b713-a274-2a46-fe02" name="Order - Idoneth Deepkin - Data" revision="25" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0d25-2712-pubN65537" name="Order Battletome: Idoneth Deepkin"/>
     <publication id="0d25-2712-pubN70885" name="GHB 2018 Errata, June 2018"/>
@@ -13,7 +13,7 @@
         <characteristicType id="4b7c-1211-95ee-17e8" name="Massive Scythed Fins"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ac0f-3fba-b82e-a9e8" name="Tides of 死亡">
+    <profileType id="ac0f-3fba-b82e-a9e8" name="Tides of Death">
       <characteristicTypes>
         <characteristicType id="41bf-1d9a-c900-4a55" name="Turn"/>
         <characteristicType id="d0a7-be18-7209-6a57" name="Effect"/>
@@ -81,9 +81,7 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -107,40 +105,40 @@
               <selectionEntryGroups>
                 <selectionEntryGroup id="c50c-2062-348a-c4c5" name="Additional Rules" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="ec5b-e29c-af19-a2c5" name="Tides of 死亡" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="ec5b-e29c-af19-a2c5" name="Tides of Death" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d0b-f6de-94ac-721a" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb5d-41fa-96ea-06ff" type="min"/>
                       </constraints>
                       <profiles>
-                        <profile id="84ee-bb65-e768-7b11" name="1. Low Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of 死亡">
+                        <profile id="84ee-bb65-e768-7b11" name="1. Low Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of Death">
                           <characteristics>
                             <characteristic name="Turn" typeId="41bf-1d9a-c900-4a55">1/5</characteristic>
-                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, all units with the Tides of 死亡 battle trait are treated as being in cover</characteristic>
+                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, all units with the Tides of Death battle trait are treated as being in cover</characteristic>
                           </characteristics>
                         </profile>
-                        <profile id="c5e0-a103-30da-373a" name="2. Flooding Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of 死亡">
+                        <profile id="c5e0-a103-30da-373a" name="2. Flooding Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of Death">
                           <characteristics>
                             <characteristic name="Turn" typeId="41bf-1d9a-c900-4a55">2/6</characteristic>
-                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, all units with the Tides of 死亡 battle trait that run can still either shoot or charge in the same turn (but not both).</characteristic>
+                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, all units with the Tides of Death battle trait that run can still either shoot or charge in the same turn (but not both).</characteristic>
                           </characteristics>
                         </profile>
-                        <profile id="5cc1-938b-9772-4969" name="3. High Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of 死亡">
+                        <profile id="5cc1-938b-9772-4969" name="3. High Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of Death">
                           <characteristics>
                             <characteristic name="Turn" typeId="41bf-1d9a-c900-4a55">3/7</characteristic>
-                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, units with the Tides of 死亡 battle trait fight at the start of the combat phase.</characteristic>
+                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, units with the Tides of Death battle trait fight at the start of the combat phase.</characteristic>
                           </characteristics>
                         </profile>
-                        <profile id="0731-1abb-e855-bc96" name="4. Ebbing Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of 死亡">
+                        <profile id="0731-1abb-e855-bc96" name="4. Ebbing Tide" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of Death">
                           <characteristics>
                             <characteristic name="Turn" typeId="41bf-1d9a-c900-4a55">4/8</characteristic>
-                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, all units with the Tides of 死亡 battle trait that retreat can still either shoot or charge in the same turn (but not both).</characteristic>
+                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">In this battle round, all units with the Tides of Death battle trait that retreat can still either shoot or charge in the same turn (but not both).</characteristic>
                           </characteristics>
                         </profile>
-                        <profile id="b7a9-6b4d-1fb1-46db" name="-" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of 死亡">
+                        <profile id="b7a9-6b4d-1fb1-46db" name="-" hidden="false" typeId="ac0f-3fba-b82e-a9e8" typeName="Tides of Death">
                           <characteristics>
                             <characteristic name="Turn" typeId="41bf-1d9a-c900-4a55"/>
-                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">IDONETH DEEPKIN units with this battle trait have a different Tides of 死亡 ability each battle round, as shown on the Tides of 死亡 table below.</characteristic>
+                            <characteristic name="Effect" typeId="d0a7-be18-7209-6a57">IDONETH DEEPKIN units with this battle trait have a different Tides of Death ability each battle round, as shown on the Tides of Death table below.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -251,7 +249,7 @@
                       <profiles>
                         <profile id="339f-695a-995f-8206" name="Revel in Slaughter" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
                           <characteristics>
-                            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls of 1 for Fuethán units that are affected by the Flood Tide ability from the Tides of 死亡 table (pg 86). In addition, whenever a Fuethán unit would be affected by the Ebb Tide ability from the Tides of 死亡 table, they are instead affected by the Flood Tide ability from the same table.</characteristic>
+                            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls of 1 for Fuethán units that are affected by the Flood Tide ability from the Tides of Death table (pg 86). In addition, whenever a Fuethán unit would be affected by the Ebb Tide ability from the Tides of Death table, they are instead affected by the Flood Tide ability from the same table.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="aaa0-9d13-590f-473b" name="Fiercest of Creatures" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
@@ -348,9 +346,9 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, you can say that this model will draw their Falchion. If you do so, subtract 1 from save rolls for this model in that combat phase, but this model can attack with its Falchion in that combat phase. If you do not do so, this model cannot attack with its Falchion in that combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a86f-7ed9-cd25-7b3f" name="Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+        <profile id="a86f-7ed9-cd25-7b3f" name="Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
           <characteristics>
-            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of 死亡 table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN unit wholly within 12&quot; of your general. Add 1 to the Attacks characteristic of melee weapons used by that unit until your next hero phase. </characteristic>
+            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN unit wholly within 12&quot; of your general. Add 1 to the Attacks characteristic of melee weapons used by that unit until your next hero phase. </characteristic>
           </characteristics>
         </profile>
         <profile id="54a5-a674-ce5b-e284" name="Akhelian King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -463,8 +461,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -540,9 +536,9 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can roll a dice if this model is affected by a spell. If you do so, on a 3+ the spell has no effect on this model (other units will be affected by the spell normally).</characteristic>
           </characteristics>
         </profile>
-        <profile id="c0d7-c100-8460-42ef" name="Supreme Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+        <profile id="c0d7-c100-8460-42ef" name="Supreme Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
           <characteristics>
-            <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of 死亡 table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18&quot; of Volturnus. Add 1 to the Attacks characteristic of melee weapons used by those units until your next hero phase</characteristic>
+            <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18&quot; of Volturnus. Add 1 to the Attacks characteristic of melee weapons used by those units until your next hero phase</characteristic>
           </characteristics>
         </profile>
         <profile id="a479-0026-d75e-56fd" name="Volturnos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -606,13 +602,13 @@
         <profile id="e02b-e11a-c43e-67d1" name="Cloying Sea Mists" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a unit within 12&quot; of the caster and that is visible to them. If the unit is a friendly IDONETH DEEPKIN unit, you can heal D3 wounds allocated to the unit. Any other unit suffers D3 mortal wounds </characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a unit within 12&quot; of the caster and that is visible to them. If the unit is a friendly IDONETH DEEPKIN unit, you can heal D3 wounds allocated to the unit. Any other unit suffers D3 mortal wounds </characteristic>
           </characteristics>
         </profile>
         <profile id="71a6-b170-4bfd-c94f" name="Tsunami of Terror" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick D6 enemy units within 12&quot; of the caster and that are visible to them. Subtract 1 from hit rolls made for those units, and 1 from the Bravery characteristic of those units, until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick D6 enemy units within 12&quot; of the caster and that are visible to them. Subtract 1 from hit rolls made for those units, and 1 from the Bravery characteristic of those units, until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7937-0633-c06d-47fc" name="Dormant Energies" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -1305,7 +1301,7 @@
         <profile id="6fcf-822e-c4a4-9d64" name="Riptide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot;of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for that unit. In addition, at the start of your next hero phase the unit suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot;of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for that unit. In addition, at the start of your next hero phase the unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1692,7 +1688,7 @@
     </selectionEntry>
     <selectionEntry id="1925-b9c1-5230-f036" name="Akhelian Leviadon" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="42c4-0d16-8223-b350" name="Jaws of 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="42c4-0d16-8223-b350" name="Jaws of Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Each time you make a hit roll of 6+ for this model’s Leviadon’s Crushing Jaws attack, that attack inflicts 6 mortal wounds instead of the normal damage.</characteristic>
           </characteristics>
@@ -2463,7 +2459,7 @@
       <profiles>
         <profile id="d473-e47d-67b4-24c4" name="Full Fury of the Storm" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If your army has the IDONETH DEEPKIN allegiance and includes this battalion, then once per battle at the start of a battle round, you can choose to use the High Tide ability from the Tides of 死亡 table (pg 86) for that battle round instead of the ability that would normally be used.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If your army has the IDONETH DEEPKIN allegiance and includes this battalion, then once per battle at the start of a battle round, you can choose to use the High Tide ability from the Tides of Death table (pg 86) for that battle round instead of the ability that would normally be used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2513,8 +2509,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -2538,8 +2532,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -2561,7 +2553,7 @@
       <profiles>
         <profile id="1fa0-ba56-400c-77ea" name="Strength of the Ethersea" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">SYLVANETH units from this battalion have the Tides of 死亡 battle trait, and gain abilities from the Tides of 死亡 table in the same manner as IDONETH DEEPKIN units.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">SYLVANETH units from this battalion have the Tides of Death battle trait, and gain abilities from the Tides of Death table in the same manner as IDONETH DEEPKIN units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2765,9 +2757,9 @@
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="598e-d445-226e-6167" name="Emissary of the Deep Places" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="598e-d445-226e-6167" name="Emissary of the Deep Places" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Allied units in an Ionrach army are treated as having the Tides of 死亡 battle trait and can therefore use abilities from the Tides of 死亡 table each battle round.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Allied units in an Ionrach army are treated as having the Tides of Death battle trait and can therefore use abilities from the Tides of Death table each battle round.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2797,7 +2789,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="af7c-cb34-f500-072d" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="af7c-cb34-f500-072d" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db25-e554-345a-2aee" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1f-1933-ec51-1bb3" type="max"/>
@@ -2807,7 +2799,7 @@
           <profiles>
             <profile id="efeb-7beb-f820-458b" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 16&quot; of the PRIEST and which is visible to them. You can add 1 to the save rolls for the unit you picked until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 16&quot; of the PRIEST and which is visible to them. You can add 1 to the save rolls for the unit you picked until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2819,7 +2811,7 @@
           <profiles>
             <profile id="2913-8bcf-a6ec-17ab" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 3&quot; of the PRIEST. The unit you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 3&quot; of the PRIEST. The unit you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2831,7 +2823,7 @@
           <profiles>
             <profile id="d1a3-9cca-0f87-31a0" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 HERO from your army that is within 16&quot; of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE HERO from your army that is within 16&quot; of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2843,7 +2835,7 @@
           <profiles>
             <profile id="e53b-d58a-d894-8370" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a 恐虐 unit from your army that is within 16&quot; of the PRIEST and which is visible to them. The unit that you picked does not have t take battleshock tests until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE unit from your army that is within 16&quot; of the PRIEST and which is visible to them. The unit that you picked does not have t take battleshock tests until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2855,7 +2847,7 @@
           <profiles>
             <profile id="ca39-078c-4d38-90bd" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a 恐虐 unit from your army that is within 16&quot; of the PRIEST and which is visible to them. Add 1 to the hit rolls of the unit you picked until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE unit from your army that is within 16&quot; of the PRIEST and which is visible to them. Add 1 to the hit rolls of the unit you picked until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3056,7 +3048,7 @@
           <profiles>
             <profile id="1a0e-3f29-5596-d076" name="Abyssal Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the 色孽 keyword.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the SLAANESH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3443,7 +3435,7 @@
             <profile id="e2c0-b4a9-71e7-2bdb" name="Steed of Tides" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly HERO that is not a MONSTER and that is within 6&quot; of the caster and visible to them. Remove that model from the battlefield, and then set it up again within 24&quot;of its previous location and more than 9&quot; from any enemy models. This counts as the model’s move in your following movement phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly HERO that is not a MONSTER and that is within 6&quot; of the caster and visible to them. Remove that model from the battlefield, and then set it up again within 24&quot;of its previous location and more than 9&quot; from any enemy models. This counts as the model’s move in your following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3456,7 +3448,7 @@
             <profile id="f7ac-6410-6d2c-a0d6" name="Abyssal Darkness" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until your next hero phase, friendl IDONETH DEEPKIN units are treated as being in cover while they are wholly within 9&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next hero phase, friendl IDONETH DEEPKIN units are treated as being in cover while they are wholly within 9&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3469,7 +3461,7 @@
             <profile id="4f02-da23-97b7-6002" name="Vorpal Maelstrom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 18&quot;of the caster that is visible to them. Roll a dice for each unit within 3&quot; of that point. If the dice roll for a unit is less than or equal to the number of models in the unit, that unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18&quot;of the caster that is visible to them. Roll a dice for each unit within 3&quot; of that point. If the dice roll for a unit is less than or equal to the number of models in the unit, that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3482,7 +3474,7 @@
             <profile id="1924-de71-ff4c-1dcf" name="Pressure of the Deep" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy model within 12&quot; of the caster that is visible to them, and roll a dice. If the dice roll is greater than that model’s Wounds characteristic, it is slain.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy model within 12&quot; of the caster that is visible to them, and roll a dice. If the dice roll is greater than that model’s Wounds characteristic, it is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3495,7 +3487,7 @@
             <profile id="7e21-adfb-0b78-154e" name="Tide of Fear" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for that unit and subtract 1 from that unit’s Bravery characteristic.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for that unit and subtract 1 from that unit’s Bravery characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3508,7 +3500,7 @@
             <profile id="6068-dbef-97bb-6143" name="Arcane Corrasion" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick the closest enemy unit within 48&quot; of the caster and measure the distance between the caster and the unit.   If the distance is up to 12&quot;, the target suffers 1 mortal wound   If the distance is more than 12&quot; and up to 24&quot; it suffers 2 mortal wounds instead  If the distance is more than 24&quot; and up to 36&quot; it suffers 3 mortal wounds instead  If the distance is more than 36&quot; and up to 48&quot; it suffers 4 mortal wounds instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick the closest enemy unit within 48&quot; of the caster and measure the distance between the caster and the unit.   If the distance is up to 12&quot;, the target suffers 1 mortal wound   If the distance is more than 12&quot; and up to 24&quot; it suffers 2 mortal wounds instead  If the distance is more than 24&quot; and up to 36&quot; it suffers 3 mortal wounds instead  If the distance is more than 36&quot; and up to 48&quot; it suffers 4 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3590,7 +3582,7 @@
             <profile id="1c50-6f96-3817-1dd8" name="Protective Barrier" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">4</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly Nautilar unit within 12&quot;of the caster that is visible to them. Until your next hero phase, worsen the Rend characteristic of attacks that target that unit by 1 (to a minimum of ‘-’).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Nautilar unit within 12&quot;of the caster that is visible to them. Until your next hero phase, worsen the Rend characteristic of attacks that target that unit by 1 (to a minimum of ‘-’).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3681,7 +3673,7 @@
             <profile id="5434-d1de-8dc8-6fc0" name="Protective Barrier" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">4</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly Nautilar unit within 12&quot;of the caster that is visible to them. Until your next hero phase, worsen the Rend characteristic of attacks that target that unit by 1 (to a minimum of ‘-’).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Nautilar unit within 12&quot;of the caster that is visible to them. Until your next hero phase, worsen the Rend characteristic of attacks that target that unit by 1 (to a minimum of ‘-’).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3693,6 +3685,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="ed48-ee45-0f3d-5d2d" name="秩序 - Sylvaneth - 数据" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ed48-ee45-0f3d-5d2d" name="Order - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

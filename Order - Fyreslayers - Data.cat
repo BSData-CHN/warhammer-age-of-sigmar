@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81cf-7df5-86e6-b78f" name="秩序 - Fyreslayers - 数据" revision="36" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81cf-7df5-86e6-b78f" name="Order - Fyreslayers - Data" revision="39" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e67a-06d2-pubN65537" name="Order Battletome: Fyreslayers"/>
     <publication id="e67a-06d2-pubN69594" name="Battletome: Fyreslayers Errata, July 2018"/>
-    <publication id="68d3-0b6a-3775-07d9" name="Battletome: Fyreslayers 官方勘误, May 2019"/>
+    <publication id="68d3-0b6a-3775-07d9" name="Battletome: Fyreslayers Official Errata, May 2019"/>
     <publication id="9cbd-6717-1de9-c57a" name="White Dwarf - June 2019"/>
   </publications>
   <profileTypes>
@@ -376,8 +376,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -615,8 +613,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -702,8 +698,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -2047,7 +2041,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">1 model in this unit can be a Karl. Add 1 to the Attacks characteristic of that model’s melee weapons.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d167-8bdf-93bf-6055" name="Duty Unto 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="d167-8bdf-93bf-6055" name="Duty Unto Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this unit. Add 2 to the roll if there are any friendly FYRESLAYER HEROS within 10&quot; of this unit. On a 6+ that wound or mortal wound is negated. </characteristic>
           </characteristics>
@@ -2063,15 +2057,15 @@
       <selectionEntries>
         <selectionEntry id="b1d0-e370-cb9b-eeca" name="5 Hearthguard Berzerkers" hidden="false" collective="false" import="true" type="model">
           <modifiers>
-            <modifier type="set" field="points" value="100">
+            <modifier type="set" field="points" value="100.0">
               <conditions>
-                <condition field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+                <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="120.0"/>
@@ -2191,7 +2185,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="160.0"/>
+            <cost name="pts" typeId="points" value="140.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="40e9-9966-5df9-4a03" name="Fyresteel Throwing Axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -2281,8 +2275,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -2496,7 +2488,8 @@
       <categoryLinks>
         <categoryLink id="cb53-adbc-d886-14af" name="FYRESLAYERS" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
         <categoryLink id="f5c7-5e5c-7df2-e36a" name="MAGMIC BATTLEFORGE" hidden="false" targetId="7e0a-5085-683c-dcdc" primary="false"/>
-        <categoryLink id="f5bc-ecbe-9361-2384" name="SCENERY" hidden="false" targetId="8910-7c1d-6c74-37ff" primary="true"/>
+        <categoryLink id="f5bc-ecbe-9361-2384" name="SCENERY" hidden="false" targetId="8910-7c1d-6c74-37ff" primary="false"/>
+        <categoryLink id="b918-815b-0bf0-c71c" name="New CategoryLink" hidden="false" targetId="bc8a-9257-1601-6d62" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2761,7 +2754,7 @@
       <profiles>
         <profile id="1354-fd1d-89c2-b418" name="Ancestral Fury" publicationId="9cbd-6717-1de9-c57a" page="42" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">You can add 1 to hit rolls for attacks made with melee weapons by units from this battalion.   In addition, if the target is a 混沌 unit, you can re-roll wound rolls of 1 for melee attacks.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">You can add 1 to hit rolls for attacks made with melee weapons by units from this battalion.   In addition, if the target is a CHAOS unit, you can re-roll wound rolls of 1 for melee attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3028,8 +3021,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -3248,9 +3239,9 @@
       <selectionEntries>
         <selectionEntry id="5e52-c66e-da2e-ca56" name="1. Fury of the Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="23bd-5213-9f45-363e" name="Fury of the Fyreslayers" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="23bd-5213-9f45-363e" name="Fury of the Fyreslayers" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3260,9 +3251,9 @@
         </selectionEntry>
         <selectionEntry id="8f6e-1f10-e285-f1f1" name="2. Honors of the Ancestors" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="9404-f6c9-a2b8-fce5" name="Honour of the Ancestors" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9404-f6c9-a2b8-fce5" name="Honour of the Ancestors" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3272,9 +3263,9 @@
         </selectionEntry>
         <selectionEntry id="5d8f-f009-b293-9de0" name="3. Spirit of Grimnir" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="95d7-75c2-c5fd-52a1" name="Spirit of Grimnir" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="95d7-75c2-c5fd-52a1" name="Spirit of Grimnir" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield, when you roll to activate an ur-gold rune, it has the enhanced effect on a roll of a 5+ instead of a 6.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield, when you roll to activate an ur-gold rune, it has the enhanced effect on a roll of a 5+ instead of a 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3284,9 +3275,9 @@
         </selectionEntry>
         <selectionEntry id="cf1a-8638-6bb1-187e" name="4. Blood of the Berserker" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8179-16e1-1e64-838d" name="Blood of the Berserker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8179-16e1-1e64-838d" name="Blood of the Berserker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3&quot; of an enemy unit, they can immediately make a pile in move and then attack with all of the melee weapons they are armed with for a second time.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3&quot; of an enemy unit, they can immediately make a pile in move and then attack with all of the melee weapons they are armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3296,9 +3287,9 @@
         </selectionEntry>
         <selectionEntry id="e024-d9e2-b308-1ad1" name="5. Iron of the Guardian" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d7f3-7bee-0deb-65cd" name="Iron of the Guardian" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d7f3-7bee-0deb-65cd" name="Iron of the Guardian" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3308,9 +3299,9 @@
         </selectionEntry>
         <selectionEntry id="b2dd-a4a3-6207-ecbe" name="6. Destroyer of Foes" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="5fb5-24b3-ebb5-6f2f" name="Destroyer of Foes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="5fb5-24b3-ebb5-6f2f" name="Destroyer of Foes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this general&apos;s melee weapon.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this general&apos;s melee weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3339,9 +3330,9 @@
       <selectionEntries>
         <selectionEntry id="3081-a239-d967-38db" name="1. Fyremantle" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4c18-2485-ad1d-029a" name="Fyremantle" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4c18-2485-ad1d-029a" name="Fyremantle" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 3&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 3&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3351,9 +3342,9 @@
         </selectionEntry>
         <selectionEntry id="35b2-0072-0963-4523" name="2. Wisdom and Authority" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e5e6-5d42-3c2d-487f" name="Wisdom and Authority" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e5e6-5d42-3c2d-487f" name="Wisdom and Authority" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3363,9 +3354,9 @@
         </selectionEntry>
         <selectionEntry id="900a-6f8d-5592-85ad" name="3. Oathsayer" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0ace-d64d-70f1-d9be" name="Oathsayer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0ace-d64d-70f1-d9be" name="Oathsayer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly DUARDIN units while they are wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly DUARDIN units while they are wholly within 18&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3375,9 +3366,9 @@
         </selectionEntry>
         <selectionEntry id="87f6-19e8-33c7-7d58" name="4. Ash-beard" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0e1d-c7a5-aed6-9217" name="Ash-beard" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0e1d-c7a5-aed6-9217" name="Ash-beard" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general knows 2 prayers from the Zharrgrim Blessings table instead of 1.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general knows 2 prayers from the Zharrgrim Blessings table instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3387,9 +3378,9 @@
         </selectionEntry>
         <selectionEntry id="41fc-e9b4-3c6d-59b8" name="5. Fyresteel Weaponsmith" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3002-4e8b-3cc8-106e" name="Fyresteel Weaponsmith" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3002-4e8b-3cc8-106e" name="Fyresteel Weaponsmith" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic of this general&apos;s weapons by 1.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic of this general&apos;s weapons by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3399,9 +3390,9 @@
         </selectionEntry>
         <selectionEntry id="82f6-82b5-212f-736d" name="6. Master Priest" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f429-11b8-5ae7-933d" name="Master Priest" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f429-11b8-5ae7-933d" name="Master Priest" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your hero phase, if this general is on the battlefield, you can activate one ur-gold rune that has already been activated, instead of one that has not yet been activated.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your hero phase, if this general is on the battlefield, you can activate one ur-gold rune that has already been activated, instead of one that has not yet been activated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3793,7 +3784,7 @@
           <profiles>
             <profile id="9060-0b95-0810-6512" name="The Nulsidian Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS unit wholly within 12&quot; of the bearer is affected by a spell or 无尽法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that spell or 无尽法术 on that unit.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS unit wholly within 12&quot; of the bearer is affected by a spell or endless spell, you can roll a dice.  If you do so, on a 4+ ignore the effects of that spell or endless spell on that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3921,9 +3912,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4034-109f-e397-5c1d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9ba2-ee37-852a-8972" name="Fiery Endurance" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9ba2-ee37-852a-8972" name="Fiery Endurance" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Friendly VOSTARG units wholly within 12&quot; of this model at the start of your movement phase can run in that movement phase and still charge later in that same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Friendly VOSTARG units wholly within 12&quot; of this model at the start of your movement phase can run in that movement phase and still charge later in that same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3949,9 +3940,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a93b-7d88-4239-bc3d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8136-1537-d00a-d541" name="Battle-scarred Veteran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8136-1537-d00a-d541" name="Battle-scarred Veteran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s melee weapons while there are 5 or more enemy models within 3&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s melee weapons while there are 5 or more enemy models within 3&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3977,9 +3968,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="03e0-628b-e9ee-7c15" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ab47-ce40-ea18-00fa" name="Warrior Indominate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ab47-ce40-ea18-00fa" name="Warrior Indominate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks that target this general and friendly HERMDAR units wholly within 12&quot;.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks that target this general and friendly HERMDAR units wholly within 12&quot;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4005,9 +3996,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f38f-d602-6d0b-893e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="2bcd-5ec4-177f-3ef0" name="Explosive Charge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="2bcd-5ec4-177f-3ef0" name="Explosive Charge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>

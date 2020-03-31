@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="522a-d5b0-4c7e-321d" name="秩序 - Cities of Sigmar" revision="12" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="522a-d5b0-4c7e-321d" name="Order - Cities of Sigmar" revision="21" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="deec-d475-pubN65537" name="大联盟: 秩序"/>
+    <publication id="deec-d475-pubN65537" name="Grand Alliance: Order"/>
     <publication id="e440-9199-1072-a7a0" name="Cities of Sigmar Battletome"/>
   </publications>
   <categoryEntries>
@@ -274,7 +274,7 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="c7e4-1701-01a2-945a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="0126-9112-3602-e460" name="邪恶法术" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
+        <categoryLink id="0126-9112-3602-e460" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
         <categoryLink id="8ea4-694c-e465-47f1" name="Command Points" hidden="false" targetId="8be8-3ccd-be93-b55e" primary="false"/>
         <categoryLink id="5bad-12bc-6b0c-e07c" name="Realm of Battle" hidden="false" targetId="5e28-c4f1-4a92-b75c" primary="false">
           <constraints>
@@ -282,17 +282,46 @@
           </constraints>
         </categoryLink>
         <categoryLink id="ca6f-37ff-283b-3cdb" name="Scenery" hidden="false" targetId="bc8a-9257-1601-6d62" primary="false"/>
-        <categoryLink id="cac2-cc6c-9b33-8854" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false">
+        <categoryLink id="cac2-cc6c-9b33-8854" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false">
+          <modifiers>
+            <modifier type="increment" field="e07a-8193-2b4d-f3ae" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cccb-89cd-393f-5839" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="4779-812b-1dc7-c90c" type="max"/>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e07a-8193-2b4d-f3ae" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5ff9-a6f1-2d64-1edd" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false">
           <modifiers>
-            <modifier type="set" field="6056-22cb-9592-8b31" value="0.0"/>
+            <modifier type="increment" field="943a-11bb-9439-5959" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cccb-89cd-393f-5839" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6056-22cb-9592-8b31" type="max"/>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="943a-11bb-9439-5959" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f044-a157-4e18-453d" name="KHARADRON OVERLORDS" hidden="false" targetId="2654-58fb-a46f-b28d" primary="false">
+          <modifiers>
+            <modifier type="increment" field="1b55-0c66-b2fe-c821" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cccb-89cd-393f-5839" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b55-0c66-b2fe-c821" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -388,7 +417,15 @@
     <entryLink id="071d-634a-cd93-d735" name="Aventis Firestrike, Magister of Hammerhal" hidden="false" collective="false" import="true" targetId="c346-0cbf-16de-8230" type="selectionEntry"/>
     <entryLink id="3c05-2b98-d87f-2f15" name="Gryph-Hounds" hidden="false" collective="false" import="true" targetId="d79a-14b4-5f86-76d2" type="selectionEntry"/>
     <entryLink id="f18c-4f74-b2dd-2d98" name="Astreia Solbright" hidden="false" collective="false" import="true" targetId="0bd3-8d56-f1d3-23ea" type="selectionEntry"/>
-    <entryLink id="c9c7-b906-47d6-ac32" name="Aetherwings" hidden="false" collective="false" import="true" targetId="8940-6351-56bb-6cbf" type="selectionEntry"/>
+    <entryLink id="c9c7-b906-47d6-ac32" name="Arkanaut Admiral" hidden="false" collective="false" import="true" targetId="44ad-2801-441f-6b44" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink id="7049-faea-33ee-5e44" name="Lord-Celestant" hidden="false" collective="false" import="true" targetId="425f-9d59-b2f6-b5f0" type="selectionEntry"/>
     <entryLink id="4350-4cc6-872b-f944" name="Knight-Zephyros" hidden="false" collective="false" import="true" targetId="40dd-3878-4b37-f96e" type="selectionEntry"/>
     <entryLink id="350e-71bd-c203-8330" name="Lord-Castellant" hidden="false" collective="false" import="true" targetId="15e7-d7b5-5bed-3c54" type="selectionEntry"/>
@@ -445,6 +482,233 @@
     <entryLink id="0edf-d7be-5e5b-58e7" name="Vanguard-Raptors with Hurricane Crossbows" hidden="false" collective="false" import="true" targetId="f013-a130-757f-6fbd" type="selectionEntry"/>
     <entryLink id="75df-b478-0bbf-3747" name="Vanguard-Palladors" hidden="false" collective="false" import="true" targetId="495f-0703-ade1-f179" type="selectionEntry"/>
     <entryLink id="42d1-1320-0c15-07d3" name="Vanguard-Raptors with Longstrike Crossbows" hidden="false" collective="false" import="true" targetId="5a5d-a64b-6f2e-0ed9" type="selectionEntry"/>
+    <entryLink id="97d2-1b8e-1a52-edda" name="Celestial Hurricanum" hidden="false" collective="false" import="true" targetId="9329-90d0-1c0a-eb4b" type="selectionEntry"/>
+    <entryLink id="7144-7385-d80d-4002" name="Aetherwings" hidden="false" collective="false" import="true" targetId="8940-6351-56bb-6cbf" type="selectionEntry"/>
+    <entryLink id="a2b5-e110-1374-c73e" name="Thundrik&apos;s Profiteers" hidden="false" collective="false" import="true" targetId="128e-d958-e7d6-7cbc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="fdf9-180a-29f6-1d01" name="Skywardens" hidden="false" collective="false" import="true" targetId="6891-3bc7-0d14-3e01" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="24b7-5eaf-fe79-9e15" name="Grundstok Thunderers" hidden="false" collective="false" import="true" targetId="395d-4f2c-c544-43aa" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="230e-11c9-2e99-be8e" name="Grundstok Gunhauler" hidden="false" collective="false" import="true" targetId="fb69-6292-fcca-fba7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8b5c-7b9e-4658-3aa5" name="Endrinriggers" hidden="false" collective="false" import="true" targetId="0064-c926-85e4-d674" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="33ef-bd0f-422f-70fc" name="Endrinmaster" hidden="false" collective="false" import="true" targetId="b35b-ad7f-1673-0c71" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="c086-afe9-869f-03ec" name="Brokk Grungsson, Lord-Magnate of Barak-Nar" hidden="false" collective="false" import="true" targetId="dcd4-8e51-66c7-b222" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="0827-680d-00a8-f346" name="Bjorgen Thundrik" hidden="false" collective="false" import="true" targetId="616d-36bf-1a46-641e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9fad-f475-5416-3ffe" name="Arkanaut Ironclad" hidden="false" collective="false" import="true" targetId="fc3c-8879-dd3f-9e53" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="edc7-796e-18bb-e70c" name="Arkanaut Frigate" hidden="false" collective="false" import="true" targetId="75d5-622e-f185-7ce2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8eda-148d-6ff5-4d95" name="Arkanaut Company" hidden="false" collective="false" import="true" targetId="7d60-6000-c3d0-0a22" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11e1-564a-b824-ac65" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="1822-325f-051c-3ee9" name="Alarielle the Everqueen" hidden="false" collective="false" import="true" targetId="4d73-8d1e-89ba-a66a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b63d-b5ad-1bb5-cd3d" name="Branchwraith" hidden="false" collective="false" import="true" targetId="67ae-bbfe-04fe-0e20" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="353e-836d-65c5-2332" name="Treelord" hidden="false" collective="false" import="true" targetId="0861-c6bd-bf12-f2f4" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9eb9-a6a4-aae5-25b3" name="Ylthari" hidden="false" collective="false" import="true" targetId="87c1-5306-8bdd-b182" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="c39d-0365-4949-3342" name="Treelord Ancient" hidden="false" collective="false" import="true" targetId="524f-f49b-0bfd-9414" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2b89-e02d-a1c1-0725" name="Ylthari&apos;s Guardians" hidden="false" collective="false" import="true" targetId="2b90-c828-a79b-d060" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="592b-4e15-08ae-d18e" name="Tree-Revenants" hidden="false" collective="false" import="true" targetId="a74a-7377-3ed9-0f5e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2820-0ce3-478e-01cd" name="Spite-Revenants" hidden="false" collective="false" import="true" targetId="b487-315c-b64c-88b0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2428-7a22-fb1c-c4f1" name="Spirit of Durthu" hidden="false" collective="false" import="true" targetId="ef77-af66-26da-3a02" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="eee7-4df7-28f6-d870" name="Kurnoth Hunters" hidden="false" collective="false" import="true" targetId="e14d-00c2-5ed8-220a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="c335-92eb-ec01-582b" name="Drycha Hamadreth" hidden="false" collective="false" import="true" targetId="02a8-7840-22ef-b8f5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4573-bbf0-dbed-18ff" name="Dryads" hidden="false" collective="false" import="true" targetId="0a14-90fc-1335-3c79" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="5dbb-671b-2b49-97fa" name="Branchwych" hidden="false" collective="false" import="true" targetId="d65c-84f8-43bf-d534" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="deeb-958b-2074-a389" name="Arch-Revenant" hidden="false" collective="false" import="true" targetId="ff4d-f06f-e2c4-9513" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9814-af33-d747-6185" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="d618-803c-36f8-0a3a" name="General" hidden="false" collective="false" import="true" type="upgrade">
@@ -453,8 +717,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -472,13 +734,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9865-28bf-ab8f-c3bf" name="Kharibdyss" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
+      <modifierGroups>
+        <modifierGroup>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e169-1633-ace8-c25d" type="equalTo"/>
           </conditions>
-        </modifier>
-      </modifiers>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e"/>
+            <modifier type="remove" field="category" value="fa0c-9044-2568-fa02"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="bd42-a554-1de0-2b8c" name="Kharibdyss" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -648,6 +914,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="7665-fda0-a726-1ded" name="Drakeblood Curses" hidden="false" collective="false" import="true" targetId="499e-0250-d265-b75b" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="170.0"/>
       </costs>
@@ -732,8 +1001,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -801,7 +1068,7 @@
       <selectionEntries>
         <selectionEntry id="8b70-d38e-1e61-d8ed" name="10 Black Ark Corsairs" hidden="false" collective="false" import="true" type="model">
           <modifiers>
-            <modifier type="set" field="points" value="60.0">
+            <modifier type="set" field="points" value="70.0">
               <conditions>
                 <condition field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
               </conditions>
@@ -1070,7 +1337,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87f8-d0f2-e2c7-0668" name="Allegiance" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="87f8-d0f2-e2c7-0668" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="06ec-3221-cc77-09c5" value="0.0">
           <conditions>
@@ -1120,7 +1387,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="c078-f8c8-4ed7-5207" name="Amplified Sorceries" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If a CITIES OF SIGMAR WIZARD successfully casts an 无尽法术 and that spell has any of the abilities listed below, those abilities are in effect for that spell regardless of the realm in which the battle is taking place.
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If a CITIES OF SIGMAR WIZARD successfully casts an endless spell and that spell has any of the abilities listed below, those abilities are in effect for that spell regardless of the realm in which the battle is taking place.
 
 • Empowered by Aqshy
 • Empowered by Chamon
@@ -1133,7 +1400,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="d9e3-9e7b-a36b-304d" name="Warriors of the Realms" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">The battle traits for each City of Sigmar will list the Mortal Realm in which the city is located. If you are using the rules from Warhammer Age of Sigmar: 邪恶法术, your army must be from the same Mortal Realm as the one in which the city is based. In the case of Hammerhal, your army can be from either Aqshy or Ghyran.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">The battle traits for each City of Sigmar will list the Mortal Realm in which the city is located. If you are using the rules from Warhammer Age of Sigmar: Malign Sorcery, your army must be from the same Mortal Realm as the one in which the city is based. In the case of Hammerhal, your army can be from either Aqshy or Ghyran.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="6ce6-000d-8d40-711a" name="Honoured Retinue" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -1158,7 +1425,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="40a7-f61a-bd3d-4e3b" name="Stormkeeps" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">1 in every 4 units in a Cities of Sigmar army can be a 雷铸神兵 unit. Those units gain the CITIES OF SIGMAR keyword and the city keyword chosen for your army.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">1 in every 4 units in a Cities of Sigmar army can be a STORMCAST ETERNALS unit. Those units gain the CITIES OF SIGMAR keyword and the city keyword chosen for your army.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1303,7 +1570,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                         </profile>
                         <profile id="4145-7c28-5937-6e75" name="Eldritch Attunement" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                           <characteristics>
-                            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Each time a friendly HALLOWHEART unit is affected by a spell or 无尽法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that spell or 无尽法术 on that unit.</characteristic>
+                            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Each time a friendly HALLOWHEART unit is affected by a spell or endless spell, you can roll a dice. If you do so, on a 5+, ignore the effects of that spell or endless spell on that unit.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="6683-4a01-4e7b-28b4" name="Mages of the Whitefire Court" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -1569,8 +1836,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
@@ -1625,7 +1890,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="d8bf-1a98-1d5b-f59e" name="Blessing of the Ur-Phoenix" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 无尽法术 in your hero phase and attempt to unbind 1 spell in the enemy hero phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 endless spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1666,8 +1931,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -1737,8 +2000,8 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <categoryLink id="663f-709e-8230-89fe" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="41d9-593e-6ef0-9dd7" name="AELF" hidden="false" targetId="7fe9-bc03-2c82-0a00" primary="false"/>
         <categoryLink id="e934-87d7-17fa-babd" name="CITIES OF SIGMAR" hidden="false" targetId="cccb-89cd-393f-5839" primary="false"/>
-        <categoryLink id="7f47-2209-7bdb-8104" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
         <categoryLink id="33b5-85bd-ba50-351e" name="PHOENIX TEMPLE" hidden="false" targetId="9713-6dce-4061-3e7f" primary="false"/>
+        <categoryLink id="b0b7-e5df-f9de-1d5e" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a0c2-c9a2-77f1-e959" name="10 Phoenix Guard" hidden="false" collective="false" import="true" type="model">
@@ -1992,8 +2255,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
@@ -2055,7 +2316,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       <categoryLinks>
         <categoryLink id="98b6-66af-9c45-a331" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="81ae-af82-657a-73ab" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
-        <categoryLink id="9eff-db32-e420-c4f2" name="自由民" hidden="false" targetId="3aa6-d62f-0782-ea99" primary="false"/>
+        <categoryLink id="9eff-db32-e420-c4f2" name="FREE PEOPLES" hidden="false" targetId="3aa6-d62f-0782-ea99" primary="false"/>
         <categoryLink id="bacd-3f8e-17ac-680e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="c631-673d-f956-0e17" name="HUMAN" hidden="false" targetId="2308-7db2-829e-94b3" primary="false"/>
       </categoryLinks>
@@ -2082,9 +2343,30 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="fe29-1d66-afed-a78c" name="General" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793e-286b-5e08-9cc7" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="419a-8210-3e30-e891" name="New CategoryLink" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="77cb-744e-15bd-47f7" name="General" hidden="false" collective="false" import="true" targetId="d618-803c-36f8-0a3a" type="selectionEntry"/>
         <entryLink id="bf2e-7f90-ae02-a649" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
         <entryLink id="0db5-7cd7-cefa-6fa4" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="81ea-80eb-4cbe-2e15" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
@@ -2242,8 +2524,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -2339,7 +2619,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="77cb-744e-15bd-47f7" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe29-1d66-afed-a78c" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b2f-302f-2c13-6c55" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -2499,7 +2779,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="77cb-744e-15bd-47f7" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe29-1d66-afed-a78c" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b2f-302f-2c13-6c55" type="equalTo"/>
               </conditions>
             </conditionGroup>
@@ -2618,6 +2898,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="ce08-26df-f117-e698" name="Freeguild Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="ba80-dced-cba4-32c8" name="Freeguild Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -3150,6 +3437,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="74b7-10a4-e9c7-8035" name="Freeguild Handgunners" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0afb-97f7-137f-59bf" name="Freeguild Handgunners" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -3346,6 +3640,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="731e-cbfa-70d8-28eb" name="Freeguild Crossbowmen" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="0a16-3981-aebd-c05e" name="Freeguild Crossbowmen" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -3473,7 +3774,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="77cb-744e-15bd-47f7" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe29-1d66-afed-a78c" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d1c-6293-dfdb-1b9f" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccd7-d678-30e1-2e26" type="equalTo"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2131-fb28-e411-de37" type="equalTo"/>
@@ -3634,8 +3935,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -3665,7 +3964,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="db1b-93cb-1ff5-eeef" name="Transmutation of Lead" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of the unit you picked, rounding up. In addition, if that unit has a Save characteristic of 2+, 3+ or 4+, you can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of the unit you picked, rounding up. In addition, if that unit has a Save characteristic of 2+, 3+ or 4+, you can re-roll hit rolls of 1 for attacks that target that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3678,7 +3977,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="d6c0-169a-3442-d911" name="Mystifying Miasma" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3691,7 +3990,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="ac6b-4426-8e11-d42b" name="Fireball" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. If the enemy unit has 1 model, it suffers 1 mortal wound; if it has 2 to 9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3704,7 +4003,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="ed99-b95d-e3b4-62bd" name="Light of Battle" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">4</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a unit within 18&quot;. That unit does not need to take battleshock tests until your next hero phase. The magical aura surrounding that unit alao ennobles nearby allies until your next hero phase; other units from your army within 6&quot; of this unit in the battleshock phase add 1 to their Bravery.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a unit within 18&quot;. That unit does not need to take battleshock tests until your next hero phase. The magical aura surrounding that unit alao ennobles nearby allies until your next hero phase; other units from your army within 6&quot; of this unit in the battleshock phase add 1 to their Bravery.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3717,7 +4016,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="4e59-02a6-e7cd-0ca8" name="Pall of Doom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 2 from the Bravery characteristic of that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 2 from the Bravery characteristic of that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3730,7 +4029,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="a93e-10f8-c5a4-d281" name="Pha’s Protection" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3743,7 +4042,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="ed9f-748e-d128-242f" name="Chain Lightning" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then, roll a dice for every other enemy unit within 6&quot; of the original target. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then, roll a dice for every other enemy unit within 6&quot; of the original target. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3756,7 +4055,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="14c2-e6d8-29c0-7bbf" name="Shield of Thorns" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Until your next hero phase, any enemy unit that finishes a charge move within 3&quot; of that unit suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 18&quot; of the caster that is visible to them. Until your next hero phase, any enemy unit that finishes a charge move within 3&quot; of that unit suffers D3 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3769,7 +4068,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="304a-ccde-ae54-1928" name="Wildform" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3801,7 +4100,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="34eb-4e96-46ab-8f5b" name="Amber Spear" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 point on the battlefield within 18&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster’s base. Roll a dice for each unit that has models passed across by this line. On a 2+, that unit suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 point on the battlefield within 18&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster’s base. Roll a dice for each unit that has models passed across by this line. On a 2+, that unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="f212-c0a5-7351-d537" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -3863,7 +4162,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="d5eb-0bb5-f1fe-e258" name="Wildform" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 12&quot; of the caster that is visible to them. Add 2 to run and charge rolls for that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="5c0b-9033-84a8-211f" name="Two-headed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -3962,8 +4261,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -4164,7 +4461,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="d85a-b4dc-c317-01df" name="Burning Gaze" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a visible unit within 18&quot;. That unit suffers D3 mortal wounds.  Double the number of wounds inflicted if the target has 10 or more models, and tripple them if the target has 20 or more.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a visible unit within 18&quot;. That unit suffers D3 mortal wounds.  Double the number of wounds inflicted if the target has 10 or more models, and tripple them if the target has 20 or more.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="4aaa-b04f-4c12-78a3" name="White Battlemage" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
@@ -4216,8 +4513,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
@@ -4430,7 +4725,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <profile id="01ba-37dc-2346-fb98" name="Comet of Casandora" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
                   <characteristics>
                     <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a unit within 18&quot; of the caster.  Your opponent must then select one of his units that is within 18&quot; of the caster (this can be the same unit as the one you chose).  Then roll a dice; on a 1, 2, or 3 the unit your opponent picked is struck by the falling comet, and on a 4 or more, the unit you picked is struck.  That unit suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a unit within 18&quot; of the caster.  Your opponent must then select one of his units that is within 18&quot; of the caster (this can be the same unit as the one you chose).  Then roll a dice; on a 1, 2, or 3 the unit your opponent picked is struck by the falling comet, and on a 4 or more, the unit you picked is struck.  That unit suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4471,8 +4766,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                           </conditions>
                         </conditionGroup>
@@ -4527,7 +4820,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="8f79-9c8c-1852-1d30" name="Bladewind" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them and roll 9 dice. For each roll that is lower than that unit’s Save characteristic, that unit suffers 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them and roll 9 dice. For each roll that is lower than that unit’s Save characteristic, that unit suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="ef57-ae2d-8998-75c0" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -4677,8 +4970,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -4763,7 +5054,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <profile id="a7d1-746b-3841-1ce5" name="Word of Pain" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, subtract 1 from hit rolls for attacks made by that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, subtract 1 from hit rolls for attacks made by that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="181f-e59a-b751-1a31" name="Blood Sacrifice" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4833,8 +5124,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -4975,6 +5264,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="56fd-4c2f-2017-2d40" name="Bleakswords" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="45e4-dc95-12aa-50bd" name="Quicksilver Strike" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
@@ -5318,6 +5614,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="35f4-2d7e-bbbf-6beb" name="Darkshards" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="2df2-cba0-abcd-6566" name="Storm of Iron-tipped Bolts" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
@@ -5514,7 +5817,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="1842-852d-c399-4cb7" name="Runes of Spellbreaking" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 无尽法术 in your hero phase and attempt to unbind 1 spell in the enemy hero phase. Add 2 to dispelling and unbinding rolls for this model.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 endless spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. Add 2 to dispelling and unbinding rolls for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f3c2-02f5-00ee-b5a5" name="Rune Lore" publicationId="e440-9199-1072-a7a0" page="1" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5593,8 +5896,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -5622,6 +5923,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="9e59-4856-0e32-fbf8" name="Longbeards" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="f3db-1f2f-f5d9-fe6b" name="Longbeards" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -5648,7 +5956,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="511e-bb08-55a9-0449" name="‘Too much damned magic flying about these days!’" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">A unit with this complaint can attempt to dispel 1 无尽法术 in your hero phase.</characteristic>
+            <characteristic name="Description" typeId="0746-6cfb-5e15-53cb">A unit with this complaint can attempt to dispel 1 endless spell in your hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="2476-4422-a468-44cf" name="Old Guard" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -6007,6 +6315,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       </costs>
     </selectionEntry>
     <selectionEntry id="5f50-d933-1d15-de3e" name="Ironbreakers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="349f-80c7-b6f6-9721" name="Ironbreakers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -6418,8 +6733,6 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -7066,11 +7379,6 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If any ORDER SERPENTIS models from your army flee whilst within 3&quot; of this Dreadlord, they will be ruthlessly cut apart, flayed or otherwise murdered by him as an example to those who would disappoint him.  If this happens, other ORDER SERPENTIS units from your army do not need to take battleshock tests in the same phase if they are within 14&quot; of this Dreadlord.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e212-f54c-e05e-40d3" name="Exile Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
-          <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a Dreadlord has two Exile Blades you can re-roll hit rolls of 1 when he attacks with them.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="5f7c-de20-f459-78dc" name="Do Not Disappoint Me" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
             <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly HERO that knows this ability. Add 1 to wound rolls for attacks made by friendly ORDER SERPENTIS units that are wholly within 18&quot; of that HERO. A unit cannot benefit from this command ability more than once per phase.</characteristic>
@@ -7201,8 +7509,6 @@ The Rocket Battery and its crew are treated as a single model, using the charact
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -7366,13 +7672,17 @@ The Rocket Battery and its crew are treated as a single model, using the charact
       </costs>
     </selectionEntry>
     <selectionEntry id="48f0-e54b-c47b-15fd" name="War Hydra" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
+      <modifierGroups>
+        <modifierGroup>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e169-1633-ace8-c25d" type="equalTo"/>
           </conditions>
-        </modifier>
-      </modifiers>
+          <modifiers>
+            <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e"/>
+            <modifier type="remove" field="category" value="fa0c-9044-2568-fa02"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="2d63-2c2e-fdcd-9242" name="War Hydra" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -7713,7 +8023,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c68-b413-f1a8-6c43" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="170.0"/>
+            <cost name="pts" typeId="points" value="150.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cc5d-50aa-f8fc-4b08" name="Barbed Lance" hidden="false" collective="false" import="true" type="upgrade">
@@ -8214,8 +8524,6 @@ The Rocket Battery and its crew are treated as a single model, using the charact
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -8564,8 +8872,6 @@ The Rocket Battery and its crew are treated as a single model, using the charact
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -8593,6 +8899,13 @@ The Rocket Battery and its crew are treated as a single model, using the charact
       </costs>
     </selectionEntry>
     <selectionEntry id="d6a0-e2ca-0820-59f0" name="Eternal Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="d508-1ef7-b2c0-90d0" name="Eternal Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -9063,7 +9376,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
         <profile id="20fd-93f6-de9d-10c2" name="Armour of Thorns" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">7</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">如果施放成功, pick 1 friendly WANDERERS unit wholly within 18&quot; of the caster that is visible to them. Until that unit moves, that unit is treated as being in cover.
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly WANDERERS unit wholly within 18&quot; of the caster that is visible to them. Until that unit moves, that unit is treated as being in cover.
 
 In addition, until that unit moves, if the unmodified save roll for an attack made with a melee weapon that targets that unit is 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
           </characteristics>
@@ -9510,8 +9823,6 @@ If the roll is equal to or greater than the number of wounds currently allocated
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                       </conditions>
                     </conditionGroup>
@@ -9623,9 +9934,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b67-5e72-faa4-6e36" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e49d-ce31-06f8-1745" name="Acadamae Prodigy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e49d-ce31-06f8-1745" name="Acadamae Prodigy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general’s melee weapons. In addition, at the start of the battle, you receive 1 extra command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general’s melee weapons. In addition, at the start of the battle, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9638,9 +9949,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e36-45e3-e24c-0132" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9ce8-d0d9-8fc5-e105" name="Blood of the Twelve" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9ce8-d0d9-8fc5-e105" name="Blood of the Twelve" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with melee weapons by friendly HAMMERHAL units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with melee weapons by friendly HAMMERHAL units wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9653,9 +9964,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a6a9-2d97-268a-a9ed" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c8a-4bd4-2037-582f" name="Aggressive General" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9c8a-4bd4-2037-582f" name="Aggressive General" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with melee weapons by friendly HAMMERHAL units that are wholly within 12&quot; of this general if this general made a charge move in the same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with melee weapons by friendly HAMMERHAL units that are wholly within 12&quot; of this general if this general made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9879,7 +10190,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <profile id="03cf-3034-fd80-2bb2" name="Wings of Fire" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit that is visible to the caster. Add 1 to run and charge rolls for that unit until the start of your next hero phase. In addition, until the start of your next hero phase, that unit can fly</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit that is visible to the caster. Add 1 to run and charge rolls for that unit until the start of your next hero phase. In addition, until the start of your next hero phase, that unit can fly</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9895,7 +10206,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <profile id="054f-fd09-caa5-26c3" name="Cindercloud" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, subtract 1 from hit rolls for attacks that target friendly units wholly within 9&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, subtract 1 from hit rolls for attacks that target friendly units wholly within 9&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9911,7 +10222,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <profile id="3c79-6a99-3783-0566" name="Twin-tailed Comet" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If that unit has 10 or more models, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If that unit has 10 or more models, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9949,9 +10260,9 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a205-9cc8-f2b0-9018" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8751-98a9-cdd5-413c" name="Ironoak Artisan" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8751-98a9-cdd5-413c" name="Ironoak Artisan" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general. In addition, add 1 to wound rolls for attacks made with melee weapons by this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general. In addition, add 1 to wound rolls for attacks made with melee weapons by this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9964,9 +10275,9 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5bae-cd48-ba1d-2a64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c6f9-6715-0b36-fdc5" name="Forest Strider" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="c6f9-6715-0b36-fdc5" name="Forest Strider" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can run and still charge in the same turn. In addition, friendly units are not affected by the Deadly scenery rule if they start a move wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can run and still charge in the same turn. In addition, friendly units are not affected by the Deadly scenery rule if they start a move wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9979,9 +10290,9 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL unit wholly within 12&quo
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b6d-a217-a9e9-5126" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e697-754e-f028-9e81" name="Druid of the Everspring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e697-754e-f028-9e81" name="Druid of the Everspring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, they know all spells from the Lore of Leaves instead of only 1. If this general is not a WIZARD, they know 1 spell from the Lore of Leaves and can attempt to cast it in their hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, they know all spells from the Lore of Leaves instead of only 1. If this general is not a WIZARD, they know 1 spell from the Lore of Leaves and can attempt to cast it in their hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10086,7 +10397,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="e6da-f48b-c3bf-6bc1" name="Lifesurge" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly model within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that model.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly model within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10102,7 +10413,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="f5ae-bf6d-96ad-645c" name="Cage of Thorns" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Halve the Move characteristic of that unit until the start of your next hero phase. In addition, until the start of your next hero phase, the first time that unit moves, it suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Halve the Move characteristic of that unit until the start of your next hero phase. In addition, until the start of your next hero phase, the first time that unit moves, it suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10118,7 +10429,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="2ce3-adfa-bfe8-7214" name="Ironoak Skin" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10145,9 +10456,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7817-92d4-8866-aa14" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7c19-e70f-0c0e-eecd" name="Seat on the Council" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7c19-e70f-0c0e-eecd" name="Seat on the Council" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, if this general is on the battlefield, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, if this general is on the battlefield, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10160,9 +10471,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cc4-e11c-9ab1-7bc5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b2dd-d244-48b8-77ea" name="Drillmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="b2dd-d244-48b8-77ea" name="Drillmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls of 1 for attacks made with missile weapons by friendly GREYWATER FASTNESS units that are wholly within 12&quot; of this general while this general is more than 3&quot; away from any enemy units.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls of 1 for attacks made with missile weapons by friendly GREYWATER FASTNESS units that are wholly within 12&quot; of this general while this general is more than 3&quot; away from any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10175,9 +10486,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c49-bcac-c4d8-9a4b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b3ce-60ab-647e-4ad2" name="Ghoul Mere Ranger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="b3ce-60ab-647e-4ad2" name="Ghoul Mere Ranger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your shooting phase, friendly units wholly within 12&quot; of this general can shoot even if they ran in the same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your shooting phase, friendly units wholly within 12&quot; of this general can shoot even if they ran in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10275,7 +10586,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="8c2e-6fb1-e701-cdc5" name="Descending Ash Cloud" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10291,7 +10602,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="c291-1a30-5032-0152" name="Eroding Blast" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 terrain feature wholly within 18&quot; of the caster that is visible to them. Roll 1 dice for each model within 1&quot; of that terrain feature. For each 5+, that model’s unit suffers 1 mortal wound. In addition, until your next hero phase, that terrain feature has the Deadly scenery rule in addition to any other scenery rules it may have.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 terrain feature wholly within 18&quot; of the caster that is visible to them. Roll 1 dice for each model within 1&quot; of that terrain feature. For each 5+, that model’s unit suffers 1 mortal wound. In addition, until your next hero phase, that terrain feature has the Deadly scenery rule in addition to any other scenery rules it may have.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10307,7 +10618,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="585d-b37f-f4b3-bcba" name="Choking Fumes" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 15&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 15&quot; of the caster. For each 5+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 15&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 15&quot; of the caster. For each 5+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10334,9 +10645,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b800-0feb-e612-69e1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5613-164d-9820-b684" name="Seeker of Vengeance" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="5613-164d-9820-b684" name="Seeker of Vengeance" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general’s melee weapons if 1 or more friendly models have been slain in the same phase. Add 3 to the Attacks characteristic of this general’s melee weapons instead of 1 if 5 or more friendly models have been slain in the same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general’s melee weapons if 1 or more friendly models have been slain in the same phase. Add 3 to the Attacks characteristic of this general’s melee weapons instead of 1 if 5 or more friendly models have been slain in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10349,9 +10660,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3455-4ae8-02c9-7559" type="max"/>
           </constraints>
           <profiles>
-            <profile id="aaf6-2cfe-63c5-e9cb" name="One with Fire and Ice" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="aaf6-2cfe-63c5-e9cb" name="One with Fire and Ice" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, they know all spells from the Lore of the Phoenix instead of only 1. If this general is not a WIZARD, they know 1 spell from the Lore of the Phoenix and can attempt to cast it in your hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, they know all spells from the Lore of the Phoenix instead of only 1. If this general is not a WIZARD, they know 1 spell from the Lore of the Phoenix and can attempt to cast it in your hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10364,9 +10675,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f001-099f-8449-a37c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2859-9a17-6153-5726" name="Aura of Serenity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="2859-9a17-6153-5726" name="Aura of Serenity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly PHOENICIUM units while they are wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly PHOENICIUM units while they are wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10464,7 +10775,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="f07c-9d9d-1eb1-e85e" name="Amber Tide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, halve that unit’s Move characteristic.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, halve that unit’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10480,7 +10791,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="fc7c-d3cc-af48-f6ad" name="Phoenix Cry" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, subtract 1 from the Bravery characteristic of enemy units while they are within 18&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, subtract 1 from the Bravery characteristic of enemy units while they are within 18&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10496,7 +10807,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="7d47-b207-1d60-cb33" name="Golden Mist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, you can heal D3 wounds allocated to each friendly PHOENICIUM unit within 12&quot; of the caster that is visible to them.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can heal D3 wounds allocated to each friendly PHOENICIUM unit within 12&quot; of the caster that is visible to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10523,9 +10834,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29fa-bb28-3921-4b23" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9fe2-954b-a577-8741" name="Blackfang Crimelord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9fe2-954b-a577-8741" name="Blackfang Crimelord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Pick 2 different benefits of illicit dealing instead of 1 (see the Illicit Dealings battle trait above).</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Pick 2 different benefits of illicit dealing instead of 1 (see the Illicit Dealings battle trait above).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10538,9 +10849,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a64-e34d-98ca-b022" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8408-6449-513f-3f7a" name="Slayer of Monsters" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8408-6449-513f-3f7a" name="Slayer of Monsters" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for attacks made by this general that target an enemy MONSTER.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for attacks made by this general that target an enemy MONSTER.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10553,9 +10864,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1786-07ff-139b-e749" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8074-0a78-5835-6857" name="Secretive Warlock" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8074-0a78-5835-6857" name="Secretive Warlock" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, they know all spells from the Lore of Dark Sorcery instead of only 1. If this general is not a WIZARD, they know 1 spell from the Lore of Dark Sorcery and can attempt to cast it in their hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, they know all spells from the Lore of Dark Sorcery instead of only 1. If this general is not a WIZARD, they know 1 spell from the Lore of Dark Sorcery and can attempt to cast it in their hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10653,7 +10964,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="4fb0-42f7-4d4a-4d98" name="Sap Strength" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10669,7 +10980,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="1f00-8038-00bc-b187" name="Shadow Daggers" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 9&quot; of the caster that is visible to them. That unit suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 9&quot; of the caster that is visible to them. That unit suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10685,7 +10996,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="0bc4-ed54-ce57-3d65" name="Vitriolic Spray" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 6&quot; of the caster that is visible to them. Until the start of your next hero phase, that unit has a Save characteristic of ‘-’.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 6&quot; of the caster that is visible to them. Until the start of your next hero phase, that unit has a Save characteristic of ‘-’.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10777,9 +11088,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d41-37a5-f53a-7746" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e4e0-6c99-e048-7393" name="Crusade" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e4e0-6c99-e048-7393" name="Crusade" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly HALLOWHEART units while they are wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly HALLOWHEART units while they are wholly within 18&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10792,9 +11103,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="544f-0212-5630-fdbe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1163-7c75-94ee-d755" name="Warden of the Flame" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1163-7c75-94ee-d755" name="Warden of the Flame" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10807,9 +11118,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3594-0120-553c-aa5c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6f80-043b-e5b7-a0b6" name="Famed Spell-hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6f80-043b-e5b7-a0b6" name="Famed Spell-hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, add 3 to the roll when this general attempts to dispel an 无尽法术. If this general is not a WIZARD, they can attempt to dispel 1 无尽法术 in your hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is a WIZARD, add 3 to the roll when this general attempts to dispel an endless spell. If this general is not a WIZARD, they can attempt to dispel 1 endless spell in your hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10907,7 +11218,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="34fe-893e-af1f-29f0" name="Roaming Wildfire" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then roll a dice for each other enemy unit within 6&quot; of that unit. On a 4+, that other unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Then roll a dice for each other enemy unit within 6&quot; of that unit. On a 4+, that other unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10923,7 +11234,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="0844-1def-3df2-673d" name="Sear Wounds" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit within 18&quot; of the caster that is visible to them. You can heal up to D6 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10939,7 +11250,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="45c5-3ed3-58dc-b41f" name="Elemental Cyclone" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 12&quot; of the caster. For each 4+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Roll 1 dice for each model from that unit that is within 12&quot; of the caster. For each 4+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10955,7 +11266,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="5006-a1b9-6f85-b253" name="Ignite Weapons" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Add 1 to wound rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Add 1 to wound rolls for attacks made by that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10971,7 +11282,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="4d42-39a8-72b2-56f2" name="Crystal Aegis" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, add 1 to rolls for the Eldritch Attunement battle trait (see opposite) for friendly HALLOWHEART units wholly within 12&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, add 1 to rolls for the Eldritch Attunement battle trait (see opposite) for friendly HALLOWHEART units wholly within 12&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10987,7 +11298,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="c735-4cbc-eeaf-e9d7" name="Warding Brand" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, roll a dice each time a wound inflicted by a melee weapon is allocated to a model from that unit and not negated. On a 4+, the attacking unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly unit wholly within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, roll a dice each time a wound inflicted by a melee weapon is allocated to a model from that unit and not negated. On a 4+, the attacking unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11014,9 +11325,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b295-73fb-2fe5-ebf7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="84b8-63b6-f927-58df" name="Aetherguard Captain" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="84b8-63b6-f927-58df" name="Aetherguard Captain" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly TEMPEST’S EYE units while they are wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly TEMPEST’S EYE units while they are wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11029,9 +11340,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69e2-f7fb-74b3-54b3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b5cb-2a64-efdf-a2bb" name="Hawk-eyed" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="b5cb-2a64-efdf-a2bb" name="Hawk-eyed" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for attacks made with missile weapons by friendly TEMPEST’S EYE units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for attacks made with missile weapons by friendly TEMPEST’S EYE units wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11044,9 +11355,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0012-d0ae-f131-cee6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2863-ea5d-b3cb-1558" name="Swift as the Wind" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="2863-ea5d-b3cb-1558" name="Swift as the Wind" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can run and still charge in the same turn. In addition, this general (and their mount) fights at the start of the combat phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can run and still charge in the same turn. In addition, this general (and their mount) fights at the start of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11144,7 +11455,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="783d-2ed1-f5db-97a0" name="Aura of Glory" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until the start of your next hero phase, add 1 to the Attacks characteristic of melee weapons used by friendly TEMPEST’S EYE units while they are wholly within 12&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until the start of your next hero phase, add 1 to the Attacks characteristic of melee weapons used by friendly TEMPEST’S EYE units while they are wholly within 12&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11160,7 +11471,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="6def-3ed9-6dad-11e8" name="Strike of Eagles" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 30&quot; of the caster that is visible to them, and roll 6 dice. For each 4+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 30&quot; of the caster that is visible to them, and roll 6 dice. For each 4+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11176,7 +11487,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <profile id="fc07-bae2-42e9-d18a" name="Celestial Visions" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, you receive 1 extra command point.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11188,7 +11499,8 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="22e0-2a9a-1fc7-b22e" name="秩序 - Kharadron Overlords - 数据" targetId="3981-271d-5871-845b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - 雷铸神兵 - 数据" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="22e0-2a9a-1fc7-b22e" name="Order - Kharadron Overlords - Data" targetId="3981-271d-5871-845b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9f18-49b4-4322-487b" name="Order - Stormcast Eternals - Data" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0d03-03c0-3de1-50fc" name="Order - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

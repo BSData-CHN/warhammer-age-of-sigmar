@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e37a-2f18-f168-6ed3" name="死亡: Legions of Nagash and Nighthaunt 数据" revision="11" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e37a-2f18-f168-6ed3" name="Death: Legions of Nagash and Nighthaunt Data" revision="12" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e320-d5ec-pubN65537" name="Battletome: Legions of Nagash and Battletome: Nighthaunt"/>
     <publication id="e320-d5ec-pubN65555" name="Battletome: Nighthaunt"/>
-    <publication id="e320-d5ec-pubN90237" name="大联盟: 死亡"/>
+    <publication id="e320-d5ec-pubN90237" name="Grand Alliance: Death"/>
     <publication id="e320-d5ec-pubN95707" name="Legions of Nagash"/>
     <publication id="e320-d5ec-pubN101284" name="Battletome: Legions of Nagash"/>
     <publication id="e320-d5ec-pubN102904" name="Vampire Counts: Warscroll Compendium"/>
     <publication id="e320-d5ec-pubN126193" name="Soul Wars"/>
     <publication id="e320-d5ec-pubN143137" name="Warhammer Underworlds: Nightvault"/>
     <publication id="e320-d5ec-pubN155726" name="Tomb Kings: Warscroll Compendium"/>
-    <publication id="241a-2f06-84ad-d21d" name="死亡 Battletome: Nighthaunt"/>
+    <publication id="241a-2f06-84ad-d21d" name="Death Battletome: Nighthaunt"/>
   </publications>
   <profileTypes>
     <profileType id="c098-3f9a-28af-206d" name="Mourngul Wounds Suffered">
@@ -19,7 +19,7 @@
         <characteristicType id="a22d-fcce-e696-075e" name="Nightmarish Claws and Fangs"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="6d48-1590-a7ff-4516" name="Evocation of 死亡 Level">
+    <profileType id="6d48-1590-a7ff-4516" name="Evocation of Death Level">
       <characteristicTypes>
         <characteristicType id="0968-4539-05b1-823e" name="Ability"/>
       </characteristicTypes>
@@ -88,7 +88,7 @@
     <profileType id="370f-9356-a89a-06b3" name="Terrorgheist Wounds Suffered">
       <characteristicTypes>
         <characteristicType id="2ad2-839b-d5ee-5770" name="Move"/>
-        <characteristicType id="dfdc-a86c-e979-1eb7" name="死亡 Shriek"/>
+        <characteristicType id="dfdc-a86c-e979-1eb7" name="Death Shriek"/>
         <characteristicType id="5b09-7a6b-dd30-faf1" name="Skeletal Claws"/>
       </characteristicTypes>
     </profileType>
@@ -190,7 +190,7 @@
           <entryLinks>
             <entryLink id="0f54-f6f5-792d-47ba" name="Allegiance: Legion of Grief" hidden="false" collective="false" import="true" targetId="b5ab-f60e-c534-427f" type="selectionEntry"/>
             <entryLink id="77e1-5dcb-0332-c3de" name="Allegiance: Legion of Sacrament" hidden="false" collective="false" import="true" targetId="9dbc-f610-1cfa-90dd" type="selectionEntry"/>
-            <entryLink id="ad27-d94d-7ae7-f384" name="Allegiance: *死亡*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
+            <entryLink id="ad27-d94d-7ae7-f384" name="Allegiance: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
             <entryLink id="aff6-f3f7-4f0e-d61a" name="Allegiance: Legion of Night" hidden="false" collective="false" import="true" targetId="8037-0ed4-af4b-dcf3" type="selectionEntry"/>
             <entryLink id="0f2a-bc55-0944-940a" name="Allegiance: Soulblight" hidden="false" collective="false" import="true" targetId="3980-0249-eb07-3efd" type="selectionEntry"/>
             <entryLink id="bf01-6c42-f136-e321" name="Allegiance: Legion of Blood" hidden="false" collective="false" import="true" targetId="bf25-6b9f-6f44-5911" type="selectionEntry"/>
@@ -287,7 +287,7 @@
         </profile>
         <profile id="c53b-0f18-7b80-4825" name="First of the Mortarchs" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your hero phase if this model is on the battlefield. If you do so, until the end of that phase you can add 6&quot; to the range of spells cast by friendly 死亡 WIZARDS while they are within 18&quot; of this model. You cannot pick the same unit to benefit from this command ability more than once per hero phase.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your hero phase if this model is on the battlefield. If you do so, until the end of that phase you can add 6&quot; to the range of spells cast by friendly DEATH WIZARDS while they are within 18&quot; of this model. You cannot pick the same unit to benefit from this command ability more than once per hero phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -392,7 +392,7 @@
             <profile id="9ee7-00f1-20e3-082b" name="Curse of Years" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them and roll 10 dice. For each 6, that unit suffers 1 mortal wound and you can roll an extra dice. For each 5+ on these extra dice, the target suffers 1 mortal wound and you can roll another dice. Now, for each 4+, the target suffers 1 mortal wound and you can roll another dice. Keep rolling dice in this way, inflicting mortal wounds and reducing the roll needed to cause them by 1 each time, until either no wounds are inflicted or the target unit is destroyed. A roll of 1 always fails to inflict a mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them and roll 10 dice. For each 6, that unit suffers 1 mortal wound and you can roll an extra dice. For each 5+ on these extra dice, the target suffers 1 mortal wound and you can roll another dice. Now, for each 4+, the target suffers 1 mortal wound and you can roll another dice. Keep rolling dice in this way, inflicting mortal wounds and reducing the roll needed to cause them by 1 each time, until either no wounds are inflicted or the target unit is destroyed. A roll of 1 always fails to inflict a mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -528,32 +528,32 @@
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e5b-3451-54a1-bab3" name="-" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+        <profile id="4e5b-3451-54a1-bab3" name="-" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
           <characteristics>
-            <characteristic name="Ability" typeId="0968-4539-05b1-823e">Evocation of 死亡: In your hero phase, roll a dice for each friendly 死亡 WIZARD within 12&quot; of this model. For each roll of 6, the Legion Black Coach gains a level of power for the rest of the battle; these are cumulative and grant the following abilities:</characteristic>
+            <characteristic name="Ability" typeId="0968-4539-05b1-823e">Evocation of Death: In your hero phase, roll a dice for each friendly DEATH WIZARD within 12&quot; of this model. For each roll of 6, the Legion Black Coach gains a level of power for the rest of the battle; these are cumulative and grant the following abilities:</characteristic>
           </characteristics>
         </profile>
-        <profile id="5be2-f5aa-2ef5-acd0" name="1" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+        <profile id="5be2-f5aa-2ef5-acd0" name="1" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
           <characteristics>
             <characteristic name="Ability" typeId="0968-4539-05b1-823e">Gleaming Scythes:After this model completes a charge, pick an enemy unit within 1&quot; of this model. That unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3f17-57e4-556f-032e" name="2" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+        <profile id="3f17-57e4-556f-032e" name="2" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
           <characteristics>
             <characteristic name="Ability" typeId="0968-4539-05b1-823e">Unholy Vigour:This model has a Move characteristic of 14&quot; instead of 10.</characteristic>
           </characteristics>
         </profile>
-        <profile id="df33-6dd5-3bff-ef97" name="3" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+        <profile id="df33-6dd5-3bff-ef97" name="3" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
           <characteristics>
             <characteristic name="Ability" typeId="0968-4539-05b1-823e">Witch-fire:Add 1 to hit rolls for this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a2c0-6bf8-5a0c-2cdc" name="4" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+        <profile id="a2c0-6bf8-5a0c-2cdc" name="4" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
           <characteristics>
             <characteristic name="Ability" typeId="0968-4539-05b1-823e">Howling Winds:This model can fly.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d7e3-1a03-963a-818a" name="5" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+        <profile id="d7e3-1a03-963a-818a" name="5" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
           <characteristics>
             <characteristic name="Ability" typeId="0968-4539-05b1-823e">Nimbus of Darkness:This model can attempt to unbind one spell in the enemy hero phase as if it were a WIZARD.</characteristic>
           </characteristics>
@@ -949,7 +949,7 @@
         </profile>
         <profile id="b75d-1426-64a1-ab75" name="Tactial Insight" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If this model uses this ability, pick a friendly 死亡 unit within 12&quot; of it. You can re-roll hit, wound and save rolls of 1 for that unit until your next hero phase.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If this model uses this ability, pick a friendly DEATH unit within 12&quot; of it. You can re-roll hit, wound and save rolls of 1 for that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="1c4e-5fec-7819-58b4" name="Scrying Pool" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -1057,7 +1057,7 @@
             <profile id="4041-0c09-e607-111a" name="Beguile" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them and roll three dice. If the total is higher than that unit’s Bravery, then until your next hero phase the caster cannot be selected as the target of any attacks made by that unit or spells cast by that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them and roll three dice. If the total is higher than that unit’s Bravery, then until your next hero phase the caster cannot be selected as the target of any attacks made by that unit or spells cast by that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1446,7 +1446,7 @@
         <infoLink id="cfc8-14da-4e8a-efe1" name="Frightful Touch" hidden="false" targetId="92af-f1e1-04e3-1ce5" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9f39-2f10-072b-0ab6" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="9f39-2f10-072b-0ab6" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="b0ab-9060-0c62-d6f9" name="HEXWRAITH" hidden="false" targetId="26aa-8516-a4e4-c1fc" primary="false"/>
         <categoryLink id="1389-e637-d599-dc9d" name="MALIGNANT" hidden="false" targetId="c21c-0e74-70a9-18bb" primary="false"/>
         <categoryLink id="cd65-a28d-db6c-add8" name="NIGHTHAUNT" hidden="false" targetId="c352-dff7-7050-6f8d" primary="false"/>
@@ -1579,7 +1579,7 @@
         <profile id="c732-78be-a56d-3168" name="Mannfred" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">2/2</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Mannfred is a WIZARD. He can attempt to cast two spells in your hero phase, and attempt to unbind two spells in the enemy hero phase. He knows the Arcane Bolt, Mystic Shield and Wind of 死亡 spells.</characteristic>
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Mannfred is a WIZARD. He can attempt to cast two spells in your hero phase, and attempt to unbind two spells in the enemy hero phase. He knows the Arcane Bolt, Mystic Shield and Wind of Death spells.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f15-f12b-b7b2-8c1d" name="Deathly Invocation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -1604,7 +1604,7 @@
         </profile>
         <profile id="9ae4-5f0f-4d0e-b8cc" name="Vigour of Uneath" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If Mannfred uses this ability, then until your next hero phase you can re-roll hit and wound rolls of 1 for friendly 死亡 units that are within the range shown on the damage table.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If Mannfred uses this ability, then until your next hero phase you can re-roll hit and wound rolls of 1 for friendly DEATH units that are within the range shown on the damage table.</characteristic>
           </characteristics>
         </profile>
         <profile id="1783-1ab5-3a31-6e11" name="Mannfred, Mortarch of Night" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -1682,16 +1682,16 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d1d8-8d37-1b0b-02a8" name="Wind of 死亡" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d1d8-8d37-1b0b-02a8" name="Wind of Death" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="564d-7644-6c65-647b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d3-0535-293d-c635" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3269-bd00-b61e-9852" name="Wind of 死亡" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+            <profile id="3269-bd00-b61e-9852" name="Wind of Death" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy model within 18&quot; of the caster that is visible to them. Each enemy unit within 6&quot; of that model suffers 1 mortal wound, while the model’s own unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy model within 18&quot; of the caster that is visible to them. Each enemy unit within 6&quot; of that model suffers 1 mortal wound, while the model’s own unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1878,7 +1878,7 @@
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="867e-9daa-ac6b-0660" name="Harbingers of 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="867e-9daa-ac6b-0660" name="Harbingers of Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When making a charge roll for this unit, you may roll 3 dice instead of 2. In addition, you can declare a charge for this unit if it is within 18&quot; of the enemy rather than 12&quot;.</characteristic>
           </characteristics>
@@ -1960,12 +1960,12 @@
       <profiles>
         <profile id="aab6-8033-55ea-5978" name="The Reliquary - ROLL 4D6" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in your hero phase, you can declare that the Corpsemaster will unleash the energies stored in the reliquary. When you do so, roll four dice and add the scores together to determine the range of this ability. Each unit within range is struck by a wave of necromantic force. 死亡 units that are struck heal D3 wounds that have been allocated to them, while any other unit struck suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in your hero phase, you can declare that the Corpsemaster will unleash the energies stored in the reliquary. When you do so, roll four dice and add the scores together to determine the range of this ability. Each unit within range is struck by a wave of necromantic force. DEATH units that are struck heal D3 wounds that have been allocated to them, while any other unit struck suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b65-fedd-d0d4-5deb" name="Bound Necromancer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for 死亡 WIZARDS within 12&quot; of any Mortis Engines. Subtract 1 from casting rolls for ORDER, 毁灭 and 混沌 WIZARDS within 12&quot; of any Mortis Engines.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for DEATH WIZARDS within 12&quot; of any Mortis Engines. Subtract 1 from casting rolls for ORDER, DESTRUCTION and CHAOS WIZARDS within 12&quot; of any Mortis Engines.</characteristic>
           </characteristics>
         </profile>
         <profile id="13cd-b319-68d6-8525" name="Mortis Engine" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -2268,14 +2268,14 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of your hero phase, if this model is on the battlefield you can pick up to 5 different friendly SUMMONABLE units or friendly OSSIARCH BONEREAPERS units in any combination. For each of those units, you can either heal up to 3 wounds that have been allocated to that unit or, if no wounds have been allocated to it, you can return a number of slain models to that unit with a combined Wounds characteristic of 3 or less.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1cb2-3b65-4d84-38da" name="死亡 Magic Incarnate" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="1cb2-3b65-4d84-38da" name="Death Magic Incarnate" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll any of the D3 rolls when using Nagash’s Deathly Invocation ability (above).</characteristic>
           </characteristics>
         </profile>
         <profile id="d3b5-1340-ed46-56f6" name="Supreme Lord of the Undead" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your hero phase if this model is on the battlefield. If you do so, until your next hero phase, you can re-roll hit rolls of 1 for attacks made by friendly 死亡 units, you can re-roll save rolls of 1 for attacks that target friendly 死亡 units, and do not take battleshock tests for friendly 死亡 units.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your hero phase if this model is on the battlefield. If you do so, until your next hero phase, you can re-roll hit rolls of 1 for attacks made by friendly DEATH units, you can re-roll save rolls of 1 for attacks that target friendly DEATH units, and do not take battleshock tests for friendly DEATH units.</characteristic>
           </characteristics>
         </profile>
         <profile id="74f9-f2e8-fbac-dded" name="Nagash, Supreme Lord of the Undead" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -2410,7 +2410,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="485b-b26c-e9cb-fa20" name="Hand of Dust" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy model within 3&quot; the caster. Then, take a dice and hide it in one of your hands. Your opponent must pick one of your hands. If they pick the one holding the dice, the spell has no effect. If they pick the empty hand, the enemy model is slain.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy model within 3&quot; the caster. Then, take a dice and hide it in one of your hands. Your opponent must pick one of your hands. If they pick the one holding the dice, the spell has no effect. If they pick the empty hand, the enemy model is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2427,7 +2427,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="7fa4-8f48-bbc3-c7f2" name="Soul Stealer" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 24&quot; of the caster that is visible to them and roll 2D6. If the roll is greater than that unit’s Bravery characteristic, it suffers D3 mortal wounds. If the roll is at least double that unit’s Bravery characteristic, it suffers D6 mortal wounds instead. You can heal up to 1 wound that has been allocated to the caster for each mortal wound inflicted by this spell that is not negated.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 24&quot; of the caster that is visible to them and roll 2D6. If the roll is greater than that unit’s Bravery characteristic, it suffers D3 mortal wounds. If the roll is at least double that unit’s Bravery characteristic, it suffers D6 mortal wounds instead. You can heal up to 1 wound that has been allocated to the caster for each mortal wound inflicted by this spell that is not negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2516,7 +2516,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="807f-3ef3-8ff3-4f1f" name="Vanhel&apos;s Danse Macabre" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly SUMMONABLE unit within 18&quot; of the caster. That unit can be chosen to pile in and attack twice in your next combat phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly SUMMONABLE unit within 18&quot; of the caster. That unit can be chosen to pile in and attack twice in your next combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2715,7 +2715,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="558f-9a1a-749c-1459" name="Dark Mist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly 死亡 unit within 18&quot; of the caster. Until your next hero phase, that unit can fly and you must ignore modifiers (positive or negative) when making save rolls for the unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly DEATH unit within 18&quot; of the caster. Until your next hero phase, that unit can fly and you must ignore modifiers (positive or negative) when making save rolls for the unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2787,9 +2787,9 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is a Skeleton Champion. Add 1 to the Attacks characteristic of a Skeleton Champion’s Ancient Blade or Ancient Spear. </characteristic>
           </characteristics>
         </profile>
-        <profile id="11bc-cf2e-3fe5-237a" name="Serve in 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="11bc-cf2e-3fe5-237a" name="Serve in Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for Skeleton Warriors units that are within 18&quot; of any friendly 死亡 HEROES</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for Skeleton Warriors units that are within 18&quot; of any friendly DEATH HEROES</characteristic>
           </characteristics>
         </profile>
         <profile id="5f07-6d9a-1f17-85ab" name="Skeletal Legion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -3008,35 +3008,35 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <profile id="b085-0fc8-cc12-9f66" name="00-03" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wounds Suffered">
           <characteristics>
             <characteristic name="Move" typeId="2ad2-839b-d5ee-5770">14&quot;</characteristic>
-            <characteristic name="死亡 Shriek" typeId="dfdc-a86c-e979-1eb7">6</characteristic>
+            <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">6</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="86e7-0c51-bcd4-9991" name="04-06" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wounds Suffered">
           <characteristics>
             <characteristic name="Move" typeId="2ad2-839b-d5ee-5770">12&quot;</characteristic>
-            <characteristic name="死亡 Shriek" typeId="dfdc-a86c-e979-1eb7">5</characteristic>
+            <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">5</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="bcd5-8203-48f3-0e4f" name="07-09" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wounds Suffered">
           <characteristics>
             <characteristic name="Move" typeId="2ad2-839b-d5ee-5770">10&quot;</characteristic>
-            <characteristic name="死亡 Shriek" typeId="dfdc-a86c-e979-1eb7">4</characteristic>
+            <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">4</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="0410-e6f1-5bef-62d9" name="10-12" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wounds Suffered">
           <characteristics>
             <characteristic name="Move" typeId="2ad2-839b-d5ee-5770">8&quot;</characteristic>
-            <characteristic name="死亡 Shriek" typeId="dfdc-a86c-e979-1eb7">3</characteristic>
+            <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">3</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="d2f3-0bae-e58a-7b10" name="13+" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wounds Suffered">
           <characteristics>
             <characteristic name="Move" typeId="2ad2-839b-d5ee-5770">6&quot;</characteristic>
-            <characteristic name="死亡 Shriek" typeId="dfdc-a86c-e979-1eb7">2</characteristic>
+            <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">2</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">2</characteristic>
           </characteristics>
         </profile>
@@ -3051,13 +3051,13 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <categoryLink id="47c2-00a7-0e42-ffb8" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ce98-9d12-32f4-afc5" name="死亡 Shriek" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ce98-9d12-32f4-afc5" name="Death Shriek" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f97-a1c3-585b-7545" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbac-19dc-03a9-1513" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e279-a7e6-1690-ab32" name="死亡 Shriek" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="e279-a7e6-1690-ab32" name="Death Shriek" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
               <characteristics>
                 <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile Weapon</characteristic>
                 <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">10&quot;</characteristic>
@@ -3068,9 +3068,9 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
                 <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">*</characteristic>
               </characteristics>
             </profile>
-            <profile id="f847-e114-491e-8828" name="死亡 Shriek" page="FAQ 12/19" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="f847-e114-491e-8828" name="Death Shriek" page="FAQ 12/19" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with this model’s 死亡 Shriek. Instead roll a dice and add the 死亡 Shriek value shown on this model’s damage table. If the total is higher than the target unit’s Bravery characteristic, the target unit suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the total.</characteristic>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with this model’s Death Shriek. Instead roll a dice and add the Death Shriek value shown on this model’s damage table. If the total is higher than the target unit’s Bravery characteristic, the target unit suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the total.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3260,7 +3260,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="96b2-3406-809d-182b" name="Blood Feast" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If this model uses this ability, pick a friendly 死亡 unit within 15&quot; of it. Models in that unit make one extra attack with each of their melee weapons until your next hero phase. You cannot pick the same unit to benefit from this command ability more than once per hero phase. *Errata Jul&apos;18*</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If this model uses this ability, pick a friendly DEATH unit within 15&quot; of it. Models in that unit make one extra attack with each of their melee weapons until your next hero phase. You cannot pick the same unit to benefit from this command ability more than once per hero phase. *Errata Jul&apos;18*</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3445,7 +3445,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="71b8-9196-d5c8-e784" name="Dread Knight" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If this model uses this ability, pick a friendly 死亡 unit within 15&quot; of it. Until your next hero phase, you can re-roll failed hit rolls for that unit.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If this model uses this ability, pick a friendly DEATH unit within 15&quot; of it. Until your next hero phase, you can re-roll failed hit rolls for that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3552,7 +3552,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="e6f4-e9c5-5b23-5740" name="Blood Boil" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot; of the caster that is visible to them. That unit suffers a mortal wound. If a model was allocated any wounds caused by this spell but was not slain, roll another dice. On a 4+ that model suffers another mortal wound. If the model is still not slain, roll another dice. It will suffer another mortal wound on a 4+. Keep rolling dice in this way until either the model is slain or you fail to cause a mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot; of the caster that is visible to them. That unit suffers a mortal wound. If a model was allocated any wounds caused by this spell but was not slain, roll another dice. On a 4+ that model suffers another mortal wound. If the model is still not slain, roll another dice. It will suffer another mortal wound on a 4+. Keep rolling dice in this way until either the model is slain or you fail to cause a mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4692,7 +4692,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="b207-7aed-e112-7cde" name="Blood Siphon" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy HEROwithin 12&quot; of the caster that is visible to them and roll a dice. On a 1-3 the hero suffers a mortal wound. On a 4-5 the hero suffers D3 mortal wounds. On a 6 the hero suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy HEROwithin 12&quot; of the caster that is visible to them and roll a dice. On a 1-3 the hero suffers a mortal wound. On a 4-5 the hero suffers D3 mortal wounds. On a 6 the hero suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4835,7 +4835,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="a048-ab3a-d58a-0b96" name="Fist of Nagash" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If Prince Vhordrai uses this ability, pick a friendly 死亡 HEROwithin 14&quot; of him (you cannot choose Prince Vhordrai). That hero can immediately either be chosen to pile in and attack as if it were the combat phase, or if it is a WIZARD, attempt to cast a spell in addition to any others they can attempt to cast this phase. The same unit cannot be picked to benefit from this command ability more than once per hero phase. *ERRATA Jun&apos;18*</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If Prince Vhordrai uses this ability, pick a friendly DEATH HEROwithin 14&quot; of him (you cannot choose Prince Vhordrai). That hero can immediately either be chosen to pile in and attack as if it were the combat phase, or if it is a WIZARD, attempt to cast a spell in addition to any others they can attempt to cast this phase. The same unit cannot be picked to benefit from this command ability more than once per hero phase. *ERRATA Jun&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="b7ec-97b3-f203-b009" name="Prince Vhordrai" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -4945,7 +4945,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="5021-fa25-d1ce-8017" name="Quickblood" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, add 1 to hit and wound rolls for the caster until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, add 1 to hit and wound rolls for the caster until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5090,12 +5090,12 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
                 </profile>
                 <profile id="1fa7-eff7-2744-bb9e" name="Unholy Lodestone" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for friendly 死亡 WIZARDS within 18&quot; of any Corpse Carts with an Unholy Lodestone. </characteristic>
+                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for friendly DEATH WIZARDS within 18&quot; of any Corpse Carts with an Unholy Lodestone. </characteristic>
                   </characteristics>
                 </profile>
                 <profile id="be62-3fb1-09f3-df11" name="Locus of Undeath" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Whilst it is within 6&quot; of this model, you can re-roll the dice to determine how many wounds are healed on a friendly 死亡 unit picked as a target of a Deathly Invocation ability.</characteristic>
+                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Whilst it is within 6&quot; of this model, you can re-roll the dice to determine how many wounds are healed on a friendly DEATH unit picked as a target of a Deathly Invocation ability.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5148,9 +5148,9 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
           </characteristics>
         </profile>
-        <profile id="bda7-e998-cf41-c6de" name="Serve in 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="bda7-e998-cf41-c6de" name="Serve in Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for this unit if it is wholly within 18&quot; of any friendly 死亡 HEROES.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for this unit if it is wholly within 18&quot; of any friendly DEATH HEROES.</characteristic>
           </characteristics>
         </profile>
         <profile id="97b1-b378-bcac-55e0" name="Frightening Speed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5433,7 +5433,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
       <profiles>
         <profile id="628a-403f-2515-ddc9" name="Captured Soul Energy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battleshock phase, if 3 or more enemy models were slain that turn, pick a friendly NIGHTHAUNT unit within 6&quot; of this model and heal D3 wounds that have been allocated to that unit. If 3 or more enemy 雷铸神兵 models were slain that turn, heal 3 wounds instead of D3 wounds. Alternatively, instead of healing the unit you picked, if models from that unit have been slain, you can return them to the unit. Roll a D3; you can return any slain models to that unit that have a combined Wounds characteristic of less than or equal to the number you rolled. If your army includes more than one SPIRIT TORMENT, at least 3 enemy models must have been slain during the turn for each SPIRIT TORMENT that uses this ability, and no SPIRIT TORMENT can use this ability more than once in the same battleshock phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battleshock phase, if 3 or more enemy models were slain that turn, pick a friendly NIGHTHAUNT unit within 6&quot; of this model and heal D3 wounds that have been allocated to that unit. If 3 or more enemy STORMCAST ETERNAL models were slain that turn, heal 3 wounds instead of D3 wounds. Alternatively, instead of healing the unit you picked, if models from that unit have been slain, you can return them to the unit. Roll a D3; you can return any slain models to that unit that have a combined Wounds characteristic of less than or equal to the number you rolled. If your army includes more than one SPIRIT TORMENT, at least 3 enemy models must have been slain during the turn for each SPIRIT TORMENT that uses this ability, and no SPIRIT TORMENT can use this ability more than once in the same battleshock phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="021e-f61b-ee74-cd00" name="Nagash&apos;s Bidding" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5543,7 +5543,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="60fb-7778-30a4-b137" name="Spectral Lure" publicationId="241a-2f06-84ad-d21d" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly SUMMONABLE NIGHTHAUNT unit wholly within 24&quot; of the caster. You can either heal D6 wounds that have been allocated to that unit or, if no wounds have been allocated to the unit, you can return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D6.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly SUMMONABLE NIGHTHAUNT unit wholly within 24&quot; of the caster. You can either heal D6 wounds that have been allocated to that unit or, if no wounds have been allocated to the unit, you can return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5621,7 +5621,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a wound roll for a Decapitating Greataxe is 6+, add 2 to the Damage characteristic of the weapon for that attack.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8e71-0362-ad99-655f" name="Staring 死亡 in the Face" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="8e71-0362-ad99-655f" name="Staring Death in the Face" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, you can pick an enemy HERO within 3&quot; of this model. Subtract 1 from hit rolls for attacks made by that HERO in that combat phase.</characteristic>
           </characteristics>
@@ -5850,18 +5850,18 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
           <profiles>
             <profile id="84b8-1d9f-2b24-9143" name="Extoller of Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is an Extoller of Shyish. The Extoller of Shyish is armed with a 死亡 Knell instead of a Slasher Scythe.</characteristic>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is an Extoller of Shyish. The Extoller of Shyish is armed with a Death Knell instead of a Slasher Scythe.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="cc9f-925a-dc05-e25e" name="死亡 Knell" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cc9f-925a-dc05-e25e" name="Death Knell" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a69-ced8-7640-6451" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4559-b518-41bc-5ce7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2f21-5632-9f3d-4260" name="死亡 Knell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="2f21-5632-9f3d-4260" name="Death Knell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
                     <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
@@ -5874,7 +5874,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
                 </profile>
                 <profile id="2e36-1adb-889a-774e" name="For Whom the Bell Tolls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Allocate wounds inflicted by this unit’s 死亡 Knell after allocating wounds inflicted by this unit’s Slasher Scythes. For each enemy model that is slain by wounds inflicted by a 死亡 Knell, you can inflict 1 mortal wound on an enemy unit within 3&quot; of the model carrying the 死亡 Knell.</characteristic>
+                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Allocate wounds inflicted by this unit’s Death Knell after allocating wounds inflicted by this unit’s Slasher Scythes. For each enemy model that is slain by wounds inflicted by a Death Knell, you can inflict 1 mortal wound on an enemy unit within 3&quot; of the model carrying the Death Knell.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5902,7 +5902,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fa90-b9cd-8650-7930" name="The Point of 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="fa90-b9cd-8650-7930" name="The Point of Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll failed hit rolls for attacks made with this unit’s Hunter’s Glaives if this unit or the target unit made a charge move in the same turn.</characteristic>
           </characteristics>
@@ -5985,7 +5985,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="d019-e4e3-3667-7adf" name="Spell-eaters" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once in each enemy hero phase, if this unit is within 18&quot; of an enemy WIZARD that successfully casts a spell, this unit can attempt to unbind the spell in the same manner as a Wizard. If it does so, add 1 to the unbinding roll for every 4 models in this unit. In addition, if this unit unbinds an enemy spell, add 1 to the Attacks characteristic of this unit’s Chill Daggers until the next enemy hero phase. Once in each of your hero phases, if this unit is within 6&quot; of an 无尽法术, this unit can attempt to dispel the 无尽法术 in the same manner as a WIZARD. If this unit dispels an 无尽法术, it suffers D3 mortal wounds, but add 1 to the Attacks characteristic of this unit’s Chill Daggers until your next hero phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once in each enemy hero phase, if this unit is within 18&quot; of an enemy WIZARD that successfully casts a spell, this unit can attempt to unbind the spell in the same manner as a Wizard. If it does so, add 1 to the unbinding roll for every 4 models in this unit. In addition, if this unit unbinds an enemy spell, add 1 to the Attacks characteristic of this unit’s Chill Daggers until the next enemy hero phase. Once in each of your hero phases, if this unit is within 6&quot; of an ENDLESS SPELL, this unit can attempt to dispel the endless spell in the same manner as a WIZARD. If this unit dispels an endless spell, it suffers D3 mortal wounds, but add 1 to the Attacks characteristic of this unit’s Chill Daggers until your next hero phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6003,13 +6003,6 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c6ce-8cf0-b037-bb97" name="4 Myrmourn Banshees" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="decrement" field="points" value="10">
-              <conditions>
-                <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff1-fa8a-1003-ace7" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f2-a822-ed53-61cf" type="max"/>
@@ -6209,7 +6202,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <profile id="d93e-03a1-6cc1-a945" name="Grief-stricken" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit that is within 18&quot; of the caster and visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit and add 1 to hit rolls for attacks made with melee weapons that target that unit.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit that is within 18&quot; of the caster and visible to them. Until your next hero phase, subtract 1 from hit rolls for attacks made by that unit and add 1 to hit rolls for attacks made with melee weapons that target that unit.</characteristic>
           </characteristics>
         </profile>
         <profile id="8c7c-c645-cb3b-b17b" name="No Rest for the Wicked" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
@@ -6407,10 +6400,10 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
       <profiles>
         <profile id="766f-6b54-e9d4-ea6d" name="Dreadblade Harrow" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">-</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">-</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">-</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">-</characteristic>
+            <characteristic name="Move" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">10</characteristic>
+            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="f5f4-d6c8-f6a0-7e08" name="Phantasmal Discorporation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -6530,7 +6523,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <profile id="5166-0d12-8f2e-b443" name="Wraithstorm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit whtin 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If any models in that unit are slain as a result of this spell, that unit immediately suffers an additional D3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit whtin 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If any models in that unit are slain as a result of this spell, that unit immediately suffers an additional D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6627,7 +6620,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="976c-affb-f0e3-2f8c" name="Whirling 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="976c-affb-f0e3-2f8c" name="Whirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit can retreat and charge in the same turn. In addition, add 1 to the Attacks characteristic of this unit&apos;s Tomb Greatblades if it made a charge move in the same turn.</characteristic>
           </characteristics>
@@ -6945,7 +6938,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ea5-e537-5e8a-f8c0" name="Battalion: 死亡 Stalkers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9ea5-e537-5e8a-f8c0" name="Battalion: Death Stalkers" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="89cb-0eb2-b144-aa7c" name="Soul-marked Prey" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
@@ -7139,7 +7132,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
                 <categoryLink id="c338-4355-aba2-2c79" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="e316-7319-99a2-f623" name="-Battalion: 死亡 Stalkers" hidden="false" collective="false" import="true" targetId="9ea5-e537-5e8a-f8c0" type="selectionEntry">
+            <entryLink id="e316-7319-99a2-f623" name="-Battalion: Death Stalkers" hidden="false" collective="false" import="true" targetId="9ea5-e537-5e8a-f8c0" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="855a-d74a-b096-c330" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
               </categoryLinks>
@@ -7268,7 +7261,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="925f-f4ee-9c5e-2552" name="无尽法术: Mortalis Terminexus" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="925f-f4ee-9c5e-2552" name="Endless Spell: Mortalis Terminexus" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b627-37c3-f00c-5363" type="max"/>
       </constraints>
@@ -7276,7 +7269,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <profile id="be6c-8155-ebb2-3b13" name="Summon Mortalis Terminexus" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Mortalis Terminexus. 如果施放成功, set up a Mortalis Terminexus model wholly within 18&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Mortalis Terminexus. If successfully cast, set up a Mortalis Terminexus model wholly within 18&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="0313-e551-7f1e-5d28" name="Keeper of Mortality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -7291,7 +7284,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="c7e5-d1cf-8893-d6a8" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Mortalis Terminexus is a predatory 无尽法术. It can move 8&quot; and can fly.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Mortalis Terminexus is a predatory endless spell. It can move 8&quot; and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7301,14 +7294,14 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
       <categoryLinks>
         <categoryLink id="2c1f-a1e9-b08c-de22" name="New CategoryLink" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="5bc1-864a-b856-c036" name="New CategoryLink" hidden="false" targetId="3498-1f65-5ca1-c1cf" primary="false"/>
-        <categoryLink id="676f-de4a-240d-cb54" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="676f-de4a-240d-cb54" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="bb81-8664-45dc-4fb9" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b904-52ba-13d8-a3cf" name="无尽法术: Shyish Reaper" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b904-52ba-13d8-a3cf" name="Endless Spell: Shyish Reaper" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1df5-f5b8-7e14-23b3" type="max"/>
       </constraints>
@@ -7316,7 +7309,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <profile id="54fc-91a8-4a94-c99e" name="Summon Shyish Reaper" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Shyish Reaper. [...] 如果施放成功, set up a Shyish Reaper model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Shyish Reaper. [...] If successfully cast, set up a Shyish Reaper model wholly within 6&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="2493-7e1b-d06f-c02b" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -7324,7 +7317,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If your battle is being fought in the Realm of Shyish, a Shyish Reaper can move 12&quot; instead of 8&quot;.</characteristic>
           </characteristics>
         </profile>
-        <profile id="eacc-7ebe-fbd6-ab73" name="Sweeping 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="eacc-7ebe-fbd6-ab73" name="Sweeping Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
           </characteristics>
@@ -7336,7 +7329,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="cf72-82f3-c1a2-d784" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Shyish Reaper is a predatory 无尽法术. It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Shyish Reaper is a predatory endless spell. It can move up to 8&quot; and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7346,14 +7339,14 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
       <categoryLinks>
         <categoryLink id="7e1d-60d6-6b96-850f" name="New CategoryLink" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="e9bf-1132-24c9-d77d" name="New CategoryLink" hidden="false" targetId="e803-c160-963b-950f" primary="false"/>
-        <categoryLink id="504d-dbef-7fdd-a21b" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="504d-dbef-7fdd-a21b" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="03e6-d5e6-c9b7-b87e" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67ba-f5bf-62b6-08e6" name="无尽法术: Vault of Souls" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="67ba-f5bf-62b6-08e6" name="Endless Spell: Vault of Souls" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e38c-1634-dc5b-3b71" type="max"/>
       </constraints>
@@ -7361,7 +7354,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <profile id="1a30-4b26-6471-e0f3" name="Summon Vault of Souls" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Vault of Souls. [...] 如果施放成功, set up a Vault of Souls model wholly within 18&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Vault of Souls. [...] If successfully cast, set up a Vault of Souls model wholly within 18&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="fd4a-2405-b6a8-3747" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -7381,7 +7374,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         </profile>
         <profile id="84e0-a0e0-79f9-0a19" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Vault of Souls is a predatory 无尽法术. It can move 8&quot; and can fly.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Vault of Souls is a predatory endless spell. It can move 8&quot; and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7391,7 +7384,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
       <categoryLinks>
         <categoryLink id="7c38-6ca7-a45a-4003" name="New CategoryLink" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="ef3e-4e0f-4d45-595f" name="New CategoryLink" hidden="false" targetId="18c3-0cea-324e-db56" primary="false"/>
-        <categoryLink id="bda0-b315-fdcd-f5de" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="bda0-b315-fdcd-f5de" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6907-523c-3aa0-fd4a" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
@@ -7506,38 +7499,38 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e544-460b-72f9-1ccb" name="Evocation of 死亡" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e544-460b-72f9-1ccb" name="Evocation of Death" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e5-5408-e405-c2ea" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a700-71cb-1c82-bc89" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6589-62e7-101e-0c30" name="- Note:" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+            <profile id="6589-62e7-101e-0c30" name="- Note:" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
-                <characteristic name="Ability" typeId="0968-4539-05b1-823e">Evocation of 死亡: At the start of each battle round, roll 3 dice for each BLACK COACH on the battlefield. For each 4+, that BLACK COACH gains a level of power. Levels of power are cumulative and last for the rest of the battle. They grant the following abilities:</characteristic>
+                <characteristic name="Ability" typeId="0968-4539-05b1-823e">Evocation of Death: At the start of each battle round, roll 3 dice for each BLACK COACH on the battlefield. For each 4+, that BLACK COACH gains a level of power. Levels of power are cumulative and last for the rest of the battle. They grant the following abilities:</characteristic>
               </characteristics>
             </profile>
-            <profile id="e643-3264-a95b-8076" name="5. Witch Fire" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+            <profile id="e643-3264-a95b-8076" name="5. Witch Fire" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
                 <characteristic name="Ability" typeId="0968-4539-05b1-823e">In your hero phase, roll a dice foe each enemy unit within 3&quot; of this model. On a 4+, that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
-            <profile id="c207-d730-169f-e2d5" name="1. Nimbus of Power" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+            <profile id="c207-d730-169f-e2d5" name="1. Nimbus of Power" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
                 <characteristic name="Ability" typeId="0968-4539-05b1-823e">In each hero pase, heal D3 wounds that have been allocated to this model. In addition at the start of your hero phase, pick 1 riendly SUMMONABLE NIGHTHAUNT unit wholly within 12&quot; pf this model and return D3 slain models to that unit. The returning models must be setup within 12&quot; of this model.</characteristic>
               </characteristics>
             </profile>
-            <profile id="2090-6e15-28a1-a183" name="4. Insubstantial Form" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+            <profile id="2090-6e15-28a1-a183" name="4. Insubstantial Form" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
                 <characteristic name="Ability" typeId="0968-4539-05b1-823e">This model can retreat and çharge in the same turn.</characteristic>
               </characteristics>
             </profile>
-            <profile id="0f7f-03e9-a6f2-2187" name="3. Spectral Scyhes" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+            <profile id="0f7f-03e9-a6f2-2187" name="3. Spectral Scyhes" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
                 <characteristic name="Ability" typeId="0968-4539-05b1-823e">After this model completes a charge move, pick an enemy unit within 1&quot; of this model and roll a dice. On a 2+ that unit sufers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
-            <profile id="bf2a-f4b8-c3c6-0108" name="2. Unholy Vigour" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of 死亡 Level">
+            <profile id="bf2a-f4b8-c3c6-0108" name="2. Unholy Vigour" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
                 <characteristic name="Ability" typeId="0968-4539-05b1-823e">Reroll Hit rolls of 1 for this models&apos;s melee weapons. In addition this model can run and charge in the same turn.</characteristic>
               </characteristics>
@@ -7730,7 +7723,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
             <profile id="4bef-c964-86dc-e0b5" name="Howling Vortex" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Howling Vortex has a casting value of 7. 如果施放成功, pick a point on the battlefield within 18&quot; of the caster that is visible to them, and roll 2D6 for each enemy unit within 6&quot; of that point. If the roll is greater than the value of that unit’s Move characteristic, or that roll is a double, that unit suffers 1 mortal wound and its Move characteristic is halved until the caster’s next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Howling Vortex has a casting value of 7. If successfully cast, pick a point on the battlefield within 18&quot; of the caster that is visible to them, and roll 2D6 for each enemy unit within 6&quot; of that point. If the roll is greater than the value of that unit’s Move characteristic, or that roll is a double, that unit suffers 1 mortal wound and its Move characteristic is halved until the caster’s next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7744,7 +7737,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <entryLink id="4c85-7fae-2552-4ba1" name="Lore of the Underworld" hidden="false" collective="false" import="true" targetId="1d74-9116-3b63-3ea2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c14-be3f-7172-f030" name="Thorns of the Briar Queen" publicationId="e320-d5ec-pubN143137" hidden="false" collective="false" import="true" type="unit">
@@ -8028,7 +8021,7 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8604-d495-e647-5fc9" name="Allegiance: *死亡*" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8604-d495-e647-5fc9" name="Allegiance: *Death*" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c6dc-760c-dfb7-af7c" name="Deathless Minions" hidden="false" targetId="3998-f3e4-90e7-348a" type="profile"/>
       </infoLinks>
@@ -8247,11 +8240,11 @@ Mystic Shield any number of times in the same hero phase, even if another WIZARD
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="462d-b8e3-4e69-d0d7" name="Swift 死亡" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="462d-b8e3-4e69-d0d7" name="Swift Death" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a8b0-4182-38c9-c021" name="Swift 死亡" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+                <profile id="a8b0-4182-38c9-c021" name="Swift Death" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Add 2&quot; to the Move characteristic of all models that have the Swift 死亡 bloodline. In addition, Swift 死亡 models can always move as if they can fly.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Add 2&quot; to the Move characteristic of all models that have the Swift Death bloodline. In addition, Swift Death models can always move as if they can fly.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8330,7 +8323,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           </constraints>
           <entryLinks>
             <entryLink id="dc64-a2c5-b9d7-57dc" name="Battalion: The Condemned" hidden="false" collective="false" import="true" targetId="b4c4-64ab-2174-1733" type="selectionEntry"/>
-            <entryLink id="ade2-076e-edb0-887e" name="Battalion: 死亡 Stalkers" hidden="false" collective="false" import="true" targetId="9ea5-e537-5e8a-f8c0" type="selectionEntry"/>
+            <entryLink id="ade2-076e-edb0-887e" name="Battalion: Death Stalkers" hidden="false" collective="false" import="true" targetId="9ea5-e537-5e8a-f8c0" type="selectionEntry"/>
             <entryLink id="bf64-2d2e-66b1-04f7" name="Battalion: Chainguard" hidden="false" collective="false" import="true" targetId="1d08-f04f-5e53-c4f8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -8458,7 +8451,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="5fe6-6e9f-702b-241b" name="Artefacts of 死亡" hidden="false" collective="false" import="true" targetId="e02e-6203-a19f-c021" type="selectionEntryGroup">
+        <entryLink id="5fe6-6e9f-702b-241b" name="Artefacts of Death" hidden="false" collective="false" import="true" targetId="e02e-6203-a19f-c021" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8600,7 +8593,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="853e-12d5-75f6-3ac6" name="Terrorgheist Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can declare that the bearer will unleash a 死亡 shriek. Pick an enemy unit within 10&quot; of the bearer and roll 2 dice. If the total is higher than the enemy unit’s Bravery characteristic, it suffers a number of mortal wounds equal to the difference.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can declare that the bearer will unleash a death shriek. Pick an enemy unit within 10&quot; of the bearer and roll 2 dice. If the total is higher than the enemy unit’s Bravery characteristic, it suffers a number of mortal wounds equal to the difference.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8628,7 +8621,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="7786-0ede-438b-cf49" name="Spiritcage" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Whenever an enemy HERO is slain within 6&quot; of the bearer, add 1 to wound rolls for friendly 死亡 units within 12&quot; of the bearer until the end of the turn.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Whenever an enemy HERO is slain within 6&quot; of the bearer, add 1 to wound rolls for friendly DEATH units within 12&quot; of the bearer until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9125,9 +9118,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c3-2c41-8928-31ce" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a88a-8803-a528-7db2" name="Above Suspicion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a88a-8803-a528-7db2" name="Above Suspicion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general may be set up in ambush in addition to the 3 units normally allowed by the Ageless Cunning battle trait.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general may be set up in ambush in addition to the 3 units normally allowed by the Ageless Cunning battle trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9140,9 +9133,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c52a-9976-3372-3716" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4b94-dbb0-50c9-7960" name="Swift Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4b94-dbb0-50c9-7960" name="Swift Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this general’s Move characteristic. In addition, add 2&quot; to the distance they can move when they run.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this general’s Move characteristic. In addition, add 2&quot; to the distance they can move when they run.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9155,9 +9148,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf56-55c8-bc89-4677" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6fb2-c346-80d2-992b" name="Unbending Will" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6fb2-c346-80d2-992b" name="Unbending Will" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Friendly LEGION OF NIGHT units within 12&quot; of this general may re-roll failed battleshock tests.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Friendly LEGION OF NIGHT units within 12&quot; of this general may re-roll failed battleshock tests.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9170,9 +9163,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de6-3f38-e514-ba04" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1b53-8c9d-696a-752e" name="Merciless Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1b53-8c9d-696a-752e" name="Merciless Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9185,9 +9178,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ac-b4f0-f161-a067" type="max"/>
           </constraints>
           <profiles>
-            <profile id="52b7-2945-5a8d-4410" name="Unholy Impetus" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="52b7-2945-5a8d-4410" name="Unholy Impetus" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general slays any models in the combat phase, pick a friendly LEGION OF NIGHT unit within 3&quot; of the general. Add 1 to the Attacks characteristic of that unit’s melee weapons until the end of the phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general slays any models in the combat phase, pick a friendly LEGION OF NIGHT unit within 3&quot; of the general. Add 1 to the Attacks characteristic of that unit’s melee weapons until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9200,9 +9193,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb5a-162d-7f09-5b30" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0331-a532-4fca-27b8" name="Terrifying Visage" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0331-a532-4fca-27b8" name="Terrifying Visage" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units within 6&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units within 6&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9242,7 +9235,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="19c7-dc17-0c49-a8d0" name="Shades of 死亡" hidden="false" collective="false" import="true" targetId="35f4-3de6-0ede-c816" type="selectionEntryGroup">
+        <entryLink id="19c7-dc17-0c49-a8d0" name="Shades of Death" hidden="false" collective="false" import="true" targetId="35f4-3de6-0ede-c816" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9278,7 +9271,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="d93f-9d41-966a-4fe9" name="死亡 Command Traits" hidden="false" collective="false" import="true" targetId="74cc-aa8c-c476-db29" type="selectionEntryGroup">
+        <entryLink id="d93f-9d41-966a-4fe9" name="Death Command Traits" hidden="false" collective="false" import="true" targetId="74cc-aa8c-c476-db29" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9308,9 +9301,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a859-58ea-00de-5251" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cefc-a37c-d135-a4ad" name="Curse of the Revenant" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="cefc-a37c-d135-a4ad" name="Curse of the Revenant" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9323,9 +9316,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46dd-8456-b810-4ba2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="adb2-6c5c-e6c9-e0b8" name="Deathless Duellist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="adb2-6c5c-e6c9-e0b8" name="Deathless Duellist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll hits rolls of 1 for this general when they attack an enemy HERO in the combat phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll hits rolls of 1 for this general when they attack an enemy HERO in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9338,9 +9331,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e69-d24b-39a5-f541" type="max"/>
           </constraints>
           <profiles>
-            <profile id="49c9-d9ce-9586-8920" name="Transfix" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="49c9-d9ce-9586-8920" name="Transfix" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, pick one enemy HERO within 3&quot; of this general. Until the end of the phase, subtract 1 from hit rolls for the model you picked when it targets the general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, pick one enemy HERO within 3&quot; of this general. Until the end of the phase, subtract 1 from hit rolls for the model you picked when it targets the general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9353,9 +9346,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d737-9d55-e287-2a6c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0599-33fb-eb1f-6c0e" name="Mist Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0599-33fb-eb1f-6c0e" name="Mist Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general retreats, they can move as if they can fly and they can still charge in the same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general retreats, they can move as if they can fly and they can still charge in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9368,9 +9361,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca3a-5ef2-d683-e60a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="29eb-048c-39b0-b1f9" name="Killing Blow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="29eb-048c-39b0-b1f9" name="Killing Blow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Wound rolls of 6+ for attacks made by this general in the combat phase inflict a mortal wound in addition to any other damage they inflict.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Wound rolls of 6+ for attacks made by this general in the combat phase inflict a mortal wound in addition to any other damage they inflict.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9383,9 +9376,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48bb-71b4-9d8f-1844" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f4f3-010a-abae-0426" name="Blood Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f4f3-010a-abae-0426" name="Blood Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of melee weapons used by this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of melee weapons used by this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9461,7 +9454,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8426-2638-3ab7-b3d2" name="4. Lightshard of the Harvest Moon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8426-2638-3ab7-b3d2" name="4. Mirror of Screaming Souls" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a72-0c18-d4f7-020e" type="max"/>
           </constraints>
@@ -9548,7 +9541,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="35f4-3de6-0ede-c816" name="Traits: Shades of 死亡" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="35f4-3de6-0ede-c816" name="Traits: Shades of Death" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9565,9 +9558,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2777-fd53-237c-e7ab" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1a9b-40f7-a479-7506" name="1. Hatred of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1a9b-40f7-a479-7506" name="1. Hatred of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made with this general&apos;s melee weapons unless the target has the 死亡 keyword.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made with this general&apos;s melee weapons unless the target has the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9580,9 +9573,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-340c-12e8-fa87" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2ce5-527e-41cc-c788" name="Terrifying Entity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="2ce5-527e-41cc-c788" name="Terrifying Entity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the enemy&apos;s movement phase, roll a dice for each enemy unit within 3&quot; of this model. If the roll is equal to or greater than that enemy unit&apos;s Bravery characteristic, that unit must make a retreat move in that movement phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the enemy&apos;s movement phase, roll a dice for each enemy unit within 3&quot; of this model. If the roll is equal to or greater than that enemy unit&apos;s Bravery characteristic, that unit must make a retreat move in that movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9595,9 +9588,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dfc-3d56-5a84-a507" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ae1a-a1d9-1ea3-8a5b" name="Lingering Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ae1a-a1d9-1ea3-8a5b" name="Lingering Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9610,9 +9603,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd32-16c6-dfff-c84f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6bcf-532c-ad7c-d92c" name="Spiteful Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6bcf-532c-ad7c-d92c" name="Spiteful Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Roll  dice each time you allocate a wound to this general that was infilicted by a melee weapon. On a 5+, the attacking unit suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Roll  dice each time you allocate a wound to this general that was infilicted by a melee weapon. On a 5+, the attacking unit suffers 1 mortal wound after all of its attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9625,9 +9618,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de79-48b2-c9b5-6838" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1baf-8b74-6415-96f1" name="Cloaked in Shadow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1baf-8b74-6415-96f1" name="Cloaked in Shadow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with missile weapons that target this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with missile weapons that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9640,9 +9633,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd8-8522-3383-b81f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b22f-f277-da05-0ae5" name="Ruler of the Spirit Host" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="b22f-f277-da05-0ae5" name="Ruler of the Spirit Host" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, you can pick a friendly SUMMONABLE NIGHTHAUNT unit within 9&quot; of this general and return D3 slain models to that unit The returning models must be setup within 9&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, you can pick a friendly SUMMONABLE NIGHTHAUNT unit within 9&quot; of this general and return D3 slain models to that unit The returning models must be setup within 9&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9657,14 +9650,14 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d428-6013-f8e9-83a6" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="4847-4b36-102c-1d9a" name="1. Master of 死亡" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4847-4b36-102c-1d9a" name="1. Master of Death" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee3-d81c-6a03-546b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="aa8a-c154-d4f4-15d5" name="Master of 死亡" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="aa8a-c154-d4f4-15d5" name="Master of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll results of 1 (i.e. rolls of 1-2 on a D3) for friendly units affected by a Deathly Invocation ability that are within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll results of 1 (i.e. rolls of 1-2 on a D3) for friendly units affected by a Deathly Invocation ability that are within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9677,9 +9670,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a4-db43-febd-40a7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4917-02bc-483e-4610" name="Chosen Champion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4917-02bc-483e-4610" name="Chosen Champion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of melee weapons used by this general for attacks made against enemy HEROES.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of melee weapons used by this general for attacks made against enemy HEROES.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9692,9 +9685,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd43-d29d-8ad0-3cae" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ead7-432b-9940-8037" name="Bane of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ead7-432b-9940-8037" name="Bane of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this general for attacks made against enemy units that do not have the 死亡 keyword.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this general for attacks made against enemy units that do not have the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9707,9 +9700,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb99-6e35-7aec-6f72" type="max"/>
           </constraints>
           <profiles>
-            <profile id="87f7-3248-2dbc-9cc6" name="Aura of Ages" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="87f7-3248-2dbc-9cc6" name="Aura of Ages" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, roll a dice for each enemy unit within 3&quot; of this general. On a 4+ subtract 1 from hit rolls made for that unit until the end of the combat phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, roll a dice for each enemy unit within 3&quot; of this general. On a 4+ subtract 1 from hit rolls made for that unit until the end of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9722,9 +9715,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48c1-1c16-728d-ac20" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d2e1-bb29-139c-ff1b" name="Ancient Strategist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d2e1-bb29-139c-ff1b" name="Ancient Strategist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll failed charge rolls for friendly DEATHRATTLE and MORGHAST units that are within 9&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll failed charge rolls for friendly DEATHRATTLE and MORGHAST units that are within 9&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9737,9 +9730,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4902-46b9-0228-e751" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f18a-fc68-b176-abed" name="Lord of Nagashizzar" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f18a-fc68-b176-abed" name="Lord of Nagashizzar" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of melee weapons used by friendly DEATHRATTLE units that are within 6&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of melee weapons used by friendly DEATHRATTLE units that are within 6&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9759,9 +9752,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78d5-c333-f7e2-b8fe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="efde-5700-a781-e460" name="Emissary of the Master" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="efde-5700-a781-e460" name="Emissary of the Master" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly 死亡 units that are within 6&quot; of this general at the start of the charge phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly DEATH units that are within 6&quot; of this general at the start of the charge phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9774,9 +9767,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="276d-de1d-1c6e-6432" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2fcb-4010-c18d-ae77" name="Mark of the Favoured" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="2fcb-4010-c18d-ae77" name="Mark of the Favoured" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time this general is selected as the target of an attack in the combat phase, roll a dice. ‘On a 6+ the attacking unit suffers 1 mortal wound after all of its attacks have been resolved.’ *FAQ v1.3*</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time this general is selected as the target of an attack in the combat phase, roll a dice. ‘On a 6+ the attacking unit suffers 1 mortal wound after all of its attacks have been resolved.’ *FAQ v1.3*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9789,9 +9782,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f8-d28f-4e95-e959" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c2c-39cf-1e51-fd05" name="Dark Acolyte" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3c2c-39cf-1e51-fd05" name="Dark Acolyte" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general is a WIZARD that knows the Arcane Bolt and Mystic Shield spells, as well as a single spell from one of the Lores of the Dead. If this general is already a WIZARD, they may generate an additional spell from one of the Lores of the Dead.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general is a WIZARD that knows the Arcane Bolt and Mystic Shield spells, as well as a single spell from one of the Lores of the Dead. If this general is already a WIZARD, they may generate an additional spell from one of the Lores of the Dead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9805,14 +9798,14 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ab36-8f6d-4b9d-d089" name="4. Mastery of 死亡" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ab36-8f6d-4b9d-d089" name="4. Mastery of Death" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43ac-ab19-025b-7751" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dcd8-5b39-fd9b-4adb" name="Mastery of 死亡" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="dcd8-5b39-fd9b-4adb" name="Mastery of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, all friendly 死亡 units within 6&quot; of this general may immediately make a move of up to 3&quot; as if it were your movement phase. They may not run as part of this move.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, all friendly DEATH units within 6&quot; of this general may immediately make a move of up to 3&quot; as if it were your movement phase. They may not run as part of this move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9825,9 +9818,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4efa-386f-413a-5c77" type="max"/>
           </constraints>
           <profiles>
-            <profile id="86a3-3eff-a624-f610" name="Peerless Commander" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="86a3-3eff-a624-f610" name="Peerless Commander" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general may summon a unit from a gravesite (see &quot;The Unquiet Dead&quot; battle trait) whilst they are within 12&quot; rather than 9&quot;.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general may summon a unit from a gravesite (see &quot;The Unquiet Dead&quot; battle trait) whilst they are within 12&quot; rather than 9&quot;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9840,14 +9833,14 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="425d-9a9a-2121-8cf0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0303-1bfe-041a-6c84" name="Bound to the Master" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0303-1bfe-041a-6c84" name="Bound to the Master" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general may use Arkhan the Black’s First of the Mortarchs command ability.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general may use Arkhan the Black’s First of the Mortarchs command ability.</characteristic>
               </characteristics>
             </profile>
             <profile id="fc2b-633a-2983-2f93" name="First of the Mortarchs (Bound to the Master)" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
               <characteristics>
-                <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If Arkhan the Black (or General with &apos;Bound to the Master&apos;) uses this ability, then until the end of the hero phase all friendly 死亡 WIZARDS within 18&quot; of him can increase the range of their spells by 6.</characteristic>
+                <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If Arkhan the Black (or General with &apos;Bound to the Master&apos;) uses this ability, then until the end of the hero phase all friendly DEATH WIZARDS within 18&quot; of him can increase the range of their spells by 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9867,9 +9860,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="936f-3f03-3fbc-5641" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c1c1-0db5-32ad-b54f" name="Swift Strikes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="c1c1-0db5-32ad-b54f" name="Swift Strikes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time you make a hit roll of 6+ in the combat phase for this general, you can make one additional hit roll for the same weapon against the same target.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time you make a hit roll of 6+ in the combat phase for this general, you can make one additional hit roll for the same weapon against the same target.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9882,9 +9875,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7025-2d4f-fbcd-5678" type="max"/>
           </constraints>
           <profiles>
-            <profile id="80dd-5d39-c9e4-ca1b" name="Soul-crushing Contempt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="80dd-5d39-c9e4-ca1b" name="Soul-crushing Contempt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general slays any models in the combat phase, subtract 1 from the Bravery characteristic of the slain model’s unit until the end of the turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general slays any models in the combat phase, subtract 1 from the Bravery characteristic of the slain model’s unit until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9897,9 +9890,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="753a-f2ab-1bf8-3fa6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e42b-040e-8af1-aadd" name="Aristocracy of Blood" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e42b-040e-8af1-aadd" name="Aristocracy of Blood" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly SOULBLIGHT units that are within 9&quot; of this general at the start of the charge phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly SOULBLIGHT units that are within 9&quot; of this general at the start of the charge phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9912,9 +9905,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae3f-f374-f3ab-3b9c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="55c1-99c7-3843-e59a" name="Aura of Dark Majesty" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="55c1-99c7-3843-e59a" name="Aura of Dark Majesty" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the hit rolls of attacks that target this general in the combat phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the hit rolls of attacks that target this general in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9922,14 +9915,14 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="92bf-45aa-be9d-e7d9" name="5. Walking 死亡" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="92bf-45aa-be9d-e7d9" name="5. Walking Death" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdca-a251-3c94-0ac0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4f8f-76d9-7e59-b32b" name="Walking 死亡" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4f8f-76d9-7e59-b32b" name="Walking Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If the hit roll for an attack made with one of this general’s melee weapons is 6+, do not roll to wound. Instead, the target suffers a number of mortal wounds equal to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If the hit roll for an attack made with one of this general’s melee weapons is 6+, do not roll to wound. Instead, the target suffers a number of mortal wounds equal to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9942,9 +9935,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d1a-754a-a100-9fb3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e001-157a-4934-ac14" name="Sanguine Blur" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e001-157a-4934-ac14" name="Sanguine Blur" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this general’s Move characteristic. In addition, you can re-roll failed charge rolls for this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this general’s Move characteristic. In addition, you can re-roll failed charge rolls for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9959,7 +9952,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c51-d12d-c688-e65b" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="475b-0671-859c-493e" name="-无尽法术: Mortalis Terminexus" hidden="false" collective="false" import="true" targetId="925f-f4ee-9c5e-2552" type="selectionEntry">
+        <entryLink id="475b-0671-859c-493e" name="-Endless Spell: Mortalis Terminexus" hidden="false" collective="false" import="true" targetId="925f-f4ee-9c5e-2552" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec62-1d83-af49-2432" type="max"/>
           </constraints>
@@ -9967,7 +9960,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <categoryLink id="0f45-9357-56a4-290c" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="3c95-e10a-d675-22fc" name="-无尽法术: Shyish Reaper" hidden="false" collective="false" import="true" targetId="b904-52ba-13d8-a3cf" type="selectionEntry">
+        <entryLink id="3c95-e10a-d675-22fc" name="-Endless Spell: Shyish Reaper" hidden="false" collective="false" import="true" targetId="b904-52ba-13d8-a3cf" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b2-a2ed-307a-1730" type="max"/>
           </constraints>
@@ -9975,7 +9968,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <categoryLink id="4b2d-72c2-7405-3702" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="8926-899d-2b13-7c88" name="-无尽法术: Vault of Souls" hidden="false" collective="false" import="true" targetId="67ba-f5bf-62b6-08e6" type="selectionEntry">
+        <entryLink id="8926-899d-2b13-7c88" name="-Endless Spell: Vault of Souls" hidden="false" collective="false" import="true" targetId="67ba-f5bf-62b6-08e6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07f0-1eca-0ae0-4aff" type="max"/>
           </constraints>
@@ -10093,7 +10086,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="d979-280e-9dd5-69e0" name="Soul Cage" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them. Until the start of your next hero phase, that unit cannot retreat. In addition, until your next hero phase, that unit fights at the end of the combat phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. Until the start of your next hero phase, that unit cannot retreat. In addition, until your next hero phase, that unit fights at the end of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10109,7 +10102,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="949b-4293-c682-a532" name="Spectral Tether" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly NIGHTHAUNT HERO within 12&quot; of the caster. Heal D3 wounds that have been allocated to that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly NIGHTHAUNT HERO within 12&quot; of the caster. Heal D3 wounds that have been allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10125,7 +10118,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="8cfe-fc78-eef0-7816" name="Shademist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly NIGHTHAUNT unit wholly within 12&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly NIGHTHAUNT unit wholly within 12&quot; of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10141,7 +10134,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="93ad-4b94-cdc6-15ea" name="Reaping Scythe" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">4</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick one of the caster&apos;s weapons. Until the start of your next hero phase, you can re-roll failed hit and wound rolls for attacks made with that weapon.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick one of the caster&apos;s weapons. Until the start of your next hero phase, you can re-roll failed hit and wound rolls for attacks made with that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10157,7 +10150,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="0f5a-5088-9a67-aec9" name="Lifestealer" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Foe each mortal wound suffered by that enemy unit, you can heal 1 wound allocated to the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. Foe each mortal wound suffered by that enemy unit, you can heal 1 wound allocated to the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10173,7 +10166,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="0687-bbec-f15c-0aa3" name="Spirit Drain" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">4</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy model within 18&quot; of the caster that is visible to them. Roll a number of dice equal to the model&apos;s Wounds characteristic. For each 6+ that model&apos;s unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy model within 18&quot; of the caster that is visible to them. Roll a number of dice equal to the model&apos;s Wounds characteristic. For each 6+ that model&apos;s unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10326,7 +10319,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="eac8-542a-5513-9368" name="Overwhelming Dread" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for that unit and subtract 1 from that unit’s Bravery characteristic. </characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from hit rolls for that unit and subtract 1 from that unit’s Bravery characteristic. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10342,7 +10335,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="acc6-5448-8eda-7c4d" name="Fading Vigour" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, subtract 1 from the Attacks characteristic of that unit’s melee weapons (to a minimum of 1), and roll only a single dice when making charge rolls for it.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot; of the caster that is visible to them. Until the start of your next hero phase, subtract 1 from the Attacks characteristic of that unit’s melee weapons (to a minimum of 1), and roll only a single dice when making charge rolls for it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10358,7 +10351,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="fbca-63d7-8626-61b3" name="Spectral Grasp" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a terrain feature within 18&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic (rounding down) of enemy units within 3&quot; of any terrain features affected by any Spectral Grasp spells at the start of their movement phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a terrain feature within 18&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic (rounding down) of enemy units within 3&quot; of any terrain features affected by any Spectral Grasp spells at the start of their movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10374,7 +10367,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="d24e-2469-4f77-2682" name="Prison of Grief" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, before a unit affected by any Prison of Grief spells moves, roll a dice. On a 5+ the unit may not move in that phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, before a unit affected by any Prison of Grief spells moves, roll a dice. On a 5+ the unit may not move in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10390,7 +10383,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="44ec-1079-d856-2ea2" name="Decrepify" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy HERO within 18&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from wound rolls made for that model and subtract 1 from the Damage characteristics of that model’s melee weapons (to a minimum of 1).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy HERO within 18&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from wound rolls made for that model and subtract 1 from the Damage characteristics of that model’s melee weapons (to a minimum of 1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10406,7 +10399,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="b6da-1c54-cbdf-4b9e" name="Soul Harvest" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, each enemy unit within 3&quot; of the caster suffers D3 mortal wounds. Then, roll a dice for each mortal wound that was allocated to an enemy unit and not negated. For each 5+, heal 1 wound that has been allocated to the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, each enemy unit within 3&quot; of the caster suffers D3 mortal wounds. Then, roll a dice for each mortal wound that was allocated to an enemy unit and not negated. For each 5+, heal 1 wound that has been allocated to the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10452,7 +10445,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="dff2-9621-f9f6-c90b" name="Blades of Shyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll a dice for each enemy unit within 12&quot; of the caster. On a 5+ that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy unit within 12&quot; of the caster. On a 5+ that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10468,7 +10461,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="a55c-5160-64d6-1864" name="Spirit Gale" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them and roll 3 dice. For each 5+, that unit suffers 1 mortal wound. In addition, if 2 of these dice show the same number, subtract 1 from hit rolls for that unit until your next hero phase. If all 3 dice show the same number, subtract 1 from hit and wound rolls for that unit until your next hero phase instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them and roll 3 dice. For each 5+, that unit suffers 1 mortal wound. In addition, if 2 of these dice show the same number, subtract 1 from hit rolls for that unit until your next hero phase. If all 3 dice show the same number, subtract 1 from hit and wound rolls for that unit until your next hero phase instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10484,7 +10477,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="e926-6d1f-95bd-f11f" name="Vile Transference" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them, and a friendly 死亡 unit within 6&quot; of that enemy unit. The enemy unit suffers D3 mortal wounds. Then, for each of these wounds that was allocated and not negated, you can heal 1 wound allocated to the friendly unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them, and a friendly DEATH unit within 6&quot; of that enemy unit. The enemy unit suffers D3 mortal wounds. Then, for each of these wounds that was allocated and not negated, you can heal 1 wound allocated to the friendly unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10500,7 +10493,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="0737-68ba-ff79-b731" name="Amethystine Pinions" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until your next hero phase add 5&quot; to the caster’s Move characteristic and the caster can fly.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next hero phase add 5&quot; to the caster’s Move characteristic and the caster can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10516,7 +10509,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="586c-b2aa-5c71-284e" name="Soulpike" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, after a unit affected by any Soulpike spells makes a charge move, roll a number of dice equal to the result of their charge roll. For each 5+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot; of the caster that is visible to them. Until your next hero phase, after a unit affected by any Soulpike spells makes a charge move, roll a number of dice equal to the result of their charge roll. For each 5+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10532,7 +10525,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="552b-cadf-2b63-4c93" name="Amaranthine Orb" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 12&quot; of the caster and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Roll a dice for each unit (friend or foe, apart from the caster) that has any models beneath this line. On a 4+ that unit suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12&quot; of the caster and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Roll a dice for each unit (friend or foe, apart from the caster) that has any models beneath this line. On a 4+ that unit suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10552,9 +10545,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b8f-c694-56b8-361a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a4b8-22d5-f5bf-b74c" name="Amethyst Glow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a4b8-22d5-f5bf-b74c" name="Amethyst Glow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general is a WIZARD. They can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. They know the Arcane Bolt and Mystic Shield spells. If this general is already a WIZARD, they know one extra spell from the Lore of Sorrows. </characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general is a WIZARD. They can attempt to cast one spell in your hero phase, and attempt to unbind one spell in the enemy hero phase. They know the Arcane Bolt and Mystic Shield spells. If this general is already a WIZARD, they know one extra spell from the Lore of Sorrows. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10571,9 +10564,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdae-cb48-64fd-498c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e69d-b7d2-5df1-f331" name="Vassal of the Craven King" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e69d-b7d2-5df1-f331" name="Vassal of the Craven King" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield, each time you spend a command point, roll a dice. On a 5+, you receive 1 extra command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield, each time you spend a command point, roll a dice. On a 5+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10586,9 +10579,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2745-3c6b-0a3a-2707" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bccd-6786-f681-7bb8" name="Tragic Emanations" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="bccd-6786-f681-7bb8" name="Tragic Emanations" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10690,7 +10683,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="542c-b356-0a57-6998" name="Dread Withering" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from save rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Subtract 1 from save rolls for attacks that target that unit until the start of your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10706,7 +10699,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="ebfb-739f-203c-6a16" name="Wail of Doom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll a dice for each enemy unit within 6&quot; of the caster. On a 4+ that unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy unit within 6&quot; of the caster. On a 4+ that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10722,7 +10715,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <profile id="48a8-2b5e-a9dd-1b3e" name="Shroud of Terror" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Subtract D3 from the bravery characteristic of that unit until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 12&quot; of the caster that is visible to them. Subtract D3 from the bravery characteristic of that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10761,7 +10754,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
     </profile>
     <profile id="82d7-72c8-891a-50e8" name="STANDARD BEARER" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
       <characteristics>
-        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Models in this unit may be Standard Bearers. Subtract 1 from the Bravery characteristic of enemy units whilst they are within 6&quot; of any 死亡 Standard Bearers.</characteristic>
+        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Models in this unit may be Standard Bearers. Subtract 1 from the Bravery characteristic of enemy units whilst they are within 6&quot; of any DEATH Standard Bearers.</characteristic>
       </characteristics>
     </profile>
     <profile id="16e6-849a-6966-8f7e" name="Cryptsword" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -10781,7 +10774,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
     </profile>
     <profile id="fb6d-c2b0-6c7a-ecd3" name="The Unquiet Dead" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
       <characteristics>
-        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After territories have been determined, but before any units have been set up, you may pick up to 2 points in your territory and up to 2 points anywhere on the battlefield to be gravesites. You may wish to place suitable markers on these points. Instead of setting up a SUMMONABLE unit on the battlefield, you can place it to one side and say that it is set up in the grave. You can do this with as many units as you wish.   At the end of your movement phase, for each friendly 死亡 Hero within 9&quot; of a gravesite, you may pick a single friendly unit in the grave and set it up wholly within 9&quot; of the gravesite and more than 9&quot; from any enemy models. Any model that is unable to be set up in this way is slain. If a unit is still in the grave at the end of the battle, it is considered to be slain. *ERRATA Jun&apos;18*</characteristic>
+        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">After territories have been determined, but before any units have been set up, you may pick up to 2 points in your territory and up to 2 points anywhere on the battlefield to be gravesites. You may wish to place suitable markers on these points. Instead of setting up a SUMMONABLE unit on the battlefield, you can place it to one side and say that it is set up in the grave. You can do this with as many units as you wish.   At the end of your movement phase, for each friendly Death Hero within 9&quot; of a gravesite, you may pick a single friendly unit in the grave and set it up wholly within 9&quot; of the gravesite and more than 9&quot; from any enemy models. Any model that is unable to be set up in this way is slain. If a unit is still in the grave at the end of the battle, it is considered to be slain. *ERRATA Jun&apos;18*</characteristic>
       </characteristics>
     </profile>
     <profile id="154c-e7e7-3d05-a781" name="Gravesite: Invigorating Aura" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -10791,7 +10784,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
     </profile>
     <profile id="3998-f3e4-90e7-348a" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
       <characteristics>
-        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 死亡 unit within 6&quot; of your general or another friendly 死亡 HERO. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATH unit within 6&quot; of your general or another friendly DEATH HERO. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
     <profile id="327f-b655-f2de-3d3b" name="Endless Legions" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">

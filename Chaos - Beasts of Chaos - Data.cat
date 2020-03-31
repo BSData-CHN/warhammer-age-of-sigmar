@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a990-882b-7e62-27e9" name="混沌 - Beasts of 混沌 - 数据" revision="11" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a990-882b-7e62-27e9" name="Chaos - Beasts of Chaos - Data" revision="18" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="c9b2-1fe6-pubN65537" name="Battletome: Beasts of 混沌"/>
+    <publication id="c9b2-1fe6-pubN65537" name="Battletome: Beasts of Chaos"/>
     <publication id="c9b2-1fe6-pubN83353" name="1"/>
   </publications>
   <profileTypes>
@@ -40,14 +40,14 @@
     <categoryEntry id="d809-dc0b-17c2-c7ac" name="WARHERD" hidden="false"/>
     <categoryEntry id="0eff-3787-7ce8-f79b" name="CYGOR" hidden="false"/>
     <categoryEntry id="d58d-ffaa-6d24-1a5e" name="GHORGON" hidden="false"/>
-    <categoryEntry id="4d26-d95f-9bcd-aeff" name="MONSTERS OF 混沌" hidden="false"/>
-    <categoryEntry id="120a-b4f8-cf68-0480" name="混沌 WARHOUNDS" hidden="false"/>
+    <categoryEntry id="4d26-d95f-9bcd-aeff" name="MONSTERS OF CHAOS" hidden="false"/>
+    <categoryEntry id="120a-b4f8-cf68-0480" name="CHAOS WARHOUNDS" hidden="false"/>
     <categoryEntry id="675d-4c51-5823-2962" name="JABBERSLYTHE" hidden="false"/>
     <categoryEntry id="e2f4-9429-13a3-c681" name="COCKATRICE" hidden="false"/>
-    <categoryEntry id="bb97-9935-5ccd-67b7" name="混沌 SPAWN" hidden="false"/>
+    <categoryEntry id="bb97-9935-5ccd-67b7" name="CHAOS SPAWN" hidden="false"/>
     <categoryEntry id="248f-83c5-8cea-6ac2" name="CHIMERA" hidden="false"/>
     <categoryEntry id="c2ae-c785-1e40-0891" name="GARGANT" hidden="false"/>
-    <categoryEntry id="7fd3-01d8-3a52-8de5" name="混沌 GARGANT" hidden="false"/>
+    <categoryEntry id="7fd3-01d8-3a52-8de5" name="CHAOS GARGANT" hidden="false"/>
     <categoryEntry id="0a23-1dea-91f1-9ad3" name="DRAGON OGOR" hidden="false"/>
     <categoryEntry id="7020-fecd-a479-8a04" name="SHAGGOTH" hidden="false"/>
     <categoryEntry id="9a13-aa85-e9e2-9793" name="THUNDERSCORN" hidden="false"/>
@@ -57,6 +57,7 @@
     <categoryEntry id="cb6b-150d-1eda-84a7" name="TZAANGOR SHAMAN" hidden="false"/>
     <categoryEntry id="01c3-a8a3-0323-85aa" name="TZAANGOR ENLIGHTENED" hidden="false"/>
     <categoryEntry id="bd0e-f2ff-1677-8b2e" name="TZAANGORS" hidden="false"/>
+    <categoryEntry id="ade4-b2f0-af54-5333" name="ALLHERD" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9a9a-7579-ec51-6d76" name="General" hidden="false" collective="false" import="true" type="upgrade">
@@ -65,8 +66,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -95,7 +94,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e129-c3f9-1b86-c60c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a509-a616-4749-8806" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a509-a616-4749-8806" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="981a-8106-b589-1dd0" name="Unbridled Malice" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>
@@ -103,7 +102,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1378-5154-1483-85b9" name="Beasts of 混沌" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1378-5154-1483-85b9" name="Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="13b2-0db3-c165-f113" name="The Herdstone" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
@@ -112,7 +111,7 @@
                 </profile>
                 <profile id="8647-a131-ae8b-f5c0" name="Brayherd Ambush" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a BRAYHERD unit on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve unit. You can set up one reserve unit in ambush for each BEASTS OF 混沌 unit you have set up on the battlefield. At the end of your first movement phase, you must set up all friendly reserve units that are in ambush on the battlefield, wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Any reserve units that cannot be set up are slain</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a BRAYHERD unit on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve unit. You can set up one reserve unit in ambush for each BEASTS OF CHAOS unit you have set up on the battlefield. At the end of your first movement phase, you must set up all friendly reserve units that are in ambush on the battlefield, wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Any reserve units that cannot be set up are slain</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8050-59e2-5042-987f" name="Creatures of the Storm" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -127,7 +126,7 @@
                 </profile>
                 <profile id="985e-c99e-95e4-57f2" name="Primordial Call" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of BEASTS OF 混沌 to the battlefield if you collect enough Primordial Call points. At the start of your hero phase, you receive 1 Primordial Call point. In addition, in your hero phase you can choose one friendly BEASTS OF 混沌 HERO within 3&quot; of the HERDSTONE you set up at the start of the battle and say that they will enact a savage blood ritual. If you do so, pick a friendly BEASTS OF 混沌 unit within 3&quot; of the HERDSTONE. That unit suffers D3 mortal wounds. For each mortal wound inflicted on that unit, you receive 1 Primordial Call point.   If you have 3 or more Primordial Call points at the end of your movement phase, you can summon one or more units from the following list onto the battlefield, and add them to your army. Each unit you summon costs a number of Primordial Call points, as shown on the list, and you can only summon a unit if you have enough Primordial Call points remaining to pay its cost. Summoned units must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Subtract the cost of the summoned unit from the number of Primordial Call points you have available immediately after it has been set up.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can summon units of BEASTS OF CHAOS to the battlefield if you collect enough Primordial Call points. At the start of your hero phase, you receive 1 Primordial Call point. In addition, in your hero phase you can choose one friendly BEASTS OF CHAOS HERO within 3&quot; of the HERDSTONE you set up at the start of the battle and say that they will enact a savage blood ritual. If you do so, pick a friendly BEASTS OF CHAOS unit within 3&quot; of the HERDSTONE. That unit suffers D3 mortal wounds. For each mortal wound inflicted on that unit, you receive 1 Primordial Call point.   If you have 3 or more Primordial Call points at the end of your movement phase, you can summon one or more units from the following list onto the battlefield, and add them to your army. Each unit you summon costs a number of Primordial Call points, as shown on the list, and you can only summon a unit if you have enough Primordial Call points remaining to pay its cost. Summoned units must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Subtract the cost of the summoned unit from the number of Primordial Call points you have available immediately after it has been set up.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7d8a-73ee-3eaa-c7a2" name="(13) 3 Tzaangor Enlightened" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
@@ -175,7 +174,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">9</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="4ca8-af44-1446-ff69" name="(04) 混沌 Gargant" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="4ca8-af44-1446-ff69" name="(04) Chaos Gargant" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">9</characteristic>
                   </characteristics>
@@ -205,7 +204,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">3</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="cc8b-e181-83b6-2bfc" name="(18) 1 混沌 Spawn" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="cc8b-e181-83b6-2bfc" name="(18) 1 Chaos Spawn" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">3</characteristic>
                   </characteristics>
@@ -220,7 +219,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">4</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="79c5-23bb-1ddc-0122" name="(15) 10 混沌 Warhounds" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="79c5-23bb-1ddc-0122" name="(15) 10 Chaos Warhounds" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">4</characteristic>
                   </characteristics>
@@ -266,12 +265,12 @@
                       <profiles>
                         <profile id="ad7b-6563-ff1a-10b9" name="Propagator of Devolution" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
                           <characteristics>
-                            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN unit wholly within 12&quot; of a friendly GAVESPAWN 混沌 SPAWN. Add 1 to the Attacks characteristic of that unit’s melee weapons until the end of that phase.</characteristic>
+                            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN unit wholly within 12&quot; of a friendly GAVESPAWN CHAOS SPAWN. Add 1 to the Attacks characteristic of that unit’s melee weapons until the end of that phase.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="2df4-e0c5-3e64-d8b7" name="Gift of Morghur" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                           <characteristics>
-                            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN HERO is slain, roll a dice before removing the model. On a 2+ one 混沌 SPAWN is added to your army. Set up the 混沌 SPAWN anywhere on the battlefield within 6&quot; of the slain HERO. If the HERO had the 恐虐, 纳垢, 色孽 or TZEENTCH keyword, the same keyword must be chosen for the 混沌 SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that 混沌 SPAWN .</characteristic>
+                            <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN HERO is slain, roll a dice before removing the model. On a 2+ one CHAOS SPAWN is added to your army. Set up the CHAOS SPAWN anywhere on the battlefield within 6&quot; of the slain HERO. If the HERO had the KHORNE, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the CHAOS SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that CHAOS SPAWN .</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -305,10 +304,10 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="186e-8976-3d12-9451" name="恐虐" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
+            <entryLink id="186e-8976-3d12-9451" name="Khorne" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
             <entryLink id="b1e8-2cde-2d9e-3e79" name="Tzeentch" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
-            <entryLink id="8c01-a0c0-bfd0-881c" name="色孽" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
-            <entryLink id="e5c1-e8a1-a45f-394b" name="纳垢" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
+            <entryLink id="8c01-a0c0-bfd0-881c" name="Slaanesh" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
+            <entryLink id="e5c1-e8a1-a45f-394b" name="Nurgle" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -341,8 +340,8 @@
         <categoryLink id="ba7c-27ae-d765-d00c" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="aa96-df7e-4547-d3f3" name="BEASTLORD" hidden="false" targetId="a65c-12b4-8978-4013" primary="false"/>
         <categoryLink id="d268-0cda-178b-aed0" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
-        <categoryLink id="d086-4c45-41a6-f828" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="ad6b-7c9e-00e8-f75c" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="d086-4c45-41a6-f828" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="ad6b-7c9e-00e8-f75c" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="4ef6-3136-f37e-daf5" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -379,8 +378,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -432,10 +429,10 @@
         <categoryLink id="f4ed-e51b-812d-b35c" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="be7b-8f3c-fbd5-655d" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="413b-222d-670e-8b29" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
-        <categoryLink id="cf55-fa78-e537-1da4" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="cf55-fa78-e537-1da4" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="8de8-8538-a23b-2890" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="e8be-05c8-116d-a389" name="GREAT BRAY-SHAMAN" hidden="false" targetId="16b0-d1d2-6e48-f877" primary="false"/>
-        <categoryLink id="da84-8263-1777-8b3b" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="da84-8263-1777-8b3b" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6506-49a9-5ff3-909c" name="Devolve" hidden="false" collective="false" import="true" type="upgrade">
@@ -447,7 +444,7 @@
             <profile id="d087-09d9-ed03-390c" name="Devolve" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot; of the caster that is visible to them and not within 3&quot; of any friendly units. Your opponent must move that unit up to 2D6&quot; so that each model in the unit ends its move as close as possible to a model from the friendly unit that was closest to it at the start of the move.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot; of the caster that is visible to them and not within 3&quot; of any friendly units. Your opponent must move that unit up to 2D6&quot; so that each model in the unit ends its move as close as possible to a model from the friendly unit that was closest to it at the start of the move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -483,8 +480,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -574,8 +569,8 @@
       <categoryLinks>
         <categoryLink id="0da4-5cb5-dd6d-aa2d" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="1773-e2e4-3973-215a" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="a62e-c648-ed9e-9a1f" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="ba8b-c018-5813-3099" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="a62e-c648-ed9e-9a1f" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="ba8b-c018-5813-3099" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3f0c-643e-9d54-5037" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -688,8 +683,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="f686-99e8-d26e-8463" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="5e79-b04e-1d8b-ac08" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="260e-b5b8-27d7-eaca" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="5e79-b04e-1d8b-ac08" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="260e-b5b8-27d7-eaca" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3310-1c07-32ec-948e" name="UNGOR" hidden="false" targetId="1ecf-67b0-98d3-f870" primary="false"/>
         <categoryLink id="e68a-a608-9aaf-5558" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
@@ -792,9 +787,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="d60c-14c4-1c44-9c34" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="d60c-14c4-1c44-9c34" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="d830-00e2-e69c-18a6" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="3ce0-9261-1d9f-85b5" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3ce0-9261-1d9f-85b5" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="50f3-64f4-294f-1c57" name="UNGOR" hidden="false" targetId="1ecf-67b0-98d3-f870" primary="false"/>
         <categoryLink id="b5ec-1811-5632-3e74" name="UNGOR RAIDERS" hidden="false" targetId="bec6-9e93-870a-1018" primary="false"/>
       </categoryLinks>
@@ -921,9 +916,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7e88-43c4-f080-d797" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="7e88-43c4-f080-d797" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="e6f5-e02e-9e07-0eea" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="dea3-b705-2cc6-a834" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="dea3-b705-2cc6-a834" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="32ee-a7dd-e97b-7708" name="BESTIGORS" hidden="false" targetId="6188-9126-8813-8505" primary="false"/>
         <categoryLink id="975f-7065-4211-9e27" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="0a62-aa7e-637b-8942" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -985,9 +980,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="589d-d2a9-6cf1-720d" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="589d-d2a9-6cf1-720d" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="1278-b866-f0c9-9865" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="3b18-2b0a-8ff7-d9e0" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3b18-2b0a-8ff7-d9e0" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9d82-94be-4fdb-7dd6" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="0469-a0fb-0856-ee87" name="TUSKGOR CHARIOTS" hidden="false" targetId="91fd-3254-1b11-c779" primary="false"/>
       </categoryLinks>
@@ -1083,9 +1078,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="6bc2-b02c-b372-5116" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="6bc2-b02c-b372-5116" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="d254-9608-fbea-f871" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
-        <categoryLink id="e151-13a1-0923-de46" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="e151-13a1-0923-de46" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="fff8-b91e-26b0-aa36" name="DOOMBULL" hidden="false" targetId="dcec-7da2-0ccd-ca86" primary="false"/>
         <categoryLink id="54fe-41f2-7b81-5a05" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="ff10-af4f-34e2-c920" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
@@ -1141,8 +1136,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -1240,7 +1233,7 @@
       <categoryLinks>
         <categoryLink id="41e0-d263-fde9-d36a" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3d07-e065-9443-8ebc" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="02bc-d130-69cb-a5bc" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="02bc-d130-69cb-a5bc" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="52d5-f9d3-732c-9551" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
         <categoryLink id="97ce-af30-3a1d-b4d3" name="CYGOR" hidden="false" targetId="0eff-3787-7ce8-f79b" primary="false"/>
         <categoryLink id="151a-adae-8599-1919" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
@@ -1367,9 +1360,9 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="ac57-0337-f837-7b19" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="84b8-4f76-a2ea-4dc6" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="84b8-4f76-a2ea-4dc6" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="a5a0-563e-2985-46d6" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
-        <categoryLink id="2f66-51ff-23dd-d727" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="2f66-51ff-23dd-d727" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="ae47-13e1-6548-8f78" name="GHORGON" hidden="false" targetId="d58d-ffaa-6d24-1a5e" primary="false"/>
         <categoryLink id="d941-833d-5856-492c" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
       </categoryLinks>
@@ -1423,9 +1416,9 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3975-c1f2-7a13-beb5" name="混沌 Warhounds" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3975-c1f2-7a13-beb5" name="Chaos Warhounds" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1c53-7882-04a2-db69" name="Outrunners of 混沌" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="1c53-7882-04a2-db69" name="Outrunners of Chaos" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In your movement phase, if you declare that this unit will run, do not make a run roll. Instead, add 6&quot; to the Move characteristic of all models in this unit for that phase.</characteristic>
           </characteristics>
@@ -1433,12 +1426,12 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="dd73-1021-4c84-4051" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="11ef-b088-2207-85b4" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="4721-8fd3-4cf2-6d37" name="混沌 WARHOUNDS" hidden="false" targetId="120a-b4f8-cf68-0480" primary="false"/>
-        <categoryLink id="bdbc-244c-5921-0899" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="11ef-b088-2207-85b4" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="4721-8fd3-4cf2-6d37" name="CHAOS WARHOUNDS" hidden="false" targetId="120a-b4f8-cf68-0480" primary="false"/>
+        <categoryLink id="bdbc-244c-5921-0899" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2ed9-881b-645a-dd6f" name="10 混沌 Warhounds" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2ed9-881b-645a-dd6f" name="10 Chaos Warhounds" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="decrement" field="points" value="10">
               <conditions>
@@ -1451,7 +1444,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="312b-198e-be46-135c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c443-da81-baa1-7482" name="混沌 Warhound" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+            <profile id="c443-da81-baa1-7482" name="Chaos Warhound" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
               <characteristics>
                 <characteristic name="Move" typeId="8655-6213-2824-1752">10&quot;</characteristic>
                 <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -1507,8 +1500,8 @@
       <categoryLinks>
         <categoryLink id="54f4-4323-ab0d-d226" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="82d1-043b-6c80-c202" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="7816-7278-44bc-2fab" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="1173-3cb5-e7da-6704" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="7816-7278-44bc-2fab" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="1173-3cb5-e7da-6704" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
         <categoryLink id="db14-d47b-2128-abcd" name="COCKATRICE" hidden="false" targetId="e2f4-9429-13a3-c681" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1605,9 +1598,10 @@
       <categoryLinks>
         <categoryLink id="6fea-ae62-3930-a17e" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3c8e-d242-5600-52eb" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="346b-48ca-11f1-6cd1" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="346b-48ca-11f1-6cd1" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="a149-f0cc-9125-a7cf" name="COCKATRICE" hidden="false" targetId="e2f4-9429-13a3-c681" primary="false"/>
-        <categoryLink id="3289-330f-af84-bc27" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="3289-330f-af84-bc27" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="b4bc-267c-a638-d71f" name="Other" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7fa0-d1d8-4f90-701d" name="Petrifying Gaze" hidden="false" collective="false" import="true" type="upgrade">
@@ -1686,14 +1680,14 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="463c-335b-796c-ffb2" name="混沌 Spawn" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="463c-335b-796c-ffb2" name="Chaos Spawn" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="edc5-f3f3-76dd-4124" name="Writhing Tentacles" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If you roll a double when determining the number of attacks made by a 混沌 SPAWN’s Freakish Mutations, add 1 to hit and wound rolls for attacks made by that model until the end of the phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If you roll a double when determining the number of attacks made by a CHAOS SPAWN’s Freakish Mutations, add 1 to hit and wound rolls for attacks made by that model until the end of the phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c46e-2444-698b-da4e" name="混沌 Spawn" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="c46e-2444-698b-da4e" name="Chaos Spawn" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">2D6&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1706,11 +1700,11 @@
         <categoryLink id="0d67-c591-cf3c-300b" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="8451-4fd6-6a77-ca82" name="New CategoryLink" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false"/>
         <categoryLink id="c1eb-47c7-39de-007c" name="New CategoryLink" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
-        <categoryLink id="1769-c6c5-cdfa-e278" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="603b-8783-14aa-6c6a" name="混沌 SPAWN" hidden="false" targetId="bb97-9935-5ccd-67b7" primary="false"/>
+        <categoryLink id="1769-c6c5-cdfa-e278" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="603b-8783-14aa-6c6a" name="CHAOS SPAWN" hidden="false" targetId="bb97-9935-5ccd-67b7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2e40-daea-d412-4342" name="混沌 Spawn" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2e40-daea-d412-4342" name="Chaos Spawn" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4770-3729-e0d2-be7a" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fbe-c367-d28e-5e6f" type="max"/>
@@ -1745,7 +1739,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="bc44-f10f-0073-7384" name="Mark of 混沌" hidden="false" collective="false" import="true" targetId="7016-ae89-f6cf-e026" type="selectionEntryGroup"/>
+        <entryLink id="bc44-f10f-0073-7384" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="7016-ae89-f6cf-e026" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1773,9 +1767,9 @@
       <categoryLinks>
         <categoryLink id="cb43-c12a-c7ae-81e3" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="1e6a-8fb5-b5fa-c335" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="e5f7-6dbf-6815-e184" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="e5f7-6dbf-6815-e184" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="6fcb-4abe-ae3d-bcfa" name="CHIMERA" hidden="false" targetId="248f-83c5-8cea-6ac2" primary="false"/>
-        <categoryLink id="b85c-1d54-9341-73f0" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="b85c-1d54-9341-73f0" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="702c-e772-9e92-835f" name="Draconic Head&apos;s Fiery Breath" hidden="false" collective="false" import="true" type="upgrade">
@@ -1944,9 +1938,9 @@
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5c2-d8df-2527-dc3d" name="混沌 Gargant" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e5c2-d8df-2527-dc3d" name="Chaos Gargant" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c383-6299-513f-bfa5" name="混沌 Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="c383-6299-513f-bfa5" name="Chaos Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -2006,17 +2000,17 @@
         </profile>
         <profile id="62c6-7f43-7b76-6213" name="Whipped into a Frenzy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, if this model is within 3&quot; of any friendly BEASTS OF 混沌 HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, if this model is within 3&quot; of any friendly BEASTS OF CHAOS HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="6b21-2ae9-4aae-b6b5" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="52ad-0140-39cb-d870" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="e664-ff9a-cf42-d5cb" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="6a61-c6db-50e4-2a87" name="混沌 GARGANT" hidden="false" targetId="7fd3-01d8-3a52-8de5" primary="false"/>
+        <categoryLink id="e664-ff9a-cf42-d5cb" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="6a61-c6db-50e4-2a87" name="CHAOS GARGANT" hidden="false" targetId="7fd3-01d8-3a52-8de5" primary="false"/>
         <categoryLink id="83a7-e86c-a85f-100d" name="GARGANT" hidden="false" targetId="c2ae-c785-1e40-0891" primary="false"/>
-        <categoryLink id="8ab7-383a-597b-8b35" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="8ab7-383a-597b-8b35" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9b26-b68f-4d5e-3c29" name="Massive Club" hidden="false" collective="false" import="true" type="upgrade">
@@ -2125,7 +2119,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="34cb-4606-7b9f-e89a" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="8c52-41de-386b-82d4" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="8c52-41de-386b-82d4" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="3787-8a1b-1368-7eeb" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
         <categoryLink id="fbac-ac55-0524-4caa" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
         <categoryLink id="4ff7-67c8-cc70-c644" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -2298,7 +2292,7 @@
         <profile id="ad07-5064-dff9-565c" name="Summon Lightning" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly THUNDERSCORN unit wholly within 20&quot; of the caster and visible to them. You can heal D3 wounds allocated to that unit. In addition, you can re-roll failed wound rolls for attacks made by that unit until your next hero phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly THUNDERSCORN unit wholly within 20&quot; of the caster and visible to them. You can heal D3 wounds allocated to that unit. In addition, you can re-roll failed wound rolls for attacks made by that unit until your next hero phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2306,7 +2300,7 @@
         <categoryLink id="f82d-147a-d81e-6ee4" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="0245-455d-c825-017a" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="98fc-fa1e-0b1c-7294" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="5f29-2b65-640d-20d0" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="5f29-2b65-640d-20d0" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="98a6-20e4-88ac-11cd" name="SHAGGOTH" hidden="false" targetId="7020-fecd-a479-8a04" primary="false"/>
         <categoryLink id="9ee4-4d47-3f73-5c3f" name="DRAGON OGOR" hidden="false" targetId="0a23-1dea-91f1-9ad3" primary="false"/>
         <categoryLink id="2b51-4c11-b684-4e94" name="THUNDERSCORN" hidden="false" targetId="9a13-aa85-e9e2-9793" primary="false"/>
@@ -2386,8 +2380,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -2446,7 +2438,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="3625-f97b-4439-f26d" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="b442-68b1-a6ad-f470" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="b442-68b1-a6ad-f470" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="8678-915e-612e-7c75" name="DRAGON OGOR" hidden="false" targetId="0a23-1dea-91f1-9ad3" primary="false"/>
         <categoryLink id="d899-edb5-d22d-1c55" name="THUNDERSCORN" hidden="false" targetId="9a13-aa85-e9e2-9793" primary="false"/>
         <categoryLink id="2d7d-0de1-0539-988b" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -2589,7 +2581,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="6c28-2d91-ae4e-1cdc" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="47ca-3c09-566f-69c6" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="47ca-3c09-566f-69c6" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="cb8e-5c81-da51-6f3e" name="CENTIGOR" hidden="false" targetId="2087-1476-7590-473b" primary="false"/>
         <categoryLink id="5791-4dbe-3fd4-34bf" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
       </categoryLinks>
@@ -2697,8 +2689,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="66a2-5704-e76e-c9ab" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="b56d-a2cb-665f-d26c" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="22ac-783d-fa36-2e06" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="b56d-a2cb-665f-d26c" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="22ac-783d-fa36-2e06" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
         <categoryLink id="1d9a-bb53-194b-2d3e" name="RAZORGOR" hidden="false" targetId="2973-d8ab-165b-c11e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2746,7 +2738,7 @@
         </profile>
         <profile id="aa87-6636-7b20-51eb" name="Judgement from Afar" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">An unmodified hit roll of 6 for an attack made with an Arrow of Fate inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with an Arrow of Fate is 6, that attack inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
           </characteristics>
         </profile>
         <profile id="cb14-67b3-6c2d-89b0" name="Aviarch" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -2767,12 +2759,12 @@
         <infoLink id="bce0-6618-5e99-5ced" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3123-cdee-b150-a84d" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3123-cdee-b150-a84d" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9662-d102-d37d-a8d1" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="c76b-b1f1-3608-855b" name="DAEMON" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
         <categoryLink id="f3da-f9fa-d27d-0330" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="6733-967c-5d5c-437f" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
-        <categoryLink id="918c-71b5-1ce4-fd37" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="918c-71b5-1ce4-fd37" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="1ecb-590e-0b8d-f278" name="TZAANGOR SKYFIRE" hidden="false" targetId="00bd-5d9e-6d0b-9e10" primary="false"/>
         <categoryLink id="9c8b-d69a-2c4d-35d8" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
       </categoryLinks>
@@ -2786,13 +2778,13 @@
             <cost name="pts" typeId="points" value="200.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3b79-d4a2-268c-8af0" name="Disc of Tzeentch’s Teeth and Horns (Mount)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3b79-d4a2-268c-8af0" name="Teeth and Horns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0958-6c02-852b-4d7b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15c2-7c7d-76fe-bab7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0dbf-da51-bb2a-362c" name="Disc of Tzeentch’s Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="0dbf-da51-bb2a-362c" name="Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
               <characteristics>
                 <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
                 <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
@@ -2889,13 +2881,13 @@
         </profile>
         <profile id="9b81-6554-4391-7148" name="Sorcerous Elixir" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in your hero phase, this model can attempt to cast one additional spell. If it does so, you can re-roll one or both of the dice when you make the casting roll for that spell.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in your hero phase, this model can attempt to cast 1 extra spell. If it does so, you can re-roll the casting roll for that spell.</characteristic>
           </characteristics>
         </profile>
         <profile id="b2aa-f4a0-1a35-c673" name="Boon of Mutation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 18&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. For each enemy model slain by these mortal wounds, you can add 1 new TZAANGOR model to a single friendly TZAANGORS unit. Each new TZAANGOR model must be set up wholly within 12&quot; of the caster and within 1&quot; of the unit they are being added to.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 18&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. For each model that is slain by mortal wounds inflicted by this spell, you can add 1 TZAANGOR model to an existing TZAANGOR unit in your army. If you do so, set up that TZAANGOR model within 1&quot; of a friendly TZAANGOR unit that is within 12&quot; of the caster. The model can only be set up within 3&quot; of an enemy unit if the friendly unit was within 3&quot; of that enemy unit before any models were added.</characteristic>
           </characteristics>
         </profile>
         <profile id="01bd-4feb-6d55-5c8d" name="Tzaangor Shaman" page="" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -2908,12 +2900,12 @@
         </profile>
         <profile id="6e86-ba25-02c4-a449" name="Visions of the Past" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a friendly TZAANGOR ENLIGHTENED unit’s Tzeentchian Spears and Vicious Beaks while that unit is wholly within 12&quot; of a friendly TZAANGOR SHAMAN.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with Tzeentchian Spears and Vicious Beaks by friendly TZAANGOR ENLIGHTENED units wholly within 12&quot; of any friendly TZAANGOR SHAMANS.</characteristic>
           </characteristics>
         </profile>
         <profile id="1000-4ef8-3c15-4826" name="Visions of the Future" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a friendly TZAANGOR SKYFIRE unit’s Arrows of Fate while that unit is wholly within 12&quot; of a friendly TZAANGOR SHAMAN.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with Arrows of Fate by friendly TZAANGOR SKYRIRE units wholly within 12&quot; of any friendly TZAANGOR SHAMANS</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2922,13 +2914,13 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="123a-915a-3b3f-d816" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
-        <categoryLink id="bda0-9944-39af-ea64" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="bda0-9944-39af-ea64" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="b46c-d491-88c1-e485" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="61ff-d8ed-cd4f-f390" name="DAEMON" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
         <categoryLink id="52c5-5a36-ee1e-b912" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="7c7f-8eb3-1019-0b3b" name="WIZARD" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="29cc-dd0b-4e68-c207" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
-        <categoryLink id="210c-f884-687f-003c" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="210c-f884-687f-003c" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="709f-f1a6-fb37-bf30" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="830c-322a-1cc6-66d5" name="TZAANGOR SHAMAN" hidden="false" targetId="cb6b-150d-1eda-84a7" primary="false"/>
       </categoryLinks>
@@ -2977,13 +2969,13 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e491-911f-f253-dbef" name="Disc of Tzeentch’s Teeth and Horns (Mount)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e491-911f-f253-dbef" name="Teeth and Horns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e936-1388-a500-e813" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc64-f270-460c-4d2c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b3b3-98af-260e-9896" name="Disc of Tzeentch’s Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="b3b3-98af-260e-9896" name="Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
               <characteristics>
                 <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
                 <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
@@ -3005,8 +2997,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -3032,7 +3022,7 @@
         <entryLink id="d11e-f670-2922-4cec" name="Spell Lores" hidden="false" collective="false" import="true" targetId="55d3-fe2c-594d-4e2b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="160.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15ed-b222-83e4-0ada" name="Tzaangor Enlightened" hidden="false" collective="false" import="true" type="unit">
@@ -3052,7 +3042,7 @@
         </profile>
         <profile id="a7bc-fec9-5c3f-eb20" name="Guided by the Past" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In the combat phase, you can re-roll failed hit and wound rolls for attacks made by this unit if one or more enemy units within 3&quot; of this unit have already fought in that phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In the combat phase, you can re-roll hit and wound rolls for attacks made by this unit if any enemy units within 3&quot; of this unit have already fought in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="19db-abe4-daff-7ff4" name="Aviarch" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -3065,10 +3055,11 @@
         <categoryLink id="406d-3396-db7d-e486" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="e24d-21cc-8053-0e7c" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="400d-4a4b-eba3-0de1" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="67b1-d54a-8405-d7cb" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="67b1-d54a-8405-d7cb" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="d96f-3e12-77e2-f298" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="7a4e-8f60-53b2-8f97" name="TZAANGOR ENLIGHTENED" hidden="false" targetId="01c3-a8a3-0323-85aa" primary="false"/>
         <categoryLink id="a70b-2667-2985-67b6" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
+        <categoryLink id="7ccc-3ac0-9bda-d98c" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2f7f-ffec-497e-4523" name="3 Tzaangor Enlightened" hidden="false" collective="false" import="true" type="model">
@@ -3133,11 +3124,18 @@
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1378-5154-1483-85b9" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9d5-dd1c-0c21-9dd3" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="065f-c64d-3eb7-79d2" type="equalTo"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1378-5154-1483-85b9" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9d5-dd1c-0c21-9dd3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -3150,7 +3148,7 @@
         </profile>
         <profile id="f525-190a-e17c-c5d7" name="Savagery Unleashed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can make one additional attack for each model in this unit with its Savage Blade, Two Savage Blades or Savage Greatblade for every 9 models in the unit (to a maximum of 3 additional attacks per model).</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this unit’s melee weapons while it has 9 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="7485-b8e2-3492-7381" name="Tzaangors" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
@@ -3163,16 +3161,16 @@
         </profile>
         <profile id="f7a6-3074-8622-222c" name="Twistbray" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is a Twistbray. Add 1 to hit rolls for attacks made with a Twistbray’s melee weapons.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">1 model in this unit can be a Twistbray. Add 1 to hit rolls for attacks made with that model’s melee weapons.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="8cda-8cec-febb-19dc" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="8cda-8cec-febb-19dc" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="4e7f-ea46-4aa7-42b6" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="67c7-f21b-d9ad-ef1b" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="eaf6-0e33-95f6-a97f" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
-        <categoryLink id="d2de-9ce0-4818-0841" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="d2de-9ce0-4818-0841" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="99ec-9b59-2e49-dcc7" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="aead-a337-6184-d6a7" name="TZAANGORS" hidden="false" targetId="bd0e-f2ff-1677-8b2e" primary="false"/>
         <categoryLink id="3431-45c9-7a3a-ecaa" name="Other" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -3180,7 +3178,7 @@
       <selectionEntries>
         <selectionEntry id="d98b-6aae-6435-24c8" name="Icon Bearers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9433-b896-3aed-86a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9433-b896-3aed-86a6" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5fb-8cd0-b8fd-bb69" type="min"/>
           </constraints>
           <profiles>
@@ -3189,9 +3187,9 @@
                 <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">1 in every 10 models in this unit can be an Icon Bearer. While this unit has any Icon Bearers, it can use the Ornate Totems ability.</characteristic>
               </characteristics>
             </profile>
-            <profile id="3245-cd22-3bd1-c60b" name="Ornate Totems" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="2339-8747-c757-0537" name="Ornate Totems" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">While this unit has one or more Icon Bearers, at the start of your hero phase you can pick an enemy unit within 18&quot; of this unit and visible to it. Then, roll a number of dice equal to the number of WIZARD units that are within 9&quot; of this unit. For each 4+ that enemy unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">While this unit has 1 or more Icon Bearers, at the start of your hero phase, you can pick 1 enemy unit within 18&quot; of this unit that is visible to it. Roll 1 dice for each WIZARD that is within 9&quot; of this unit. For each 4+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3230,19 +3228,84 @@
             <cost name="pts" typeId="points" value="180.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="3c49-ce05-959f-e3e1" name="Tzaangor Mutant" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="3307-32e4-d8e5-6815" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="d636-0425-7a14-923c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="2" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3307-32e4-d8e5-6815" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="94b5-f9a6-4ee2-5e97" name="Tzaangor Mutant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+              <characteristics>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">1 in every 5 models in this unit can be a Tzaangor Mutant armed with a pair of Savage Blades and a Vicious Beak. Add 1 to the Attacks characteristic of that model’s pair of Savage Blades.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e13b-541f-5633-1efb" name="Brayhorns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="588c-8e50-35d4-6ab1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="431d-41b6-f139-3545" name="Brayhorns" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+              <characteristics>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">1 in every 10 models in this unit can have a Brayhorn. A unit that includes any Brayhorns can run and still charge later in the same turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1c0c-276b-817e-596d" name="Savage Greatblades" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4920-f4b3-1581-79d2" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="d636-0425-7a14-923c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d79d-6ffa-7e45-3000" repeats="4" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4920-f4b3-1581-79d2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c7e0-7b43-2488-b48f" name="Savage Greatblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6ba0-288a-f486-9e86" name="Weapon Choices" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd72-3f63-598f-951e" type="min"/>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3323-a07d-8a5b-f036" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd72-3f63-598f-951e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3323-a07d-8a5b-f036" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="17e9-bc79-737a-1b97" name="Paired Savage Blades" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="6ffb-2924-b553-cf8c" name="Paired Savage Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to any hit rolls made for models attacking with Paired Savage Blades.</characteristic>
+                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a pair of Savage Blades.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="359c-db5c-5e0c-7186" name="Savage Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
@@ -3265,7 +3328,7 @@
               <profiles>
                 <profile id="2d56-9e06-7f71-fd2d" name="Arcanite Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly TZAANGORS unit that has any models armed with Arcanite Shields. On a 6+ that wound or mortal wound is negated.</characteristic>
+                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a unit that has any models armed with Arcanite Shields. On a 6, that wound or mortal wound is negated. When you allocate wounds or mortal wounds to this unit, you must allocate them to a model armed with an Arcanite Shield if it is possible to do so.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="4f21-bd18-9ecb-7923" name="Savage Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
@@ -3284,66 +3347,9 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fa04-d4c3-a845-a47b" name="Savage Greatblade" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06bd-aed4-4fd7-2481" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c1a-4d8d-aadb-6952" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="8399-e823-d539-bd3d" name="Savage Greatblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dfaf-c6a2-2ea7-31e2" name="Paired Savage Blades (Tzaangor Mutant)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3534-f409-c1bf-9257" type="min"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfec-be1f-257f-a59a" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="d486-9688-1f41-2a69" name="Paired Savage Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
-                  <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to any hit rolls made for models attacking with Paired Savage Blades.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="d608-f33c-507f-3d16" name="Savage Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="4c33-d7e3-b26c-25a1" name="Tzaangor Mutant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
-                  <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">1 in every 5 models in this unit can be a Tzaangor Mutant armed with a pair of Savage Blades and a Vicious Beak. Add 1 to the Attacks characteristic of a Tzaangor Mutant’s pair of Savage Blades.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="edc0-0281-4b00-d20d" name="Brayhorns" hidden="false" collective="false" import="true" targetId="0943-049c-b67c-9a2e" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3707,12 +3713,12 @@
         </profile>
         <profile id="39c8-63a0-b56c-b6cb" name="Marked by the Decadent Fiend" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the 色孽 keyword. In addition, this warscroll battalion is part of the 色孽 faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the SLAANESH keyword. In addition, this warscroll battalion is part of the Slaanesh faction and the Beasts of Chaos faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="094e-3a70-3373-bf9a" name="色孽" hidden="false" targetId="3963-2e99-aa63-c65e" primary="false"/>
+        <categoryLink id="094e-3a70-3373-bf9a" name="SLAANESH" hidden="false" targetId="3963-2e99-aa63-c65e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e4fd-0239-50cf-46e2" name="Depraved Drove" hidden="false" collective="false" import="true" type="upgrade">
@@ -3830,12 +3836,12 @@
         </profile>
         <profile id="505e-2a29-f79a-706a" name="Followers of the Brass Bull" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the 恐虐 keyword. In addition, this warscroll battalion is part of the 恐虐 faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the KHORNE keyword. In addition, this warscroll battalion is part of the Khorne faction and the Beasts of Chaos faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e31d-1b6e-8348-f570" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
+        <categoryLink id="e31d-1b6e-8348-f570" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d8d-5532-28c0-b3fc" name="Brass Despoilers" hidden="false" collective="false" import="true" type="upgrade">
@@ -3933,7 +3939,7 @@
         </profile>
         <profile id="85c8-8982-b348-3862" name="Covens of the Changer" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the TZEENTCH keyword. In addition, this warscroll battalion is part of the Tzeentch faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the TZEENTCH keyword. In addition, this warscroll battalion is part of the Tzeentch faction and the Beasts of Chaos faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4204,12 +4210,12 @@
         </profile>
         <profile id="4582-1f5d-50ca-a14c" name="Vectors of the Plague God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the 纳垢 keyword. In addition, this warscroll battalion is part of the 纳垢 faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Units from this battalion gain the NURGLE keyword. In addition, this warscroll battalion is part of the Nurgle faction and the Beasts of Chaos faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="19fc-ef36-cf68-27b3" name="纳垢" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
+        <categoryLink id="19fc-ef36-cf68-27b3" name="NURGLE" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="91cb-56b9-1baf-7beb" name="Pestilent Throng" hidden="false" collective="false" import="true" type="upgrade">
@@ -4314,17 +4320,17 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a5f8-f319-4988-5cfa" name="无尽法术: Ravening Direflock" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a5f8-f319-4988-5cfa" name="Endless Spell: Ravening Direflock" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ef2d-7693-9f24-673e" name="Summon Ravening Direflock" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF 混沌 WIZARDS can attempt to cast this spell. 如果施放成功, set up a Ravening Direflock model wholly within 12&quot; of the caster and more than 3&quot; from any units, then set up the second and third Ravening Direflock models wholly within 6&quot; of the first and more than 3&quot; from any units.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF CHAOS WIZARDS can attempt to cast this spell. If successfully cast, set up a Ravening Direflock model wholly within 12&quot; of the caster and more than 3&quot; from any units, then set up the second and third Ravening Direflock models wholly within 6&quot; of the first and more than 3&quot; from any units.</characteristic>
           </characteristics>
         </profile>
         <profile id="5958-5d4e-7197-fdeb" name="Malevolent Intentions" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 2 from the Bravery characteristic of units while they are within 6&quot; of any Ravening Direflock models. BEASTS OF 混沌 units are not affected by this ability.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 2 from the Bravery characteristic of units while they are within 6&quot; of any Ravening Direflock models. BEASTS OF CHAOS units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="9851-5e3b-2006-7850" name="Moon of Ill Omen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4334,23 +4340,23 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="71c8-8558-9b9f-2769" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="71c8-8558-9b9f-2769" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ced1-4557-660d-4219" name="无尽法术: Wildfire Taurus" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ced1-4557-660d-4219" name="Endless Spell: Wildfire Taurus" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="5777-5512-6b05-4127" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The Wildfire Taurus is a predatory 无尽法术. It can move up to 12&quot; and can fly</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The Wildfire Taurus is a predatory endless spell. It can move up to 12&quot; and can fly</characteristic>
           </characteristics>
         </profile>
         <profile id="facd-4317-60f1-7414" name="Summon Wildfire Taurus" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF 混沌 WIZARDS can attempt to cast this spell. 如果施放成功, set up a Wildfire Taurus model wholly within 12&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF CHAOS WIZARDS can attempt to cast this spell. If successfully cast, set up a Wildfire Taurus model wholly within 12&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="39ac-3389-9223-608f" name="Raging Stampede" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4358,30 +4364,30 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5b11-5f7e-9d44-3edc" name="Whirlwind of 毁灭" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="5b11-5f7e-9d44-3edc" name="Whirlwind of Destruction" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each unit that it moved over, and each other unit that is within 1&quot; of it at the end of its move, suffers D3 mortal wounds. If a unit has 10 or more models it suffers D6 mortal wounds instead. If this spell inflicts any wounds on a unit, that unit fights at the end of the next combat phase, after the players have picked any other units to fight in that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="9567-207a-d4b5-8422" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="9567-207a-d4b5-8422" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b9b7-48f9-740e-f1d4" name="无尽法术: Doomblast Dirgehorn" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b9b7-48f9-740e-f1d4" name="Endless Spell: Doomblast Dirgehorn" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="8d0e-52cd-4467-6f47" name="Summon Doomblast Dirgehorn" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF 混沌 WIZARDS can attempt to cast this spell. 如果施放成功, set up a Doomblast Dirgehorn model wholly within 12&quot; of the caster</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF CHAOS WIZARDS can attempt to cast this spell. If successfully cast, set up a Doomblast Dirgehorn model wholly within 12&quot; of the caster</characteristic>
           </characteristics>
         </profile>
         <profile id="c1f4-5c36-9a58-8b24" name="Booming Cacophony" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made by units within 3&quot; of this model. BEASTS OF 混沌 models are not affected by this ability</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made by units within 3&quot; of this model. BEASTS OF CHAOS models are not affected by this ability</characteristic>
           </characteristics>
         </profile>
         <profile id="8275-cd7b-ccdd-a26f" name="Rising Discord" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4391,7 +4397,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="806e-34a4-9b60-2843" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="806e-34a4-9b60-2843" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="60.0"/>
@@ -4401,12 +4407,12 @@
       <profiles>
         <profile id="122e-2809-4f14-2384" name="Entropic Lodestone" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from save rolls for attacks that target units within 6&quot; of this terrain feature. At the start of each battle round after the first, add 6&quot; to the range of this ability. BEASTS OF 混沌 units are not affected by this ability.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from save rolls for attacks that target units within 6&quot; of this terrain feature. At the start of each battle round after the first, add 6&quot; to the range of this ability. BEASTS OF CHAOS units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="d44b-949b-c56e-0a49" name="Locus of Savagery" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">BEASTS OF 混沌 units wholly within 6&quot; of this terrain feature do not take battleshock tests. At the start of each battle round after the first, add 6&quot; to the range of this ability</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">BEASTS OF CHAOS units wholly within 6&quot; of this terrain feature do not take battleshock tests. At the start of each battle round after the first, add 6&quot; to the range of this ability</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4417,12 +4423,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a4b-2ef5-480e-678b" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6a4b-2ef5-480e-678b" name="Endless Spells: Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b8-c1d8-3d0d-73e8" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="ae82-78f2-a45b-63a2" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true" targetId="20c1-5cc5-2d3a-3914" type="selectionEntryGroup"/>
+        <entryLink id="ae82-78f2-a45b-63a2" name="Endless Spells: Beasts of Chaos" hidden="false" collective="false" import="true" targetId="20c1-5cc5-2d3a-3914" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4440,12 +4446,12 @@
         </profile>
         <profile id="32d9-fe05-a7a2-db5e" name="Babbling Stream of Secrets" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If an enemy unit fails a battleshock test within 9&quot; of any friendly TZAANGOR ENLIGHTENED units, add 1 to the number of models that flee.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If an enemy unit fails a battleshock test within 9&quot; of any friendly Tzaangor Enlightened units, add 1 to the number of models that flee.</characteristic>
           </characteristics>
         </profile>
         <profile id="9772-972b-1e1e-06ea" name="Guided by the Past" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In the combat phase, you can re-roll failed hit and wound rolls for attacks made by this unit if one or more enemy units within 3&quot; of this unit have already fought in that phase.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In the combat phase, you can re-roll hit and wound rolls for attacks made by this unit if any enemy units within 3&quot; of this unit have already fought in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="01d0-5b9a-aa02-fd17" name="Aviarch" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4454,14 +4460,18 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d387-086d-a71a-7f3f" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f518-6e5a-cf3d-56c6" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9cb5-8e58-de47-ea69" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="48b3-bbde-531d-d237" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="8c95-c125-e838-a4a1" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="8c95-c125-e838-a4a1" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="53b6-341d-5fcf-e2e0" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="9efe-2629-5619-08a5" name="TZAANGOR ENLIGHTENED" hidden="false" targetId="01c3-a8a3-0323-85aa" primary="false"/>
         <categoryLink id="816e-750c-2c23-0b62" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
+        <categoryLink id="c0c0-4cdc-5344-054f" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ef05-28f5-709c-3c0c" name="3 Tzaangor Enlightened on Discs of Tzeentch" hidden="false" collective="false" import="true" type="model">
@@ -4470,7 +4480,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="386a-b83e-9b2f-748d" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="160.0"/>
+            <cost name="pts" typeId="points" value="180.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="35e3-745d-ca6b-b5f4" name="Tzeenchian Spear" hidden="false" collective="false" import="true" type="upgrade">
@@ -4517,48 +4527,282 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f1ec-863f-3bda-efb7" name="Disc of Tzeentch (Mount)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b8b7-50a2-dcae-08b4" name="Teeth and Horns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dee-b5f5-1a22-70e9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8587-926a-5240-da29" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5419-07a2-42c2-3770" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ea6-3550-ec43-4d8b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6287-51e9-2093-a05b" name="Discs of Tzeentch" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="140c-aa99-6e17-03b1" name="Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">All models in a Tzaangor Enlightened unit can be mounted on a Disc of Tzeentch, granting them a Move of 16&quot; and the Teeth and Horns attack. In addition, Tzaangor Enlightened on Discs of Tzeentch can fly and have a Wounds characteristic of 4 instead of 3. Furthermore, Tzaangor Enlightened on Discs of Tzeentch gain the DAEMON keyword.</characteristic>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="a1fb-c46e-d4d2-5512" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
-          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f76a-f671-565a-7552" name="Grashrak Fellhoof" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="6864-bbcb-e3f8-789c" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e14c-d299-aa07-0bcf" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6864-bbcb-e3f8-789c" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="39ba-b62f-1e69-8643" name="Grashrak Fellhoof" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+          <characteristics>
+            <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Savage Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0670-9c2c-9666-7e37" name="Infuse with Bestial Vigour" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, add 3&quot; to the Move characteristic of models in friendly BRAYHERD units wholly within 12&quot; of any friendly GREAT BRAY-SHAMANS until the end of that phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d6d-31a9-a1d8-4a51" name="Grashrak Fellhoof" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8d97-224d-cf36-bcea" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
+        <categoryLink id="083f-2506-dcea-76d6" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
+        <categoryLink id="b1bc-b121-8c44-af6f" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
+        <categoryLink id="248a-032a-a8ad-f259" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="0325-1595-1f6e-7b2d" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
+        <categoryLink id="870b-e322-ee6b-e629" name="GREAT BRAY-SHAMAN" hidden="false" targetId="16b0-d1d2-6e48-f877" primary="false"/>
+        <categoryLink id="cb28-91dd-4a7c-212e" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="edbd-44d1-2d0e-c53e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="93d3-1e6f-e8d7-bc49" name="Savage Bolt" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6850-35bf-d6a0-3cc6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f021-1faa-c644-ec12" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="936f-c64c-8018-bbfb" name="Savage Bolt" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. In addition, until the end of your next combat phase, add 1 to hit rolls for attacks made with melee weapons that target that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1fa2-eaf0-032f-6f5c" name="Obsidian Blade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9227-b9ff-7060-e02a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79e8-faa0-acaf-4d7a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8ddd-b379-9db7-5cc6" name="Obsidian Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fb06-0452-5a9f-6457" name="General" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="803b-3255-cad4-9929" type="max"/>
+          </constraints>
           <categoryLinks>
-            <categoryLink id="89bc-8dc4-ce5c-6849" name="New CategoryLink" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
+            <categoryLink id="109e-1b18-198f-7b6d" name="New CategoryLink" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
           </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="8970-7b53-1442-1bfb" name="Disc of Tzeentch’s Teeth and Horns" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8955-de40-7734-41fb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7baa-83bf-4ddb-2c58" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="1d53-9286-4dbd-f0ba" name="Disc of Tzeentch’s Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="688c-e6cc-8e0a-f1c5" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
+        <entryLink id="aae7-6d69-acdf-b778" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
+        <entryLink id="c7b3-322e-bb50-5449" name="Artefacts" hidden="false" collective="false" import="true" targetId="f1d8-fbad-26b3-1504" type="selectionEntryGroup"/>
+        <entryLink id="8764-8e4b-8975-b91b" name="Command Traits" hidden="false" collective="false" import="true" targetId="cbff-8503-320a-ce0d" type="selectionEntryGroup"/>
+        <entryLink id="b286-e355-c8d1-b979" name="Spell Lores" hidden="false" collective="false" import="true" targetId="55d3-fe2c-594d-4e2b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e14c-d299-aa07-0bcf" name="Grashrak&apos;s Despoilers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="a52c-4da8-9873-8837" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f76a-f671-565a-7552" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a52c-4da8-9873-8837" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="24be-2ba1-4a01-cec4" name="Grashrak’s Savage Herd" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice before you allocate a wound or mortal wound to a friendly Grashrak Fellhoof while he is within 3&quot; of this unit. On a 4+, that wound or mortal wound is allocated to this unit instead of Grashrak Fellhoof.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="71f7-cc7e-e5ed-0dd8" name="Gashrak&apos;s Despoiler" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">1</characteristic>
+            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a0d1-1e2d-6967-98ee" name="Violent Despoilers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by this unit while it is wholly within enemy territory.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f1bb-5881-c3dc-251a" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
+        <categoryLink id="936c-c835-5d8e-f842" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
+        <categoryLink id="180a-00b8-da14-e806" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="6355-16ef-31c8-be2f" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="03dc-1f72-cc9b-d44d" name="Other" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
+        <categoryLink id="86f7-d55d-8ac0-f732" name="ALLHERD" hidden="false" targetId="ade4-b2f0-af54-5333" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="90ee-4c46-dfc5-7344" name="5 Despoilers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3345-f050-ac64-95f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="caad-b93f-a31e-03e9" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4527-b503-8e5b-42b1" name="Shortbow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52c-7bf2-775b-31ba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c855-76cd-20cd-f743" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8e85-745e-bc10-8c9c" name="Shortbow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="817e-066b-195f-9aa0" name="Ripper Axe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa4-e181-a71a-aa71" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96bf-1202-e4be-ddcb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a380-36d6-c2b0-0ccc" name="Ripper Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="91ac-d607-f9e7-0ace" name="Flint Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f4-a9d9-2c8b-dcdc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e27-f8da-35a8-e214" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="36a3-6e4d-efbe-15ac" name="Flint Weapon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">5+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">5+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7bac-0220-85de-72f2" name="Shortspear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0b-2cdd-c633-7f6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a37-8154-5bd9-15af" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ac86-04e0-c8eb-6f41" name="Shortspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">5+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -4576,9 +4820,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -4594,7 +4836,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5662-d1bb-8f17-85f5" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a629-6cb9-79f7-1ae7" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="a629-6cb9-79f7-1ae7" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4654,6 +4896,11 @@
         <entryLink id="4ad2-aa21-6e40-2f74" name="Artefacts: Plagueridden Gifts" hidden="false" collective="false" import="true" targetId="1841-fdf2-dbb9-2174" type="selectionEntryGroup"/>
         <entryLink id="52f3-72f2-64b6-60a3" name="Artefacts: Murderous Artefacts" hidden="false" collective="false" import="true" targetId="8406-7326-ffc6-6ce4" type="selectionEntryGroup"/>
         <entryLink id="0edf-935b-d927-cb84" name="Artefacts: Fated Artefacts" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
+        <entryLink id="357c-fabb-415f-8cc7" name="Artefacts: Daemonic Powers" hidden="false" collective="false" import="true" targetId="d337-deac-ccd8-677b" type="selectionEntryGroup"/>
+        <entryLink id="aa87-f90d-5a7f-8d6a" name="Artefacts: Change Coven" hidden="false" collective="false" import="true" targetId="e35c-e49d-2410-ea1d" type="selectionEntryGroup"/>
+        <entryLink id="8adc-462f-b182-2166" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
+        <entryLink id="d637-bd4c-84bb-4eba" name="Artefacts: Daemonic Weapons" hidden="false" collective="false" import="true" targetId="a688-9cf0-b48e-bb85" type="selectionEntryGroup"/>
+        <entryLink id="f08f-8587-7b14-c5b2" name="Artefacts: Wrath of the Everchosen" hidden="false" collective="false" import="true" targetId="002d-5827-c449-3647" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="cbff-8503-320a-ce0d" name="Command Traits" hidden="false" collective="false" import="true">
@@ -4668,7 +4915,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d56c-69d5-1279-8a0d" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="435b-cac0-4e04-263e" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="435b-cac0-4e04-263e" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4725,17 +4972,20 @@
         <entryLink id="db1b-a8c3-7b3b-3c13" name="Traits: Aspects of the Perfect Liege" hidden="false" collective="false" import="true" targetId="efc7-556b-c158-a7e2" type="selectionEntryGroup"/>
         <entryLink id="bf33-e9ec-27aa-fb11" name="Traits: Tzeentch Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
         <entryLink id="b621-4126-2e3b-57f3" name="Traits: Obsessions of the Invader" hidden="false" collective="false" import="true" targetId="f0b1-f554-bc8b-f75c" type="selectionEntryGroup"/>
-        <entryLink id="5f71-105d-b50f-3d45" name="Traits: 恐虐 Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
-        <entryLink id="eb2c-ce18-697a-047e" name="Traits: 纳垢 Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
+        <entryLink id="5f71-105d-b50f-3d45" name="Traits: Khorne Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
+        <entryLink id="eb2c-ce18-697a-047e" name="Traits: Nurgle Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
+        <entryLink id="4dfe-ff6f-40d7-d6b2" name="Traits: Tzeentch Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
+        <entryLink id="1e58-1f5f-6ec8-1898" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
+        <entryLink id="6abf-954c-1ea6-ba0e" name="Traits: Tzeentch Daemon" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7016-ae89-f6cf-e026" name="Mark of 混沌" hidden="false" collective="false" import="true" defaultSelectionEntryId="39f4-785f-6b88-c22c">
+    <selectionEntryGroup id="7016-ae89-f6cf-e026" name="Mark of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="39f4-785f-6b88-c22c">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e868-b11c-2293-cc2d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6820-cd0c-5323-f099" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="407a-798b-8d15-2814" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="407a-798b-8d15-2814" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9f-0b39-6506-5278" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc90-e1c6-655a-e538" type="min"/>
@@ -4747,7 +4997,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="af46-e34b-6dd5-79b2" name="纳垢" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="af46-e34b-6dd5-79b2" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f7-98f7-13f2-ff45" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3e4-6121-688a-e039" type="min"/>
@@ -4759,7 +5009,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1e7f-845b-d8ee-5543" name="色孽" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1e7f-845b-d8ee-5543" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d60-23bf-6a9f-6f6f" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df06-e099-9c61-77e7" type="min"/>
@@ -4784,7 +5034,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="39f4-785f-6b88-c22c" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="39f4-785f-6b88-c22c" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -4794,7 +5044,7 @@
     <selectionEntryGroup id="55d3-fe2c-594d-4e2b" name="Spell Lores" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba25-1998-602c-d43f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef7-32af-e125-415f" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef7-32af-e125-415f" type="min"/>
       </constraints>
       <entryLinks>
         <entryLink id="336c-b3a3-9d89-d2a7" name="Lore of the Twisted Wilds" hidden="false" collective="false" import="true" targetId="7830-72b1-899f-d3b3" type="selectionEntryGroup"/>
@@ -4811,9 +5061,9 @@
       <selectionEntries>
         <selectionEntry id="268b-1520-85dd-ceeb" name="4. Malevolent Despoiler" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7b46-47ae-bc43-10a1" name="Malevolent Despoiler" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7b46-47ae-bc43-10a1" name="Malevolent Despoiler" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot receive the benefit of cover while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot receive the benefit of cover while they are within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4823,9 +5073,9 @@
         </selectionEntry>
         <selectionEntry id="6e2f-f03d-9396-a004" name="5. Oracle of the Dark Tongue" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4034-dfd3-b337-1b06" name="Oracle of the Dark Tongue" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4034-dfd3-b337-1b06" name="Oracle of the Dark Tongue" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4835,9 +5085,9 @@
         </selectionEntry>
         <selectionEntry id="a104-7af5-ab9c-6be2" name="6. Shadowpelt" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="416c-e5af-3b91-6cf3" name="Shadowpelt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="416c-e5af-3b91-6cf3" name="Shadowpelt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks that target this general made by models more than 3&quot; away from the general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks that target this general made by models more than 3&quot; away from the general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4847,9 +5097,9 @@
         </selectionEntry>
         <selectionEntry id="c815-e166-42d1-1785" name="3. Apex Predator" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0ec2-11b1-bb62-c0c5" name="3. Apex Predator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0ec2-11b1-bb62-c0c5" name="3. Apex Predator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for attacks made by this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for attacks made by this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4859,9 +5109,9 @@
         </selectionEntry>
         <selectionEntry id="6fc6-f59b-7393-6ba3" name="2. Indomitable Beast" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e32c-62cd-4e6b-c016" name="Indomitable Beast" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e32c-62cd-4e6b-c016" name="Indomitable Beast" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general&apos;s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general&apos;s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4871,9 +5121,9 @@
         </selectionEntry>
         <selectionEntry id="48d3-01b0-63aa-3c30" name="1. Bestial Cunning" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a574-717c-9dfc-36a4" name="Bestial Cunning" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a574-717c-9dfc-36a4" name="Bestial Cunning" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Up to half (rounding down) of the friendly reserve units set up in ambush can arrive in your second movement phase instead of your first.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Up to half (rounding down) of the friendly reserve units set up in ambush can arrive in your second movement phase instead of your first.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4890,9 +5140,9 @@
       <selectionEntries>
         <selectionEntry id="dfb6-7d26-64a5-60db" name="4. Gouge-tusks" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0f83-f384-70c9-774e" name="Gouge-tusks" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0f83-f384-70c9-774e" name="Gouge-tusks" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, pick an enemy unit within 3&quot; of this general and roll a dice. On a 1, nothing happens. On a 2-5, that unit suffers 1 mortal wound. On a 6 that unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, pick an enemy unit within 3&quot; of this general and roll a dice. On a 1, nothing happens. On a 2-5, that unit suffers 1 mortal wound. On a 6 that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4902,9 +5152,9 @@
         </selectionEntry>
         <selectionEntry id="2416-1d19-175c-0c61" name="5. Roaring Brute" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d433-697b-472d-6f8c" name="Roaring Brute" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d433-697b-472d-6f8c" name="Roaring Brute" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4914,9 +5164,9 @@
         </selectionEntry>
         <selectionEntry id="2408-6546-75c7-42e0" name="6. Rugged Hide" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="baa8-5489-d707-8223" name="Rugged Hide" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="baa8-5489-d707-8223" name="Rugged Hide" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Worsen the Rend characteristic of attacks that target this general by 1 (to a minimum of ‘-’).</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Worsen the Rend characteristic of attacks that target this general by 1 (to a minimum of ‘-’).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4926,9 +5176,9 @@
         </selectionEntry>
         <selectionEntry id="bfe5-078c-1bae-1756" name="3. Gorger" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a760-1775-8866-207f" name="Gorger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a760-1775-8866-207f" name="Gorger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Do not roll a D3 to determine the number of wounds healed by the Bloodgorge battle trait (pg 61) for friendly WARHERD units that are wholly within 12&quot; of this general. Instead, the battle trait heals 3 wounds allocated to that unit.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Do not roll a D3 to determine the number of wounds healed by the Bloodgorge battle trait (pg 61) for friendly WARHERD units that are wholly within 12&quot; of this general. Instead, the battle trait heals 3 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4938,9 +5188,9 @@
         </selectionEntry>
         <selectionEntry id="30ce-cc37-a79b-605a" name="2. Rampant Juggernaut" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="089a-7664-4d4e-2971" name="Rampant Juggernaut" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="089a-7664-4d4e-2971" name="Rampant Juggernaut" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly WARHERD units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly WARHERD units wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4950,9 +5200,9 @@
         </selectionEntry>
         <selectionEntry id="17fb-e06b-f6f1-d679" name="1. Eater of Heroes" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="bc16-f39b-00a3-9481" name="Eater of Heroes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="bc16-f39b-00a3-9481" name="Eater of Heroes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made by this general that target an enemy HERO.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made by this general that target an enemy HERO.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4969,9 +5219,9 @@
       <selectionEntries>
         <selectionEntry id="68fc-a539-2350-3f2f" name="4. Lightning-fast Monstrosity" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e1b3-069e-ef85-683f" name="Lightning-fast Monstrosity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e1b3-069e-ef85-683f" name="Lightning-fast Monstrosity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general fights at the start of the combat phase if it made a charge move in the same turn, before the players start picking any other units to fight in that combat phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general fights at the start of the combat phase if it made a charge move in the same turn, before the players start picking any other units to fight in that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4981,9 +5231,9 @@
         </selectionEntry>
         <selectionEntry id="5daa-276c-e205-5ef8" name="5. Adamantine Scales" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="db62-1cfe-21b5-7477" name="Adamantine Scales" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="db62-1cfe-21b5-7477" name="Adamantine Scales" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Save characteristic of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Save characteristic of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4993,9 +5243,9 @@
         </selectionEntry>
         <selectionEntry id="4601-14ba-a735-a648" name="6. Ancient Beyond Knowing" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="851a-b987-b231-4a0f" name="Ancient Beyond Knowing" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="851a-b987-b231-4a0f" name="Ancient Beyond Knowing" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5005,9 +5255,9 @@
         </selectionEntry>
         <selectionEntry id="6acc-ddc4-293f-de49" name="3. Father of the Storm" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="315d-f5fa-f2cb-b69e" name="Father of the Storm" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="315d-f5fa-f2cb-b69e" name="Father of the Storm" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When you use the Creatures of the Storm battle trait (pg 61), you can re-roll the dice that determines how far units can move if this general is on the battlefield.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When you use the Creatures of the Storm battle trait (pg 61), you can re-roll the dice that determines how far units can move if this general is on the battlefield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5017,9 +5267,9 @@
         </selectionEntry>
         <selectionEntry id="feff-d983-12b5-875a" name="2. Magnetic Monstrosity" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cfc8-b0b9-9d42-d4d7" name="Magnetic Monstrosity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="cfc8-b0b9-9d42-d4d7" name="Magnetic Monstrosity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot retreat while they are within 3&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot retreat while they are within 3&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5029,9 +5279,9 @@
         </selectionEntry>
         <selectionEntry id="b41a-0eba-7740-ae10" name="1. Tempestuous Tyrant" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c86c-7e78-e2b3-1eab" name="Tempestuous Tyrant" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="c86c-7e78-e2b3-1eab" name="Tempestuous Tyrant" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed wound rolls for attacks made by this general that target a MONSTER.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed wound rolls for attacks made by this general that target a MONSTER.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5070,9 +5320,9 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f7a7-b6fc-e44d-1b9a" name="4. Blackened Armour of 混沌" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f7a7-b6fc-e44d-1b9a" name="4. Blackened Armour of Chaos" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="af6e-2d77-7e08-be2e" name="Blackened Armour of 混沌" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="af6e-2d77-7e08-be2e" name="Blackened Armour of Chaos" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
                 <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ that mortal wound is negated.</characteristic>
               </characteristics>
@@ -5189,7 +5439,7 @@
           <profiles>
             <profile id="cc23-6a53-a0b6-ef14" name="Ruinous Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a spell or 无尽法术, roll a dice. On a 4+ ignore the effects of that spell on the bearer.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a spell or endless spell, roll a dice. On a 4+ ignore the effects of that spell on the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5285,6 +5535,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1378-5154-1483-85b9" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5299,7 +5550,7 @@
             <profile id="a6c6-13bb-3d88-7214" name="Viletide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If the unit is within 6&quot; of the caster, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If the unit is within 6&quot; of the caster, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5312,7 +5563,7 @@
             <profile id="0421-bc23-2da5-9564" name="Savage Dominion" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy MONSTER unit that is a single model within 18&quot; of the caster and visible to them, and roll 2D6. If the roll is equal to or greater than that model’s Bravery characteristic, it immediately moves 3&quot; towards the closest model. You can then pick a unit within 1&quot; of that MONSTER and roll a number of dice equal to the MONSTER’s Wounds characteristic. For each 4+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy MONSTER unit that is a single model within 18&quot; of the caster and visible to them, and roll 2D6. If the roll is equal to or greater than that model’s Bravery characteristic, it immediately moves 3&quot; towards the closest model. You can then pick a unit within 1&quot; of that MONSTER and roll a number of dice equal to the MONSTER’s Wounds characteristic. For each 4+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5325,7 +5576,7 @@
             <profile id="ff01-c6fd-4737-cca3" name="Vicious Stranglethorns" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a terrain feature wholly within 24&quot; of the caster that is visible to them. Each enemy unit within 3&quot; of that terrain feature suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a terrain feature wholly within 24&quot; of the caster that is visible to them. Each enemy unit within 3&quot; of that terrain feature suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5338,7 +5589,7 @@
             <profile id="52e3-4d18-3c18-acf0" name="Tendrils of Atrophy" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from save rolls for attacks that target that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from save rolls for attacks that target that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5351,7 +5602,7 @@
             <profile id="d851-6235-6594-c7bf" name="Wild Rampage" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit within 12&quot; of the caster that is visible to them. Until your next hero phase, you can re-roll failed wound rolls for attacks with melee weapons made by this unit. However, subtract 1 from save rolls for attacks that target this unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit within 12&quot; of the caster that is visible to them. Until your next hero phase, you can re-roll failed wound rolls for attacks with melee weapons made by this unit. However, subtract 1 from save rolls for attacks that target this unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5364,7 +5615,7 @@
             <profile id="648b-7797-8e34-c355" name="Titanic Fury" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly BEASTS OF 混沌 MONSTER within 12&quot; of the caster that is visible to them. Until your next hero phase, add 1 to the Attacks characteristic of that MONSTER’s melee weapons.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly BEASTS OF CHAOS MONSTER within 12&quot; of the caster that is visible to them. Until your next hero phase, add 1 to the Attacks characteristic of that MONSTER’s melee weapons.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5381,6 +5632,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a13-aa85-e9e2-9793" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1378-5154-1483-85b9" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5395,7 +5647,7 @@
             <profile id="189c-c35d-88da-1644" name="Sundering Blades" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly unit wholly within 18&quot; of the caster that is visible to them. Until your next hero phase, improve the Rend characteristic of that unit’s melee weapons by 1.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly unit wholly within 18&quot; of the caster that is visible to them. Until your next hero phase, improve the Rend characteristic of that unit’s melee weapons by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5408,7 +5660,7 @@
             <profile id="3ae2-7c29-fcac-977c" name="Hailstorm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick an enemy unit within 21&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of, and run and charge rolls for, that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy unit within 21&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of, and run and charge rolls for, that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5421,7 +5673,7 @@
             <profile id="0ad6-8845-444a-cef0" name="Thunderwave" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, each unit within 3&quot; of the caster suffers D3 mortal wounds. THUNDERSCORN units are not affected by this spell.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, each unit within 3&quot; of the caster suffers D3 mortal wounds. THUNDERSCORN units are not affected by this spell.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5467,9 +5719,9 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7987-cad2-c754-c269" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ecd9-e17f-774d-f8c6" name="Dominator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ecd9-e17f-774d-f8c6" name="Dominator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5495,9 +5747,9 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8587-a3a0-04fb-636d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4c3b-7ea2-70e6-7fd6" name="Nomadic Leader" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4c3b-7ea2-70e6-7fd6" name="Nomadic Leader" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5523,9 +5775,9 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ece-4c9a-e83a-8a98" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b96d-3be3-1b61-e7ad" name="Unravelling Aura" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="b96d-3be3-1b61-e7ad" name="Unravelling Aura" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. If this general is already a WIZARD, they can attempt to unbind 1 additional spell in the enemy hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind one spell in the enemy hero phase in the same manner as a WIZARD. If this general is already a WIZARD, they can attempt to unbind 1 additional spell in the enemy hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5627,9 +5879,9 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="509a-7042-daa9-9812" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f2da-e752-a120-1575" name="Mutating Gnarlblade" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f2da-e752-a120-1575" name="Mutating Gnarlblade" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Pick one of the bearer’s melee weapons. Add 2 to the Damage characteristic of that weapon. However, each unmodified hit roll of 1 for attacks made with that weapon inflicts 1 mortal wound upon the bearer after all of the bearer’s attacks have been made.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Pick one of the bearer’s melee weapons. Add 2 to the Damage characteristic of that weapon. However, each unmodified hit roll of 1 for attacks made with that weapon inflicts 1 mortal wound upon the bearer after all of the bearer’s attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5639,19 +5891,19 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="20c1-5cc5-2d3a-3914" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="20c1-5cc5-2d3a-3914" name="Endless Spells: Beasts of Chaos" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="d8a3-a5ab-f07e-254f" name="无尽法术: Ravening Direflock" hidden="false" collective="false" import="true" targetId="a5f8-f319-4988-5cfa" type="selectionEntry">
+        <entryLink id="d8a3-a5ab-f07e-254f" name="Endless Spell: Ravening Direflock" hidden="false" collective="false" import="true" targetId="a5f8-f319-4988-5cfa" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd11-4220-e6c7-db56" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3f96-31c9-915b-befb" name="无尽法术: Doomblast Dirgehorn" hidden="false" collective="false" import="true" targetId="b9b7-48f9-740e-f1d4" type="selectionEntry">
+        <entryLink id="3f96-31c9-915b-befb" name="Endless Spell: Doomblast Dirgehorn" hidden="false" collective="false" import="true" targetId="b9b7-48f9-740e-f1d4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bde-649d-4f3f-9287" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="91a6-bacf-bd1b-c8d8" name="无尽法术: Wildfire Taurus" hidden="false" collective="false" import="true" targetId="ced1-4557-660d-4219" type="selectionEntry">
+        <entryLink id="91a6-bacf-bd1b-c8d8" name="Endless Spell: Wildfire Taurus" hidden="false" collective="false" import="true" targetId="ced1-4557-660d-4219" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ed-14a4-13e0-e748" type="max"/>
           </constraints>
@@ -5673,6 +5925,6 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="ddf4-1b3b-eefa-2dfb" name="混沌 数据" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ddf4-1b3b-eefa-2dfb" name="Chaos Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

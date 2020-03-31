@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ab8b-39f3-ebc0-e9ab" name="秩序 - Sylvaneth - 数据" revision="37" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ab8b-39f3-ebc0-e9ab" name="Order - Sylvaneth - Data" revision="40" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="bf19-727d-pubN65537" name="Order Battletome: Sylvaneth"/>
     <publication id="bf19-727d-pubN68286" name="Battletome: Sylvaneth Errata, July 2018"/>
-    <publication id="bf19-727d-pubN70075" name="大联盟: 秩序"/>
+    <publication id="bf19-727d-pubN70075" name="Grand Alliance: Order"/>
     <publication id="3eb3-ef35-59aa-b7e2" name="Battletome: Sylvaneth 2019"/>
   </publications>
   <profileTypes>
@@ -96,7 +96,7 @@
         <profile id="950b-edf9-5870-9fe5" name="Metamorphosis" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 16&quot; of the caster and visible to them and roll a number of dice equal to the result of the casting roll. For each 4+, that unit suffers 1 mortal wound. In addition, if that unit is destroyed by the mortal wounds inflicted by this spell, you can set up 1 AWAKENED WYLDWOOD terrain feature wholly within 12&quot; of the last model from that unit to be slain, and more than 1&quot; from any other model, terrain feature or objective, and add it to your army.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 16&quot; of the caster and visible to them and roll a number of dice equal to the result of the casting roll. For each 4+, that unit suffers 1 mortal wound. In addition, if that unit is destroyed by the mortal wounds inflicted by this spell, you can set up 1 AWAKENED WYLDWOOD terrain feature wholly within 12&quot; of the last model from that unit to be slain, and more than 1&quot; from any other model, terrain feature or objective, and add it to your army.</characteristic>
           </characteristics>
         </profile>
         <profile id="1e25-d5bf-e1c8-7418" name="Ghyran&apos;s Wrath" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
@@ -172,6 +172,8 @@
         <categoryLink id="8499-e590-9c9f-d290" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="7800-fba9-e67f-2ec6" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="4853-d0a6-5ce7-3917" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+        <categoryLink id="09b5-29a2-0ce0-294c" name="Behemoth" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
+        <categoryLink id="e92f-ad75-bd0c-101e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1e9f-1a4d-205f-8667" name="Spear of Kurnoth" hidden="false" collective="false" import="true" type="upgrade">
@@ -259,15 +261,9 @@
         <selectionEntry id="d8f3-fc9b-77f1-5623" name="General" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -295,7 +291,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c054-2350-5f5d-85b4" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc2e-a897-99a2-353f">
+        <selectionEntryGroup id="8bea-f792-0aa5-fc38" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc2e-a897-99a2-353f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -485,6 +481,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="b9d3-1819-4057-41de" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="acde-5411-66f4-566d" name="2. 3 units of Dryads" hidden="false" collective="false" import="true">
           <constraints>
@@ -495,15 +494,9 @@
             <entryLink id="e457-1003-81e2-3c43" name="Dryads" hidden="false" collective="false" import="true" targetId="0a14-90fc-1335-3c79" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <categoryLinks>
@@ -513,15 +506,9 @@
             <entryLink id="1ccb-0038-1714-620b" name="Dryads" hidden="false" collective="false" import="true" targetId="0a14-90fc-1335-3c79" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="notInstanceOf"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <categoryLinks>
@@ -556,6 +543,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="9f1e-2839-b211-ec5f" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bd43-1a3d-d8d8-5b40" name="1. 1 Spirit of Durthu" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -597,6 +587,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="a487-1ee0-d719-a55c" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5e09-6e10-bd24-d190" name="1. 1 Treelord" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -669,6 +662,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="83ef-6a34-ed56-6b2b" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="17ca-10fb-e781-0363" name="2. 1-3 Treelords" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -710,6 +706,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="7a4e-3b10-986e-c2fb" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b9ea-fa55-0289-7ece" name="1. 3 units of Spite-Revenants" hidden="false" collective="false" import="true">
           <constraints>
@@ -766,7 +765,7 @@
         <profile id="f7d8-0415-e8bb-8e20" name="Roused to Wrath" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, you can summon 1 unit of 10 DRYADS and add it to your army. The summoned unit must be set up more than 9&quot; from any enemy units, and wholly within 1&quot; of an AWAKENED WYLDWOOD that is within 12&quot; of the caster. The summoned unit cannot move in the following movement phase.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can summon 1 unit of 10 DRYADS and add it to your army. The summoned unit must be set up more than 9&quot; from any enemy units, and wholly within 1&quot; of an AWAKENED WYLDWOOD that is within 12&quot; of the caster. The summoned unit cannot move in the following movement phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="02a1-9517-b913-3fc7" name="Branchwraith" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
@@ -788,7 +787,7 @@
         <categoryLink id="d6d4-4d6d-bf00-e0cc" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="78b4-b540-0268-dc3e" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="d357-6fb3-47af-7a45" name="FOREST FOLK" hidden="false" targetId="34a4-2b39-bed5-6d86" primary="false"/>
-        <categoryLink id="d13f-da79-e723-92ef" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
+        <categoryLink id="d13f-da79-e723-92ef" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4adc-a5a6-92c4-55f6" name="Piercing Talons" hidden="false" collective="false" import="true" type="upgrade">
@@ -815,10 +814,10 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a15f-a36e-3e19-a822" name="General" hidden="false" collective="false" import="true" targetId="b341-0885-3f1c-7d8a" type="selectionEntry"/>
-        <entryLink id="4424-2057-a984-7fcc" name="Artefacts" hidden="false" collective="false" import="true" targetId="083e-a950-b54a-c2a4" type="selectionEntryGroup"/>
+        <entryLink id="a15f-a36e-3e19-a822" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="4424-2057-a984-7fcc" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="3689-7470-7c05-0f5a" name="Deepwood Spell Lore" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
-        <entryLink id="99dc-06b5-2d16-9ab7" name="Command Traits" hidden="false" collective="false" import="true" targetId="1d10-2017-059e-f52d" type="selectionEntryGroup"/>
+        <entryLink id="99dc-06b5-2d16-9ab7" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -837,7 +836,7 @@
         <profile id="b8f3-4ad8-cfef-fc79" name="Unleash Spites" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll a number of dice equal to the casting roll for each enemy unit within 9&quot; of the caster. For each 6, that enemy unit suffers 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a number of dice equal to the casting roll for each enemy unit within 9&quot; of the caster. For each 6, that enemy unit suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="f1a0-e47d-9105-a575" name="Fury of the Forest" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -869,7 +868,7 @@
         <categoryLink id="7e6a-9451-3f33-7291" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="567b-0a37-40be-2a6f" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="2404-c7e4-62d3-e122" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
-        <categoryLink id="d9f6-21e5-a1e5-621b" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
+        <categoryLink id="d9f6-21e5-a1e5-621b" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="511f-7ed2-a4cd-4557" name="Snapping Mandibles" hidden="false" collective="false" import="true" type="upgrade">
@@ -918,10 +917,10 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9c24-1e1d-988b-f0d8" name="General" hidden="false" collective="false" import="true" targetId="b341-0885-3f1c-7d8a" type="selectionEntry"/>
-        <entryLink id="648a-d7e7-ba3d-cc1e" name="Artefacts" hidden="false" collective="false" import="true" targetId="083e-a950-b54a-c2a4" type="selectionEntryGroup"/>
+        <entryLink id="9c24-1e1d-988b-f0d8" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="648a-d7e7-ba3d-cc1e" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="c926-3d56-2a29-f190" name="Lore of the Deepwood" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
-        <entryLink id="bd78-78d6-11bb-414c" name="Command Traits" hidden="false" collective="false" import="true" targetId="1d10-2017-059e-f52d" type="selectionEntryGroup"/>
+        <entryLink id="bd78-78d6-11bb-414c" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -963,6 +962,7 @@
         <categoryLink id="e018-4685-86c8-2a3e" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="d5ad-db6c-d74a-ff56" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="36bb-81e3-4870-0c38" name="FOREST FOLK" hidden="false" targetId="34a4-2b39-bed5-6d86" primary="false"/>
+        <categoryLink id="bb14-138a-1dd1-024f" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7168-d6ef-c51b-b011" name="10 Dryads" hidden="false" collective="false" import="true" type="model">
@@ -1035,7 +1035,7 @@
         <profile id="cb92-4b42-ce3d-c3bf" name="Primal Terror" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, roll 2D6.  Each enemy unit within 10&quot; of the caster with a Bravery characteristic lower than this roll suffers D3 mortal wounds (roll separately for each unit).</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll 2D6.  Each enemy unit within 10&quot; of the caster with a Bravery characteristic lower than this roll suffers D3 mortal wounds (roll separately for each unit).</characteristic>
           </characteristics>
         </profile>
         <profile id="b86e-47ca-3955-f9ce" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -1111,6 +1111,8 @@
         <categoryLink id="740e-d433-d5e7-6775" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="dcae-209c-1f30-7ce1" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="bcb3-a6e4-83d0-8c5e" name="OUTCASTS" hidden="false" targetId="b187-77f7-eae1-4279" primary="false"/>
+        <categoryLink id="02f1-7074-c256-3619" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
+        <categoryLink id="bd73-3eb1-ad70-9c16" name="Behemoth" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f855-0252-3d82-0ce2" name="Slashing Talons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1182,15 +1184,9 @@
         <selectionEntry id="32ae-a8bf-7451-70cb" name="General" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -1434,8 +1430,9 @@
         <categoryLink id="693f-492d-3d97-87e1" name="New CategoryLink" hidden="false" targetId="ffd4-9a6e-6fb7-d477" primary="false"/>
         <categoryLink id="d171-dad3-31d1-df76" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="f7b4-4649-b93d-ce47" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
-        <categoryLink id="ad55-9d33-06d7-be3b" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
+        <categoryLink id="ad55-9d33-06d7-be3b" name="Leader" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="6069-af77-3f1e-d6e6" name="FREE SPIRITS" hidden="false" targetId="d6fd-d829-6545-9aee" primary="false"/>
+        <categoryLink id="00b9-d540-4b4b-b178" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1863-eeaf-532b-a6b0" name="Guardian Sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -1506,15 +1503,22 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0d53-a51a-ce49-1b23" name="General" hidden="false" collective="false" import="true" targetId="b341-0885-3f1c-7d8a" type="selectionEntry"/>
-        <entryLink id="4e23-2e04-e5ab-6002" name="Artefacts" hidden="false" collective="false" import="true" targetId="083e-a950-b54a-c2a4" type="selectionEntryGroup"/>
-        <entryLink id="9006-48b1-85f4-a3a6" name="Command Traits" hidden="false" collective="false" import="true" targetId="1d10-2017-059e-f52d" type="selectionEntryGroup"/>
+        <entryLink id="0d53-a51a-ce49-1b23" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="4e23-2e04-e5ab-6002" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
+        <entryLink id="9006-48b1-85f4-a3a6" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b487-315c-b64c-88b0" name="Spite-Revenants" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2e-a897-99a2-353f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="4da5-aaa1-71ff-6312" name="Spite-Revenants" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -1540,6 +1544,7 @@
         <categoryLink id="f329-704e-9b11-b759" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="e7ee-37c3-9a7f-439c" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="6449-2e65-147d-7b97" name="OUTCASTS" hidden="false" targetId="b187-77f7-eae1-4279" primary="false"/>
+        <categoryLink id="713e-3b57-6a18-53e4" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2471-3b80-3a47-7def" name="5 Spite-Revenants" hidden="false" collective="false" import="true" type="model">
@@ -1597,6 +1602,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a74a-7377-3ed9-0f5e" name="Tree-Revenants" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2e-a897-99a2-353f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="e29e-e05b-9d97-89aa" name="Tree-Revenants" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
@@ -1622,6 +1634,7 @@
         <categoryLink id="4506-01c7-451c-e818" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="fe5b-44c9-544d-b1f2" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="47b5-ddad-0184-2e42" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
+        <categoryLink id="b5b4-38c1-89d7-d740" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4273-ddcc-db2a-e23f" name="5 Tree-Revenants" hidden="false" collective="false" import="true" type="model">
@@ -1815,6 +1828,7 @@
         <categoryLink id="c5ba-f48b-4519-f7d3" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="50b5-2042-d8a8-4e88" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="f67f-e62c-a65f-6930" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
+        <categoryLink id="bf98-fc50-4745-541f" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e80e-c3b8-15fa-78ed" name="Massive Impaling Talons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1954,7 +1968,7 @@
         <profile id="0f5b-2253-302e-8ff4" name="Awakening the Wood" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly AWAKENED WYLDWOOD that is wholly within 30&quot; of the caster. Each enemy unit within 3&quot; of that AWAKENED WYLDWOOD suffers D3 mortal wounds (roll separately for each unit).</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly AWAKENED WYLDWOOD that is wholly within 30&quot; of the caster. Each enemy unit within 3&quot; of that AWAKENED WYLDWOOD suffers D3 mortal wounds (roll separately for each unit).</characteristic>
           </characteristics>
         </profile>
         <profile id="2cd9-fba6-0fe3-fc6b" name="Heed the Spirit-song" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
@@ -1985,6 +1999,8 @@
         <categoryLink id="0d7c-f8bc-80f8-569d" name="New CategoryLink" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="20d5-ad48-a296-031f" name="New CategoryLink" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="4cfc-73e8-1a3d-ede5" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
+        <categoryLink id="92b9-1b5e-2a64-9c68" name="Behemoth" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
+        <categoryLink id="7470-c355-4fe8-f83c" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5b8c-438b-dc67-3d25" name="Doom Tendril Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -2055,27 +2071,21 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9705-4c6c-5baf-9338" name="General" hidden="false" collective="false" import="true" targetId="b341-0885-3f1c-7d8a" type="selectionEntry"/>
-        <entryLink id="2433-1c81-97ca-231d" name="Artefacts" hidden="false" collective="false" import="true" targetId="083e-a950-b54a-c2a4" type="selectionEntryGroup"/>
+        <entryLink id="9705-4c6c-5baf-9338" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="2433-1c81-97ca-231d" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="ffa4-0e7d-72e5-50ae" name="Deepwood Spell Lore" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
-        <entryLink id="35d8-2beb-d816-373b" name="Command Traits" hidden="false" collective="false" import="true" targetId="1d10-2017-059e-f52d" type="selectionEntryGroup"/>
+        <entryLink id="35d8-2beb-d816-373b" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b341-0885-3f1c-7d8a" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="203c-cae0-53f6-9431" name="General" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -2129,6 +2139,7 @@
         <categoryLink id="31a6-0683-18f6-0046" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="23a6-1858-e1e2-6494" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="936e-02a9-7ef8-c596" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+        <categoryLink id="e5a0-5013-90a0-caf4" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="12e6-e627-b2a7-a6a3" name="Revenant&apos;s Glaive" hidden="false" collective="false" import="true" type="upgrade">
@@ -2177,9 +2188,9 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="526d-6c70-8b97-5ab1" name="General" hidden="false" collective="false" import="true" targetId="b341-0885-3f1c-7d8a" type="selectionEntry"/>
-        <entryLink id="e04f-deba-ca0d-a044" name="Artefacts" hidden="false" collective="false" import="true" targetId="083e-a950-b54a-c2a4" type="selectionEntryGroup"/>
-        <entryLink id="e998-2c09-b9f4-c9fd" name="Command Traits" hidden="false" collective="false" import="true" targetId="1d10-2017-059e-f52d" type="selectionEntryGroup"/>
+        <entryLink id="526d-6c70-8b97-5ab1" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="e04f-deba-ca0d-a044" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
+        <entryLink id="e998-2c09-b9f4-c9fd" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
@@ -2221,7 +2232,7 @@
         <profile id="a4b9-fa3b-d7b0-fc20" name="The Reaping" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 12&quot; of the caster that is visible to them and roll 6 dice. For each 5+ that unit suffers 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 12&quot; of the caster that is visible to them and roll 6 dice. For each 5+ that unit suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2239,6 +2250,7 @@
         <categoryLink id="130a-1ce0-16c4-1248" name="YLTHARI" hidden="false" targetId="206b-3164-1733-09c0" primary="false"/>
         <categoryLink id="08ed-d820-64ae-206c" name="OAKENBROW" hidden="false" targetId="fc74-5007-3ac8-3b19" primary="false"/>
         <categoryLink id="f107-cd53-255e-bcef" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
+        <categoryLink id="7149-b341-c8c5-fedd" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cb00-12c7-f5f3-515c" name="Briar Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -2309,7 +2321,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e739-3608-273f-a86b" name="General" hidden="false" collective="false" import="true" targetId="b341-0885-3f1c-7d8a" type="selectionEntry"/>
+        <entryLink id="e739-3608-273f-a86b" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="f3bb-767e-e3c4-f595" name="Deepwood Spell Lore" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -2356,6 +2368,7 @@
         <categoryLink id="5b85-799b-03ef-deeb" name="YLTHARI&apos;S GUARDIANS" hidden="false" targetId="b3e3-ad91-a277-16c1" primary="false"/>
         <categoryLink id="7f6d-3ed5-d719-4ebe" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
         <categoryLink id="bdc4-aed6-9312-3e6b" name="OAKENBROW" hidden="false" targetId="fc74-5007-3ac8-3b19" primary="false"/>
+        <categoryLink id="5961-b747-63d0-7dea" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bfef-3ce1-947a-53de" name="Revenant Bow" hidden="false" collective="false" import="true" type="upgrade">
@@ -2459,6 +2472,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="97fe-c041-3f24-65a2" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d87b-01a1-07cb-b6aa" name="1. 1 Lords of the Clan battalion" hidden="false" collective="false" import="true">
           <constraints>
@@ -2510,20 +2526,20 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee68-29b2-b284-43bb" name="无尽法术: Gladewyrm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ee68-29b2-b284-43bb" name="Endless Spell: Gladewyrm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7675-3d01-b0e4-c109" type="max"/>
       </constraints>
       <profiles>
         <profile id="4376-8fa8-4824-c18c" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Gladewyrm is a predatory 无尽法术.  It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Gladewyrm is a predatory endless spell.  It can move up to 8&quot; and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="3f6f-bd6a-6ea9-65d0" name="Summon Gladewyrm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Gladewyrm.  如果施放成功, set up a Gladewyrm model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Gladewyrm.  If successfully cast, set up a Gladewyrm model wholly within 6&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="1255-d6df-412a-b368" name="Burrowing Doom" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -2531,7 +2547,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a647-fb1c-2f60-46b9" name="死亡 From Below" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="a647-fb1c-2f60-46b9" name="Death From Below" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each unit within 1&quot; of it.  On a 3+ that unit suffers D3 mortal wounds.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
           </characteristics>
@@ -2546,14 +2562,15 @@
         <infoLink id="2ef2-3343-7526-6837" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e42a-d688-417c-8bcd" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="e42a-d688-417c-8bcd" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="4ecd-5b59-29ad-ce95" name="GLADEWYRM" hidden="false" targetId="9982-8be9-36f2-a3ac" primary="false"/>
+        <categoryLink id="b192-bdf9-a57d-3c00" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc7c-77ee-b361-22ee" name="无尽法术: Spiteswarm Hive" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cc7c-77ee-b361-22ee" name="Endless Spell: Spiteswarm Hive" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a438-7aae-27b1-ba0c" type="max"/>
       </constraints>
@@ -2561,7 +2578,7 @@
         <profile id="6298-0dac-fcb5-c4aa" name="Summon Spiteswarm Hive" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Spiteswarm Hive.  如果施放成功, set up a Spiteswarm Hive model wholly within 15&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Spiteswarm Hive.  If successfully cast, set up a Spiteswarm Hive model wholly within 15&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="4218-363d-88cd-63b7" name="The Hive Nourishes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -2571,27 +2588,28 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="36cb-eac7-d6b2-763b" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="36cb-eac7-d6b2-763b" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="a46c-a02d-d504-5027" name="SPITESWARM HIVE" hidden="false" targetId="8d8b-955f-81ba-43c1" primary="false"/>
+        <categoryLink id="6d76-0889-8e3d-a9fe" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5357-cb1a-e495-144c" name="无尽法术: Vengeful Skullroot" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5357-cb1a-e495-144c" name="Endless Spell: Vengeful Skullroot" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6932-60bf-9fd6-a005" type="max"/>
       </constraints>
       <profiles>
         <profile id="6044-7fcf-76fa-faeb" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Vengeful Skullroot is a predatory 无尽法术.  It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Vengeful Skullroot is a predatory endless spell.  It can move up to 8&quot; and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="fa47-2993-9cd0-fd16" name="Summon Vengeful Skullroot" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Vengeful Skullroot.  如果施放成功, set up a Vengeful Skullroot model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Vengeful Skullroot.  If successfully cast, set up a Vengeful Skullroot model wholly within 6&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="b13a-83e3-6ba1-a361" name="Uprooted Spirit" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -2614,8 +2632,9 @@
         <infoLink id="c3d4-cb02-9392-6894" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b4e0-ec26-bbd3-52b9" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="b4e0-ec26-bbd3-52b9" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6e10-0c50-b54c-4cf6" name="VENGEFUL SKULLROOT" hidden="false" targetId="da96-ce12-da5c-49ca" primary="false"/>
+        <categoryLink id="c7fb-aac6-6ec8-15cb" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
@@ -2647,9 +2666,155 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="02f2-388c-b66b-5159" name="Skaeth&apos;s Wild Hunt" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c507-933f-26b6-c127" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="17ae-0f89-0293-f784" name="Skaeth&apos;s Wild Hunt" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">1</characteristic>
+            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="31a4-924b-4aa9-d0d1" name="Fleet of Foot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit can run and still shoot and/or charge later in the same turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f156-a62a-7f52-b987" name="Might of Kurnoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+          <characteristics>
+            <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Sylvaneth unit within 12&quot; of the caster that is visible to them. Add 1 to wound rolls for attacks made with melee weapons by that unit until the start of your next hero phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73f7-d987-b475-c35c" name="Skaeth" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Skaeth has a Wounds characteristic of 2.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c0b6-584c-8a38-f24c" name="Magic" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit is a WIZARD while it contains Karthaen. It can attempt to cast 1 spell in your hero phase and attempt to unbind 1 spell in the enemy hero phase. It knows the Might of Kurnoth spell.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d5d5-5265-6791-a456" name="OAKENBROW" hidden="false" targetId="fc74-5007-3ac8-3b19" primary="false"/>
+        <categoryLink id="070b-5606-9425-7ff8" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="e93b-2f16-04b6-f5ca" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
+        <categoryLink id="43b2-f4eb-2e93-c291" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3e09-2a78-b988-4212" name="Hunting Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="111a-d9f7-7027-45bc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d658-e8ef-e18e-5dd3" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="22a2-0bc4-db6f-ca24" name="Hunting Weapon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da2d-e5f8-86ff-d2f9" name="Teeth and Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e34-8948-7a52-0ff4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ac-82f9-fd6b-d25f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4113-374f-cedf-44ad" name="Teeth and Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a4b2-c6c6-5c14-8296" name="Seeker Bow" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="995a-1c2e-adb3-e863" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6b7-3076-5f5d-bb2c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f567-56a9-071d-c794" name="Seeker Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9bda-172b-1434-e07b" name="Javelin of the Hunt" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8604-ac33-c354-6d8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369f-ef9c-4b5c-78e0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7803-057a-331c-378f" name="Javelin of the Hunt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6044-4d12-f998-2e5b" name="Javelin of the Hunt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="120.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="083e-a950-b54a-c2a4" name="Artefacts" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ddcf-27d1-0fa8-de7d" name="Artefacts" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="increment" field="31c8-a324-e49c-e5d1" value="1.0">
           <repeats>
@@ -2711,7 +2876,7 @@
         <entryLink id="cc56-ee83-d064-7cea" name="Glade Artefacts" hidden="false" collective="false" import="true" targetId="82c2-8d90-9793-9008" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1d10-2017-059e-f52d" name="Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="471d-1157-f7f5-932a" name="Command Traits" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2770,9 +2935,9 @@
       <selectionEntries>
         <selectionEntry id="d4d9-3926-b1ef-d9c9" name="1. Dread Harvester" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e409-124e-6450-395e" name="Dread Harvester" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e409-124e-6450-395e" name="Dread Harvester" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with melee weapons by this general if this general made a charge move in the same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with melee weapons by this general if this general made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2782,9 +2947,9 @@
         </selectionEntry>
         <selectionEntry id="36ca-e3db-2b69-a0ee" name="2. Gnarled Warrior" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="46ce-ade9-e98c-aadf" name="Gnarled Warrior" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="46ce-ade9-e98c-aadf" name="Gnarled Warrior" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2794,9 +2959,9 @@
         </selectionEntry>
         <selectionEntry id="854d-a6d8-0d96-aa93" name="3. Gift of Ghyran" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="607c-8ee8-fc34-8848" name="Gift of Ghyran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="607c-8ee8-fc34-8848" name="Gift of Ghyran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In your hero phase, you can heal 1 wound allocated to this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In your hero phase, you can heal 1 wound allocated to this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2806,9 +2971,9 @@
         </selectionEntry>
         <selectionEntry id="3d71-b3f4-e111-342a" name="4. Lord of Spites" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="16d0-69ed-df1c-bd83" name="Lord of Spites" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="16d0-69ed-df1c-bd83" name="Lord of Spites" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2818,9 +2983,9 @@
         </selectionEntry>
         <selectionEntry id="7ad5-ed10-4a8b-6b71" name="5. Warsinger" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="44b4-7a7d-ae90-ff82" name="Warsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="44b4-7a7d-ae90-ff82" name="Warsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2830,9 +2995,9 @@
         </selectionEntry>
         <selectionEntry id="e997-4f75-d971-40a6" name="6. Wisdom of the Ancients" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1ed6-b693-eb1c-897b" name="Wisdom of the Ancients" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1ed6-b693-eb1c-897b" name="Wisdom of the Ancients" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2950,7 +3115,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="de6f-3fcb-09b2-a59e" type="notInstanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f53-8230-2f02-9639" type="notInstanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3010,7 +3175,7 @@
           <profiles>
             <profile id="ba98-0578-8b43-472b" name="Luneth&apos;s Lamp" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or display an 无尽法术.</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or display an endless spell.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3069,7 +3234,7 @@
             <profile id="4f79-4821-c9a8-70a8" name="Throne of Vines" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, add 2 to casting rolls for the caster until the caster makes a move or is set up in a different location</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, add 2 to casting rolls for the caster until the caster makes a move or is set up in a different location</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3082,7 +3247,7 @@
             <profile id="1563-d160-9771-9a83" name="Regrowth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly SYLVANETH unit wholly within 18&quot; of the caster and visible to them.  You can heal up to D6 wounds allocated to that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH unit wholly within 18&quot; of the caster and visible to them.  You can heal up to D6 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3095,7 +3260,7 @@
             <profile id="7f16-0c89-9e95-db65" name="Deadly Harvest" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, each enemy unit within 3&quot; of the caster suffers D3 mortal wounds (roll separately for each unit).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, each enemy unit within 3&quot; of the caster suffers D3 mortal wounds (roll separately for each unit).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3108,7 +3273,7 @@
             <profile id="c13c-15be-76f6-d2d9" name="The Dwellers Below" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 10&quot; of the caster and visible to them and roll a number of dice equal to the number of models in that unit.  For each 6+ that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 10&quot; of the caster and visible to them and roll a number of dice equal to the number of models in that unit.  For each 6+ that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3121,7 +3286,7 @@
             <profile id="5dbc-8797-7871-bf74" name="Verdurous Harmony" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly SYLVANETH unit wholly within 18&quot; of the caster and visible to them.  You can return 1 slain model to that unit.  If you picked a unit of DRYADS, TREE-REVENANTS or SPITE-REVENANTS you can return up to D3 slain models to that unit instead of 1.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH unit wholly within 18&quot; of the caster and visible to them.  You can return 1 slain model to that unit.  If you picked a unit of DRYADS, TREE-REVENANTS or SPITE-REVENANTS you can return up to D3 slain models to that unit instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3134,7 +3299,7 @@
             <profile id="d7e6-434c-796b-068e" name="Treesong" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 16&quot; of the caster and within 6&quot; of an AWAKENED WYLDWOOD.  Until the end of the turn, you can re-roll hit and wound rolls of 1 for attacks made with melee weapons that target that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 16&quot; of the caster and within 6&quot; of an AWAKENED WYLDWOOD.  Until the end of the turn, you can re-roll hit and wound rolls of 1 for attacks made with melee weapons that target that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3303,15 +3468,22 @@
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="394b-3278-fa07-f027" name="Aspects of Renewal" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f53-8230-2f02-9639" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ea-f538-539c-8508" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="a921-5614-7738-413f" name="1. Arcane Bounty" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="44a7-317c-7e43-cd3e" name="Arcane Bounty" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="44a7-317c-7e43-cd3e" name="Arcane Bounty" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra spell from the Lore of the Deepwood.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra spell from the Lore of the Deepwood.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3321,9 +3493,9 @@
         </selectionEntry>
         <selectionEntry id="909a-86a0-fcd2-ff0c" name="2. Mystic Regrowth" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4156-f782-75ac-340a" name="Mystic Regrowth" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4156-f782-75ac-340a" name="Mystic Regrowth" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the end of your hero phase, if this general successfully cast any spells in that phase that were not unbound, you can heal D3 wounds allocated to this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the end of your hero phase, if this general successfully cast any spells in that phase that were not unbound, you can heal D3 wounds allocated to this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3333,9 +3505,9 @@
         </selectionEntry>
         <selectionEntry id="2caf-c6ab-9dba-d846" name="3. Voice of Warding" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3c76-c7a3-d94f-5004" name="Voice of Warding" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3c76-c7a3-d94f-5004" name="Voice of Warding" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind 1 extra spell in the enemy hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind 1 extra spell in the enemy hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3345,9 +3517,9 @@
         </selectionEntry>
         <selectionEntry id="f162-3037-9cc0-7562" name="4. Glade Lore" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="54d5-66e8-d0d4-0a04" name="Glade Lore" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="54d5-66e8-d0d4-0a04" name="Glade Lore" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this general while it is wholly within 6&quot; of any AWAKENED WYLDWOODS.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this general while it is wholly within 6&quot; of any AWAKENED WYLDWOODS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3357,9 +3529,9 @@
         </selectionEntry>
         <selectionEntry id="fc25-d2f8-32c2-a59a" name="5. Spellsinger" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0297-7e2d-761d-a63c" name="Spellsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0297-7e2d-761d-a63c" name="Spellsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 6&quot; to the range of each spell this general successfully casts.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 6&quot; to the range of each spell this general successfully casts.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3369,9 +3541,9 @@
         </selectionEntry>
         <selectionEntry id="2b1a-190e-c10a-2665" name="6. Radiant Spirit" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4207-d53b-98dd-feff" name="Radiant Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4207-d53b-98dd-feff" name="Radiant Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time this general is affected by a spell or 无尽法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that spell or 无尽法术 on this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time this general is affected by a spell or endless spell, you can roll a dice.  If you do so, on a 4+ ignore the effects of that spell or endless spell on this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3696,9 +3868,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="47a3-6d63-39cc-0df9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8da6-9a66-ee24-2a80" name="Paragon of Terror" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8da6-9a66-ee24-2a80" name="Paragon of Terror" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Re-roll successful battleshock tests for enemy units while they are within 6&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Re-roll successful battleshock tests for enemy units while they are within 6&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3735,9 +3907,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aac5-8f7a-1348-908b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fd17-63c9-e68f-b359" name="Nurtured by Magic" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="fd17-63c9-e68f-b359" name="Nurtured by Magic" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once in each of your hero phases, it this general successfully casts a spell that is not unbound, pick 1 friendly GNARLROOT unit wholly within 18&quot; of this general.  You can heal up to D3 wounds allocated to that unit.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once in each of your hero phases, it this general successfully casts a spell that is not unbound, pick 1 friendly GNARLROOT unit wholly within 18&quot; of this general.  You can heal up to D3 wounds allocated to that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3774,9 +3946,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1e3a-e6fa-e7ce-6544" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6585-d1c7-8e19-000c" name="Seek New Fruit" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6585-d1c7-8e19-000c" name="Seek New Fruit" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time this general attacks with its melee weapons, it can make a 6&quot; move after all of its attacks have been resolved.  If it does so, it must finish the move more than 3&quot; from enemy units.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time this general attacks with its melee weapons, it can make a 6&quot; move after all of its attacks have been resolved.  If it does so, it must finish the move more than 3&quot; from enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3813,9 +3985,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6296-f7c4-208c-387c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="677b-1850-f543-fdf4" name="Mere Rainfall" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="677b-1850-f543-fdf4" name="Mere Rainfall" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls for attacks made with missile weapons that target this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls for attacks made with missile weapons that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3852,9 +4024,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f93a-2421-02a1-be44" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f014-bc60-8523-7125" name="My Heart Is Ice" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f014-bc60-8523-7125" name="My Heart Is Ice" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time a wound is inflicted by a melee weapon is allocated to this general and not negated.  On a 5+ the attacking unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time a wound is inflicted by a melee weapon is allocated to this general and not negated.  On a 5+ the attacking unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3891,9 +4063,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e74-a582-a9e9-7a28" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5c8e-f350-e523-357e" name="Legacy of Valour" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="5c8e-f350-e523-357e" name="Legacy of Valour" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If the general is slain, do D3 mortal wounds to an enemy unit within 1&quot; on a 2+. On a 6, do D6 instead.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If the general is slain, do D3 mortal wounds to an enemy unit within 1&quot; on a 2+. On a 6, do D6 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3930,9 +4102,9 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf99-5bdf-9e01-f4e8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8173-7789-6892-d1c7" name="Regal Old-growth" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8173-7789-6892-d1c7" name="Regal Old-growth" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Wounds characteristic of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Wounds characteristic of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3962,7 +4134,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
     <profile id="2ffd-bbd3-2d81-6ad7" name="Verdant Blessing" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-        <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, set up 1 AWAKENED WYLDWOOD wholly within 24&quot; of the caster and more than 1&quot; from any other model, terrain feature or objective.</characteristic>
+        <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up 1 AWAKENED WYLDWOOD wholly within 24&quot; of the caster and more than 1&quot; from any other model, terrain feature or objective.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

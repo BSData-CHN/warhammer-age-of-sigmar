@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="de06-0235-6a96-193b" name="混沌 - 斯卡文 数据" revision="7" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://gitter.im/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="de06-0235-6a96-193b" name="Chaos - Skaven Data" revision="8" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://gitter.im/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="bcc4-c671-pubd1e1" name="混沌 Battletome: 斯卡文"/>
+    <publication id="bcc4-c671-pubd1e1" name="Chaos Battletome: Skaven"/>
     <publication id="bcc4-c671-pubd1e6847" name="Forgeworld: Monstrous Arcanum"/>
     <publication id="bcc4-c671-pubd1e21990" name="Forgeworld: Monstrous Arcanum, Jan 2019"/>
-    <publication id="bcc4-c671-pubd1e30758" name="Warscroll Compendium: 斯卡文"/>
-    <publication id="e316-99a9-2860-3a7c" name="Battletome: 斯卡文, 官方勘误, July 2019"/>
+    <publication id="bcc4-c671-pubd1e30758" name="Warscroll Compendium: Skaven"/>
+    <publication id="e316-99a9-2860-3a7c" name="Battletome: Skaven, Official Errata, July 2019"/>
   </publications>
   <profileTypes>
     <profileType id="727c-643b-cfa1-5383" name="Too Horrible to Die - D6 Roll">
@@ -43,7 +43,7 @@
     <categoryEntry id="774f-ffa8-46bc-3f97" name="PLAGUE PRIEST" hidden="false"/>
     <categoryEntry id="bd72-d234-b14d-fe09" name="VERMINLORD DECEIVER" hidden="false"/>
     <categoryEntry id="e5bb-31a0-025f-93c9" name="ESHIN" hidden="false"/>
-    <categoryEntry id="4e44-60d3-9cdb-58af" name="斯卡文 ASSASSIN" hidden="false"/>
+    <categoryEntry id="4e44-60d3-9cdb-58af" name="SKAVEN ASSASSIN" hidden="false"/>
     <categoryEntry id="2e5c-41c9-d969-0a70" name="NIGHT RUNNERS" hidden="false"/>
     <categoryEntry id="8b8e-4f13-7644-939f" name="GUTTER RUNNERS" hidden="false"/>
     <categoryEntry id="4081-bd99-2ccc-03bb" name="HELL PIT ABOMINATION" hidden="false"/>
@@ -66,19 +66,19 @@
     <categoryEntry id="02e6-cdd2-3e46-a156" name="RAT OGORS" hidden="false"/>
     <categoryEntry id="9d26-a0db-0406-a32b" name="CLANRATS" hidden="false"/>
     <categoryEntry id="2748-c707-2441-d25c" name="STORMVERMIN" hidden="false"/>
-    <categoryEntry id="f7b0-bab4-7cbd-b460" name="斯卡文 WARLORD" hidden="false"/>
+    <categoryEntry id="f7b0-bab4-7cbd-b460" name="SKAVEN WARLORD" hidden="false"/>
     <categoryEntry id="4853-623d-2893-05e1" name="PLAGUE FURNACE" hidden="false"/>
     <categoryEntry id="689d-54af-30d7-61d8" name="PLAGUE MONKS" hidden="false"/>
     <categoryEntry id="8016-0012-5506-db28" name="PLAGUE CENSER BEARERS" hidden="false"/>
     <categoryEntry id="755d-7328-a478-04af" name="PLAGUECLAW" hidden="false"/>
     <categoryEntry id="c75e-837d-044e-6b69" name="VERMINLORD CORRUPTOR" hidden="false"/>
-    <categoryEntry id="3ec6-da32-325e-dd17" name="斯卡文 DEATHRUNNER" hidden="false"/>
+    <categoryEntry id="3ec6-da32-325e-dd17" name="SKAVEN DEATHRUNNER" hidden="false"/>
     <categoryEntry id="0bfd-094f-eae7-68c7" name="BROOD HORROR" hidden="false"/>
-    <categoryEntry id="875c-1da1-3aec-c146" name="斯卡文 CLAWLORD ON BROOD HORROR" hidden="false"/>
-    <categoryEntry id="cda2-cb9a-3973-0510" name="斯卡文 WOLF RATS" hidden="false"/>
+    <categoryEntry id="875c-1da1-3aec-c146" name="SKAVEN CLAWLORD ON BROOD HORROR" hidden="false"/>
+    <categoryEntry id="cda2-cb9a-3973-0510" name="SKAVEN WOLF RATS" hidden="false"/>
     <categoryEntry id="6512-ac46-397f-d9e7" name="SKRITCH SPITECLAW" hidden="false"/>
     <categoryEntry id="93ab-c898-2ccb-3eaa" name="EngineCoven" hidden="false"/>
-    <categoryEntry id="3e2c-e138-fe91-95ea" name="斯卡文 CHIEFTAIN WITH BATTLE STANDARD" hidden="false"/>
+    <categoryEntry id="3e2c-e138-fe91-95ea" name="SKAVEN CHIEFTAIN WITH BATTLE STANDARD" hidden="false"/>
     <categoryEntry id="0ffa-61ef-fa8e-6f3d" name="SKAVENSLAVES" hidden="false"/>
     <categoryEntry id="5ed5-bfa0-f1f7-8b61" name="SKAVENTIDE" hidden="false"/>
     <categoryEntry id="5e5d-af59-6ea5-832c" name="CLANS SKYRE" hidden="false"/>
@@ -178,8 +178,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -210,7 +208,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="549a-1094-3663-f935" type="min"/>
       </constraints>
       <profiles>
-        <profile id="cf20-f346-9aa4-ee03" name="Aversion to 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="cf20-f346-9aa4-ee03" name="Aversion to Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">After the first wound or mortal wound is allocated to this unit in any phase, you can roll a dice each time you allocate a further wound or mortal wound to this unit in that phase. On a 5+ that wound or mortal wound is negated.</characteristic>
           </characteristics>
@@ -232,7 +230,7 @@
       <categoryLinks>
         <categoryLink id="19f4-5921-947f-a8b2" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="ffe1-4db7-eaa2-d51c" name="CLANS VERMINOUS" hidden="false" targetId="3058-1b6c-3bc2-746d" primary="false"/>
-        <categoryLink id="e829-c5ed-9354-85d1" name="斯卡文" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
+        <categoryLink id="e829-c5ed-9354-85d1" name="SKAVEN" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="6a31-db44-b5fc-8710" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
         <categoryLink id="e7c4-d515-4bd5-61ca" name="SPITECLAW&apos;S SWARM" hidden="false" targetId="6443-6964-73d4-c58a" primary="false"/>
       </categoryLinks>
@@ -270,7 +268,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10d6-6fa0-a9cf-ee17" name="Lurking 斯卡文" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10d6-6fa0-a9cf-ee17" name="Lurking Skaven" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49c-3964-50a5-c025" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d65-2d72-bd0c-0862" type="max"/>
@@ -303,7 +301,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="de99-6d84-a736-536c" name="Hungering 斯卡文" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="de99-6d84-a736-536c" name="Hungering Skaven" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0962-007d-8811-db28" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="272d-4a3b-ffe8-1bbd" type="max"/>
@@ -336,7 +334,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7953-ad3a-7c42-51b7" name="Festering 斯卡文" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7953-ad3a-7c42-51b7" name="Festering Skaven" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f651-d839-2524-3707" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da88-e661-52f5-af95" type="max"/>
@@ -476,7 +474,7 @@
             <profile id="cfec-fb08-b3ad-63b3" name="Warp Lighting Storm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick up to D3 enemy units within 13&quot; of the caster and visible to them. Those units each suffer D3 mortal wounds. Before making the casting roll, you can say that this model will use its warp-power accumulator to augment the spell. If you do so and the casting attempt is successful and not unbound, the spell inflicts D6 mortal wounds on each of those units instead of D3. However, if you do so and the casting attempt fails or is unbound,this model suffers D3xD6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick up to D3 enemy units within 13&quot; of the caster and visible to them. Those units each suffer D3 mortal wounds. Before making the casting roll, you can say that this model will use its warp-power accumulator to augment the spell. If you do so and the casting attempt is successful and not unbound, the spell inflicts D6 mortal wounds on each of those units instead of D3. However, if you do so and the casting attempt fails or is unbound,this model suffers D3xD6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -731,12 +729,12 @@
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b88b-de39-ca40-0740" name="Whirling 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="b88b-de39-ca40-0740" name="Whirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with this model’s Whirling Blades if this model made a charge move in the same turn</characteristic>
           </characteristics>
         </profile>
-        <profile id="b150-75fa-e10d-2596" name="More-more Whirling 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="b150-75fa-e10d-2596" name="More-more Whirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Before you determine the Attacks characteristic for this model’s Whirling Blades, you can say that the crew have kicked its generator into overdrive. If you do so, roll 2D6 to determine the Attacks characteristic for that attack instead of D6. However, if you do so and the roll that determines the Attacks characteristic is either a double or a roll of 7, this modelis slain after all of the attacks have been resolved.</characteristic>
           </characteristics>
@@ -1067,7 +1065,7 @@
             <profile id="5893-19ee-b645-f70d" name="Wither" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and visible to them, and roll 2D6. If the roll is greater than that unit’s Wounds characteristic, that unit suffers D3 mortal wounds. In addition, if the roll is greater than that unit’s Wounds characteristic, subtract 1 from hit rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and visible to them, and roll 2D6. If the roll is greater than that unit’s Wounds characteristic, that unit suffers D3 mortal wounds. In addition, if the roll is greater than that unit’s Wounds characteristic, subtract 1 from hit rolls for attacks made with melee weapons by that unit until your next hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1129,7 +1127,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this unit on the battlefield, you can place it to one side and say that it is infiltrating in reserve. If you do so, at the end of your first movement phase, you must set up this unit wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2077-518a-d06a-9ab4" name="Running 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="2077-518a-d06a-9ab4" name="Running Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit can run and still shoot later in the same turn.</characteristic>
           </characteristics>
@@ -1152,7 +1150,7 @@
         <categoryLink id="f4ac-d72d-54d2-1b8e" name="New CategoryLink" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="2368-130a-ba1b-dc1a" name="New CategoryLink" hidden="false" targetId="8b8e-4f13-7644-939f" primary="false"/>
         <categoryLink id="5ae8-f764-715f-45f0" name="CLANS ESHIN" hidden="false" targetId="9a0b-8f23-d27c-491a" primary="false"/>
-        <categoryLink id="5794-a70c-db58-1b64" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="5794-a70c-db58-1b64" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9688-b9d4-df62-1b3e" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
         <categoryLink id="702e-3084-8b3f-0730" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
@@ -1396,7 +1394,7 @@
           <profiles>
             <profile id="5cd4-7a85-f5a1-2b4d" name="Warpstone Spikes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a spell or 无尽法术, you can roll a dice. If you do so, on a 4+ ignore the effects of that spell on this model.</characteristic>
+                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a spell or endless spell, you can roll a dice. If you do so, on a 4+ ignore the effects of that spell on this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1567,7 +1565,7 @@
             <profile id="1d88-bddc-2107-754f" name="The Dreaded Thirteenth Spell" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and visible to them, and roll 13 dice. For each 4+ that unit suffers 1 mortal wound. You can then summon 1 unit of Clanrats to the battlefield, and add it to your army. The summoned unit can have up to 1 model for each mortal wound that was inflicted by this spell. The summoned unit must be set up wholly within 13&quot; of the caster and more than 9&quot; from any enemy units. The summoned unit cannot move in the following movement phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and visible to them, and roll 13 dice. For each 4+ that unit suffers 1 mortal wound. You can then summon 1 unit of Clanrats to the battlefield, and add it to your army. The summoned unit can have up to 1 model for each mortal wound that was inflicted by this spell. The summoned unit must be set up wholly within 13&quot; of the caster and more than 9&quot; from any enemy units. The summoned unit cannot move in the following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1684,7 +1682,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">After armies are set up, but before the first battle round begins, you can move this unit up to 2D6&quot;.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5613-b8f9-b8ab-40e2" name="Running 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="5613-b8f9-b8ab-40e2" name="Running Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This unit can run and still shoot later in the same turn.</characteristic>
           </characteristics>
@@ -2259,7 +2257,7 @@
               <profiles>
                 <profile id="ec17-874b-54f8-10e6" name="Book of Woes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In your hero phase, you can pick 1 enemy unit within 13&quot; of this unit’s Bringer-of-the-Word and roll a dice. On a 1-3, nothing happens. On a 4-5, that unit suffers 1 mortal wound. On a 6, that unit suffers D3 mortal wounds. This ability has no effect on 纳垢 units.</characteristic>
+                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In your hero phase, you can pick 1 enemy unit within 13&quot; of this unit’s Bringer-of-the-Word and roll a dice. On a 1-3, nothing happens. On a 4-5, that unit suffers 1 mortal wound. On a 6, that unit suffers D3 mortal wounds. This ability has no effect on Nurgle units.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2390,7 +2388,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Plagueclaw Catapult can target enemy units that are not visible to the attacking model. In addition, add 1 to hit rolls and increase the Damage characteristic to 2D6 for attacks made with a Plagueclaw Catapult if the target has 10 or more models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8233-2875-7ce4-13cc" name="Hideous 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="8233-2875-7ce4-13cc" name="Hideous Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of a unit targeted by any Plagueclaw Catapults until the endof the turn.</characteristic>
           </characteristics>
@@ -2874,7 +2872,7 @@
             <profile id="34bc-e88a-3557-e3f0" name="Cracks Call" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster and visible to them, and roll 2D6. If the roll is greater than that unit’s Move characteristic, that unit suffers a number of mortal wounds equal to the difference between its Move characteristic and the roll. This spell has no effect on units that can fly.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them, and roll 2D6. If the roll is greater than that unit’s Move characteristic, that unit suffers a number of mortal wounds equal to the difference between its Move characteristic and the roll. This spell has no effect on units that can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3528,7 +3526,7 @@
         </profile>
         <profile id="1dd9-b58f-a06d-6da7" name="Power Behind the Throne" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your hero phase. If you do so, until your next hero phase, one friendly 斯卡文 HERO other than this model can use the At the Double command ability without a command point being spent; another friendly 斯卡文 HERO other than this model can use the Forward to Victory command ability without a command point being spent; anda third friendly 斯卡文 HERO other than this model can use the Inspiring Presence command ability without a command point being spent.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your hero phase. If you do so, until your next hero phase, one friendly SKAVEN HERO other than this model can use the At the Double command ability without a command point being spent; another friendly SKAVEN HERO other than this model can use the Forward to Victory command ability without a command point being spent; anda third friendly SKAVEN HERO other than this model can use the Inspiring Presence command ability without a command point being spent.</characteristic>
           </characteristics>
         </profile>
         <profile id="90c5-6272-bd53-e5d4" name="Thanquol" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -3606,7 +3604,7 @@
             <profile id="07b7-aaa3-c90b-92f0" name="Madness" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy HERO within 3&quot; of the caster and visible to them, and roll a number of dice equal to the combined value of the Attacks characteristics of all melee weapons that HERO is armed with. For each 5+ you can inflict 1 mortal wound on 1 enemy unit within 3&quot; of that HERO (you can choose different units to suffer the mortal wounds if you wish).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy HERO within 3&quot; of the caster and visible to them, and roll a number of dice equal to the combined value of the Attacks characteristics of all melee weapons that HERO is armed with. For each 5+ you can inflict 1 mortal wound on 1 enemy unit within 3&quot; of that HERO (you can choose different units to suffer the mortal wounds if you wish).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3865,7 +3863,7 @@
             <profile id="21f9-87a2-a672-c9e1" name="Dreaded Plague" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and roll 1 dice for each model in that unit. For each 4+ that unit suffers1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and roll 1 dice for each model in that unit. For each 4+ that unit suffers1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4042,7 +4040,7 @@
             <profile id="78ae-954d-c59f-9a2a" name="Dreaded Skitterleap" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly SKAVENTIDE HERO with a Wounds characteristic of 12 or less that is within 26&quot; of the caster and visible to them. Remove that HERO from the battlefield and then set it up again anywhere on the battlefield more than 6&quot; from any enemy units. That HERO may not move in the following movement phase</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SKAVENTIDE HERO with a Wounds characteristic of 12 or less that is within 26&quot; of the caster and visible to them. Remove that HERO from the battlefield and then set it up again anywhere on the battlefield more than 6&quot; from any enemy units. That HERO may not move in the following movement phase</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4076,7 +4074,7 @@
         <profile id="73e6-d2a8-c20d-ace4" name="Verminlord Warbringer" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
           <characteristics>
             <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">2/2</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Dreaded 死亡 Frenzy</characteristic>
+            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Dreaded Death Frenzy</characteristic>
           </characteristics>
         </profile>
         <profile id="667e-27e5-e7d0-68f1" name="Tyrants of Battle" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
@@ -4086,7 +4084,7 @@
         </profile>
         <profile id="07dd-1504-0a8c-7073" name="Amidst the Seething Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll wound rolls for attacks made by this model while it is within 13&quot; of 13 or more friendly 斯卡文 models.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll wound rolls for attacks made by this model while it is within 13&quot; of 13 or more friendly SKAVEN models.</characteristic>
           </characteristics>
         </profile>
         <profile id="260b-5b8b-4d53-0f4a" name="Warbringer" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -4147,10 +4145,10 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 3&quot; of any models with this ability.</characteristic>
           </characteristics>
         </profile>
-        <profile id="597d-607c-567e-ff91" name="Dreaded 死亡 Frenzy" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+        <profile id="597d-607c-567e-ff91" name="Dreaded Death Frenzy" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick up to D3 friendly SKAVENTIDE units wholly within 13&quot; of the caster and visible to them. Until your next hero phase, when a model from any of those units is slain, before it is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick up to D3 friendly SKAVENTIDE units wholly within 13&quot; of the caster and visible to them. Until your next hero phase, when a model from any of those units is slain, before it is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="fee6-5e9b-a415-8fc8" name="Fist of Verminous Supremency" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -4230,7 +4228,7 @@
         </profile>
         <profile id="7458-69e7-fac3-a3df" name="Forth-forth, Children of the Horned Rat" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the battleshock phase. If you do so, pick 1 friendly model with this command ability. Do not take battleshock tests for friendly 斯卡文 units while they are wholly within 26&quot; of that model in that phase.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the battleshock phase. If you do so, pick 1 friendly model with this command ability. Do not take battleshock tests for friendly SKAVEN units while they are wholly within 26&quot; of that model in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="100e-e842-1499-ceae" name="Warpseer" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
@@ -4318,7 +4316,7 @@
             <profile id="d815-9dc4-a01a-c853" name="Dreaded Warpgale" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Dreaded Warpgale has a casting value of 8. 如果施放成功, pick 1 enemy unit within 26&quot; of the caster and visible to them. That unit suffers D6 mortal wounds, and run and charge rolls for that unit are halved until your next hero phase. If that unit can fly, it cannot fly until your next hero phase (in addition to having its run and charge rolls halved).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Dreaded Warpgale has a casting value of 8. If successfully cast, pick 1 enemy unit within 26&quot; of the caster and visible to them. That unit suffers D6 mortal wounds, and run and charge rolls for that unit are halved until your next hero phase. If that unit can fly, it cannot fly until your next hero phase (in addition to having its run and charge rolls halved).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4381,7 +4379,7 @@
             <profile id="776f-7394-151e-6a89" name="Warp Lightning" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. Before making the casting roll, you can say that this model will use its warp-power accumulator to augment the spell. If you do so and the casting attempt is successful and not unbound, the spell inflicts D6 mortal wounds instead of D3. However, if you do so and the casting attempt fails or is unbound, this model suffers D6 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. Before making the casting roll, you can say that this model will use its warp-power accumulator to augment the spell. If you do so and the casting attempt is successful and not unbound, the spell inflicts D6 mortal wounds instead of D3. However, if you do so and the casting attempt fails or is unbound, this model suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4903,7 +4901,7 @@
                 </profile>
                 <profile id="2951-d411-e68d-0ed5" name="Verminous - Mighty Warlords" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">When you pick command traits, you can pick 1 指挥特性 for up to 6 friendly CLAWLORDS, in addition to 1 指挥特性 for your general if your general is not a CLAWLORD. You must pick a different 指挥特性 for each CLAWLORD that has a 指挥特性, and no model can have more than 1 指挥特性. You can use the 指挥特性 for that CLAWLORD even though they are not your general.</characteristic>
+                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">When you pick command traits, you can pick 1 command trait for up to 6 friendly CLAWLORDS, in addition to 1 command trait for your general if your general is not a CLAWLORD. You must pick a different command trait for each CLAWLORD that has a command trait, and no model can have more than 1 command trait. You can use the command trait for that CLAWLORD even though they are not your general.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8a0c-5640-6840-99c1" name="Skyre - Warpstone Sparks" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
@@ -4921,7 +4919,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9c8d-f25a-384b-d05b" name="Allegiance: *混沌*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9c8d-f25a-384b-d05b" name="Allegiance: *CHAOS*" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5005,7 +5003,7 @@
         <profile id="1874-7b7b-c792-fd58" name="Splinter-screech" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy model within 12&quot; of the caster, and roll a dice. If the roll is equal to or greater than that model’s Wounds characteristic, it is slain.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy model within 12&quot; of the caster, and roll a dice. If the roll is equal to or greater than that model’s Wounds characteristic, it is slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="3a63-637e-e109-fffe" name="Protection of the Horned Rat" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -5685,11 +5683,11 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3e3b-7d15-1238-adc6" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3e3b-7d15-1238-adc6" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="e8b3-8009-4cbd-add7" name="CLANS VERMINOUS" hidden="false" targetId="3058-1b6c-3bc2-746d" primary="false"/>
         <categoryLink id="a495-9805-f851-ad34" name="CLAWLORD" hidden="false" targetId="6c31-d5f5-4a7e-638e" primary="false"/>
         <categoryLink id="9e28-16b4-35d4-d22b" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="65dc-69a9-23be-0d55" name="斯卡文" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
+        <categoryLink id="65dc-69a9-23be-0d55" name="SKAVEN" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="e178-7eec-3577-5605" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5740,18 +5738,18 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place it to one side and say that it is set up in hiding as a reserve unit. If you do so, at the start of a combat phase, you can set up this model within 1&quot; of a friendly SKAVENTIDEunit that has 5 or more models and a Wounds characteristic of 1. If this model is not set up on the battlefield before the start of the fourth battle round, it is slain.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6778-b32d-11a6-6683" name="Running 死亡" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="6778-b32d-11a6-6683" name="Running Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">This model can run and still shoot later in the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="9fe0-0185-7942-2675" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="9fe0-0185-7942-2675" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="20ae-3271-12ce-ecf8" name="CLANS ESHIN" hidden="false" targetId="9a0b-8f23-d27c-491a" primary="false"/>
         <categoryLink id="0e24-e681-2295-f257" name="DEATHMASTER" hidden="false" targetId="ab95-95da-239d-dd92" primary="false"/>
         <categoryLink id="5912-9135-9bdb-4b7c" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="4664-2b16-de26-3819" name="斯卡文" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
+        <categoryLink id="4664-2b16-de26-3819" name="SKAVEN" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="433a-8dcd-9ab8-bd7c" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5865,11 +5863,11 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2a98-c413-bdcf-5e4f" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="2a98-c413-bdcf-5e4f" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="e12e-6301-7a67-a3a0" name="CLANS MOULDER" hidden="false" targetId="07f3-a813-9aea-eff4" primary="false"/>
         <categoryLink id="603b-a3e3-3d1c-fdcd" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="1138-6efc-8e89-6c02" name="MASTER MOULDER" hidden="false" targetId="af93-3eab-d118-5898" primary="false"/>
-        <categoryLink id="e1b3-ff7f-1eee-294f" name="斯卡文" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
+        <categoryLink id="e1b3-ff7f-1eee-294f" name="SKAVEN" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="57f9-217f-c51c-0aaf" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5951,15 +5949,15 @@
         <profile id="1ddb-1bd2-7773-5d66" name="Warp Lightning" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. Before making the casting roll, you can say that this model will use its warp-power accumulator to augment the spell. If you do so and the casting attempt is successful and not unbound, the spell inflicts D6 mortal wounds instead of D3. However, if you do so and the casting attempt fails or is unbound, this model suffers D6 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and visible to them. That unit suffers D3 mortal wounds. Before making the casting roll, you can say that this model will use its warp-power accumulator to augment the spell. If you do so and the casting attempt is successful and not unbound, the spell inflicts D6 mortal wounds instead of D3. However, if you do so and the casting attempt fails or is unbound, this model suffers D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="367e-245a-1b4c-c5aa" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="367e-245a-1b4c-c5aa" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="a7bb-f70b-3cbf-18a1" name="CLANS SKYRE" hidden="false" targetId="5e5d-af59-6ea5-832c" primary="false"/>
         <categoryLink id="647b-cac4-87e0-cca0" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="a9be-ae21-3881-5e00" name="斯卡文" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
+        <categoryLink id="a9be-ae21-3881-5e00" name="SKAVEN" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="d45e-4673-1f91-1da5" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
         <categoryLink id="9323-d7aa-86a1-0328" name="WARLOCK BOMBARDIER" hidden="false" targetId="f07c-e899-0dae-720f" primary="false"/>
         <categoryLink id="24fc-f4c8-c702-9aa2" name="WARLOCK ENGINEER" hidden="false" targetId="9319-f73a-ef27-fd21" primary="false"/>
@@ -6142,9 +6140,9 @@
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ebf-9f25-a2fc-1835" name="斯卡文 Clawlord on Brood Horror" publicationId="bcc4-c671-pubd1e21990" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4ebf-9f25-a2fc-1835" name="Skaven Clawlord on Brood Horror" publicationId="bcc4-c671-pubd1e21990" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="028b-c8d4-a27c-7bb7" name="斯卡文 Warlord on Brood Horror" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="028b-c8d4-a27c-7bb7" name="Skaven Warlord on Brood Horror" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">8&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -6265,7 +6263,7 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e6bd-2a4c-5b2a-e1c1" name="斯卡文 Wolf Rats" publicationId="bcc4-c671-pubd1e6847" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e6bd-2a4c-5b2a-e1c1" name="Skaven Wolf Rats" publicationId="bcc4-c671-pubd1e6847" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5456-08cd-6cb7-95ea" name="Snapping Jaws" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
@@ -6277,7 +6275,7 @@
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Do not take battleshock tests for this unit while it is within 3&quot; of an enemy unit.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a77a-03d8-0641-726f" name="斯卡文 Wolf Rats" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="a77a-03d8-0641-726f" name="Skaven Wolf Rats" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">12&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -6331,9 +6329,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e4b-f937-af6b-9eb9" name="斯卡文 Chieftain with Battle Standard" publicationId="bcc4-c671-pubd1e30758" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5e4b-f937-af6b-9eb9" name="Skaven Chieftain with Battle Standard" publicationId="bcc4-c671-pubd1e30758" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a865-38ca-3f89-b3ea" name="斯卡文 Chieftain with Battle Standard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="a865-38ca-3f89-b3ea" name="Skaven Chieftain with Battle Standard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="8655-6213-2824-1752">6&quot;</characteristic>
             <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -6348,7 +6346,7 @@
         </profile>
         <profile id="73b2-3962-3214-93ab" name="Treacherous Progression" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If your general is a 斯卡文 and has only 1 wound remaining, a 斯卡文 Chiefain with Battle Standard can stab-stab him in the back if he is within 1&quot; of him at the start of your hero phase. If he does so, your general is slain; this model then becomes your general and gains any command abilities known by his former master.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If your general is a Skaven and has only 1 wound remaining, a Skaven Chiefain with Battle Standard can stab-stab him in the back if he is within 1&quot; of him at the start of your hero phase. If he does so, your general is slain; this model then becomes your general and gains any command abilities known by his former master.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6579,7 +6577,7 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="031f-bc9f-50b9-e33e" name="无尽法术: Vermintide" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="031f-bc9f-50b9-e33e" name="Endless Spell: Vermintide" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33ee-b399-385e-f0fd" type="max"/>
       </constraints>
@@ -6587,12 +6585,12 @@
         <profile id="8b90-4782-e4a3-fd7d" name="Summon Vermintide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SKAVENTIDE WIZARDS can attempt to cast this spell. 如果施放成功, set up a Vermintide model wholly within 13&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SKAVENTIDE WIZARDS can attempt to cast this spell. If successfully cast, set up a Vermintide model wholly within 13&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b9f-a6a5-6a68-bbcf" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Vermintide is a predatory 无尽法术. It can move up to 7&quot;.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Vermintide is a predatory endless spell. It can move up to 7&quot;.</characteristic>
           </characteristics>
         </profile>
         <profile id="429a-8a41-756b-cb9b" name="Ravening Horde" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -6612,14 +6610,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="84d8-ab31-3851-37f6" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="84d8-ab31-3851-37f6" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="7b3e-fd39-a62e-e4b1" name="VERMINTIDE" hidden="false" targetId="a986-2dd9-5302-538e" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c5e-cf5a-0321-fa94" name="无尽法术: Warp Lightning Vortex" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7c5e-cf5a-0321-fa94" name="Endless Spell: Warp Lightning Vortex" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91a8-23e1-525a-e908" type="max"/>
       </constraints>
@@ -6627,29 +6625,29 @@
         <profile id="ced7-6f91-5cc7-a855" name="Summon Warp Lightning Vortex" publicationId="e316-99a9-2860-3a7c" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SKAVENTIDE WIZARDS can attempt to cast this spell. 如果施放成功, set up 1 Warp Lightning Vortex model wholly within 13&quot; of the caster, then set up the second and third Warp Lightning Vortex models exactly 7&quot; from the first model and exactly 7&quot; from each other (the models will form a triangle with each model exactly 7&quot; from the other two models).</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SKAVENTIDE WIZARDS can attempt to cast this spell. If successfully cast, set up 1 Warp Lightning Vortex model wholly within 13&quot; of the caster, then set up the second and third Warp Lightning Vortex models exactly 7&quot; from the first model and exactly 7&quot; from each other (the models will form a triangle with each model exactly 7&quot; from the other two models).</characteristic>
           </characteristics>
         </profile>
         <profile id="09ef-a43d-71a5-cc50" name="Warp Lightning Bolts" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, and at the end of each movement phase, roll 1 dice for each unit within 6&quot; of any of the models from this 无尽法术. Add 1 to the dice roll if that unit is within 6&quot; of two of the models from this 无尽法术. Add 2 to the dice roll instead of 1 if that unit is within 6&quot; of all three models from this 无尽法术. On a 4+ that unit suffers D3 mortal wounds. On an unmodified roll of 6, that unit suffers D6 mortal wounds instead of D3 mortal wounds.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, and at the end of each movement phase, roll 1 dice for each unit within 6&quot; of any of the models from this endless spell. Add 1 to the dice roll if that unit is within 6&quot; of two of the models from this endless spell. Add 2 to the dice roll instead of 1 if that unit is within 6&quot; of all three models from this endless spell. On a 4+ that unit suffers D3 mortal wounds. On an unmodified roll of 6, that unit suffers D6 mortal wounds instead of D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="ff0a-cf2f-9553-7250" name="Warp Vortex" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Units cannot run or fly when they make a normal move that starts within 6&quot; of any models from this 无尽法术.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Units cannot run or fly when they make a normal move that starts within 6&quot; of any models from this endless spell.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="1cfb-d34d-4508-9a27" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="1cfb-d34d-4508-9a27" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="ffeb-6102-0169-d4bd" name="WARP LIGHTNING VORTEX" hidden="false" targetId="4440-1420-2dd0-70d1" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fe6-46f9-96bb-8673" name="无尽法术: Bell of Doom" publicationId="bcc4-c671-pubd1e1" page="126" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4fe6-46f9-96bb-8673" name="Endless Spell: Bell of Doom" publicationId="bcc4-c671-pubd1e1" page="126" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3dfe-4536-9992-ecd4" type="max"/>
       </constraints>
@@ -6667,12 +6665,12 @@
         <profile id="4a70-51cb-a89a-b0ea" name="Summon Bell of Doom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SKAVENTIDE WIZARDS can attempt to cast this spell. 如果施放成功, set up a Bell of Doom model wholly within 13&quot; of the caster.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Only SKAVENTIDE WIZARDS can attempt to cast this spell. If successfully cast, set up a Bell of Doom model wholly within 13&quot; of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="d4c8-b1e0-8022-bad5" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Bell of Doom is a predatory 无尽法术. It can move up to 13&quot; and can fly.</characteristic>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Bell of Doom is a predatory endless spell. It can move up to 13&quot; and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6681,7 +6679,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="56de-a3df-c8ed-c893" name="BELL OF DOOM" hidden="false" targetId="0250-c05b-ed90-c018" primary="false"/>
-        <categoryLink id="802f-b758-ad2b-48c0" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="802f-b758-ad2b-48c0" name="ENDLESS SPELL" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
@@ -6715,8 +6713,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -6740,8 +6736,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -6765,8 +6759,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -6790,8 +6782,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -6815,8 +6805,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -6840,8 +6828,6 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
               </conditions>
             </conditionGroup>
@@ -6929,9 +6915,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -6947,7 +6931,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="911b-8115-09c6-fe41" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="d22d-d98d-5ef6-d8bf" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="d22d-d98d-5ef6-d8bf" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6991,7 +6975,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afcb-f0c3-d8dd-0cf8" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3239-f9fd-ee74-0b40" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="3239-f9fd-ee74-0b40" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -7000,12 +6984,12 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="2247-4160-3b32-b6ee" name="斯卡文 Skryre Command Traits" hidden="false" collective="false" import="true" targetId="034f-34fa-0750-85ff" type="selectionEntryGroup"/>
+        <entryLink id="2247-4160-3b32-b6ee" name="Skaven Skryre Command Traits" hidden="false" collective="false" import="true" targetId="034f-34fa-0750-85ff" type="selectionEntryGroup"/>
         <entryLink id="c16e-ee7d-fb2c-58e3" name="Cunning Machinations (Masterclan)" hidden="false" collective="false" import="true" targetId="9599-473c-3ea8-be1f" type="selectionEntryGroup"/>
         <entryLink id="bcde-51e8-e252-b50a" name="Traits: Fleshmasteries (Clans Moulder)" hidden="false" collective="false" import="true" targetId="666e-e6b9-dacf-74f8" type="selectionEntryGroup"/>
         <entryLink id="1530-9d11-8b8f-029a" name="Shadowy Masteries (Clans Eshin)" hidden="false" collective="false" import="true" targetId="9565-bd79-6ad5-c568" type="selectionEntryGroup"/>
         <entryLink id="185e-1a1f-f5b4-1a66" name="Treacherous Tactics (Clans Verminous)" hidden="false" collective="false" import="true" targetId="cddc-a28b-400e-345d" type="selectionEntryGroup"/>
-        <entryLink id="fa53-96c1-619f-3c5d" name="Traits: 纳垢 Daemon" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup">
+        <entryLink id="fa53-96c1-619f-3c5d" name="Traits: Nurgle Daemon" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -7169,9 +7153,9 @@
         </selectionEntry>
         <selectionEntry id="7679-4e5e-8a49-f0bf" name="5. Deranged Inventor" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4db6-2863-4556-4fb3" name="Deranged Inventor" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4db6-2863-4556-4fb3" name="Deranged Inventor" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your shooting phase, you can pick 1 friendly CLANS SKRYRE unit that is wholly within 13&quot; of this general. You can re-roll hit rolls for attacks made with missile weapons by that unit until the end of that phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your shooting phase, you can pick 1 friendly CLANS SKRYRE unit that is wholly within 13&quot; of this general. You can re-roll hit rolls for attacks made with missile weapons by that unit until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7181,9 +7165,9 @@
         </selectionEntry>
         <selectionEntry id="27ce-a564-c516-3f5a" name="4. Masterful Scavenger" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="b945-4783-0b03-08c0" name="Masterful Scavenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="b945-4783-0b03-08c0" name="Masterful Scavenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to the number of warpstone sparks this general’s army can use during a battle.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to the number of warpstone sparks this general’s army can use during a battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7199,11 +7183,11 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5927-a201-341f-caa7" name="6. Overseer of 毁灭" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5927-a201-341f-caa7" name="6. Overseer of Destruction" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1b60-b412-698a-8d2d" name="Overseer of 毁灭" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1b60-b412-698a-8d2d" name="Overseer of Destruction" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your shooting phase, you can pick up to 3 friendly WEAPON TEAM units that are wholly within 13&quot; of this general. You can re-roll hit rolls for attacks made by those units until the end of that phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your shooting phase, you can pick up to 3 friendly WEAPON TEAM units that are wholly within 13&quot; of this general. You can re-roll hit rolls for attacks made by those units until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7263,9 +7247,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b1b-2f3b-a2f3-1214" type="max"/>
           </constraints>
           <profiles>
-            <profile id="35dc-f1dc-94b4-8a50" name="Brutal Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="35dc-f1dc-94b4-8a50" name="Brutal Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of the combat phase, you can add 3 to the Attacks characteristic of this general’s melee weapons until the end of that phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of the combat phase, you can add 3 to the Attacks characteristic of this general’s melee weapons until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7278,9 +7262,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f121-f911-5d40-f182" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3312-dedf-801f-0642" name="Powerful" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3312-dedf-801f-0642" name="Powerful" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7293,9 +7277,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36de-a045-aa0a-d62f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="71ae-100d-3b0a-b3c9" name="Devious Adversary" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="71ae-100d-3b0a-b3c9" name="Devious Adversary" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a melee weapon that targets this general is a 1, add 1 to the Attacks characteristic of this general’s melee weapons until the end of that phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a melee weapon that targets this general is a 1, add 1 to the Attacks characteristic of this general’s melee weapons until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7343,9 +7327,9 @@
         </selectionEntry>
         <selectionEntry id="e55b-6db5-a568-a254" name="4. Supreme Manipulator" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3fa0-d220-a9a4-8711" name="Supreme Manipulator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3fa0-d220-a9a4-8711" name="Supreme Manipulator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if you receive 1 extra command point when you use the Skilled Manipulators battle trait after this general uses a command ability.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if you receive 1 extra command point when you use the Skilled Manipulators battle trait after this general uses a command ability.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7355,9 +7339,9 @@
         </selectionEntry>
         <selectionEntry id="687e-5cd1-ea2c-ab34" name="5. Master of Magic" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7414-c430-45d9-da8b" name="Master of Magic" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7414-c430-45d9-da8b" name="Master of Magic" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per hero phase, you can add 1 to a casting, dispelling or unbinding roll for this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per hero phase, you can add 1 to a casting, dispelling or unbinding roll for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7367,9 +7351,9 @@
         </selectionEntry>
         <selectionEntry id="48af-2b32-2c2c-e8bb" name="6. Cunning" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="bd92-efc1-1a11-9a7a" name="Cunning" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="bd92-efc1-1a11-9a7a" name="Cunning" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">After the battle has started, roll a dice each time your opponent receives a command point. On a 6 you receive the command point instead of them.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">After the battle has started, roll a dice each time your opponent receives a command point. On a 6 you receive the command point instead of them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7417,9 +7401,9 @@
         </selectionEntry>
         <selectionEntry id="abf9-2d7e-90c1-613a" name="4. Moulder Supreme" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1375-7077-daf5-234a" name="Moulder Supreme" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1375-7077-daf5-234a" name="Moulder Supreme" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When you use the Prized Creations battle trait and pick 1 friendly CLANS MOULDER FIGHTING BEAST model for this general, you can either add 3 to that model’s Wounds characteristic instead of D3, or add D6 to that model’s Wounds characteristic instead of D3.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When you use the Prized Creations battle trait and pick 1 friendly CLANS MOULDER FIGHTING BEAST model for this general, you can either add 3 to that model’s Wounds characteristic instead of D3, or add D6 to that model’s Wounds characteristic instead of D3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7429,9 +7413,9 @@
         </selectionEntry>
         <selectionEntry id="768d-0510-0faf-ab6a" name="5. Hordemaster" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f250-3b59-b68b-a813" name="Hordemaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f250-3b59-b68b-a813" name="Hordemaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">When this general uses the Unleash More-more Beasts! command ability, you receive a new unit on a roll of 4+ instead of 5+.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">When this general uses the Unleash More-more Beasts! command ability, you receive a new unit on a roll of 4+ instead of 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7441,9 +7425,9 @@
         </selectionEntry>
         <selectionEntry id="8d45-150a-920b-6d3c" name="6. Burly" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="44c8-714f-c53d-9479" name="Burly" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="44c8-714f-c53d-9479" name="Burly" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7491,9 +7475,9 @@
         </selectionEntry>
         <selectionEntry id="525e-0317-d672-a9c6" name="4. Unrivalled Killer" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8306-aaa8-5c7c-d3fb" name="Unrivalled Killer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8306-aaa8-5c7c-d3fb" name="Unrivalled Killer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made by this general that target the enemy HERO chosen for the Masters of Murder battle trait.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made by this general that target the enemy HERO chosen for the Masters of Murder battle trait.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7503,9 +7487,9 @@
         </selectionEntry>
         <selectionEntry id="ad62-d49d-ea20-d676" name="5. Shadowmaster" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1674-466b-06d8-d91e" name="Shadowmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1674-466b-06d8-d91e" name="Shadowmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">While this general is within 1&quot; of a terrain feature, this general is not visible to enemy models while they are more than 6&quot; from this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">While this general is within 1&quot; of a terrain feature, this general is not visible to enemy models while they are more than 6&quot; from this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7515,9 +7499,9 @@
         </selectionEntry>
         <selectionEntry id="1cd7-df88-201b-d430" name="6. Incredible Agility" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7b9f-ac0d-c763-11d2" name="Incredible Agility" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7b9f-ac0d-c763-11d2" name="Incredible Agility" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general can fly.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7621,7 +7605,7 @@
           <profiles>
             <profile id="45f3-f741-4bff-d218" name="Staff of Rightful Supremacy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of enemy WIZARDS while they are within 13&quot; of the bearer. In addition, once per battle, you can dispel one 无尽法术 within 13&quot; of the caster (you do not have to roll 2D6, the dispel is automatically successful).</characteristic>
+                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of enemy WIZARDS while they are within 13&quot; of the bearer. In addition, once per battle, you can dispel one endless spell within 13&quot; of the caster (you do not have to roll 2D6, the dispel is automatically successful).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7978,7 +7962,7 @@
             <profile id="1b3d-08be-b5fc-84d2" name="Scorch" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and visible to them, and roll a number of dice equal to the casting roll. For each6, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and visible to them, and roll a number of dice equal to the casting roll. For each6, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7991,7 +7975,7 @@
             <profile id="2a86-92de-8c25-2d71" name="Splinter" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy model within 6&quot; of the caster, and roll a dice. If the roll is greater than that model’s Wounds characteristic, it is slain.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy model within 6&quot; of the caster, and roll a dice. If the roll is greater than that model’s Wounds characteristic, it is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8004,7 +7988,7 @@
             <profile id="ef37-c26f-1cf7-4f1b" name="Skitterleap" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly SKAVENTIDE HERO with a Wounds characteristic of 12 or less, that is within 13&quot; of the caster and visible to them. Remove that HERO from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That HERO may not move in the following movement phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SKAVENTIDE HERO with a Wounds characteristic of 12 or less, that is within 13&quot; of the caster and visible to them. Remove that HERO from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units. That HERO may not move in the following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8017,7 +8001,7 @@
             <profile id="f877-3ea9-2f13-7316" name="Plague" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 13&quot; of the caster and roll 1 dice for each model in that unit. For each 5+, that unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 13&quot; of the caster and roll 1 dice for each model in that unit. For each 5+, that unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8025,12 +8009,12 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bc6d-8ebb-39cd-9a15" name="5. 死亡 Frenzy" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bc6d-8ebb-39cd-9a15" name="5. Death Frenzy" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a633-ae7c-cfca-643c" name="死亡 Frenzy" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+            <profile id="a633-ae7c-cfca-643c" name="Death Frenzy" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly SKAVENTIDE unit that is not a HERO, which is wholly within 13&quot; of the caster and visible to them. Until your next hero phase, when a model from that unit is slain, before it is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SKAVENTIDE unit that is not a HERO, which is wholly within 13&quot; of the caster and visible to them. Until your next hero phase, when a model from that unit is slain, before it is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8043,7 +8027,7 @@
             <profile id="0d39-b62f-d34d-9812" name="Warpgale" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 26&quot; of the caster and visible to them. That unit suffers D3 mortal wounds, and any run or charge rolls for that unit are halved until your next hero phase. If that unit can fly, it cannot fly until your next hero phase (in addition to having its run and charge rolls halved).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 26&quot; of the caster and visible to them. That unit suffers D3 mortal wounds, and any run or charge rolls for that unit are halved until your next hero phase. If that unit can fly, it cannot fly until your next hero phase (in addition to having its run and charge rolls halved).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8070,7 +8054,7 @@
             <profile id="e3f6-7eb9-4973-bd8b" name="More-more-more Warp Power!" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly CLANS SKRYRE unit wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for that unit until your next hero phase. However, at the end of your next hero phase, that unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly CLANS SKRYRE unit wholly within 12&quot; of the caster and visible to them. You can re-roll hit and wound rolls for that unit until your next hero phase. However, at the end of your next hero phase, that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8083,7 +8067,7 @@
             <profile id="b92f-cb91-4e24-d8a3" name="Chain Warp Lightning" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick up to D6 different enemy units within 18&quot; of the caster. Each of those units suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick up to D6 different enemy units within 18&quot; of the caster. Each of those units suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8096,7 +8080,7 @@
             <profile id="f3d7-27fa-d6ac-252a" name="Warp Lightning Shield" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until your next hero phase, the first 3 wounds allocated to the caster in each phase are negated. If a fourth wound is allocated to the caster in the same phase, then the caster suffers D6 mortal wounds and this spell is unbound (the first 3 wounds allocated in that phase are still negated).</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next hero phase, the first 3 wounds allocated to the caster in each phase are negated. If a fourth wound is allocated to the caster in the same phase, then the caster suffers D6 mortal wounds and this spell is unbound (the first 3 wounds allocated in that phase are still negated).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8260,9 +8244,9 @@
         </selectionEntry>
         <selectionEntry id="c624-49a7-5a77-c6ac" name="6. Diseased" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="ccf6-9678-fd5b-3c25" name="Diseased" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ccf6-9678-fd5b-3c25" name="Diseased" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice if this general is within 3&quot; of any enemy units. On a 4+ inflict D3 mortal wounds on 1 enemy unit within 3&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of your hero phase, roll a dice if this general is within 3&quot; of any enemy units. On a 4+ inflict D3 mortal wounds on 1 enemy unit within 3&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8272,9 +8256,9 @@
         </selectionEntry>
         <selectionEntry id="ecc0-b266-8bbc-bc78" name="4. Master of Rot and Ruin" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a742-552b-ff35-3dc4" name="Master of Rot and Ruin" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a742-552b-ff35-3dc4" name="Master of Rot and Ruin" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if a prayer chanted by this general is answered.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if a prayer chanted by this general is answered.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8290,11 +8274,11 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="13e1-8b09-53fe-d7a0" name="5. Architect of 死亡" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="13e1-8b09-53fe-d7a0" name="5. Architect of Death" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c153-585e-0f33-99b5" name="Architect of 死亡" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="c153-585e-0f33-99b5" name="Architect of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made with missile weapons by friendly CLANS PESTILENS units while they are wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made with missile weapons by friendly CLANS PESTILENS units while they are wholly within 18&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8345,23 +8329,23 @@
         <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+ that wound or mortal wound is negated.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5a6a-2a84-bc1e-245f" name="Malevolent" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+    <profile id="5a6a-2a84-bc1e-245f" name="Malevolent" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
       <characteristics>
-        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with melee weapons by this general.</characteristic>
+        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with melee weapons by this general.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5c65-a3e5-d5c9-249c" name="Verminous Valour" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+    <profile id="5c65-a3e5-d5c9-249c" name="Verminous Valour" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
       <characteristics>
-        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Before you allocate a wound or mortal wound to this general, you can roll a dice. Subtract 1 from the roll if this general is a MONSTER or WAR MACHINE. On a 4+, instead of allocating the wound or mortal wound to this general, you can allocate it to a friendly SKAVENTIDE unit within 3&quot; of this general.</characteristic>
+        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Before you allocate a wound or mortal wound to this general, you can roll a dice. Subtract 1 from the roll if this general is a MONSTER or WAR MACHINE. On a 4+, instead of allocating the wound or mortal wound to this general, you can allocate it to a friendly SKAVENTIDE unit within 3&quot; of this general.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0deb-5028-c39a-4a9e" name="Savage Overlord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+    <profile id="0deb-5028-c39a-4a9e" name="Savage Overlord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
       <characteristics>
-        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SKAVENTIDE units while they are wholly within 18&quot; of this general.</characteristic>
+        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SKAVENTIDE units while they are wholly within 18&quot; of this general.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4ecb-f2b4-78e9-ce86" name="混沌 数据" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4ecb-f2b4-78e9-ce86" name="Chaos Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5419-b58f-5a39-0bfe" name="毁灭 - Orruk Warclans" revision="8" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5419-b58f-5a39-0bfe" name="Destruction - Orruk Warclans" revision="10" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="7e25-33bb-pubN65537" name="毁灭 Battletome: Bonesplitterz"/>
+    <publication id="7e25-33bb-pubN65537" name="Destruction Battletome: Bonesplitterz"/>
     <publication id="7e25-33bb-pubN82863" name="Age of Sigmar: The Rules"/>
-    <publication id="7e25-33bb-pubN82892" name="毁灭 Battletomb: Ironjawz"/>
+    <publication id="7e25-33bb-pubN82892" name="Destruction Battletomb: Ironjawz"/>
   </publications>
   <profileTypes>
     <profileType id="5814-7e7f-e83d-1669" name="Ritual Dance">
@@ -22,16 +22,23 @@
         <characteristicType id="2c27-08ec-8a3a-6a3e" name="Monster Hunters Result"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="f9d0-9e02-bee9-1f0c" name="Maw-Krusha">
+    <profileType id="f9d0-9e02-bee9-1f0c" name="Wounds Suffered">
       <characteristicTypes>
         <characteristicType id="77de-c752-9ffa-f346" name="Move"/>
         <characteristicType id="bb09-d22f-2469-d46c" name="Mighty Fists"/>
         <characteristicType id="f62d-4c93-271b-b6ec" name="Destructive Bulk"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="793b-d7fd-01ea-a61b" name="Wounds Suffered">
+      <characteristicTypes>
+        <characteristicType id="af21-cdc8-56f1-d7a0" name="Move"/>
+        <characteristicType id="1498-3aa2-c8ba-3aa0" name="Boulder Fists"/>
+        <characteristicType id="8706-d34b-5dcc-3926" name="Stompin&apos; Feet"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="d850-d9b0-684b-9f3a" name="毁灭" hidden="false"/>
+    <categoryEntry id="d850-d9b0-684b-9f3a" name="Destruction" hidden="false"/>
     <categoryEntry id="f643-013c-7718-007d" name="Orruk" hidden="false"/>
     <categoryEntry id="03eb-456f-dd6c-7024" name="Ardboys" hidden="false"/>
     <categoryEntry id="fb31-0c98-2d1d-8492" name="MEGABOSS" hidden="false"/>
@@ -119,6 +126,7 @@
     <entryLink id="6b0d-f8e7-f32f-2453" name="Gordrakk, the Fist of Gork" hidden="false" collective="false" import="true" targetId="8911-e844-4a80-59f4" type="selectionEntry"/>
     <entryLink id="4312-2b73-da85-d1fd" name="Savage Orruks Arrowboys" hidden="false" collective="false" import="true" targetId="c5d3-2af4-16d0-77cf" type="selectionEntry"/>
     <entryLink id="65ac-88ea-84b8-ff38" name="Super Battalion: Brawl" hidden="false" collective="false" import="true" targetId="5d3f-0d36-6692-069c" type="selectionEntry"/>
+    <entryLink id="a2b5-6000-cd5d-5d79" name="Rogue Idol" hidden="false" collective="false" import="true" targetId="2eee-3937-3870-783a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9dbb-2d1a-12d8-7faf" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
@@ -241,7 +249,7 @@ If the roll is 12 or more, until the end of that phase add 2 to the Attacks char
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3c55-3eee-a90a-ac07" name="*毁灭*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3c55-3eee-a90a-ac07" name="*Destruction*" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="523a-2f27-f750-bf4e" name="Rampaging Destroyers" hidden="false" targetId="4571-8f36-98ca-2d16" type="rule"/>
               </infoLinks>
@@ -1983,7 +1991,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         <profile id="5acb-ded5-46f7-d3f8" name="Fists of Gork" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
           <characteristics>
             <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 24&quot; of the caster that is visible to them, and roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If the casting roll was 10+, inflict 1 mortal wound for each 4+ instead of each 6.</characteristic>
+            <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 24&quot; of the caster that is visible to them, and roll a number of dice equal to the number of models in that unit. For each 6, that unit suffers 1 mortal wound. If the casting roll was 10+, inflict 1 mortal wound for each 4+ instead of each 6.</characteristic>
           </characteristics>
         </profile>
         <profile id="e48e-bf33-5bb6-629b" name="Beast Mask" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -2090,15 +2098,9 @@ At the end of any phase in which you use this command ability, you must roll a d
     <selectionEntry id="2782-06bf-a7cc-86b6" name="General" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="62e4-370f-3318-cdbd" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b78c-c342-c8aa-aa45" type="instanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f3-8a59-699a-61e8" type="instanceOf"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -2138,7 +2140,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="e106-0fa0-2b63-72df" name="Voice of Gork" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick up to 3 friendly 毁灭 units wholly within 24&quot; of this model. Until the end of that phase, add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase, and a unit cannot benefit from this ability and the Go on Ladz, Get Stuck In! ability in the same phase.</characteristic>
+            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick up to 3 friendly DESTRUCTION units wholly within 24&quot; of this model. Until the end of that phase, add 1 to hit rolls for attacks made by that unit. A unit cannot benefit from this command ability more than once per phase, and a unit cannot benefit from this ability and the Go on Ladz, Get Stuck In! ability in the same phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7476-3e2e-bd95-ce9f" name="Smasha" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
@@ -2278,35 +2280,35 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e31-ceab-591b-53ac" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c985-1df4-16fa-346b" name="00-03" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="c985-1df4-16fa-346b" name="00-03" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">12&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">9</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">9 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="6508-ff1a-1cd7-9378" name="04-06" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="6508-ff1a-1cd7-9378" name="04-06" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">10&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">8</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">8 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="3872-59a9-2782-4892" name="13+" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="3872-59a9-2782-4892" name="13+" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">4&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">5</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">5 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="89f1-9eae-1f37-3bab" name="10-12" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="89f1-9eae-1f37-3bab" name="10-12" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">6&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">6</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">6 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="b9d3-2862-0369-8494" name="07-09" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="b9d3-2862-0369-8494" name="07-09" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">8&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">7</characteristic>
@@ -2449,7 +2451,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
             <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="67b6-73fe-8d41-bbb2" name="Rhythm of 毁灭" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="67b6-73fe-8d41-bbb2" name="Rhythm of Destruction" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
           <characteristics>
             <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a Gorkstikk and Morkstikk is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit.</characteristic>
           </characteristics>
@@ -2769,41 +2771,41 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9bfd-6baa-8e8a-0093" name="Maw-Krusha Damage Table" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9bfd-6baa-8e8a-0093" name="Damage Table" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a9-0921-9467-5849" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dbc-3603-d702-1312" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9cab-9edf-1314-c701" name="00-03" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="9cab-9edf-1314-c701" name="00-03" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">12&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">8</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">8 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="f9a2-9757-aa03-49a8" name="04-06" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="f9a2-9757-aa03-49a8" name="04-06" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">10&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">7</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">7 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="d77f-7a78-b0c8-fa11" name="13+" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="d77f-7a78-b0c8-fa11" name="13+" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">4&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">4</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">4 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="4f9a-a5c7-1227-ecc8" name="10-12" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="4f9a-a5c7-1227-ecc8" name="10-12" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">6&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">5</characteristic>
                 <characteristic name="Destructive Bulk" typeId="f62d-4c93-271b-b6ec">5 dice</characteristic>
               </characteristics>
             </profile>
-            <profile id="c08c-5a41-1930-c582" name="07-09" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Maw-Krusha">
+            <profile id="c08c-5a41-1930-c582" name="07-09" hidden="false" typeId="f9d0-9e02-bee9-1f0c" typeName="Wounds Suffered">
               <characteristics>
                 <characteristic name="Move" typeId="77de-c752-9ffa-f346">8&quot;</characteristic>
                 <characteristic name="Mighty Fists" typeId="bb09-d22f-2469-d46c">6</characteristic>
@@ -3695,6 +3697,150 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2eee-3937-3870-783a" name="Rogue Idol" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1c5a-5563-5e34-8ead" name="Rogue Idol" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="8655-6213-2824-1752">*</characteristic>
+            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">16</characteristic>
+            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">10</characteristic>
+            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ff56-8ce1-6ab6-6e22" name="Spirit of the Waaagh!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made by this model if it made a charge move in the same turn.
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5584-d0fd-c6ac-8bad" name="Livin’ Idol" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for friendly ORRUK WIZARDS and friendly GROT WIZARDS while they are within 6&quot; of any friendly models with this ability. In addition, add 1 to the Bravery characteristic of friendly ORRUK and friendly GROT units while they are wholly within 18&quot; of any friendly models with this ability.
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="10c2-a9e9-99ae-2dac" name="Avalanche!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before removing the model from play, roll a dice for each unit within 3&quot; of this model. On a 4+, that unit suffers D3 mortal wounds. This model is then removed from play.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4918-bfc5-5031-1c23" name="Da Big ’Un" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this model. On a 5+, that wound or mortal wound is negated.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9939-5474-cdff-b74e" name="Rubble and Ruin" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy unit within 3&quot; of this model. On a 4+, that unit suffers 1 mortal wound. 
+
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2ed0-cd44-a2bb-7cc7" name="BONESPLITTERZ" hidden="false" targetId="9db3-55f3-706c-01bd" primary="false"/>
+        <categoryLink id="862e-cd70-ca37-4740" name="DESTRUCTION" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
+        <categoryLink id="54f9-b4eb-997b-1369" name="IRONJAWZ" hidden="false" targetId="157e-e19c-bc6e-6d49" primary="false"/>
+        <categoryLink id="3374-92e6-7249-0662" name="MONSTER" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
+        <categoryLink id="d6d6-a7ee-94e8-7802" name="Orruk" hidden="false" targetId="f643-013c-7718-007d" primary="false"/>
+        <categoryLink id="4215-b02d-c62f-b702" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4a20-d4f7-e5eb-fcd8" name="Damage Table" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0d-cba8-0db3-3b15" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7609-2aba-a9ee-de41" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5750-4f96-ca94-2a29" name="00-04" hidden="false" typeId="793b-d7fd-01ea-a61b" typeName="Wounds Suffered">
+              <characteristics>
+                <characteristic name="Move" typeId="af21-cdc8-56f1-d7a0">10&quot;</characteristic>
+                <characteristic name="Boulder Fists" typeId="1498-3aa2-c8ba-3aa0">2+</characteristic>
+                <characteristic name="Stompin&apos; Feet" typeId="8706-d34b-5dcc-3926">10</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6ab0-09ca-df76-8e06" name="05-08" hidden="false" typeId="793b-d7fd-01ea-a61b" typeName="Wounds Suffered">
+              <characteristics>
+                <characteristic name="Move" typeId="af21-cdc8-56f1-d7a0">8&quot;</characteristic>
+                <characteristic name="Boulder Fists" typeId="1498-3aa2-c8ba-3aa0">3+</characteristic>
+                <characteristic name="Stompin&apos; Feet" typeId="8706-d34b-5dcc-3926">8</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dbe2-db92-75ff-40c2" name="09-11" hidden="false" typeId="793b-d7fd-01ea-a61b" typeName="Wounds Suffered">
+              <characteristics>
+                <characteristic name="Move" typeId="af21-cdc8-56f1-d7a0">6&quot;</characteristic>
+                <characteristic name="Boulder Fists" typeId="1498-3aa2-c8ba-3aa0">3+</characteristic>
+                <characteristic name="Stompin&apos; Feet" typeId="8706-d34b-5dcc-3926">6</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4ace-97cc-a5c8-3308" name="12-13" hidden="false" typeId="793b-d7fd-01ea-a61b" typeName="Wounds Suffered">
+              <characteristics>
+                <characteristic name="Move" typeId="af21-cdc8-56f1-d7a0">4&quot;</characteristic>
+                <characteristic name="Boulder Fists" typeId="1498-3aa2-c8ba-3aa0">4+</characteristic>
+                <characteristic name="Stompin&apos; Feet" typeId="8706-d34b-5dcc-3926">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="47a3-7279-4d3b-7f68" name="14+" hidden="false" typeId="793b-d7fd-01ea-a61b" typeName="Wounds Suffered">
+              <characteristics>
+                <characteristic name="Move" typeId="af21-cdc8-56f1-d7a0">2&quot;</characteristic>
+                <characteristic name="Boulder Fists" typeId="1498-3aa2-c8ba-3aa0">5+</characteristic>
+                <characteristic name="Stompin&apos; Feet" typeId="8706-d34b-5dcc-3926">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1193-d1ee-146f-7d6a" name="Boulder Fists" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94b-a8ab-5f7c-2f33" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e754-3bd1-9048-3fe3" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8055-ffff-3197-ade6" name="Boulder Fists" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">*</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b34f-062f-7ff0-afbc" name="Stompin&apos; Feet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f836-e529-a717-1810" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd3-0fc6-97ce-eb50" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6abf-2ae9-2291-a46c" name="Stompin&apos; Feet" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
+                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
+                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="869d-7858-5b4e-c2d0" name="Artefacts: Reservoirs of Waaagh! Energy" hidden="false" collective="false" import="true">
@@ -3759,9 +3905,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55a4-ada4-31f9-01e6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a5c4-00de-98b0-8833" name="Power of the Beast" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a5c4-00de-98b0-8833" name="Power of the Beast" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general&apos;s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general&apos;s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3774,9 +3920,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa5-4e7c-c482-0423" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ab3d-3536-60d6-c7d4" name="Voice of Da Gods" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ab3d-3536-60d6-c7d4" name="Voice of Da Gods" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Bravery characteristic of friendly BONESPLITTERZ units while they are wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Bravery characteristic of friendly BONESPLITTERZ units while they are wholly within 18&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3789,9 +3935,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a657-fc70-ab4f-1d4b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="36a1-e920-d387-6cbd" name="Great Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="36a1-e920-d387-6cbd" name="Great Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army, when you use the Tireless Trackers battle trait, you can move eligible units 8&quot; instead of 5&quot;.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army, when you use the Tireless Trackers battle trait, you can move eligible units 8&quot; instead of 5&quot;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3804,9 +3950,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1866-c6ff-df9a-7019" type="max"/>
           </constraints>
           <profiles>
-            <profile id="57a5-9b6b-e3cc-3bf6" name="Killa Instinkt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="57a5-9b6b-e3cc-3bf6" name="Killa Instinkt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a melee weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a melee weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3819,9 +3965,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8c1-c108-51b6-b00c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="374e-1ad2-0bf6-6a36" name="2. Waaagh!-monger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="374e-1ad2-0bf6-6a36" name="2. Waaagh!-monger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army and on the battlefield at the start of your hero phase, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army and on the battlefield at the start of your hero phase, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3834,9 +3980,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b4-d3d0-8290-fb59" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e89d-8e9c-4732-9d3e" name="Monster Killa" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e89d-8e9c-4732-9d3e" name="Monster Killa" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">In the combat phase, after this general has fought for the first time in that phase, this general can fight for a second time if they are within 3&quot; of any enemy MONSTERS.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">In the combat phase, after this general has fought for the first time in that phase, this general can fight for a second time if they are within 3&quot; of any enemy MONSTERS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3875,7 +4021,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="ecee-aeac-b921-918a" name="Artefacts of 毁灭" hidden="false" collective="false" import="true" targetId="ca3c-6bfc-07f1-2953" type="selectionEntryGroup">
+        <entryLink id="ecee-aeac-b921-918a" name="Artefacts of Destruction" hidden="false" collective="false" import="true" targetId="ca3c-6bfc-07f1-2953" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -3963,7 +4109,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="5d8b-1c7b-6da8-884a" name="毁灭 Command Traits" hidden="false" collective="false" import="true" targetId="1319-8f5e-1ff1-08c9" type="selectionEntryGroup">
+        <entryLink id="5d8b-1c7b-6da8-884a" name="Destruction Command Traits" hidden="false" collective="false" import="true" targetId="1319-8f5e-1ff1-08c9" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4043,7 +4189,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="497a-4dfe-7d43-a05e" name="Brain-busta" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 16&quot; of the caster and visible to them, and roll 2D6. If the roll is greater than that unit’s Bravery characteristic, that unit suffers D6 mortal wounds; if not, that unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 16&quot; of the caster and visible to them, and roll 2D6. If the roll is greater than that unit’s Bravery characteristic, that unit suffers D6 mortal wounds; if not, that unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4056,7 +4202,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="2d4e-4a19-db4a-49c7" name="Might &apos;Eadbutt" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy HERO within 16&quot; of the caster and visible to them. That HERO suffers D3 mortal wounds. If that HERO is a WIZARD, they suffer D6 mortal wounds instead of D3.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy HERO within 16&quot; of the caster and visible to them. That HERO suffers D3 mortal wounds. If that HERO is a WIZARD, they suffer D6 mortal wounds instead of D3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4069,7 +4215,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="1c0d-b7af-4252-98a5" name="Da Blazin&apos; Eyes" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a point on the battlefield within 4D6&quot; of the caster that is visible to them. Then draw an imaginary straight line 1mm wide between that point and the closest part of the caster’s base. Roll a dice for each enemy model passed across by this line. On a 4+, that model’s unit suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 4D6&quot; of the caster that is visible to them. Then draw an imaginary straight line 1mm wide between that point and the closest part of the caster’s base. Roll a dice for each enemy model passed across by this line. On a 4+, that model’s unit suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4082,7 +4228,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="c8bf-a350-e345-3757" name="Da Great Big Green Hand of Gork" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly IRONJAWZ unit wholly within 24&quot; of the caster that is visible to them and more than 3&quot; from any enemy units. Remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9&quot; from any enemy units. It may not move in the subsequent movement phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly IRONJAWZ unit wholly within 24&quot; of the caster that is visible to them and more than 3&quot; from any enemy units. Remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9&quot; from any enemy units. It may not move in the subsequent movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4095,7 +4241,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="c5d9-5058-9ee9-09c9" name="Bash &apos;Em Ladz" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, until your next hero phase, you can add 1 to wound rolls for attacks made by friendly IRONJAWZ units while they are wholly within 16&quot; of the caster.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next hero phase, you can add 1 to wound rolls for attacks made by friendly IRONJAWZ units while they are wholly within 16&quot; of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4108,7 +4254,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="2ab2-b5e3-3c4f-47be" name="Wrath of Gork" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 16&quot; of the caster and visible to them, and then roll 2 dice for each friendly IRONJAWZ unit with 2 or more models that is wholly within 16&quot; of the caster. For each 2+, you can inflict 1 mortal wound on that enemy unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 16&quot; of the caster and visible to them, and then roll 2 dice for each friendly IRONJAWZ unit with 2 or more models that is wholly within 16&quot; of the caster. For each 2+, you can inflict 1 mortal wound on that enemy unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4125,9 +4271,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
       <selectionEntries>
         <selectionEntry id="a7ef-f111-8ad7-7f3b" name="1. Hulking Muscle-bound Brute" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a8af-c3fb-f773-edeb" name="Hulking Muscle-bound Brute" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a8af-c3fb-f773-edeb" name="Hulking Muscle-bound Brute" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">After this general makes a charge move, you can pick 1 enemy unit within 1&quot; of this general and roll a dice. On a 2+ that enemy unit suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">After this general makes a charge move, you can pick 1 enemy unit within 1&quot; of this general and roll a dice. On a 2+ that enemy unit suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4137,9 +4283,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="f0f6-73d8-6596-4115" name="2. Live to Fight" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="454a-807f-85ef-7a3d" name="Live to Fight" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="454a-807f-85ef-7a3d" name="Live to Fight" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this general and their mount if they made a charge move in the same turn.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this general and their mount if they made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4149,9 +4295,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="1cf3-f168-ba1e-d57a" name="3. Brutish Cunning" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="93d6-5379-9c8d-159c" name="Brutish Cunning" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="93d6-5379-9c8d-159c" name="Brutish Cunning" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle round, this general can use the Mighty Destroyers command ability without spending 1 command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle round, this general can use the Mighty Destroyers command ability without spending 1 command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4161,9 +4307,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="0816-231e-bb35-0e26" name="5. Bestial Charisma" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="82d7-d707-c28e-e6f1" name="Bestial Charisma" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="82d7-d707-c28e-e6f1" name="Bestial Charisma" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle round, this general can use the Inspiring Presence command ability without spending 1 command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle round, this general can use the Inspiring Presence command ability without spending 1 command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4173,9 +4319,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="aa46-9125-c0fe-aca1" name="6. Mighty Waaagh!" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="022e-fe0a-f61d-826e" name="Mighty Waaagh!" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="022e-fe0a-f61d-826e" name="Mighty Waaagh!" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If this general has the Ironjawz Waaagh! command ability, count the number of eligible units within 24&quot; of this general instead of 18&quot;. In addition, if successful, the ability affects eligible units within 24&quot; of this general instead of 18&quot;.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If this general has the Ironjawz Waaagh! command ability, count the number of eligible units within 24&quot; of this general instead of 18&quot;. In addition, if successful, the ability affects eligible units within 24&quot; of this general instead of 18&quot;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4185,9 +4331,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="434a-5138-b0ce-51a1" name="4. Ironclad" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1769-acdc-0cfc-c116" name="Ironclad" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1769-acdc-0cfc-c116" name="Ironclad" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4283,9 +4429,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
       <selectionEntries>
         <selectionEntry id="bdde-17c9-450e-8d17" name="1. Dead Kunnin&apos;" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f90c-de12-72e1-d3d6" name="Dead Kunnin&apos;" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f90c-de12-72e1-d3d6" name="Dead Kunnin&apos;" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4295,9 +4441,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="cfde-21c8-9381-ca5e" name="2. Master of the Weird" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3907-4ea9-39e8-0063" name="Master of the Weird" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3907-4ea9-39e8-0063" name="Master of the Weird" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting, dispelling, and unbinding rolls for this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting, dispelling, and unbinding rolls for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4307,9 +4453,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
         </selectionEntry>
         <selectionEntry id="9d0b-dfca-790f-dfb8" name="3. Bursting with Power" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="835f-8e1f-57f8-2e50" name="Bursting with Power" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="835f-8e1f-57f8-2e50" name="Bursting with Power" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra spell from the Lore of the Weird. In addition, they can attempt to cast 1 extra spell in your hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra spell from the Lore of the Weird. In addition, they can attempt to cast 1 extra spell in your hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4380,9 +4526,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1954-511d-1470-22a6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0850-a021-1487-924b" name="Big &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0850-a021-1487-924b" name="Big &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to this model&apos;s Wounds characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to this model&apos;s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4395,9 +4541,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d64-c5f7-c5b4-e4d5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7b0e-70b7-44a8-5bbc" name="Fast &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7b0e-70b7-44a8-5bbc" name="Fast &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this model&apos;s Move characteristic.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this model&apos;s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4410,9 +4556,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab8b-8810-1dc6-8d12" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9b8a-bc95-28e2-73b0" name="Mean &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9b8a-bc95-28e2-73b0" name="Mean &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this model&apos;s Mighty Fists and Tail</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this model&apos;s Mighty Fists and Tail</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4425,9 +4571,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c687-c4f7-93d2-b894" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6b2e-2f46-7742-82dc" name="Loud &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6b2e-2f46-7742-82dc" name="Loud &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of the combat phase, this model can unleash a mighty roar. If it does so, until the end of that phase, subtract 1 from hit rolls for attacks made by enemy models within 3&quot; of this model.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of the combat phase, this model can unleash a mighty roar. If it does so, until the end of that phase, subtract 1 from hit rolls for attacks made by enemy models within 3&quot; of this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4440,9 +4586,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c84-e993-792e-7e5d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bc19-1125-2614-dd70" name="Weird &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="bc19-1125-2614-dd70" name="Weird &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Each time this model is affected by a spell or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that spell on this model.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Each time this model is affected by a spell or endless spell, you can roll a dice. If you do so, on a 4+, ignore the effects of that spell on this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4455,9 +4601,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca8b-129c-8e5a-be7e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="04e0-b9c9-6a47-c2a5" name="Heavy &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="04e0-b9c9-6a47-c2a5" name="Heavy &apos;Un" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to Destructive Bulk rolls for this model.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to Destructive Bulk rolls for this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4782,9 +4928,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a354-7a2d-24fb-f2b6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="45f6-150b-7952-5a57" name="Right Fist of Dakkbad" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="45f6-150b-7952-5a57" name="Right Fist of Dakkbad" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive 1 additional command point.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4810,9 +4956,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee80-b852-898f-b917" type="min"/>
           </constraints>
           <profiles>
-            <profile id="9df1-c3a0-f4e1-2643" name="Checked Out" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9df1-c3a0-f4e1-2643" name="Checked Out" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Bravery characteristic of friendly CHOPPAS units while they are wholly within 18&quot; of this general</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Bravery characteristic of friendly CHOPPAS units while they are wholly within 18&quot; of this general</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4838,9 +4984,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c6b-af74-6f54-b73b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="8d10-bc30-1d9e-9c24" name="Get Da Realmgate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8d10-bc30-1d9e-9c24" name="Get Da Realmgate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">If there are any Baleful Realmgate terrain features on the battlefield when this general uses the Ironjawz Waaagh! command ability, add 2 to the dice roll that determines the effect of the ability</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">If there are any Baleful Realmgate terrain features on the battlefield when this general uses the Ironjawz Waaagh! command ability, add 2 to the dice roll that determines the effect of the ability</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4860,9 +5006,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a764-a999-4a49-d25d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="200a-508c-3210-8546" name="Great Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="200a-508c-3210-8546" name="Great Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra spell from the Lore of the Savage Beast (pg 69). In addition, they can attempt to cast 1 extra spell in your hero phase.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra spell from the Lore of the Savage Beast (pg 69). In addition, they can attempt to cast 1 extra spell in your hero phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4875,9 +5021,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f01-b8ed-2ca4-e1e3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ab19-5ab2-2371-c0f3" name="Dead Kunnin&apos;" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="ab19-5ab2-2371-c0f3" name="Dead Kunnin&apos;" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive D3 additional command points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4890,9 +5036,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f2a-f877-032e-710e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="62dd-c471-b5ff-6632" name="Master of the Weird" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="62dd-c471-b5ff-6632" name="Master of the Weird" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting, dispelling and unbinding rolls for this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting, dispelling and unbinding rolls for this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4912,7 +5058,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="d52d-3c46-2d13-bbf3" name="Squiggly Curse" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy HERO within 3&quot; of the caster and roll a dice. That HERO suffers D3 mortal wounds. If that HERO is slain by those mortal wounds, you can add 1 to casting rolls for the caster for the rest of the battle. If the casting roll was a double, that HERO suffers D6 mortal wounds instead of D3 mortal wounds</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy HERO within 3&quot; of the caster and roll a dice. That HERO suffers D3 mortal wounds. If that HERO is slain by those mortal wounds, you can add 1 to casting rolls for the caster for the rest of the battle. If the casting roll was a double, that HERO suffers D6 mortal wounds instead of D3 mortal wounds</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4925,7 +5071,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="d272-2307-3b71-a086" name="Breath of Gorkamorka" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly BONESPLITTERZ unit wholly within 24&quot; of the caster that is visible to them. Until your next hero phase, double that unit’s Move characteristic. In addition, until your next hero phase, that unit can fly. If the casting roll was a double, triple that unit’s Move characteristic instead of doubling it.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly BONESPLITTERZ unit wholly within 24&quot; of the caster that is visible to them. Until your next hero phase, double that unit’s Move characteristic. In addition, until your next hero phase, that unit can fly. If the casting roll was a double, triple that unit’s Move characteristic instead of doubling it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4938,7 +5084,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="22db-26d8-bc79-c8fe" name="Brutal Beast Spirits" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly BONESPLITTERZ unit wholly within 24&quot; of the caster that is visible to them. Until your next hero phase, add 1 to run and charge rolls for that unit, and add 1 to hit rolls for attacks made by that unit. If the casting roll was a double, you can select 2 different friendly Bonesplitterz units wholly within 24&quot; of the caster to be affected by this spell instead of 1.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly BONESPLITTERZ unit wholly within 24&quot; of the caster that is visible to them. Until your next hero phase, add 1 to run and charge rolls for that unit, and add 1 to hit rolls for attacks made by that unit. If the casting roll was a double, you can select 2 different friendly Bonesplitterz units wholly within 24&quot; of the caster to be affected by this spell instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4951,7 +5097,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="7089-c051-24d0-c40d" name="Bone Krusha" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 24&quot; of the caster that is visible to them. If the target is within 6&quot; of the caster, it suffers D6 mortal wounds. If the target is more than 6&quot; and within 12&quot; of the caster, it suffers D3 mortal wounds. If the target is more than 12&quot; from the caster, it suffers 1 mortal wound.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 24&quot; of the caster that is visible to them. If the target is within 6&quot; of the caster, it suffers D6 mortal wounds. If the target is more than 6&quot; and within 12&quot; of the caster, it suffers D3 mortal wounds. If the target is more than 12&quot; from the caster, it suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4964,7 +5110,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="a2ec-636b-99aa-9ced" name="Kunnin’ Beast Spirits" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 friendly BONESPLITTERZ unit wholly within 24&quot; of the caster that is visible to them. Until your next hero phase, add 1 to save rolls for attacks that target that unit.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly BONESPLITTERZ unit wholly within 24&quot; of the caster that is visible to them. Until your next hero phase, add 1 to save rolls for attacks that target that unit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4977,7 +5123,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <profile id="b511-fe11-9a46-25d8" name="Gorkamorka’s War Cry" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
               <characteristics>
                 <characteristic name="Casting Value" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Inflict D3 mortal wounds on that unit. In addition, that unit fights at the end of the next combat phase.</characteristic>
+                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster that is visible to them. Inflict D3 mortal wounds on that unit. In addition, that unit fights at the end of the next combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5112,9 +5258,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2612-a2d6-a130-2e3c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cec2-cbab-ffce-fae5" name="A Right Monster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="cec2-cbab-ffce-fae5" name="A Right Monster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot; of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5145,9 +5291,9 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c102-ba7c-8f0e-718b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a498-fbe2-9165-2202" name="Pure-bread War Boar" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="a498-fbe2-9165-2202" name="Pure-bread War Boar" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
               <characteristics>
-                <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this general’s Move characteristic. In addition, add 1 to hit and wound rolls for attacks made by this model’s War Boar.</characteristic>
+                <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">Add 2&quot; to this general’s Move characteristic. In addition, add 1 to hit and wound rolls for attacks made by this model’s War Boar.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5175,7 +5321,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
           <profiles>
             <profile id="cdb0-0d3d-e44a-a345" name="Fireball" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
               <characteristics>
-                <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">The general of a Drakkfoot army does not receive a 指挥特性. Instead, all DRAKKFOOT WIZARDS know the Fireball spell instead of the Arcane Bolt spell</characteristic>
+                <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">The general of a Drakkfoot army does not receive a command trait. Instead, all DRAKKFOOT WIZARDS know the Fireball spell instead of the Arcane Bolt spell</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5270,7 +5416,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
     <profile id="1e2c-6b55-1e70-ce34" name="Foot of Gork" page="114" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="2508-b604-1258-a920">10</characteristic>
-        <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Foot of Gork has a casting value of 10. 如果施放成功, inflict D6 mortal wounds on a unit within 18&quot;. Then roll a dice - on a 4 or more, Gork stomps again: resolve another D6 mortal wounds on an eligible unit. Gork keeps on stomping until you fail to roll a 4 or more.</characteristic>
+        <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">Foot of Gork has a casting value of 10. If successfully cast, inflict D6 mortal wounds on a unit within 18&quot;. Then roll a dice - on a 4 or more, Gork stomps again: resolve another D6 mortal wounds on an eligible unit. Gork keeps on stomping until you fail to roll a 4 or more.</characteristic>
       </characteristics>
     </profile>
     <profile id="7b08-2b37-b389-71d4" name="Green Puke" page="114" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
@@ -5282,7 +5428,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this unit�
     <profile id="b40c-04ea-2ffb-0c01" name="Fireball" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
       <characteristics>
         <characteristic name="Casting Value" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick 1 enemy unit within 18&quot; of the caster and visible to them. If that enemy unit has 1 model, it suffers 1 mortal wound; if it has 2-9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy unit within 18&quot; of the caster and visible to them. If that enemy unit has 1 model, it suffers 1 mortal wound; if it has 2-9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

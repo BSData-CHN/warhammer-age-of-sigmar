@@ -40,7 +40,7 @@
         <categoryLink id="6038-8502-2fb7-c5cf" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="422a-5d28-933e-f22a" name="Battalion: Bloodmarked Warband" hidden="false" collective="false" import="true" targetId="e3ef-a476-3e49-b52a" type="selectionEntry">
+    <entryLink id="422a-5d28-933e-f22a" name="阵型: Bloodmarked Warband" hidden="false" collective="false" import="true" targetId="e3ef-a476-3e49-b52a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4e8d-9834-678d-1bb8" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
@@ -55,7 +55,7 @@
         <categoryLink id="c9fa-2b1a-bf07-60f4" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fd59-0783-f770-4096" name="Battalion: Plaguetouched Warband" hidden="false" collective="false" import="true" targetId="a0b5-ebb9-f2cb-2440" type="selectionEntry">
+    <entryLink id="fd59-0783-f770-4096" name="阵型: Plaguetouched Warband" hidden="false" collective="false" import="true" targetId="a0b5-ebb9-f2cb-2440" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2e3f-aa07-9952-cd67" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
@@ -73,96 +73,96 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e9f0-ba1e-ddcc-a0ac" name="Archaon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e9f0-ba1e-ddcc-a0ac" name="Archaon" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f18-a8ed-51ac-2d69" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d5bb-e4cc-1ee3-b420" name="Archaon3" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="d5bb-e4cc-1ee3-b420" name="Archaon3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">5-8</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">3+</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">5-8</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3+</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="72bc-e5b6-a7d5-a029" name="Archaon2" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="72bc-e5b6-a7d5-a029" name="Archaon2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">0-4</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">2+</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">6</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-4</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2+</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="c612-553e-eac7-665b" name="Archaon5" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="c612-553e-eac7-665b" name="Archaon5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">13-16</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">7&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">4+</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">13-16</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">4+</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
           </characteristics>
         </profile>
-        <profile id="296b-9ca5-48ed-c275" name="Archaon4" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="296b-9ca5-48ed-c275" name="Archaon4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">9-12</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">4+</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">9-12</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">4+</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="6029-3d67-b6fc-1a8d" name="Archaon1" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="6029-3d67-b6fc-1a8d" name="Archaon1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">Wounds Suffered</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">Move</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">Monstrous Claws</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">Three Heads</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">Wounds Suffered</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">Move</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">Monstrous Claws</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">Three Heads</characteristic>
           </characteristics>
         </profile>
-        <profile id="13b7-007b-045b-687b" name="Archaon6" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="13b7-007b-045b-687b" name="Archaon6" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">17+</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">5+</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">17+</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">5+</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
-        <profile id="c949-50f7-6641-5faa" name="Archaon" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+        <profile id="c949-50f7-6641-5faa" name="Archaon" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
-            <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">2/2</characteristic>
-            <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield</characteristic>
+            <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">2/2</characteristic>
+            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield</characteristic>
           </characteristics>
         </profile>
-        <profile id="6651-a161-8bb9-386a" name="The Eye of Sheerian" publicationId="56f3-5dea-pubN66419" page="105" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="6651-a161-8bb9-386a" name="The Eye of Sheerian" publicationId="56f3-5dea-pubN66419" page="105" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In your hero phase, roll a dice and note the result. Until your next hero phase, whenever an enemy scores a hit on Archaon and the result of the hit roll is the number you rolled, the Eye of Sheerian has forewarned him and you can make your opponent re-roll the dice.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, roll a dice and note the result. Until your next 英雄 phase, whenever an enemy scores a hit on Archaon and the result of the hit roll is the number you rolled, the Eye of Sheerian has forewarned him and you can make your opponent re-roll the dice.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8ce5-2ffa-8ad0-c1b7" name="The Armour of Morkar" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="8ce5-2ffa-8ad0-c1b7" name="The Armour of Morkar" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a save roll made for Archaon is a 6 (before modifying the roll in any way), the attacking model&apos;s unit suffers a mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a save roll made for Archaon is a 6 (before modifying the roll in any way), the attacking model&apos;s 单位 suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9065-7f25-cf8b-40a4" name="混沌 Runeshield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="9065-7f25-cf8b-40a4" name="混沌 Runeshield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time Archaon suffers a mortal wound. On a 5 or a 6, that mortal wound is ignored.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time Archaon suffers a mortal wound. On a 5 or a 6, that mortal wound is ignored.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8558-f9ae-5367-593c" name="The Crown of Domination" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="8558-f9ae-5367-593c" name="The Crown of Domination" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When a battleshock test is made for a unit within 10&quot; of Archaon, you can adjust the result of the dice roll up or down by 2.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a battleshock test is made for a 单位 within 10&quot; of Archaon, you can adjust the result of the dice roll up or down by 2.</characteristic>
           </characteristics>
         </profile>
-        <profile id="37ba-397e-95de-a422" name="Warlord Without Equal" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
+        <profile id="37ba-397e-95de-a422" name="Warlord Without Equal" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your hero phase, if Archaon is your general and is on the battlefield. If you do so, all other 混沌 Heroes in your army can use 1 command ability that is on their warscroll and which can be used in the hero phase without a command point being spent. *ERRATA Jul&apos;18*</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄 phase, if Archaon is your general and is on the battlefield. If you do so, all 其他 混沌 Heroes in your army can use 1 command ability that is on their warscroll and which can be used in the 英雄 phase without a command point being spent. *ERRATA Jul&apos;18*</characteristic>
           </characteristics>
         </profile>
-        <profile id="d21f-1928-9007-b3df" name="Archaon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="d21f-1928-9007-b3df" name="Archaon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">*</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">20</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">10</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">20</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -190,20 +190,20 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb19-6aa1-a8f4-055b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3bda-23d1-92f8-d996" name="The Slayer of Kings" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="3bda-23d1-92f8-d996" name="The Slayer of Kings" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">2+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">3</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">3</characteristic>
               </characteristics>
             </profile>
-            <profile id="5b3b-8825-6108-90ea" name="The Slayer of Kings" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="5b3b-8825-6108-90ea" name="The Slayer of Kings" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If Archaon directs all of his attacks with the Slayer of Kings at the same HERO or MONSTER, and two or more of the wound rolls are 6 or more, the daemon bound in the blade is roused and the target is slain instantly.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If Archaon directs all of his attacks with the Slayer of Kings at the same 英雄 or 怪兽, and two or more of the wound rolls are 6 or more, the daemon bound in the blade is roused and the target is slain instantly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -224,7 +224,7 @@
             </profile>
             <profile id="b091-22fb-4e00-ae0d" name="Filth-spewer" hidden="false" typeId="f7f4-b79f-f613-624c" typeName="Triple-headed Monstrosity">
               <characteristics>
-                <characteristic name="Effect" typeId="8205-6cdc-6b9a-32c7">Inflict D3 mortal wounds on an enemy unit within 7&quot;.</characteristic>
+                <characteristic name="Effect" typeId="8205-6cdc-6b9a-32c7">Inflict D3 mortal wounds on an enemy 单位 within 7&quot;.</characteristic>
               </characteristics>
             </profile>
             <profile id="c414-e276-4bb1-58bc" name="Skull-gorger" hidden="false" typeId="f7f4-b79f-f613-624c" typeName="Triple-headed Monstrosity">
@@ -232,7 +232,7 @@
                 <characteristic name="Effect" typeId="8205-6cdc-6b9a-32c7">If any of the slain models were HEROES, [..] Archaon heals D3 wounds.</characteristic>
               </characteristics>
             </profile>
-            <profile id="3ceb-47e8-e38b-a175" name="Spell-Eater" hidden="false" typeId="f7f4-b79f-f613-624c" typeName="Triple-headed Monstrosity">
+            <profile id="3ceb-47e8-e38b-a175" name="法术-Eater" hidden="false" typeId="f7f4-b79f-f613-624c" typeName="Triple-headed Monstrosity">
               <characteristics>
                 <characteristic name="Effect" typeId="8205-6cdc-6b9a-32c7">If any of the slain models were WIZARDS, Dorghar&apos;s Tzeentchian head devours them, learning any spells they knew and passing them on to Archaon.</characteristic>
               </characteristics>
@@ -245,15 +245,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2229-b6ba-0514-2d03" type="max"/>
               </constraints>
               <profiles>
-                <profile id="95dd-fe54-a59a-c0bf" name="Monstrous Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="95dd-fe54-a59a-c0bf" name="Monstrous Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">*</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -267,15 +267,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e794-60fe-008d-439f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="da6e-7c87-6efc-263d" name="Lashing Tails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="da6e-7c87-6efc-263d" name="Lashing Tails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -289,15 +289,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5b-2a3a-6c21-ed85" type="min"/>
               </constraints>
               <profiles>
-                <profile id="9512-f70e-0248-8507" name="Three Heads" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="9512-f70e-0248-8507" name="Three Heads" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -371,7 +371,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfe6-aed3-4741-209e" name="Varanguard" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bfe6-aed3-4741-209e" name="Varanguard" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -380,27 +380,27 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="4046-9ec9-9943-7e38" name="Relentless Killers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="4046-9ec9-9943-7e38" name="Relentless Killers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, this unit can be chosen to pile in and attack for a second time during the same combat phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, this 单位 can be chosen to pile in and attack for a second time during the same combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d9b7-297f-564e-6456" name="Favoured of the Everchosen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="d9b7-297f-564e-6456" name="Favoured of the Everchosen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to all hit rolls made for Varanguard if Archaon is on the battlefield. In addition, if Archaon uses his Warlord Without Equal command ability, all Varanguard are inspired by their dark master&apos;s presence; you can re-roll the dice in the subsequent charge phase to see how far they charge.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to all hit rolls made for Varanguard if Archaon is on the battlefield. In addition, if Archaon uses his Warlord Without Equal command ability, all Varanguard are inspired by their dark master&apos;s presence; you can re-roll the dice in the subsequent charge phase to see how far they charge.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4b47-e74b-9975-1657" name="Archaon&apos;s Command" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="4b47-e74b-9975-1657" name="Archaon&apos;s Command" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If Archaon is on the battlefield in your hero phase, he can bestow this unit of Varanguard with one of the following keywords: 恐虐, 纳垢, TZEENTCH or 色孽. This unit then has that keyword for the remainder of the battle, or until Archaon bestows a different one upon them during any of your following hero phases (at which point the new keyword replaces the previous one). Archaon can bestow each unit of Varanguard under his command with a different keyword if he so wishes.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If Archaon is on the battlefield in your 英雄 phase, he can bestow this 单位 of Varanguard with one of the following keywords: 恐虐, 纳垢, TZEENTCH or 色孽. This 单位 then has that keyword for the remainder of the battle, or until Archaon bestows a different one upon them during any of your following 英雄 phases (at which point the new keyword replaces the previous one). Archaon can bestow each 单位 of Varanguard under his command with a different keyword if he so wishes.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0a30-0f95-685c-9d5d" name="Varanguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="0a30-0f95-685c-9d5d" name="Varanguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">10&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">9</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">10&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">9</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -433,15 +433,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-88f7-ddf9-d594" type="min"/>
               </constraints>
               <profiles>
-                <profile id="ffcf-385f-81fa-f560" name="Steed&apos;s Jagged Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="ffcf-385f-81fa-f560" name="Steed&apos;s Jagged Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -460,9 +460,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="100f-ad4e-92a0-4dda" type="min"/>
           </constraints>
           <profiles>
-            <profile id="279b-4500-4c28-f99f" name="Warpsteel Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="279b-4500-4c28-f99f" name="Warpsteel Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice if this unit is affected by a spell cast by an enemy WIZARD. If the result is 4 or higher, the spell has no effect on the unit (although it will still affect other units as normal).</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice if this 单位 is affected by a 法术 cast by an enemy 法师. If the result is 4 or higher, the 法术 has no effect on the 单位 (although it will still affect 其他 units as normal).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -480,15 +480,15 @@
           <selectionEntries>
             <selectionEntry id="5bc8-cfff-6129-0897" name="Ensorcelled Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="db74-59c7-fda8-b81f" name="Ensorcelled Weapon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="db74-59c7-fda8-b81f" name="Ensorcelled Weapon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -498,20 +498,20 @@
             </selectionEntry>
             <selectionEntry id="13aa-c6cd-cd28-7793" name="Fellspear" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="8a8b-ffd3-be4b-6bbc" name="Fellspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="8a8b-ffd3-be4b-6bbc" name="Fellspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="a5d4-93cb-61f5-b705" name="Fellspear" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                <profile id="a5d4-93cb-61f5-b705" name="Fellspear" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Fellspear has a To Wound characteristic of 3+ and a Rend characteristic of -2 if the wielder made a charge in the same turn.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Fellspear has a To Wound characteristic of 3+ and a Rend characteristic of -2 if the wielder made a charge in the same turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -521,20 +521,20 @@
             </selectionEntry>
             <selectionEntry id="467f-81c5-b0c0-a7c3" name="Daemonforged Blade" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9cf0-3fbd-e31d-44b3" name="Daemonforged Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="9cf0-3fbd-e31d-44b3" name="Daemonforged Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="6346-e98e-dd9e-69e6" name="Daemonforged Blade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                <profile id="6346-e98e-dd9e-69e6" name="Daemonforged Blade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">When a Varanguard attacks with a Daemonforged Blade and the hit roll is 6 or more, the daemon bound inside the blade awakens; roll a dice to see what happens instead of making a wound roll. On a 2 or more, that attack inflicts a mortal wound on the target as the daemonic weapon feeds upon its victim&apos;s soul, but on a 1, the attacking unit suffers a mortal wound instead as the daemon blade turns upon its wielder!</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a Varanguard attacks with a Daemonforged Blade and the hit roll is 6 or more, the daemon bound inside the blade awakens; roll a dice to see what happens instead of making a wound roll. On a 2 or more, that attack inflicts a mortal wound on the target as the daemonic weapon feeds upon its victim&apos;s soul, but on a 1, the attacking 单位 suffers a mortal wound instead as the daemon blade turns upon its wielder!</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -549,31 +549,31 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0acd-bbfc-b546-a989" name="Battalion: Archaon&apos;s Grand Host" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0acd-bbfc-b546-a989" name="阵型: Archaon&apos;s Grand Host" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1236-0ab4-eea9-90c2" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="1236-0ab4-eea9-90c2" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">Archaon’s Grand Host consists of the following battalions:</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">Archaon’s Grand Host consists of the following battalions:</characteristic>
           </characteristics>
         </profile>
-        <profile id="35f5-6459-3042-aece" name="Overlords of 混沌" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="35f5-6459-3042-aece" name="Overlords of 混沌" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">Overlords of 混沌</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">Overlords of 混沌</characteristic>
           </characteristics>
         </profile>
-        <profile id="d437-d2b4-85d0-0c2d" name="Warscroll Battalions" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="d437-d2b4-85d0-0c2d" name="Warscroll Battalions" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">4 of the following warscroll battalions, in any combination:  Bloodmarked Warband Plaguetouched Warband Fatesworn Warband Pleasurebound Warband</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">4 of the following warscroll battalions, in any combination:  Bloodmarked Warband Plaguetouched Warband Fatesworn Warband Pleasurebound Warband</characteristic>
           </characteristics>
         </profile>
-        <profile id="66ef-354e-2b00-b367" name="Daemonic Pacts" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="66ef-354e-2b00-b367" name="Daemonic Pacts" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">At the end of your movement phase, if Archaon is your general and on the battlefield, you can roll a dice. If you do so, on a 5+ you can summon one of the following units to the battlefield: 10 Plaguebearers; 10 Daemonettes; 10 Bloodletters; or 5 Pink Horrors. The summoned unit is added to your army, and must be set up wholly within 12&quot; of Archaon and more than 9&quot; from any enemy units. *ERRATA Jun&apos;18*</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the end of your movement phase, if Archaon is your general and on the battlefield, you can roll a dice. If you do so, on a 5+ you can summon one of the following units to the battlefield: 10 Plaguebearers; 10 Daemonettes; 10 Bloodletters; or 5 Pink Horrors. The summoned 单位 is added to your army, and must be set up wholly within 12&quot; of Archaon and more than 9&quot; from any enemy units. *ERRATA Jun&apos;18*</characteristic>
           </characteristics>
         </profile>
-        <profile id="e555-cd0e-3b5b-bdf6" name="Dark Command" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="e555-cd0e-3b5b-bdf6" name="Dark Command" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Once per game, at the start of a combat phase, units from this battalion wholly within 18&quot; of Archaon and within 3&quot; of an enemy unit can pile in and then attack with all of the melee weapons they are armed with. They can be selected to fight normally later in the same combat phase. *ERRATA Jun&apos;18*</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Once per game, at the start of a combat phase, units from this 阵型 wholly within 18&quot; of Archaon and within 3&quot; of an enemy 单位 can pile in and then attack with all of the melee weapons they are armed with. They can be selected to fight normally later in the same combat phase. *ERRATA Jun&apos;18*</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -584,36 +584,36 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3ef-a476-3e49-b52a" name="Battalion: Bloodmarked Warband" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e3ef-a476-3e49-b52a" name="阵型: Bloodmarked Warband" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="632c-563a-f51b-bae3" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="632c-563a-f51b-bae3" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Bloodmarked Warband consists of the following units:</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">A Bloodmarked Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="1566-2443-50aa-08bb" name="MORTAL 恐虐 HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="1566-2443-50aa-08bb" name="MORTAL 恐虐 英雄" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 恐虐 HERO</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 恐虐 英雄</characteristic>
           </characteristics>
         </profile>
-        <profile id="ddc6-7a1b-2c7a-57e1" name="MORTAL 恐虐 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="ddc6-7a1b-2c7a-57e1" name="MORTAL 恐虐 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">8 MORTAL 恐虐 units</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">8 MORTAL 恐虐 units</characteristic>
           </characteristics>
         </profile>
-        <profile id="e52f-20eb-ef5d-7621" name="Brand of the Blood God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="e52f-20eb-ef5d-7621" name="Brand of the Blood God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If the number of models in a unit from a Bloodmarked Warband is a multiple of 8 when it is first set up, you can re-roll wound rolls of 1 for the unit for the duration of the battle.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If the number of models in a 单位 from a Bloodmarked Warband is a multiple of 8 when it is first set up, you can re-roll wound rolls of 1 for the 单位 for the duration of the battle.</characteristic>
           </characteristics>
         </profile>
-        <profile id="abf5-2966-61cc-e54f" name="Blood Rage" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="abf5-2966-61cc-e54f" name="Blood Rage" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If any HERO from a Bloodmarked Warband slays an enemy model in the combat phase, then all other units from that warband within 16&quot; become filled with an unstoppable blood rage. Add 1 to the Attacks of any melee weapons used by those units for the rest of the combat phase.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any 英雄 from a Bloodmarked Warband slays an enemy model in the combat phase, then all 其他 units from that warband within 16&quot; become filled with an unstoppable blood rage. Add 1 to the Attacks of any melee weapons used by those units for the rest of the combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="cc7f-0e9c-1409-9979" name="Raised to Greatness" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="cc7f-0e9c-1409-9979" name="Raised to Greatness" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If a HERO from this warband is slain, pick another model in the warband that is not a HERO. That model adds 1 to the Attacks of all its melee weapons, becomes a HERO, and is treated as a separate unit for the rest of the battle.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 英雄 from this warband is slain, pick another model in the warband that is not a 英雄. That model adds 1 to the Attacks of all its melee weapons, becomes a 英雄, and is treated as a separate 单位 for the rest of the battle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -624,31 +624,31 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c79-e399-2ca7-c28a" name="Battalion: Fatesworn Warband" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6c79-e399-2ca7-c28a" name="阵型: Fatesworn Warband" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="835b-9fd2-ed0b-9882" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="835b-9fd2-ed0b-9882" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Fatesworn Warband consists of the following units:</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">A Fatesworn Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="8de4-5aee-4685-0da3" name="MORTAL TZEENTCH HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="8de4-5aee-4685-0da3" name="MORTAL TZEENTCH 英雄" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL TZEENTCH HERO</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">1 MORTAL TZEENTCH 英雄</characteristic>
           </characteristics>
         </profile>
-        <profile id="33a3-7b77-b3b5-ce47" name="MORTAL TZEENTCH Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="33a3-7b77-b3b5-ce47" name="MORTAL TZEENTCH Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">9 MORTAL TZEENTCH units</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">9 MORTAL TZEENTCH units</characteristic>
           </characteristics>
         </profile>
-        <profile id="58f3-c269-47a2-38d9" name="Scions of Change" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="58f3-c269-47a2-38d9" name="Scions of Change" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If the number of models in a unit from the warband is a multiple of 9 when it is first set up, roll a dice each time it suffers a wound or mortal wound. On a roll of 6, fate intervenes and the wound is ignored.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If the number of models in a 单位 from the warband is a multiple of 9 when it is first set up, roll a dice each time it suffers a wound or mortal wound. On a roll of 6, fate intervenes and the wound is ignored.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1584-43a0-3266-6e63" name="Conduits of Arcane Power" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="1584-43a0-3266-6e63" name="Conduits of Arcane Power" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">All weapons used by models in the Fatesworn Warband with a Rend of ‘-’ have a Rend of -1 instead. In addition, HEROES in this warband can attempt to cast the Arcane Bolt spell in their hero phase as if they were a wizard. If the model is already a wizard, it can attempt to cast Arcane Bolt twice in each of its hero phases, once through the power granted by Tzeentch, and once more as one of the spells the model is normally allowed to cast.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">All weapons used by models in the Fatesworn Warband with a Rend of ‘-’ have a Rend of -1 instead. In addition, HEROES in this warband can attempt to cast the Arcane Bolt 法术 in their 英雄 phase as if they were a 法师. If the model is already a 法师, it can attempt to cast Arcane Bolt twice in each of its 英雄 phases, once through the power granted by Tzeentch, and once more as one of the spells the model is normally allowed to cast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -659,16 +659,16 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f4d-9ed3-2142-1662" name="Battalion: Overlords of 混沌" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8f4d-9ed3-2142-1662" name="阵型: Overlords of 混沌" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6348-b2d6-bb3a-a533" name="Dark Vizier" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="6348-b2d6-bb3a-a533" name="Dark Vizier" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If Archaon is within 3&quot; of the Overlords of 混沌&apos; Gaunt Summoner in your hero phase, he can demand a boon of a prophecy.  When he does so, roll a dice; you can look at the result of this dice but you should keep it hidden from your opponent.  At the start of the next battle round, reveal this dice instead of deciding which player will take the first turn in the usual way; if the hidden dice result is a 1, 2 or 3, your opponent takes the first turn; if it is a 4, 5 or 6 you take it.  This foresight means Archaon will know in advance who will take the first turn in the next battle round and can adjust his plans accordingly.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If Archaon is within 3&quot; of the Overlords of 混沌&apos; Gaunt Summoner in your 英雄 phase, he can demand a boon of a prophecy.  When he does so, roll a dice; you can look at the result of this dice but you should keep it hidden from your opponent.  At the start of the next battle round, reveal this dice instead of deciding which player will take the first turn in the usual way; if the hidden dice result is a 1, 2 or 3, your opponent takes the first turn; if it is a 4, 5 or 6 you take it.  This foresight means Archaon will know in advance who will take the first turn in the next battle round and can adjust his plans accordingly.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7cb3-01fa-d5dc-001a" name="The Will of the Everchosen" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="7cb3-01fa-d5dc-001a" name="The Will of the Everchosen" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If Archaon is on the battlefield in your hero phase, pick a unit that is within 20&quot; of him, or anywhere if the Overlords of 混沌&apos; Gaunt Summoner is on the battlefield.  Until your next hero phase, the Varanguard can re-roll failed hit and wound rolls when attacking that unit.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If Archaon is on the battlefield in your 英雄 phase, pick a 单位 that is within 20&quot; of him, or anywhere if the Overlords of 混沌&apos; Gaunt Summoner is on the battlefield.  Until your next 英雄 phase, the Varanguard can re-roll failed hit and wound rolls when attacking that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -713,7 +713,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b778-c685-4a06-3697" name="1 unit of Varanguard" hidden="false" collective="false" import="true" defaultSelectionEntryId="f566-6c19-2d3c-20d0">
+        <selectionEntryGroup id="b778-c685-4a06-3697" name="1 单位 of Varanguard" hidden="false" collective="false" import="true" defaultSelectionEntryId="f566-6c19-2d3c-20d0">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3621-2eda-f70d-c519" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ce-430b-6dff-acf2" type="max"/>
@@ -727,31 +727,31 @@
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0b5-ebb9-f2cb-2440" name="Battalion: Plaguetouched Warband" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a0b5-ebb9-f2cb-2440" name="阵型: Plaguetouched Warband" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="958d-d685-7169-31d7" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="958d-d685-7169-31d7" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Plaguetouched Warband consists of the following units:</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">A Plaguetouched Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="b5b2-5f63-dcf4-8870" name="MORTAL 纳垢 HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="b5b2-5f63-dcf4-8870" name="MORTAL 纳垢 英雄" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 纳垢 HERO</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 纳垢 英雄</characteristic>
           </characteristics>
         </profile>
-        <profile id="86bc-838a-cbbb-9568" name="MORTAL 纳垢 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="86bc-838a-cbbb-9568" name="MORTAL 纳垢 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">7 MORTAL 纳垢 units</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">7 MORTAL 纳垢 units</characteristic>
           </characteristics>
         </profile>
-        <profile id="b095-4bad-2990-2453" name="Grandfather&apos;s Favour" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="b095-4bad-2990-2453" name="Grandfather&apos;s Favour" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If the number of models in a unit from the Plaguetouched Warband is a multiple of 7 when it is first set up, its warriors are bile-swollen for the duration of the battle. In the combat phase, if the wound roll for an attack that targets one of these units is 6 or higher, the attacker’s unit suffers a mortal wound after all its attacks have been made. Furthermore, when the leader of one of these Plaguetouched units attacks in the combat phase, pick an enemy unit within 1&quot; and roll a dice. If the result is 4 or more, the leader vomits a thick spray of this bile and the target suffers a mortal wound.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If the number of models in a 单位 from the Plaguetouched Warband is a multiple of 7 when it is first set up, its warriors are bile-swollen for the duration of the battle. In the combat phase, if the wound roll for an attack that targets one of these units is 6 or higher, the attacker’s 单位 suffers a mortal wound after all its attacks have been made. Furthermore, when the 领袖 of one of these Plaguetouched units attacks in the combat phase, pick an enemy 单位 within 1&quot; and roll a dice. If the result is 4 or more, the 领袖 vomits a thick spray of this bile and the target suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="b6fe-a02a-c806-46d1" name="Life Abundant" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="b6fe-a02a-c806-46d1" name="Life Abundant" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">Your opponent must subtract 1 from all hit rolls that target a unit in this warband in the combat phase. </characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Your opponent must subtract 1 from all hit rolls that target a 单位 in this warband in the combat phase. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -762,31 +762,31 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ccb4-5d15-7fba-9579" name="Battalion: Pleasurebound Warband" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ccb4-5d15-7fba-9579" name="阵型: Pleasurebound Warband" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="96b6-e66d-0187-a739" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="96b6-e66d-0187-a739" name="-" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">A Pleasurebound Warband consists of the following units:</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">A Pleasurebound Warband consists of the following units:</characteristic>
           </characteristics>
         </profile>
-        <profile id="a94d-ffd6-50cd-b492" name="MORTAL 色孽 HERO" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="a94d-ffd6-50cd-b492" name="MORTAL 色孽 英雄" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 色孽 HERO</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">1 MORTAL 色孽 英雄</characteristic>
           </characteristics>
         </profile>
-        <profile id="4b76-4932-3599-cc03" name="MORTAL 色孽 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="Battalion Organisation">
+        <profile id="4b76-4932-3599-cc03" name="MORTAL 色孽 Units" hidden="false" typeId="75e0-a332-e4f5-bf36" typeName="阵型结构">
           <characteristics>
-            <characteristic name="Required" typeId="eb5f-e9d2-e457-bff5">6 MORTAL 色孽 units</characteristic>
+            <characteristic name="需要" typeId="eb5f-e9d2-e457-bff5">6 MORTAL 色孽 units</characteristic>
           </characteristics>
         </profile>
-        <profile id="8ad0-b671-4e28-1cad" name="Caress of the Dark Prince" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="8ad0-b671-4e28-1cad" name="Caress of the Dark Prince" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If the number of models in a unit from a Pleasurebound Warband is a multiple of 6 when it is first set up, add 2 to its Bravery for the duration of the battle.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If the number of models in a 单位 from a Pleasurebound Warband is a multiple of 6 when it is first set up, add 2 to its Bravery for the duration of the battle.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ba5e-d435-a944-bd2d" name="Perverse Yearnings" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="Battalion Abilities">
+        <profile id="ba5e-d435-a944-bd2d" name="Perverse Yearnings" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="Battalion Ability Details" typeId="08e0-9ead-1dbe-c801">If a model from a Pleasurebound Warband is slain in the combat phase, then until the end of the phase add 3&quot; to the distance that models from the warband can move when they pile in.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a model from a Pleasurebound Warband is slain in the combat phase, then until the end of the phase add 3&quot; to the distance that models from the warband can move when they pile in.</characteristic>
           </characteristics>
         </profile>
       </profiles>

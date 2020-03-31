@@ -154,7 +154,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b3a-3654-59df-3dff" name="Allegiance" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2b3a-3654-59df-3dff" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="835e-655b-56d8-c757" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5f8-a663-af78-3fa6" type="max"/>
@@ -168,9 +168,9 @@
           <selectionEntries>
             <selectionEntry id="abdf-5379-195d-8198" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9899-dfc8-cda3-b3fb" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+                <profile id="9899-dfc8-cda3-b3fb" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can re-roll battleshock tests for friendly ORDER units in the battleshock phase.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can re-roll battleshock tests for friendly ORDER units in the battleshock phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -180,9 +180,9 @@
             </selectionEntry>
             <selectionEntry id="b023-a285-4373-34d9" name="Allegiance: Swifthawk Agents" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="981c-f1ef-c1cd-0ba1" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+                <profile id="981c-f1ef-c1cd-0ba1" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">You can re-roll battleshock tests for friendly ORDER units in the battleshock phase.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can re-roll battleshock tests for friendly ORDER units in the battleshock phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -197,29 +197,29 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="227b-4546-dc11-0602" name="Reavers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="227b-4546-dc11-0602" name="Reavers" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="32fc-0352-8992-3b66" name="Reavers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="32fc-0352-8992-3b66" name="Reavers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">14&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">2</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">14&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="8d9e-9577-f409-7db1" name="Harbinger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="8d9e-9577-f409-7db1" name="Harbinger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is a Harbinger. A Harbinger wields a Starsteel Blade in place of a Starwood Spear.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The 领袖 of this 单位 is a Harbinger. A Harbinger wields a Starsteel Blade in place of a Starwood Spear.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4904-ad68-28d6-069a" name="Aelven Purebreeds" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="4904-ad68-28d6-069a" name="Aelven Purebreeds" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In the shooting phase, before or after making attacks with this unit, you can roll two dice and move all of the models in this unit up to that many inches. Models cannot start or end this move withing 3&quot; of an enemy unit. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the shooting phase, before or after making attacks with this 单位, you can roll two dice and move all of the models in this 单位 up to that many inches. Models cannot start or end this move withing 3&quot; of an enemy 单位. </characteristic>
           </characteristics>
         </profile>
-        <profile id="fbc4-dfa7-1d08-11de" name="Swift Volleys" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="fbc4-dfa7-1d08-11de" name="Swift Volleys" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Models in this unit make 3 attacks with their Reaver Cavalry Bows if the unit is not within 3&quot; of an enemy unit.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Models in this 单位 make 3 attacks with their Reaver Cavalry Bows if the 单位 is not within 3&quot; of an enemy 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -245,15 +245,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395b-e35e-c3e5-9195" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c13-0640-6ed3-5171" name="Aelven Purebreed&apos;s Swift Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="3c13-0640-6ed3-5171" name="Aelven Purebreed&apos;s Swift Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">5+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707"/>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707"/>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -267,15 +267,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d5f-12c7-8dde-a444" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3db4-e2b2-532d-7866" name="Reaver Cavalry Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="3db4-e2b2-532d-7866" name="Reaver Cavalry Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -289,15 +289,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0a8-12eb-8f96-ab23" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4ab2-42ae-61b4-6c5c" name="Starsteel Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="4ab2-42ae-61b4-6c5c" name="Starsteel Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -311,15 +311,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2880-063d-9683-a182" type="min"/>
           </constraints>
           <profiles>
-            <profile id="46c5-9dfc-7170-2c3b" name="Starwood Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="46c5-9dfc-7170-2c3b" name="Starwood Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -332,34 +332,34 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95c6-23f4-2300-ea81" name="Skywarden" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="95c6-23f4-2300-ea81" name="Skywarden" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="69a1-4459-a17e-5a17" name="Skywarden" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="69a1-4459-a17e-5a17" name="Skywarden" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">16&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">16&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9f73-6a0c-e6cd-49e7" name="Fleet of Wing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="9f73-6a0c-e6cd-49e7" name="Fleet of Wing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If this model runs, roll two dice instead of one and use the total when determining how much extra it can move.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model runs, roll two dice instead of one and use the total when determining how much extra it can move.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6775-284c-f480-ac73" name="Enchanted Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="6775-284c-f480-ac73" name="Enchanted Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all failed save rolls for this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all failed save rolls for this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="60b0-04ed-3b1a-c1f1" name="Windrider" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="60b0-04ed-3b1a-c1f1" name="Windrider" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Skywarden has a Save of 4+ instead of 5+ in the shooting phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Skywarden has a Save of 4+ instead of 5+ in the shooting phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9c2f-21d2-e78f-e03d" name="Swoop and Attack!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
+        <profile id="9c2f-21d2-e78f-e03d" name="Swoop and Attack!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If a Skywarden uses this ability, SWIFTHAWK AGENTS in your army that can fly can charge in your next charge phase even if they ran this turn.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If a Skywarden uses this ability, SWIFTHAWK AGENTS in your army that can fly can charge in your next charge phase even if they ran this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -380,15 +380,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0668-5803-6814-aef1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="74d1-6abb-d9ef-f09a" name="Swiftfeather Hawks&apos; Raking Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="74d1-6abb-d9ef-f09a" name="Swiftfeather Hawks&apos; Raking Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -402,15 +402,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5005-38fd-3329-3d64" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f5e9-188e-7e3f-3a2b" name="Agent&apos;s Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="f5e9-188e-7e3f-3a2b" name="Agent&apos;s Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -424,15 +424,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9733-1b7b-5fc7-d1a5" type="min"/>
           </constraints>
           <profiles>
-            <profile id="05d3-9059-cc5b-67e5" name="Skywarden&apos;s Ithilmar Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="05d3-9059-cc5b-67e5" name="Skywarden&apos;s Ithilmar Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -450,15 +450,15 @@
           <selectionEntries>
             <selectionEntry id="e885-b2d8-7895-33d8" name="Zephyr Trident" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="be83-c241-5076-7987" name="Zephyr Trident" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="be83-c241-5076-7987" name="Zephyr Trident" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -468,9 +468,9 @@
             </selectionEntry>
             <selectionEntry id="8f99-89f0-78d0-fb95" name="Swifthawk Pennant" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1e84-8ec5-cee3-bf59" name="Swifthawk Pennant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                <profile id="1e84-8ec5-cee3-bf59" name="Swifthawk Pennant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A Skywarden with a Swifthawk Pennant gains the TOTEM keyword. You can add 1 to all wound rolls for SWIFTHAWK AGENTS units from your army if they are within 16&quot; of this model when they attack.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Skywarden with a Swifthawk Pennant gains the TOTEM keyword. You can add 1 to all wound rolls for SWIFTHAWK AGENTS units from your army if they are within 16&quot; of this model when they attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -490,72 +490,72 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b59c-2555-759d-260e" name="High Warden" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b59c-2555-759d-260e" name="High Warden" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="e713-baf5-f843-90f6" name="High Warden" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="e713-baf5-f843-90f6" name="High Warden" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">*</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">10</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">8</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">10</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2829-b174-2382-304f" name="Predatory Leap" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="2829-b174-2382-304f" name="Predatory Leap" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The High Warden&apos;s Griffon can carry him over the battle  line directly to their chosen foe. When this model piles in it can move up to 6&quot; and can move over enemy models. Furthermore, it does not have to move towards the closest enemy model, as long as it ends its move within 1/2&quot; of an enemy unit.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The High Warden&apos;s Griffon can carry him over the battle  line directly to their chosen foe. When this model piles in it can move up to 6&quot; and can move over enemy models. Furthermore, it does not have to move towards the closest enemy model, as long as it ends its move within 1/2&quot; of an enemy 单位.</characteristic>
           </characteristics>
         </profile>
-        <profile id="732f-9aa8-77eb-d4f1" name="Hurricane Charge" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="Command Abilities">
+        <profile id="732f-9aa8-77eb-d4f1" name="Hurricane Charge" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="Command Ability Details" typeId="1b71-4c83-4e8c-093f">If a High Warden uses this ability, then until your next hero phase you can re-roll any dice when determining the charge distance for SWIFTHAWK AGENTS from your army if they are within 16&quot; of this model when they charge.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If a High Warden uses this ability, then until your next 英雄 phase you can re-roll any dice when determining the charge distance for SWIFTHAWK AGENTS from your army if they are within 16&quot; of this model when they charge.</characteristic>
           </characteristics>
         </profile>
-        <profile id="b440-25de-2186-8115" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="b440-25de-2186-8115" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">Wounds Suffered</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">Move</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">Wicked Talons</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">Razor-sharp Beak</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">Wounds Suffered</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">Move</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">Wicked Talons</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">Razor-sharp Beak</characteristic>
           </characteristics>
         </profile>
-        <profile id="e21d-a541-0860-ecbc" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="e21d-a541-0860-ecbc" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">0-2</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">16&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">6</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">3+</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-2</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">16&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">6</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9b21-8c1f-a3bf-0ad7" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="9b21-8c1f-a3bf-0ad7" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">3-4</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">14&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">5</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">4+</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">3-4</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">14&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">5</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0867-0f95-a985-1898" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="0867-0f95-a985-1898" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">5-7</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">4</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">4+</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">5-7</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">4</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="1fdf-eef6-7780-6606" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="1fdf-eef6-7780-6606" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">8-9</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">3</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">5+</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">8-9</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="47d0-03b3-649e-f4db" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="Damage Table">
+        <profile id="47d0-03b3-649e-f4db" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
-            <characteristic name="Variable 1" typeId="420a-645a-ab28-93a0">10+</characteristic>
-            <characteristic name="Variable 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
-            <characteristic name="Variable 3" typeId="b1ea-56be-ba52-16e9">2</characteristic>
-            <characteristic name="Variable 4" typeId="ad26-bf56-95c4-80f1">5+</characteristic>
+            <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">10+</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -577,15 +577,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43df-cda7-08ce-f05d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ce86-b3a0-66b8-f0ca" name="Griffon&apos;s Razor-sharp Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="ce86-b3a0-66b8-f0ca" name="Griffon&apos;s Razor-sharp Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">*</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -599,15 +599,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="685a-f199-1a36-fac1" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5562-bbde-b7ed-2b26" name="Griffon&apos;s Wicked Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="5562-bbde-b7ed-2b26" name="Griffon&apos;s Wicked Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -621,15 +621,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c96e-aae5-e986-2eb9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="966a-e57e-0d52-3f7b" name="Starblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="966a-e57e-0d52-3f7b" name="Starblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -643,20 +643,20 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d7-c61c-f965-ce55" type="min"/>
           </constraints>
           <profiles>
-            <profile id="acab-d4e0-3ef7-d70f" name="Starwood Lance" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="acab-d4e0-3ef7-d70f" name="Starwood Lance" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
               </characteristics>
             </profile>
-            <profile id="13cb-fef4-03be-fd0c" name="Starwood Lance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="13cb-fef4-03be-fd0c" name="Starwood Lance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the wound rolls and Damage of a Starwood Lance if this model charged in the same turn. </characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the wound rolls and Damage of a Starwood Lance if this model charged in the same turn. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -674,7 +674,7 @@
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="46be-94c2-e630-b634" name="Chariots" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="46be-94c2-e630-b634" name="Chariots" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="points" value="200.0">
           <conditions>
@@ -683,22 +683,22 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="f598-557e-71df-6eb2" name="Chariots" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="f598-557e-71df-6eb2" name="Chariots" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">12&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3d7a-89f3-8d75-92cb" name="Graceful Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="3d7a-89f3-8d75-92cb" name="Graceful Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all failed wound rolls for a Chariot in the combat phase if it made a charge in the same turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all failed wound rolls for a Chariot in the combat phase if it made a charge in the same turn.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fc92-1190-10e6-3909" name="Swift and Deadly" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="fc92-1190-10e6-3909" name="Swift and Deadly" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a Chariot runs there is no need to roll a dice, it can always move up to an extra 6&quot;. In addition, Chariots can pile in up to 6&quot;, instead of 3&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a Chariot runs there is no need to roll a dice, it can always move up to an extra 6&quot;. In addition, Chariots can pile in up to 6&quot;, instead of 3&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -731,15 +731,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ed-9b03-ff35-f5bc" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bb0d-8c0d-155c-96f7" name="Charioteers&apos; Bows" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="bb0d-8c0d-155c-96f7" name="Charioteers&apos; Bows" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -753,15 +753,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e2e-4669-42e4-69f4" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6017-de54-c1d0-b860" name="Purebreeds&apos; Swift Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="6017-de54-c1d0-b860" name="Purebreeds&apos; Swift Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">5+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707"/>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707"/>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -775,15 +775,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c11-5187-888c-02c6" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c120-866c-5368-6786" name="Swifthawk Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="c120-866c-5368-6786" name="Swifthawk Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -796,29 +796,29 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c01-702d-ce3f-6382" name="Shadow Warriors" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9c01-702d-ce3f-6382" name="Shadow Warriors" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="fd90-94e0-fba7-7f99" name="Shadow Warrior" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="fd90-94e0-fba7-7f99" name="Shadow Warrior" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">6&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">1</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="10fa-5530-22f4-938d" name="One With the Shadows" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="10fa-5530-22f4-938d" name="One With the Shadows" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">After set up is complete, you can move this unit up to 12&quot;, as long as no model in the unit moves within 3&quot; of an enemy model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After set up is complete, you can move this 单位 up to 12&quot;, as long as no model in the 单位 moves within 3&quot; of an enemy model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fd4a-cd77-c244-f50b" name="Shadow-Walker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="fd4a-cd77-c244-f50b" name="Shadow-Walker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is a Shadow-walker. A Shadow-walker makes 2 attacks with a Ranger Bow rather than 1.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The 领袖 of this 单位 is a Shadow-walker. A Shadow-walker makes 2 attacks with a Ranger Bow rather than 1.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1e19-8dac-397f-1e10" name="Strike Unseen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="1e19-8dac-397f-1e10" name="Strike Unseen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If all models from this unit are in cover and are more than 6&quot; from any enemy units, you can re-roll failed hit rolls for their Ranger Bows.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If all models from this 单位 are in cover and are more than 6&quot; from any enemy units, you can re-roll failed hit rolls for their Ranger Bows.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -844,15 +844,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0c3-c6a1-682d-1917" type="min"/>
           </constraints>
           <profiles>
-            <profile id="821c-772b-ae97-141b" name="Ranger Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="821c-772b-ae97-141b" name="Ranger Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -866,15 +866,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a8-1182-749a-f606" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a6bc-e724-3a35-e43b" name="Shadow Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="a6bc-e724-3a35-e43b" name="Shadow Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -887,39 +887,39 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc2a-daaa-bf1c-c6b2" name="Skycutters" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cc2a-daaa-bf1c-c6b2" name="Skycutters" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="9b0c-72dd-4d8a-4dc3" name="Skycutters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="9b0c-72dd-4d8a-4dc3" name="Skycutters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">16&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">16&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="081e-5a15-0666-03d8" name="Agents&apos; Blades and Spears" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="081e-5a15-0666-03d8" name="Agents&apos; Blades and Spears" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If a Skycutter is crewed by a trio of Agents, it makes 3 attacks with its Agents&apos; Blades and Spears instead of 2.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a Skycutter is crewed by a trio of Agents, it makes 3 attacks with its Agents&apos; Blades and Spears instead of 2.</characteristic>
           </characteristics>
         </profile>
-        <profile id="48d4-8315-6edb-9c44" name="Aelven Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="48d4-8315-6edb-9c44" name="Aelven Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for this unit. You can instead re-roll save rolls of 1 or 2 for this unit in the shooting phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for this 单位. You can instead re-roll save rolls of 1 or 2 for this 单位 in the shooting phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6a5f-1e0a-16ab-fa57" name="Fleet of Wing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="6a5f-1e0a-16ab-fa57" name="Fleet of Wing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If this model runs, roll two dice instead of one and use the total when determining how much extra it can move.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model runs, roll two dice instead of one and use the total when determining how much extra it can move.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d538-bad9-2d94-61a1" name="Sky Chariot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="d538-bad9-2d94-61a1" name="Sky Chariot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Skycutters can shoot even if they ran in their movement phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Skycutters can shoot even if they ran in their movement phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="90a3-c1ba-3494-3233" name="Swifthawk Discipline" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="90a3-c1ba-3494-3233" name="Swifthawk Discipline" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If you fail a battleshock test for this unit whilst a SWIFTHAWK AGENTS HERO from your army is within 16&quot;, halve the number of models that flee(rounding fractions up).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you fail a battleshock test for this 单位 whilst a SWIFTHAWK AGENTS 英雄 from your army is within 16&quot;, halve the number of models that flee(rounding fractions up).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -948,15 +948,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c388-e56e-1034-359a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d7dc-6709-9198-d5db" name="Swiftfeather Hawks&apos; Raking Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="d7dc-6709-9198-d5db" name="Swiftfeather Hawks&apos; Raking Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -974,26 +974,26 @@
           <selectionEntries>
             <selectionEntry id="2ea7-1bef-8b0f-8fe6" name="Crew of 2" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="cd8e-2503-508c-b754" name="Eagle Eye Bolt Thrower" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="cd8e-2503-508c-b754" name="Eagle Eye Bolt Thrower" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="bb9b-a3c2-10ab-9a1c" name="Agents&apos; Blades and Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="bb9b-a3c2-10ab-9a1c" name="Agents&apos; Blades and Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1003,26 +1003,26 @@
             </selectionEntry>
             <selectionEntry id="69b5-c167-dd57-541d" name="Crew of 3" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1b82-31a9-75f4-2c0d" name="Swifthawk Bows" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="1b82-31a9-75f4-2c0d" name="Swifthawk Bows" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="b7ee-cf4a-6abd-1f99" name="Agents&apos; Blades and Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                <profile id="b7ee-cf4a-6abd-1f99" name="Agents&apos; Blades and Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                    <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                    <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
-                    <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                    <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1037,34 +1037,34 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c35f-cf25-33ff-f583" name="Spireguard" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c35f-cf25-33ff-f583" name="Spireguard" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="5ae9-69cd-bf99-a556" name="Spireguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+        <profile id="5ae9-69cd-bf99-a556" name="Spireguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="Move" typeId="8655-6213-2824-1752">6&quot;</characteristic>
-            <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">1</characteristic>
-            <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">6</characteristic>
-            <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6a7c-a175-bd1f-36e4" name="Aelven Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="6a7c-a175-bd1f-36e4" name="Aelven Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for this unit. You can instead re-roll save rolls of 1 or 2 for this unit in the shooting phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for this 单位. You can instead re-roll save rolls of 1 or 2 for this 单位 in the shooting phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0b5b-4880-c80a-6e49" name="Strength of the Spireguard" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="0b5b-4880-c80a-6e49" name="Strength of the Spireguard" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for a Spireguard if its unit has 20 or more models. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for a Spireguard if its 单位 has 20 or more models. </characteristic>
           </characteristics>
         </profile>
-        <profile id="6b92-252e-1a11-9e6d" name="Swifthawk Discipline" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="6b92-252e-1a11-9e6d" name="Swifthawk Discipline" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If you fail a battleshock test for this unit whilst a SWIFTHAWK AGENTS HERO from your army is within 16&quot;, halve the number of models that flee(rounding fractions up).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you fail a battleshock test for this 单位 whilst a SWIFTHAWK AGENTS 英雄 from your army is within 16&quot;, halve the number of models that flee(rounding fractions up).</characteristic>
           </characteristics>
         </profile>
-        <profile id="af17-0ba0-d254-5710" name="Watch Master" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+        <profile id="af17-0ba0-d254-5710" name="Watch Master" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">The leader of this unit is a Watch Master.  A Watch Master make 2 attacks rather than 1 with a Silverwood Spear.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The 领袖 of this 单位 is a Watch Master.  A Watch Master make 2 attacks rather than 1 with a Silverwood Spear.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1097,9 +1097,9 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b716-9b07-102a-16b8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d0b7-3e6a-14e5-af2f" name="Hornblower" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="d0b7-3e6a-14e5-af2f" name="Hornblower" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll any dice rolls of a 1 when determining how far this unit can run or charge.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll any dice rolls of a 1 when determining how far this 单位 can run or charge.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1113,9 +1113,9 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb0-7f43-87f4-6e11" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f1b2-58d5-fe2f-b572" name="Standard Bearer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+            <profile id="f1b2-58d5-fe2f-b572" name="Standard Bearer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">If the unit includes any Standard Bearers, add 1 to the bravery of its models.  Add 2 to their Bravery instead if the unit is within 8&quot; of another SWIFTHAWK AGENTS unit from your army that includes a Standard Bearer.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the 单位 includes any Standard Bearers, add 1 to the bravery of its models.  Add 2 to their Bravery instead if the 单位 is within 8&quot; of another SWIFTHAWK AGENTS 单位 from your army that includes a Standard Bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1129,15 +1129,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="381e-9c0c-86b2-bdd0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7249-a05a-0699-71ed" name="Silverwood Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="7249-a05a-0699-71ed" name="Silverwood Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1151,15 +1151,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1066-60f5-2fde-c31d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="005d-8ef7-465f-bbac" name="Spireguard Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+            <profile id="005d-8ef7-465f-bbac" name="Spireguard Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="Type" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
-                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
-                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
-                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
+                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
           </profiles>

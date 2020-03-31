@@ -1,4 +1,4 @@
-Warhammer Age of Sigmar 2018 Edition
+Warhammer 西格玛时代 2018 Edition
 ============================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/warhammer-age-of-sigmar.svg?style=flat-square)](https://github.com/BSData/warhammer-age-of-sigmar/releases/latest)
@@ -49,7 +49,7 @@ The Catalogs have been updated to support Matched Play points and FAQ's for the 
 
 * __I'd just like to contact you.__
 
-  Then join us on the Warhammer Age of Sigmar Gitter!  
+  Then join us on the Warhammer 西格玛时代 Gitter!  
  [![Join the chat at Gitter](https://badges.gitter.im/BSData/warhammer-age-of-sigmar.svg)](https://gitter.im/BSData/warhammer-age-of-sigmar?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
  
   _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we all have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._

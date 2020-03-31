@@ -18,7 +18,7 @@
                         
                 <characteristicType id="b8b6-7486-00a9-ab3f" name="Crew within 1&quot;"/>
                         
-                <characteristicType id="ca83-f7cb-271c-e91e" name="Move"/>
+                <characteristicType id="ca83-f7cb-271c-e91e" name="移动力"/>
                         
                 <characteristicType id="146f-6f2e-67ab-d1a3" name="Screaming Skulls"/>
                       
@@ -30,7 +30,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="63c5-e8b2-3185-346f" name="Move"/>
+                <characteristicType id="63c5-e8b2-3185-346f" name="移动力"/>
                         
                 <characteristicType id="632e-f76b-1da5-5d34" name="Scything Blades"/>
                         
@@ -72,7 +72,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="ee94-3600-01cf-5bb4" name="Move"/>
+                <characteristicType id="ee94-3600-01cf-5bb4" name="移动力"/>
                         
                 <characteristicType id="a22d-fcce-e696-075e" name="Nightmarish Claws and Fangs"/>
                       
@@ -90,11 +90,11 @@
                 
         </profileType>
             
-        <profileType id="823d-e366-580b-9b07" name="Battalion Organization">
+        <profileType id="823d-e366-580b-9b07" name="阵型 Organization">
                   
             <characteristicTypes>
                         
-                <characteristicType id="bc6e-e731-eed7-c384" name="Required"/>
+                <characteristicType id="bc6e-e731-eed7-c384" name="需要"/>
                       
             </characteristicTypes>
                 
@@ -104,7 +104,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="c11f-1089-904a-ac38" name="Move"/>
+                <characteristicType id="c11f-1089-904a-ac38" name="移动力"/>
                         
                 <characteristicType id="99cf-0eaa-2393-ac29" name="Ebon Claws"/>
                         
@@ -118,7 +118,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="880c-ad30-4218-ce64" name="Move"/>
+                <characteristicType id="880c-ad30-4218-ce64" name="移动力"/>
                         
                 <characteristicType id="6ab9-f4a2-7b9c-72db" name="Ebon Claws"/>
                         
@@ -132,7 +132,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="b498-b6f7-56f5-7366" name="Move"/>
+                <characteristicType id="b498-b6f7-56f5-7366" name="移动力"/>
                         
                 <characteristicType id="1d38-70cb-0844-3a13" name="Ebon Claws"/>
                         
@@ -146,7 +146,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="0a2a-cf8c-c354-d970" name="Move"/>
+                <characteristicType id="0a2a-cf8c-c354-d970" name="移动力"/>
                         
                 <characteristicType id="3116-dad8-2afe-22f1" name="Breath of Shyish"/>
                         
@@ -160,7 +160,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="1712-425e-7e40-a5b1" name="Move"/>
+                <characteristicType id="1712-425e-7e40-a5b1" name="移动力"/>
                         
                 <characteristicType id="b17b-97f7-9c40-21e5" name="Pestilential Breath"/>
                         
@@ -174,7 +174,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="3fbe-8d35-7016-ec94" name="Move"/>
+                <characteristicType id="3fbe-8d35-7016-ec94" name="移动力"/>
                         
                 <characteristicType id="27eb-b284-31ea-b2b5" name="Wail of the Damned"/>
                         
@@ -188,7 +188,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="cd25-3cdb-952f-5649" name="Move"/>
+                <characteristicType id="cd25-3cdb-952f-5649" name="移动力"/>
                         
                 <characteristicType id="7278-942a-7799-3689" name="Handmaidens"/>
                         
@@ -216,7 +216,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="2ad2-839b-d5ee-5770" name="Move"/>
+                <characteristicType id="2ad2-839b-d5ee-5770" name="移动力"/>
                         
                 <characteristicType id="dfdc-a86c-e979-1eb7" name="死亡 Shriek"/>
                         
@@ -240,7 +240,7 @@
                   
             <characteristicTypes>
                         
-                <characteristicType id="47da-cf3b-aedb-18fa" name="Move"/>
+                <characteristicType id="47da-cf3b-aedb-18fa" name="移动力"/>
                         
                 <characteristicType id="abae-ebd6-57a6-27e9" name="Wail of the Damned"/>
                         
@@ -372,29 +372,29 @@
                   
             <profiles>
                         
-                <profile id="52da-bf29-a1d4-66df" name="Necromancer on Nightmare" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+                <profile id="52da-bf29-a1d4-66df" name="Necromancer on Nightmare" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
                               
                     <characteristics>
                                     
-                        <characteristic name="Move" typeId="8655-6213-2824-1752">10"</characteristic>
+                        <characteristic name="移动力" typeId="8655-6213-2824-1752">10"</characteristic>
                                     
-                        <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">5</characteristic>
+                        <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
                                     
-                        <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">10</characteristic>
+                        <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
                                     
-                        <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
+                        <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
                                   
                     </characteristics>
                             
                 </profile>
                         
-                <profile id="ec06-d37f-0c39-54dc" name="Necromancer on Nightmare" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+                <profile id="ec06-d37f-0c39-54dc" name="Necromancer on Nightmare" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
                               
                     <characteristics>
                                     
-                        <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
+                        <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
                                     
-                        <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield and Vanhel’s Danse Macabre spells</characteristic>
+                        <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield and Vanhel’s Danse Macabre spells</characteristic>
                                   
                     </characteristics>
                             
@@ -438,23 +438,23 @@
                               
                     <profiles>
                                     
-                        <profile id="0c11-c638-3607-0da2" name="Necromancer's Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                        <profile id="0c11-c638-3607-0da2" name="Necromancer's Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                                           
                             <characteristics>
                                                 
-                                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
                                                 
-                                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2"</characteristic>
+                                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2"</characteristic>
                                                 
-                                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
+                                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                                                 
-                                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                                                 
-                                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                                                 
-                                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                                                 
-                                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
+                                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                                               
                             </characteristics>
                                         
@@ -482,23 +482,23 @@
                               
                     <profiles>
                                     
-                        <profile id="c053-970d-9ed5-4fb9" name="Nightmare's Hooves and Teeth" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                        <profile id="c053-970d-9ed5-4fb9" name="Nightmare's Hooves and Teeth" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                                           
                             <characteristics>
                                                 
-                                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
                                                 
-                                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1"</characteristic>
+                                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1"</characteristic>
                                                 
-                                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">12</characteristic>
+                                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">12</characteristic>
                                                 
-                                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                                                 
-                                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                                                 
-                                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-</characteristic>
+                                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                                                 
-                                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                                               
                             </characteristics>
                                         
@@ -526,13 +526,13 @@
                               
                     <profiles>
                                     
-                        <profile id="a70a-68c9-c38c-eed7" name="Vanhel's Danse Macabre" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+                        <profile id="a70a-68c9-c38c-eed7" name="Vanhel's Danse Macabre" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                                           
                             <characteristics>
                                                 
-                                <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
+                                <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
                                                 
-                                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a unit of Zombies or Skeleton Warriors within 18"; that unit can pile in and attack twice in your next combat phase.</characteristic>
+                                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a 单位 of Zombies or Skeleton Warriors within 18"; that 单位 can pile in and attack twice in your next combat phase.</characteristic>
                                               
                             </characteristics>
                                         
@@ -568,11 +568,11 @@
                 
         </selectionEntry>
             
-        <selectionEntry id="27af-2b11-15ac-8f0e" name="[VC]Vampire Lord on Abyssal Terror" publicationId="3850-c064-pubN66684" page="" hidden="false" collective="false" type="unit">
+        <selectionEntry id="27af-2b11-15ac-8f0e" name="[VC]Vampire Lord on Abyssal Terror" publicationId="3850-c064-pubN66684" page="" hidden="false" collective="false" type="单位">
                   
             <profiles>
                         
-                <profile id="e796-52b8-dddf-6845" name="Vampire Lord on Abyssal Terror" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="Unit">
+                <profile id="e796-52b8-dddf-6845" name="Vampire Lord on Abyssal Terror" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
                               
                     <modifiers>
                                     
@@ -590,45 +590,45 @@
                               
                     <characteristics>
                                     
-                        <characteristic name="Move" typeId="8655-6213-2824-1752">12"</characteristic>
+                        <characteristic name="移动力" typeId="8655-6213-2824-1752">12"</characteristic>
                                     
-                        <characteristic name="Wounds" typeId="cd0e-fea6-411f-904d">8</characteristic>
+                        <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
                                     
-                        <characteristic name="Bravery" typeId="0c85-bf79-836b-759e">10</characteristic>
+                        <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
                                     
-                        <characteristic name="Save" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+                        <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
                                   
                     </characteristics>
                             
                 </profile>
                         
-                <profile id="ad8e-4960-e00f-b042" name="Vampire Lord on Abyssal Terror" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="Magic">
+                <profile id="ad8e-4960-e00f-b042" name="Vampire Lord on Abyssal Terror" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
                               
                     <characteristics>
                                     
-                        <characteristic name="Cast/Unbind" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
+                        <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
                                     
-                        <characteristic name="Spells Known" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield and Hellish Vigour</characteristic>
+                        <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield and Hellish Vigour</characteristic>
                                   
                     </characteristics>
                             
                 </profile>
                         
-                <profile id="fe59-a9a0-6e40-a1f0" name="The Hunger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                <profile id="fe59-a9a0-6e40-a1f0" name="The Hunger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                               
                     <characteristics>
                                     
-                        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">At the end of any combat phase in which it killed any models, heal one wound that has been allocated to this model.</characteristic>
+                        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of any combat phase in which it killed any models, heal one wound that has been allocated to this model.</characteristic>
                                   
                     </characteristics>
                             
                 </profile>
                         
-                <profile id="f80a-eaae-d0fa-9477" name="Supernatural Terror" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                <profile id="f80a-eaae-d0fa-9477" name="Supernatural Terror" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                               
                     <characteristics>
                                     
-                        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">Enemy units within 6" of any Vampire Lords on Abyssal Terrors must roll an extra dice and discard the lowest when they take a battleshock test.</characteristic>
+                        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Enemy units within 6" of any Vampire Lords on Abyssal Terrors must roll an extra dice and discard the lowest when they take a battleshock test.</characteristic>
                                   
                     </characteristics>
                             
@@ -674,13 +674,13 @@
                               
                     <profiles>
                                     
-                        <profile id="1d48-2cce-f42c-f559" name="Hellish Vigour" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="Spell">
+                        <profile id="1d48-2cce-f42c-f559" name="Hellish Vigour" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                                           
                             <characteristics>
                                                 
-                                <characteristic name="Casting Value" typeId="2508-b604-1258-a920">6</characteristic>
+                                <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
                                                 
-                                <characteristic name="Description" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly 死亡 unit within 18".  That unit’s Move characteristic is doubled in its next movement phase.</characteristic>
+                                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">如果施放成功, pick a friendly 死亡 单位 within 18".  That 单位’s Move characteristic is doubled in its next movement phase.</characteristic>
                                               
                             </characteristics>
                                         
@@ -708,23 +708,23 @@
                               
                     <profiles>
                                     
-                        <profile id="dca8-eae5-607e-7a2e" name="Abyssal Terror's Claws and Tusks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                        <profile id="dca8-eae5-607e-7a2e" name="Abyssal Terror's Claws and Tusks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                                           
                             <characteristics>
                                                 
-                                <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
                                                 
-                                <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">2"</characteristic>
+                                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2"</characteristic>
                                                 
-                                <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
+                                <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                                                 
-                                <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                                                 
-                                <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                                                 
-                                <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                                <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                                                 
-                                <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
+                                <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                                               
                             </characteristics>
                                         
@@ -768,23 +768,23 @@
                                           
                             <profiles>
                                                 
-                                <profile id="adf0-3331-04c5-5a07" name="Vampiric Sword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                                <profile id="adf0-3331-04c5-5a07" name="Vampiric Sword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                                                       
                                     <characteristics>
                                                             
-                                        <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                                        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
                                                             
-                                        <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1"</characteristic>
+                                        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1"</characteristic>
                                                             
-                                        <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
+                                        <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                                                             
-                                        <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                                        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                                                             
-                                        <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                                        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                                                             
-                                        <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                                        <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                                                             
-                                        <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
+                                        <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                                                           
                                     </characteristics>
                                                     
@@ -812,33 +812,33 @@
                                           
                             <profiles>
                                                 
-                                <profile id="968f-6a20-ac55-206d" name="Deathlance" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="Weapon">
+                                <profile id="968f-6a20-ac55-206d" name="Deathlance" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                                                       
                                     <characteristics>
                                                             
-                                        <characteristic name="Type" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                                        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
                                                             
-                                        <characteristic name="Range" typeId="ee32-7f8e-ccd7-b7b0">1"</characteristic>
+                                        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1"</characteristic>
                                                             
-                                        <characteristic name="Attacks" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
+                                        <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                                                             
-                                        <characteristic name="To Hit" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                                        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                                                             
-                                        <characteristic name="To Wound" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                                        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                                                             
-                                        <characteristic name="Rend" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
+                                        <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                                                             
-                                        <characteristic name="Damage" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
+                                        <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                                                           
                                     </characteristics>
                                                     
                                 </profile>
                                                 
-                                <profile id="8c13-270c-2d35-a838" name="Deathlance Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                                <profile id="8c13-270c-2d35-a838" name="Deathlance Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                                                       
                                     <characteristics>
                                                             
-                                        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">In the combat phase, this model’s Deathlance has a Damage characteristic of 3 if it made a charge move in the same turn.</characteristic>
+                                        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the combat phase, this model’s Deathlance has a Damage characteristic of 3 if it made a charge move in the same turn.</characteristic>
                                                           
                                     </characteristics>
                                                     
@@ -882,11 +882,11 @@
                                           
                             <profiles>
                                                 
-                                <profile id="9ca7-4e3a-4649-a131" name="Ancient Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="Unit Abilities">
+                                <profile id="9ca7-4e3a-4649-a131" name="Ancient Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                                                       
                                     <characteristics>
                                                             
-                                        <characteristic name="Ability Details" typeId="d4dc-8e81-bc0e-b8f0">A model with an Ancient Shield has a Save characteristic of 3+</characteristic>
+                                        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A model with an Ancient Shield has a Save characteristic of 3+</characteristic>
                                                           
                                     </characteristics>
                                                     
@@ -1072,7 +1072,7 @@
             
         <rule id="cf8b-aa33-2ab7-c034" name="Locus of Shyish" hidden="false">
                   
-            <description>If you make an unmodified casting roll of 9+ for a 死亡 WIZARD that is attempting to cast a spell from the Lore of the Deathmages or the Lore of the Vampires, and it is not unbound, then after resolving the effects of that spell you may immediately resolve them for a second time.</description>
+            <描述>If you make an unmodified casting roll of 9+ for a 死亡 法师 that is attempting to cast a 法术 from the Lore of the Deathmages or the Lore of the Vampires, and it is not unbound, then after resolving the effects of that 法术 you may immediately resolve them for a second time.</描述>
                 
         </rule>
           
@@ -1080,11 +1080,11 @@
       
     <sharedProfiles>
             
-        <profile id="3998-f3e4-90e7-348a" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="Battle Trait">
+        <profile id="3998-f3e4-90e7-348a" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   
             <characteristics>
                         
-                <characteristic name="Battle Trait Details" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 死亡 unit within 6" of your general or another friendly 死亡 HERO. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 死亡 单位 within 6" of your general or another friendly 死亡 英雄. On a 6+ the wound is negated.</characteristic>
                       
             </characteristics>
                 

@@ -65,7 +65,7 @@
     </profileType>
     <profileType id="0ac4-aacb-2481-8e72" name="Artefact">
       <characteristicTypes>
-        <characteristicType id="0918-c47a-d84e-c0cf" name="Artefact Details"/>
+        <characteristicType id="0918-c47a-d84e-c0cf" name="Artefact 细节"/>
       </characteristicTypes>
     </profileType>
     <profileType id="c924-5a68-471a-2fd5" name="单位能力">
@@ -750,7 +750,7 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability at the start of the battleshock phase. If you do so, pick a friendly 单位 that is within 6&quot; of friendly 英雄, or 12&quot; of a friendly 英雄 that is a general. That 单位 does not have to take battleshock tests in that phase.</描述>
+      <描述>You can use this command ability at the start of the battleshock phase. If you do so, pick a friendly 单位 that is within 6寸 of friendly 英雄, or 12寸 of a friendly 英雄 that is a general. That 单位 does not have to take battleshock tests in that phase.</描述>
     </rule>
     <rule id="3f48-3925-7123-3392" name="At the Double" publicationId="e51d-b1a3-pubEQ" page="3" hidden="false">
       <modifiers>
@@ -760,7 +760,7 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability after you make a run roll for a friendly 单位 that is within 6&quot; of a friendly 英雄, or 12&quot; of a friendly 英雄 that is a general. If you do so, the run roll is treated as being a 6.</描述>
+      <描述>You can use this command ability after you make a run roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a general. If you do so, the run roll is treated as being a 6.</描述>
     </rule>
     <rule id="c157-62a0-2514-c4f4" name="Forward to Victory" publicationId="e51d-b1a3-pubEQ" page="3" hidden="false">
       <modifiers>
@@ -770,7 +770,7 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability after you make a charge roll for a friendly 单位 that is within 6&quot; of a friendly 英雄, or 12&quot; of a friendly 英雄 that is a general. If you do so, re-roll the charge roll.</描述>
+      <描述>You can use this command ability after you make a charge roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a general. If you do so, re-roll the charge roll.</描述>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -840,12 +840,12 @@
         <profile id="b2ad-28b6-8c19-2bd7" name="Summon Aethervoid Pendulum" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Aethervoid Pendulum model wholly within 6&quot; of the caster so that it points lengthways in the direction you wish it to move.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Aethervoid Pendulum model wholly within 6寸 of the caster so that it points lengthways in the direction you wish it to move.</characteristic>
           </characteristics>
         </profile>
         <profile id="21f3-0955-0b5b-632a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory endless 法术. It can move up to 8&quot; and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory endless 法术. It can move up to 8寸 and can fly. </characteristic>
           </characteristics>
         </profile>
         <profile id="a0f5-049e-5f6b-92f7" name="Slicing Into Reality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -855,7 +855,7 @@
         </profile>
         <profile id="75ab-d1f9-8312-4930" name="Scything Blade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1&quot; of it at the end of its move, suffers D6 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, suffers D6 mortal wounds. </characteristic>
           </characteristics>
         </profile>
         <profile id="2577-0a57-fc04-cbb1" name="Unstoppable Mechanism" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -883,7 +883,7 @@
         <profile id="6979-410e-f790-d43c" name="Summon Balewind Vortex" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">WIZARDS with a Wounds characteristic of 9 or more, that are part of a 单位 of two or more models, or that are already on a Balewind Vortex, cannot attempt to cast this 法术. If successfully cast, set up a Balewind Vortex model within 1&quot; of the caster and more than 3&quot; from any enemy models, and then place the caster on the upper platform.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">WIZARDS with a Wounds characteristic of 9 or more, that are part of a 单位 of two or more models, or that are already on a Balewind Vortex, cannot attempt to cast this 法术. If successfully cast, set up a Balewind Vortex model within 1寸 of the caster and more than 3寸 from any enemy models, and then place the caster on the upper platform.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ef7-6e77-e5be-458b" name="Against the Aetheric Wind" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -893,7 +893,7 @@
         </profile>
         <profile id="4fa2-0a57-2616-95cb" name="Arcane Invigoration" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A 法师 on a Balewind Vortex can attempt to cast an additional 法术 in each of their 英雄 phases (including the turn in which the Summon Balewind Vortex 法术 was cast), and you can add 6&quot; to the range of any spells that the 法师 casts.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A 法师 on a Balewind Vortex can attempt to cast an additional 法术 in each of their 英雄 phases (including the turn in which the Summon Balewind Vortex 法术 was cast), and you can add 6寸 to the range of any spells that the 法师 casts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -902,12 +902,12 @@
           <描述>As long as the Balewind Vortex remains on the battlefield, the caster and the Balewind Vortex are treated as being a single model
 from the caster’s army that uses the caster’s warscroll as well as the endless spells rules. It is treated as an enemy model by the opposing player’s army. A 法师 on a Balewind Vortex cannot move.
 
-If a 法师 on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional 法术 that the 法师 would have received in that 英雄 phase, and still counts as the single attempt they can make to dispel an endless 法术 this 英雄 phase, but allows them to use any remaining 法术 casting attempts normally.
+If a 法师 on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional 法术 that the 法师 would have received in that 英雄阶段, and still counts as the single attempt they can make to dispel an endless 法术 this 英雄阶段, but allows them to use any remaining 法术 casting attempts normally.
 
 If the 法师 on the Balewind Vortex is slain, then the Balewind Vortex is immediately dispelled and removed from play along with the slain 法师.
 
-If a Balewind Vortex is dispelled and the 法师 on it has not been slain, set up the 法师 wholly within 6&quot; of the Balewind
-Vortex and more than 3&quot; from any enemy models, and then remove the Balewind Vortex model from play. If it is impossible
+If a Balewind Vortex is dispelled and the 法师 on it has not been slain, set up the 法师 wholly within 6寸 of the Balewind
+Vortex and more than 3寸 from any enemy models, and then remove the Balewind Vortex model from play. If it is impossible
 to set up the 法师, then the 法师 is slain.</描述>
         </rule>
       </rules>
@@ -927,12 +927,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="9590-acdc-1b4e-0963" name="Summon Chronomatic Cogs" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Chronomantic Cogs model wholly within 12&quot; of the caster. </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Chronomantic Cogs model wholly within 12寸 of the caster. </characteristic>
           </characteristics>
         </profile>
         <profile id="4fe0-7a89-9044-9495" name="Mechanisms of Time" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In their controlling player’s 英雄 phase, a single 法师 within 9&quot; of this model may manipulate the cogs to increase or decrease the flow of time. They may do this in the same phase as the Chronomantic Cogs are set up. If they do so, choose one of the effects opposite. The effect lasts until their next 英雄 phase, or until an enemy 法师 chooses to manipulate the cogs.  Speed Up Time: Add 2&quot; to the Move characteristic of all units on the battlefield. In addition, add 2 to charge rolls for all units on the battlefield.  Slow Down Time: The 法师 manipulating the cogs can cast 1 additional 法术 in this 英雄 phase. In addition, re-roll failed save rolls for that 法师.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In their controlling player’s 英雄阶段, a single 法师 within 9寸 of this model may manipulate the cogs to increase or decrease the flow of time. They may do this in the same phase as the Chronomantic Cogs are set up. If they do so, choose one of the effects opposite. The effect lasts until their next 英雄阶段, or until an enemy 法师 chooses to manipulate the cogs.  Speed Up Time: Add 2寸 to the Move characteristic of all units on the battlefield. In addition, add 2 to charge rolls for all units on the battlefield.  Slow Down Time: The 法师 manipulating the cogs can cast 1 additional 法术 in this 英雄阶段. In addition, re-roll failed save rolls for that 法师.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -953,17 +953,17 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="e8c0-ded6-d453-a796" name="Summon Emerald Lifeswarm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Emerald Lifeswarm model wholly within 15&quot; of the caster. </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Emerald Lifeswarm model wholly within 15寸 of the caster. </characteristic>
           </characteristics>
         </profile>
         <profile id="6183-1ed2-30a1-468a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory endless 法术. Emerald Lifeswarms can move up to 10&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory endless 法术. Emerald Lifeswarms can move up to 10寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ee9-f13f-669c-33d7" name="Bounteous Healing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model is set up or after it has moved, pick 1 单位 within 1&quot; of it. You can either heal D3 wounds that have been allocated to that 单位 or, if no wounds are currently allocated to the 单位, you may return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D3. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model is set up or after it has moved, pick 1 单位 within 1寸 of it. You can either heal D3 wounds that have been allocated to that 单位 or, if no wounds are currently allocated to the 单位, you may return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D3. </characteristic>
           </characteristics>
         </profile>
         <profile id="ffac-9035-e86e-fceb" name="Empowered by Ghyran" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -992,7 +992,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="048c-412c-c308-90f9" name="Summon Geminids of Uhl-Gyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up both models within 6&quot; of each 其他 and both wholly within 18&quot; of the caster. You must then nominate one model to be the Light Geminid and the 其他 to be the Shadow Geminid.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up both models within 6寸 of each 其他 and both wholly within 18寸 of the caster. You must then nominate one model to be the Light Geminid and the 其他 to be the Shadow Geminid.</characteristic>
           </characteristics>
         </profile>
         <profile id="8b3d-a71a-02e8-e999" name="Unleashed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1017,7 +1017,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="634a-99d6-067a-57e1" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory endless 法术. They can move up to 8&quot; and can fly. When you move this endless 法术, the second model must finish its move within 6&quot; of the first. If this is impossible, this 法术 is dispelled. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory endless 法术. They can move up to 8寸 and can fly. When you move this endless 法术, the second model must finish its move within 6寸 of the first. If this is impossible, this 法术 is dispelled. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1042,22 +1042,22 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="1fb0-73e9-129c-891c" name="Summon Horrorghast" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Horrorghast model wholly within 12&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Horrorghast model wholly within 12寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea2b-6e1d-a138-8396" name="Prey on Fear" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of units while they are within 12&quot; of this model. Subtract 2 instead from the Bravery characteristic of units while they are within 6&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of units while they are within 12寸 of this model. Subtract 2 instead from the Bravery characteristic of units while they are within 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="9346-aa17-cae4-7273" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12&quot; instead of up to 9&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12寸 instead of up to 9寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="e908-33ca-d3e1-dbcb" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory endless 法术. It can move up to 9&quot; and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory endless 法术. It can move up to 9寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1081,7 +1081,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="801d-6be1-0510-970e" name="Summon Lauchon the Soulseeker" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Lauchon the Soulseeker model wholly within 12&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Lauchon the Soulseeker model wholly within 12寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="203f-cce0-0c04-21cc" name="Navigate Deathly Tides" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1091,17 +1091,17 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="a466-232b-e51d-b504" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 18&quot; instead of up to 12&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 18寸 instead of up to 12寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="227e-905e-a8a2-360c" name="Soul Price" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before a player makes a move with this model, that player can pick a friendly 单位 wholly within 3&quot; of this model. Remove that 单位 and place it to one side. After this model has moved, set that 单位 up again wholly within 3&quot; of this model and more than 9&quot; from any enemy units. Once that 单位 has been set up, 1 model from that 单位 is immediately slain.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before a player makes a move with this model, that player can pick a friendly 单位 wholly within 3寸 of this model. Remove that 单位 and place it to one side. After this model has moved, set that 单位 up again wholly within 3寸 of this model and more than 9寸 from any enemy units. Once that 单位 has been set up, 1 model from that 单位 is immediately slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="bcbf-2a21-bf34-e39c" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory endless 法术. It can move up to 12&quot; and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory endless 法术. It can move up to 12寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1125,22 +1125,22 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="e2a0-be45-7c5a-1d9c" name="Summon Malevolent Maelstrom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Malevolent Maelstrom model wholly within 18&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Malevolent Maelstrom model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="af8c-d343-e2c2-d9e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory endless 法术. It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory endless 法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="abb3-1c3a-812b-214c" name="Devourerer of Sorcery and Souls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 within 12&quot; of a Malevolent Maelstrom, and that 法术 is not unbound, the Malevolent Maelstrom will attempt to steal the energies of the 法术. Make an additional unbinding roll for that 法术. If this unbinding roll is successful, the 法术 is unbound and 1 energy point is allocated to this model.  In addition, 1 energy point is allocated to this model for each 单位 destroyed within 6&quot; of this model. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 within 12寸 of a Malevolent Maelstrom, and that 法术 is not unbound, the Malevolent Maelstrom will attempt to steal the energies of the 法术. Make an additional unbinding roll for that 法术. If this unbinding roll is successful, the 法术 is unbound and 1 energy point is allocated to this model.  In addition, 1 energy point is allocated to this model for each 单位 destroyed within 6寸 of this model. </characteristic>
           </characteristics>
         </profile>
         <profile id="4eff-d80f-28d3-c7fb" name="Morbid Detonation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of each battle round, roll a dice for each Malevolent Maelstrom and add the number of energy points allocated to that model to the roll. On a 7+ that Malevolent Maelstrom explodes. Each 单位 within 3D6&quot; of the model that exploded suffers D3 mortal wounds. The model that exploded is then dispelled.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of each battle round, roll a dice for each Malevolent Maelstrom and add the number of energy points allocated to that model to the roll. On a 7+ that Malevolent Maelstrom explodes. Each 单位 within 3D6寸 of the model that exploded suffers D3 mortal wounds. The model that exploded is then dispelled.</characteristic>
           </characteristics>
         </profile>
         <profile id="5226-8299-4978-2ab2" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1169,12 +1169,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="34d7-8e3b-b9ac-04ca" name="Summon Prismatic Palisade" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Prismatic Palisade model wholly within 18&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Prismatic Palisade model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="73bc-6abe-4c52-6d23" name="Blinding Light" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of each turn, roll a dice for each 单位 within 6&quot; of this model. On a 5+ subtract 1 from hit rolls for attacks made by that 单位 until the end of the turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of each turn, roll a dice for each 单位 within 6寸 of this model. On a 5+ subtract 1 from hit rolls for attacks made by that 单位 until the end of the turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="5bb4-5949-0d90-e76f" name="Dazzling Brilliance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1205,12 +1205,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="8677-969c-7c16-007d" name="Summon Purple Sun of Shyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Purple Sun of Shyish model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Purple Sun of Shyish model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="9a94-5efa-6797-25e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory endless 法术. It can move up to 9&quot; and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory endless 法术. It can move up to 9寸 and can fly. </characteristic>
           </characteristics>
         </profile>
         <profile id="376e-119b-d822-4395" name="Swirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1220,17 +1220,17 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="2e18-4510-9f25-b7cb" name="End Given Form" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1&quot; of it at the end of its move, is subjected to the Purple Sun’s baleful energies. For each 单位 subjected to the baleful energies, roll a number of dice equal to the number of models in that 单位. For each 6+ one model in that 单位 is slain. If the 单位 has Wounds characteristic of 6 or more, it suffers 2D6 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, is subjected to the Purple Sun’s baleful energies. For each 单位 subjected to the baleful energies, roll a number of dice equal to the number of models in that 单位. For each 6+ one model in that 单位 is slain. If the 单位 has Wounds characteristic of 6 or more, it suffers 2D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea13-5990-3792-14cb" name="Visage of Xereus" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of all units while they are within 6&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of all units while they are within 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="eb5c-ce49-e22f-6df3" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move 12&quot; instead of 9&quot;. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move 12寸 instead of 9寸. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1254,12 +1254,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="b191-e4f0-c10b-2543" name="Summon Quicksilver Swords" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Quicksilver Swords model wholly within 10&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Quicksilver Swords model wholly within 10寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="035d-bc7f-cc14-3cc0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory endless 法术. It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory endless 法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f8f-9119-6422-7799" name="Volley of Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1269,7 +1269,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="c023-e731-5488-7bf0" name="Dancing Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6&quot; of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a CHAOS 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6寸 of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a CHAOS 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="ead7-9952-e01f-b3b3" name="Empowered by Chamon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1298,12 +1298,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="8123-c8c4-8bc6-cf0f" name="Summon Ravenak&apos;s Gnashing Jaws" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Ravenak’s Gnashing Jaws model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Ravenak’s Gnashing Jaws model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="0222-5edd-ad18-48a4" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory endless 法术. It can move up to 12&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory endless 法术. It can move up to 12寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="983f-75f4-4a12-f26b" name="Endless Appetite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1313,12 +1313,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="2237-adf9-c281-2916" name="Ravening Hunger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1&quot; of it at the end of its move, suffers D3 mortal wounds. In addition, subtract 1 from the Bravery characteristic of each 单位 that each 单位 that has any models it passed across until the end of the battle round.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, suffers D3 mortal wounds. In addition, subtract 1 from the Bravery characteristic of each 单位 that each 单位 that has any models it passed across until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
         <profile id="d633-25a6-2f08-6116" name="Empowered by Ghur" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Beasts, this model can move up to D6+12&quot; instead of 12&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Beasts, this model can move up to D6+12寸 instead of 12寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1342,7 +1342,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="6b93-3b5f-92bd-87df" name="Summon Shards of Valagharr" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Shards of Valagharr model wholly within 6&quot; of the caster, and then set up the second Shards of Valagharr model wholly within 12&quot; of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Shards of Valagharr model wholly within 6寸 of the caster, and then set up the second Shards of Valagharr model wholly within 12寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="01e5-7b2f-ac0e-5ec3" name="Ensnaring Soul-drain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1352,12 +1352,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="77e0-b51d-00d4-aa72" name="Twilight Translocation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this endless 法术 from the battlefield and set it up again anywhere on the battlefield wholly within 12&quot; of the 其他 Shards of Valagharr model from this endless 法术.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this endless 法术 from the battlefield and set it up again anywhere on the battlefield wholly within 12寸 of the 其他 Shards of Valagharr model from this endless 法术.</characteristic>
           </characteristics>
         </profile>
         <profile id="fac8-201d-3681-0dac" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the first Shards of Valagharr model can be set up wholly within 12&quot; of the caster, instead of 6&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the first Shards of Valagharr model can be set up wholly within 12寸 of the caster, instead of 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1378,22 +1378,22 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="8bc3-efdf-b033-2e24" name="Summon Soulscream Bridge" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Soulscream Bridge model wholly within 6&quot; of the caster, and then set up the second Soulscream Bridge model wholly within 12&quot; of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Soulscream Bridge model wholly within 6寸 of the caster, and then set up the second Soulscream Bridge model wholly within 12寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="3cd2-74a2-532b-25a5" name="Deathly Passage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6&quot; of one Soulscream Bridge model from this endless 法术 can travel across the Soulscream Bridge. If they do so, remove that 单位 from the battlefield and set it up again wholly within 6&quot; of the 其他 Soulscream Bridge model from this endless 法术, more than 9&quot; from any enemy units. That 单位 cannot make a normal move that phase. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6寸 of one Soulscream Bridge model from this endless 法术 can travel across the Soulscream Bridge. If they do so, remove that 单位 from the battlefield and set it up again wholly within 6寸 of the 其他 Soulscream Bridge model from this endless 法术, more than 9寸 from any enemy units. That 单位 cannot make a normal move that phase. </characteristic>
           </characteristics>
         </profile>
         <profile id="eb78-8010-9568-2703" name="Nightmarish Construct" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 6&quot; of a Soulscream Bridge model. This ability has no effect on DEATH units.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 6寸 of a Soulscream Bridge model. This ability has no effect on DEATH units.</characteristic>
           </characteristics>
         </profile>
         <profile id="01c1-54ee-b341-4681" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second Soulscream Bridge model can be set up wholly within 24&quot; of the first, instead of within 12&quot; of the first.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second Soulscream Bridge model can be set up wholly within 24寸 of the first, instead of within 12寸 of the first.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1414,17 +1414,17 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="f12d-a1e0-5270-2892" name="Summon Soulsnare Shackles" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Soulsnare Shackles model wholly within 12&quot; of the caster, then set up the second and third Soulsnare Shackles models wholly within 6&quot; of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Soulsnare Shackles model wholly within 12寸 of the caster, then set up the second and third Soulsnare Shackles models wholly within 6寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="0df7-ad58-26dc-d044" name="Bound for the Great Oubliette" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, roll a dice for each 单位 within 6&quot; of any Soulsnare Shackles models. On a 3+ halve the move characteristic of that 单位 until the end of that phase. On a 6 that 单位 also suffers D3 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, roll a dice for each 单位 within 6寸 of any Soulsnare Shackles models. On a 3+ halve the move characteristic of that 单位 until the end of that phase. On a 6 that 单位 also suffers D3 mortal wounds. </characteristic>
           </characteristics>
         </profile>
         <profile id="33a8-200f-b7a1-472b" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second and third Soulsnare Shackles models can be set up wholly within 9&quot; of the first, instead of 6&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second and third Soulsnare Shackles models can be set up wholly within 9寸 of the first, instead of 6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1445,7 +1445,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="09f9-9e4f-449d-b8f2" name="Summon Suffocating﻿﻿ Gravetide﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Suffocating Gravetide model wholly within 4&quot; of the caster. </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Suffocating Gravetide model wholly within 4寸 of the caster. </characteristic>
           </characteristics>
         </profile>
         <profile id="2bc2-6e1b-9c63-97c5" name="Necrotic Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1460,17 +1460,17 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="5c60-1bf5-7aab-1539" name="Rolling Barricade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a missile weapon targets a 单位 that has all of its models within 1&quot; of this model, the target 单位 receives the benefit of cover if the attacking 单位 is closer to this model than it is to the target 单位. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a missile weapon targets a 单位 that has all of its models within 1寸 of this model, the target 单位 receives the benefit of cover if the attacking 单位 is closer to this model than it is to the target 单位. </characteristic>
           </characteristics>
         </profile>
         <profile id="4846-a1b3-6a09-82f7" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12&quot; instead of 8&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12寸 instead of 8寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="3a60-d81a-79c4-dee0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory endless 法术. It can move up to 8&quot; and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory endless 法术. It can move up to 8寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1494,12 +1494,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="d37a-5a1b-11ad-fb89" name="Summon B﻿urning Head﻿﻿﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Burning Head model wholly within 3&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Burning Head model wholly within 3寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="c2a1-0a2c-f5ce-467b" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory endless 法术. It can move up to 9&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory endless 法术. It can move up to 9寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="7de4-5c93-a18e-9d5f" name="Fiery Missile" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1509,12 +1509,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="c7f4-81b1-042a-8e6e" name="Flaming Skull" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1&quot; of it at the end of its move, suffers D3 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, suffers D3 mortal wounds. </characteristic>
           </characteristics>
         </profile>
         <profile id="637c-9ac5-610d-9f17" name="Wrathful Aura" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for attacks made by units while they are wholly within 9&quot; of this model. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for attacks made by units while they are wholly within 9寸 of this model. </characteristic>
           </characteristics>
         </profile>
         <profile id="6171-ca22-0e67-91db" name="Empowered by Aqshy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1543,17 +1543,17 @@ to set up the 法师, then the 法师 is slain.</描述>
         <profile id="c3e6-0504-1147-d44a" name="Summon Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Umbral Spellportal model wholly within 12&quot; of the caster, and then set up the second Umbral Spellportal model wholly within 18&quot; of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Umbral Spellportal model wholly within 12寸 of the caster, and then set up the second Umbral Spellportal model wholly within 18寸 of the first.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a1a-1532-0887-c5d7" name="Arcane Passage" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 while they are within 1&quot; of an Umbral Spellportal model, the range and visibility of the 法术 can be measured from the 其他 Umbral Spellportal model from this endless 法术. After the range and visibility for a 法术 has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory endless 法术 finishes a move within 6&quot; of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6&quot; of the 其他 Umbral Spellportal model from this endless 法术. After an endless 法术 finishes a move within 6&quot; of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 while they are within 1寸 of an Umbral Spellportal model, the range and visibility of the 法术 can be measured from the 其他 Umbral Spellportal model from this endless 法术. After the range and visibility for a 法术 has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory endless 法术 finishes a move within 6寸 of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6寸 of the 其他 Umbral Spellportal model from this endless 法术. After an endless 法术 finishes a move within 6寸 of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="f61c-06bd-bd2e-6ce5" name="Empowered by Ulgu" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Shadow, the second Umbral Spellportal model can be set up anywhere on the battlefield, instead of within 18&quot; of the first.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Shadow, the second Umbral Spellportal model can be set up anywhere on the battlefield, instead of within 18寸 of the first.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1572,9 +1572,9 @@ to set up the 法师, then the 法师 is slain.</描述>
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the first battle round, after determining who has the first turn, roll a dice and consult the table on the right to determine which function all PENUMBRA terrain features on the battlefield gain for the duration of the battle.
 
-1-3: Orrey of Obfuscation: Re-roll save rolls of 1 for attacks that target units wholly within 12&quot; of any Penumbral terrain features. 
+1-3: Orrey of Obfuscation: Re-roll save rolls of 1 for attacks that target units wholly within 12寸 of any Penumbral terrain features.
 
-4-6: Orrey of Illumination: At the start of your 英雄 phase, you receive 1 extra command point if any friendly HEROES are within 12&quot; of any PENUMBRAL terrain features.
+4-6: Orrey of Illumination: At the start of your 英雄阶段, you receive 1 extra command point if any friendly HEROES are within 12寸 of any PENUMBRAL terrain features.
 </characteristic>
           </characteristics>
         </profile>
@@ -1598,7 +1598,7 @@ to set up the 法师, then the 法师 is slain.</描述>
       <profiles>
         <profile id="d525-c9a4-8f8a-584f" name="Gotrek Gurnisson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1606,7 +1606,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="6903-a8c0-cb34-28a6" name="Unstoppable Battle Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3&quot; of an enemy 单位, this model can fight again.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3寸 of an enemy 单位, this model can fight again.</characteristic>
           </characteristics>
         </profile>
         <profile id="81d1-d8bf-0253-4ca3" name="Krag Blackhammer’s Master Rune" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1640,7 +1640,7 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="91eb-3bb5-43e6-e6d5" name="Zangrom-Thaz" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1683,7 +1683,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="5865-fb09-7643-0772" name="Cursed Book" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You and your opponent must subtract 1 from hit rolls made for units within 3&quot; of the bearer, unless the 单位 has the DEATH keyword.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You and your opponent must subtract 1 from hit rolls made for units within 3寸 of the bearer, unless the 单位 has the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1701,7 +1701,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="6d33-b575-b1b1-3d40" name="Cloak of Mists and Shadows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of any combat phase, the bearer can use this cloak. If it does so, remove the bearer from the battlefield, and then set it up anywhere on the battlefield within 12&quot; of its original location and more than 3&quot; from any enemy models. If this is impossible, this model remains in its current location.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of any combat phase, the bearer can use this cloak. If it does so, remove the bearer from the battlefield, and then set it up anywhere on the battlefield within 12寸 of its original location and more than 3寸 from any enemy models. If this is impossible, this model remains in its current location.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1719,7 +1719,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="cf43-0de1-7c17-8d94" name="Blade of Dark Summons" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄 phase, you can set up a SUMMONABLE DEATH 单位 wholly within 12&quot; of the bearer and more than 3&quot; from any enemy models, and add it to your army. The models in the 单位 must have a combined Wounds characteristic of no more than a 2D6 roll.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can set up a SUMMONABLE DEATH 单位 wholly within 12寸 of the bearer and more than 3寸 from any enemy models, and add it to your army. The models in the 单位 must have a combined Wounds characteristic of no more than a 2D6 roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1737,7 +1737,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9d60-be5a-3bf0-9eea" name="Black Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄 phase, the bearer can use this amulet. If it does so, pick an enemy 单位 within 12&quot; of the bearer. Inflict a number of mortal wounds equal to the number of the current battle round on the 单位 you picked.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this amulet. If it does so, pick an enemy 单位 within 12寸 of the bearer. Inflict a number of mortal wounds equal to the number of the current battle round on the 单位 you picked.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1755,7 +1755,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3276-e79f-0eb4-8955" name="Tomb Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. For each wound roll of 6+ you make for this weapon, you can heal 1 wound that has been allocated to a friendly DEATHmodel within 6&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. For each wound roll of 6+ you make for this weapon, you can heal 1 wound that has been allocated to a friendly DEATHmodel within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1773,7 +1773,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="b51f-e0a9-e729-7d56" name="Ring of Immortality" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice. On a 3+ the bearer is not slain and D3 wounds allocated to them are healed (any excess damage is negated). Then, remove the bearer from the battlefield and set them up again within 18&quot; of their original location and more than 3&quot; from any enemy models.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice. On a 3+ the bearer is not slain and D3 wounds allocated to them are healed (any excess damage is negated). Then, remove the bearer from the battlefield and set them up again within 18寸 of their original location and more than 3寸 from any enemy models.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1798,7 +1798,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0764-cc0b-794f-7edb" name="Ruler of the Night" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions 战斗特性 if they are within 12&quot; of this general rather than only 6&quot;.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions 战斗特性 if they are within 12寸 of this general rather than only 6寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1828,7 +1828,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9055-f2ef-067f-738e" name="Death Incarnate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄 phase, pick an enemy 单位 within 3&quot; of this general and roll 2D6. If the roll equals or exceeds the enemy 单位’s Bravery characteristic, inflict D3 mortal wounds on the 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick an enemy 单位 within 3寸 of this general and roll 2D6. If the roll equals or exceeds the enemy 单位’s Bravery characteristic, inflict D3 mortal wounds on the 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1870,7 +1870,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="7c4d-ae2f-91a1-4769" name="Supernatural Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1892,7 +1892,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3c81-80a2-a7fe-6433" name="Hammerblade" publicationId="e51d-b1a3-pubE5LCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one melee weapon that this model can use. Instead of attacking normally with that weapon, you can roll a dice for each model within 3&quot; of the bearer (apart from the bearer). On a roll of 5 or 6, 1 mortal wound is inflicted on that model&apos;s 单位.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one melee weapon that this model can use. Instead of attacking normally with that weapon, you can roll a dice for each model within 3寸 of the bearer (apart from the bearer). On a roll of 5 or 6, 1 mortal wound is inflicted on that model&apos;s 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1910,7 +1910,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8f53-5df2-f0c3-3733" name="Battered Talisman" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+, the mortal wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+, the mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1928,7 +1928,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9a86-99f2-1f5e-6f23" name="Rockeye" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your 英雄 phase, pick an enemy 单位 within 12&quot; of this bearer. Until your next 英雄 phase, add 1 to hit rolls made by the bearer when they target the 单位 you picked.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick an enemy 单位 within 12寸 of this bearer. Until your next 英雄阶段, add 1 to hit rolls made by the bearer when they target the 单位 you picked.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1946,7 +1946,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c24f-4f2e-f512-ecf9" name="Bellowing Blade" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">When the bearer is picked to fight, you can re-roll one failed wound roll for bearers attacks in that fight for each enemy 英雄 that was within 12&quot; of the bearer when they were picked to fight.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When the bearer is picked to fight, you can re-roll one failed wound roll for bearers attacks in that fight for each enemy 英雄 that was within 12寸 of the bearer when they were picked to fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1964,7 +1964,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0994-850a-5408-afb3" name="Collar of Domination" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the enemy movement phase, pick an enemy 怪兽 within 3&quot; of the bearer and roll 2D6. If the roll is equal to or greater than the enemy 怪兽’s Bravery characteristic, it must retreat in that movement phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the enemy movement phase, pick an enemy 怪兽 within 3寸 of the bearer and roll 2D6. If the roll is equal to or greater than the enemy 怪兽’s Bravery characteristic, it must retreat in that movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1982,7 +1982,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c11d-9966-5de8-6dad" name="Battle Brew" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄 phase, you can declare that bearer will take either one or two swigs of Battle Brew. If the bearer takes one swig, add 1 to all hit and wound rolls for the bearer until your next 英雄 phase. If the bearer takes two swigs, add 2 to all hit and wound rolls for the model until your next 英雄 phase, but you must allocate D6 mortal wounds to the earer at the end of the turn in which they drank the brew.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that bearer will take either one or two swigs of Battle Brew. If the bearer takes one swig, add 1 to all hit and wound rolls for the bearer until your next 英雄阶段. If the bearer takes two swigs, add 2 to all hit and wound rolls for the model until your next 英雄阶段, but you must allocate D6 mortal wounds to the earer at the end of the turn in which they drank the brew.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2004,7 +2004,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bcd1-9176-4492-23ec" name="Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄 phase, pick a terrain feature that is within 6&quot; of your general and at least 5 其他 friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a terrain feature that is within 6寸 of your general and at least 5 其他 friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2040,7 +2040,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e6c7-5519-f527-355c" name="Bellowing Tyrant" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄 phase, pick a friendly DESTRUCTION 单位 within 6&quot; of the general in your 英雄 phase. Until your next 英雄 phase, add 1 to charge and run rolls for the 单位, and use the general’s Bravery characteristic for the 单位 instead of its own.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly DESTRUCTION 单位 within 6寸 of the general in your 英雄阶段. Until your next 英雄阶段, add 1 to charge and run rolls for the 单位, and use the general’s Bravery characteristic for the 单位 instead of its own.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2119,7 +2119,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="264c-5601-8894-49c6" name="Lord of War" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄 phase, pick a friendly CHAOSunit within 3&quot; of this general and roll a dice. On a 4+ you can add 1 to hit rolls for the 单位 you picked until your next 英雄 phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly CHAOSunit within 3寸 of this general and roll a dice. On a 4+ you can add 1 to hit rolls for the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2131,7 +2131,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="5b4b-6ac6-d235-c9da" name="Terrifying Presence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2143,7 +2143,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="617b-164a-a339-55ae" name="Great Destroyer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see 战斗特性) for units while they are within 12&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see 战斗特性) for units while they are within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2174,7 +2174,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f14b-13a5-16f7-d8f3" name="Inspiring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2244,7 +2244,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="64fc-7c64-bad6-8fa0" name="Quicksilver Potion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this potion. If you do so, in that combat phase, the bearer (and its mount, if it has one) fights immediately, instead of fighting later in the combat phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this potion. If you do so, in that combat phase, the bearer (and its mount, if it has one) fights immediately, instead of fighting later in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2262,7 +2262,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ed09-eabc-e937-3cb5" name="Obstinate Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons. Improve the Rend characteristic of the weapon by 1.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons. Improve the Rend characteristic of the weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2280,7 +2280,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="eadc-c311-18a7-b983" name="Relic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons. Increase the Damage characteristic of that weapon by 1.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons. Increase the Damage characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2298,7 +2298,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="a04c-51b5-a962-711c" name="Hoarfrost" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons. If an enemy model is allocated any wounds from this weapon and is not slain, subtract 1 from that model&apos;s hit rolls for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons. If an enemy model is allocated any wounds from this weapon and is not slain, subtract 1 from that model&apos;s hit rolls for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2316,7 +2316,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="161e-9efa-2b0a-fefe" name="Talisman of Blinding Light" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this amulet. If you do so, in that combat phase, subtract 1 from hit rolls made for attacks that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this amulet. If you do so, in that combat phase, subtract 1 from hit rolls made for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2334,7 +2334,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e580-f2ca-4ef6-85b6" name="Phoenix Stone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In each 英雄 phase, you can heal 1 wound that has been allocated to the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In each 英雄阶段, you can heal 1 wound that has been allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2359,7 +2359,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c526-fe9d-86ef-39f9" name="Daemonic Weapon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Each time you roll a wound roll of 6+ for that weapon, that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Each time you roll a wound roll of 6+ for that weapon, that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2377,7 +2377,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0043-fadd-e00b-8ebc" name="Chaos Runeblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Increase the Attacks characteristic of that weapon by 1.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Increase the Attacks characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2395,7 +2395,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="057d-22fb-6708-f98f" name="Beguiling Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick one enemy model within 3&quot; of the bearer. Subtract 1 from hit rolls made for that model in that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick one enemy model within 3寸 of the bearer. Subtract 1 from hit rolls made for that model in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2413,7 +2413,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f0fd-58df-77bf-7a88" name="Chaos Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+, the wound is negated. Add 1 to the roll if the wound was inflicted by a model with the ORDER keyword.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+, the wound is negated. Add 1 to the roll if the wound was inflicted by a model with the ORDER keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2431,7 +2431,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d726-c6db-121c-8a13" name="Favour of the Gods" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 1 to the Wounds characteristic of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Wounds characteristic of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2446,7 +2446,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="fe7c-fded-1e2c-6c81" name="Crown of Conquest" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Friendly CHAOS units do not have to take battleshock tests while they are within 6&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Friendly CHAOS units do not have to take battleshock tests while they are within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2473,7 +2473,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="409a-1a19-61fc-ebab" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16&quot; of the PRIEST and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2485,7 +2485,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="933a-c947-9fb0-e0a6" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 3&quot; of the PRIEST. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 3寸 of the PRIEST. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2497,7 +2497,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bb1e-a8e5-4e0f-1fe6" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 英雄 from your army that is within 16&quot; of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 英雄 from your army that is within 16寸 of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2509,7 +2509,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="a821-00f5-c6fc-2645" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16&quot; of the PRIEST and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2521,7 +2521,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="4cd3-aaf5-0845-37e4" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16&quot; of the PRIEST and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2533,7 +2533,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ffb7-f9aa-a104-73af" name="Magebane Hex" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄 phase, the PRIEST can attempt to unbind one additional 法术 in each enemy 英雄 phase in the same manner as a 法师.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the PRIEST can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2590,7 +2590,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f306-24f5-fc80-aef9" name="Entangling Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2608,7 +2608,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e387-e771-770f-df3f" name="Arboreal Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3&quot; of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2626,7 +2626,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="4afd-f2e6-b490-8661" name="Ghyrstrike" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2644,7 +2644,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0a70-7426-d0e2-f62c" name="The Sunderblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, roll a dice for each enemy 单位 within 9&quot; of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2662,7 +2662,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8efc-9cae-f0f0-ee85" name="Jadewound Thorn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2680,7 +2680,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="87eb-d74e-a1e9-06fa" name="Blade of Hammerhal Ghyra" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2755,7 +2755,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="07f6-7fa7-96a2-ab12" name="Hypersnare Seeds" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the end of your opponent’s shooting phase, pick an enemy 单位 within 8&quot; of the bearer that is visible to them and roll a dice. On a 5+ that 单位 may not charge in the subsequent charge phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of your opponent’s shooting phase, pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 5+ that 单位 may not charge in the subsequent charge phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2773,7 +2773,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0f52-e252-90f1-7993" name="Wand of Restoration" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your 英雄 phase, pick a friendly model within 6&quot; of the bearer that is visible to them. Heal 1 wound allocated to that model.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick a friendly model within 6寸 of the bearer that is visible to them. Heal 1 wound allocated to that model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2791,7 +2791,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="97ae-8b59-27cd-47b4" name="Ghyrropian Gauntlets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can move an extra 3&quot; when making a pile-in move.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can move an extra 3寸 when making a pile-in move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2809,7 +2809,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="10d8-dc26-5c81-537c" name="Greenglade Flask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄 phase, the bearer can drink from the Greenglade Flask. If they do, heal D6 wounds allocated to them.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink from the Greenglade Flask. If they do, heal D6 wounds allocated to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2827,7 +2827,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="b38d-8da2-4b98-14be" name="Verdant Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your 英雄 phase, the bearer may attempt to dispel one endless 法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer may attempt to dispel one endless 法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2845,7 +2845,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d11d-df26-af25-0ff6" name="Jade Diadem" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, heal 1 wound allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2877,7 +2877,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="5979-efc9-1495-26a1" name="Stonehorn Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Stonehorn Blade. Roll a dice at the end of any phase in which any wounds were inflicted by that weapon. On a 5+ you can pick an enemy 单位 within 3&quot; of the bearer. That 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Stonehorn Blade. Roll a dice at the end of any phase in which any wounds were inflicted by that weapon. On a 5+ you can pick an enemy 单位 within 3寸 of the bearer. That 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2895,7 +2895,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="1475-454d-4ebe-654e" name="Rockjaws" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8&quot; of the bearer that is visible to them and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2913,7 +2913,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bd7f-43a8-2330-ecc0" name="Rageblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Rageblade. Add 1 to the attacks characteristic of that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Rageblade. Add 1 to the attacks characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2931,7 +2931,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="a085-d9fc-4c50-ef31" name="Blade of Carving" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Carving. If a hit roll for an attack with this weapon is 6+ the wound roll for that attack is automatically successful.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Carving. If a hit roll for an attack with this weapon is 6+ the wound roll for that attack is automatically successful.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2949,7 +2949,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="6732-0f63-f666-6932" name="Anraheir&apos;s Claw" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Anraheirs’s Claw. If the wound roll for that weapon is 6+ add 2 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Anraheirs’s Claw. If the wound roll for that weapon is 6+ add 2 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2967,7 +2967,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="7c3d-188b-a685-d7dd" name="Amberglaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be an Amberglaive. Add 1&quot; to the Range characteristic of that weapon (to a maximum of 3&quot;). In addition, add 1 to hit rolls for that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be an Amberglaive. Add 1寸 to the Range characteristic of that weapon (to a maximum of 3寸). In addition, add 1 to hit rolls for that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2999,7 +2999,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="73e1-9ac6-3ab2-9103" name="Beastcaller&apos;s Bones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, roll a dice for each 怪兽 within 3&quot; of the bearer. On a 5+ the 怪兽 being rolled for cannot attack this phase. If the 怪兽 is a mount, the rider may still attack with their own weapons as normal.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, roll a dice for each 怪兽 within 3寸 of the bearer. On a 5+ the 怪兽 being rolled for cannot attack this phase. If the 怪兽 is a mount, the rider may still attack with their own weapons as normal.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3017,7 +3017,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="336b-2f8f-56b8-f5ff" name="Tuskhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice for each enemy 单位 within 1&quot; of the bearer after the bearer completes a charge move. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice for each enemy 单位 within 1寸 of the bearer after the bearer completes a charge move. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3035,7 +3035,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9adf-c38a-2a1b-2d13" name="Shardfist Pelt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time you make a save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time you make a save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3053,7 +3053,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e127-3966-4632-879b" name="Gargant-bone Dice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄 phase, you can declare that the bearer will roll their Gargant-bone Dice. If you do so, roll three dice. For each roll of a 5+ each enemy 单位 within 6&quot; of the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will roll their Gargant-bone Dice. If you do so, roll three dice. For each roll of a 5+ each enemy 单位 within 6寸 of the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3071,7 +3071,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0f5e-cd66-e51d-3710" name="Drakeforged Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer against attacks that have a random Damage characteristic.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer against attacks that have a random Damage characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3089,7 +3089,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bd37-7c2e-fe55-314e" name="Gryph-feather Charm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1&quot; to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1寸 to the bearer’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3121,7 +3121,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f1af-fc4b-0e18-82f1" name="Gildenbane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If an enemy model is the bearer of an artefact of power, they cannot use the rules for their artefact of power while they are within 3&quot; of the bearer of Gildenbane.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If an enemy model is the bearer of an artefact of power, they cannot use the rules for their artefact of power while they are within 3寸 of the bearer of Gildenbane.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3139,7 +3139,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8aac-bf2d-7064-bea6" name="Alchemical Chain" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind a single 法术 in each enemy 英雄 phase in the same manner as a 法师 . If the bearer is already a 法师 , they can attempt to unbind 1 additional 法术 instead.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind a single 法术 in each enemy 英雄阶段 in the same manner as a 法师 . If the bearer is already a 法师 , they can attempt to unbind 1 additional 法术 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3157,7 +3157,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="6c8b-0efe-002c-ab0a" name="Bejeweled Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, pick an enemy 单位 within 1&quot; of the bearer and roll a dice. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, pick an enemy 单位 within 1寸 of the bearer and roll a dice. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3175,7 +3175,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="681d-11ee-2651-fc0c" name="Godwrought Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3193,7 +3193,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="daff-8374-2b48-a90f" name="Argent Armor" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks for melee weapons that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks for melee weapons that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3211,7 +3211,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="edc9-b33c-3caf-0e93" name="Hydroxskin Cloak" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can fly. After the bearer has made a normal move, you can pick 1 单位 that has any models that the bearer has passed across and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. After the bearer has made a normal move, you can pick 1 单位 that has any models that the bearer has passed across and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3243,7 +3243,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ec22-73f5-abca-9fee" name="Aiban&apos;s Hidden Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Aiban’s Hidden Blade. If the hit roll for that weapon is 6+ add 1 to the Damage characteristic of that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Aiban’s Hidden Blade. If the hit roll for that weapon is 6+ add 1 to the Damage characteristic of that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3261,7 +3261,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="1cd0-e539-5fe9-3c0f" name="Argentine&apos;s Tooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Argentine’s Tooth. Re-roll hit rolls of 1 for this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Argentine’s Tooth. Re-roll hit rolls of 1 for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3279,7 +3279,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="dac3-1f3f-5859-60ff" name="Chamonite Darts" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8&quot; of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3297,7 +3297,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="97d2-ab76-2365-b932" name="Crucible of Molten Silver" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, pick a point on the battlefield within 9&quot; of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3315,7 +3315,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8f69-2c69-046d-e4d9" name="Flowstone Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Flowstone Blade. Each time you roll a hit roll of 6+ for this weapon, add 1 to the wound roll for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Flowstone Blade. Each time you roll a hit roll of 6+ for this weapon, add 1 to the wound roll for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3333,7 +3333,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ac94-fe36-5248-e9db" name="Rune Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Rune Blade. That weapon has a Rend characteristic of -3.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Rune Blade. That weapon has a Rend characteristic of -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3365,7 +3365,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="93d9-7128-bb82-235f" name="Ruby Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your 英雄 phase, you can pick the closest enemy 单位 within 18&quot; of the bearer and roll a dice. On a 5+ that 单位 suffers D3 mortal wounds. If two or more enemy units are equally close to the bearer, you can pick any of them.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick the closest enemy 单位 within 18寸 of the bearer and roll a dice. On a 5+ that 单位 suffers D3 mortal wounds. If two or more enemy units are equally close to the bearer, you can pick any of them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3383,7 +3383,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="fee8-91fb-5c1a-3af6" name="Exile Torch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick an enemy 英雄 within 3&quot; of the bearer and roll a dice. On a 6+ that 英雄 suffers 1 mortal wound and may not fight or be chosen as the target of an attack until the end of the turn.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick an enemy 英雄 within 3寸 of the bearer and roll a dice. On a 6+ that 英雄 suffers 1 mortal wound and may not fight or be chosen as the target of an attack until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3401,7 +3401,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="cb07-b23f-91f9-48a7" name="Onyx Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be an Onyx Blade. Add 1 to wound rolls for that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be an Onyx Blade. Add 1 to wound rolls for that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3419,7 +3419,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="5d56-f515-1091-90e8" name="Purefire Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, roll a dice for each enemy 单位 within 9&quot; of the bearer. On a 5+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 5+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3437,7 +3437,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="fbdb-35e7-6e56-ee1c" name="Magmaforged Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Magmaforged Blade. If the wound roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Magmaforged Blade. If the wound roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3455,7 +3455,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="14b4-4b1b-7b05-c9c5" name="Magmadroth Blood Vials" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8&quot; of the bearer and roll a dice. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8寸 of the bearer and roll a dice. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3487,7 +3487,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3285-b445-7ff8-02eb" name="Essence of Vulcatrix" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, the bearer may drink the Essence of Vulcatrix. If they do so, roll a dice. On a 1, the bearer suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the bearer until your next 英雄 phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer may drink the Essence of Vulcatrix. If they do so, roll a dice. On a 1, the bearer suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the bearer until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3505,7 +3505,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3fb7-1565-42eb-b97f" name="Cleansing Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, you may declare that the bearer will activate the brooch. If you do so, heal D3 wounds allocated to them.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you may declare that the bearer will activate the brooch. If you do so, heal D3 wounds allocated to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3523,7 +3523,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="2bf3-ec82-8dd2-cc1f" name="Crown of Flames" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 1 to the Bravery characteristic of friendly units while they are wholly within 9&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Bravery characteristic of friendly units while they are wholly within 9寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3541,7 +3541,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8bd6-b3bc-010b-bed5" name="Ignax&apos;s Scales" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3559,7 +3559,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ea0e-bc83-fe89-0e82" name="Thermalrider Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 4 to the bearer’s Movement characteristic. In addition, the bearer may fly.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 4 to the bearer’s Movement characteristic. In addition, the bearer may fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3577,7 +3577,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="26e5-1179-3359-2812" name="Smouldering Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time you make a successful save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time you make a successful save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3609,7 +3609,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8a2a-4de2-c167-4df5" name="Cronehair Fetish" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can add or subtract 1 from the result of any roll on the Shyish Realmscape Features table.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can add or subtract 1 from the result of any roll on the Shyish Realmscape Features table.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3627,7 +3627,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="4aeb-19ce-6f47-c88d" name="Goblet of Draining" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If 1 or more wounds are inflicted on an enemy 英雄 by the bearer, roll a dice. On a 5+ that 英雄 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If 1 or more wounds are inflicted on an enemy 英雄 by the bearer, roll a dice. On a 5+ that 英雄 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3645,7 +3645,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c5e0-bf9f-2d10-bcd4" name="The Ragged Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your opponent’s shooting phase, you can declare that bearer will shroud themselves with the Ragged Cloak. If you do so, the bearer may not be chosen as the target of an attack until the end of the phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your opponent’s shooting phase, you can declare that bearer will shroud themselves with the Ragged Cloak. If you do so, the bearer may not be chosen as the target of an attack until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3663,7 +3663,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8fb6-5c3f-3567-f7fd" name="Amethyst Blindmask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6&quot; of the bearer. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of the bearer. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3681,7 +3681,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c780-531f-252f-5a02" name="Ethereal Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Ignore modifiers (positive or negative) when making save rolls for this model.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Ignore modifiers (positive or negative) when making save rolls for this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3699,7 +3699,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="52b5-d07d-09f9-e305" name="Sepulchral Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3731,7 +3731,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c842-d02d-a8f6-a676" name="Blade of Endings" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Endings. If the hit roll for that weapon is 6+ add 2 to the Damage characteristic of that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Endings. If the hit roll for that weapon is 6+ add 2 to the Damage characteristic of that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3749,7 +3749,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="94d7-9348-e0d0-6957" name="Splintertooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, pick an enemy 单位 within 8&quot; of the bearer and roll three dice. If two dice have the same roll, that enemy 单位 suffers D3 mortal wounds. If all three dice have the same roll, that enemy 单位 suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, pick an enemy 单位 within 8寸 of the bearer and roll three dice. If two dice have the same roll, that enemy 单位 suffers D3 mortal wounds. If all three dice have the same roll, that enemy 单位 suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3767,7 +3767,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f786-d277-8f65-aca1" name="Wraithbow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, pick an enemy 单位 within 18&quot; of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, pick an enemy 单位 within 18寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3785,7 +3785,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="fc9e-5278-ce47-398d" name="Sliver of Decrepitude" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Sliver of Decrepitude. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds by that weapon are inflicted on an enemy 英雄 or 怪兽 , subtract 2&quot; from that 英雄 or 怪兽 ’s Move characteristic for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Sliver of Decrepitude. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds by that weapon are inflicted on an enemy 英雄 or 怪兽 , subtract 2寸 from that 英雄 or 怪兽 ’s Move characteristic for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3803,7 +3803,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f03a-98cd-4056-e1ce" name="Banshee Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Banshee Blade. Each time you roll a hit roll of 6+ for this weapon, roll 2D6. If the roll is equal to or more than the target’s Bravery characteristic, that attack inflicts D3 mortal wounds in addition to its normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Banshee Blade. Each time you roll a hit roll of 6+ for this weapon, roll 2D6. If the roll is equal to or more than the target’s Bravery characteristic, that attack inflicts D3 mortal wounds in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3821,7 +3821,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="537a-251e-b855-960b" name="Lifebane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Lifebane. Add 1 to wound rolls for this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be Lifebane. Add 1 to wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3853,7 +3853,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c013-997e-c57b-0567" name="Miasmatic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Miasmatic Blade. Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Miasmatic Blade. Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3871,7 +3871,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9c5c-9a42-9b6e-b026" name="Sword of Judgement" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Sword of Judgement. If the hit roll for an attack with that weapon against a 英雄 or 怪兽 is 6+, that attack inflicts D6 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Sword of Judgement. If the hit roll for an attack with that weapon against a 英雄 or 怪兽 is 6+, that attack inflicts D6 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3889,7 +3889,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9671-85c4-632c-b37c" name="Dimensional Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Dimensional Blade. Change the Rend characteristic of this weapon to -3.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Dimensional Blade. Change the Rend characteristic of this weapon to -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3907,7 +3907,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="1408-0bfe-b262-29a0" name="Blade of Secrets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Secrets. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 法师 by that weapon, pick one 法术 that 法师 knows. That 法师 may not attempt to cast that 法术 again during that battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Secrets. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 法师 by that weapon, pick one 法术 that 法师 knows. That 法师 may not attempt to cast that 法术 again during that battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3925,7 +3925,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="211b-014f-0519-3057" name="Blade of the Thirteen Dominions" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of the Thirteen Dominions. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, subtract 1 from hit rolls for attacks made by that 单位 until the end of the phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of the Thirteen Dominions. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, subtract 1 from hit rolls for attacks made by that 单位 until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3943,7 +3943,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="cc98-df0e-8937-08cf" name="Blade of Folded Shadow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Folded Shadows. Add 1 to hit rolls for this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Folded Shadows. Add 1 to hit rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3975,7 +3975,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="b5ec-7501-6226-de38" name="Spellmirror" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If a friendly 单位 within 6&quot; of the bearer is affected by a 法术, you can roll a dice. On a 5+ that 单位 is not affected by the 法术. On a 1 the Spellmirror may not be used for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If a friendly 单位 within 6寸 of the bearer is affected by a 法术, you can roll a dice. On a 5+ that 单位 is not affected by the 法术. On a 1 the Spellmirror may not be used for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3993,7 +3993,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d17f-c2f2-b06b-e153" name="Talisman of the Watcher" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the bearer is not within 3&quot; of an enemy 单位 at the start of the combat phase, pick a friendly 单位 within 9&quot; of the bearer. You can re-roll save rolls of 1 for that 单位 until the end of that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is not within 3寸 of an enemy 单位 at the start of the combat phase, pick a friendly 单位 within 9寸 of the bearer. You can re-roll save rolls of 1 for that 单位 until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4011,7 +4011,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="03b7-b8e8-9cd0-04f2" name="Betrayer&apos;s Crown" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, pick an enemy 单位 within 3&quot; of the bearer that has two or more models. Roll a dice for each model in that enemy 单位. For each 5+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, pick an enemy 单位 within 3寸 of the bearer that has two or more models. Roll a dice for each model in that enemy 单位. For each 5+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4029,7 +4029,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="7da8-f3cc-2a76-58ac" name="Doppelganger Cloak" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will put on the cloak. If you do so, the bearer cannot be chosen as the target of attacks made with melee weapons unless the bearer has made any attacks earlier in that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will put on the cloak. If you do so, the bearer cannot be chosen as the target of attacks made with melee weapons unless the bearer has made any attacks earlier in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4047,7 +4047,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f5cb-68c4-4298-578d" name="Trickster&apos;s Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Re-roll successful casting rolls for enemy WIZARDS while they are within 8&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll successful casting rolls for enemy WIZARDS while they are within 8寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4065,7 +4065,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ac19-7456-e50e-e378" name="Wristbands of Illusion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4097,7 +4097,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="6509-98f3-7470-cf89" name="Atherquartz Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time you spend a command point, roll a dice. On a 5+ you receive 1 command point.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time you spend a command point, roll a dice. On a 5+ you receive 1 command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4115,7 +4115,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="535b-e357-2fa2-64d2" name="Sash of the Ten Paradises" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2&quot; to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2寸 to the bearer’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4133,7 +4133,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c510-7073-87cb-e034" name="Guardian&apos;s Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, the bearer can call upon the guardian spirits. If they do so, until your next 英雄 phase, roll a dice each time you allocate a wound to the bearer. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can call upon the guardian spirits. If they do so, until your next 英雄阶段, roll a dice each time you allocate a wound to the bearer. On a 4+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4151,7 +4151,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d99f-8005-1a6e-1c64" name="Lightshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6&quot; of them. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of them. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4169,7 +4169,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="04d2-fb64-23c3-6aa9" name="Lens of Refraction" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6&quot; of the bearer suffers any mortal wounds inflicted by a 法术 or endless 法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6寸 of the bearer suffers any mortal wounds inflicted by a 法术 or endless 法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4187,7 +4187,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d743-5950-4bec-bf00" name="Mirrored Curiass" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+ the wound is negated. On a 6+ you can also pick an enemy 单位 within 6&quot; of the bearer. That 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+ the wound is negated. On a 6+ you can also pick an enemy 单位 within 6寸 of the bearer. That 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4219,7 +4219,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3d5f-f193-f463-5b95" name="Blade of Symmetry" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Symmetry. Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Blade of Symmetry. Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4237,7 +4237,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="33f0-ffe3-8a05-b0d7" name="Prism Amyntok" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8&quot; of the bearer and roll four dice. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick an enemy 单位 within 8寸 of the bearer and roll four dice. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4255,7 +4255,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="dbdc-638f-1b85-d78b" name="Crystalline Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Crystalline Blade. Add 1 to wound rolls for this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Crystalline Blade. Add 1 to wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4273,7 +4273,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e5c1-8bd0-bde5-1e27" name="Sunblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Sunblade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 英雄 or 怪兽 by that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Sunblade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 英雄 or 怪兽 by that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4291,7 +4291,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ada3-9c56-e746-9935" name="Gleaming Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Gleaming Blade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons to be a Gleaming Blade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, heal 1 wound allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4309,7 +4309,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="62d4-4ab1-2fdb-6758" name="Luminary Rod" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, pick a point on the battlefield within 9&quot; of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4459,37 +4459,37 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="dbea-58cc-3513-1868" name="Stoke Rage" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12&quot; of the caster that is visible to them. Add 1 to wound rolls and charge rolls for that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12寸 of the caster that is visible to them. Add 1 to wound rolls and charge rolls for that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="c833-e77e-7d86-96fe" name="Inferno Blades" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12&quot; of the caster. Add 1 to the Damage characteristic of melee weapons used by that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12寸 of the caster. Add 1 to the Damage characteristic of melee weapons used by that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="da41-8a88-bda1-7c5f" name="Fiery Blast" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18&quot; of the caster that is visible to them. Roll a dice for each 单位 (friend or foe) within 3&quot; of this point. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster that is visible to them. Roll a dice for each 单位 (friend or foe) within 3寸 of this point. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="297e-c1cf-ad98-4df9" name="Glare of Vulcatrix" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 9&quot; of the caster that is visible to them. Roll a dice; if the result is higher than the 单位’s Wounds characteristic, a model from that 单位 is slain.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 9寸 of the caster that is visible to them. Roll a dice; if the result is higher than the 单位’s Wounds characteristic, a model from that 单位 is slain.</characteristic>
               </characteristics>
             </profile>
             <profile id="5312-c3ec-1d59-ed83" name="Parch" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster. That 单位 must halve its Move characteristic until your next 英雄 phase. In addition, roll a dice each time that 单位 completes a charge move until your next 英雄 phase. On a 5+ the 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster. That 单位 must halve its Move characteristic until your next 英雄阶段. In addition, roll a dice each time that 单位 completes a charge move until your next 英雄阶段. On a 5+ the 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="b054-6b9d-5733-a302" name="Incandescent Form" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, subtract 1 from hit rolls for attacks that target the caster until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, subtract 1 from hit rolls for attacks that target the caster until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4502,37 +4502,37 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="2c42-d061-a087-9527" name="Rain of Lead" publicationId="e51d-b1a3-pubEHOGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, subtract 1&quot; from that 单位’s Move characteristic until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, subtract 1寸 from that 单位’s Move characteristic until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="0f74-a77d-dd05-d038" name="Curse of Rust" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster that is visible to them. Subtract 1 from hit rolls and save rolls for that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. Subtract 1 from hit rolls and save rolls for that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="ed1d-11ec-1a8d-004a" name="Molten Gaze" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each 单位 其他 than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each 单位 其他 than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="1617-a762-c075-2410" name="Rule of Burning Iron" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster that is visible to them. Roll a dice for each model in that 单位. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. Roll a dice for each model in that 单位. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="3784-d44d-177e-60e3" name="Glittering Robe" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, re-roll save rolls of 1 for the caster until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, re-roll save rolls of 1 for the caster until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="02b9-131b-e438-e1da" name="Transmutation" publicationId="e51d-b1a3-pubEKHGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster that is visible to them and roll 3 dice. For each roll that is greater than that 单位’s Wounds characteristic, 1 model from that 单位 is slain.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them and roll 3 dice. For each roll that is greater than that 单位’s Wounds characteristic, 1 model from that 单位 is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4545,37 +4545,37 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="4980-8f82-01df-d8c1" name="The Amber Spear" publicationId="e51d-b1a3-pubEHOGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each 单位 其他 than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each 单位 其他 than the caster that has models passed across by this line suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="47d2-8fe8-a1cd-fcd4" name="Bestial Spirit" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, if the 单位 suffers 3 mortal wounds from this 法术, subtract 1 from its Bravery characteristic until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, if the 单位 suffers 3 mortal wounds from this 法术, subtract 1 from its Bravery characteristic until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="b570-a87b-a5d6-4314" name="Flock of Doom" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster that is visible to them and roll 12 dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them and roll 12 dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="c34f-e0f3-8aa6-27b2" name="Impenetrable Hide" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can re-roll failed save rolls for the caster until the start of your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can re-roll failed save rolls for the caster until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="796c-59cd-7791-1fb9" name="Cower" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 怪兽 within 12&quot; of the caster that is visible to them and roll 2D6. If the result is higher than that 怪兽 ’s Bravery characteristic, it cannot make a charge move in your opponent’s next turn.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 怪兽 within 12寸 of the caster that is visible to them and roll 2D6. If the result is higher than that 怪兽 ’s Bravery characteristic, it cannot make a charge move in your opponent’s next turn.</characteristic>
               </characteristics>
             </profile>
             <profile id="130c-f54d-8df0-2a75" name="Primal Hunter" publicationId="e51d-b1a3-pubEKHGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 英雄 within 12&quot; of the caster that is visible to them. Re-roll failed charge rolls and hit rolls for that 英雄 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 英雄 within 12寸 of the caster that is visible to them. Re-roll failed charge rolls and hit rolls for that 英雄 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4588,13 +4588,13 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="bf34-4284-e813-d06a" name="Whipvines" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18&quot; of the caster that is visible to them. Roll a dice for each enemy 单位 within 3&quot; of this point. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster that is visible to them. Roll a dice for each enemy 单位 within 3寸 of this point. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="981d-92e1-a330-a142" name="Mirrorpool" publicationId="e51d-b1a3-pubETJDK" page="72; 1" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, remove the caster from the battlefield and set them up again anywhere within 18&quot; of their previous position, more than 9&quot; from any enemy models. It may not move in the subsequent movement phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, remove the caster from the battlefield and set them up again anywhere within 18寸 of their previous position, more than 9寸 from any enemy models. It may not move in the subsequent movement phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="8ead-e4d4-d566-1cad" name="Realmblood" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -4606,19 +4606,19 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="ad7d-da4d-95bf-85d7" name="Briarstorm" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18&quot; of the caster. Until your next 英雄 phase, any 单位 that finishes a move within 3&quot; of that point suffers D3 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster. Until your next 英雄阶段, any 单位 that finishes a move within 3寸 of that point suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="c6ac-bacc-b44a-ee43" name="Flesh to Stone" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, re-roll successful wound rolls for attacks that target the caster until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, re-roll successful wound rolls for attacks that target the caster until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="f1e2-5c25-57d9-2a96" name="Sicklewind" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12&quot; of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each 单位 其他 than the caster that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 12寸 of the caster that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the caster. Each 单位 其他 than the caster that has models passed across by this line suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4631,37 +4631,37 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="6a62-fd42-aa4d-5e6a" name="Exorcising Beam" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster that is visible to them. That 单位 suffers D3 mortal wounds. If the enemy 单位 is a DAEMON or DEATH 单位, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. If the enemy 单位 is a DAEMON or DEATH 单位, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
             <profile id="bf05-2d97-bcc4-15f5" name="Light of Battle" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 18&quot; of the caster. Do not take battleshock tests for that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 18寸 of the caster. Do not take battleshock tests for that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="1106-ad78-0b0e-c029" name="Vengeful Illumination" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster that is visible to them. Add 1 to hit rolls for attacks made with missile weapons that target that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them. Add 1 to hit rolls for attacks made with missile weapons that target that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="42b6-a83b-993f-08c1" name="Aetheric Net" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18&quot; of the caster. Roll a dice for each 单位 (friend or foe) within 3&quot; of that point. On a 4+ that 单位 suffers 1 mortal wound, and its Move characteristic is halved until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸 of the caster. Roll a dice for each 单位 (friend or foe) within 3寸 of that point. On a 4+ that 单位 suffers 1 mortal wound, and its Move characteristic is halved until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="b132-e233-e288-8114" name="Healing Glow" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 6&quot; of the caster that is visible to them. Heal D3 wounds allocated to that 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 6寸 of the caster that is visible to them. Heal D3 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
             <profile id="777d-7786-4576-16e8" name="Banishment" publicationId="e51d-b1a3-pubEFCFK" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12&quot; of the caster that is visible to them. Your opponent must remove that 单位 from the battlefield and then set it up again, anywhere on the battlefield more than 24&quot; from the caster and more than 9&quot; from any 其他 models from the caster’s army.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12寸 of the caster that is visible to them. Your opponent must remove that 单位 from the battlefield and then set it up again, anywhere on the battlefield more than 24寸 from the caster and more than 9寸 from any 其他 models from the caster’s army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4674,37 +4674,37 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="6e51-da62-4ca8-04ad" name="Word of Ending" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 英雄 within 12&quot; of the caster that is visible to them and roll a dice. If the result is more than the number of wounds allocated to that model, it suffers D3 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 英雄 within 12寸 of the caster that is visible to them and roll a dice. If the result is more than the number of wounds allocated to that model, it suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
             <profile id="80ae-e158-1210-7d7c" name="Night&apos;s Touch" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 6&quot; of the caster that is visible to them. Ignore modifiers (positive and negative) when making save rolls for that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 6寸 of the caster that is visible to them. Ignore modifiers (positive and negative) when making save rolls for that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="80b8-a2bc-5bf4-8b4d" name="Soulshroud" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12&quot; of the caster that is visible to them. That 单位 is not affected by 其他 spells until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12寸 of the caster that is visible to them. That 单位 is not affected by 其他 spells until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="7ae9-bda5-9bee-9446" name="Unnatural Darkness" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12&quot; of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12寸 of the caster that is visible to them. Subtract 1 from hit rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="4f5e-3629-2e27-f24b" name="Soulflay" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 英雄 within 12&quot; of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, if the 单位 suffers 3 mortal wounds from this 法术, subtract 2 from its Bravery characteristic until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 英雄 within 12寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, if the 单位 suffers 3 mortal wounds from this 法术, subtract 2 from its Bravery characteristic until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="19ff-bb06-bb69-7dd5" name="Ethereal Guide" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, add 1 to hit rolls for attacks made by the caster until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, add 1 to hit rolls for attacks made by the caster until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4717,37 +4717,37 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="7b58-9346-d870-903a" name="Labyrinth of Sorrows" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster that is visible to them. Halve the Move characteristic of that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. Halve the Move characteristic of that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="b468-8c05-4668-3d4c" name="Crown of Asphyxiation" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy 单位 within 3&quot; of the caster. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy 单位 within 3寸 of the caster. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
             <profile id="5483-9381-e6dd-60c6" name="The Enfeebling" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster. Re-roll failed wound rolls for attacks that target this 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster. Re-roll failed wound rolls for attacks that target this 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="6a2d-6e7c-c48b-10bb" name="Phantasmal Guardian" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice each time you allocate a wound or mortal wound to the caster until your next 英雄 phase. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice each time you allocate a wound or mortal wound to the caster until your next 英雄阶段. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
             <profile id="9abb-8076-099a-4563" name="Bridge of Shadows" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 wholly within 12&quot; of the caster and remove it from the battlefield. Set it up anywhere on the battlefield that is wholly within 24&quot; of the caster and more than 9&quot; from any enemy models. It may not move in the subsequent movement phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 wholly within 12寸 of the caster and remove it from the battlefield. Set it up anywhere on the battlefield that is wholly within 24寸 of the caster and more than 9寸 from any enemy models. It may not move in the subsequent movement phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="1078-c3cd-bed1-ea1c" name="Aetheric Tendrils" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster that is visible to them. That 单位 suffers D3 mortal wounds. If that 单位 is a 英雄 or 怪兽, you can make a normal move with that 单位 as if it had a Move characteristic of 4&quot;.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. If that 单位 is a 英雄 or 怪兽, you can make a normal move with that 单位 as if it had a Move characteristic of 4寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4759,13 +4759,13 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3c29-7e19-781b-def8" name="Forced by the Aether" page="" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability when you pick a predatory endless 法术 to move. If you do so, pick 1 predatory endless psell within 12&quot; of a friendly 法师. Add D6&quot; to the movement range on that predatory endless 法术&apos;s warscroll until the end of the battle round.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability when you pick a predatory endless 法术 to move. If you do so, pick 1 predatory endless psell within 12寸 of a friendly 法师. Add D6寸 to the movement range on that predatory endless 法术&apos;s warscroll until the end of the battle round.</characteristic>
               </characteristics>
             </profile>
             <profile id="b9a0-e9bc-9406-06c9" name="Marked Quarry" page="" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18&quot; of the caster and visible to them. Until the start of your next 英雄 phase, Roaming Monsters units must make any charge moves or normal moves (excluding retreat moves) towards that 单位 and any shooting attacks made by Roaming Monsters units must target that 单位, even if that 单位 is not the closest 单位 to the Roaming Monsters 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster and visible to them. Until the start of your next 英雄阶段, Roaming Monsters units must make any charge moves or normal moves (excluding retreat moves) towards that 单位 and any shooting attacks made by Roaming Monsters units must target that 单位, even if that 单位 is not the closest 单位 to the Roaming Monsters 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4778,20 +4778,20 @@ to set up the 法师, then the 法师 is slain.</描述>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="4571-8f36-98ca-2d16" name="Rampaging Destroyers" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false">
-      <描述>Roll a dice in your 英雄 phase for your general and each DESTRUCTION 英雄 in your army. Add 2 to the roll for the general. On a roll of 6 or more, pick a friendly DESTRUCTION 单位 within 6&quot; of the general or 英雄 being rolled for. That 单位 can immediately move 6&quot; if it is more than 12&quot; from the enemy, can immediately pile in if it is within 3&quot; of the enemy, or can immediately declare a charge in any 其他 circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</描述>
+      <描述>Roll a dice in your 英雄阶段 for your general and each DESTRUCTION 英雄 in your army. Add 2 to the roll for the general. On a roll of 6 or more, pick a friendly DESTRUCTION 单位 within 6寸 of the general or 英雄 being rolled for. That 单位 can immediately move 6寸 if it is more than 12寸 from the enemy, can immediately pile in if it is within 3寸 of the enemy, or can immediately declare a charge in any 其他 circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</描述>
     </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="ae02-a84f-a903-1ff8" name="Arcane Bolt" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot; of the caster that is visible to them. That 单位 suffers 1 mortal wound. If the casting roll was 10 or more, the 单位 suffers D3 mortal wounds instead.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them. That 单位 suffers 1 mortal wound. If the casting roll was 10 or more, the 单位 suffers D3 mortal wounds instead.</characteristic>
       </characteristics>
     </profile>
     <profile id="b41f-f1ce-7aa5-4f81" name="Mystic Shield" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 18&quot; of the caster that is visible to them. Re-roll save rolls of 1 for that 单位 until your next 英雄 phase.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 18寸 of the caster that is visible to them. Re-roll save rolls of 1 for that 单位 until your next 英雄阶段.</characteristic>
       </characteristics>
     </profile>
     <profile id="8e0c-cbe4-27be-8a30" name="Fly" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4801,12 +4801,12 @@ to set up the 法师, then the 法师 is slain.</描述>
     </profile>
     <profile id="6884-967e-0150-274e" name="Unbridled Malice" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When a friendly CHAOS 单位 is picked to fight, roll a dice if it is within 12&quot; of your general or 3&quot; of a friendly 英雄. On a 6+, add 1 to hit rolls for the 单位 for that fight.</characteristic>
+        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When a friendly CHAOS 单位 is picked to fight, roll a dice if it is within 12寸 of your general or 3寸 of a friendly 英雄. On a 6+, add 1 to hit rolls for the 单位 for that fight.</characteristic>
       </characteristics>
     </profile>
     <profile id="d2d8-2ac6-109a-256f" name="Deathless Minions (GA:Death)" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time you allocate a wound or mortal wound to a friendly DEATH model within 6&quot; of your general or a friendly DEATH 英雄, roll a dice. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time you allocate a wound or mortal wound to a friendly DEATH model within 6寸 of your general or a friendly DEATH 英雄, roll a dice. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

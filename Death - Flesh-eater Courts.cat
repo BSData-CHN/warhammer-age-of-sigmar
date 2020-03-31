@@ -532,7 +532,7 @@
   </entryLinks>
   <rules>
     <rule id="1b49-484e-bc30-aa58" name="Muster Abilities" publicationId="6d29-cde4-pubN65555" page="75" hidden="false">
-      <描述>Several Flesh-eater Courts units have Muster abilities, such as Muster Royal Guard, that allow you to return slain models to a 单位.  If you use a Muster ability, set up the returning models one at a time within 1&quot; of a model from the 单位 they are returning to (this can be a model returned earlier in that phase).  The models can only be set up within 3&quot; of an enemy 单位 if any models from their 单位 are already within 3&quot; of that enemy 单位.</描述>
+      <描述>Several Flesh-eater Courts units have Muster abilities, such as Muster Royal Guard, that allow you to return slain models to a 单位.  If you use a Muster ability, set up the returning models one at a time within 1寸 of a model from the 单位 they are returning to (this can be a model returned earlier in that phase).  The models can only be set up within 3寸 of an enemy 单位 if any models from their 单位 are already within 3寸 of that enemy 单位.</描述>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -540,18 +540,18 @@
       <profiles>
         <profile id="ee85-ecbb-396d-2387" name="Royal Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal up to D3 wounds allocated to this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="9087-1bc2-d242-968d" name="Abhorrant Ghoul King" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
             <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
-            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">An Abhorrant Ghoul King is a 法师. He can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄 phase. He knows the Arcane Bolt, Mystic Shield and Black Hunger spells.</characteristic>
+            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">An Abhorrant Ghoul King is a 法师. He can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. He knows the Arcane Bolt, Mystic Shield and Black Hunger spells.</characteristic>
           </characteristics>
         </profile>
         <profile id="0b73-5078-f899-a31c" name="Abhorrant Ghoul King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -559,7 +559,7 @@
         </profile>
         <profile id="e836-17c7-0674-8a88" name="Summon Men-at-arms" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 单位 of up to 10 SERFS to the battlefield. The summoned 单位 is added to your army, and must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 单位 of up to 10 SERFS to the battlefield. The summoned 单位 is added to your army, and must be set up wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -586,7 +586,7 @@
             <profile id="2de7-016a-a7ef-984e" name="Gory Talons and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -608,7 +608,7 @@
             <profile id="d25d-27ca-3ea2-09d1" name="Black Hunger" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly FLESH-EATER COURTS 单位 wholly within 24&quot; of the caster and visible to them. Add 1 to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly FLESH-EATER COURTS 单位 wholly within 24寸 of the caster and visible to them. Add 1 to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -631,35 +631,35 @@
       <profiles>
         <profile id="21f5-0af7-68bb-37f3" name="00-03" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">14寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">6</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="42ea-94de-79eb-fdf7" name="04-06" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">12寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">5</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="9ed7-c9b2-49ba-a665" name="07-09" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">10&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">10寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">4</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="9611-efae-f29e-5a92" name="10-12" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">8&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">8寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">3</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="298d-d3b2-05a9-64b9" name="13+" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">6寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">2</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">2</characteristic>
           </characteristics>
@@ -671,7 +671,7 @@
         </profile>
         <profile id="b1cd-c7f6-5b82-7403" name="Infested " hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before this model is removed from play each 单位 within 3&quot; of this model suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before this model is removed from play each 单位 within 3寸 of this model suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="bab1-4ccf-a892-82ec" name="Abhorrant Ghoul King on Terrorgheist" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -684,18 +684,18 @@
         </profile>
         <profile id="830d-0083-244c-813c" name="Royal Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal up to D3 wounds allocated to this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f3bb-c151-6ac5-f9df" name="Abhorrant Ghoul King on Royal Terrorgheist" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
             <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
-            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">An Abhorrant Ghoul King is a 法师. He can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄 phase. He knows the Arcane Bolt, Mystic Shield and Unholy Vitality spells.</characteristic>
+            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">An Abhorrant Ghoul King is a 法师. He can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. He knows the Arcane Bolt, Mystic Shield and Unholy Vitality spells.</characteristic>
           </characteristics>
         </profile>
         <profile id="0199-13aa-7780-9a11" name="Summon Royal Guard" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 单位 of up to 3 Knights to the battlefield. The summoned 单位 is added to your army, and must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 单位 of up to 3 Knights to the battlefield. The summoned 单位 is added to your army, and must be set up wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -725,7 +725,7 @@
             <profile id="886d-4e03-edac-5280" name="Unholy Vitality" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Flesh‐eater Courts 单位 wholly within 24&quot; of the caster and visible to them. Until your next 英雄 phase, roll a dice each time you allocate a wound or mortal wound to that 单位. On a 5+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Flesh‐eater Courts 单位 wholly within 24寸 of the caster and visible to them. Until your next 英雄阶段, roll a dice each time you allocate a wound or mortal wound to that 单位. On a 5+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -742,7 +742,7 @@
             <profile id="c913-6452-395d-ef84" name="Death Shriek" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile Weapon</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -769,7 +769,7 @@
             <profile id="380f-2ca0-1900-3ddd" name="Gory Talons and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -791,7 +791,7 @@
             <profile id="ab48-747f-daf0-f452" name="Fanged Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -813,7 +813,7 @@
             <profile id="8fa2-63c7-50c3-37f7" name="Skeletal Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -843,40 +843,40 @@
         <profile id="d3cb-acad-a59b-e8ba" name="Abhorrant Ghoul King on Royal Zombie Dragon" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
             <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
-            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">This model is a 法师. It can attempt to cast one 法术 in your 英雄 phase, and attempt to unbind one 法术 in the enemy 英雄 phase. It knows the Arcane Bolt, Mystic Shield and Malefic Hunger spells.</characteristic>
+            <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">This model is a 法师. It can attempt to cast one 法术 in your 英雄阶段, and attempt to unbind one 法术 in the enemy 英雄阶段. It knows the Arcane Bolt, Mystic Shield and Malefic Hunger spells.</characteristic>
           </characteristics>
         </profile>
         <profile id="44b3-6879-4336-6077" name="00-03" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">14寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">2+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">7</characteristic>
           </characteristics>
         </profile>
         <profile id="ed8d-976f-fc8a-5cbd" name="04-06" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">12寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">3+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">6</characteristic>
           </characteristics>
         </profile>
         <profile id="2f95-57cd-a600-4f24" name="07-09" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">10&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">10寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">4+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">5</characteristic>
           </characteristics>
         </profile>
         <profile id="3a66-5d5b-06b6-6295" name="10-12" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">8&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">8寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">5+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">4</characteristic>
           </characteristics>
         </profile>
         <profile id="a445-c165-01b7-0391" name="13+" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">6寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">6+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">3</characteristic>
           </characteristics>
@@ -891,12 +891,12 @@
         </profile>
         <profile id="963d-3a48-1b7d-2936" name="Royal Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal up to D3 wounds allocated to this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="dd33-f077-7952-fc7a" name="Summon Royal Courtier" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 Courtier 单位 to the battlefield. The summoned 单位 is added to your army, and must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 Courtier 单位 to the battlefield. The summoned 单位 is added to your army, and must be set up wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -926,7 +926,7 @@
             <profile id="f2bd-2ef3-fbe8-6294" name="Sword-like Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -948,7 +948,7 @@
             <profile id="bd2d-2ef4-f118-7b90" name="Snapping Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -975,7 +975,7 @@
             <profile id="e03a-7430-bd0e-d976" name="Pestilential Breath" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -997,7 +997,7 @@
             <profile id="e5cb-b4f2-e5de-ecb4" name="Malefic Hunger" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next 英雄 phase you can re-roll wound rolls for attacks made with melee weapons by friendly Flesh‐eater Courts units wholly within 16&quot; of the caster.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next 英雄阶段 you can re-roll wound rolls for attacks made with melee weapons by friendly Flesh‐eater Courts units wholly within 16寸 of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1014,7 +1014,7 @@
             <profile id="f263-37f5-027a-0971" name="Gory Talons and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1055,12 +1055,12 @@
               <profiles>
                 <profile id="078e-64b1-4b85-3602" name="Deathless Courtiers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly FLESH-EATER COURTS 单位 wholly within 12&quot; of a friendly FLESH-EATER COURTS 英雄.  On a 6 that wound or mortal wound is negated.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly FLESH-EATER COURTS 单位 wholly within 12寸 of a friendly FLESH-EATER COURTS 英雄.  On a 6 that wound or mortal wound is negated.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7b01-5b29-a8c6-99d2" name="Feeding Frenzy" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can use this command ability in the combat phase after a friendly FLESH-EATER COURTS 单位 has fought for the first time in that phase and is wholly within 12&quot; of a friendly FLESH-EATER COURTS 英雄, or wholly within 18&quot; of a friendly FLESH-EATER COURTS 英雄 that is a general.  If you do so, that 单位 can immediately make a pile-in move and then attack with all of the melee weapons it is armed with for a second time.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can use this command ability in the combat phase after a friendly FLESH-EATER COURTS 单位 has fought for the first time in that phase and is wholly within 12寸 of a friendly FLESH-EATER COURTS 英雄, or wholly within 18寸 of a friendly FLESH-EATER COURTS 英雄 that is a general.  If you do so, that 单位 can immediately make a pile-in move and then attack with all of the melee weapons it is armed with for a second time.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="2d74-bc24-c47b-6a6e" name="Grand Courts" page="FAQ 12/19" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1097,12 +1097,12 @@
                       <profiles>
                         <profile id="eb48-a123-2428-13f4" name="Bloody Loyalty" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can re-roll hit rolls of 1 for friendly MORGAUNT COURTIER units that are wholly within 12&quot; of a friendly MORGAUNT SERFS 单位.  In addition, while a friendly MORGAUNT SERFS 单位 is wholly within 12&quot; of a friendly MORGAUNT COURTIER, its Boundless Ferocity ability activates if the SERFS 单位 has 10 or more models.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can re-roll hit rolls of 1 for friendly MORGAUNT COURTIER units that are wholly within 12寸 of a friendly MORGAUNT SERFS 单位.  In addition, while a friendly MORGAUNT SERFS 单位 is wholly within 12寸 of a friendly MORGAUNT COURTIER, its Boundless Ferocity ability activates if the SERFS 单位 has 10 or more models.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="5d16-33b1-ac08-dd81" name="Heaving Masses" publicationId="6afd-4f9a-0665-9b55" page="1" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability when a friendly MORGAUNT SERFS 单位 is destroyed.  If you do so, roll a dice.  On a 4+ a new 单位 identical to the one that was destroyed is added to your army.  Set up the new 单位 wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy models. You cannot use this command ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability when a friendly MORGAUNT SERFS 单位 is destroyed.  If you do so, roll a dice.  On a 4+ a new 单位 identical to the one that was destroyed is added to your army.  Set up the new 单位 wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy models. You cannot use this command ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1119,7 +1119,7 @@
                         </profile>
                         <profile id="b4ba-43e4-6aa5-879d" name="Ravenous Crusaders" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄 phase.  If you do so, pick 1 friendly HOLLOWMOURNE 单位 wholly within 9&quot; of a friendly HOLLOWMOURNE 英雄, or wholly within 18&quot; of a friendly HOLLOWMOURNE 英雄 that is a general.  Add 1 to run and charge rolls for that 单位 until your next 英雄 phase.  In addition, until your next 英雄 phase, that 单位 can run and still charge later in the same turn.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly HOLLOWMOURNE 单位 wholly within 9寸 of a friendly HOLLOWMOURNE 英雄, or wholly within 18寸 of a friendly HOLLOWMOURNE 英雄 that is a general.  Add 1 to run and charge rolls for that 单位 until your next 英雄阶段.  In addition, until your next 英雄阶段, that 单位 can run and still charge later in the same turn.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1131,12 +1131,12 @@
                       <profiles>
                         <profile id="e81e-4750-3dae-30a6" name="Blistering Speed" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 2&quot; to the Move characteristic of BLISTERSKIN units.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 2寸 to the Move characteristic of BLISTERSKIN units.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="1818-b616-433c-0728" name="Lords of the Burning Skies" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase.  If you do so, pick 1 friendly BLISTERSKIN 单位 that can fly and which is wholly within 12&quot; of a friendly BLISTERSKIN 英雄, or wholly within 18&quot; of a friendly BLISTERSKIN 英雄 that is a general.  Remove that 单位 from the battle and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units.  It may not move later in that movement phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase.  If you do so, pick 1 friendly BLISTERSKIN 单位 that can fly and which is wholly within 12寸 of a friendly BLISTERSKIN 英雄, or wholly within 18寸 of a friendly BLISTERSKIN 英雄 that is a general.  Remove that 单位 from the battle and then set it up again anywhere on the battlefield more than 9寸 from any enemy units.  It may not move later in that movement phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1153,7 +1153,7 @@
                         </profile>
                         <profile id="20fb-347c-741e-9ad7" name="Call to War" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase if a friendly GRISTLEGORE 英雄 or GRISTLEGORE 怪兽 that has not fought in that phase is slain while it is wholly within 12&quot; of a friendly GRISTLEGORE 英雄, or wholly within 18&quot; of a friendly GRISTLEGORE 英雄 that is a general.  If you do so, before that model is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase if a friendly GRISTLEGORE 英雄 or GRISTLEGORE 怪兽 that has not fought in that phase is slain while it is wholly within 12寸 of a friendly GRISTLEGORE 英雄, or wholly within 18寸 of a friendly GRISTLEGORE 英雄 that is a general.  If you do so, before that model is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1187,7 +1187,7 @@
       <profiles>
         <profile id="0dad-01e2-7058-29cd" name="Body-part Aquisition" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the end of the combat phase, roll 1 dice for each enemy model within 3&quot; of any models from this 阵型.  For each 6, that enemy model&apos;s 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the end of the combat phase, roll 1 dice for each enemy model within 3寸 of any models from this 阵型.  For each 6, that enemy model&apos;s 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1413,7 +1413,7 @@
       <profiles>
         <profile id="a600-8af1-c2db-814d" name="The Abhorrant King&apos;s Own" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄 phase, 1 单位 from this 阵型 that is within 3&quot; of an enemy 单位 can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄阶段, 1 单位 from this 阵型 that is within 3寸 of an enemy 单位 can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1651,7 +1651,7 @@
       <profiles>
         <profile id="fb6c-6d55-1458-dd3b" name="On Patrol" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Instead of setting up any 单位 from this 阵型 on the battlefield, you can place it to one side and say that it is on patrol in reserve.  At the end of your first movement phase, you must set up all of the units from this 阵型 that are in reserve.  Set up each 单位 wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Instead of setting up any 单位 from this 阵型 on the battlefield, you can place it to one side and say that it is on patrol in reserve.  At the end of your first movement phase, you must set up all of the units from this 阵型 that are in reserve.  Set up each 单位 wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1723,7 +1723,7 @@
       <profiles>
         <profile id="d22e-d5c2-4f5d-b064" name="Guardians of the Court" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Do not take battleshock tests for units from this 阵型 while they are wholly within 18&quot; of the Crypt Ghast Courtier from the same 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Do not take battleshock tests for units from this 阵型 while they are wholly within 18寸 of the Crypt Ghast Courtier from the same 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1856,7 +1856,7 @@
       <profiles>
         <profile id="5dc6-204e-86d0-6623" name="Lords of the Manor" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">When a friendly COURTIER within 10&quot; of any models from this 阵型 uses a Muster ability, you can roll 1 extra dice for that COURTIER when determining how many slain models the Muster ability allows you to return (usually this will mean that you roll 7 dice instead of 6 dice).</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">When a friendly COURTIER within 10寸 of any models from this 阵型 uses a Muster ability, you can roll 1 extra dice for that COURTIER when determining how many slain models the Muster ability allows you to return (usually this will mean that you roll 7 dice instead of 6 dice).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1911,7 +1911,7 @@
       <profiles>
         <profile id="a212-6fde-be4d-1a72" name="Monstrous Ensemble" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄 phase, you can heal up to D3 wounds allocated to each model from this 阵型 that is within 5&quot; of any 其他 models from the same 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄阶段, you can heal up to D3 wounds allocated to each model from this 阵型 that is within 5寸 of any 其他 models from the same 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2008,7 +2008,7 @@
       <profiles>
         <profile id="d79a-f1aa-a357-702a" name="Delusional Descipline" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄 phase, pick 1 单位 from this 阵型 wholly within 16&quot; of the Varghulf Courtier from the same 阵型.  That 单位 can make a normal move.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄阶段, pick 1 单位 from this 阵型 wholly within 16寸 of the Varghulf Courtier from the same 阵型.  That 单位 can make a normal move.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2202,7 +2202,7 @@
       <profiles>
         <profile id="9c09-ba74-07ca-aa35" name="Crypt Flayers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2243,7 +2243,7 @@
             <profile id="0502-54b9-805e-e90c" name="Piercing Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2270,7 +2270,7 @@
             <profile id="70c6-090b-c82e-5db0" name="Death Scream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -2280,7 +2280,7 @@
             </profile>
             <profile id="2c37-ad55-0133-2e8f" name="Death Scream" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Death Scream. Instead roll 2D6. Subtract 2 if the target 单位 is more than 3&quot; from the attacking model. If the result is higher than the target 单位’s Bravery characteristic, the target 单位 suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the result.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Death Scream. Instead roll 2D6. Subtract 2 if the target 单位 is more than 3寸 from the attacking model. If the result is higher than the target 单位’s Bravery characteristic, the target 单位 suffers a number of mortal wounds equal to the difference between its Bravery characteristic and the result.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2297,17 +2297,17 @@
       <profiles>
         <profile id="4a48-5042-e157-f1a6" name="Muster Serfs" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, roll 6 dice for each friendly CRYPT GHAST COURTIER on the battlefield. For each 2+ you can return 1 slain model to a friendly SERFS 单位 that is within 10&quot; of that CRYPT GHAST COUTIER. Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, roll 6 dice for each friendly CRYPT GHAST COURTIER on the battlefield. For each 2+ you can return 1 slain model to a friendly SERFS 单位 that is within 10寸 of that CRYPT GHAST COUTIER. Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="6ae5-0935-aaf9-1cc7" name="Trophy Hunter" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If any enemy models are slain by wounds inflicted by this model’s attacks, until the end of the phase in which the attacks were made add 1 to the Attacks characteristic of melee weapons used by friendly SERFS units while they are wholly within 16&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If any enemy models are slain by wounds inflicted by this model’s attacks, until the end of the phase in which the attacks were made add 1 to the Attacks characteristic of melee weapons used by friendly SERFS units while they are wholly within 16寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="e884-a5cb-5d7c-2f00" name="Crypt Ghast Courtier" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2332,7 +2332,7 @@
             <profile id="56c4-ec70-703c-92d8" name="Bone Club" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2354,7 +2354,7 @@
             <profile id="3874-7b64-b0e7-3a5b" name="Filthy Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2386,7 +2386,7 @@
         </profile>
         <profile id="2683-4b93-87d3-e3da" name="Royal Approval" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made by this 单位 while it is wholly within 18&quot; of any friendly ABHORRANTS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made by this 单位 while it is wholly within 18寸 of any friendly ABHORRANTS.</characteristic>
           </characteristics>
         </profile>
         <profile id="c537-d2b8-b67b-1e49" name="Crypt Ghast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2396,7 +2396,7 @@
         </profile>
         <profile id="b710-4fe6-017c-0d31" name="Crypt Ghouls" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -2436,7 +2436,7 @@
             <profile id="66e2-561e-b93a-4270" name="Sharpened Teeth and Filthy Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2458,22 +2458,22 @@
       <profiles>
         <profile id="d96a-bd18-ce25-4e35" name="Muster King&apos;s Chosen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, roll 6 dice for each friendly CRYPT HAUNTER COURTIER on the battlefield. For each 5+ you can return 1 slain model to a friendly CRYPT HORRORS 单位 that is within 10&quot; of that CRYPT HAUNTER COURTIER. Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, roll 6 dice for each friendly CRYPT HAUNTER COURTIER on the battlefield. For each 5+ you can return 1 slain model to a friendly CRYPT HORRORS 单位 that is within 10寸 of that CRYPT HAUNTER COURTIER. Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="1360-c6d0-d6f7-8767" name="Noble Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal 1 wound allocated to this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal 1 wound allocated to this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="8ff0-b144-d920-c7e8" name="Chosen of the King" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model while it is within 18&quot; of any friendly ABHORRANTS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model while it is within 18寸 of any friendly ABHORRANTS.</characteristic>
           </characteristics>
         </profile>
         <profile id="6235-0287-78dc-1bf4" name="Crypt Haunter Courtier" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">7&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -2520,7 +2520,7 @@
             <profile id="428e-ca00-b99a-6b15" name="Massive Bone Club" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2542,7 +2542,7 @@
             <profile id="47d6-4161-c5b9-3d45" name="Rancid Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2568,12 +2568,12 @@
       <profiles>
         <profile id="d016-cca4-6a93-0349" name="Noble Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal 1 wound allocated to this 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal 1 wound allocated to this 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="1bb1-c343-db65-261f" name="Chosen of the King" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this 单位 while it is wholly within 18&quot; of any friendly ABHORRANT.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this 单位 while it is wholly within 18寸 of any friendly ABHORRANT.</characteristic>
           </characteristics>
         </profile>
         <profile id="5de2-788a-b5e3-70ba" name="Warrior Elite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2583,7 +2583,7 @@
         </profile>
         <profile id="6af2-b73d-2f08-6626" name="Crypt Horrors" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">7&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2621,7 +2621,7 @@
             <profile id="0fd2-82e1-fdf1-e437" name="Clubs and Septic Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2643,12 +2643,12 @@
       <profiles>
         <profile id="de60-35dd-57eb-215a" name="Muster Royal Guard" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, roll 6 dice for each friendly CRYPT INFERNAL COURTIER on the battlefield. For each 5+ you can return 1 slain model to a friendly CRYPT FLAYERS 单位 that is within 10&quot; of that CRYPT INFERNAL COURTIER. Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, roll 6 dice for each friendly CRYPT INFERNAL COURTIER on the battlefield. For each 5+ you can return 1 slain model to a friendly CRYPT FLAYERS 单位 that is within 10寸 of that CRYPT INFERNAL COURTIER. Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="b244-cef4-38e4-157b" name="Crypt Infernal Courtier" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -2698,7 +2698,7 @@
             <profile id="2d0a-9d98-a25d-68bc" name="Skewering Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2725,7 +2725,7 @@
             <profile id="72a5-61c4-20bb-6b2c" name="Foetid Breath" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2751,7 +2751,7 @@
       <profiles>
         <profile id="2395-b018-556d-19b4" name="Varghulf Courtier" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">10&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">10寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">10</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2759,17 +2759,17 @@
         </profile>
         <profile id="e5a8-5d9f-2ba3-ed36" name="Muster Royal Household" page="80" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your here phase, roll 6 dice for each friendly VARGHULF COURTIER on the battlefield.  For each 2+ you can return 1 slain model to a friendly SERFS 单位 within 10&quot; of that VARGHULF COURTIER.  For each 5+ you can return 1 slain model to a friendly KNIGHTS 单位 within 10&quot; of that VARGHULF COURTIER instead.  Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your here phase, roll 6 dice for each friendly VARGHULF COURTIER on the battlefield.  For each 2+ you can return 1 slain model to a friendly SERFS 单位 within 10寸 of that VARGHULF COURTIER.  For each 5+ you can return 1 slain model to a friendly KNIGHTS 单位 within 10寸 of that VARGHULF COURTIER instead.  Slain models can be returned to more than one 单位 if you wish, but each successful dice roll can only be used to return a model to a single 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="bd0e-fd55-92b5-75f4" name="Feed on Dark Magic" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a friendly ABHORRANT within 18&quot; of this model successfully casts a 法术, and it is not unbound, you can re-roll hit rolls for this model until the start of your next 英雄 phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a friendly ABHORRANT within 18寸 of this model successfully casts a 法术, and it is not unbound, you can re-roll hit rolls for this model until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="f01b-396c-d7c8-ed31" name="King&apos;s Champion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 the Attacks characteristic of this model&apos;s Immense Claws if it is within 3&quot; of 10 or more enemy models when you pick the target 单位(s) for its attacks.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 the Attacks characteristic of this model&apos;s Immense Claws if it is within 3寸 of 10 or more enemy models when you pick the target 单位(s) for its attacks.</characteristic>
           </characteristics>
         </profile>
         <profile id="ed9f-43e2-d254-da0f" name="Victory Feast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2799,7 +2799,7 @@
             <profile id="12c1-4522-ccd1-fa50" name="Immense Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2821,7 +2821,7 @@
             <profile id="bd3e-888c-848c-f951" name="Dagger-like Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
@@ -2884,45 +2884,45 @@
         </profile>
         <profile id="c42b-b79a-b2d2-a62c" name="Infested" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before this model is removed from play each 单位 within 3&quot; of this model suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before this model is removed from play each 单位 within 3寸 of this model suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="ce4e-4f85-b9e2-45a6" name="Royal Menagerie" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal up to D3 wounds allocated to this model if this model is within 6&quot; of a friendly ABHORRANT.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to this model if this model is within 6寸 of a friendly ABHORRANT.</characteristic>
           </characteristics>
         </profile>
         <profile id="5c94-07cf-7941-ac90" name="00-03" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">14寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">6</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="d220-5b9d-07a1-2388" name="04-06" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">12寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">5</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="896f-946b-1fba-2cc3" name="07-09" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">10&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">10寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">4</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="d5aa-59db-8232-18ca" name="10-12" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">8&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">8寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">3</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="ed4e-a944-d348-5287" name="13+" hidden="false" typeId="370f-9356-a89a-06b3" typeName="Terrorgheist Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="2ad2-839b-d5ee-5770">6寸</characteristic>
             <characteristic name="Death Shriek" typeId="dfdc-a86c-e979-1eb7">2</characteristic>
             <characteristic name="Skeletal Claws" typeId="5b09-7a6b-dd30-faf1">2</characteristic>
           </characteristics>
@@ -2948,7 +2948,7 @@
             <profile id="d30d-bd0e-f949-134f" name="Death Shriek" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile Weapon</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -2975,7 +2975,7 @@
             <profile id="eb59-b3b1-707f-465b" name="Fanged Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2997,7 +2997,7 @@
             <profile id="fd03-9006-54bf-fc0e" name="Skeletal Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -3027,35 +3027,35 @@
         </profile>
         <profile id="de30-4d0d-5a8e-0d00" name="00-03" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">14寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">2+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">7</characteristic>
           </characteristics>
         </profile>
         <profile id="5740-a1fd-8334-e04d" name="04-06" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">12寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">3+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">6</characteristic>
           </characteristics>
         </profile>
         <profile id="7d09-e9d8-8681-6c2a" name="07-09" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">10&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">10寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">4+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">5</characteristic>
           </characteristics>
         </profile>
         <profile id="2527-6fdb-5025-8ced" name="10-12" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">8&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">8寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">5+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">4</characteristic>
           </characteristics>
         </profile>
         <profile id="a487-b8cf-00cd-a24c" name="13+" hidden="false" typeId="1fc7-f451-3937-0a17" typeName="Zombie Dragon&apos;s Wound Table">
           <characteristics>
-            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="1712-425e-7e40-a5b1">6寸</characteristic>
             <characteristic name="Pestilential Breath" typeId="b17b-97f7-9c40-21e5">6+</characteristic>
             <characteristic name="Sword-like Claws" typeId="e309-9fb0-c644-47ee">3</characteristic>
           </characteristics>
@@ -3080,7 +3080,7 @@
             <profile id="9e20-2c69-37b2-87b3" name="Sword-like Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -3107,7 +3107,7 @@
             <profile id="7713-9878-8575-e9ba" name="Pestilential Breath" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -3129,7 +3129,7 @@
             <profile id="12bc-6adc-739b-9039" name="Snapping Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -3166,12 +3166,12 @@
         <profile id="681e-93c7-6053-1226" name="Ferocious Hunger" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly FLESH‐EATER COURTS 单位 wholly within 24&quot; of the caster and visible to them, and roll a D3. Add the roll to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄 phase.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly FLESH‐EATER COURTS 单位 wholly within 24寸 of the caster and visible to them, and roll a D3. Add the roll to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="207b-99e6-7314-927a" name="Summon Imperial Guard" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 of the following units to the battlefield: 1 COURTIER; or 1 单位 of up to 3 KNIGHTS; or 1 单位 of up to 20 SERFS. The summoned 单位 is added to your army, and must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick 1 friendly model that has this command ability and has not used it before in the battle. That model summons 1 of the following units to the battlefield: 1 COURTIER; or 1 单位 of up to 3 KNIGHTS; or 1 单位 of up to 20 SERFS. The summoned 单位 is added to your army, and must be set up wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3197,7 +3197,7 @@
             <profile id="b381-1945-b415-8f80" name="Gory Talons and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">7</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -3230,12 +3230,12 @@
         <profile id="50b6-bce4-7249-61d8" name="Summon Corpsemare Stampede" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Corpsemare Stampede model wholly within 3D6&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Corpsemare Stampede model wholly within 3D6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="4f85-8747-f14d-2eae" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Corpsemare Stampede is a predatory endless 法术. It can move up to 14&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Corpsemare Stampede is a predatory endless 法术. It can move up to 14寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="2375-5f64-4d31-de19" name="Crazed Gallop" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -3269,12 +3269,12 @@
         <profile id="3f63-6d15-0050-20ab" name="Summon Chalice of Ushoran" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Chalice of Ushoran model wholly within 24&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Chalice of Ushoran model wholly within 24寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="26c0-a2fa-1f96-f66b" name="Soul Stealer" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Keep track of the number of models that are slain within 12&quot; of this model each turn. At the end of each turn, roll a dice for each model that was slain within 12&quot; of this model during that turn. For each 4+ heal 1 wound allocated to 1 FLESH-EATER COURTS model within 12&quot; of this model, or return 1 slain model to 1 FLESH-EATER COURTS 单位 with a Wounds characteristic of 1 that is wholly within 12&quot; of this model. The player whose turn is taking place must pick which eligible FLESH-EATER COURTS units are affected.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Keep track of the number of models that are slain within 12寸 of this model each turn. At the end of each turn, roll a dice for each model that was slain within 12寸 of this model during that turn. For each 4+ heal 1 wound allocated to 1 FLESH-EATER COURTS model within 12寸 of this model, or return 1 slain model to 1 FLESH-EATER COURTS 单位 with a Wounds characteristic of 1 that is wholly within 12寸 of this model. The player whose turn is taking place must pick which eligible FLESH-EATER COURTS units are affected.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3295,17 +3295,17 @@
         <profile id="e52d-0f53-fd93-5747" name="Summon Cadaverous Barricade" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Cadaverous Barricade model wholly within 24&quot; of the caster and more than 1&quot; from any enemy units.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Cadaverous Barricade model wholly within 24寸 of the caster and more than 1寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c76-de25-faa5-8735" name="Grasping Hands" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model starts a move within 3&quot; of this model, halve the distance that model can move when it makes that move.  DEATH units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model starts a move within 3寸 of this model, halve the distance that model can move when it makes that move.  DEATH units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="da91-12a9-c538-08e2" name="Grisly Obstacle" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a missile weapon targets a 单位 that has all of its models within 1&quot; of this model, then the target 单位 receives the benefit of cover if the attacking model is closer to this model than it its to the target 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a missile weapon targets a 单位 that has all of its models within 1寸 of this model, then the target 单位 receives the benefit of cover if the attacking model is closer to this model than it its to the target 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3322,12 +3322,12 @@
       <profiles>
         <profile id="2621-1cdd-1bbb-0df8" name="Ghoulish Landmark" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">FLESH-EATER COURTS units treat this terrain feature as having the Inspiring scenery rule. All 其他 units treat this terrain feature as having the Sinister scenery rule. Inspiring: Add 1 to the Bravery characteristic of units while they are within 1&quot; of any Inspiring terrain features. Sinister: Subtract 1 from the Bravery characteristic of units while they are within 1&quot; of any Sinister terrain features. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">FLESH-EATER COURTS units treat this terrain feature as having the Inspiring scenery rule. All 其他 units treat this terrain feature as having the Sinister scenery rule. Inspiring: Add 1 to the Bravery characteristic of units while they are within 1寸 of any Inspiring terrain features. Sinister: Subtract 1 from the Bravery characteristic of units while they are within 1寸 of any Sinister terrain features. </characteristic>
           </characteristics>
         </profile>
         <profile id="c6eb-b81f-0ca9-91fd" name="Ruler of All He Surveys" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An ABHORRANT ARCHREGENT that is within 1&quot; of this terrain feature can use the Summon Imperial Guard command ability without a command point being spent. In addition, an Abhorrant Ghoul King (单位 not keyword) that is within 1&quot; of this terrain feature can use the Summon Men-at-arms command ability without a command point being spent.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An ABHORRANT ARCHREGENT that is within 1寸 of this terrain feature can use the Summon Imperial Guard command ability without a command point being spent. In addition, an Abhorrant Ghoul King (单位 not keyword) that is within 1寸 of this terrain feature can use the Summon Men-at-arms command ability without a command point being spent.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3579,7 +3579,7 @@
           <profiles>
             <profile id="17ae-5311-a3a1-838b" name="Decrepit Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly MORGAUNT units while they are wholly within 12&quot; of the the bearer, or wholly within 18&quot; of the bearer if the bearer is your general.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly MORGAUNT units while they are wholly within 12寸 of the the bearer, or wholly within 18寸 of the bearer if the bearer is your general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3612,7 +3612,7 @@
           <profiles>
             <profile id="24f4-41b8-30ee-46cf" name="Corpsefane Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">After this model makes a charge move, you can pick 1 enemy 单位 within 1&quot; of this model and roll a dice.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After this model makes a charge move, you can pick 1 enemy 单位 within 1寸 of this model and roll a dice.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3645,7 +3645,7 @@
           <profiles>
             <profile id="cda1-3c7d-7e13-ea62" name="Eye of Hysh" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile weapons that target a friendly BLISTERSKIN 单位 wholly within 6&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile weapons that target a friendly BLISTERSKIN 单位 wholly within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3678,7 +3678,7 @@
           <profiles>
             <profile id="370d-bc95-f7eb-970f" name="Ghurish Mawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy model within 1&quot; of the bearer and roll a dice.  If the roll is greater than that model&apos;s Wounds characteristic, that model is slain.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy model within 1寸 of the bearer and roll a dice.  If the roll is greater than that model&apos;s Wounds characteristic, that model is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3882,7 +3882,7 @@
           <profiles>
             <profile id="f430-559e-4ce3-02c6" name="Savage Chivalry" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls of 1 for this general while this general is within 12&quot; of a friendly MORGAUNT SERFS 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls of 1 for this general while this general is within 12寸 of a friendly MORGAUNT SERFS 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3915,7 +3915,7 @@
           <profiles>
             <profile id="6517-7a5e-5c87-9a6d" name="Grave Robber" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic and Damage characteristic of this general&apos;s melee weapons while this general is within 3&quot; of any enemy HEROES with an artefact of power.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic and Damage characteristic of this general&apos;s melee weapons while this general is within 3寸 of any enemy HEROES with an artefact of power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3948,7 +3948,7 @@
           <profiles>
             <profile id="b678-ade1-cb30-3b0a" name="Hellish Orator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield at the start of your 英雄 phase, roll a dice.  On a 4+ you receive 1 additional command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield at the start of your 英雄阶段, roll a dice.  On a 4+ you receive 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4071,7 +4071,7 @@
           <profiles>
             <profile id="371c-da24-6622-bd6b" name="Frenzied Flesh-eater" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this general if there are any enemy models that have suffered any within 3&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this general if there are any enemy models that have suffered any within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4134,7 +4134,7 @@
           <profiles>
             <profile id="43a5-9a12-994b-00a9" name="Completely Delusional" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, if this general has not been slain, you can pick a new delusion in your 英雄 phase to replace the original delusion you chose for your army.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, if this general has not been slain, you can pick a new delusion in your 英雄阶段 to replace the original delusion you chose for your army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4156,7 +4156,7 @@
           <profiles>
             <profile id="2727-9824-e49d-a737" name="Splintervane Broach" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from casting rolls for enemy WIZARDS within 18&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from casting rolls for enemy WIZARDS within 18寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4171,7 +4171,7 @@
           <profiles>
             <profile id="de6d-673e-78d8-6025" name="The Grim Garland" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 2 from the Bravery of enemy units while they are within 6&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 2 from the Bravery of enemy units while they are within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4186,7 +4186,7 @@
           <profiles>
             <profile id="08a0-3cd8-80e2-02b1" name="Blood River Chalice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, the bearer can use this artefact.  If they do so, heal up to D6 wounds allocated to the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this artefact.  If they do so, heal up to D6 wounds allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4201,7 +4201,7 @@
           <profiles>
             <profile id="6df8-833a-73d5-1b33" name="Heart of the Gargant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this artefact.  If they do so, you can re-roll failed wound rolls for the bearer and the mount in that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this artefact.  If they do so, you can re-roll failed wound rolls for the bearer and the mount in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4216,7 +4216,7 @@
           <profiles>
             <profile id="02fb-f3e7-18d3-cc16" name="Signet of the First Court" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the unmodified wound roll for an attack made by the bearer with a melee weapon is 6, add 1 to the damage inflicted by that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified wound roll for an attack made by the bearer with a melee weapon is 6, add 1 to the damage inflicted by that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4231,7 +4231,7 @@
           <profiles>
             <profile id="8e98-7967-aee7-ae67" name="The Dermal Robe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 1 to casting, dispelling and unbinding rolls for the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting, dispelling and unbinding rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4268,7 +4268,7 @@
           <profiles>
             <profile id="7ed6-b00f-f74c-272e" name="Frenzied Flesh-eater" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this general if there are any enemy models that have suffered any within 3&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this general if there are any enemy models that have suffered any within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4350,7 +4350,7 @@
           <profiles>
             <profile id="774e-45ed-06a2-52e5" name="Keening Bone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  Increase the Range characteristic of that weapon to 3&quot;.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  Increase the Range characteristic of that weapon to 3寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4365,7 +4365,7 @@
           <profiles>
             <profile id="23dd-e34b-9ec7-f0f2" name="The Flayed Pennant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can re-roll charge rolls for friendly FLESH-EATER COURTS units wholly within 24&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll charge rolls for friendly FLESH-EATER COURTS units wholly within 24寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4380,7 +4380,7 @@
           <profiles>
             <profile id="7213-b04d-0791-fce6" name="Medal of Madness" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle round, the bearer can use the At the Double, Forward to Victory or Inspiring Presence command ability from the 核心规则 as if they were a general, without a command point being spent.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the bearer can use the At the Double, Forward to Victory or Inspiring Presence command ability from the 核心规则 as if they were a general, without a command point being spent.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4395,7 +4395,7 @@
           <profiles>
             <profile id="d93b-3449-360d-b8f5" name="Carrion Wand" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In your 英雄 phase, the bearer can attempt to cast the Arcane Bolt 法术 as if they were a 法师.  If the bearer is a 法师, add 1 to the casting roll when they attempt to cast Arcane Bolt instead.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer can attempt to cast the Arcane Bolt 法术 as if they were a 法师.  If the bearer is a 法师, add 1 to the casting roll when they attempt to cast Arcane Bolt instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4410,7 +4410,7 @@
           <profiles>
             <profile id="c91d-e362-e386-ef78" name="The Fleshform Raiment" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 3&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4425,7 +4425,7 @@
           <profiles>
             <profile id="b62b-d038-bc6e-e673" name="The Bilious Decanter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this artefact.  If they do so, add 2 the Attacks characteristic of the bearer&apos;s melee weapons in that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this artefact.  If they do so, add 2 the Attacks characteristic of the bearer&apos;s melee weapons in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4452,7 +4452,7 @@
             <profile id="1fe5-dd72-ee6b-73ae" name="Bonestorm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy 单位 within 12&quot; of the caster.  On a 2+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy 单位 within 12寸 of the caster.  On a 2+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4465,7 +4465,7 @@
             <profile id="baba-3779-c075-f170" name="Spectral Host" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 单位 wholly within 12&quot; of the caster that is visible to them.  That 单位 can fly until your next 英雄 phase.  If that 单位 can already fly, until your next 英雄 phase it can run and still charge in the same turn.   If the casting roll was 10 or more, you can pick up to 3 friendly units to be affected by the 法术 instead of 1.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 单位 wholly within 12寸 of the caster that is visible to them.  That 单位 can fly until your next 英雄阶段.  If that 单位 can already fly, until your next 英雄阶段 it can run and still charge in the same turn.   If the casting roll was 10 or more, you can pick up to 3 friendly units to be affected by the 法术 instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4478,7 +4478,7 @@
             <profile id="8c38-adcd-c34c-a645" name="Monstrous Vigour" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly FLESH-EATER COURTS 怪兽 within 24&quot; of the caster that is visible to them.  Until you next 英雄 phase, when you lookup a value on that 怪兽&apos;s 损伤表, that 怪兽 is treated as if it has suffered 0 wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly FLESH-EATER COURTS 怪兽 within 24寸 of the caster that is visible to them.  Until you next 英雄阶段, when you lookup a value on that 怪兽&apos;s 损伤表, that 怪兽 is treated as if it has suffered 0 wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4491,7 +4491,7 @@
             <profile id="a7a6-72a5-1c5d-4196" name="Miasmal Shroud" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18&quot; of the caster that is visible to them and roll 3 dice.  For each 5+ that 单位 suffers 1 mortal wound.  In addition, if you rolled a triple, subtract 1 from hit and wound rolls for that 单位 until your next 英雄 phase.   If you rolled a double, subtract 1 from hit rolls only for that 单位 until you next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them and roll 3 dice.  For each 5+ that 单位 suffers 1 mortal wound.  In addition, if you rolled a triple, subtract 1 from hit and wound rolls for that 单位 until your next 英雄阶段.   If you rolled a double, subtract 1 from hit rolls only for that 单位 until you next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4504,7 +4504,7 @@
             <profile id="8ff3-bea3-9acb-1c1e" name="Deranged Transformation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 单位 with a Wounds characteric of up to 6 that is wholly within 24&quot; of the caster and visible to them.  Add that 单位&apos;s Wound characteristic to its Move characteristic until you next 英雄 phase.   If the 施法值 was 10 or more, you can pick up to 3 friendly units to be affected by the 法术 instead of 1.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 单位 with a Wounds characteric of up to 6 that is wholly within 24寸 of the caster and visible to them.  Add that 单位&apos;s Wound characteristic to its Move characteristic until you next 英雄阶段.   If the 施法值 was 10 or more, you can pick up to 3 friendly units to be affected by the 法术 instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4517,7 +4517,7 @@
             <profile id="30b6-09cd-86c2-92dd" name="Blood Feast" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12&quot; of the caster that is visible to them, and a friendly FLESH-EATER COURTS 单位 within 6&quot; of that enemy 单位.  The enemy 单位 suffers D3 mortal wounds.  If the 施法值 was 10 or more, the enemy 单位 suffers D6 mortal wounds instead of D3 mortal wounds.  Then, for each mortal wound that was inflicted on the enemy 单位, you can heal 1 wound allocated to the friendly 单位.  If the friendly 单位 has a Wounds characteristic of 1, for each mortal wound that was inflicted on the enemy 单位, you can return 1 slain model to the friendly 单位 instead.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12寸 of the caster that is visible to them, and a friendly FLESH-EATER COURTS 单位 within 6寸 of that enemy 单位.  The enemy 单位 suffers D3 mortal wounds.  If the 施法值 was 10 or more, the enemy 单位 suffers D6 mortal wounds instead of D3 mortal wounds.  Then, for each mortal wound that was inflicted on the enemy 单位, you can heal 1 wound allocated to the friendly 单位.  If the friendly 单位 has a Wounds characteristic of 1, for each mortal wound that was inflicted on the enemy 单位, you can return 1 slain model to the friendly 单位 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4722,7 +4722,7 @@
           <profiles>
             <profile id="7c80-9692-6e64-81cf" name="Death From the Skies" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place it to one side and say that it is soaring in the skies in reserve.  If you do so, at the end of your first movement phase, you must set up this 单位 on the battlefield more than 9&quot; from any enemy units.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place it to one side and say that it is soaring in the skies in reserve.  If you do so, at the end of your first movement phase, you must set up this 单位 on the battlefield more than 9寸 from any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>

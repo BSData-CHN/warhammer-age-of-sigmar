@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81cf-7df5-86e6-b78f" name="Order - Fyreslayers - Data" revision="39" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81cf-7df5-86e6-b78f" name="秩序 - Fyreslayers - Data" revision="39" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e67a-06d2-pubN65537" name="Order Battletome: Fyreslayers"/>
     <publication id="e67a-06d2-pubN69594" name="Battletome: Fyreslayers Errata, July 2018"/>
@@ -59,7 +59,7 @@
                   <profiles>
                     <profile id="5a06-5d07-7912-d72c" name="Ur-gold Runes" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                       <characteristics>
-                        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">At the start of your 英雄 phase, you can activate one of the following six ur-gold runes. To do so, state which rune will be activated and roll a dice.  On a 1-5, the rune has the standard effect.  On a 6 it also has the enhanced effect.  The effect(s) of the rune lasts until the start of your next 英雄 phase.  Each ur-gold rune can only be activated once in each battle, and no more than one can be actived at the same time.  Once you have used a rune, you can choose a new one to use in your next 英雄 phase, but you cannot use the same one again.</characteristic>
+                        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">At the start of your 英雄阶段, you can activate one of the following six ur-gold runes. To do so, state which rune will be activated and roll a dice.  On a 1-5, the rune has the standard effect.  On a 6 it also has the enhanced effect.  The effect(s) of the rune lasts until the start of your next 英雄阶段.  Each ur-gold rune can only be activated once in each battle, and no more than one can be actived at the same time.  Once you have used a rune, you can choose a new one to use in your next 英雄阶段, but you cannot use the same one again.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="a8b9-dee6-e142-5dd4" name="Rune of Fury" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
@@ -71,7 +71,7 @@
                     <profile id="1ece-0db0-057e-10e3" name="Rune of Searing Heat" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
                         <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">If the unmodified wound roll for an attack made by a friendly FYRESLAYERS 单位 is 6, add 1 to the Damage characteristic of the weapon for that attack.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Roll a dice for each enemy 单位 within 3&quot; of any friendly FYRESLAYERS units when this rune is activated; on a 2+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Roll a dice for each enemy 单位 within 3寸 of any friendly FYRESLAYERS units when this rune is activated; on a 2+ that enemy 单位 suffers 1 mortal wound.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="9f8d-0e03-1cb5-752d" name="Rune of Awakened Steel" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
@@ -88,7 +88,7 @@
                     </profile>
                     <profile id="31b4-fb40-a7e4-66ec" name="Rune of Relentless Zeal" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 2&quot; to the Move characteristic of friendly FYRESLAYERS units.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 2寸 to the Move characteristic of friendly FYRESLAYERS units.</characteristic>
                         <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 2 to charge rolls for friendly FYRESLAYERS units.</characteristic>
                       </characteristics>
                     </profile>
@@ -114,12 +114,12 @@
                       <profiles>
                         <profile id="da0f-1e5c-feb0-38c6" name="Fearsome Surge" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to charge rolls for VOSTARG units.  In addition, in your movement phase in the first battle round, if you declare a friendly VOSTARG 单位 will run, do not make a run roll.  Instead, add 6&quot; to the Move characteristic of all models in that 单位 for that phase.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to charge rolls for VOSTARG units.  In addition, in your movement phase in the first battle round, if you declare a friendly VOSTARG 单位 will run, do not make a run roll.  Instead, add 6寸 to the Move characteristic of all models in that 单位 for that phase.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="1a90-5f96-cbe6-3d6b" name="Honour Our Ancestors" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick a friendly VOSTARG 英雄.  Until the end of that phase, add 1 to hit rolls for attacks made by that 英雄 and friendly units of VULKITE BERZERKERS and HEARTHGUARD BERZERKERS wholly within 12&quot; of that 英雄.  You cannot use this command ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick a friendly VOSTARG 英雄.  Until the end of that phase, add 1 to hit rolls for attacks made by that 英雄 and friendly units of VULKITE BERZERKERS and HEARTHGUARD BERZERKERS wholly within 12寸 of that 英雄.  You cannot use this command ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -154,12 +154,12 @@
                       <profiles>
                         <profile id="8fdb-6f52-9b9a-1272" name="Seize by Force" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">HERMDAR units wholly within enemy territory or wholly within 12&quot; of an objective do not take battleshock tests.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">HERMDAR units wholly within enemy territory or wholly within 12寸 of an objective do not take battleshock tests.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="01c9-dbe0-fa1b-d862" name="Skull-breakers and Oath-takers" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  Pick 1 friendly HERMDAR VULKITE BERZERKERS 单位 or 1 friendly HERMDAR HEARTHGUARD BERZERKERS 单位 wholly within 12&quot; of a HERMDAR 英雄.  That 单位 fights at the start of that combat phase, before the players pick any 其他 units to fight with in that combat phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  Pick 1 friendly HERMDAR VULKITE BERZERKERS 单位 or 1 friendly HERMDAR HEARTHGUARD BERZERKERS 单位 wholly within 12寸 of a HERMDAR 英雄.  That 单位 fights at the start of that combat phase, before the players pick any 其他 units to fight with in that combat phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -179,7 +179,7 @@
                         </profile>
                         <profile id="1d06-ea7f-5fd9-11fd" name="Torrent of Magma" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase.  If you do so, pick an enemy 单位 within 12&quot; of a friendly LOFNIR PRIEST.  Until the end of that phase, add 1 to hit and wound rolls for attacks made with Magmapikes by friendly units that target that enemy 单位.  The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase.  If you do so, pick an enemy 单位 within 12寸 of a friendly LOFNIR PRIEST.  Until the end of that phase, add 1 to hit and wound rolls for attacks made with Magmapikes by friendly units that target that enemy 单位.  The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -243,12 +243,12 @@
         </profile>
         <profile id="716c-e897-3f32-7fba" name="Sworn Protectors" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly FYRESLAYERS 英雄 that is not mounted on a MAGMADROTH and is within 3&quot; of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3&quot; to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly FYRESLAYERS 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3寸 to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
           </characteristics>
         </profile>
         <profile id="f481-1fa7-d70c-50b0" name="Auric Hearthguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -288,7 +288,7 @@
             <profile id="cf10-86c0-e3ae-6b9c" name="Magmapike" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -310,7 +310,7 @@
             <profile id="078e-f03e-b3b6-e1f0" name="Magmapike (Missile)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -349,7 +349,7 @@
       <profiles>
         <profile id="571a-43be-ec53-ea94" name="Auric Runefather" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -401,7 +401,7 @@
             <profile id="a36d-52af-5988-ea0c" name="Latchkey Grandaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -456,7 +456,7 @@
         <profile id="1e3b-6033-592d-8b11" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-3</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6</characteristic>
           </characteristics>
@@ -464,7 +464,7 @@
         <profile id="73c1-7e01-3eea-54bc" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">4-6</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
           </characteristics>
@@ -472,7 +472,7 @@
         <profile id="2c9f-9488-7ffc-5607" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">7-9</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
           </characteristics>
@@ -480,7 +480,7 @@
         <profile id="eb4e-e44a-221f-e0be" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">10-12</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
           </characteristics>
@@ -488,19 +488,19 @@
         <profile id="0ab5-4e18-d845-ea15" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">13+</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
         <profile id="c869-5769-9ad8-deb3" name="Roaring Fyrestream" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6&quot; of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6寸 of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="d086-3859-e67c-f923" name="Lashing Tail" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3&quot; of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds. </characteristic>
           </characteristics>
         </profile>
         <profile id="db24-b55a-72be-08bd" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -510,7 +510,7 @@
         </profile>
         <profile id="9afd-5078-b947-454b" name="Steadfast Advance" publicationId="e67a-06d2-pubN69594" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄 phase. If you do so, pick a friendly model with this command ability. Until the start of your next 英雄 phase, do not take battleshock tests for friendly FYRESLAYERS units while they are wholly within 18&quot; of that model.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段. If you do so, pick a friendly model with this command ability. Until the start of your next 英雄阶段, do not take battleshock tests for friendly FYRESLAYERS units while they are wholly within 18寸 of that model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -538,7 +538,7 @@
             <profile id="2ecc-6167-d1a5-6dfe" name="Latchkey Grandaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -560,7 +560,7 @@
             <profile id="8ff1-89fa-e5d7-1486" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -638,7 +638,7 @@
             <profile id="af52-0587-82a9-e950" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">-</characteristic>
@@ -665,7 +665,7 @@
       <profiles>
         <profile id="9718-40fe-6fff-3115" name="Auric Runemaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -673,12 +673,12 @@
         </profile>
         <profile id="27bb-8663-5388-a92b" name="Holy Seeker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can pick 1 enemy 单位 within 12&quot; of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, you can re-roll hit rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位 instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 enemy 单位 within 12寸 of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, you can re-roll hit rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="8808-2ecd-5150-87d3" name="Volcano&apos;s Call" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄 phase, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a terrain feature within 18&quot; of this model. Roll a dice for each model within 1&quot; of that terrain feature. For each roll of a 6, that model’s 单位 suffers 1 mortal wound. In addition, until your next 英雄 phase, that terrain feature has the ‘Deadly’ scenery rule in addition to any 其他 scenery rules it may have.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a terrain feature within 18寸 of this model. Roll a dice for each model within 1寸 of that terrain feature. For each roll of a 6, that model’s 单位 suffers 1 mortal wound. In addition, until your next 英雄阶段, that terrain feature has the ‘Deadly’ scenery rule in addition to any 其他 scenery rules it may have.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -723,7 +723,7 @@
             <profile id="6632-d36e-b92f-7952" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -784,7 +784,7 @@
       <profiles>
         <profile id="aaf5-d06e-0fa8-b352" name="Auric Runesmiter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -792,12 +792,12 @@
         </profile>
         <profile id="b94e-526f-3963-6285" name="Runic Empowerment" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄 phase, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly FYRESLAYERS 单位 wholly within 12&quot; of this model, or wholly within 18&quot; of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄 phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly FYRESLAYERS 单位 wholly within 12寸 of this model, or wholly within 18寸 of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="9f89-983a-288f-94fc" name="Magmic Tunnelling" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place this model to one side and say that it is set up underground as a reserve 单位. If you do so, when you would set up another friendly FYRESLAYERS 单位, instead of setting up that 单位 on the battlefield, you can say that it is joining this model underground as a reserve 单位. 1 单位 can join this model in this way. At the end of your movement phase, you can set up this model anywhere on the battlefield, more than 9&quot; from any enemy units; then set up any 单位 that joined this model wholly within 12&quot; of this model and more than 9&quot; from any enemy units. Any reserve units underground that are not set up on the battlefield before the start of the fourth battle round are destroyed.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place this model to one side and say that it is set up underground as a reserve 单位. If you do so, when you would set up another friendly FYRESLAYERS 单位, instead of setting up that 单位 on the battlefield, you can say that it is joining this model underground as a reserve 单位. 1 单位 can join this model in this way. At the end of your movement phase, you can set up this model anywhere on the battlefield, more than 9寸 from any enemy units; then set up any 单位 that joined this model wholly within 12寸 of this model and more than 9寸 from any enemy units. Any reserve units underground that are not set up on the battlefield before the start of the fourth battle round are destroyed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -820,7 +820,7 @@
             <profile id="f851-bb8f-6f26-b6ba" name="Latch-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -861,7 +861,7 @@
                 <profile id="ecb6-c4e5-b928-828a" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -881,7 +881,7 @@
               <profiles>
                 <profile id="920f-8c71-870b-b837" name="Forge Key" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Increase range of Runic Empowerment to 18&quot; if this model is armed with a Forge Key.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Increase range of Runic Empowerment to 18寸 if this model is armed with a Forge Key.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -923,7 +923,7 @@
         <profile id="9107-eb17-5325-3a95" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-3</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6</characteristic>
           </characteristics>
@@ -931,7 +931,7 @@
         <profile id="6d83-77f1-190f-b3a8" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">4-6</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
           </characteristics>
@@ -939,7 +939,7 @@
         <profile id="e19a-e71b-b4f5-8011" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">7-9</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
           </characteristics>
@@ -947,7 +947,7 @@
         <profile id="0fd6-8f6c-8578-3f75" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">10-12</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D3</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
           </characteristics>
@@ -955,19 +955,19 @@
         <profile id="23ed-d100-9ed7-4160" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">13+</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
         <profile id="6fe4-d414-bde7-0ebd" name="Roaring Fyrestream" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6&quot; of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6寸 of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="54a6-14eb-14fb-cea9" name="Lashing Tail" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3&quot; of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="a459-f83d-933c-9a94" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -977,12 +977,12 @@
         </profile>
         <profile id="c987-ed04-ae48-a63c" name="Runic Empowerment" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄 phase, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly FYRESLAYERS 单位 wholly within 12&quot; of this model, or wholly within 18&quot; of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄 phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly FYRESLAYERS 单位 wholly within 12寸 of this model, or wholly within 18寸 of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="2d3e-df0c-e3eb-2c45" name="Grand Ritual of Awakening" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, during your 英雄 phase, you can say this model has consumed a nugget of ur-gold. If you do so, add 1 to save rolls for attacks that target friendly FYRESLAYER units wholly within 12&quot; of this model until the start of your next 英雄 phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, during your 英雄阶段, you can say this model has consumed a nugget of ur-gold. If you do so, add 1 to save rolls for attacks that target friendly FYRESLAYER units wholly within 12寸 of this model until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1007,7 +1007,7 @@
             <profile id="d234-85f5-1b15-25b9" name="Latch-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1029,7 +1029,7 @@
             <profile id="ed86-65bc-ad99-0119" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1085,7 +1085,7 @@
             <profile id="e36b-7423-531d-a203" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">-</characteristic>
@@ -1114,7 +1114,7 @@
                 <profile id="8dea-7831-38e3-4e3e" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1134,7 +1134,7 @@
               <profiles>
                 <profile id="cad5-42b8-9cb6-7e69" name="Forge Key" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Increase range of Runic Empowerment to 18&quot; if this model is armed with a Forge Key.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Increase range of Runic Empowerment to 18寸 if this model is armed with a Forge Key.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1160,7 +1160,7 @@
       <profiles>
         <profile id="c6b8-f402-c7db-42f1" name="Auric Runeson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1168,12 +1168,12 @@
         </profile>
         <profile id="872a-35e3-701d-e221" name="Vying for Glory" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly AURIC RUNESONS within 6&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly AURIC RUNESONS within 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="65db-4215-296a-fa3f" name="Dauntless Assault" publicationId="e67a-06d2-pubN69594" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to wound rolls for attacks made by friendly FYRESLAYERS units wholly within 12&quot; of that model until the end of that phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to wound rolls for attacks made by friendly FYRESLAYERS units wholly within 12寸 of that model until the end of that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1214,7 +1214,7 @@
                 <profile id="c654-a35b-5509-b7da" name="Ancestral War-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1240,7 +1240,7 @@
                 <profile id="5a83-c9c5-1578-d2e8" name="Wyrmslayer Javelin" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1251,7 +1251,7 @@
                 <profile id="2a76-169f-0d0a-1046" name="Wyrmslayer Javelin (Missile)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">MIssile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1297,7 +1297,7 @@
         <profile id="199f-7e7d-a566-1783" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-3</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6</characteristic>
           </characteristics>
@@ -1305,7 +1305,7 @@
         <profile id="6691-8546-6b73-6cd4" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">4-6</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
           </characteristics>
@@ -1313,7 +1313,7 @@
         <profile id="03aa-3bfc-5553-52a5" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">7-9</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
           </characteristics>
@@ -1321,7 +1321,7 @@
         <profile id="ef75-2bff-5278-f89a" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">10-12</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
           </characteristics>
@@ -1329,19 +1329,19 @@
         <profile id="6f0d-c52d-a270-e2ec" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">13+</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
         <profile id="d713-25a8-3448-48e7" name="Roaring Fyrestream" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6&quot; of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6寸 of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="6bb2-d088-871c-e64f" name="Lashing Tail" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3&quot; of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="b3e4-1d7d-0829-8ee9" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1351,12 +1351,12 @@
         </profile>
         <profile id="eff0-6ab0-dd54-c841" name="Vying for Glory" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly AURIC RUNESONS within 6&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly AURIC RUNESONS within 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="2be6-9c70-e4d8-7b6d" name="Molten Battering Ram" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly MAGMADROTH that is within 12&quot; of a friendly model with this command ability. After that 单位 makes a charge move in that charge phase, you can pick 1 enemy 单位 within 1&quot; of that model and roll a dice. On a 2+ that enemy 单位 suffers D6 mortal wounds. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly MAGMADROTH that is within 12寸 of a friendly model with this command ability. After that 单位 makes a charge move in that charge phase, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 2+ that enemy 单位 suffers D6 mortal wounds. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1380,7 +1380,7 @@
             <profile id="1f57-86e1-7c7a-59c5" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1436,7 +1436,7 @@
             <profile id="6d58-5545-eaf5-0662" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">-</characteristic>
@@ -1465,7 +1465,7 @@
                 <profile id="d03d-e0cc-6707-e4e0" name="Ancestral War-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1491,7 +1491,7 @@
                 <profile id="011c-9811-2096-092d" name="Wyrmslayer Javelin" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1502,7 +1502,7 @@
                 <profile id="9755-b06d-9c80-2e0e" name="Wyrmslayer Javelin (Missile)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">MIssile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1532,7 +1532,7 @@
       <profiles>
         <profile id="7d83-125b-dee3-19a4" name="Bulwark of Molten Stone" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of the enemy 英雄 phase, you can pick 1 friendly 单位 wholly within 18&quot; of any units of AURIC HEARTHGUARD from this 阵型.  If you do so, add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄 phase.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of the enemy 英雄阶段, you can pick 1 friendly 单位 wholly within 18寸 of any units of AURIC HEARTHGUARD from this 阵型.  If you do so, add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1649,7 +1649,7 @@
       <profiles>
         <profile id="456c-a5b3-1a3f-728a" name="Oathbound Guardians" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 单位 of HEARTHGUARD BERZERKERS from this 阵型 is wholly within 12&quot; of a 英雄 from the same 阵型 at the start of the combat phase, then after that 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight with later in the same phase, it can be selected to fight for a second time.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 单位 of HEARTHGUARD BERZERKERS from this 阵型 is wholly within 12寸 of a 英雄 from the same 阵型 at the start of the combat phase, then after that 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight with later in the same phase, it can be selected to fight for a second time.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1720,7 +1720,7 @@
       <profiles>
         <profile id="2bbd-a262-8893-89d3" name="Beserk Kindred" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can use the Berserk Fury ability for 1 VULKITE BERZERKERS 单位 from this 阵型 twice in the same battle if that 单位 is wholly within 12&quot; of an AURIC RUNESON from the same 阵型 the second time the Berserk Fury ability is used.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can use the Berserk Fury ability for 1 VULKITE BERZERKERS 单位 from this 阵型 twice in the same battle if that 单位 is wholly within 12寸 of an AURIC RUNESON from the same 阵型 the second time the Berserk Fury ability is used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1765,7 +1765,7 @@
       <profiles>
         <profile id="984f-55be-5888-53d8" name="Battlesmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1773,12 +1773,12 @@
         </profile>
         <profile id="9b5f-391e-f6db-8691" name="Icon of Grimnir" publicationId="68d3-0b6a-3775-07d9" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can say that this model is raising its icon of Grimnir. If it does so, add 1 to save rolls for attacks that target friendly FYRESLAYERS units wholly within 12&quot; of this model until the start of your next 英雄 phase. However, if you do so, until the start of your next 英雄 phase, friendly FYRESLAYERS units wholly within 12&quot; of this model cannot retreat.  A 单位 cannot benefit from this ability more than once per phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can say that this model is raising its icon of Grimnir. If it does so, add 1 to save rolls for attacks that target friendly FYRESLAYERS units wholly within 12寸 of this model until the start of your next 英雄阶段. However, if you do so, until the start of your next 英雄阶段, friendly FYRESLAYERS units wholly within 12寸 of this model cannot retreat.  A 单位 cannot benefit from this ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="bf60-2274-0653-395d" name="None Shall Defile the Icon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, friendly FYRESLAYERS units wholly within 12&quot; of this model can swear to protect the fallen icon. If a 单位 does so, that 单位 cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with melee weapons by that 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, friendly FYRESLAYERS units wholly within 12寸 of this model can swear to protect the fallen icon. If a 单位 does so, that 单位 cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with melee weapons by that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1801,7 +1801,7 @@
             <profile id="2fee-23d6-2498-d227" name="Ancestral Battle-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1840,7 +1840,7 @@
       <profiles>
         <profile id="4eaf-f89e-1680-8d48" name="Doomseeker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1853,7 +1853,7 @@
         </profile>
         <profile id="52a1-3267-e9f7-24a7" name="Oathbound" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the first battle round, pick 1 enemy 单位 that this model has sworn to destroy. At the end of the combat phase, if this model is within 3&quot; of that 单位, this model can make a pile-in move and then attack with all the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the first battle round, pick 1 enemy 单位 that this model has sworn to destroy. At the end of the combat phase, if this model is within 3寸 of that 单位, this model can make a pile-in move and then attack with all the melee weapons it is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1875,7 +1875,7 @@
             <profile id="35ed-a217-0b54-2d8d" name="Doomseeker Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1897,7 +1897,7 @@
             <profile id="727f-d228-e5b8-4dba" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1934,15 +1934,15 @@
       <profiles>
         <profile id="7a3c-ff6f-06df-d6f2" name="Grimwrath Berzerker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">9</characteristic>
-            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4&quot;</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4寸</characteristic>
           </characteristics>
         </profile>
         <profile id="d0ea-82fb-9ec0-d3fc" name="Unstoppable Berzerker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this model. Add 1 to the roll if there are any enemy units within 3&quot; of this model. On a 6+ that wound or mortal wound is negated.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this model. Add 1 to the roll if there are any enemy units within 3寸 of this model. On a 6+ that wound or mortal wound is negated.</characteristic>
           </characteristics>
         </profile>
         <profile id="3dc7-6170-1dbd-7dff" name="Dead, But Not Defeated" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1952,7 +1952,7 @@
         </profile>
         <profile id="6704-b7e8-162a-78e7" name="Battle Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3&quot; of an enemy 单位, roll a dice. On a 2+ make a pile in move with this model, and then attack with all the melee weapons this model is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3寸 of an enemy 单位, roll a dice. On a 2+ make a pile in move with this model, and then attack with all the melee weapons this model is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1974,7 +1974,7 @@
             <profile id="11a0-b3a7-632a-8af6" name="Fyrestorm Greataxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2030,7 +2030,7 @@
       <profiles>
         <profile id="7f1a-1a1d-c3d8-4c43" name="Hearthguard Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2043,7 +2043,7 @@
         </profile>
         <profile id="d167-8bdf-93bf-6055" name="Duty Unto Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this 单位. Add 2 to the roll if there are any friendly FYRESLAYER HEROS within 10&quot; of this 单位. On a 6+ that wound or mortal wound is negated. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this 单位. Add 2 to the roll if there are any friendly FYRESLAYER HEROS within 10寸 of this 单位. On a 6+ that wound or mortal wound is negated. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2099,7 +2099,7 @@
                 <profile id="0116-3dfd-3598-291c" name="Berzerker Broadaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2120,7 +2120,7 @@
                 <profile id="d9a2-8842-3e00-21d0" name="Flamestrike Poleaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2149,7 +2149,7 @@
       <profiles>
         <profile id="cbcb-b0e8-43fb-a160" name="Vulkite Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2228,7 +2228,7 @@
                 <profile id="2188-4ebd-5c51-de44" name="Fyresteel Warpick" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2307,7 +2307,7 @@
       <profiles>
         <profile id="70d1-f8b3-5cbe-e40e" name="Fjul-Grimnir" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -2315,12 +2315,12 @@
         </profile>
         <profile id="6e00-06a6-974a-6028" name="Grimnir&apos;s Blessing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to Fjul-Grimnir while this model is within 3&quot; of a friendly Chosen Axes 单位. On a 5+ that wound or mortal wound is negated. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to Fjul-Grimnir while this model is within 3寸 of a friendly Chosen Axes 单位. On a 5+ that wound or mortal wound is negated. </characteristic>
           </characteristics>
         </profile>
         <profile id="1c5b-7c4f-f589-2b47" name="Honour Our Oaths" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, add 1 to hit rolls for attacks made by friendly VOSTARG units while they are wholly within 12&quot; of that model. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, add 1 to hit rolls for attacks made by friendly VOSTARG units while they are wholly within 12寸 of that model. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2348,7 +2348,7 @@
             <profile id="6646-6327-e4d8-6367" name="Latchkey Grandaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2386,7 +2386,7 @@
       <profiles>
         <profile id="a2f4-fb81-868b-4c98" name="The Chosen Axes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2399,7 +2399,7 @@
         </profile>
         <profile id="e5da-d151-b028-7b17" name="Chosen Kin" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made by this 单位 while FJUL-GRIMNIR is within 3&quot; of this 单位. Do not take battleshock tests for this 单位 while it is within 3&quot; of FJUL-GRIMNIR.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made by this 单位 while FJUL-GRIMNIR is within 3寸 of this 单位. Do not take battleshock tests for this 单位 while it is within 3寸 of FJUL-GRIMNIR.</characteristic>
           </characteristics>
         </profile>
         <profile id="98d1-77d5-6944-c5b8" name="Berserk Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2432,7 +2432,7 @@
             <profile id="8066-5324-946d-1c34" name="Fyresteel Great Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2454,7 +2454,7 @@
             <profile id="4336-e44b-38b8-2777" name="Fyresteel Handaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2476,12 +2476,12 @@
       <profiles>
         <profile id="57e8-4665-a13a-acf7" name="Molten Blessing" publicationId="68d3-0b6a-3775-07d9" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄 phase, 1 friendly FYRESLAYERS PRIEST within 6&quot; of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly FYRESLAYERS PRIESTS while they are within 18&quot; of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST within 6寸 of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly FYRESLAYERS PRIESTS while they are within 18寸 of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="5ac9-7370-2224-5514" name="Spending the Forge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄 phase, 1 friendly FYRESLAYERS PRIEST within 6&quot; of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄 phase, you can re-roll save rolls of 1 for friendly FYRESLAYERS units on the battlefield. However, for the rest of the battle, FYRESLAYERS PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST within 6寸 of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly FYRESLAYERS units on the battlefield. However, for the rest of the battle, FYRESLAYERS PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2503,22 +2503,22 @@
         <profile id="03b0-ce84-c197-d5e1" name="Summon Molten Infernoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄 phase, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12&quot; of that FYRESLAYERS PRIEST.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that FYRESLAYERS PRIEST.</characteristic>
           </characteristics>
         </profile>
         <profile id="0cf0-4802-4d3a-7f2f" name="Burning Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this magmic invocation is set up, the player who set it up can immediately make a move with it. In addition, at the start of each of their subsequent 英雄 phases, the player who set this magmic invocation up can make a move with it if it is still on the battlefield. When you move this magmic invocation, it can move up to 2D6&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this magmic invocation is set up, the player who set it up can immediately make a move with it. In addition, at the start of each of their subsequent 英雄 phases, the player who set this magmic invocation up can make a move with it if it is still on the battlefield. When you move this magmic invocation, it can move up to 2D6寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="26f0-4f0f-d413-0530" name="Erupting Inferno" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll 12 dice for each 单位 that is within 3&quot; of it at the end of its move. For each 6, that 单位 suffers 1 mortal wound. FYRESLAYERS units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll 12 dice for each 单位 that is within 3寸 of it at the end of its move. For each 6, that 单位 suffers 1 mortal wound. FYRESLAYERS units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c2b-c61a-4c41-0936" name="Fiery Wrath of Vulcatrix" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of FYRESLAYERS units while they are wholly within 18&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of FYRESLAYERS units while they are wholly within 18寸 of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2539,17 +2539,17 @@
         <profile id="bf7b-0e30-b3b0-305e" name="Summon Runic Fyrewall" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄 phase, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18&quot; of that FYRESLAYERS PRIEST.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that FYRESLAYERS PRIEST.</characteristic>
           </characteristics>
         </profile>
         <profile id="2eab-08d3-e553-3e5c" name="Roaring Rune-fire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A model cannot see another model if an imaginary straight line, 1mm wide, drawn from the centre of its base to the centre of the 其他 model’s base passes within 1&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A model cannot see another model if an imaginary straight line, 1mm wide, drawn from the centre of its base to the centre of the 其他 model’s base passes within 1寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="42dd-8ad0-572e-2594" name="Awakened Runes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll save rolls of 1 for attacks that target FYRESLAYERS units wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll save rolls of 1 for attacks that target FYRESLAYERS units wholly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f468-e143-91ad-1995" name="Impervious to Heat" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2575,12 +2575,12 @@
         <profile id="eaf0-2cee-671b-b41e" name="Summon Zharrgron Flame Splitter" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄 phase, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6&quot; of that FYRESLAYERS PRIEST.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that FYRESLAYERS PRIEST.</characteristic>
           </characteristics>
         </profile>
         <profile id="2032-4bfd-ad2a-273b" name="Magma Blast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your shooting phase, if there is a friendly FYRESLAYERS PRIEST within 6&quot; of this model, you can pick an enemy 单位 within 24&quot; of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your shooting phase, if there is a friendly FYRESLAYERS PRIEST within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2597,7 +2597,7 @@
       <profiles>
         <profile id="678f-d367-78b6-16ea" name="Heir of the Fyreheart Temple" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a friendly 单位 of AURIC HEARTHGUARD from this 阵型 is wholly within 12&quot; of Dhurgan when he uses his Magmic Prayer of Runic Empowerment ability, the prayers is answered on a 2+ instead of 3+.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a friendly 单位 of AURIC HEARTHGUARD from this 阵型 is wholly within 12寸 of Dhurgan when he uses his Magmic Prayer of Runic Empowerment ability, the prayers is answered on a 2+ instead of 3+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2649,7 +2649,7 @@
       <profiles>
         <profile id="1d7d-20c2-24b2-2e14" name="Mighty Deeds and Blaring Oaths" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by VULKITE BERSERKERS units from this 阵型 while they are wholly within 12&quot; of this 阵型&apos;s AURIC RUNESON.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by VULKITE BERSERKERS units from this 阵型 while they are wholly within 12寸 of this 阵型&apos;s AURIC RUNESON.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2810,7 +2810,7 @@
       <profiles>
         <profile id="0b02-432d-4821-4247" name="Roaring Fyrestream" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6&quot; of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Roaring Fyrestream. Instead, make the dice roll shown on the 损伤表 above. If the roll is equal to or less than the number of models in the target 单位, that 单位 suffers D3 mortal wounds. If the roll is equal to or less than the number of models in the target 单位, and the target 单位 is within 6寸 of this model, the target 单位 suffers D6 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="5511-d949-c252-3e86" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2820,7 +2820,7 @@
         </profile>
         <profile id="a717-f443-f911-b128" name="Lashing Tail" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3&quot; of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of this model. If the roll is less than the number of models in that 单位, it suffers D3 mortal wounds. </characteristic>
           </characteristics>
         </profile>
         <profile id="ae0d-7b20-bfb8-e3f0" name="Furious Endurance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2839,7 +2839,7 @@
         <profile id="23ba-3cbe-8fe2-8294" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-3</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">12寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6</characteristic>
           </characteristics>
@@ -2847,7 +2847,7 @@
         <profile id="f432-e2a6-9652-184d" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">4-6</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
           </characteristics>
@@ -2855,7 +2855,7 @@
         <profile id="aefd-3949-26fe-479d" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">7-9</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
           </characteristics>
@@ -2863,7 +2863,7 @@
         <profile id="ba1a-b85c-833c-052e" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">10-12</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">7寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">2D3</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
           </characteristics>
@@ -2871,14 +2871,14 @@
         <profile id="9777-8c0b-beec-e26a" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">13+</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6寸</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3D6</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
         <profile id="e4d6-7af9-3b8b-b36b" name="Runefather&apos;s Favour" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄 phase.  If you do so, pick 1 friendly VOSTARG 英雄 within 12&quot; of this model, 其他 than this model, and roll a dice.  On a 4+ that 英雄 can immediately pile-in and attack with all of the melee weapons it is armed with.   You cannot pick the same 英雄 to benefit from this ability more than once per 英雄 phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly VOSTARG 英雄 within 12寸 of this model, 其他 than this model, and roll a dice.  On a 4+ that 英雄 can immediately pile-in and attack with all of the melee weapons it is armed with.   You cannot pick the same 英雄 to benefit from this ability more than once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="5b48-3ab0-d6a0-ef4b" name="Bael-Grimnir on Flamespitter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -2891,7 +2891,7 @@
         </profile>
         <profile id="bd87-c105-10af-5620" name="Flamespitter&apos;s Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 6&quot; to the Range characteristic of this model&apos;s Roaring Fyrestream if this model did not move in the movement phase of the same turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 6寸 to the Range characteristic of this model&apos;s Roaring Fyrestream if this model did not move in the movement phase of the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2941,7 +2941,7 @@
             <profile id="c311-0039-6e81-602a" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2975,7 +2975,7 @@
             <profile id="cc58-f642-79a4-1389" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">-</characteristic>
@@ -2997,7 +2997,7 @@
             <profile id="f30d-98c9-9df1-f6fd" name="Hrathling" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -3007,7 +3007,7 @@
             </profile>
             <profile id="9d65-72ba-fa80-6193" name="Hrathling" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3&quot; of this model and roll a dice.  On a 5+, pick one of the melee weapons that model is armed with, the weapon cannot be one used by the model&apos;s mount (if it has one).  Subtract 1 from the hit rolls for attacks made with that weapon for the rest of the battle.  You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3寸 of this model and roll a dice.  On a 5+, pick one of the melee weapons that model is armed with, the weapon cannot be one used by the model&apos;s mount (if it has one).  Subtract 1 from the hit rolls for attacks made with that weapon for the rest of the battle.  You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3162,7 +3162,7 @@
           <profiles>
             <profile id="02c7-8a05-d49e-90be" name="Flame-scale Youngblood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has made a charge move, pick 1 enemy 单位 within 1&quot; of this model and roll a number of dice equal to the charge roll for that charge move.  For each 6, that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has made a charge move, pick 1 enemy 单位 within 1寸 of this model and roll a number of dice equal to the charge roll for that charge move.  For each 6, that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3186,7 +3186,7 @@
           <profiles>
             <profile id="eee4-2821-a9aa-82c1" name="Lava-tongue Adult" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you use this model&apos;s Roaring Fyrestream ability, subtract 1 from the dice roll that determines if the target 单位 suffers mortal wounds.  If this model is wholly within your territory or within 6&quot; of an objective, subtract 2 from the dice roll instead.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you use this model&apos;s Roaring Fyrestream ability, subtract 1 from the dice roll that determines if the target 单位 suffers mortal wounds.  If this model is wholly within your territory or within 6寸 of an objective, subtract 2 from the dice roll instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3210,7 +3210,7 @@
           <profiles>
             <profile id="6bef-aece-b920-864c" name="Ash-born Ancient" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for attacks that target this model and friendly MAGMADROTHS within 6&quot; of this model.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for attacks that target this model and friendly MAGMADROTHS within 6寸 of this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3241,7 +3241,7 @@
           <profiles>
             <profile id="23bd-5213-9f45-363e" name="Fury of the Fyreslayers" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3253,7 +3253,7 @@
           <profiles>
             <profile id="9404-f6c9-a2b8-fce5" name="Honour of the Ancestors" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3277,7 +3277,7 @@
           <profiles>
             <profile id="8179-16e1-1e64-838d" name="Blood of the Berserker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3&quot; of an enemy 单位, they can immediately make a pile in move and then attack with all of the melee weapons they are armed with for a second time.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3寸 of an enemy 单位, they can immediately make a pile in move and then attack with all of the melee weapons they are armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3332,7 +3332,7 @@
           <profiles>
             <profile id="4c18-2485-ad1d-029a" name="Fyremantle" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 3&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3356,7 +3356,7 @@
           <profiles>
             <profile id="0ace-d64d-70f1-d9be" name="Oathsayer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly DUARDIN units while they are wholly within 18&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly DUARDIN units while they are wholly within 18寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3392,7 +3392,7 @@
           <profiles>
             <profile id="f429-11b8-5ae7-933d" name="Master Priest" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your 英雄 phase, if this general is on the battlefield, you can activate one ur-gold rune that has already been activated, instead of one that has not yet been activated.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your 英雄阶段, if this general is on the battlefield, you can activate one ur-gold rune that has already been activated, instead of one that has not yet been activated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3426,7 +3426,7 @@
           <profiles>
             <profile id="f841-5c0a-d29e-8762" name="Magnetized Runes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2 to the charge rolls made for the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the charge rolls made for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3444,7 +3444,7 @@
           <profiles>
             <profile id="d8af-4afa-e2f9-0b07" name="Draught of Magmalt Ale" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can drink this potion.  If they do so, double the Attacks characteristic of all of the melee weapons they are armed with until the end of that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can drink this potion.  If they do so, double the Attacks characteristic of all of the melee weapons they are armed with until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3462,7 +3462,7 @@
           <profiles>
             <profile id="8a95-7d23-cc3f-9751" name="Drakeslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, instead of making an attack with the bearer&apos;s Fyresteel Throwing Axe, you can say they are throwing Drakeslayer.  If you do so, pick an enemy 怪兽 within 8&quot; of the bearer and roll a dice.  On a 6, that 怪兽 suffers 3D6 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, instead of making an attack with the bearer&apos;s Fyresteel Throwing Axe, you can say they are throwing Drakeslayer.  If you do so, pick an enemy 怪兽 within 8寸 of the bearer and roll a dice.  On a 6, that 怪兽 suffers 3D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3480,7 +3480,7 @@
           <profiles>
             <profile id="2c17-64fd-8aa6-f3e8" name="Obsidian Glowhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄 phase, roll a dice if the bearer is on the battlefield.  On a 4+ you recieve 1 additional command point.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, roll a dice if the bearer is on the battlefield.  On a 4+ you recieve 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3498,7 +3498,7 @@
           <profiles>
             <profile id="b0f8-13c7-9790-312d" name="Shimmering Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s melee weapons.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s melee weapons.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3516,7 +3516,7 @@
           <profiles>
             <profile id="21f2-6a15-8f7d-fbed" name="Axe of Grimnir" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3553,7 +3553,7 @@
           <profiles>
             <profile id="bdb9-e097-722f-9457" name="Beastslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  If the hit roll for an attack made with that weapon that targets a 怪兽 scores a hit, that attack inflicts 2 hits on the target instead of 1.   Make a wound and save roll for each hit.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  If the hit roll for an attack made with that weapon that targets a 怪兽 scores a hit, that attack inflicts 2 hits on the target instead of 1.   Make a wound and save roll for each hit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3571,7 +3571,7 @@
           <profiles>
             <profile id="6c01-5aa9-862b-7ebd" name="Bracers of Ember-iron" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3589,7 +3589,7 @@
           <profiles>
             <profile id="8b3b-ab24-fca1-75f6" name="Rune of Blazing Fury" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can awaken the Rune of Blazing Fury.  If you do so, you can re-roll hit and wound rolls for attacks made by the bearer until the end of that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can awaken the Rune of Blazing Fury.  If you do so, you can re-roll hit and wound rolls for attacks made by the bearer until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3626,7 +3626,7 @@
           <profiles>
             <profile id="ef1c-8a9a-d792-9932" name="Salamander Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 5+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 5+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3644,7 +3644,7 @@
           <profiles>
             <profile id="2f7b-a67b-b499-fe97" name="Ash-cloud Rune" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind two spells in the enemy 英雄 phase in the same manner as a 法师.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind two spells in the enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3662,7 +3662,7 @@
           <profiles>
             <profile id="abc6-db8c-70b0-4eda" name="Volatile Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to summon 2 magmic invocations in the same turn.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to summon 2 magmic invocations in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3680,7 +3680,7 @@
           <profiles>
             <profile id="f232-32c6-0cfd-beb8" name="Ancestor Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If an enemy 单位 fails a battleshock test within 12&quot; of the bearer, add D3 to the number of models that flee.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If an enemy 单位 fails a battleshock test within 12寸 of the bearer, add D3 to the number of models that flee.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3698,7 +3698,7 @@
           <profiles>
             <profile id="88ac-ac5e-a159-2cc2" name="Emberstone Rune" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 1 to invocation rolls made for the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to invocation rolls made for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3716,7 +3716,7 @@
           <profiles>
             <profile id="15a1-f723-eaab-8cfa" name="Droth-helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made with Claws and Horns by friendly MAGMADROTHS within 6&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made with Claws and Horns by friendly MAGMADROTHS within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3748,7 +3748,7 @@
           <profiles>
             <profile id="4b57-0de7-687e-3bb7" name="Icon of the Ancestors" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The range of this Battlesmith&apos;s Icon of Grimnir and None Shall Defile the Icon abilities is 18&quot; instead of 12&quot;.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The range of this Battlesmith&apos;s Icon of Grimnir and None Shall Defile the Icon abilities is 18寸 instead of 12寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3766,7 +3766,7 @@
           <profiles>
             <profile id="b739-88e4-51cd-f02b" name="Icon of Grimnir&apos;s Condemnation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind one 法术 in the enemy 英雄 phase in the same manner as a 法师.  In addition, if the bearer unbinds a 法术, roll a dice.   On a 2+ the caster suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师.  In addition, if the bearer unbinds a 法术, roll a dice.   On a 2+ the caster suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3784,7 +3784,7 @@
           <profiles>
             <profile id="9060-0b95-0810-6512" name="The Nulsidian Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS 单位 wholly within 12&quot; of the bearer is affected by a 法术 or endless 法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS 单位 wholly within 12寸 of the bearer is affected by a 法术 or endless 法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3813,7 +3813,7 @@
           <profiles>
             <profile id="f980-166b-c80d-c43a" name="Molten Infusion" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄 phase, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2 the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a magmic invocation model within 12&quot; of this PRIEST.  At the end of this battle round, do not make a temperamental nature roll for that magmic invocation.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2 the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a magmic invocation model within 12寸 of this PRIEST.  At the end of this battle round, do not make a temperamental nature roll for that magmic invocation.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3825,7 +3825,7 @@
           <profiles>
             <profile id="3abe-d88a-5ddd-05d4" name="Searing Heat" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄 phase, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick an enemy 单位 within 18&quot; of this PRIEST.  Subtract 1 from hit rolls for attacks made by that 单位 until the start of your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick an enemy 单位 within 18寸 of this PRIEST.  Subtract 1 from hit rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3837,7 +3837,7 @@
           <profiles>
             <profile id="aeea-5c61-5b55-d68c" name="Prayer of Ash" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄 phase, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-3, the prayer is not answered.  On a 4+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 wholly within 18&quot; of this PRIEST.  Add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-3, the prayer is not answered.  On a 4+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 wholly within 18寸 of this PRIEST.  Add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3849,7 +3849,7 @@
           <profiles>
             <profile id="73f8-b56b-d948-3f53" name="Ember Storm" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄 phase, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 of VULKITE BERZERKERS or HEARTHGUARD BERZERKERS wholly within 18&quot; of this PRIEST.  That 单位 can run and still charge later in that turn.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 of VULKITE BERZERKERS or HEARTHGUARD BERZERKERS wholly within 18寸 of this PRIEST.  That 单位 can run and still charge later in that turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3861,7 +3861,7 @@
           <profiles>
             <profile id="97d4-fbcd-a0f0-1727" name="Prayer of Grimnir&apos;s Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄 phase, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3&quot; of an enemy 单位 and within 12&quot; of this PRIEST.   Make a pile-in move with that 英雄, and then attack with all of the melee weapons that 英雄 is armed with.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of an enemy 单位 and within 12寸 of this PRIEST.   Make a pile-in move with that 英雄, and then attack with all of the melee weapons that 英雄 is armed with.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3873,7 +3873,7 @@
           <profiles>
             <profile id="4d8e-f5fd-1603-4009" name="Gilded Claws" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄 phase, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly MAGMADROTH wholly within 12&quot; of this PRIEST.  You can re-roll wound rolls for attacks made with that 单位&apos;s Claws and Horns until the start of your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly MAGMADROTH wholly within 12寸 of this PRIEST.  You can re-roll wound rolls for attacks made with that 单位&apos;s Claws and Horns until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3914,7 +3914,7 @@
           <profiles>
             <profile id="9ba2-ee37-852a-8972" name="Fiery Endurance" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly VOSTARG units wholly within 12&quot; of this model at the start of your movement phase can run in that movement phase and still charge later in that same turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly VOSTARG units wholly within 12寸 of this model at the start of your movement phase can run in that movement phase and still charge later in that same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3942,7 +3942,7 @@
           <profiles>
             <profile id="8136-1537-d00a-d541" name="Battle-scarred Veteran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s melee weapons while there are 5 or more enemy models within 3&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s melee weapons while there are 5 or more enemy models within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3970,7 +3970,7 @@
           <profiles>
             <profile id="ab47-ce40-ea18-00fa" name="Warrior Indominate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks that target this general and friendly HERMDAR units wholly within 12&quot;.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks that target this general and friendly HERMDAR units wholly within 12寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3998,7 +3998,7 @@
           <profiles>
             <profile id="2bcd-5ec4-177f-3ef0" name="Explosive Charge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4033,7 +4033,7 @@
           <profiles>
             <profile id="cc41-d7f3-aaf8-15b8" name="Voxaxe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s melee weapons.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s melee weapons.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4064,7 +4064,7 @@
           <profiles>
             <profile id="12b6-74bc-3685-754f" name="Helm of Obsidian" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2 to the Wounds characteristic of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the Wounds characteristic of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4095,7 +4095,7 @@
           <profiles>
             <profile id="d4e2-e60f-e094-4b56" name="Tyrant Slayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  You can re-roll wound rolls for attacks made with that weapon that target an enemy 英雄.  In addition, if the unmodified hit roll for an attack made with that weapon that targets an enemy 英雄 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  You can re-roll wound rolls for attacks made with that weapon that target an enemy 英雄.  In addition, if the unmodified hit roll for an attack made with that weapon that targets an enemy 英雄 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4136,7 +4136,7 @@
           <profiles>
             <profile id="396b-bb07-1ce9-d2bd" name="Igneous Battle-throne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 6+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 6+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4154,7 +4154,7 @@
     <profile id="cc01-4fcb-b49f-d334" name="Fyresteel Throwing Axe (英雄)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8&quot;</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
         <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
@@ -4165,7 +4165,7 @@
     <profile id="7945-4fd8-4ae8-cd11" name="Fyresteel Throwing Axe (单位)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8&quot;</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
         <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
@@ -4175,23 +4175,23 @@
     </profile>
     <profile id="8a11-0e04-65b6-cc78" name="Stare Down" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, pick an enemy 单位 within 3&quot; of this model. Subtract D3 from that 单位’s Bravery characteristic until the start of your next 英雄 phase. </characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, pick an enemy 单位 within 3寸 of this model. Subtract D3 from that 单位’s Bravery characteristic until the start of your next 英雄阶段. </characteristic>
       </characteristics>
     </profile>
     <profile id="93a8-deea-2073-d9a2" name="Weapon-breaker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3&quot; of this model and roll a dice. On a 6, pick one of the melee weapons that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3寸 of this model and roll a dice. On a 6, pick one of the melee weapons that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
       </characteristics>
     </profile>
     <profile id="bce0-112a-991d-00f4" name="Lodge 领袖" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
       <characteristics>
-        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the charge phase. If you do so, pick a friendly model with this command ability. Add 1 charge rolls for friendly FYRESLAYERS units wholly within 12&quot; of that model until the end of that phase.</characteristic>
+        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the charge phase. If you do so, pick a friendly model with this command ability. Add 1 charge rolls for friendly FYRESLAYERS units wholly within 12寸 of that model until the end of that phase.</characteristic>
       </characteristics>
     </profile>
     <profile id="d9f9-9d7b-c429-2056" name="Fyresteel Handaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
         <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -4201,7 +4201,7 @@
     </profile>
     <profile id="8f44-b010-1b84-4b6d" name="Bladed Slingshields" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a 单位 armed with Bladed Slingshields makes a charge move, pick 1 enemy 单位 and roll a dice for each model from the charging 单位 within 8&quot; of that enemy 单位. For each 6, the enemy 单位 suffers 1 mortal wound. In addition, add 1 to save rolls for attacks made with melee weapons that target a 单位 armed with Bladed Slingshields if the target 单位 did not make a charge move in the same turn.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a 单位 armed with Bladed Slingshields makes a charge move, pick 1 enemy 单位 and roll a dice for each model from the charging 单位 within 8寸 of that enemy 单位. For each 6, the enemy 单位 suffers 1 mortal wound. In addition, add 1 to save rolls for attacks made with melee weapons that target a 单位 armed with Bladed Slingshields if the target 单位 did not make a charge move in the same turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

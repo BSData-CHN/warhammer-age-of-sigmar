@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b713-a274-2a46-fe02" name="Order - Idoneth Deepkin - Data" revision="25" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b713-a274-2a46-fe02" name="秩序 - Idoneth Deepkin - Data" revision="25" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0d25-2712-pubN65537" name="Order Battletome: Idoneth Deepkin"/>
     <publication id="0d25-2712-pubN70885" name="GHB 2018 Errata, June 2018"/>
@@ -95,7 +95,7 @@
                 </profile>
                 <profile id="6414-7a4a-1169-ee80" name="Isharann Rituals" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
                   <characteristics>
-                    <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">ISHARANN HEROES from an Idoneth Deepkin army can perform the following Isharann rituals in your 英雄 phase. A maximum of one Isharann ritual can be performed in each 英雄 phase.  In order to perform a ritual, at the start of your 英雄 phase, say which ritual is being performed and then pick one ISHARANN 英雄 from your army that is more than 9&quot; from any enemy models. Then roll 2D6. Add 1 to the roll if the 英雄 performing the ritual is within 1&quot; of a Gloomtide Shipwreck, and add a further 1 to the roll if they are a PRIEST. In addition, add 1 to the roll for each 其他 friendly ISHARANN 英雄 that is within 3&quot; of the model performing the ritual (add 2 instead for each 英雄 within 3&quot; that is a PRIEST). On a 10+ the ritual is successfully performed. On any 其他 result, the ritual fails and nothing happens.</characteristic>
+                    <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">ISHARANN HEROES from an Idoneth Deepkin army can perform the following Isharann rituals in your 英雄阶段. A maximum of one Isharann ritual can be performed in each 英雄阶段.  In order to perform a ritual, at the start of your 英雄阶段, say which ritual is being performed and then pick one ISHARANN 英雄 from your army that is more than 9寸 from any enemy models. Then roll 2D6. Add 1 to the roll if the 英雄 performing the ritual is within 1寸 of a Gloomtide Shipwreck, and add a further 1 to the roll if they are a PRIEST. In addition, add 1 to the roll for each 其他 friendly ISHARANN 英雄 that is within 3寸 of the model performing the ritual (add 2 instead for each 英雄 within 3寸 that is a PRIEST). On a 10+ the ritual is successfully performed. On any 其他 result, the ritual fails and nothing happens.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -170,17 +170,17 @@
                       <profiles>
                         <profile id="92a0-ef25-7725-7160" name="Ritual of Erosion" hidden="false" typeId="d2bf-4e28-aa1f-c410" typeName="Isharann Rituals">
                           <characteristics>
-                            <characteristic name="Effect" typeId="e939-5881-6512-499b">Until your next 英雄 phase, enemy units do not receive any benefit for being in cover.</characteristic>
+                            <characteristic name="Effect" typeId="e939-5881-6512-499b">Until your next 英雄阶段, enemy units do not receive any benefit for being in cover.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="6507-481a-62a2-637a" name="Ritual of Rousing" hidden="false" typeId="d2bf-4e28-aa1f-c410" typeName="Isharann Rituals">
                           <characteristics>
-                            <characteristic name="Effect" typeId="e939-5881-6512-499b">Heal 1 wound allocated to each friendly EIDOLON on the battlefield. In addition, you can re-roll failed hit rolls and casting rolls for friendly EIDOLONS until your next 英雄 phase.</characteristic>
+                            <characteristic name="Effect" typeId="e939-5881-6512-499b">Heal 1 wound allocated to each friendly EIDOLON on the battlefield. In addition, you can re-roll failed hit rolls and casting rolls for friendly EIDOLONS until your next 英雄阶段.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="60dd-e2c2-a7e2-1fa6" name="Ritual of the Tempest" hidden="false" typeId="d2bf-4e28-aa1f-c410" typeName="Isharann Rituals">
                           <characteristics>
-                            <characteristic name="Effect" typeId="e939-5881-6512-499b">Until your next 英雄 phase, enemy models cannot fly.</characteristic>
+                            <characteristic name="Effect" typeId="e939-5881-6512-499b">Until your next 英雄阶段, enemy models cannot fly.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -299,7 +299,7 @@
                       <profiles>
                         <profile id="7135-5233-03ae-e8f0" name="Supreme Soulscryers" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
                           <characteristics>
-                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a Briomdar Soulscryer uses their Finder ofWays ability, up to three friendly Briomdar units can join them instead of only two. In addition, you can set up the units that join a Briomdar Soulscryer wholly within 18&quot;of the Soulscryer instead of wholly within 12&quot;of the Soulscryer.</characteristic>
+                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a Briomdar Soulscryer uses their Finder ofWays ability, up to three friendly Briomdar units can join them instead of only two. In addition, you can set up the units that join a Briomdar Soulscryer wholly within 18寸of the Soulscryer instead of wholly within 12寸of the Soulscryer.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="0c43-9c6c-6a09-1392" name="Unstopable Raiders" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -338,7 +338,7 @@
       <profiles>
         <profile id="2586-b8c2-4e1c-da3d" name="Akhelian Paragon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly AKHELIAN units while they are wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly AKHELIAN units while they are wholly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="5bce-6c9d-71d8-12cb" name="Storm of Blows" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -348,12 +348,12 @@
         </profile>
         <profile id="a86f-7ed9-cd25-7b3f" name="Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12&quot; of your general. Add 1 to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄 phase. </characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12寸 of your general. Add 1 to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄阶段. </characteristic>
           </characteristics>
         </profile>
         <profile id="54a5-a674-ce5b-e284" name="Akhelian King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
@@ -380,7 +380,7 @@
             <profile id="b430-e0ba-c963-c3d1" name="Falchion" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -406,7 +406,7 @@
                 <profile id="766f-6d9e-011a-48bd" name="Greatsword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -424,7 +424,7 @@
                 <profile id="24ef-524e-090a-6046" name="Bladed Polearm" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -487,7 +487,7 @@
         <profile id="5c01-e560-3dbf-3a5f" name="Deepmare&apos;s Fanged Jaw and Talon&apos;s" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
             <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -498,7 +498,7 @@
         <profile id="8015-2b6c-601e-6433" name="Deepmare&apos;s Lashing Tails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
             <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -508,7 +508,7 @@
         </profile>
         <profile id="bb18-04c2-33ae-877b" name="Deepmare Horn" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice if this model ends a charge move within 1&quot; of any enemy units. On a 2+, the nearest enemy 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice if this model ends a charge move within 1寸 of any enemy units. On a 2+, the nearest enemy 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -523,12 +523,12 @@
       <profiles>
         <profile id="8ccb-1cb9-d772-f42d" name="First Among Akhelians" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly AKHELIAN units while they are wholly within 18&quot; of this model. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly AKHELIAN units while they are wholly within 18寸 of this model. </characteristic>
           </characteristics>
         </profile>
         <profile id="d2c3-57a5-fbe4-ea75" name="The Crest of the High Kings" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 18&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 18寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="9b98-42fc-9bb1-0e65" name="Cealith, the High King’s Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -538,12 +538,12 @@
         </profile>
         <profile id="c0d7-c100-8460-42ef" name="Supreme Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18&quot; of Volturnus. Add 1 to the Attacks characteristic of melee weapons used by those units until your next 英雄 phase</characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18寸 of Volturnus. Add 1 to the Attacks characteristic of melee weapons used by those units until your next 英雄阶段</characteristic>
           </characteristics>
         </profile>
         <profile id="a479-0026-d75e-56fd" name="Volturnos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
@@ -570,7 +570,7 @@
             <profile id="6f50-9a9b-a7d6-517b" name="The Astra Solus" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -602,23 +602,23 @@
         <profile id="e02b-e11a-c43e-67d1" name="Cloying Sea Mists" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a 单位 within 12&quot; of the caster and that is visible to them. If the 单位 is a friendly IDONETH DEEPKIN 单位, you can heal D3 wounds allocated to the 单位. Any 其他 单位 suffers D3 mortal wounds </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a 单位 within 12寸 of the caster and that is visible to them. If the 单位 is a friendly IDONETH DEEPKIN 单位, you can heal D3 wounds allocated to the 单位. Any 其他 单位 suffers D3 mortal wounds </characteristic>
           </characteristics>
         </profile>
         <profile id="71a6-b170-4bfd-c94f" name="Tsunami of Terror" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick D6 enemy units within 12&quot; of the caster and that are visible to them. Subtract 1 from hit rolls made for those units, and 1 from the Bravery characteristic of those units, until your next 英雄 phase.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick D6 enemy units within 12寸 of the caster and that are visible to them. Subtract 1 from hit rolls made for those units, and 1 from the Bravery characteristic of those units, until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="7937-0633-c06d-47fc" name="Dormant Energies" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll one casting roll for this model in each of your 英雄 phases. If you do not re-roll a casting roll, then you can heal D3 wounds allocated to this model at the end of your 英雄 phase instead.  </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll one casting roll for this model in each of your 英雄 phases. If you do not re-roll a casting roll, then you can heal D3 wounds allocated to this model at the end of your 英雄阶段 instead.  </characteristic>
           </characteristics>
         </profile>
         <profile id="a08c-29c7-df61-f8f0" name="Tranquility of the Abyss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 3 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are within 9&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 3 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are within 9寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="229c-91ea-bcbc-979c" name="Eidolon: Aspect of the Sea" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -659,7 +659,7 @@
             <profile id="99ac-1f63-3e9c-43fc" name="Psi-trident" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -681,7 +681,7 @@
             <profile id="20ef-8179-19b6-75a7" name="Deep-sea Sceptre" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -703,7 +703,7 @@
             <profile id="5ce8-e450-ba59-9e29" name="Blasts of Abyssal Energy" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -738,7 +738,7 @@
         <profile id="1b39-5fb6-bc25-ead7" name="Stormshoal" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
             <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -760,12 +760,12 @@
         </profile>
         <profile id="e798-8fd5-e312-e83d" name="Drench with Hate" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll wound rolls of 1 for friendly IDONETH DEEPKIN units while they are within 9&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll wound rolls of 1 for friendly IDONETH DEEPKIN units while they are within 9寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="a6a6-b03f-8e71-dad2" name="Pulled into the depths" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, you can pick an enemy 英雄 with a Wounds characteristic of less than 8 that is within 3&quot; of this model. Subtract 1 from hit rolls for that 英雄 for the rest of that combat phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, you can pick an enemy 英雄 with a Wounds characteristic of less than 8 that is within 3寸 of this model. Subtract 1 from hit rolls for that 英雄 for the rest of that combat phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d64-a7c7-f46f-b249" name="Eidolon: Aspect of the Storm" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -797,7 +797,7 @@
             <profile id="3e36-e67e-913d-dea3" name="Crulhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -819,7 +819,7 @@
             <profile id="0fcf-3585-60b3-2f4f" name="Fuathtar, Spear of Repressed Fury" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
@@ -863,7 +863,7 @@
         </profile>
         <profile id="a5b4-94ea-f4f2-3103" name="Catalogue of Souls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 12&quot; of this model. In addition, re-roll hit rolls of 1 for friendly NAMARTI units while they are wholly within 12&quot; of this model. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 12寸 of this model. In addition, re-roll hit rolls of 1 for friendly NAMARTI units while they are wholly within 12寸 of this model. </characteristic>
           </characteristics>
         </profile>
         <profile id="f1b7-f38c-2242-bbfe" name="Writhing Tentacles" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -890,7 +890,7 @@
             <profile id="a484-43d5-4102-ea29" name="Bone Quill" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
@@ -912,7 +912,7 @@
             <profile id="1bec-eb8e-af21-ff10" name="Ochtar&apos;s Cudgel" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -934,7 +934,7 @@
             <profile id="6c56-23d4-f88d-1a85" name="Ochtar&apos;s Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -956,7 +956,7 @@
             <profile id="cd7d-54ee-10c0-f184" name="Ochtar&apos;s Tentacles" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1018,7 +1018,7 @@
             <profile id="745e-4276-a06c-df98" name="Keening Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1040,7 +1040,7 @@
             <profile id="9fd0-cbbd-35bc-a08b" name="Wisperbow: Aimed Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1051,7 +1051,7 @@
             <profile id="ec1c-6e74-2c06-637b" name="Wisperbow: Storm Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1098,7 +1098,7 @@
                 <profile id="a3fb-a65c-7ec1-4faa" name="Keening Blade - Icon Bearer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1120,7 +1120,7 @@
                 <profile id="0235-1465-b6ec-10e8" name="Wisperbow: Aimed Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1131,7 +1131,7 @@
                 <profile id="0473-a88f-5921-5646" name="Wisperbow: Storm Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1163,7 +1163,7 @@
       <profiles>
         <profile id="d1d0-574f-59d7-b545" name="Namarti Thralls" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -1202,7 +1202,7 @@
             <profile id="7703-9282-f9a2-0344" name="Lanmari Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1249,7 +1249,7 @@
                 <profile id="3fe5-a76f-b5c6-0609" name="Lanmari Blade - Icon Bearer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1281,7 +1281,7 @@
       <profiles>
         <profile id="9dee-f3b0-44e3-2afb" name="Isharann Tidecaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -1301,7 +1301,7 @@
         <profile id="6fcf-822e-c4a4-9d64" name="Riptide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18&quot;of the caster that is visible to them. Until your next 英雄 phase, subtract 1 from hit rolls for that 单位. In addition, at the start of your next 英雄 phase the 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸of the caster that is visible to them. Until your next 英雄阶段, subtract 1 from hit rolls for that 单位. In addition, at the start of your next 英雄阶段 the 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1327,7 +1327,7 @@
             <profile id="a4e8-6fde-5dbe-c862" name="Pelagic Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1355,7 +1355,7 @@
       <profiles>
         <profile id="d450-645e-a1d7-4f12" name="Isharann Soulscryer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -1363,12 +1363,12 @@
         </profile>
         <profile id="1251-ecd3-26df-e803" name="Finder of Ways" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this 单位 on the battlefield, you can place it to one side and say that it is set up travelling the ethersea. If you do so, when you would set up another friendly IDONETH DEEPKIN 单位, instead of setting up the 单位, you can say that it is joining this model in the ethersea. Up to 2 units can join this model in this way. At the end of any of your movement phases, you can set up this model wholly within 6&quot;of the edge of the battlefield and more than 9&quot;from any enemy models; then set up any units that joined this model wholly within 6&quot;of the edge of the battlefield, wholly within 12&quot;of this model, and more than 9&quot;from any enemy models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this 单位 on the battlefield, you can place it to one side and say that it is set up travelling the ethersea. If you do so, when you would set up another friendly IDONETH DEEPKIN 单位, instead of setting up the 单位, you can say that it is joining this model in the ethersea. Up to 2 units can join this model in this way. At the end of any of your movement phases, you can set up this model wholly within 6寸of the edge of the battlefield and more than 9寸from any enemy models; then set up any units that joined this model wholly within 6寸of the edge of the battlefield, wholly within 12寸of this model, and more than 9寸from any enemy models.</characteristic>
           </characteristics>
         </profile>
         <profile id="91d4-9a3a-1ebc-bb4b" name="Seeker of Souls " hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your charge phase, you can pick one enemy 单位 within 24&quot;of this model that is visible to them. If you do so, you must add 3 to charge rolls for friendly IDONETH DEEPKIN units that are within 12&quot;of that 单位. However, the first model to be moved from each 单位 that receives this modifier must finish their charge move within ½&quot;of that 单位 or their charge will fail.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your charge phase, you can pick one enemy 单位 within 24寸of this model that is visible to them. If you do so, you must add 3 to charge rolls for friendly IDONETH DEEPKIN units that are within 12寸of that 单位. However, the first model to be moved from each 单位 that receives this modifier must finish their charge move within ½寸of that 单位 or their charge will fail.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1390,7 +1390,7 @@
             <profile id="d824-c790-abee-f3fa" name="Scryfish Shoal" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
@@ -1412,7 +1412,7 @@
             <profile id="38f7-de1a-b0ef-774a" name="Finger-claw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1439,7 +1439,7 @@
       <profiles>
         <profile id="487f-054b-99de-94c0" name="Isharann Soulrender" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1447,12 +1447,12 @@
         </profile>
         <profile id="03e6-f24c-d1db-72cd" name="Lurelight" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of your battleshock phase, pick a friendly NAMARTI 单位 wholly within 12&quot;of this model and roll a D3. Return a number of slain models to the 单位 you picked up to the value of the roll. Add 1 to the D3 roll for each enemy model that was slain by damage caused by this model’s Talúnhook in the combat phase of the same turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of your battleshock phase, pick a friendly NAMARTI 单位 wholly within 12寸of this model and roll a D3. Return a number of slain models to the 单位 you picked up to the value of the roll. Add 1 to the D3 roll for each enemy model that was slain by damage caused by this model’s Talúnhook in the combat phase of the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a90-a640-bae3-d69e" name="Hangman&apos;s Knot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, pick an enemy 英雄 that is within 3&quot;of this model and roll a dice. Subtract 2 from the dice roll if the enemy 英雄 is a 怪兽. On a 4+, you can re-roll failed hit rolls for this model’s Talúnhook for attacks that target that enemy HEROin that combat phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, pick an enemy 英雄 that is within 3寸of this model and roll a dice. Subtract 2 from the dice roll if the enemy 英雄 is a 怪兽. On a 4+, you can re-roll failed hit rolls for this model’s Talúnhook for attacks that target that enemy HEROin that combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1473,7 +1473,7 @@
             <profile id="41e3-b1bb-8d6f-d8d8" name="Talúnhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1495,7 +1495,7 @@
             <profile id="7e87-d102-772f-3937" name="Rakerdart’s Serrated Bill" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1522,7 +1522,7 @@
       <profiles>
         <profile id="15d8-ee4e-cea2-1f33" name="Akhelian Allopexes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1530,7 +1530,7 @@
         </profile>
         <profile id="ec41-7e31-1f14-ed06" name="Bloodthirsty Predators" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your charge phase, if this 单位 is within 12&quot; of any enemy models that have been allocated any wounds, you can re-roll charge rolls for this 单位 in that charge phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your charge phase, if this 单位 is within 12寸 of any enemy models that have been allocated any wounds, you can re-roll charge rolls for this 单位 in that charge phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1554,7 +1554,7 @@
             <profile id="d95e-4a6a-b3c4-1e14" name="Barbed Hooks and Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1576,7 +1576,7 @@
             <profile id="e857-b9b2-32b6-edbf" name="Alopex&apos;s Scythed Fins" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1598,7 +1598,7 @@
             <profile id="22f3-6e75-0140-00ff" name="Allopex&apos;s Ferocious Bite" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1633,7 +1633,7 @@
                 <profile id="2bf4-1c15-de9b-92bd" name="Retarius Net Launcher" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1673,7 +1673,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24&quot;</characteristic>
+            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
             <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1695,7 +1695,7 @@
         </profile>
         <profile id="debb-36e2-ebf5-e466" name="Void Drum" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">IDONETH DEEPKIN units are treated as being in cover while they are wholly within 12&quot; of any friendly Akhelian Leviadons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">IDONETH DEEPKIN units are treated as being in cover while they are wholly within 12寸 of any friendly Akhelian Leviadons.</characteristic>
           </characteristics>
         </profile>
         <profile id="957c-2125-ba3f-dd2a" name="Akhelian Leviadon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -1726,35 +1726,35 @@
           <profiles>
             <profile id="b059-319e-1ac5-595b" name="10-13" hidden="false" typeId="7534-9548-748f-9dcc" typeName="Leviadon Wounds">
               <characteristics>
-                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">8&quot;</characteristic>
+                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">8寸</characteristic>
                 <characteristic name="Crushing Jaws" typeId="1127-f3b9-015c-71f0">4+</characteristic>
                 <characteristic name="Massive Scythed Fins" typeId="4b7c-1211-95ee-17e8">2</characteristic>
               </characteristics>
             </profile>
             <profile id="ec71-4ffc-0b89-671c" name="04-06" hidden="false" typeId="7534-9548-748f-9dcc" typeName="Leviadon Wounds">
               <characteristics>
-                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">10&quot;</characteristic>
+                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">10寸</characteristic>
                 <characteristic name="Crushing Jaws" typeId="1127-f3b9-015c-71f0">3+</characteristic>
                 <characteristic name="Massive Scythed Fins" typeId="4b7c-1211-95ee-17e8">3</characteristic>
               </characteristics>
             </profile>
             <profile id="16a9-295e-69e0-9cac" name="07-09" hidden="false" typeId="7534-9548-748f-9dcc" typeName="Leviadon Wounds">
               <characteristics>
-                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">9&quot;</characteristic>
+                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">9寸</characteristic>
                 <characteristic name="Crushing Jaws" typeId="1127-f3b9-015c-71f0">3+</characteristic>
                 <characteristic name="Massive Scythed Fins" typeId="4b7c-1211-95ee-17e8">2</characteristic>
               </characteristics>
             </profile>
             <profile id="c949-f038-a1d6-f318" name="14+" hidden="false" typeId="7534-9548-748f-9dcc" typeName="Leviadon Wounds">
               <characteristics>
-                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">7&quot;</characteristic>
+                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">7寸</characteristic>
                 <characteristic name="Crushing Jaws" typeId="1127-f3b9-015c-71f0">4+</characteristic>
                 <characteristic name="Massive Scythed Fins" typeId="4b7c-1211-95ee-17e8">1</characteristic>
               </characteristics>
             </profile>
             <profile id="16af-ea9a-a249-f613" name="00-03" hidden="false" typeId="7534-9548-748f-9dcc" typeName="Leviadon Wounds">
               <characteristics>
-                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">12&quot;</characteristic>
+                <characteristic name="移动力" typeId="db5c-69fe-9522-dcf5">12寸</characteristic>
                 <characteristic name="Crushing Jaws" typeId="1127-f3b9-015c-71f0">2+</characteristic>
                 <characteristic name="Massive Scythed Fins" typeId="4b7c-1211-95ee-17e8">3</characteristic>
               </characteristics>
@@ -1773,7 +1773,7 @@
             <profile id="74dd-22ea-aa6c-4c12" name="Leviadon&apos;s Crushing Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
@@ -1795,7 +1795,7 @@
             <profile id="f922-c2ce-027c-e969" name="Leviadon&apos;s Massive Scythed Fins" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1817,7 +1817,7 @@
             <profile id="2f1a-7716-6002-bdfd" name="Harpoon Launchers" publicationId="0d25-2712-pubN77739" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1839,7 +1839,7 @@
             <profile id="a992-ca18-532c-3365" name="Twin-pronged Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1869,7 +1869,7 @@
       <profiles>
         <profile id="7731-199b-62b1-2a39" name="Akhelian Morrsarr Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1882,7 +1882,7 @@
         </profile>
         <profile id="8541-037c-1aa0-3c0f" name="Biovoltaic Blast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of a combat phase, you can say that this 单位 will unleash the biovoltaic energy stored in its voltspears. If you do so, roll 1 dice for each model in this 单位. For each 3+, pick an enemy 单位 within 3&quot; of this 单位. That 单位 suffers 1 mortal wound. For each 6+, the 单位 that is picked suffers D3 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of a combat phase, you can say that this 单位 will unleash the biovoltaic energy stored in its voltspears. If you do so, roll 1 dice for each model in this 单位. For each 3+, pick an enemy 单位 within 3寸 of this 单位. That 单位 suffers 1 mortal wound. For each 6+, the 单位 that is picked suffers D3 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1906,7 +1906,7 @@
             <profile id="d856-5e09-5d6f-66ef" name="Voltspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1966,7 +1966,7 @@
                 <profile id="b063-baeb-fdbc-7c4e" name="Voltspear - Locian Prince" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2038,7 +2038,7 @@
                 <profile id="fe0f-6191-e298-6daa" name="Helsabre - Locian Prince" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2076,7 +2076,7 @@
             <profile id="5e84-ee81-4563-4195" name="Fangmora&apos;s Fanged Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2098,7 +2098,7 @@
             <profile id="da6d-88c8-c694-067d" name="Fangmora&apos;s Lashing Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2120,7 +2120,7 @@
       <profiles>
         <profile id="1471-6751-ea4f-9e4c" name="Akhelian Ishlaen Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -2152,7 +2152,7 @@
             <profile id="d918-3a5b-6440-174b" name="Helsabre" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2192,12 +2192,12 @@
       <profiles>
         <profile id="f55d-291c-9698-3199" name="Predators of the Ethersea" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 英雄 phase, roll a dice for each 单位 within 3&quot; of this terrain feature. Do not roll for IDONETH DEEPKIN units. On a 4+ the 单位 suffers 1 mortal wound. On a 6+ the 单位 suffers D3 mortal wounds instead.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 英雄阶段, roll a dice for each 单位 within 3寸 of this terrain feature. Do not roll for IDONETH DEEPKIN units. On a 4+ the 单位 suffers 1 mortal wound. On a 6+ the 单位 suffers D3 mortal wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="6354-931b-5a77-dccf" name="Guardians of the Deep" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound or mortal wound is allocated to an IDONETH DEEPKIN 单位 wholly within 6&quot; of this terrain feature. On a 6+ the wound is negated.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound or mortal wound is allocated to an IDONETH DEEPKIN 单位 wholly within 6寸 of this terrain feature. On a 6+ the wound is negated.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2213,7 +2213,7 @@
       <profiles>
         <profile id="e707-e4db-7e90-de23" name="Pulsing Rhythm of the Drums" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Once per phase, you can re-roll one hit, wound, save, run, or charge roll for one 单位 from this 阵型 that is wholly within 12&quot; of the Akhelian Leviadon from this 阵型 when the re-roll is made.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Once per phase, you can re-roll one hit, wound, save, run, or charge roll for one 单位 from this 阵型 that is wholly within 12寸 of the Akhelian Leviadon from this 阵型 when the re-roll is made.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2394,7 +2394,7 @@
       <profiles>
         <profile id="cd2e-dcfe-866b-d638" name="Give Them No Respite" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄 phase if the Akhelian King from this 阵型 is your general, and the Isharann Tidecaster and Isharann Soulscryer from this 阵型 are within 3&quot; of the general. If you do so, pick up to three friendly IDONETH DEEPKIN units that are wholly within 12&quot;of your general. Add 3&quot; to the Move characteristic of the units you pick until your next 英雄 phase. </characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if the Akhelian King from this 阵型 is your general, and the Isharann Tidecaster and Isharann Soulscryer from this 阵型 are within 3寸 of the general. If you do so, pick up to three friendly IDONETH DEEPKIN units that are wholly within 12寸of your general. Add 3寸 to the Move characteristic of the units you pick until your next 英雄阶段. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2799,7 +2799,7 @@
           <profiles>
             <profile id="efeb-7beb-f820-458b" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16&quot; of the PRIEST and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2811,7 +2811,7 @@
           <profiles>
             <profile id="2913-8bcf-a6ec-17ab" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 3&quot; of the PRIEST. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 3寸 of the PRIEST. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2823,7 +2823,7 @@
           <profiles>
             <profile id="d1a3-9cca-0f87-31a0" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 英雄 from your army that is within 16&quot; of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 英雄 from your army that is within 16寸 of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2835,7 +2835,7 @@
           <profiles>
             <profile id="e53b-d58a-d894-8370" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16&quot; of the PRIEST and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2847,7 +2847,7 @@
           <profiles>
             <profile id="ca39-078c-4d38-90bd" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16&quot; of the PRIEST and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄 phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2859,7 +2859,7 @@
           <profiles>
             <profile id="2bd5-6888-55d1-6fd9" name="Magebane Hex" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄 phase, the PRIEST can attempt to unbind one additional 法术 in each enemy 英雄 phase in the same manner as a 法师.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the PRIEST can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2926,7 +2926,7 @@
           <profiles>
             <profile id="c0a9-9118-a2e2-2987" name="Nightmare Legacy" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Subtract 1 from the Bravery characteristic of enemy units while they are within 12&quot;of this general.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2938,7 +2938,7 @@
           <profiles>
             <profile id="ca51-7035-c34b-4c0b" name="Lord of Storm and Sea" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 12&quot;of this general.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 12寸of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2973,7 +2973,7 @@
           <profiles>
             <profile id="12e5-cc7f-0801-79cc" name="Sanguine Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a melee weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a melee weapon. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2988,7 +2988,7 @@
           <profiles>
             <profile id="9e03-d1d4-ec95-1441" name="Potion of Hateful Frenzy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄 phase, the bearer can drink this potion. If they do so, add 1 to hit and wound rolls for the bearer until your next 英雄 phase. However, at the start of your next 英雄 phase the bearer suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink this potion. If they do so, add 1 to hit and wound rolls for the bearer until your next 英雄阶段. However, at the start of your next 英雄阶段 the bearer suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3003,7 +3003,7 @@
           <profiles>
             <profile id="5b27-18b6-7b5d-6b38" name="Ankusha Spur" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 3&quot; to the bearer’s Move characteristic.  In addition, re-roll wound rolls of 1 for attacks made by the bearer’s mount</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to the bearer’s Move characteristic.  In addition, re-roll wound rolls of 1 for attacks made by the bearer’s mount</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3018,7 +3018,7 @@
           <profiles>
             <profile id="3e81-c82f-688e-9566" name="Armour of the Cythai" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for melee weapons that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for melee weapons that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3033,7 +3033,7 @@
           <profiles>
             <profile id="a843-7404-ba9b-902a" name="Bio-shock Shell" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will use the Bio-shock Shell. If you do so, each enemy 单位 within 3&quot;of the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will use the Bio-shock Shell. If you do so, each enemy 单位 within 3寸of the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3048,7 +3048,7 @@
           <profiles>
             <profile id="1a0e-3f29-5596-d076" name="Abyssal Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the SLAANESH keyword.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the SLAANESH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3083,7 +3083,7 @@
           <profiles>
             <profile id="d988-b9e6-77a7-86b8" name="Rune of the Surging Tide" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, you can say that the bearer will use the Rune of the Surging Tide. If you do so, say whether the rune will be used to create a stream or a riptide. If a stream is created, add 1&quot; to the Move characteristic of friendly IDONETH DEEPKIN units until your next 英雄 phase. If a riptide is created, subtract 1&quot; from the Move characteristic of enemy units until your next 英雄 phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can say that the bearer will use the Rune of the Surging Tide. If you do so, say whether the rune will be used to create a stream or a riptide. If a stream is created, add 1寸 to the Move characteristic of friendly IDONETH DEEPKIN units until your next 英雄阶段. If a riptide is created, subtract 1寸 from the Move characteristic of enemy units until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3098,7 +3098,7 @@
           <profiles>
             <profile id="222b-e1be-68db-7fa5" name="Black Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3113,7 +3113,7 @@
           <profiles>
             <profile id="4e35-5033-7c33-18a4" name="Lliandra’s Last Lament" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the battleshock phase, you can say that the bearer will release Lliandra’s Last Lament. If you do so, friendly IDONETH DEEPKIN units wholly within 18&quot;of the bearer do not have to take battleshock tests that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the battleshock phase, you can say that the bearer will release Lliandra’s Last Lament. If you do so, friendly IDONETH DEEPKIN units wholly within 18寸of the bearer do not have to take battleshock tests that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3128,7 +3128,7 @@
           <profiles>
             <profile id="e512-0209-69de-f1ff" name="Terrornight Venom" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be coated with Terrornight Venom. Re-roll wound rolls of 1 for that weapon. In addition, subtract 1 from the Bravery characteristic of enemy units that suffer any wounds from this weapon for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be coated with Terrornight Venom. Re-roll wound rolls of 1 for that weapon. In addition, subtract 1 from the Bravery characteristic of enemy units that suffer any wounds from this weapon for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3143,7 +3143,7 @@
           <profiles>
             <profile id="97f2-6897-f37c-8fd1" name="Cloud of Midnight" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can release the Cloud of Midnight. If they do so, they cannot be chosen as the target for attacks, spells or abilities for the rest of the phase, but cannot themselves attack or use spells and abilities for the rest of the phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can release the Cloud of Midnight. If they do so, they cannot be chosen as the target for attacks, spells or abilities for the rest of the phase, but cannot themselves attack or use spells and abilities for the rest of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3158,7 +3158,7 @@
           <profiles>
             <profile id="81f3-b094-38d5-ff74" name="Whorlshell" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, you can say that the bearer will use the Whorlshell. If you do so, pick an enemy 英雄 within 9&quot; of the bearer that is visible to them and roll 2D6. If the roll is greater than the enemy 英雄’s Bravery characteristic, subtract 1 from hit rolls for the enemy 英雄 for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can say that the bearer will use the Whorlshell. If you do so, pick an enemy 英雄 within 9寸 of the bearer that is visible to them and roll 2D6. If the roll is greater than the enemy 英雄’s Bravery characteristic, subtract 1 from hit rolls for the enemy 英雄 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3193,7 +3193,7 @@
           <profiles>
             <profile id="61a6-c6a9-a2ff-1bd7" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a missile weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a missile weapon. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3208,7 +3208,7 @@
           <profiles>
             <profile id="98bf-66d5-f19a-9926" name="Mind Flare" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, pick an enemy 单位 within 3&quot; of the bearer. Subtract 1 from hit rolls for that 单位 until the end of that combat phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, pick an enemy 单位 within 3寸 of the bearer. Subtract 1 from hit rolls for that 单位 until the end of that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3223,7 +3223,7 @@
           <profiles>
             <profile id="3b5e-7830-21e0-bfcc" name="Dritchleech" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of WIZARDS while they are within 18&quot;of the bearer. IDONETH DEEPKIN WIZARDS are not affected by this artefact.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of WIZARDS while they are within 18寸of the bearer. IDONETH DEEPKIN WIZARDS are not affected by this artefact.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3238,7 +3238,7 @@
           <profiles>
             <profile id="98f7-044c-378e-bb8e" name="Auric Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of your shooting phase, pick an enemy 单位 within 18&quot;of the bearer that is in cover. Until your next shooting phase, that enemy 单位 does not receive the benefit to its saving throw for being in cover.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your shooting phase, pick an enemy 单位 within 18寸of the bearer that is in cover. Until your next shooting phase, that enemy 单位 does not receive the benefit to its saving throw for being in cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3253,7 +3253,7 @@
           <profiles>
             <profile id="ecbb-806f-f16f-e155" name="Disharmony Stones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, pick up to two enemy HEROES that are within 12&quot;of the bearer. The opposing player must then choose one of the following options:  a) Roll a dice for each 英雄 picked. On a 3+ that 英雄 suffers 1 mortal wound.  b) Roll a dice for each 英雄 picked. On a 5+ that 英雄 suffers D3 mortal wounds.  c) Each 英雄 picked suffers D3 mortal wounds. Then roll a dice. On a 4+ the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, pick up to two enemy HEROES that are within 12寸of the bearer. The opposing player must then choose one of the following options:  a) Roll a dice for each 英雄 picked. On a 3+ that 英雄 suffers 1 mortal wound.  b) Roll a dice for each 英雄 picked. On a 5+ that 英雄 suffers D3 mortal wounds.  c) Each 英雄 picked suffers D3 mortal wounds. Then roll a dice. On a 4+ the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3268,7 +3268,7 @@
           <profiles>
             <profile id="01a6-07bc-cb74-7f70" name="Brain Barnacles" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, pick an enemy 英雄 within 12&quot;of the bearer and roll 2D6. If the roll is equal to or greater than the distance between the bearer and that 英雄, the enemy 英雄 is infected. Subtract 1 from hit rolls and casting rolls for the infected 英雄 for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, pick an enemy 英雄 within 12寸of the bearer and roll 2D6. If the roll is equal to or greater than the distance between the bearer and that 英雄, the enemy 英雄 is infected. Subtract 1 from hit rolls and casting rolls for the infected 英雄 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3303,7 +3303,7 @@
           <profiles>
             <profile id="d372-20c1-842b-aead" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a missile weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a missile weapon. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3318,7 +3318,7 @@
           <profiles>
             <profile id="c969-b04f-8597-57e4" name="Sands of Infinity" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can use the Sands of Infinity once per battle, before making a casting roll for the bearer for a 法术 whose effects would normally last until your next 英雄 phase. If you do so, and the 法术 is successfully cast and not unbound, then the effectsof the 法术 last until your 英雄 phase after your next 英雄 phase instead.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can use the Sands of Infinity once per battle, before making a casting roll for the bearer for a 法术 whose effects would normally last until your next 英雄阶段. If you do so, and the 法术 is successfully cast and not unbound, then the effectsof the 法术 last until your 英雄阶段 after your next 英雄阶段 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3333,7 +3333,7 @@
           <profiles>
             <profile id="543a-e508-9d2a-16d3" name="Coral Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, you can re-roll a failed casting roll for the bearer. In addition, once per battle, you can re-roll a failed unbinding roll for the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, you can re-roll a failed casting roll for the bearer. In addition, once per battle, you can re-roll a failed unbinding roll for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3348,7 +3348,7 @@
           <profiles>
             <profile id="0845-5c75-c700-c031" name="Bauble of Buoyancy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can fly. In addition, double the result of run rolls for the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. In addition, double the result of run rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3363,7 +3363,7 @@
           <profiles>
             <profile id="6615-11c9-da4d-853f" name="-" hidden="false" typeId="af55-be3c-69fd-b6f5" typeName="Kraken Tooth - D6 Roll">
               <characteristics>
-                <characteristic name="Effect" typeId="9878-bea0-9436-4b49">Once per battle, in your shooting phase, pick an enemy 单位 within 12&quot;of the bearer that is visible to them. Then, roll a dice and look up the result below.</characteristic>
+                <characteristic name="Effect" typeId="9878-bea0-9436-4b49">Once per battle, in your shooting phase, pick an enemy 单位 within 12寸of the bearer that is visible to them. Then, roll a dice and look up the result below.</characteristic>
               </characteristics>
             </profile>
             <profile id="fcc4-912b-7828-aa12" name="6 - A Tasty Morsel" hidden="false" typeId="af55-be3c-69fd-b6f5" typeName="Kraken Tooth - D6 Roll">
@@ -3393,7 +3393,7 @@
           <profiles>
             <profile id="e948-19a8-2a0c-ba24" name="Augury Shells" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, roll 2D6. During that 英雄 phase, you can use that roll as the result of a casting roll for the bearer, or as the result of an unbinding roll for an enemy 法师 that is attempting to unbind a 法术 cast by the bearer. You must say that you will use that roll before the actual casting or unbinding roll is made.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, roll 2D6. During that 英雄阶段, you can use that roll as the result of a casting roll for the bearer, or as the result of an unbinding roll for an enemy 法师 that is attempting to unbind a 法术 cast by the bearer. You must say that you will use that roll before the actual casting or unbinding roll is made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3435,7 +3435,7 @@
             <profile id="e2c0-b4a9-71e7-2bdb" name="Steed of Tides" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 英雄 that is not a 怪兽 and that is within 6&quot; of the caster and visible to them. Remove that model from the battlefield, and then set it up again within 24&quot;of its previous location and more than 9&quot; from any enemy models. This counts as the model’s move in your following movement phase.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 英雄 that is not a 怪兽 and that is within 6寸 of the caster and visible to them. Remove that model from the battlefield, and then set it up again within 24寸of its previous location and more than 9寸 from any enemy models. This counts as the model’s move in your following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3448,7 +3448,7 @@
             <profile id="f7ac-6410-6d2c-a0d6" name="Abyssal Darkness" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next 英雄 phase, friendl IDONETH DEEPKIN units are treated as being in cover while they are wholly within 9&quot; of the caster.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, until your next 英雄阶段, friendl IDONETH DEEPKIN units are treated as being in cover while they are wholly within 9寸 of the caster.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3461,7 +3461,7 @@
             <profile id="4f02-da23-97b7-6002" name="Vorpal Maelstrom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18&quot;of the caster that is visible to them. Roll a dice for each 单位 within 3&quot; of that point. If the dice roll for a 单位 is less than or equal to the number of models in the 单位, that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a point on the battlefield within 18寸of the caster that is visible to them. Roll a dice for each 单位 within 3寸 of that point. If the dice roll for a 单位 is less than or equal to the number of models in the 单位, that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3474,7 +3474,7 @@
             <profile id="1924-de71-ff4c-1dcf" name="Pressure of the Deep" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy model within 12&quot; of the caster that is visible to them, and roll a dice. If the dice roll is greater than that model’s Wounds characteristic, it is slain.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy model within 12寸 of the caster that is visible to them, and roll a dice. If the dice roll is greater than that model’s Wounds characteristic, it is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3487,7 +3487,7 @@
             <profile id="7e21-adfb-0b78-154e" name="Tide of Fear" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12&quot; of the caster that is visible to them. Until your next 英雄 phase, subtract 1 from hit rolls for that 单位 and subtract 1 from that 单位’s Bravery characteristic.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, subtract 1 from hit rolls for that 单位 and subtract 1 from that 单位’s Bravery characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3500,7 +3500,7 @@
             <profile id="6068-dbef-97bb-6143" name="Arcane Corrasion" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick the closest enemy 单位 within 48&quot; of the caster and measure the distance between the caster and the 单位.   If the distance is up to 12&quot;, the target suffers 1 mortal wound   If the distance is more than 12&quot; and up to 24&quot; it suffers 2 mortal wounds instead  If the distance is more than 24&quot; and up to 36&quot; it suffers 3 mortal wounds instead  If the distance is more than 36&quot; and up to 48&quot; it suffers 4 mortal wounds instead.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick the closest enemy 单位 within 48寸 of the caster and measure the distance between the caster and the 单位.   If the distance is up to 12寸, the target suffers 1 mortal wound   If the distance is more than 12寸 and up to 24寸 it suffers 2 mortal wounds instead  If the distance is more than 24寸 and up to 36寸 it suffers 3 mortal wounds instead  If the distance is more than 36寸 and up to 48寸 it suffers 4 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3543,7 +3543,7 @@
             <profile id="ac95-2b79-52fd-a29a" name="Freezing Mists" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfullycast, pick an enemy 单位 within 12&quot;of the caster that is visible to them. Until your next 英雄 phase, that 单位 can only move 1&quot; when it piles in, and any abilities that would increase its pilein move are ignored.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfullycast, pick an enemy 单位 within 12寸of the caster that is visible to them. Until your next 英雄阶段, that 单位 can only move 1寸 when it piles in, and any abilities that would increase its pilein move are ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3582,7 +3582,7 @@
             <profile id="1c50-6f96-3817-1dd8" name="Protective Barrier" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">4</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Nautilar 单位 within 12&quot;of the caster that is visible to them. Until your next 英雄 phase, worsen the Rend characteristic of attacks that target that 单位 by 1 (to a minimum of ‘-’).</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Nautilar 单位 within 12寸of the caster that is visible to them. Until your next 英雄阶段, worsen the Rend characteristic of attacks that target that 单位 by 1 (to a minimum of ‘-’).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3653,7 +3653,7 @@
             <profile id="8166-4dcd-50ac-e807" name="Freezing Mists" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfullycast, pick an enemy 单位 within 12&quot;of the caster that is visible to them. Until your next 英雄 phase, that 单位 can only move 1&quot; when it piles in, and any abilities that would increase its pilein move are ignored.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfullycast, pick an enemy 单位 within 12寸of the caster that is visible to them. Until your next 英雄阶段, that 单位 can only move 1寸 when it piles in, and any abilities that would increase its pilein move are ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3673,7 +3673,7 @@
             <profile id="5434-d1de-8dc8-6fc0" name="Protective Barrier" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">4</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Nautilar 单位 within 12&quot;of the caster that is visible to them. Until your next 英雄 phase, worsen the Rend characteristic of attacks that target that 单位 by 1 (to a minimum of ‘-’).</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly Nautilar 单位 within 12寸of the caster that is visible to them. Until your next 英雄阶段, worsen the Rend characteristic of attacks that target that 单位 by 1 (to a minimum of ‘-’).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3685,6 +3685,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="ed48-ee45-0f3d-5d2d" name="Order - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ed48-ee45-0f3d-5d2d" name="秩序 - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

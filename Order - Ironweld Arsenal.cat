@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e5a-f2b2-2dfb-00f3" name="Order - Ironweld Arsenal" revision="14" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e5a-f2b2-2dfb-00f3" name="秩序 - Ironweld Arsenal" revision="14" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7e5a-f2b2-pubN65537" name="Grand Alliance: Order"/>
   </publications>
@@ -135,7 +135,7 @@
         </profile>
         <profile id="2646-118c-eff6-94ba" name="Crew0" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1&quot;</characteristic>
+            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1寸</characteristic>
             <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">Move</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">Cannon Shell</characteristic>
           </characteristics>
@@ -143,34 +143,34 @@
         <profile id="a266-2ba3-0de8-66cc" name="Crew1" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">3 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">2</characteristic>
           </characteristics>
         </profile>
         <profile id="0898-943f-6e73-1ad5" name="Crew2" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">2 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">2</characteristic>
           </characteristics>
         </profile>
         <profile id="a6db-efe5-a4ae-0d48" name="Crew3" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">1 model</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">1</characteristic>
           </characteristics>
         </profile>
         <profile id="3984-aaa7-fb22-6b54" name="Crew4" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">No models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0&quot;</characteristic>
-            <characteristic name="Variable3" typeId="0491-444f-6247-5164">0&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0寸</characteristic>
+            <characteristic name="Variable3" typeId="0491-444f-6247-5164">0寸</characteristic>
           </characteristics>
         </profile>
         <profile id="b3bf-1c0d-11c5-d58c" name="Duardin 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Cannon can only move if its Crew are within 1&quot; at the start of the movement phase.  If its Crew are within 1&quot; of the Cannon in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1&quot; of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Cannon can only move if its Crew are within 1寸 at the start of the movement phase.  If its Crew are within 1寸 of the Cannon in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="f56b-adb4-9122-3d63" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -188,7 +188,7 @@
         </profile>
         <profile id="8e66-cab7-7890-b1b3" name="Rune of Accuracy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll failed hit rolls when firing a Cannon Shell if there is an ENGINEER from your army within 1&quot; of the 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll failed hit rolls when firing a Cannon Shell if there is an ENGINEER from your army within 1寸 of the 战争机械.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -207,7 +207,7 @@
             <profile id="9a3c-a2da-1cd2-31c3" name="Cannon Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">32&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">32寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
@@ -259,7 +259,7 @@
         </profile>
         <profile id="cd1d-e53d-5027-a809" name="Crew0" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1&quot;</characteristic>
+            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1寸</characteristic>
             <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">Move</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">Volley of Shots</characteristic>
           </characteristics>
@@ -267,39 +267,39 @@
         <profile id="15cd-b1bc-bf70-7be1" name="Crew1" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">3 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="35d5-3005-2d51-6a8b" name="Crew2" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">2 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="6fd0-1bc4-6159-b89b" name="Crew3" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">1 model</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="13c0-ff2c-3a2c-ab10" name="Crew4" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">No models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">-</characteristic>
           </characteristics>
         </profile>
         <profile id="25a3-8c5d-8ea6-89c4" name="Point Blank" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for this model&apos;s Volley of Shots if the target 单位 is within 13&quot;.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for this model&apos;s Volley of Shots if the target 单位 is within 13寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="341d-446c-abf2-c847" name="Crewed 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Helblaster Volley Gun can only move if its Crew are within 1&quot; at the start of the movement phase.  If its Crew are within 1&quot; of the Volley Gun in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1&quot; of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Helblaster Volley Gun can only move if its Crew are within 1寸 at the start of the movement phase.  If its Crew are within 1寸 of the Volley Gun in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="c0c7-63d6-78a1-30c1" name="Helblaster Volley" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -309,12 +309,12 @@
         </profile>
         <profile id="abf6-f523-5912-35dc" name="Working Like Clockwork" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all the dice when determing how many attacks are made with a Volley of Shots if there is an ENGINEER from your army within 1&quot; of this 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all the dice when determing how many attacks are made with a Volley of Shots if there is an ENGINEER from your army within 1寸 of this 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="4b99-c552-b8dd-045b" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">5</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -336,7 +336,7 @@
             <profile id="6048-a3c5-7c14-f9f2" name="Volley of Shots" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">26&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">26寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -388,7 +388,7 @@
         </profile>
         <profile id="b7a5-ecac-7ff4-86a1" name="Crew0" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1&quot;</characteristic>
+            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1寸</characteristic>
             <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">Move</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">Helstorm Rocket Salvo</characteristic>
           </characteristics>
@@ -396,34 +396,34 @@
         <profile id="de71-9450-27c7-dcfd" name="Crew1" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">3 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">D6</characteristic>
           </characteristics>
         </profile>
         <profile id="9948-8ece-0bdd-9450" name="Crew2" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">2 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">D3</characteristic>
           </characteristics>
         </profile>
         <profile id="6fd4-cda9-af50-edbc" name="Crew3" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">1 model</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">1</characteristic>
           </characteristics>
         </profile>
         <profile id="8870-26a7-fdb7-c92a" name="Crew4" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">No models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">0</characteristic>
           </characteristics>
         </profile>
         <profile id="65df-d115-592e-a47a" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">5</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -431,7 +431,7 @@
         </profile>
         <profile id="0fe9-e8b7-e8f1-74db" name="Crewed 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Helstorm Rocket Battery can only move if its Crew are within 1&quot; at the start of the movement phase.  If its Crew are within 1&quot; of the Rocket Battery in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1&quot; of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Helstorm Rocket Battery can only move if its Crew are within 1寸 at the start of the movement phase.  If its Crew are within 1寸 of the Rocket Battery in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="af02-5be3-591f-f6be" name="Arcing Ordinance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -446,7 +446,7 @@
         </profile>
         <profile id="79bc-c358-af2b-5ceb" name="I Meant to Hit That One, Honest" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If there is an ENGINEER from you army within 1&quot; of this 战争机械 and you fail to hit with a Helstorm Rocket Salvo, you may pick a different 单位 within 10&quot; of the original target and roll a dice; on a 6 that shot hits that 单位 instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If there is an ENGINEER from you army within 1寸 of this 战争机械 and you fail to hit with a Helstorm Rocket Salvo, you may pick a different 单位 within 10寸 of the original target and roll a dice; on a 6 that shot hits that 单位 instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -465,7 +465,7 @@
             <profile id="d696-638f-6fe3-4dd3" name="Helstorm Rocket Salvo" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10-36&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10-36寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -517,7 +517,7 @@
         </profile>
         <profile id="e6f4-ded6-f4bf-ee11" name="Crew0" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1&quot;</characteristic>
+            <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">Crew within 1寸</characteristic>
             <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">Move</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">Barrage of Shots</characteristic>
           </characteristics>
@@ -525,34 +525,34 @@
         <profile id="a940-f602-9db9-d57e" name="Crew1" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">3 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">4寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="4bba-085e-fbdd-dbd9" name="Crew2" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">2 models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">3寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="965b-af67-c18a-45b5" name="Crew3" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">1 model</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">2寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="c94b-8e6a-9beb-3268" name="Crew4" hidden="false" typeId="0ef1-501e-70bd-b91e" typeName="Crew Table">
           <characteristics>
             <characteristic name="Variable1" typeId="9f89-05b0-fc19-cd77">No models</characteristic>
-            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0&quot;</characteristic>
+            <characteristic name="Variable2" typeId="eea3-778f-7278-aed6">0寸</characteristic>
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">-</characteristic>
           </characteristics>
         </profile>
         <profile id="4aca-f51a-f33b-2d23" name="Duardin 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Organ Gun can only move if its Crew are within 1&quot; at the start of the movement phase.  If its Crew are within 1&quot; of the Organ Gun in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1&quot; of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Organ Gun can only move if its Crew are within 1寸 at the start of the movement phase.  If its Crew are within 1寸 of the Organ Gun in the shooting phase, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="1954-c9c1-1683-81b0" name="Organ Fire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -562,7 +562,7 @@
         </profile>
         <profile id="7a79-231b-2dc6-f061" name="Rune of Forging" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll the dice rolled to see if an Organ Gun jams if there is an Engineer from your army within 1&quot; of the 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll the dice rolled to see if an Organ Gun jams if there is an Engineer from your army within 1寸 of the 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="f5a8-df22-cd01-386c" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -580,7 +580,7 @@
         </profile>
         <profile id="a7b8-b79b-a95a-114e" name="Rune of Forging" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll the dice rolled to see if an Organ Gun jams if there is an ENGINEER from your army within 1&quot; of the 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll the dice rolled to see if an Organ Gun jams if there is an ENGINEER from your army within 1寸 of the 战争机械.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -599,7 +599,7 @@
             <profile id="edf7-1972-15bc-e45c" name="Barrage of Shots" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">28&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">28寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -651,7 +651,7 @@
         </profile>
         <profile id="4e71-9300-fbc1-5425" name="More Pressure!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, the Steam Tank Commander can attempt to overpressure the Steam Tank&apos;s Boiler.  If he does, roll two dice.  If the total is less than the number of wounds the Steam Tank has suffered, valves start to crack and mechanisms break - the Steam Tank immediately suffers D3 mortal wounds.  Otherwise, the overpressure of the steam means that until your next here phase you can re-roll any random values for this model (with the exception of the Commander&apos;s Repeater Handgun, which isn&apos;t connected to the Steam Tank&apos;s boiler!).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, the Steam Tank Commander can attempt to overpressure the Steam Tank&apos;s Boiler.  If he does, roll two dice.  If the total is less than the number of wounds the Steam Tank has suffered, valves start to crack and mechanisms break - the Steam Tank immediately suffers D3 mortal wounds.  Otherwise, the overpressure of the steam means that until your next here phase you can re-roll any random values for this model (with the exception of the Commander&apos;s Repeater Handgun, which isn&apos;t connected to the Steam Tank&apos;s boiler!).</characteristic>
           </characteristics>
         </profile>
         <profile id="494c-82fa-13ae-b72b" name="Steel 巨兽" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -666,7 +666,7 @@
         </profile>
         <profile id="7b93-cd0f-1e5c-ec11" name="I&apos;ll Fix It" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of using the More Pressure! ability, the Steam Tank Commander can attempt to make repairs to the Steam Tank in your 英雄 phase.  If he does, roll a dice; on a 4 or more he repairs one wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of using the More Pressure! ability, the Steam Tank Commander can attempt to make repairs to the Steam Tank in your 英雄阶段.  If he does, roll a dice; on a 4 or more he repairs one wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="e43c-1db2-a5d2-1cdb" name="Wound0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -680,40 +680,40 @@
         <profile id="c03b-13a9-36b1-2b6c" name="Wound1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-2</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">2D6&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">30&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">2D6寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">30寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2+</characteristic>
           </characteristics>
         </profile>
         <profile id="4246-280c-94d2-97e4" name="Wound2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">3-4</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">2D6&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">24&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">2D6寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">24寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="3914-c094-d08f-1e11" name="Wound3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">5-7</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">D6&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">18&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">D6寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">18寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="ef45-2525-32a7-7df7" name="Wound4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">8-9</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">D6&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">12&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">D6寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">12寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="9b4b-c0f9-cb24-1fb2" name="Wound5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">10+</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">D3&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">6&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">D3寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">6寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6+</characteristic>
           </characteristics>
         </profile>
@@ -735,7 +735,7 @@
             <profile id="0dac-1e45-35d1-1dea" name="Steam Gun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -779,7 +779,7 @@
             <profile id="263f-9a9b-0681-3d4a" name="Commander&apos;s Sword or Rod" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -801,7 +801,7 @@
             <profile id="e8d5-294c-b249-d99c" name="Crushing Wheels and Ironclad Bulk" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -823,7 +823,7 @@
             <profile id="dff7-76e3-9855-8fb9" name="Long Rifle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -845,7 +845,7 @@
             <profile id="f9b5-6b26-374b-dfe4" name="Repeater Handgun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">14&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">14寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -867,7 +867,7 @@
       <profiles>
         <profile id="d465-da22-006d-75d3" name="Cogsmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">4&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -875,7 +875,7 @@
         </profile>
         <profile id="23e1-183e-075f-ad1a" name="Engineer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, a Cogsmith can repair a single 战争机械 within 4&quot;.  That model repairs 1 wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, a Cogsmith can repair a single 战争机械 within 4寸.  That model repairs 1 wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -897,7 +897,7 @@
             <profile id="7f64-273e-c6a4-1cdd" name="Cog Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -919,7 +919,7 @@
             <profile id="6db3-5113-8df2-dfbc" name="Grudge-Raker" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -941,7 +941,7 @@
             <profile id="d0b7-9894-d564-43d6" name="Duardin Pistols" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -991,7 +991,7 @@
       <profiles>
         <profile id="8f49-ec40-a73c-1ed2" name="Gunmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -999,7 +999,7 @@
         </profile>
         <profile id="c111-20ce-caf7-a598" name="Range-finding Optics" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for a Gunmaster in the shooting phase if he did not move in his preceding movement phase and there are no enemy models within 3&quot; of him.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for a Gunmaster in the shooting phase if he did not move in his preceding movement phase and there are no enemy models within 3寸 of him.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1021,7 +1021,7 @@
             <profile id="d4fb-14e7-2a5a-8806" name="Artisan Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1043,7 +1043,7 @@
             <profile id="bc0d-7cdb-3c0b-f10f" name="Repeater Pistols" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1065,7 +1065,7 @@
             <profile id="d9c5-38c0-2983-82f3" name="Engineer&apos;s Telescope or Tools" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
@@ -1087,7 +1087,7 @@
             <profile id="ceec-e7ed-7ea4-fdda" name="Masterwork Long Rifle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1114,7 +1114,7 @@
       <profiles>
         <profile id="e50a-b962-43ee-7a7d" name="Gyrobombers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1146,7 +1146,7 @@
             <profile id="a366-33f5-d83e-be20" name="Clattergun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">20&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">20寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1168,7 +1168,7 @@
             <profile id="c132-fe34-0bc4-b725" name="Rotor Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1190,7 +1190,7 @@
       <profiles>
         <profile id="f37b-eb19-0c21-f99f" name="Gyrocopters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">14&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1224,7 +1224,7 @@
                 <profile id="05d7-e4d2-8459-0888" name="Brimstone Gun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1242,7 +1242,7 @@
                 <profile id="8ee5-dba9-22e6-c931" name="Steam Gun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1271,7 +1271,7 @@
       <profiles>
         <profile id="3f28-f3cc-2f3d-2f73" name="Preliminary Bombardment" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄 phase, pick an enemy 单位 that is visible to either the 阵型&apos;s Gunmaster or Cogsmith.  Then, roll a dice for each 其他 单位 in this 阵型; on a 6 that 单位 can immediately shoot at the nominated enemy 单位 as if it were the shooting phase.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄阶段, pick an enemy 单位 that is visible to either the 阵型&apos;s Gunmaster or Cogsmith.  Then, roll a dice for each 其他 单位 in this 阵型; on a 6 that 单位 can immediately shoot at the nominated enemy 单位 as if it were the shooting phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>

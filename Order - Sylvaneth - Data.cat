@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ab8b-39f3-ebc0-e9ab" name="Order - Sylvaneth - Data" revision="40" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ab8b-39f3-ebc0-e9ab" name="秩序 - Sylvaneth - Data" revision="40" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="bf19-727d-pubN65537" name="Order Battletome: Sylvaneth"/>
     <publication id="bf19-727d-pubN68286" name="Battletome: Sylvaneth Errata, July 2018"/>
@@ -80,7 +80,7 @@
         </profile>
         <profile id="1677-1da5-cf84-e4e2" name="Lifebloom" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄 phase, you can heal up to D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 30&quot; of this model (roll separetely for each 单位).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 30寸 of this model (roll separetely for each 单位).</characteristic>
           </characteristics>
         </profile>
         <profile id="15c2-0c38-24b6-0564" name="Sweeping Blows" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -90,18 +90,18 @@
         </profile>
         <profile id="0c08-233b-996a-cea0" name="Living Battering Ram" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy 单位 that is within 1&quot; of this model after this model makes a charge move.  On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy 单位 that is within 1寸 of this model after this model makes a charge move.  On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="950b-edf9-5870-9fe5" name="Metamorphosis" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 16&quot; of the caster and visible to them and roll a number of dice equal to the result of the casting roll. For each 4+, that 单位 suffers 1 mortal wound. In addition, if that 单位 is destroyed by the mortal wounds inflicted by this 法术, you can set up 1 AWAKENED WYLDWOOD terrain feature wholly within 12&quot; of the last model from that 单位 to be slain, and more than 1&quot; from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 16寸 of the caster and visible to them and roll a number of dice equal to the result of the casting roll. For each 4+, that 单位 suffers 1 mortal wound. In addition, if that 单位 is destroyed by the mortal wounds inflicted by this 法术, you can set up 1 AWAKENED WYLDWOOD terrain feature wholly within 12寸 of the last model from that 单位 to be slain, and more than 1寸 from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
           </characteristics>
         </profile>
         <profile id="1e25-d5bf-e1c8-7418" name="Ghyran&apos;s Wrath" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combats phase.  If you do so, in that phase you can re-roll wound rolls of 1 for attacks made by friendly SYLVANETH units while they are wholly within 14&quot; of a friendly model with this command ability.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combats phase.  If you do so, in that phase you can re-roll wound rolls of 1 for attacks made by friendly SYLVANETH units while they are wholly within 14寸 of a friendly model with this command ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="f427-57be-79ff-3558" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -115,40 +115,40 @@
         <profile id="a579-3c40-8499-6d4f" name="Wounds1" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-4</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">16&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">30&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">16寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">30寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">5</characteristic>
           </characteristics>
         </profile>
         <profile id="e005-a8a4-2067-de9c" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">5-7</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">14&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">25&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">14寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">25寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">4</characteristic>
           </characteristics>
         </profile>
         <profile id="04e2-bb06-e46f-b14e" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">8-10</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">20&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">10寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">20寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">3</characteristic>
           </characteristics>
         </profile>
         <profile id="10bb-4f84-e76e-bfdd" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">11-13</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">15&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">8寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">15寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
         <profile id="fb73-8ee0-7730-c65f" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">14+</characteristic>
-            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6&quot;</characteristic>
-            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">10&quot;</characteristic>
+            <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6寸</characteristic>
+            <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">10寸</characteristic>
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">1</characteristic>
           </characteristics>
         </profile>
@@ -207,7 +207,7 @@
             <profile id="b4eb-9334-5f66-0b44" name="Talon of the Dwindling" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -229,7 +229,7 @@
             <profile id="8362-2047-8e45-da8c" name="Great Antlers" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -250,7 +250,7 @@
           <profiles>
             <profile id="75b2-2d03-4aac-7cc8" name="Soul Amphorae" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the end of your movement phase, you can summon 1 of the following units to the battlefield:  20 Dryads, 10 Tree-Revenants, 10 Spite-Revenants, 3 Kurnoth Hunters, 1 Branchwych or  1 Treelord.  The summoneed 单位 is added to your army, and must be set up wholly within 9&quot; of this model and more than 9&quot; from any enemy units.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the end of your movement phase, you can summon 1 of the following units to the battlefield:  20 Dryads, 10 Tree-Revenants, 10 Spite-Revenants, 3 Kurnoth Hunters, 1 Branchwych or  1 Treelord.  The summoneed 单位 is added to your army, and must be set up wholly within 9寸 of this model and more than 9寸 from any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -301,17 +301,17 @@
               <profiles>
                 <profile id="df30-1adc-91e2-f871" name="Places of Power" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After territories have been chosen but before armies are set up, you can pick 1 terrain feature on the battlefield that was not set up by your opponent as part of their army.  Do not take battleshock tests for friendly SYLVANETH units while they are wholly within 6&quot; of that terrain feature.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After territories have been chosen but before armies are set up, you can pick 1 terrain feature on the battlefield that was not set up by your opponent as part of their army.  Do not take battleshock tests for friendly SYLVANETH units while they are wholly within 6寸 of that terrain feature.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7640-f53b-75ba-7a3d" name="Forest Spirits" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a SYLVANETH 单位 on the battlefield, you can place it to one side and say it is set up in the hidden enclaves as a reserve 单位. You can set up one reserve 单位 in the hidden enclaves for each 单位 you set up on the battlefield.  At the end of your movement phase, you can set up one or more of the reserve units that are in the hidden enclaves on the battlefield wholly within 6&quot; of an AWAKENED WYLDWOOD and more than 9&quot; from any enemy units.  Any reserve units that are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a SYLVANETH 单位 on the battlefield, you can place it to one side and say it is set up in the hidden enclaves as a reserve 单位. You can set up one reserve 单位 in the hidden enclaves for each 单位 you set up on the battlefield.  At the end of your movement phase, you can set up one or more of the reserve units that are in the hidden enclaves on the battlefield wholly within 6寸 of an AWAKENED WYLDWOOD and more than 9寸 from any enemy units.  Any reserve units that are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9256-01ed-73c9-1851" name="Navigate Realmroots" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of making a normal move in your movement phase, 1 friendly SYLVANETH 单位 wholly within 6&quot; of an AWAKENED WYLDWOOD can navigate the realmroots.  If it does so, remove that 单位 from the battlefield and then set it up again wholly within 6&quot; of another AWAKENED WYLDWOOD and more than 9&quot; from any enemy units.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of making a normal move in your movement phase, 1 friendly SYLVANETH 单位 wholly within 6寸 of an AWAKENED WYLDWOOD can navigate the realmroots.  If it does so, remove that 单位 from the battlefield and then set it up again wholly within 6寸 of another AWAKENED WYLDWOOD and more than 9寸 from any enemy units.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -330,7 +330,7 @@
                         </profile>
                         <profile id="0c26-8dc6-2f68-ebac" name="Yield to None" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Battleshock immunity wholly within 16&quot; of a selected 英雄.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Battleshock immunity wholly within 16寸 of a selected 英雄.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -342,12 +342,12 @@
                       <profiles>
                         <profile id="d5eb-421c-c8c0-706a" name="Shield the Arcane" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Re-roll hit rolls of 1 for attacks made by friendly GNARLROOT units while they are wholly within 12&quot; of any friendly GNARLROOT WIZARDS.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Re-roll hit rolls of 1 for attacks made by friendly GNARLROOT units while they are wholly within 12寸 of any friendly GNARLROOT WIZARDS.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="8fa9-f5f5-66d0-22e9" name="The Earth Defends" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick 1 friendly GNARLROOT 单位 wholly within 12&quot; of a friendly GNARLROOT 英雄.  Until the end of that phase, roll a dice each time you allocate a wound or mortal wound to that 单位.  On a 6+ that wound or mortal wound is negated.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick 1 friendly GNARLROOT 单位 wholly within 12寸 of a friendly GNARLROOT 英雄.  Until the end of that phase, roll a dice each time you allocate a wound or mortal wound to that 单位.  On a 6+ that wound or mortal wound is negated.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -359,12 +359,12 @@
                       <profiles>
                         <profile id="886c-afd7-a691-96f1" name="Courage for Kurnoth" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
                           <characteristics>
-                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Bravery characteristic of friendly HEARTWOOD units while they are wholly within 12&quot; of any friendly HEARTWOOD HEROES.</characteristic>
+                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Bravery characteristic of friendly HEARTWOOD units while they are wholly within 12寸 of any friendly HEARTWOOD HEROES.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="bf46-ba97-5497-7efe" name="Lord of the Hunt" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick 1 enemy 单位 within 12&quot; of a friendly HEARTWOOD 英雄.  Until the end of that phase, you can re-roll hit and wound rolls of 1 for attacks made by friendly HEARTWOOD units that target that enemy 单位.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick 1 enemy 单位 within 12寸 of a friendly HEARTWOOD 英雄.  Until the end of that phase, you can re-roll hit and wound rolls of 1 for attacks made by friendly HEARTWOOD units that target that enemy 单位.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -376,12 +376,12 @@
                       <profiles>
                         <profile id="1f4a-a552-f92f-5cb0" name="Stubborn and Taciturn" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can re-roll battleshock tests for friendly IRONBARK units while they are wholly within 12&quot; of any friendl IRONBARK HEROS.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can re-roll battleshock tests for friendly IRONBARK units while they are wholly within 12寸 of any friendl IRONBARK HEROS.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="03d0-cc8d-0b43-6b1b" name="Stand Firm" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase, before the players pick any units to fight.  If you do so, pick 1 enemy 单位 that made a charge move this turn and is within 1&quot; of a friendly IRONBARK 单位 and roll a dice.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase, before the players pick any units to fight.  If you do so, pick 1 enemy 单位 that made a charge move this turn and is within 1寸 of a friendly IRONBARK 单位 and roll a dice.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -398,7 +398,7 @@
                         </profile>
                         <profile id="4900-c16c-df1c-78e2" name="Branch Blizzard" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase.  If you do so, pick 1 enemy 单位 within 12&quot; of a friendly WINTERLEAF 英雄 and visible to them.  Roll a number of dice equal to the number of models in that 单位.  For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase.  If you do so, pick 1 enemy 单位 within 12寸 of a friendly WINTERLEAF 英雄 and visible to them.  Roll a number of dice equal to the number of models in that 单位.  For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -415,7 +415,7 @@
                         </profile>
                         <profile id="8b35-c417-f307-cbf9" name="Sinister Ambush" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once during each of your turns, at the end of your movement phase. If you do so, pick 1 friendly DREADWOOD 单位 wholly within 18&quot; of a friendly DREADWOOD 英雄. Remove that 单位 from the battlefield and then set it up again anywhere on the battlefield more than 9&quot; from any enemy units.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once during each of your turns, at the end of your movement phase. If you do so, pick 1 friendly DREADWOOD 单位 wholly within 18寸 of a friendly DREADWOOD 英雄. Remove that 单位 from the battlefield and then set it up again anywhere on the battlefield more than 9寸 from any enemy units.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -432,7 +432,7 @@
                         </profile>
                         <profile id="3aef-742e-705b-cf89" name="Fertile Ground" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick 1 friendly HARVESTBOON 单位 wholly within 12&quot; of a friendly HARVESTBOON 英雄.  Until the end of that phase, add 1 to the Attacks characteristic of that 单位&apos;s melee weapons.  You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick 1 friendly HARVESTBOON 单位 wholly within 12寸 of a friendly HARVESTBOON 英雄.  Until the end of that phase, add 1 to the Attacks characteristic of that 单位&apos;s melee weapons.  You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -539,7 +539,7 @@
       <profiles>
         <profile id="a7de-5a06-4c3b-9386" name="Swift Vengeance" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your movement phase, if you declare a 单位 from this 阵型 will run, do not make a run roll.  Instead, add 6&quot; to the Move characteristic of that 单位 for that phase.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your movement phase, if you declare a 单位 from this 阵型 will run, do not make a run roll.  Instead, add 6寸 to the Move characteristic of that 单位 for that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -583,7 +583,7 @@
       <profiles>
         <profile id="4ace-9902-4344-7a60" name="Discipline of the Ages" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Enemy units within 3&quot; of any units from this 阵型 cannot retreat. </characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Enemy units within 3寸 of any units from this 阵型 cannot retreat. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -658,7 +658,7 @@
       <profiles>
         <profile id="d9d6-1a82-0118-2688" name="Deadly Chorus" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your shooting phase, roll a dice for each enemy 单位 that is within 6&quot; of 2 or more models from this 阵型.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your shooting phase, roll a dice for each enemy 单位 that is within 6寸 of 2 or more models from this 阵型.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -702,7 +702,7 @@
       <profiles>
         <profile id="95c7-3d09-084a-b02b" name="Fear the Forest-kin" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If an enemy 单位 fails a battleshock test within 3&quot; of any units from this 阵型, add D3 to the number of models that flee.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If an enemy 单位 fails a battleshock test within 3寸 of any units from this 阵型, add D3 to the number of models that flee.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -751,7 +751,7 @@
       <profiles>
         <profile id="89f5-03df-17ab-e6c4" name="Branchwraith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">7&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -759,13 +759,13 @@
         </profile>
         <profile id="0752-1e56-8eaf-12f0" name="Blessings of the Forest" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks that target this model while it is wholly within 6&quot; of any friendly AWAKENED WYLDWOODS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks that target this model while it is wholly within 6寸 of any friendly AWAKENED WYLDWOODS.</characteristic>
           </characteristics>
         </profile>
         <profile id="f7d8-0415-e8bb-8e20" name="Roused to Wrath" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can summon 1 单位 of 10 DRYADS and add it to your army. The summoned 单位 must be set up more than 9&quot; from any enemy units, and wholly within 1&quot; of an AWAKENED WYLDWOOD that is within 12&quot; of the caster. The summoned 单位 cannot move in the following movement phase.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can summon 1 单位 of 10 DRYADS and add it to your army. The summoned 单位 must be set up more than 9寸 from any enemy units, and wholly within 1寸 of an AWAKENED WYLDWOOD that is within 12寸 of the caster. The summoned 单位 cannot move in the following movement phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="02a1-9517-b913-3fc7" name="Branchwraith" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -799,7 +799,7 @@
             <profile id="87a1-4f33-f861-b642" name="Piercing Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -827,7 +827,7 @@
       <profiles>
         <profile id="ae36-e991-4fe0-9c17" name="Branchwych" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">7&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -836,12 +836,12 @@
         <profile id="b8f3-4ad8-cfef-fc79" name="Unleash Spites" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a number of dice equal to the casting roll for each enemy 单位 within 9&quot; of the caster. For each 6, that enemy 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a number of dice equal to the casting roll for each enemy 单位 within 9寸 of the caster. For each 6, that enemy 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="f1a0-e47d-9105-a575" name="Fury of the Forest" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by this model while it is wholly within 6&quot; of any friendly AWAKENED WYLDWOODS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by this model while it is wholly within 6寸 of any friendly AWAKENED WYLDWOODS.</characteristic>
           </characteristics>
         </profile>
         <profile id="e7d6-577d-fb27-1468" name="Quick-tempered" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -880,7 +880,7 @@
             <profile id="f1c4-342d-ec61-15be" name="Snapping Mandibles" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -902,7 +902,7 @@
             <profile id="55c6-3857-f23e-9fe7" name="Greenwood Scythe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -938,12 +938,12 @@
         </profile>
         <profile id="b365-aa69-ed41-2d33" name="Blessings of the Forest" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from all hit rolls for attacks that target this 单位 if it is wholly within 6&quot; of any friendly AWAKENED WYLDWOODS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from all hit rolls for attacks that target this 单位 if it is wholly within 6寸 of any friendly AWAKENED WYLDWOODS.</characteristic>
           </characteristics>
         </profile>
         <profile id="024f-1313-fa09-891a" name="Enrapturing Song" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your combat phase, pick 1 enemy 单位 within 3&quot; of this 单位.  Add 1 to hit rolls for attacks made by this 单位 that target that enemy 单位 in that phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your combat phase, pick 1 enemy 单位 within 3寸 of this 单位.  Add 1 to hit rolls for attacks made by this 单位 that target that enemy 单位 in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="2528-5ab3-01f5-63df" name="Impenetrable Thicket" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -990,7 +990,7 @@
             <profile id="3c8a-7234-8b1b-fc86" name="Wracking Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1016,7 +1016,7 @@
       <profiles>
         <profile id="9801-f65c-88eb-c226" name="Drycha Hamadreth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">9&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">9寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">10</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
@@ -1029,13 +1029,13 @@
         </profile>
         <profile id="9cac-39b2-0a37-24dd" name="Song of Spite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll wound rolls of 1 for attacks made by friendly SPITE-REVENANTS units while they are wholly within 16&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll wound rolls of 1 for attacks made by friendly SPITE-REVENANTS units while they are wholly within 16寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="cb92-4b42-ce3d-c3bf" name="Primal Terror" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll 2D6.  Each enemy 单位 within 10&quot; of the caster with a Bravery characteristic lower than this roll suffers D3 mortal wounds (roll separately for each 单位).</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll 2D6.  Each enemy 单位 within 10寸 of the caster with a Bravery characteristic lower than this roll suffers D3 mortal wounds (roll separately for each 单位).</characteristic>
           </characteristics>
         </profile>
         <profile id="b86e-47ca-3955-f9ce" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1051,7 +1051,7 @@
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">0-2</characteristic>
             <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">6</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">3+</characteristic>
-            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">18&quot;</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">18寸</characteristic>
           </characteristics>
         </profile>
         <profile id="79d1-fda5-624b-469b" name="Wounds2" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1059,7 +1059,7 @@
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">3-4</characteristic>
             <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">5</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">4+</characteristic>
-            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">15&quot;</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">15寸</characteristic>
           </characteristics>
         </profile>
         <profile id="42a7-eb7a-8d5a-bff7" name="Wounds3" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1067,7 +1067,7 @@
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">5-6</characteristic>
             <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">4</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">4+</characteristic>
-            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">12&quot;</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">12寸</characteristic>
           </characteristics>
         </profile>
         <profile id="0e91-0492-9478-1b05" name="Wounds4" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1075,7 +1075,7 @@
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">7-8</characteristic>
             <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">3</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">5+</characteristic>
-            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">9&quot;</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">9寸</characteristic>
           </characteristics>
         </profile>
         <profile id="2edb-bd65-e9dd-c377" name="Wounds5" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1083,7 +1083,7 @@
             <characteristic name="变量 1" typeId="420a-645a-ab28-93a0">9+</characteristic>
             <characteristic name="变量 2" typeId="4cdd-1e03-530f-0ff7">2</characteristic>
             <characteristic name="变量 3" typeId="b1ea-56be-ba52-16e9">5+</characteristic>
-            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6&quot;</characteristic>
+            <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">6寸</characteristic>
           </characteristics>
         </profile>
         <profile id="57bb-0979-6191-5569" name="Drycha Hamadreth" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -1124,7 +1124,7 @@
             <profile id="f6c4-ec14-45cf-a8a6" name="Slashing Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1168,7 +1168,7 @@
             <profile id="ae22-7b31-400c-08c2" name="Swarm of Squirmlings" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">10</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1212,7 +1212,7 @@
       <profiles>
         <profile id="14a2-583e-be53-6953" name="Kurnoth Hunters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -1225,7 +1225,7 @@
         </profile>
         <profile id="aac3-b761-f5a1-1f6b" name="Tanglethorn Thicket" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of either player’s charge phase, Kurnoth Hunters can sprout a thick weave of thorned branches. Until the end of the turn, they cannot move except to pile in up to 1&quot;, but you can re-roll failed save rolls for them.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of either player’s charge phase, Kurnoth Hunters can sprout a thick weave of thorned branches. Until the end of the turn, they cannot move except to pile in up to 1寸, but you can re-roll failed save rolls for them.</characteristic>
           </characteristics>
         </profile>
         <profile id="f0ad-33be-68b4-e835" name="Envoys of the Everqueen" publicationId="bf19-727d-pubN68286" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1235,7 +1235,7 @@
         </profile>
         <profile id="edf3-ae6d-8050-f7fa" name="Trample Underfoot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 单位 and roll a dice for each Kurnoth Hunter from this 单位 that is within 1&quot; of it. For each result of 4 or more, the enemy 单位 suffers a mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 单位 and roll a dice for each Kurnoth Hunter from this 单位 that is within 1寸 of it. For each result of 4 or more, the enemy 单位 suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1268,7 +1268,7 @@
                 <profile id="2b80-1acf-b192-6740" name="Kurnoth Greatsword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1291,7 +1291,7 @@
                 <profile id="7900-a400-93a8-54a2" name="Kurnoth Scythe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1309,7 +1309,7 @@
                 <profile id="814b-1f73-5a8d-f5f1" name="Kurnoth Greatbow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Misile</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1320,7 +1320,7 @@
                 <profile id="c9df-cc20-f911-6d39" name="Vicious Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -1344,7 +1344,7 @@
       <profiles>
         <profile id="6f78-9a13-3179-8970" name="Spirit of Durthu" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">9</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
@@ -1352,7 +1352,7 @@
         </profile>
         <profile id="3afe-8250-5ffd-79d3" name="Groundshaking Stomp" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, pick 1 enemy 单位 within 3&quot; of this model and roll a dice.  On a 4+ that 单位 fights at the end of that combat phase, after the players have picked any 其他 units to fight.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, pick 1 enemy 单位 within 3寸 of this model and roll a dice.  On a 4+ that 单位 fights at the end of that combat phase, after the players have picked any 其他 units to fight.</characteristic>
           </characteristics>
         </profile>
         <profile id="b361-1b4f-2bf7-fb23" name="Impale" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1362,17 +1362,17 @@
         </profile>
         <profile id="5e2c-def1-9776-06e9" name="Spirit Paths" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, if this model is wholly within 6&quot; of a friendly AWAKENED WYLDWOOD, it can walk the spirit paths instead of making a normal move in that movement phase.  If it does so, remove this model from the battlefield and set it up wholly within 6&quot; of a different friendly AWAKENED WYLDWOOD and more than 9&quot; from any enemy units.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, if this model is wholly within 6寸 of a friendly AWAKENED WYLDWOOD, it can walk the spirit paths instead of making a normal move in that movement phase.  If it does so, remove this model from the battlefield and set it up wholly within 6寸 of a different friendly AWAKENED WYLDWOOD and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile id="d859-8299-0cf9-2b11" name="Wrathful Guardian" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 to the Attack characteristic of this model&apos;s Guardian Sword while this model is wholly within 8&quot; of any friendly AWAKENED WYLDWOODS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 to the Attack characteristic of this model&apos;s Guardian Sword while this model is wholly within 8寸 of any friendly AWAKENED WYLDWOODS.</characteristic>
           </characteristics>
         </profile>
         <profile id="8651-41a2-d43f-3728" name="Champions of the Everqueen&apos;s Will" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12&quot; of any friendly models with this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12寸 of any friendly models with this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="e22b-7889-4082-db8e" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1444,7 +1444,7 @@
             <profile id="84c5-a358-c019-2a6f" name="Guardian Sword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1466,7 +1466,7 @@
             <profile id="efa9-af81-b4ed-7f56" name="Massive Impaling Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -1488,7 +1488,7 @@
             <profile id="ab21-7681-88e8-a045" name="Verdent Blast" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1522,7 +1522,7 @@
       <profiles>
         <profile id="4da5-aaa1-71ff-6312" name="Spite-Revenants" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -1535,7 +1535,7 @@
         </profile>
         <profile id="d758-2844-40f0-4178" name="Unbridled Malice" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of eneny units while they are within 3&quot; of any friendly units with this ability.  In addition, re-roll successful battleshock tests for enemy units while they are within 3&quot; of any friendly units with this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of eneny units while they are within 3寸 of any friendly units with this ability.  In addition, re-roll successful battleshock tests for enemy units while they are within 3寸 of any friendly units with this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1572,7 +1572,7 @@
             <profile id="f364-909a-f7fd-5852" name="Cruel Talons and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1583,7 +1583,7 @@
             <profile id="88a7-aaf8-0ad1-fd0a" name="Cruel Talons and Fangs (Shadestalker)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1612,7 +1612,7 @@
       <profiles>
         <profile id="e29e-e05b-9d97-89aa" name="Tree-Revenants" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -1662,7 +1662,7 @@
             <profile id="9bf3-4ac9-af30-5594" name="Enchanted Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1683,7 +1683,7 @@
           <profiles>
             <profile id="340a-ade5-970c-11f5" name="Glade Banner" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 5 models in this 单位 can be a Glade Banner Bearer. Whenever a 单位 that includes any Glade Banner Bearers makes a pile-in move, you can move it up to 6&quot; instead of up to 3&quot;.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 5 models in this 单位 can be a Glade Banner Bearer. Whenever a 单位 that includes any Glade Banner Bearers makes a pile-in move, you can move it up to 6寸 instead of up to 3寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1699,7 +1699,7 @@
           <profiles>
             <profile id="eb91-8bc4-a381-3a7c" name="Waypipes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 5 models in this 单位 can carry Waypipes. At the start of your movement phase, a 单位 that includes any Waypipes can walk the spirit paths instead of making a normal move. If it does so, remove this 单位 from the battlefield and set it up anywhere on the battlefield more than 9&quot; from any enemy units.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 5 models in this 单位 can carry Waypipes. At the start of your movement phase, a 单位 that includes any Waypipes can walk the spirit paths instead of making a normal move. If it does so, remove this 单位 from the battlefield and set it up anywhere on the battlefield more than 9寸 from any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1720,7 +1720,7 @@
                 <profile id="ba43-5d48-10a6-94a9" name="Enchanted Blade (Scion)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1738,7 +1738,7 @@
                 <profile id="5f49-0bca-1b88-e183" name="Protector Glaive" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                     <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -1906,7 +1906,7 @@
       <profiles>
         <profile id="7985-c5df-075f-f311" name="Treelord Ancient" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">9</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
@@ -1962,18 +1962,18 @@
         </profile>
         <profile id="ce16-7658-e5fe-0531" name="Silent Communion" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in your 英雄 phase, you can pick 1 friendly model with ability and set up 1 AWAKENED WYLDWOOD wholly within 18&quot; of that model and more than 1&quot; from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in your 英雄阶段, you can pick 1 friendly model with ability and set up 1 AWAKENED WYLDWOOD wholly within 18寸 of that model and more than 1寸 from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f5b-2253-302e-8ff4" name="Awakening the Wood" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly AWAKENED WYLDWOOD that is wholly within 30&quot; of the caster. Each enemy 单位 within 3&quot; of that AWAKENED WYLDWOOD suffers D3 mortal wounds (roll separately for each 单位).</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly AWAKENED WYLDWOOD that is wholly within 30寸 of the caster. Each enemy 单位 within 3寸 of that AWAKENED WYLDWOOD suffers D3 mortal wounds (roll separately for each 单位).</characteristic>
           </characteristics>
         </profile>
         <profile id="2cd9-fba6-0fe3-fc6b" name="Heed the Spirit-song" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄 phase.  If you do so, pick 1 friendly model with this command ability.  Until your next 英雄 phase, you can re-roll save rolls of 1 for attacks that target friendly SYLVANETH units wholly within 12&quot; of that model.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段.  If you do so, pick 1 friendly model with this command ability.  Until your next 英雄阶段, you can re-roll save rolls of 1 for attacks that target friendly SYLVANETH units wholly within 12寸 of that model.</characteristic>
           </characteristics>
         </profile>
         <profile id="1512-f2bb-518d-444b" name="Treelord Ancient" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -2012,7 +2012,7 @@
             <profile id="2cc4-a6d0-4ba6-bb69" name="Doom Tendril Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2034,7 +2034,7 @@
             <profile id="3ac6-f7fe-a303-3e69" name="Massive Impaling Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">*</characteristic>
@@ -2056,7 +2056,7 @@
             <profile id="eef7-df41-ccc7-645f" name="Sweeping Blows" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2103,7 +2103,7 @@
       <profiles>
         <profile id="9669-9b6f-225a-1b3f" name="Arch-Revenant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">12&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
@@ -2116,7 +2116,7 @@
         </profile>
         <profile id="2af6-6c45-6226-1a21" name="Champion of Kurnoth" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for attacks made by friendly KURNOTH HUNTERS units while they are wholly within 12&quot; of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for attacks made by friendly KURNOTH HUNTERS units while they are wholly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="b7e3-9693-0cb7-db0e" name="Ultimate Sacrifice" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2126,7 +2126,7 @@
         </profile>
         <profile id="85df-cd38-9045-4c6a" name="Call to Battle" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly SYLVANETH 单位 wholly within 9&quot; of a friendly model with this command ability, or wholly within 12&quot; of a friendly model with this command ability that is your general. Add 1 to the Attacks characteristic of that 单位’s melee weapons in that combat phase. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly SYLVANETH 单位 wholly within 9寸 of a friendly model with this command ability, or wholly within 12寸 of a friendly model with this command ability that is your general. Add 1 to the Attacks characteristic of that 单位’s melee weapons in that combat phase. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2151,7 +2151,7 @@
             <profile id="36c1-b666-1dd9-72cf" name="Revenant&apos;s Glaive" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2173,7 +2173,7 @@
             <profile id="47e9-73d7-d12a-80f1" name="Zephyrspite&apos;s Tail Pincers" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2212,7 +2212,7 @@
       <profiles>
         <profile id="9bc8-f78f-39c4-180a" name="Ylthari" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2232,7 +2232,7 @@
         <profile id="a4b9-fa3b-d7b0-fc20" name="The Reaping" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12&quot; of the caster that is visible to them and roll 6 dice. For each 5+ that 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12寸 of the caster that is visible to them and roll 6 dice. For each 5+ that 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2262,7 +2262,7 @@
             <profile id="b444-1bfd-2801-edd5" name="Briar Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2284,7 +2284,7 @@
             <profile id="86d3-5e20-756b-cd11" name="Spiteful Thorns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2306,7 +2306,7 @@
             <profile id="6701-3228-d95d-322c" name="Snapping Mandibles" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2344,7 +2344,7 @@
       <profiles>
         <profile id="07b5-0273-6560-d719" name="Ylthari&apos;s Guardians" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">5&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2352,7 +2352,7 @@
         </profile>
         <profile id="75b8-7e02-f44e-508f" name="Martial Memories" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, roll a dice for each friendly 单位 with this ability that is within 3&quot; of any enemy units. On a 3+ that 单位 fights at the start of the combat phase, before the players pick any 其他 units to fight in that combat phase. That 单位 cannot fight again in that combat phase unless an ability or 法术 allows it to fight more than once.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, roll a dice for each friendly 单位 with this ability that is within 3寸 of any enemy units. On a 3+ that 单位 fights at the start of the combat phase, before the players pick any 其他 units to fight in that combat phase. That 单位 cannot fight again in that combat phase unless an ability or 法术 allows it to fight more than once.</characteristic>
           </characteristics>
         </profile>
         <profile id="afe4-5615-f9b7-402a" name="Vigour and Wrath" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2380,7 +2380,7 @@
             <profile id="9a90-df01-d1a2-7e6b" name="Revenant Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2402,7 +2402,7 @@
             <profile id="21d4-47ec-1a63-f314" name="Enchanted Greatblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2424,7 +2424,7 @@
             <profile id="13b4-af4d-cb32-07b2" name="Protector Glaive" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2446,7 +2446,7 @@
             <profile id="a767-1681-41a5-8a4f" name="Revenant Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2533,13 +2533,13 @@
       <profiles>
         <profile id="4376-8fa8-4824-c18c" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Gladewyrm is a predatory endless 法术.  It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Gladewyrm is a predatory endless 法术.  It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="3f6f-bd6a-6ea9-65d0" name="Summon Gladewyrm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Gladewyrm.  If successfully cast, set up a Gladewyrm model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Gladewyrm.  If successfully cast, set up a Gladewyrm model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="1255-d6df-412a-b368" name="Burrowing Doom" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2549,12 +2549,12 @@
         </profile>
         <profile id="a647-fb1c-2f60-46b9" name="Death From Below" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each 单位 within 1&quot; of it.  On a 3+ that 单位 suffers D3 mortal wounds.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each 单位 within 1寸 of it.  On a 3+ that 单位 suffers D3 mortal wounds.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
           </characteristics>
         </profile>
         <profile id="78c1-fc0e-1c10-5b2b" name="Healing Mist" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each SYLVANETH 单位 wholly within 6&quot; of this model.  On a 3+ heal up to D3 wounds allocated to that 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each SYLVANETH 单位 wholly within 6寸 of this model.  On a 3+ heal up to D3 wounds allocated to that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2578,12 +2578,12 @@
         <profile id="6298-0dac-fcb5-c4aa" name="Summon Spiteswarm Hive" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Spiteswarm Hive.  If successfully cast, set up a Spiteswarm Hive model wholly within 15&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Spiteswarm Hive.  If successfully cast, set up a Spiteswarm Hive model wholly within 15寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="4218-363d-88cd-63b7" name="The Hive Nourishes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the 英雄 phase, if this model is on the battlefield, the player who set it up can pick one of the effects below and immediately resolve that effect.  The same 单位 cannot be picked to be affected by this ability more than once per 英雄 phase.  Vital Venoms: Roll a dice for each SYLVANETH 单位 wholly within 8&quot; of this model.  On a 2+ add 3&quot; to that 单位&apos;s normal moves and charge moves until the end of the turn.  Shielding Swarm: Roll a dice for each SYLVANETH 单位 wholly within 8&quot; of this model.  On a 2+ re-roll save rolls of 1 for attacks that target that 单位 until the end of the turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the 英雄阶段, if this model is on the battlefield, the player who set it up can pick one of the effects below and immediately resolve that effect.  The same 单位 cannot be picked to be affected by this ability more than once per 英雄阶段.  Vital Venoms: Roll a dice for each SYLVANETH 单位 wholly within 8寸 of this model.  On a 2+ add 3寸 to that 单位&apos;s normal moves and charge moves until the end of the turn.  Shielding Swarm: Roll a dice for each SYLVANETH 单位 wholly within 8寸 of this model.  On a 2+ re-roll save rolls of 1 for attacks that target that 单位 until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2603,13 +2603,13 @@
       <profiles>
         <profile id="6044-7fcf-76fa-faeb" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Vengeful Skullroot is a predatory endless 法术.  It can move up to 8&quot; and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Vengeful Skullroot is a predatory endless 法术.  It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="fa47-2993-9cd0-fd16" name="Summon Vengeful Skullroot" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Vengeful Skullroot.  If successfully cast, set up a Vengeful Skullroot model wholly within 6&quot; of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Vengeful Skullroot.  If successfully cast, set up a Vengeful Skullroot model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="b13a-83e3-6ba1-a361" name="Uprooted Spirit" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2619,12 +2619,12 @@
         </profile>
         <profile id="0065-f54a-5a0c-457b" name="Terrors Unearthed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 单位 fails a battleshock test within 3&quot; of any models with this ability, add D3 to the number of models that flee.   This ability has no effect on units with the SYLVANETH keyword.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 单位 fails a battleshock test within 3寸 of any models with this ability, add D3 to the number of models that flee.   This ability has no effect on units with the SYLVANETH keyword.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ce3-4b8d-49f7-d144" name="Strangleroots" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds, or D6 mortal wounds if that 单位 is within 3&quot; of any AWAKENED WYLDWOOD.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds, or D6 mortal wounds if that 单位 is within 3寸 of any AWAKENED WYLDWOOD.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2644,17 +2644,17 @@
       <profiles>
         <profile id="4ff4-fa07-2a37-bfe7" name="Overgrown Wilderness" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Models are not visible to each 其他 in an imaginary straight line 1mm wide is drawn between the closest points on the two models crosses over more than 1&quot; of an AWAKENED WYLDWOOD.  This scenery rule does not apply if either model can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Models are not visible to each 其他 in an imaginary straight line 1mm wide is drawn between the closest points on the two models crosses over more than 1寸 of an AWAKENED WYLDWOOD.  This scenery rule does not apply if either model can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="32e3-fb24-1ca5-fa58" name="Roused by Magic" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the 英雄 phase, if a 法术 is successfully cast by a 法师 wholly within 6&quot; of an AWAKENED WYLDWOOD and not unbound, roll a dice for each 单位 within 1&quot; of that AWAKENED WYLDWOOD which does not have the SYLVANETH keyword.  On a 5+ that 单位 suffers D3 mortal wounds after that spells&apos;s effects have been resolved.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the 英雄阶段, if a 法术 is successfully cast by a 法师 wholly within 6寸 of an AWAKENED WYLDWOOD and not unbound, roll a dice for each 单位 within 1寸 of that AWAKENED WYLDWOOD which does not have the SYLVANETH keyword.  On a 5+ that 单位 suffers D3 mortal wounds after that spells&apos;s effects have been resolved.</characteristic>
           </characteristics>
         </profile>
         <profile id="19fe-a03c-0897-19f8" name="Wyldwood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the charge phase, roll a dice for each 单位 within 1&quot; of an AWAKENED WYLDWOOD which does not have the SYLVANETH keyword.  On a 6, that 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the charge phase, roll a dice for each 单位 within 1寸 of an AWAKENED WYLDWOOD which does not have the SYLVANETH keyword.  On a 6, that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2673,7 +2673,7 @@
       <profiles>
         <profile id="17ae-0f89-0293-f784" name="Skaeth&apos;s Wild Hunt" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">6&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -2687,7 +2687,7 @@
         <profile id="f156-a62a-7f52-b987" name="Might of Kurnoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Sylvaneth 单位 within 12&quot; of the caster that is visible to them. Add 1 to wound rolls for attacks made with melee weapons by that 单位 until the start of your next 英雄 phase.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Sylvaneth 单位 within 12寸 of the caster that is visible to them. Add 1 to wound rolls for attacks made with melee weapons by that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="73f7-d987-b475-c35c" name="Skaeth" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2697,7 +2697,7 @@
         </profile>
         <profile id="c0b6-584c-8a38-f24c" name="魔法" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 is a 法师 while it contains Karthaen. It can attempt to cast 1 法术 in your 英雄 phase and attempt to unbind 1 法术 in the enemy 英雄 phase. It knows the Might of Kurnoth 法术.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 is a 法师 while it contains Karthaen. It can attempt to cast 1 法术 in your 英雄阶段 and attempt to unbind 1 法术 in the enemy 英雄阶段. It knows the Might of Kurnoth 法术.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2717,7 +2717,7 @@
             <profile id="22a2-0bc4-db6f-ca24" name="Hunting Weapon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2739,7 +2739,7 @@
             <profile id="4113-374f-cedf-44ad" name="Teeth and Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2761,7 +2761,7 @@
             <profile id="f567-56a9-071d-c794" name="Seeker Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -2783,7 +2783,7 @@
             <profile id="7803-057a-331c-378f" name="Javelin of the Hunt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2794,7 +2794,7 @@
             <profile id="6044-4d12-f998-2e5b" name="Javelin of the Hunt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -2961,7 +2961,7 @@
           <profiles>
             <profile id="607c-8ee8-fc34-8848" name="Gift of Ghyran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄 phase, you can heal 1 wound allocated to this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, you can heal 1 wound allocated to this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2985,7 +2985,7 @@
           <profiles>
             <profile id="44b4-7a7d-ae90-ff82" name="Warsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2997,7 +2997,7 @@
           <profiles>
             <profile id="1ed6-b693-eb1c-897b" name="Wisdom of the Ancients" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3026,7 +3026,7 @@
           <profiles>
             <profile id="c156-67d0-9b43-6cac" name="Lifewreath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">In you 英雄 phase, roll a dice.  On a 3+ you can heal D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 10&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In you 英雄阶段, roll a dice.  On a 3+ you can heal D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 10寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3041,7 +3041,7 @@
           <profiles>
             <profile id="3517-5516-e549-29ef" name="Everdew Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2 to run rolls and charge rolls for the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to run rolls and charge rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3056,7 +3056,7 @@
           <profiles>
             <profile id="66d3-2779-af12-67fc" name="Crown of Fell Bowers" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy 单位 within 6&quot; of the bearer.  You can re-roll wound rolls for attacks made by friendly SYLVANETH units that target that 单位 in that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy 单位 within 6寸 of the bearer.  You can re-roll wound rolls for attacks made by friendly SYLVANETH units that target that 单位 in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3071,7 +3071,7 @@
           <profiles>
             <profile id="70dc-7ca6-b721-a24b" name="Seed of Rebirth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1, the bearer is slain.  On a 2+ the bearer is not slain, you can heal up to D3 wounds allocated to them, and any wounds that remain to be allocated to them are negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1, the bearer is slain.  On a 2+ the bearer is not slain, you can heal up to D3 wounds allocated to them, and any wounds that remain to be allocated to them are negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3086,7 +3086,7 @@
           <profiles>
             <profile id="783a-3be5-b8a6-c106" name="Wraithstone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 10&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 10寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3101,7 +3101,7 @@
           <profiles>
             <profile id="c13d-ae28-13ab-ffcc" name="Etherblossom" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can fly.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3130,7 +3130,7 @@
           <profiles>
             <profile id="1605-d29e-92be-f4cd" name="Acorn of the Ages" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄 phase, you can set up an AWAKENED WYLDWOOD wholly within 12&quot; of the bearer and more than 1&quot; from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can set up an AWAKENED WYLDWOOD wholly within 12寸 of the bearer and more than 1寸 from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3145,7 +3145,7 @@
           <profiles>
             <profile id="f2cb-2b09-69bf-10aa" name="Spiritsong Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to cast 1 extra 法术 in your 英雄 phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to cast 1 extra 法术 in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3160,7 +3160,7 @@
           <profiles>
             <profile id="3f67-cd18-2f23-9cd2" name="The Vesperal Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once in each of your 英雄 phases, when the bearer attempts to cast a 法术 from the Lore of the Deepwood, instead of making a casting roll you can say they are using the Vesperal Gem.  If you do so, that 法术 is automatically cast (do not roll 2D6) and cannot be unbound.  After the effect of that 法术 has been resolved, roll a dice.  On a 1, the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once in each of your 英雄 phases, when the bearer attempts to cast a 法术 from the Lore of the Deepwood, instead of making a casting roll you can say they are using the Vesperal Gem.  If you do so, that 法术 is automatically cast (do not roll 2D6) and cannot be unbound.  After the effect of that 法术 has been resolved, roll a dice.  On a 1, the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3175,7 +3175,7 @@
           <profiles>
             <profile id="ba98-0578-8b43-472b" name="Luneth&apos;s Lamp" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or display an endless 法术.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or display an endless 法术.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3190,7 +3190,7 @@
           <profiles>
             <profile id="651c-4c75-0fe2-2803" name="Hagbane Spite" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the bearer successfully unbinds a 法术, the caster suffers 1 mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer successfully unbinds a 法术, the caster suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3205,7 +3205,7 @@
           <profiles>
             <profile id="d9dc-9bf0-f847-465b" name="Wychwood Glaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Add 2 to the damage inflicted by that weapon for attacks that target a 法师.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Add 2 to the damage inflicted by that weapon for attacks that target a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3247,7 +3247,7 @@
             <profile id="1563-d160-9771-9a83" name="Regrowth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH 单位 wholly within 18&quot; of the caster and visible to them.  You can heal up to D6 wounds allocated to that 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH 单位 wholly within 18寸 of the caster and visible to them.  You can heal up to D6 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3260,7 +3260,7 @@
             <profile id="7f16-0c89-9e95-db65" name="Deadly Harvest" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, each enemy 单位 within 3&quot; of the caster suffers D3 mortal wounds (roll separately for each 单位).</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, each enemy 单位 within 3寸 of the caster suffers D3 mortal wounds (roll separately for each 单位).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3273,7 +3273,7 @@
             <profile id="c13c-15be-76f6-d2d9" name="The Dwellers Below" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 10&quot; of the caster and visible to them and roll a number of dice equal to the number of models in that 单位.  For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 10寸 of the caster and visible to them and roll a number of dice equal to the number of models in that 单位.  For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3286,7 +3286,7 @@
             <profile id="5dbc-8797-7871-bf74" name="Verdurous Harmony" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH 单位 wholly within 18&quot; of the caster and visible to them.  You can return 1 slain model to that 单位.  If you picked a 单位 of DRYADS, TREE-REVENANTS or SPITE-REVENANTS you can return up to D3 slain models to that 单位 instead of 1.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH 单位 wholly within 18寸 of the caster and visible to them.  You can return 1 slain model to that 单位.  If you picked a 单位 of DRYADS, TREE-REVENANTS or SPITE-REVENANTS you can return up to D3 slain models to that 单位 instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3299,7 +3299,7 @@
             <profile id="d7e6-434c-796b-068e" name="Treesong" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 16&quot; of the caster and within 6&quot; of an AWAKENED WYLDWOOD.  Until the end of the turn, you can re-roll hit and wound rolls of 1 for attacks made with melee weapons that target that 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 16寸 of the caster and within 6寸 of an AWAKENED WYLDWOOD.  Until the end of the turn, you can re-roll hit and wound rolls of 1 for attacks made with melee weapons that target that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3318,7 +3318,7 @@
           <profiles>
             <profile id="327d-2b54-afce-4bba" name="Daith&apos;s Reaper" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Improve the Rend characteristic of that weapon by 1.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Improve the Rend characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3330,7 +3330,7 @@
           <profiles>
             <profile id="8878-ee60-210d-faef" name="Greenwood Gladius" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapon.  Add 2 to the Attacks characteristic of that weapon if the bearer made a charge move in the same turn.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapon.  Add 2 to the Attacks characteristic of that weapon if the bearer made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3342,7 +3342,7 @@
           <profiles>
             <profile id="aa5a-9544-13b4-a922" name="Autumn&apos;s Ire" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  You can re-roll hit and wound rolls of 1 for attacks made with that weapon while any wounds are allocated to the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  You can re-roll hit and wound rolls of 1 for attacks made with that weapon while any wounds are allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3354,7 +3354,7 @@
           <profiles>
             <profile id="379d-5ac4-d3f8-27f2" name="Winnowstaff" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  You can re-roll hit rolls for attacks made with that weapon that target a 单位 with a Wounds characteristic of 1.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  You can re-roll hit rolls for attacks made with that weapon that target a 单位 with a Wounds characteristic of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3366,7 +3366,7 @@
           <profiles>
             <profile id="309d-c157-cffb-11c3" name="Ancient Barkblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3378,7 +3378,7 @@
           <profiles>
             <profile id="aa65-d06e-3dcb-4655" name="The Darkest Bough" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3397,7 +3397,7 @@
           <profiles>
             <profile id="dee4-a7dd-ea1d-82e1" name="The Oaken Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can re-roll save rolls of 1 made for attacks that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll save rolls of 1 made for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3409,7 +3409,7 @@
           <profiles>
             <profile id="3d91-f9ea-e9f2-22f0" name="Briar Sheath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3421,7 +3421,7 @@
           <profiles>
             <profile id="e0b6-6972-1458-b15a" name="Glamourweave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocated a mortal wound to the bearer.  On a 5+ that mortal wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocated a mortal wound to the bearer.  On a 5+ that mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3433,7 +3433,7 @@
           <profiles>
             <profile id="9f46-ccd5-9509-756a" name="Lashvines" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time a wound is inflicted by a melee weapon is allocated to the bearer and not negated.  On a 6+ the attacking 单位 suffers on mortal wound.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time a wound is inflicted by a melee weapon is allocated to the bearer and not negated.  On a 6+ the attacking 单位 suffers on mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3445,7 +3445,7 @@
           <profiles>
             <profile id="32aa-2e5c-420f-0d2b" name="Silken Snares" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">If the weapon used for an attack that targets the bearer has a Rend characteristic of -1, change the Rend characteristic for that attack to &apos;-&apos;.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the weapon used for an attack that targets the bearer has a Rend characteristic of -1, change the Rend characteristic for that attack to &apos;-&apos;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3457,7 +3457,7 @@
           <profiles>
             <profile id="f73b-0c0c-fd8b-4ab7" name="Nightbloom Garland" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">The bearer is not visible to enemy models that are more than 12&quot; from the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer is not visible to enemy models that are more than 12寸 from the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3495,7 +3495,7 @@
           <profiles>
             <profile id="4156-f782-75ac-340a" name="Mystic Regrowth" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of your 英雄 phase, if this general successfully cast any spells in that phase that were not unbound, you can heal D3 wounds allocated to this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of your 英雄阶段, if this general successfully cast any spells in that phase that were not unbound, you can heal D3 wounds allocated to this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3507,7 +3507,7 @@
           <profiles>
             <profile id="3c76-c7a3-d94f-5004" name="Voice of Warding" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind 1 extra 法术 in the enemy 英雄 phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind 1 extra 法术 in the enemy 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3519,7 +3519,7 @@
           <profiles>
             <profile id="54d5-66e8-d0d4-0a04" name="Glade Lore" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this general while it is wholly within 6&quot; of any AWAKENED WYLDWOODS.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this general while it is wholly within 6寸 of any AWAKENED WYLDWOODS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3531,7 +3531,7 @@
           <profiles>
             <profile id="0297-7e2d-761d-a63c" name="Spellsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 6&quot; to the range of each 法术 this general successfully casts.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 6寸 to the range of each 法术 this general successfully casts.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3589,7 +3589,7 @@
           <profiles>
             <profile id="aa1f-f980-babf-20ed" name="Jewel of Withering" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for attacks made with melee weapons that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for attacks made with melee weapons that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3628,7 +3628,7 @@
           <profiles>
             <profile id="3dff-4032-3d7a-55d9" name="Chalice of Nectar" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">When making a casting or unbinding roll for the bearer, roll 3D6, remove 1 dice of your choice, and then use the remaining 2D6 to determine that casting or unbinding roll.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When making a casting or unbinding roll for the bearer, roll 3D6, remove 1 dice of your choice, and then use the remaining 2D6 to determine that casting or unbinding roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3667,7 +3667,7 @@
           <profiles>
             <profile id="d89b-8c2e-3d5c-a52e" name="The Silent Sickle" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Add 1 to the Attacks characteristic of that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons.  Add 1 to the Attacks characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3706,7 +3706,7 @@
           <profiles>
             <profile id="3a70-3936-6371-2f18" name="Horn of the Consort" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by friendly HEARTWOOD KURNOTH HUNTERS wholly within 12&quot; of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by friendly HEARTWOOD KURNOTH HUNTERS wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3745,7 +3745,7 @@
           <profiles>
             <profile id="4ba5-0fff-cec6-52e6" name="Ironbark Talisman" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with melee weapons by the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with melee weapons by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3784,7 +3784,7 @@
           <profiles>
             <profile id="1ae2-69c9-6475-32cb" name="Frozen Kernel" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 friendly WINTERLEAF 单位 wholly within 18&quot; of the bearer.  After that 单位 has fought in that phase for the first time, if it is within 3&quot; of an enemy 单位, it can make a pile-in move and then attack with all of its melee weapons it is armed with for a second time.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 friendly WINTERLEAF 单位 wholly within 18寸 of the bearer.  After that 单位 has fought in that phase for the first time, if it is within 3寸 of an enemy 单位, it can make a pile-in move and then attack with all of its melee weapons it is armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3823,7 +3823,7 @@
           <profiles>
             <profile id="98c0-3117-9d7f-c201" name="Dawnflask" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact Details" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.
 On a 6+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
@@ -3870,7 +3870,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="8da6-9a66-ee24-2a80" name="Paragon of Terror" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll successful battleshock tests for enemy units while they are within 6&quot; of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll successful battleshock tests for enemy units while they are within 6寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3909,7 +3909,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="fd17-63c9-e68f-b359" name="Nurtured by Magic" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once in each of your 英雄 phases, it this general successfully casts a 法术 that is not unbound, pick 1 friendly GNARLROOT 单位 wholly within 18&quot; of this general.  You can heal up to D3 wounds allocated to that 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once in each of your 英雄 phases, it this general successfully casts a 法术 that is not unbound, pick 1 friendly GNARLROOT 单位 wholly within 18寸 of this general.  You can heal up to D3 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3948,7 +3948,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="6585-d1c7-8e19-000c" name="Seek New Fruit" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general attacks with its melee weapons, it can make a 6&quot; move after all of its attacks have been resolved.  If it does so, it must finish the move more than 3&quot; from enemy units.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general attacks with its melee weapons, it can make a 6寸 move after all of its attacks have been resolved.  If it does so, it must finish the move more than 3寸 from enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4065,7 +4065,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="5c8e-f350-e523-357e" name="Legacy of Valour" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the general is slain, do D3 mortal wounds to an enemy 单位 within 1&quot; on a 2+. On a 6, do D6 instead.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the general is slain, do D3 mortal wounds to an enemy 单位 within 1寸 on a 2+. On a 6, do D6 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4118,12 +4118,12 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
   <sharedProfiles>
     <profile id="8bb4-1563-bd32-83fd" name="Groundshaking Stomp" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, pick 1 enemy 单位 within 3&quot; of this model and roll a dice. On a  4+ that 单位 fights at the end of that combat phase, after the players have picked any 其他 units to fight.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, pick 1 enemy 单位 within 3寸 of this model and roll a dice. On a  4+ that 单位 fights at the end of that combat phase, after the players have picked any 其他 units to fight.</characteristic>
       </characteristics>
     </profile>
     <profile id="0c60-ddea-6fda-14e3" name="Spirit Paths" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, if this model is wholly within 6&quot; of a friendly AWAKENED WYLDWOOD, it can walk the spirit paths instead of making a normal move in that movement phase.  If it does do, remove this model from the battlefield and set it up wholly within 6&quot; of a different AWAKENED WYLDWOOD and more than 9&quot; from any enemy units.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, if this model is wholly within 6寸 of a friendly AWAKENED WYLDWOOD, it can walk the spirit paths instead of making a normal move in that movement phase.  If it does do, remove this model from the battlefield and set it up wholly within 6寸 of a different AWAKENED WYLDWOOD and more than 9寸 from any enemy units.</characteristic>
       </characteristics>
     </profile>
     <profile id="7b96-4fd8-9faa-e18f" name="Impale" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4134,7 +4134,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
     <profile id="2ffd-bbd3-2d81-6ad7" name="Verdant Blessing" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up 1 AWAKENED WYLDWOOD wholly within 24&quot; of the caster and more than 1&quot; from any 其他 model, terrain feature or objective.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up 1 AWAKENED WYLDWOOD wholly within 24寸 of the caster and more than 1寸 from any 其他 model, terrain feature or objective.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

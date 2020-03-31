@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6fd3-739b-3545-4a7d" name="Order - Aelf" revision="7" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6fd3-739b-3545-4a7d" name="秩序 - Aelf" revision="7" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6fd3-739b-pubN65537" name="Grand Alliance: Order"/>
   </publications>
@@ -77,7 +77,7 @@
       <profiles>
         <profile id="f93d-1d4b-8720-0810" name="Mistweaver Saih" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">8&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">6+</characteristic>
@@ -116,7 +116,7 @@
             <profile id="3dcb-65a5-c9f3-77ae" name="Aelven Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -138,7 +138,7 @@
             <profile id="2cd6-6a3b-80de-9472" name="Illusory Assault" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 24&quot; that is visible to the caster and roll three dice.  If the total is greater than that 单位&apos;s Bravery, it suffers D3 mortal wounds.  If the total is at least double that 单位&apos;s Bravery, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 24寸 that is visible to the caster and roll three dice.  If the total is greater than that 单位&apos;s Bravery, it suffers D3 mortal wounds.  If the total is at least double that 单位&apos;s Bravery, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -155,7 +155,7 @@
             <profile id="5016-62b9-f0dd-3cb3" name="Mistweaver&apos;s Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
@@ -182,7 +182,7 @@
       <profiles>
         <profile id="b781-be6f-38e6-ffd7" name="Tenebrael Shard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动力" typeId="8655-6213-2824-1752">8&quot;</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
             <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
@@ -190,7 +190,7 @@
         </profile>
         <profile id="a3bc-d353-f205-e93c" name="Shadowstrike" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for this model in each of your 英雄 phases.  On a roll of 4 or more you can remove it from the battlefield, and then set it back up anywhere within 3&quot; of the enemy.  If you do so, you can add 1 to all hit rolls made for this model for the rest of the turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for this model in each of your 英雄 phases.  On a roll of 4 or more you can remove it from the battlefield, and then set it back up anywhere within 3寸 of the enemy.  If you do so, you can add 1 to all hit rolls made for this model for the rest of the turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="9ef7-95d7-2623-5208" name="Graceful Killer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -200,7 +200,7 @@
         </profile>
         <profile id="b51c-4144-4d46-2f68" name="Incredible Speed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a Tenebrael Shard slays any models in the combat phase, he can make an 8&quot; move immediately after his attacks have been resolved.  He cannot finish the move within 3&quot; of any enemy models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a Tenebrael Shard slays any models in the combat phase, he can make an 8寸 move immediately after his attacks have been resolved.  He cannot finish the move within 3寸 of any enemy models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -220,7 +220,7 @@
             <profile id="c6b0-6c18-12c9-6944" name="Bladed Barbs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
@@ -242,7 +242,7 @@
             <profile id="5a9e-d65b-99f2-f6b5" name="Reaper Gauntlets" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
-                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2&quot;</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
                 <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>

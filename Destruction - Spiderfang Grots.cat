@@ -163,7 +163,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="25cb-0613-05ff-de31" name="ARACHNAROK WEAPONS" hidden="false" collective="false" import="true" targetId="e266-81a4-1c3a-927b" type="selectionEntry"/>
+        <entryLink id="25cb-0613-05ff-de31" name="ARACHNAROK 武器" hidden="false" collective="false" import="true" targetId="e266-81a4-1c3a-927b" type="selectionEntry"/>
         <entryLink id="d12a-7146-fe8c-3f7b" name="ARACHNAROK DAMAGE" hidden="false" collective="false" import="true" targetId="e59e-069c-cc12-a0f4" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -194,7 +194,7 @@
         <entryLink id="9607-6675-ef11-cc08" name="General" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
         <entryLink id="f47d-35b6-a75d-d56d" name="Artefacts" hidden="false" collective="false" import="true" targetId="fdcb-7832-46a4-e9b6" type="selectionEntryGroup"/>
         <entryLink id="c4b7-a0d6-480d-f435" name="Command Traits" hidden="false" collective="false" import="true" targetId="2fb3-b280-7281-037c" type="selectionEntryGroup"/>
-        <entryLink id="1e33-688e-bd30-4657" name="ARACHNAROK WEAPONS" hidden="false" collective="false" import="true" targetId="e266-81a4-1c3a-927b" type="selectionEntry"/>
+        <entryLink id="1e33-688e-bd30-4657" name="ARACHNAROK 武器" hidden="false" collective="false" import="true" targetId="e266-81a4-1c3a-927b" type="selectionEntry"/>
         <entryLink id="2968-fd83-6b4b-753d" name="ARACHNAROK DAMAGE" hidden="false" collective="false" import="true" targetId="e59e-069c-cc12-a0f4" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -241,7 +241,7 @@
           <profiles>
             <profile id="9b84-8975-96a5-0c11" name="Swamp Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -343,7 +343,7 @@
           <profiles>
             <profile id="a663-5da5-7711-7ec5" name="Crooked Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -395,7 +395,7 @@
           <profiles>
             <profile id="d703-e719-4b59-7a1a" name="Spider-bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -449,7 +449,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e266-81a4-1c3a-927b" name="ARACHNAROK WEAPONS" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e266-81a4-1c3a-927b" name="ARACHNAROK 武器" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a103-f163-e79f-5fe2" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0a-df27-5591-abff" type="max"/>
@@ -457,7 +457,7 @@
       <profiles>
         <profile id="fa91-bf6c-28f7-15c0" name="Flinger" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -468,7 +468,7 @@
         </profile>
         <profile id="8273-a6a0-d21b-795b" name="Spiderfang Crew’s Spider-bows" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -479,7 +479,7 @@
         </profile>
         <profile id="6380-eb8e-d1ae-7f5b" name="Spiderfang Crew’s Crooked Spears" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -490,7 +490,7 @@
         </profile>
         <profile id="fef9-7f5d-22ca-a600" name="Chitinous Legs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -501,7 +501,7 @@
         </profile>
         <profile id="acb8-7583-1963-a2b7" name="Monstrous Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
@@ -643,7 +643,7 @@
     </profile>
     <profile id="a0e5-4c01-9371-34fb" name="War Boar&apos;s Tusks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -664,7 +664,7 @@
     </profile>
     <profile id="b825-e23d-3dab-a80e" name="Pigstikka Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -675,7 +675,7 @@
     </profile>
     <profile id="0b24-24d0-8dba-5d4d" name="Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -686,7 +686,7 @@
     </profile>
     <profile id="77cb-33ac-4b6e-962f" name="Moon-sickle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -697,7 +697,7 @@
     </profile>
     <profile id="94a8-c226-f44c-e15b" name="Spore Squig’s Vicious Teef" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -713,7 +713,7 @@
     </profile>
     <profile id="4045-ce4a-e1e0-3570" name="Noxious Vomit" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -724,7 +724,7 @@
     </profile>
     <profile id="1cc1-5c28-5b3f-9d20" name="Giant Spider&apos;s Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>

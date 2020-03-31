@@ -239,7 +239,7 @@
       <profiles>
         <profile id="fed6-7ed8-b004-6759" name="Divin&apos; Grot" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">*</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -258,7 +258,7 @@
         </profile>
         <profile id="1b3a-e012-fb31-46e5" name="Grot War 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Doom Diver Catapult can only move if its crew are within 1寸 at the start of the movement phase. If its crew are within 1寸 of the Doom Diver Catapult in the shooting phase, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Doom Diver Catapult can only move if its crew are within 1寸 at the start of the movement phase. If its crew are within 1寸 of the Doom Diver Catapult in the 射击阶段, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="9f7c-8334-7f65-a9f1" name="Oi Tubby, You’re Next" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -326,7 +326,7 @@
       <profiles>
         <profile id="11d6-6247-03b6-eac7" name="Big Rock" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6-40寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
@@ -347,7 +347,7 @@
         </profile>
         <profile id="5d2a-9e33-8452-1bc5" name="Grot War 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Rock Lobber catapult can only move if its crew are within 1寸 at the start of the movement phase. If its crew are within 1寸 of the Rock Lobber in the shooting phase, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Rock Lobber catapult can only move if its crew are within 1寸 at the start of the movement phase. If its crew are within 1寸 of the Rock Lobber in the 射击阶段, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -429,15 +429,15 @@
         <categoryLink id="2829-a34e-6a4b-3669" name="New CategoryLink" hidden="false" targetId="a3ca-378c-a251-c2a6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d942-efcf-b251-6b4f" name="Grot Scrappers’ Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d942-efcf-b251-6b4f" name="Grot Scrappers’ 武器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbef-f37b-07ca-a64a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3db-9f67-c81d-6051" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cb8d-de93-72bd-ea28" name="Grot Scrappers’ Weapons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="cb8d-de93-72bd-ea28" name="Grot Scrappers’ 武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">7</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -459,7 +459,7 @@
           <profiles>
             <profile id="859d-3384-66ed-86de" name="Rhinox’s Sharp Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -481,7 +481,7 @@
           <profiles>
             <profile id="280d-9f48-7154-61ed" name="Scraplauncher" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10-33寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -511,7 +511,7 @@
         <profile id="c1b0-18b9-25f9-7461" name="Sneaky Stabbin’" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Sneaky Stabbin’ has a 施法值 of 7. If successfully cast, you can choose one Gitmob 单位 within 16寸. Until your next 英雄阶段, whenever that 单位 attacks, their weapons seek their enemies’ weak points: add 1 to their wound rolls and increase the Rend characteristics of their weapons by 1 (i.e. ‘-’ becomes -1, -1 becomes -2 and so on).</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Sneaky Stabbin’ has a 施法值 of 7. If successfully cast, you can choose one Gitmob 单位 within 16寸. Until your next 英雄阶段, whenever that 单位 attacks, their 武器 seek their enemies’ weak points: add 1 to their wound rolls and increase the Rend characteristics of their 武器 by 1 (i.e. ‘-’ becomes -1, -1 becomes -2 and so on).</characteristic>
           </characteristics>
         </profile>
         <profile id="1d84-28ec-d0d0-87e0" name="Kunnin’ (or just Lucky)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -537,7 +537,7 @@
           <profiles>
             <profile id="77c2-030e-5a3e-4cb2" name="Shaman Stick" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -576,7 +576,7 @@
                 </profile>
                 <profile id="4fe0-46e8-0f95-6227" name="Giant Wolf’s Slavering Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -646,7 +646,7 @@
         </profile>
         <profile id="bf33-0a1e-5747-3f60" name="Fightin’ Platform" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 can attack in the shooting phase and charge even if it ran in the movement phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 can attack in the 射击阶段 and charge even if it ran in the movement phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="dbd0-7ed4-21e1-a816" name="Wolf Icon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -679,7 +679,7 @@
           <profiles>
             <profile id="3808-79dd-577e-490b" name="Crew’s Slittas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -905,7 +905,7 @@
           <profiles>
             <profile id="c753-0e6b-6133-b698" name="Grot Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -927,7 +927,7 @@
           <profiles>
             <profile id="679d-5451-62d9-1e88" name="Slasha" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -949,7 +949,7 @@
           <profiles>
             <profile id="de6f-697d-d73f-6736" name="Jabbin’ Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1047,7 +1047,7 @@
           <profiles>
             <profile id="09c9-7d48-5cce-29ef" name="Back Stabbas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1114,7 +1114,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c7c5-c5d0-a713-f5f6" name="Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c7c5-c5d0-a713-f5f6" name="武器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66a-72be-1852-f32b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb63-7c26-fce8-1690" type="max"/>
@@ -1122,7 +1122,7 @@
           <profiles>
             <profile id="0302-a0c2-467e-a3b3" name="Ram Spikes and Scythed Wheels" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1252,7 +1252,7 @@
         </profile>
         <profile id="036b-0a74-822a-8f97" name="Grot War 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Spear Chukka can only move if its crew are within 1寸 at the start of the movement phase. If its crew are within 1寸 of the Spear Chukka in the shooting phase, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Spear Chukka can only move if its crew are within 1寸 at the start of the movement phase. If its crew are within 1寸 of the Spear Chukka in the 射击阶段, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="ab23-4a6e-1a04-b328" name="Grot Spear Chukka" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -1324,7 +1324,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7cdd-098b-096e-3b41" name="Crew’s Improvised Weapons" hidden="false" targetId="4189-9429-3e95-912a" type="profile"/>
+        <infoLink id="7cdd-098b-096e-3b41" name="Crew’s Improvised 武器" hidden="false" targetId="4189-9429-3e95-912a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1400,7 +1400,7 @@
     </profile>
     <profile id="a0e5-4c01-9371-34fb" name="War Boar&apos;s Tusks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1421,7 +1421,7 @@
     </profile>
     <profile id="b825-e23d-3dab-a80e" name="Pigstikka Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1432,7 +1432,7 @@
     </profile>
     <profile id="0b24-24d0-8dba-5d4d" name="Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1443,7 +1443,7 @@
     </profile>
     <profile id="77cb-33ac-4b6e-962f" name="Moon-sickle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1454,7 +1454,7 @@
     </profile>
     <profile id="94a8-c226-f44c-e15b" name="Spore Squig’s Vicious Teef" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1470,7 +1470,7 @@
     </profile>
     <profile id="4045-ce4a-e1e0-3570" name="Noxious Vomit" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1479,9 +1479,9 @@
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="4189-9429-3e95-912a" name="Crew’s Improvised Weapons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="4189-9429-3e95-912a" name="Crew’s Improvised 武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1492,7 +1492,7 @@
     </profile>
     <profile id="d305-58c1-3d97-64e4" name="Wolf Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1503,7 +1503,7 @@
     </profile>
     <profile id="7cf1-ca71-176c-d6a4" name="Giant Wolves’ Slavering Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1514,7 +1514,7 @@
     </profile>
     <profile id="df47-d001-27cb-d51c" name="Slitta" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1525,7 +1525,7 @@
     </profile>
     <profile id="27fa-e6c4-be50-81b8" name="Explodin’ Spores" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1536,7 +1536,7 @@
     </profile>
     <profile id="7e41-d577-9df2-798c" name="Crew’s Pokin’ Sticks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1547,7 +1547,7 @@
     </profile>
     <profile id="9b0a-1e2b-0e27-2de9" name="Pokin’ Sticks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>

@@ -130,13 +130,13 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the Hellcannon is not within 3寸 of an enemy 单位 at the start of your movement phase, roll a dice and consult the 战争机械 Crew Table above. If the dice roll is equal to or greater than the score shown, the crew have caged the Hellfire’s fury this turn. Otherwise, the Hellcannon must move as far as it can towards the closest enemy 单位 that is visible to it.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0791-c52b-7ad6-a3d0" name="2 models" hidden="false" typeId="a2ca-2474-78fd-9f6a" typeName="Hellcannon Crew within 1寸">
+        <profile id="0791-c52b-7ad6-a3d0" name="2个模型" hidden="false" typeId="a2ca-2474-78fd-9f6a" typeName="Hellcannon Crew within 1寸">
           <characteristics>
             <characteristic name="Caged Fury" typeId="ed2b-f656-85e0-0813">3 or more</characteristic>
             <characteristic name="Doomfire" typeId="1ce1-ed70-09a1-7afc">2</characteristic>
           </characteristics>
         </profile>
-        <profile id="2285-7556-a87b-f5f2" name="1 model" hidden="false" typeId="a2ca-2474-78fd-9f6a" typeName="Hellcannon Crew within 1寸">
+        <profile id="2285-7556-a87b-f5f2" name="1个模型" hidden="false" typeId="a2ca-2474-78fd-9f6a" typeName="Hellcannon Crew within 1寸">
           <characteristics>
             <characteristic name="Caged Fury" typeId="ed2b-f656-85e0-0813">4 or more</characteristic>
             <characteristic name="Doomfire" typeId="1ce1-ed70-09a1-7afc">1</characteristic>
@@ -148,7 +148,7 @@
             <characteristic name="Doomfire" typeId="1ce1-ed70-09a1-7afc">0</characteristic>
           </characteristics>
         </profile>
-        <profile id="42bf-1dcc-b264-fa13" name="3 Models" hidden="false" typeId="a2ca-2474-78fd-9f6a" typeName="Hellcannon Crew within 1寸">
+        <profile id="42bf-1dcc-b264-fa13" name="3个模型" hidden="false" typeId="a2ca-2474-78fd-9f6a" typeName="Hellcannon Crew within 1寸">
           <characteristics>
             <characteristic name="Caged Fury" typeId="ed2b-f656-85e0-0813">2 or more</characteristic>
             <characteristic name="Doomfire" typeId="1ce1-ed70-09a1-7afc">2</characteristic>
@@ -186,7 +186,7 @@
               <profiles>
                 <profile id="6cf3-7016-32e1-a63c" name="Doomfire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12-48寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -197,7 +197,7 @@
                 </profile>
                 <profile id="d53e-426b-a549-7161" name="战争机械 - Doomfire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Hellcannon can only make Doomfire attacks if its crew are within 1寸 of the 战争机械 in the shooting phase. To make a Doomfire attack, pick an enemy 单位 within range, even if it is not visible to the Hellcannon, and roll to hit. Add 1 to the hit roll if the Hellcannon did not move in your preceding movement phase and add another 1 if the target 单位 has 20 or more models. A 单位 hit by Doomfire suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Hellcannon can only make Doomfire attacks if its crew are within 1寸 of the 战争机械 in the 射击阶段. To make a Doomfire attack, pick an enemy 单位 within range, even if it is not visible to the Hellcannon, and roll to hit. Add 1 to the hit roll if the Hellcannon did not move in your preceding movement phase and add another 1 if the target 单位 has 20 or more models. A 单位 hit by Doomfire suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -213,7 +213,7 @@
               <profiles>
                 <profile id="af99-01a3-1935-b822" name="Daemonic Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -253,15 +253,15 @@
             <categoryLink id="cf9d-3c43-806a-d216" name="New CategoryLink" hidden="false" targetId="c4f8-4679-229d-7c37" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="f320-d938-2e97-0a5d" name="Crew&apos;s Improvised Weapons" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="f320-d938-2e97-0a5d" name="Crew&apos;s Improvised 武器" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="036c-b68e-5524-43f0" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b9e-a317-fd9d-d3d0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c52f-c2bf-f5e8-cf4f" name="Crew&apos;s Improvised Weapons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="c52f-c2bf-f5e8-cf4f" name="Crew&apos;s Improvised 武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -327,7 +327,7 @@
           <profiles>
             <profile id="32a7-a719-160f-a4b6" name="Darksteel Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -356,7 +356,7 @@
         <profile id="b9d0-0e13-d842-1b2a" name="Treasonous Curse" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸. Each model in that 单位 makes a single attack with one of its melee weapons against its own 单位. If a model has more than one melee weapon you may choose which one is used.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸. Each model in that 单位 makes a single attack with one of its 肉搏 武器 against its own 单位. If a model has more than one 肉搏 weapon you may choose which one is used.</characteristic>
           </characteristics>
         </profile>
         <profile id="ce3f-fa33-8b3c-8c37" name="5-6" hidden="false" typeId="e7e8-01da-ccf7-5744" typeName="Dragon Wounds Suffered">
@@ -431,7 +431,7 @@
           <profiles>
             <profile id="6090-80ce-b222-f481" name="Breath of Mutation" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">See Ability</characteristic>
@@ -442,7 +442,7 @@
             </profile>
             <profile id="f659-9907-200a-bdcc" name="Breath of Mutation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the shooting phase, this model can pick one enemy 单位 in range. That 单位 suffers D3 mortal wounds. Roll a dice for each model that is slain; on a 4+ the 单位 suffers a further mortal wound as warriors are driven insane or twisted beyond recognition by the Breath of Mutation.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the 射击阶段, this model can pick one enemy 单位 in range. That 单位 suffers D3 mortal wounds. Roll a dice for each model that is slain; on a 4+ the 单位 suffers a further mortal wound as warriors are driven insane or twisted beyond recognition by the Breath of Mutation.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -458,7 +458,7 @@
           <profiles>
             <profile id="434e-788a-32b3-5cef" name="Swathe of Dark Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -480,7 +480,7 @@
           <profiles>
             <profile id="ccb1-21bc-f7b9-8278" name="Vicious Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -502,7 +502,7 @@
           <profiles>
             <profile id="990e-2fb3-5039-427d" name="Warped Maws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -562,7 +562,7 @@
           <profiles>
             <profile id="2f7c-c97a-a5ae-ff24" name="Enormous Club" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -584,7 +584,7 @@
           <profiles>
             <profile id="6cbd-844a-1ad2-fd93" name="Copious Vomit" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -638,7 +638,7 @@
           <profiles>
             <profile id="b343-f91d-046f-a8f2" name="Burning Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -660,7 +660,7 @@
           <profiles>
             <profile id="7e8a-7971-d79d-ad83" name="Belch Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -682,7 +682,7 @@
           <profiles>
             <profile id="405c-4134-b1d3-dc3a" name="Horns and Teeth" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -743,7 +743,7 @@
           <profiles>
             <profile id="70c5-cfa0-6a01-d002" name="Clawed Forelimbs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -765,7 +765,7 @@
           <profiles>
             <profile id="a736-61bd-70b3-964e" name="Horns and Teeth" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -817,7 +817,7 @@
           <profiles>
             <profile id="5795-eb57-1c46-d6fd" name="Freakish Mutations" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -877,7 +877,7 @@
           <profiles>
             <profile id="00bf-c1d7-57ab-947c" name="Brutal Blades and Clubs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -966,7 +966,7 @@
           <profiles>
             <profile id="8bb2-28b8-ec28-fbf7" name="Knife or Club" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">6+</characteristic>
@@ -1029,7 +1029,7 @@
           <profiles>
             <profile id="bc71-fe48-36c7-26e3" name="Disgusting Vomit" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1051,7 +1051,7 @@
           <profiles>
             <profile id="a02f-e8fe-30c5-513e" name="Scavenged Clubs and Axes" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>

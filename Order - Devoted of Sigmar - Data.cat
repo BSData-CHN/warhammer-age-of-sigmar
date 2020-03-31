@@ -188,7 +188,7 @@
           <profiles>
             <profile id="797e-74a1-fc6e-2493" name="Warhammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -258,7 +258,7 @@
         <categoryLink id="f2d9-ede5-bb85-bba8" name="New CategoryLink" hidden="false" targetId="85b7-4613-78f4-f45e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10ff-cf71-b466-b776" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="10ff-cf71-b466-b776" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e04f-15d8-eb73-f3e5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b73-198f-04f8-da31" type="max"/>
@@ -283,7 +283,7 @@
               <profiles>
                 <profile id="3815-9a38-2f03-3105" name="Sigmarite Warhammers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for a Warrior Priest armed with two Sigmarite Warhammers.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for a Warrior Priest armed with two Sigmarite Warhammers.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -298,7 +298,7 @@
               <profiles>
                 <profile id="56ce-42dc-22e4-9ee7" name="Sigmarite Greathammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -324,7 +324,7 @@
               <profiles>
                 <profile id="d7b7-9b92-f603-b807" name="Warhorse&apos;s Steel-shod Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -385,7 +385,7 @@
         </profile>
         <profile id="3cf0-ad55-f17e-0c1d" name="Baroque Pistols" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Witch Hunter equipped with two Baroque Pistols makes 2 attacks in the shooting phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Witch Hunter equipped with two Baroque Pistols makes 2 attacks in the 射击阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="4860-a621-2756-c8c5" name="Grim Resolve" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -416,7 +416,7 @@
           <profiles>
             <profile id="da37-7fb7-4ff5-8a1c" name="Baroque Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -432,7 +432,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b97c-ac7d-5f46-2d88" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b97c-ac7d-5f46-2d88" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7c02-8e48-f34f-c567" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d21b-ac15-db35-30a7" type="min"/>
@@ -442,7 +442,7 @@
               <profiles>
                 <profile id="640e-0fe6-3bf8-3ff7" name="Blessed Rapier" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -460,7 +460,7 @@
               <profiles>
                 <profile id="7dbe-717b-7653-84a9" name="Silver Greatsword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -594,7 +594,7 @@
           <profiles>
             <profile id="304b-e532-c7f3-057e" name="Light of Banishment" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">20寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -610,7 +610,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d0af-97af-f041-a9ba" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d0af-97af-f041-a9ba" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="894d-8d70-84e9-6912" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbb1-156e-d892-79f4" type="min"/>
@@ -620,7 +620,7 @@
               <profiles>
                 <profile id="ddc1-90d3-fef5-a41a" name="Sigmarite Greathammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -638,7 +638,7 @@
               <profiles>
                 <profile id="eb83-9a24-401a-3b9a" name="Sigmarite Warhammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -649,7 +649,7 @@
                 </profile>
                 <profile id="ed00-11c8-40c7-3d88" name="Staff of Sigmar" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -738,7 +738,7 @@
           <profiles>
             <profile id="1f44-c2f5-c443-dced" name="Castigating Flails and Clubs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -795,7 +795,7 @@
   <sharedProfiles>
     <profile id="3358-fcd1-4ec1-ef77" name="Sigmarite Warhammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>

@@ -179,9 +179,9 @@ Berserk Strength: If the unmodified wound roll for an attack made by that 单位
                   <characteristics>
                     <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once per battle, at the start of the combat phase, if you have a Bonesplitterz army and your general is on the battlefield. If you do so, roll a dice and add the number of friendly BONESPLITTERZ units wholly within 18寸 of your general to the roll.
 
-If the roll is up to 11, until the end of that phase add 1 to the Attacks characteristic of melee weapons used by friendly BONESPLITTERZ units wholly within 18寸 of your general.
+If the roll is up to 11, until the end of that phase add 1 to the Attacks characteristic of 肉搏 武器 used by friendly BONESPLITTERZ units wholly within 18寸 of your general.
 
-If the roll is 12 or more, until the end of that phase add 2 to the Attacks characteristic of melee weapons used by friendly BONESPLITTERZ units wholly within 18寸 of your general.</characteristic>
+If the roll is 12 or more, until the end of that phase add 2 to the Attacks characteristic of 肉搏 武器 used by friendly BONESPLITTERZ units wholly within 18寸 of your general.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -378,9 +378,9 @@ If the roll is 12 or more, until the end of that phase add 2 to the Attacks char
                   <characteristics>
                     <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once per battle, at the start of the combat phase, if you have an Ironjawz army and your general is a MEGABOSS and on the battlefield. If you do so, roll a dice and add the number of friendly IRONJAWZ units wholly within 18寸 of your general to the roll.
 
-If the roll is up to 11, until the end of that phase add 1 to the Attacks characteristic of melee weapons used by friendly IRONJAWZ units wholly within 18寸 of your general.
+If the roll is up to 11, until the end of that phase add 1 to the Attacks characteristic of 肉搏 武器 used by friendly IRONJAWZ units wholly within 18寸 of your general.
 
-If the roll is 12 or more, until the end of that phase add 2 to the Attacks characteristic of melee weapons used by friendly IRONJAWZ units wholly within 18寸 of your general.</characteristic>
+If the roll is 12 or more, until the end of that phase add 2 to the Attacks characteristic of 肉搏 武器 used by friendly IRONJAWZ units wholly within 18寸 of your general.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -464,7 +464,7 @@ You cannot use this 战斗特性 more than once for the same 法师 in the same 
                 </profile>
                 <profile id="cd20-7671-7875-8058" name="Da Big Waaagh!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                   <characteristics>
-                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase if you have a Big Waaagh! army with at least 24 Waaagh! points and your general is on the battlefield. If you do so, add 1 to the Attacks characteristic of melee weapons used by friendly ORRUK units until the end of that phase. You cannot use this command ability more than once per phase.
+                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase if you have a Big Waaagh! army with at least 24 Waaagh! points and your general is on the battlefield. If you do so, add 1 to the Attacks characteristic of 肉搏 武器 used by friendly ORRUK units until the end of that phase. You cannot use this command ability more than once per phase.
 
 At the end of any phase in which you use this command ability, you must roll a dice. On a 1, reduce the Waaagh! points for your army to 0. On a 2-5, halve the Waaagh! points for your army (rounding down). On a 6, nothing happens.</characteristic>
                   </characteristics>
@@ -638,7 +638,7 @@ At the end of any phase in which you use this command ability, you must roll a d
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e4b-e736-cfd9-b042" name="2. Savages &amp; Arrowboys (2 to 5)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7e4b-e736-cfd9-b042" name="2. Savages 和 Arrowboys (2 to 5)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3c3-3fa8-4211-5aa6" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a42-ee7c-106a-052c" type="min"/>
@@ -791,7 +791,7 @@ At the end of any phase in which you use this command ability, you must roll a d
       <profiles>
         <profile id="0f2f-ba25-ddde-28d8" name="We&apos;re Da Best!" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by units from this 阵型 while they are wholly within 12寸 of the SAVAGE BIG BOSS from the same 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by units from this 阵型 while they are wholly within 12寸 of the SAVAGE BIG BOSS from the same 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -918,7 +918,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="6da7-3368-d698-2bc2" name="Bonebeast Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -940,7 +940,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="4f87-3c81-a0d1-ac83" name="Tusks and Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1014,7 +1014,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="6702-d84b-5579-a85c" name="Boss Chompa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1061,7 +1061,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="4fc9-4ac1-3577-c945" name="Da Final Fling" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time a model from this 单位 is slain by an attack made with a melee weapon, before the model is removed from play, pick 1 enemy 单位 within 3寸 of the slain model and roll a dice. Add 2 to the roll if that enemy 单位 is a 怪兽. On a 4+, that 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time a model from this 单位 is slain by an attack made with a 肉搏 weapon, before the model is removed from play, pick 1 enemy 单位 within 3寸 of the slain model and roll a dice. Add 2 to the roll if that enemy 单位 is a 怪兽. On a 4+, that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="fa65-d096-e633-72eb" name="The Bigger They Are..." hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1100,7 +1100,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="9a93-dfe5-0bc8-cf95" name="Gorktoof" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1161,7 +1161,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="7949-ffd1-0682-8d00" name="Savage Boss Maniak" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Savage Boss Maniak. Add 1 to the Attacks characteristic of that model’s Pair of Chompas.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Savage Boss Maniak. Add 1 to the Attacks characteristic of that model’s Pair of Chompas.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1190,7 +1190,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="2432-6448-f05e-2979" name="Tusks and Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1212,7 +1212,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="f4d8-e1dd-e252-7a8a" name="Pair of Chompas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1294,12 +1294,12 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="7196-a2cd-d866-f053" name="Savage Boar Boss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Savage Boss. Add 1 to the Attacks characteristic of that model’s Chompa or Savage Stikka.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Savage Boss. Add 1 to the Attacks characteristic of that model’s Chompa or Savage Stikka.</characteristic>
           </characteristics>
         </profile>
         <profile id="cb78-48f3-3196-0c0d" name="Bone Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with melee weapons that target this 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with 肉搏 武器 that target this 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="731c-1e64-4b1c-93a6" name="Boar Stikka" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1368,7 +1368,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="be61-be35-3dc9-9dc6" name="Tusks and Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1384,7 +1384,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5e7d-52b0-658c-9a61" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5e7d-52b0-658c-9a61" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b64a-63fb-79e9-20aa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="476f-722f-25e0-7f45" type="min"/>
@@ -1397,7 +1397,7 @@ At the end of any phase in which you use this command ability, you must roll a d
               <profiles>
                 <profile id="2a04-726e-a0e2-7e02" name="Chompa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1418,7 +1418,7 @@ At the end of any phase in which you use this command ability, you must roll a d
               <profiles>
                 <profile id="caa6-955b-f385-7fae" name="Savage Stikka" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1462,7 +1462,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="83f3-8713-a821-0b19" name="Savage Boss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Savage Boss. Add 1 to the Attacks characteristic of that model’s Chompa or Savage Stikka.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Savage Boss. Add 1 to the Attacks characteristic of that model’s Chompa or Savage Stikka.</characteristic>
           </characteristics>
         </profile>
         <profile id="a447-9fe7-f72c-a732" name="Skull Thumper" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1477,12 +1477,12 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="5a55-6eb0-2634-c32b" name="Bone Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with melee weapons that target this 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with 肉搏 武器 that target this 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="283d-5c2a-a8c5-049a" name="Spirit of Gorkamorka" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of melee weapons used by this 单位 while it has 15 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of 肉搏 武器 used by this 单位 while it has 15 or more models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1512,7 +1512,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b2b-6793-5811-fc34" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4b2b-6793-5811-fc34" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0819-5ab0-573d-f6e7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f26c-46a1-f401-7d0f" type="min"/>
@@ -1525,7 +1525,7 @@ At the end of any phase in which you use this command ability, you must roll a d
               <profiles>
                 <profile id="626e-59ba-f8e4-4a44" name="Chompa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1546,7 +1546,7 @@ At the end of any phase in which you use this command ability, you must roll a d
               <profiles>
                 <profile id="1e0c-b49f-d518-fb79" name="Savage Stikka" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1597,12 +1597,12 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="d613-3b0a-716e-8075" name="Loadsa Arrows" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of missile weapons used by this 单位 while it has 15 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of missile 武器 used by this 单位 while it has 15 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="bb0f-be56-bbd1-51bc" name="Savage Arrow Boss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Savage Arrow Boss. A Savage Arrow Boss can be armed with a Stinga Bow and Chompa instead of a Stinga Bow and Bone Shiv.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Savage Arrow Boss. A Savage Arrow Boss can be armed with a Stinga Bow and Chompa instead of a Stinga Bow and Bone Shiv.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1631,7 +1631,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="c6ec-7b01-51c5-3a03" name="Bone Shiv" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1653,7 +1653,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="315f-00e5-c710-53f4" name="Stinga Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1705,7 +1705,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="bf80-16cb-4031-8075" name="Chompa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1756,17 +1756,17 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="862f-698a-551f-265b" name="Power of the Beast Spirit" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with melee weapons by this 单位 if any enemy MONSTERS have been slain.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with 肉搏 武器 by this 单位 if any enemy MONSTERS have been slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="fd01-ce99-5546-b37c" name="Spirit of Gorkamorka" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of melee weapons used by this 单位 while it has 15 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of 肉搏 武器 used by this 单位 while it has 15 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="b5d9-2ec8-30d4-3b9f" name="Savage Boss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Savage Boss. Add 1 to the Attacks characteristic of that model’s Chompa and Toof Shiv</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Savage Boss. Add 1 to the Attacks characteristic of that model’s Chompa and Toof Shiv</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1802,7 +1802,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="2bff-b439-5f33-63e3" name="Chompa and Toof Shiv" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1939,7 +1939,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="c916-30dc-8d42-479e" name="Bonebeast Stikk" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1996,7 +1996,7 @@ At the end of any phase in which you use this command ability, you must roll a d
         </profile>
         <profile id="e48e-bf33-5bb6-629b" name="Beast Mask" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made with melee weapons that target this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="9b56-5475-d147-b010" name="Warrgog Prophet" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -2048,7 +2048,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="70c1-8a68-a8a1-c3a1" name="Wurrog Staff and Bone Shiv" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2070,7 +2070,7 @@ At the end of any phase in which you use this command ability, you must roll a d
           <profiles>
             <profile id="e836-107f-cdc6-415d" name="Fanged Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2194,7 +2194,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="2da4-61ef-fc55-dd97" name="Mighty Fists and Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2216,7 +2216,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="3bf6-8536-3652-b71c" name="Innard-bursting Bellow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -2238,7 +2238,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="cf10-3458-de84-e5e5" name="Kunnin&apos;" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -2260,7 +2260,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="f6d2-b0ad-42db-1aa7" name="Smasha" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -2411,7 +2411,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="28c0-308e-3a2e-81c8" name="’Eadbutt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2458,7 +2458,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
         </profile>
         <profile id="2e29-6b1c-65d9-a1f5" name="Violent Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly IRONJAWZ 单位 wholly within 15寸 of this model. Until your next 英雄阶段, add 1 to the damage inflicted by attacks made with melee weapons by that 单位. A 单位 cannot benefit from this ability more than once per phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly IRONJAWZ 单位 wholly within 15寸 of this model. Until your next 英雄阶段, add 1 to the damage inflicted by attacks made with 肉搏 武器 by that 单位. A 单位 cannot benefit from this ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2479,7 +2479,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="9f8b-a702-ed19-32a7" name="Gorkstikk and Morkstikk" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2552,7 +2552,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="22df-7d85-c520-7886" name="Boss Choppa and Rip-toof Fist" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2563,7 +2563,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
             </profile>
             <profile id="6b62-7ddb-5eb5-d900" name="Rip-toof Fist" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified save roll for an attack made with a melee weapon that targets a model with a Riptoof-fist is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified save roll for an attack made with a 肉搏 weapon that targets a model with a Riptoof-fist is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2642,7 +2642,7 @@ If the mortal wounds inflicted by this model’s Massively Destructive Bulk mean
           <profiles>
             <profile id="97d6-7406-fdf8-47da" name="Waaagh! Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2735,7 +2735,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
           <profiles>
             <profile id="2c1b-0f16-d5a8-00fe" name="Innard-bursting Bellow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -2757,7 +2757,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
           <profiles>
             <profile id="7a35-baf6-939e-09d2" name="Mighty Fists and Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2819,7 +2819,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f203-f2cc-46a4-389d" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f203-f2cc-46a4-389d" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34c9-11c7-da6d-2c6b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9749-aabe-6e99-ab52" type="max"/>
@@ -2832,7 +2832,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="9d41-89f0-8d50-4568" name="Boss Gore-hacka" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2853,7 +2853,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="eb13-88e2-4094-ab71" name="Boss Choppa and Rip-toof Fist" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2864,7 +2864,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
                 </profile>
                 <profile id="5c8c-d7bb-85a0-126d" name="Rip-toof Fist" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified save roll for an attack made with a melee weapon that targets a model with a Riptoof-fist is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified save roll for an attack made with a 肉搏 weapon that targets a model with a Riptoof-fist is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2940,7 +2940,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="374a-b732-b2dc-e277" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="374a-b732-b2dc-e277" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="804c-a8e0-3b22-4d67" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="484c-d31e-f699-7d5a" type="max"/>
@@ -2953,7 +2953,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="3c33-8085-2fcc-0ac9" name="Pair of Brute Choppas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2974,7 +2974,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="3cbc-3517-1b36-5f88" name="Jagged Gore-hacka" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3003,7 +3003,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="1699-c37e-2f7d-ad42" name="Boss Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3024,7 +3024,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="362a-d7b0-7ee4-cb0b" name="Boss Klaw and Brute Smasha" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3056,7 +3056,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
               <profiles>
                 <profile id="0c06-59a8-e44c-90ac" name="Gore-choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3110,7 +3110,7 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
         </profile>
         <profile id="c004-37bb-fde8-094d" name="Tusks and Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3121,14 +3121,14 @@ If the mortal wounds inflicted by this model’s Destructive Bulk mean there are
         </profile>
         <profile id="9cb1-0d19-1254-3b9e" name="Gore-Grunta Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy 单位 that is within 1寸 of a model from this 单位 after the model from this 单位 finishes a charge move. On a 4+, that enemy 单位 suffers 1 mortal wound. If this 单位 has more than 1 model, roll to determine if mortal wounds are inflicted after each model completes its charge move, but do not allocate the mortal wounds until after all of the models in the 单位 have moved.
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy 单位 that is within 1寸 of a model from this 单位 after the model from this 单位 finishes a charge move. On a 4+, that enemy 单位 suffers 1 mortal wound. If this 单位 has more than 1个模型, roll to determine if mortal wounds are inflicted after each model completes its charge move, but do not allocate the mortal wounds until after all of the models in the 单位 have moved.
 
 In addition, add 1 to hit rolls and wound rolls for attacks made with this 单位’s Jagged Gore-hackas and Tusks and Hooves if this 单位 made a charge move in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="0079-f3d3-1d31-802e" name="Gore-Grunta Boss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Gore-grunta Boss. Add 1 to the Attacks characteristic of that model’s Pig-iron Choppa or Jagged Gore-hacka.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Gore-grunta Boss. Add 1 to the Attacks characteristic of that model’s Pig-iron Choppa or Jagged Gore-hacka.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3158,7 +3158,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b5d6-d70c-93d5-c078" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b5d6-d70c-93d5-c078" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c20-bb18-b581-876a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9983-a329-79fe-a588" type="max"/>
@@ -3171,7 +3171,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
               <profiles>
                 <profile id="f908-ff8c-619e-3ab8" name="Pig-iron Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3192,7 +3192,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
               <profiles>
                 <profile id="be05-ba66-b1a2-7f1c" name="Jagged Gore-hacka" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3258,7 +3258,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
         </profile>
         <profile id="b88f-08ca-2ccc-8b11" name="Ardboy Boss" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be an Ardboy Boss. Add 2 to the Attacks characteristic of that model’s Ardboy Choppas.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be an Ardboy Boss. Add 2 to the Attacks characteristic of that model’s Ardboy Choppas.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3327,7 +3327,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="907e-972e-ba8f-bb32" name="Ardboy Choppas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3439,7 +3439,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
         </profile>
         <profile id="0f65-11d2-f4ef-1d97" name="Green-skinned Battering Ram" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a model from a 单位 in this 阵型 makes a charge move, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 4+, that enemy 单位 suffers 1 mortal wound. If that model’s 单位 has more than 1 model, roll to determine if a mortal wound is inflicted each time a model from that 单位 completes its charge move, but do not allocate the mortal wounds until all of the models in that 单位 have moved.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a model from a 单位 in this 阵型 makes a charge move, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 4+, that enemy 单位 suffers 1 mortal wound. If that model’s 单位 has more than 1个模型, roll to determine if a mortal wound is inflicted each time a model from that 单位 completes its charge move, but do not allocate the mortal wounds until all of the models in that 单位 have moved.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3642,7 +3642,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
       <profiles>
         <profile id="aa95-3993-b9ae-5bf5" name="Big Waaagh!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">The MEGABOSS that leads a BRAWL is able to channel and direct the WAAAGH! energy generated by their WARCHANTERS and WEIRDNOB SHAMANS directly to ther BIG BOSSES. To represent this, if the MEGABOSS of an IRONJAWZ BRAWL is within 10寸 of a WARCHANTER and a WEIRDNOB SHAMAN from the 阵型 in the 英雄阶段, then the MEGABOSS can use the BIG WAAAGH! command ability.  When a MEGABOSS calls a BIG WAAAGH!, all units from the BRAWL that are within 15寸 of the MEGABOSS at the start of the following combat phase make 2 extra attacks with each of their melee weapons. Any units that don&apos;t receive this bonus but which are within 10寸 of a BIG BOSS from the BRAWL make 1 extra attack with each of their melee weapons instead.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">The MEGABOSS that leads a BRAWL is able to channel and direct the WAAAGH! energy generated by their WARCHANTERS and WEIRDNOB SHAMANS directly to ther BIG BOSSES. To represent this, if the MEGABOSS of an IRONJAWZ BRAWL is within 10寸 of a WARCHANTER and a WEIRDNOB SHAMAN from the 阵型 in the 英雄阶段, then the MEGABOSS can use the BIG WAAAGH! command ability.  When a MEGABOSS calls a BIG WAAAGH!, all units from the BRAWL that are within 15寸 of the MEGABOSS at the start of the following combat phase make 2 extra attacks with each of their 肉搏 武器. Any units that don&apos;t receive this bonus but which are within 10寸 of a BIG BOSS from the BRAWL make 1 extra attack with each of their 肉搏 武器 instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3709,7 +3709,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
         </profile>
         <profile id="ff56-8ce1-6ab6-6e22" name="Spirit of the Waaagh!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made by this model if it made a charge move in the same turn.
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made by this model if it made a charge move in the same turn.
 </characteristic>
           </characteristics>
         </profile>
@@ -3800,7 +3800,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="8055-ffff-3197-ade6" name="Boulder Fists" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3822,7 +3822,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="6abf-2ae9-2291-a46c" name="Stompin&apos; Feet" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3952,7 +3952,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="57a5-9b6b-e3cc-3bf6" name="Killa Instinkt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a melee weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a 肉搏 weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4352,7 +4352,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="c232-11ef-e4f7-7a70" name="Armour of Gork" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack made with a melee weapon that targets the bearer is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack made with a 肉搏 weapon that targets the bearer is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4364,7 +4364,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="22c5-a0e4-5eb3-86aa" name="Destroyer" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Once per battle, at the start of the combat phase, you can add 3 to the Damage characteristic of that weapon until the end of that phase</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Once per battle, at the start of the combat phase, you can add 3 to the Damage characteristic of that weapon until the end of that phase</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4400,7 +4400,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="2a61-04a6-6350-4dc7" name="Metalrippa&apos;s Klaw" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Change the Rend characteristic of that weapon to -3 before applying any 其他 modifiers to that weapon’s Rend characteristic.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Change the Rend characteristic of that weapon to -3 before applying any 其他 modifiers to that weapon’s Rend characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4486,7 +4486,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="c01b-415e-d60a-cd20" name="Amberbone Hoard" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Attacks characteristic of melee weapons used by the bearer, and add 1 to save rolls for atatacks that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Attacks characteristic of 肉搏 武器 used by the bearer, and add 1 to save rolls for atatacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4498,7 +4498,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="219c-0355-7d10-8063" name="Shamanic Skullcape" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting rolls for the bearer. In addition, if an enemy 法师 is slain by wounds inflicted by attacks made with the bearer’s melee weapons, you can pick 1 法术 known by the slain 法师. The bearer knows that 法术 for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting rolls for the bearer. In addition, if an enemy 法师 is slain by wounds inflicted by attacks made with the bearer’s 肉搏 武器, you can pick 1 法术 known by the slain 法师. The bearer knows that 法术 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4629,7 +4629,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="3e4c-0906-ea7b-4f41" name="Get &apos;Em Beat" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your charge phase, 1 model that knows this warbeat can use it. If they do so, roll a dice. On a 4+, pick 1 friendly IRONJAWZ 单位 wholly within 12寸 of this WARCHANTER. In that phase, you can attempt to charge with that 单位 if it is within 18寸 of the enemy instead of 12寸. Roll 3D6 instead of 2D6 when making the charge roll for that 单位.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your charge phase, 1个模型 that knows this warbeat can use it. If they do so, roll a dice. On a 4+, pick 1 friendly IRONJAWZ 单位 wholly within 12寸 of this WARCHANTER. In that phase, you can attempt to charge with that 单位 if it is within 18寸 of the enemy instead of 12寸. Roll 3D6 instead of 2D6 when making the charge roll for that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4641,7 +4641,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="522b-73b2-a0d0-362b" name="Fixin&apos; Beat" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In your 英雄阶段, 1 model that knows this warbeat can use it. If they do so, pick 1 friendly model within 12寸 of this WARCHANTER and roll a dice. On a 4+, you can heal up to D3 wounds allocated to that model.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In your 英雄阶段, 1个模型 that knows this warbeat can use it. If they do so, pick 1 friendly model within 12寸 of this WARCHANTER and roll a dice. On a 4+, you can heal up to D3 wounds allocated to that model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4653,7 +4653,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="71f5-4ce7-04dc-d1af" name="Killa Beat" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of the combat phase, 1 model that knows this warbeat can use it. If they do so, pick 1 enemy 单位 within 12寸 of this WARCHANTER and roll a dice. On a 4+, add 1 to hit rolls for attacks made with melee weapons that target that 单位 in that phase.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of the combat phase, 1个模型 that knows this warbeat can use it. If they do so, pick 1 enemy 单位 within 12寸 of this WARCHANTER and roll a dice. On a 4+, add 1 to hit rolls for attacks made with 肉搏 武器 that target that 单位 in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4856,7 +4856,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="b9de-ebfe-de7d-c9c4" name="Maw-krusha Beast Totem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, the bearer can shoot as if they were aremed with an Innard-bursting Bellow from the Megaboss on Maw-krusha warscroll.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, the bearer can shoot as if they were aremed with an Innard-bursting Bellow from the Megaboss on Maw-krusha warscroll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5205,7 +5205,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="e042-20d2-58ae-754c" name="Greatdrake Toof" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. If the unmodified wound roll for an attack made with that weapon is 6, double the damage inflicted by that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. If the unmodified wound roll for an attack made with that weapon is 6, double the damage inflicted by that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5220,7 +5220,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
           <profiles>
             <profile id="1bb9-af87-3170-b83c" name="Weepwood Big Shiv" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Add 1 to the Attacks characteristic of this weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Add 1 to the Attacks characteristic of this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5345,7 +5345,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
     </profile>
     <profile id="a0e5-4c01-9371-34fb" name="War Boar&apos;s Tusks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5366,7 +5366,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
     </profile>
     <profile id="b825-e23d-3dab-a80e" name="Pigstikka Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5382,7 +5382,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
     </profile>
     <profile id="1dfe-9caa-628d-f6ed" name="Orruk-forged Choppas and Smashas " hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5393,7 +5393,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
     </profile>
     <profile id="81b9-bd89-1d52-5375" name="Orruk-forged Big Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5404,7 +5404,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
     </profile>
     <profile id="138b-2a18-ff27-077c" name="Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5428,7 +5428,7 @@ In addition, add 1 to hit rolls and wound rolls for attacks made with this 单�
     <profile id="b40c-04ea-2ffb-0c01" name="Fireball" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster and visible to them. If that enemy 单位 has 1 model, it suffers 1 mortal wound; if it has 2-9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster and visible to them. If that enemy 单位 has 1个模型, it suffers 1 mortal wound; if it has 2-9 models, it suffers D3 mortal wounds; and if it has 10 or more models, it suffers D6 mortal wounds.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

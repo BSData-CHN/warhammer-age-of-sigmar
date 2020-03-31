@@ -64,8 +64,8 @@
                     </profile>
                     <profile id="a8b9-dee6-e142-5dd4" name="Rune of Fury" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">You can re-roll hit rolls of 1 for attacks made by friendly FYRESLAYERS units.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 1 to the Attacks characteristic of melee weapons used by friendly FYRESLAYERS units.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">可以重投命中骰的1 for attacks made by friendly FYRESLAYERS units.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly FYRESLAYERS units.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="1ece-0db0-057e-10e3" name="Rune of Searing Heat" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
@@ -76,7 +76,7 @@
                     </profile>
                     <profile id="9f8d-0e03-1cb5-752d" name="Rune of Awakened Steel" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Improve the Rend characteristic of melee weapons used by friendly FYRESLAYERS units by 1.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Improve the Rend characteristic of 肉搏 武器 used by friendly FYRESLAYERS units by 1.</characteristic>
                         <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Improve the Rend characteristic by a further 1.</characteristic>
                       </characteristics>
                     </profile>
@@ -179,7 +179,7 @@
                         </profile>
                         <profile id="1d06-ea7f-5fd9-11fd" name="Torrent of Magma" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase.  If you do so, pick an enemy 单位 within 12寸 of a friendly LOFNIR PRIEST.  Until the end of that phase, add 1 to hit and wound rolls for attacks made with Magmapikes by friendly units that target that enemy 单位.  The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段.  If you do so, pick an enemy 单位 within 12寸 of a friendly LOFNIR PRIEST.  Until the end of that phase, add 1 to hit and wound rolls for attacks made with Magmapikes by friendly units that target that enemy 单位.  The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -238,7 +238,7 @@
       <profiles>
         <profile id="afd0-613f-c3f8-31c9" name="Karl" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Karl. Add 1 to the Attacks characteristic of that model’s Magmapike missile weapon. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Karl. Add 1 to the Attacks characteristic of that model’s Magmapike 射击武器. </characteristic>
           </characteristics>
         </profile>
         <profile id="716c-e897-3f32-7fba" name="Sworn Protectors" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -287,7 +287,7 @@
           <profiles>
             <profile id="cf10-86c0-e3ae-6b9c" name="Magmapike" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -309,7 +309,7 @@
           <profiles>
             <profile id="078e-f03e-b3b6-e1f0" name="Magmapike (Missile)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -320,7 +320,7 @@
             </profile>
             <profile id="acd8-fee9-bbd0-81ed" name="Molten Rockbolts" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Damage characteristic for attacks made by Magmapike missile weapons that target 怪兽. In addition, if any wounds are inflicted on a 怪兽 by Magmapike missile weapons, roll a dice. On a 4+, until the end of that 单位’s next turn, halve that 单位’s Move characteristic and subtract 1 from hit rolls for attacks made by that 单位. </characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Damage characteristic for attacks made by Magmapike missile 武器 that target 怪兽. In addition, if any wounds are inflicted on a 怪兽 by Magmapike missile 武器, roll a dice. On a 4+, until the end of that 单位’s next turn, halve that 单位’s Move characteristic and subtract 1 from hit rolls for attacks made by that 单位. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -400,7 +400,7 @@
           <profiles>
             <profile id="a36d-52af-5988-ea0c" name="Latchkey Grandaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -505,7 +505,7 @@
         </profile>
         <profile id="db24-b55a-72be-08bd" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a 肉搏 weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="9afd-5078-b947-454b" name="Steadfast Advance" publicationId="e67a-06d2-pubN69594" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -537,7 +537,7 @@
           <profiles>
             <profile id="2ecc-6167-d1a5-6dfe" name="Latchkey Grandaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -559,7 +559,7 @@
           <profiles>
             <profile id="8ff1-89fa-e5d7-1486" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -593,7 +593,7 @@
           <profiles>
             <profile id="f1e4-20bc-d3b1-cb79" name="Blazing Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -637,7 +637,7 @@
           <profiles>
             <profile id="af52-0587-82a9-e950" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
@@ -673,7 +673,7 @@
         </profile>
         <profile id="27bb-8663-5388-a92b" name="Holy Seeker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 enemy 单位 within 12寸 of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, you can re-roll hit rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位 instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 enemy 单位 within 12寸 of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, 可以重投命中骰的1 for attacks made by friendly FYRESLAYERS units that target that 单位. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="8808-2ecd-5150-87d3" name="Volcano&apos;s Call" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -722,7 +722,7 @@
           <profiles>
             <profile id="6632-d36e-b92f-7952" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -756,7 +756,7 @@
           <profiles>
             <profile id="61bc-5516-72ac-c34f" name="Brazier-staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4</characteristic>
@@ -819,7 +819,7 @@
           <profiles>
             <profile id="f851-bb8f-6f26-b6ba" name="Latch-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -847,7 +847,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="46bb-ca56-21c2-e2ad" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="46bb-ca56-21c2-e2ad" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7253-7f3b-bf86-0adb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea4a-3b9f-990e-c343" type="max"/>
@@ -860,7 +860,7 @@
               <profiles>
                 <profile id="ecb6-c4e5-b928-828a" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -972,7 +972,7 @@
         </profile>
         <profile id="a459-f83d-933c-9a94" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a 肉搏 weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="c987-ed04-ae48-a63c" name="Runic Empowerment" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1006,7 +1006,7 @@
           <profiles>
             <profile id="d234-85f5-1b15-25b9" name="Latch-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1028,7 +1028,7 @@
           <profiles>
             <profile id="ed86-65bc-ad99-0119" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1062,7 +1062,7 @@
           <profiles>
             <profile id="cbd1-c90e-a875-838a" name="Blazing Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1084,7 +1084,7 @@
           <profiles>
             <profile id="e36b-7423-531d-a203" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
@@ -1100,7 +1100,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b6b9-3099-f340-28c5" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b6b9-3099-f340-28c5" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c171-1fac-89e9-db2f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c413-3741-97cc-b283" type="max"/>
@@ -1113,7 +1113,7 @@
               <profiles>
                 <profile id="8dea-7831-38e3-4e3e" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1200,7 +1200,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e445-85eb-bd42-eacd" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e445-85eb-bd42-eacd" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="941e-f314-574e-8b97" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1e-1549-1701-e527" type="max"/>
@@ -1213,7 +1213,7 @@
               <profiles>
                 <profile id="c654-a35b-5509-b7da" name="Ancestral War-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1239,7 +1239,7 @@
                 </profile>
                 <profile id="5a83-c9c5-1578-d2e8" name="Wyrmslayer Javelin" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1250,7 +1250,7 @@
                 </profile>
                 <profile id="2a76-169f-0d0a-1046" name="Wyrmslayer Javelin (Missile)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">MIssile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1346,7 +1346,7 @@
         </profile>
         <profile id="b3e4-1d7d-0829-8ee9" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a 肉搏 weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="eff0-6ab0-dd54-c841" name="Vying for Glory" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1379,7 +1379,7 @@
           <profiles>
             <profile id="1f57-86e1-7c7a-59c5" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1413,7 +1413,7 @@
           <profiles>
             <profile id="a660-29d9-8c48-381c" name="Blazing Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1435,7 +1435,7 @@
           <profiles>
             <profile id="6d58-5545-eaf5-0662" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
@@ -1451,7 +1451,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a28a-b759-4cbb-1d4d" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a28a-b759-4cbb-1d4d" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d78-b6eb-c792-2364" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c6e-30e0-794a-9668" type="max"/>
@@ -1464,7 +1464,7 @@
               <profiles>
                 <profile id="d03d-e0cc-6707-e4e0" name="Ancestral War-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1490,7 +1490,7 @@
                 </profile>
                 <profile id="011c-9811-2096-092d" name="Wyrmslayer Javelin" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1501,7 +1501,7 @@
                 </profile>
                 <profile id="9755-b06d-9c80-2e0e" name="Wyrmslayer Javelin (Missile)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">MIssile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1778,7 +1778,7 @@
         </profile>
         <profile id="bf60-2274-0653-395d" name="None Shall Defile the Icon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, friendly FYRESLAYERS units wholly within 12寸 of this model can swear to protect the fallen icon. If a 单位 does so, that 单位 cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with melee weapons by that 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, friendly FYRESLAYERS units wholly within 12寸 of this model can swear to protect the fallen icon. If a 单位 does so, that 单位 cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with 肉搏 武器 by that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1800,7 +1800,7 @@
           <profiles>
             <profile id="2fee-23d6-2498-d227" name="Ancestral Battle-axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1848,12 +1848,12 @@
         </profile>
         <profile id="75e3-6f44-05db-acd1" name="Runic Power" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Damage characteristic of this model’s melee weapons if it has 1 wound allocated to it. Add 2 to the Damage characteristic of this model’s melee weapons instead if it has 2 or more wounds allocated to it. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Damage characteristic of this model’s 肉搏 武器 if it has 1 wound allocated to it. Add 2 to the Damage characteristic of this model’s 肉搏 武器 instead if it has 2 or more wounds allocated to it. </characteristic>
           </characteristics>
         </profile>
         <profile id="52a1-3267-e9f7-24a7" name="Oathbound" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the first battle round, pick 1 enemy 单位 that this model has sworn to destroy. At the end of the combat phase, if this model is within 3寸 of that 单位, this model can make a pile-in move and then attack with all the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the first battle round, pick 1 enemy 单位 that this model has sworn to destroy. At the end of the combat phase, if this model is within 3寸 of that 单位, this model can make a pile-in move and then attack with all the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1874,7 +1874,7 @@
           <profiles>
             <profile id="35ed-a217-0b54-2d8d" name="Doomseeker Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1896,7 +1896,7 @@
           <profiles>
             <profile id="727f-d228-e5b8-4dba" name="Runic Iron" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1947,12 +1947,12 @@
         </profile>
         <profile id="3dc7-6170-1dbd-7dff" name="Dead, But Not Defeated" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, it can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="6704-b7e8-162a-78e7" name="Battle Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3寸 of an enemy 单位, roll a dice. On a 2+ make a pile in move with this model, and then attack with all the melee weapons this model is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3寸 of an enemy 单位, roll a dice. On a 2+ make a pile in move with this model, and then attack with all the 肉搏 武器 this model is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1973,7 +1973,7 @@
           <profiles>
             <profile id="11a0-b3a7-632a-8af6" name="Fyrestorm Greataxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2038,7 +2038,7 @@
         </profile>
         <profile id="b4d3-e357-6625-5947" name="Karl" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Karl. Add 1 to the Attacks characteristic of that model’s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Karl. Add 1 to the Attacks characteristic of that model’s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="d167-8bdf-93bf-6055" name="Duty Unto Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2085,7 +2085,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="36cb-4a02-4fce-304d" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="36cb-4a02-4fce-304d" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d095-e7dc-05e7-d476" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fe2-0a59-850e-346a" type="max"/>
@@ -2098,7 +2098,7 @@
               <profiles>
                 <profile id="0116-3dfd-3598-291c" name="Berzerker Broadaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2119,7 +2119,7 @@
               <profiles>
                 <profile id="d9a2-8842-3e00-21d0" name="Flamestrike Poleaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2157,12 +2157,12 @@
         </profile>
         <profile id="b3e9-725f-8c61-fb56" name="Karl" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Karl. Add 1 to the Attacks characteristic of that model’s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Karl. Add 1 to the Attacks characteristic of that model’s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="2c14-3399-9080-8ea3" name="Berzerk Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of the combat phase, you can choose to unleash this 单位’s berserk fury. If you do so, until the end of that phase, if a model from this 单位 is slain, before that model is removed from play, that model can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of the combat phase, you can choose to unleash this 单位’s berserk fury. If you do so, until the end of that phase, if a model from this 单位 is slain, before that model is removed from play, that model can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="8a9a-0655-0985-925d" name="Horn of Grimnir" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2202,7 +2202,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b7d9-6ca6-0c9d-86aa" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b7d9-6ca6-0c9d-86aa" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="565b-8e1b-9b1e-968e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2337-d2e6-bf93-176f" type="max"/>
@@ -2227,7 +2227,7 @@
               <profiles>
                 <profile id="2188-4ebd-5c51-de44" name="Fyresteel Warpick" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2347,7 +2347,7 @@
           <profiles>
             <profile id="6646-6327-e4d8-6367" name="Latchkey Grandaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2404,7 +2404,7 @@
         </profile>
         <profile id="98d1-77d5-6944-c5b8" name="Berserk Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of the combat phase, you can choose to unleash this 单位’s berserk fury. If you do so, until the end of that phase, if a model from this 单位 is slain, before that model is removed from play, that model can make a pile in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of the combat phase, you can choose to unleash this 单位’s berserk fury. If you do so, until the end of that phase, if a model from this 单位 is slain, before that model is removed from play, that model can make a pile in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="4aa5-4bdb-729d-6411" name="Fyresteel Handaxes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2431,7 +2431,7 @@
           <profiles>
             <profile id="8066-5324-946d-1c34" name="Fyresteel Great Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2453,7 +2453,7 @@
           <profiles>
             <profile id="4336-e44b-38b8-2777" name="Fyresteel Handaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2580,7 +2580,7 @@
         </profile>
         <profile id="2032-4bfd-ad2a-273b" name="Magma Blast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your shooting phase, if there is a friendly FYRESLAYERS PRIEST within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 射击阶段, if there is a friendly FYRESLAYERS PRIEST within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2649,7 +2649,7 @@
       <profiles>
         <profile id="1d7d-20c2-24b2-2e14" name="Mighty Deeds and Blaring Oaths" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by VULKITE BERSERKERS units from this 阵型 while they are wholly within 12寸 of this 阵型&apos;s AURIC RUNESON.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by VULKITE BERSERKERS units from this 阵型 while they are wholly within 12寸 of this 阵型&apos;s AURIC RUNESON.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2754,7 +2754,7 @@
       <profiles>
         <profile id="1354-fd1d-89c2-b418" name="Ancestral Fury" publicationId="9cbd-6717-1de9-c57a" page="42" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can add 1 to hit rolls for attacks made with melee weapons by units from this 阵型.   In addition, if the target is a CHAOS 单位, you can re-roll wound rolls of 1 for melee attacks.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can add 1 to hit rolls for attacks made with 肉搏 武器 by units from this 阵型.   In addition, if the target is a CHAOS 单位, you can re-roll wound rolls of 1 for 肉搏 attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2815,7 +2815,7 @@
         </profile>
         <profile id="5511-d949-c252-3e86" name="Volcanic Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a 肉搏 weapon. On a 4+ the attacking 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="a717-f443-f911-b128" name="Lashing Tail" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2878,7 +2878,7 @@
         </profile>
         <profile id="e4d6-7af9-3b8b-b36b" name="Runefather&apos;s Favour" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly VOSTARG 英雄 within 12寸 of this model, 其他 than this model, and roll a dice.  On a 4+ that 英雄 can immediately pile-in and attack with all of the melee weapons it is armed with.   You cannot pick the same 英雄 to benefit from this ability more than once per 英雄阶段.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly VOSTARG 英雄 within 12寸 of this model, 其他 than this model, and roll a dice.  On a 4+ that 英雄 can immediately pile-in and attack with all of the 肉搏 武器 it is armed with.   You cannot pick the same 英雄 to benefit from this ability more than once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="5b48-3ab0-d6a0-ef4b" name="Bael-Grimnir on Flamespitter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -2918,7 +2918,7 @@
           <profiles>
             <profile id="8b3a-0dec-470e-f925" name="Blazing Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2940,7 +2940,7 @@
           <profiles>
             <profile id="c311-0039-6e81-602a" name="Claws and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2974,7 +2974,7 @@
           <profiles>
             <profile id="cc58-f642-79a4-1389" name="Roaring Fyrestream" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">-</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">-</characteristic>
@@ -2996,7 +2996,7 @@
           <profiles>
             <profile id="f30d-98c9-9df1-f6fd" name="Hrathling" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3007,7 +3007,7 @@
             </profile>
             <profile id="9d65-72ba-fa80-6193" name="Hrathling" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3寸 of this model and roll a dice.  On a 5+, pick one of the melee weapons that model is armed with, the weapon cannot be one used by the model&apos;s mount (if it has one).  Subtract 1 from the hit rolls for attacks made with that weapon for the rest of the battle.  You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3寸 of this model and roll a dice.  On a 5+, pick one of the 肉搏 武器 that model is armed with, the weapon cannot be one used by the model&apos;s mount (if it has one).  Subtract 1 from the hit rolls for attacks made with that weapon for the rest of the battle.  You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3174,7 +3174,7 @@
           <profiles>
             <profile id="409d-d302-45a8-3403" name="Fire-claw Adult" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified wound roll for an attack made with this mount&apos;s melee weapon is 6, that attack has a Rend characteristic of -3.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified wound roll for an attack made with this mount&apos;s 肉搏 weapon is 6, that attack has a Rend characteristic of -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3198,7 +3198,7 @@
           <profiles>
             <profile id="1b43-5a5f-7342-9e35" name="Coal-heart Ancient" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Worsen the Rend characteristic of melee weapons that target this model by 1, to a minimum of 0.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Worsen the Rend characteristic of 肉搏 武器 that target this model by 1, to a minimum of 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3277,7 +3277,7 @@
           <profiles>
             <profile id="8179-16e1-1e64-838d" name="Blood of the Berserker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3寸 of an enemy 单位, they can immediately make a pile in move and then attack with all of the melee weapons they are armed with for a second time.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3寸 of an enemy 单位, they can immediately make a pile in move and then attack with all of the 肉搏 武器 they are armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3301,7 +3301,7 @@
           <profiles>
             <profile id="5fb5-24b3-ebb5-6f2f" name="Destroyer of Foes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this general&apos;s melee weapon.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this general&apos;s 肉搏 weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3380,7 +3380,7 @@
           <profiles>
             <profile id="3002-4e8b-3cc8-106e" name="Fyresteel Weaponsmith" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic of this general&apos;s weapons by 1.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic of this general&apos;s 武器 by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3444,7 +3444,7 @@
           <profiles>
             <profile id="d8af-4afa-e2f9-0b07" name="Draught of Magmalt Ale" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can drink this potion.  If they do so, double the Attacks characteristic of all of the melee weapons they are armed with until the end of that phase.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can drink this potion.  If they do so, double the Attacks characteristic of all of the 肉搏 武器 they are armed with until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3462,7 +3462,7 @@
           <profiles>
             <profile id="8a95-7d23-cc3f-9751" name="Drakeslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, instead of making an attack with the bearer&apos;s Fyresteel Throwing Axe, you can say they are throwing Drakeslayer.  If you do so, pick an enemy 怪兽 within 8寸 of the bearer and roll a dice.  On a 6, that 怪兽 suffers 3D6 mortal wounds.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, instead of making an attack with the bearer&apos;s Fyresteel Throwing Axe, you can say they are throwing Drakeslayer.  If you do so, pick an enemy 怪兽 within 8寸 of the bearer and roll a dice.  On a 6, that 怪兽 suffers 3D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3498,7 +3498,7 @@
           <profiles>
             <profile id="b0f8-13c7-9790-312d" name="Shimmering Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s melee weapons.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s 肉搏 武器.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3553,7 +3553,7 @@
           <profiles>
             <profile id="bdb9-e097-722f-9457" name="Beastslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  If the hit roll for an attack made with that weapon that targets a 怪兽 scores a hit, that attack inflicts 2 hits on the target instead of 1.   Make a wound and save roll for each hit.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  If the hit roll for an attack made with that weapon that targets a 怪兽 scores a hit, that attack inflicts 2 hits on the target instead of 1.   Make a wound and save roll for each hit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3861,7 +3861,7 @@
           <profiles>
             <profile id="97d4-fbcd-a0f0-1727" name="Prayer of Grimnir&apos;s Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of an enemy 单位 and within 12寸 of this PRIEST.   Make a pile-in move with that 英雄, and then attack with all of the melee weapons that 英雄 is armed with.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of an enemy 单位 and within 12寸 of this PRIEST.   Make a pile-in move with that 英雄, and then attack with all of the 肉搏 武器 that 英雄 is armed with.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3942,7 +3942,7 @@
           <profiles>
             <profile id="8136-1537-d00a-d541" name="Battle-scarred Veteran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s melee weapons while there are 5 or more enemy models within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s 肉搏 武器 while there are 5 or more enemy models within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4033,7 +4033,7 @@
           <profiles>
             <profile id="cc41-d7f3-aaf8-15b8" name="Voxaxe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s melee weapons.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s 肉搏 武器.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4095,7 +4095,7 @@
           <profiles>
             <profile id="d4e2-e60f-e094-4b56" name="Tyrant Slayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s melee weapons.  You can re-roll wound rolls for attacks made with that weapon that target an enemy 英雄.  In addition, if the unmodified hit roll for an attack made with that weapon that targets an enemy 英雄 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  You can re-roll wound rolls for attacks made with that weapon that target an enemy 英雄.  In addition, if the unmodified hit roll for an attack made with that weapon that targets an enemy 英雄 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4153,7 +4153,7 @@
   <sharedProfiles>
     <profile id="cc01-4fcb-b49f-d334" name="Fyresteel Throwing Axe (英雄)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -4164,7 +4164,7 @@
     </profile>
     <profile id="7945-4fd8-4ae8-cd11" name="Fyresteel Throwing Axe (单位)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -4180,7 +4180,7 @@
     </profile>
     <profile id="93a8-deea-2073-d9a2" name="Weapon-breaker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3寸 of this model and roll a dice. On a 6, pick one of the melee weapons that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, pick an enemy 英雄 within 3寸 of this model and roll a dice. On a 6, pick one of the 肉搏 武器 that model is armed with. Subtract 1 from hit rolls for attacks made with that weapon for the rest of the battle. You cannot pick the same weapon to be affected by this ability more than once per battle.</characteristic>
       </characteristics>
     </profile>
     <profile id="bce0-112a-991d-00f4" name="Lodge 领袖" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -4190,7 +4190,7 @@
     </profile>
     <profile id="d9f9-9d7b-c429-2056" name="Fyresteel Handaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4201,7 +4201,7 @@
     </profile>
     <profile id="8f44-b010-1b84-4b6d" name="Bladed Slingshields" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a 单位 armed with Bladed Slingshields makes a charge move, pick 1 enemy 单位 and roll a dice for each model from the charging 单位 within 8寸 of that enemy 单位. For each 6, the enemy 单位 suffers 1 mortal wound. In addition, add 1 to save rolls for attacks made with melee weapons that target a 单位 armed with Bladed Slingshields if the target 单位 did not make a charge move in the same turn.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a 单位 armed with Bladed Slingshields makes a charge move, pick 1 enemy 单位 and roll a dice for each model from the charging 单位 within 8寸 of that enemy 单位. For each 6, the enemy 单位 suffers 1 mortal wound. In addition, add 1 to save rolls for attacks made with 肉搏 武器 that target a 单位 armed with Bladed Slingshields if the target 单位 did not make a charge move in the same turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

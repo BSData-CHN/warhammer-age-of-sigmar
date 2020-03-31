@@ -265,7 +265,7 @@
                       <profiles>
                         <profile id="ad7b-6563-ff1a-10b9" name="Propagator of Devolution" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN 单位 wholly within 12寸 of a friendly GAVESPAWN CHAOS SPAWN. Add 1 to the Attacks characteristic of that 单位’s melee weapons until the end of that phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN 单位 wholly within 12寸 of a friendly GAVESPAWN CHAOS SPAWN. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 until the end of that phase.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="2df4-e0c5-3e64-d8b7" name="Gift of Morghur" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -353,12 +353,12 @@
           <profiles>
             <profile id="edae-d18a-d07e-32a8" name="Dual Axes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made with Paired Man-ripper Axes.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made with Paired Man-ripper Axes.</characteristic>
               </characteristics>
             </profile>
             <profile id="0a2c-6b22-d868-f99e" name="Paired Man-ripper Axes" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -460,7 +460,7 @@
           <profiles>
             <profile id="2bf2-1070-ac4f-9588" name="Fetish Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -549,7 +549,7 @@
       <profiles>
         <profile id="2ea1-4b70-b858-7a52" name="Anarchy and Mayhem" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s melee weapons while it has 20 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s 肉搏 武器 while it has 20 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="1df8-58f2-a809-b1f3" name="Gor" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -592,7 +592,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3abd-84b4-7ded-ad26" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3abd-84b4-7ded-ad26" name="武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f7-2997-6301-e874" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a29e-068b-4ee5-5813" type="min"/>
@@ -602,12 +602,12 @@
               <profiles>
                 <profile id="9ebf-c260-eb70-f39f" name="Rend and Tear" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made with a pair of Gor Blades.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made with a pair of Gor Blades.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8555-f867-a2b2-358d" name="Gor Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -625,12 +625,12 @@
               <profiles>
                 <profile id="bce8-c3b8-0711-d746" name="Beastshields" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with melee weapons that target a 单位 with Beastshields.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with 肉搏 武器 that target a 单位 with Beastshields.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="3a01-2c28-54bf-e9c5" name="Gor Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -667,12 +667,12 @@
         </profile>
         <profile id="3be1-7586-27e1-4c98" name="Half-shields" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with melee weapons that target this 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with 肉搏 武器 that target this 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="0603-70eb-c3f0-7994" name="Baying Hatred" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made by this 单位 while it has 20 or more models, or re-roll hit rolls of 1 and 2 for attacks made by this 单位 while it has 30 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made by this 单位 while it has 20 or more models, or re-roll hit rolls of 1 and 2 for attacks made by this 单位 while it has 30 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="66e8-3a6a-c3e5-7d05" name="Halfhorn" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -707,7 +707,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="34cb-05a9-9193-343c" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="34cb-05a9-9193-343c" name="武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87e-b06e-d5e8-e74d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c46b-700c-ef2e-63bc" type="min"/>
@@ -717,7 +717,7 @@
               <profiles>
                 <profile id="91e5-f18e-46d0-696c" name="Ungor Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -735,7 +735,7 @@
               <profiles>
                 <profile id="7175-4b47-e8e2-ce4e" name="Gnarled Shortspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -772,7 +772,7 @@
         </profile>
         <profile id="a3ef-0c1c-f381-dd01" name="Baying Anger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for Ungor Raiders in the shooting phase if the 单位 has 20 or more models, or re-roll hit rolls of 1 and 2 if it has 30 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for Ungor Raiders in the 射击阶段 if the 单位 has 20 or more models, or re-roll hit rolls of 1 and 2 if it has 30 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="bda8-4e36-3ad3-6fc8" name="Vile Invaders" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -811,7 +811,7 @@
           <profiles>
             <profile id="6110-8d0b-4996-189d" name="Raider Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -833,7 +833,7 @@
           <profiles>
             <profile id="5c37-db93-9163-80ba" name="Ungor Dagger" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -906,12 +906,12 @@
         </profile>
         <profile id="e6f5-c234-4a55-48c3" name="Despoilers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by this 单位 that target enemy units with 10 or more models. In addition, you can re-roll hit rolls of 1 for attacks by this 单位 that target ORDER units. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by this 单位 that target enemy units with 10 or more models. In addition, 可以重投命中骰的1 for attacks by this 单位 that target ORDER units. </characteristic>
           </characteristics>
         </profile>
         <profile id="5d22-7415-972c-02c5" name="Bestial Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s melee weapons in a turn in which it made a charge move.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s 肉搏 武器 in a turn in which it made a charge move.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -948,7 +948,7 @@
           <profiles>
             <profile id="a0e3-3d13-0e2a-354a" name="Despoiler Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -975,7 +975,7 @@
       <profiles>
         <profile id="27b9-38c5-c848-9dae" name="Tuskgor Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll charge rolls for this 单位. In addition, add 1 to the Attacks characteristic of this 单位&apos;s melee weapons in a turn in which it made a charge move.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll charge rolls for this 单位. In addition, add 1 to the Attacks characteristic of this 单位&apos;s 肉搏 武器 in a turn in which it made a charge move.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1002,7 +1002,7 @@
           <profiles>
             <profile id="0d50-d947-90b9-208c" name="Despoiler Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1013,7 +1013,7 @@
             </profile>
             <profile id="798b-d82e-665a-05bf" name="Gnarled Shortspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1024,7 +1024,7 @@
             </profile>
             <profile id="462e-3012-fcea-37e9" name="Tusks and Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1043,7 +1043,7 @@
             </profile>
             <profile id="2dc1-708e-b27a-a324" name="Despoilers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a Despoiler Axe that target enemy units with 10 or more models. In addition, you can re-roll hit rolls of 1 for attacks made with a Despoiler Axe that target ORDER units.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a Despoiler Axe that target enemy units with 10 or more models. In addition, 可以重投命中骰的1 for attacks made with a Despoiler Axe that target ORDER units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1094,7 +1094,7 @@
           <profiles>
             <profile id="cb9d-2de2-be44-0b17" name="Slaughterer&apos;s Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1116,7 +1116,7 @@
           <profiles>
             <profile id="0176-50df-1fb1-1ea7" name="Bullgor Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1248,7 +1248,7 @@
           <profiles>
             <profile id="065a-c36c-9feb-2517" name="Desecrated Boulder" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">*</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1270,7 +1270,7 @@
           <profiles>
             <profile id="0a65-cb1d-e00b-2444" name="Massive Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1375,7 +1375,7 @@
           <profiles>
             <profile id="871c-1894-6e77-a48a" name="Butchering Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1397,7 +1397,7 @@
           <profiles>
             <profile id="ec7a-475a-05bc-926a" name="Huge Slavering Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1454,7 +1454,7 @@
             </profile>
             <profile id="cda5-4b86-6ef4-5400" name="Slavering Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1490,7 +1490,7 @@
         </profile>
         <profile id="f859-a05a-8414-3c5a" name="Spurting Bile Blood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a melee weapon. On a 4+ the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a wound is allocated to this model that was inflicted by a 肉搏 weapon. On a 4+ the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1513,7 +1513,7 @@
           <profiles>
             <profile id="4121-47a0-3e6c-95a7" name="Slythey Tongue" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1535,7 +1535,7 @@
           <profiles>
             <profile id="c69e-170a-35e8-23f8" name="Vorpal Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1557,7 +1557,7 @@
           <profiles>
             <profile id="72df-13e8-e792-7094" name="Spiked Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1612,7 +1612,7 @@
           <profiles>
             <profile id="7bfc-99e9-460d-e21e" name="Petrifying Gaze" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
@@ -1639,7 +1639,7 @@
           <profiles>
             <profile id="1ddd-a3d2-cb94-9cbc" name="Vicious Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1661,7 +1661,7 @@
           <profiles>
             <profile id="9a43-7771-3242-8678" name="Sword-like Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1718,7 +1718,7 @@
               <profiles>
                 <profile id="c883-9c9b-7e79-6066" name="Freakish Mutations" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1780,7 +1780,7 @@
           <profiles>
             <profile id="c97c-6791-c571-03f3" name="Draconic Head&apos;s Fiery Breath" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">14寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
@@ -1807,7 +1807,7 @@
           <profiles>
             <profile id="c601-30c1-6dfc-ddb9" name="Avian Head" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1829,7 +1829,7 @@
           <profiles>
             <profile id="a968-fd17-3401-1bb0" name="Draconic Head" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1851,7 +1851,7 @@
           <profiles>
             <profile id="2af3-3583-bdd8-40bd" name="Leonine Head" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1873,7 +1873,7 @@
           <profiles>
             <profile id="507e-9b8f-50f6-e142" name="Mauling Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2000,7 +2000,7 @@
         </profile>
         <profile id="62c6-7f43-7b76-6213" name="Whipped into a Frenzy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, if this model is within 3寸 of any friendly BEASTS OF CHAOS HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s melee weapons until the end of that phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, if this model is within 3寸 of any friendly BEASTS OF CHAOS HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s 肉搏 武器 until the end of that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2021,7 +2021,7 @@
           <profiles>
             <profile id="0db5-f41c-5af3-6710" name="Massive Club" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2043,7 +2043,7 @@
           <profiles>
             <profile id="e7df-c719-0d74-0204" name="Mighty Kick" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2065,7 +2065,7 @@
           <profiles>
             <profile id="1650-6b10-29fc-eed0" name="Vicious &apos;Eadbutt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2141,7 +2141,7 @@
           <profiles>
             <profile id="5511-e396-185e-dd81" name="Warherd Banner Bearer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3 models in this 单位 can be a Warherd Banner Bearer. Add 1 to the Bravery characteristic of a 单位 that includes any Warherd Banner Bearers for each enemy 单位 within 12寸 of that 单位.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3个模型 in this 单位 can be a Warherd Banner Bearer. Add 1 to the Bravery characteristic of a 单位 that includes any Warherd Banner Bearers for each enemy 单位 within 12寸 of that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2156,7 +2156,7 @@
           <profiles>
             <profile id="d781-fcf8-b69d-1bd0" name="Warherd Drummer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3 models in this 单位 can be a Warherd Drummer. Add 1 to charge rolls for a 单位 that includes any Warherd Drummers</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3个模型 in this 单位 can be a Warherd Drummer. Add 1 to charge rolls for a 单位 that includes any Warherd Drummers</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2172,7 +2172,7 @@
           <profiles>
             <profile id="e0b1-d5a9-d6d5-d7e1" name="Bullgor Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2201,12 +2201,12 @@
               <profiles>
                 <profile id="c6a3-78f0-460b-6102" name="Bullshields" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with melee weapons that target a 单位 with Bullshields</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with 肉搏 武器 that target a 单位 with Bullshields</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="879a-a722-2e8e-538f" name="Bullgor Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2227,12 +2227,12 @@
               <profiles>
                 <profile id="0da6-80cc-6267-a8c8" name="Dual Axes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made with a pair of Bullgor Axes</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made with a pair of Bullgor Axes</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c0d9-e876-0c73-2519" name="Bullgor Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2253,7 +2253,7 @@
               <profiles>
                 <profile id="2397-97fe-968c-3cb4" name="Bullgor Great Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2316,7 +2316,7 @@
           <profiles>
             <profile id="5cff-fd7b-466a-cfd8" name="Storm-wrought Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2338,7 +2338,7 @@
           <profiles>
             <profile id="e992-6600-7de6-37fb" name="Sweeping Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2360,7 +2360,7 @@
           <profiles>
             <profile id="1779-cee7-815a-699c" name="Taloned Forelimbs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2432,7 +2432,7 @@
         </profile>
         <profile id="eda8-e66e-2090-f766" name="Storm Rage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for this 单位 while it is wholly within 12寸 of a friendly DRAGON OGOR SHAGGOTH.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for this 单位 while it is wholly within 12寸 of a friendly DRAGON OGOR SHAGGOTH.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2461,7 +2461,7 @@
           <profiles>
             <profile id="432b-7d4b-32ed-30e5" name="Wracking Foreclaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2483,14 +2483,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3c-f493-a5f5-bdfe" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3665-17d5-7931-295c" name="Pair of Ancient Weapons" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3665-17d5-7931-295c" name="Pair of Ancient 武器" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fa-7aca-7580-0851" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9fb9-a87c-1752-b543" name="Ancient Weapons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="9fb9-a87c-1752-b543" name="Ancient 武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2511,7 +2511,7 @@
               <profiles>
                 <profile id="dc88-6280-f3cb-6024" name="Draconic War-glaives" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2532,7 +2532,7 @@
               <profiles>
                 <profile id="0079-e0e7-9ecf-2818" name="Draconic Crusher" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2570,7 +2570,7 @@
         </profile>
         <profile id="7dd5-f32f-c7e6-7791" name="Beastbucklers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with melee weapons that target a 单位 with Beastbucklers.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks made with 肉搏 武器 that target a 单位 with Beastbucklers.</characteristic>
           </characteristics>
         </profile>
         <profile id="3f5d-2942-09cc-14ba" name="Drunken Courage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2603,7 +2603,7 @@
           <profiles>
             <profile id="34ea-1dd8-da94-0085" name="Centigor Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2630,7 +2630,7 @@
           <profiles>
             <profile id="6f51-9cb7-d05a-f8cf" name="Clawed Forelimbs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -2710,7 +2710,7 @@
             </profile>
             <profile id="315e-973a-541b-b888" name="Large Tusks and Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2786,7 +2786,7 @@
           <profiles>
             <profile id="0dbf-da51-bb2a-362c" name="Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2808,7 +2808,7 @@
           <profiles>
             <profile id="dbc3-26be-ce49-b241" name="Vicious Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2830,7 +2830,7 @@
           <profiles>
             <profile id="57df-1e9b-e5b2-729e" name="Arrow of Fate" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2852,7 +2852,7 @@
           <profiles>
             <profile id="d6d9-297d-6965-887d" name="Bow Stave" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -2933,7 +2933,7 @@
           <profiles>
             <profile id="019a-e4fc-8b72-4f7f" name="Ritual Dagger" publicationId="c9b2-1fe6-pubN83353" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2955,7 +2955,7 @@
           <profiles>
             <profile id="8e19-8922-5dda-b2a1" name="Staff of Change" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2977,7 +2977,7 @@
           <profiles>
             <profile id="b3b3-98af-260e-9896" name="Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3079,7 +3079,7 @@
           <profiles>
             <profile id="af25-dc35-a571-22fc" name="Tzeenchian Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3101,7 +3101,7 @@
           <profiles>
             <profile id="b8cf-6396-4b4e-a0ea" name="Vicious Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3143,12 +3143,12 @@
       <profiles>
         <profile id="c920-3ea2-789b-d815" name="Destined Mayhem" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made by this 单位 with melee weapons while this 单位 is wholly within 12寸 of any friendly ARCANITE HEROES.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made by this 单位 with 肉搏 武器 while this 单位 is wholly within 12寸 of any friendly ARCANITE HEROES.</characteristic>
           </characteristics>
         </profile>
         <profile id="f525-190a-e17c-c5d7" name="Savagery Unleashed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位’s melee weapons while it has 9 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位’s 肉搏 武器 while it has 9 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="7485-b8e2-3492-7381" name="Tzaangors" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -3161,7 +3161,7 @@
         </profile>
         <profile id="f7a6-3074-8622-222c" name="Twistbray" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Twistbray. Add 1 to hit rolls for attacks made with that model’s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Twistbray. Add 1 to hit rolls for attacks made with that model’s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3205,7 +3205,7 @@
           <profiles>
             <profile id="9914-5eb7-225a-3e67" name="Vicious Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3279,7 +3279,7 @@
           <profiles>
             <profile id="c7e0-7b43-2488-b48f" name="Savage Greatblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3310,7 +3310,7 @@
                 </profile>
                 <profile id="359c-db5c-5e0c-7186" name="Savage Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3333,7 +3333,7 @@
                 </profile>
                 <profile id="4f21-bd18-9ecb-7923" name="Savage Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3708,7 +3708,7 @@
       <profiles>
         <profile id="a7fb-f8ee-9a4c-ebdb" name="Covetous Fury" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll failed charge rolls made for units from this 阵型 while they are within 12寸 of an enemy 英雄 with an artefact of power. In addition, you can re-roll hit rolls for attacks made with melee weapons by models from this 阵型 that target an enemy 英雄 with an artefact of power.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll failed charge rolls made for units from this 阵型 while they are within 12寸 of an enemy 英雄 with an artefact of power. In addition, you can re-roll hit rolls for attacks made with 肉搏 武器 by models from this 阵型 that target an enemy 英雄 with an artefact of power.</characteristic>
           </characteristics>
         </profile>
         <profile id="39c8-63a0-b56c-b6cb" name="Marked by the Decadent Fiend" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -3831,7 +3831,7 @@
       <profiles>
         <profile id="36b6-6c7d-0b58-83b1" name="Martial Ferocity" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls of 1 for attacks made by units from this 阵型 while they are wholly within 9寸 of another 单位 from the same 阵型. In addition, once per battle, in your 英雄阶段, you can choose to unleash this 阵型’s bestial rage. If you do so, until your next 英雄阶段 you can re-roll failed wound rolls for attacks made by units from this 阵型 while they are wholly within 9寸 of another 单位 from the same 阵型</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">可以重投命中骰的1 for attacks made by units from this 阵型 while they are wholly within 9寸 of another 单位 from the same 阵型. In addition, once per battle, in your 英雄阶段, you can choose to unleash this 阵型’s bestial rage. If you do so, until your next 英雄阶段 you can re-roll failed wound rolls for attacks made by units from this 阵型 while they are wholly within 9寸 of another 单位 from the same 阵型</characteristic>
           </characteristics>
         </profile>
         <profile id="505e-2a29-f79a-706a" name="Followers of the Brass Bull" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -4491,7 +4491,7 @@
           <profiles>
             <profile id="d5ca-6d95-a541-a111" name="Tzeenchian Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4513,7 +4513,7 @@
           <profiles>
             <profile id="a70b-c4ce-c252-70c9" name="Vicious Beak" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4535,7 +4535,7 @@
           <profiles>
             <profile id="140c-aa99-6e17-03b1" name="Teeth and Horns" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4606,7 +4606,7 @@
             <profile id="936f-c64c-8018-bbfb" name="Savage Bolt" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, until the end of your next combat phase, add 1 to hit rolls for attacks made with melee weapons that target that 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. In addition, until the end of your next combat phase, add 1 to hit rolls for attacks made with 肉搏 武器 that target that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4622,7 +4622,7 @@
           <profiles>
             <profile id="8ddd-b379-9db7-5cc6" name="Obsidian Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4727,7 +4727,7 @@
           <profiles>
             <profile id="8e85-745e-bc10-8c9c" name="Shortbow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4749,7 +4749,7 @@
           <profiles>
             <profile id="a380-36d6-c2b0-0ccc" name="Ripper Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4771,7 +4771,7 @@
           <profiles>
             <profile id="36a3-6e4d-efbe-15ac" name="Flint Weapon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -4793,7 +4793,7 @@
           <profiles>
             <profile id="ac86-04e0-c8eb-6f41" name="Shortspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -4899,7 +4899,7 @@
         <entryLink id="357c-fabb-415f-8cc7" name="Artefacts: Daemonic Powers" hidden="false" collective="false" import="true" targetId="d337-deac-ccd8-677b" type="selectionEntryGroup"/>
         <entryLink id="aa87-f90d-5a7f-8d6a" name="Artefacts: Change Coven" hidden="false" collective="false" import="true" targetId="e35c-e49d-2410-ea1d" type="selectionEntryGroup"/>
         <entryLink id="8adc-462f-b182-2166" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
-        <entryLink id="d637-bd4c-84bb-4eba" name="Artefacts: Daemonic Weapons" hidden="false" collective="false" import="true" targetId="a688-9cf0-b48e-bb85" type="selectionEntryGroup"/>
+        <entryLink id="d637-bd4c-84bb-4eba" name="Artefacts: Daemonic 武器" hidden="false" collective="false" import="true" targetId="a688-9cf0-b48e-bb85" type="selectionEntryGroup"/>
         <entryLink id="f08f-8587-7b14-c5b2" name="Artefacts: Wrath of the Everchosen" hidden="false" collective="false" import="true" targetId="002d-5827-c449-3647" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -5300,7 +5300,7 @@
           <profiles>
             <profile id="8ce7-5271-cdfd-cd00" name="Cleaver of the Brass Bull" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Improve that weapon’s Rend characteristic by 1. In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve that weapon’s Rend characteristic by 1. In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5379,7 +5379,7 @@
           <profiles>
             <profile id="cac2-ecde-5d92-4f5c" name="Ancestral Azyrite Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Improve that weapon’s Rend characteristic by 2.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve that weapon’s Rend characteristic by 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5482,7 +5482,7 @@
           <profiles>
             <profile id="fc01-3292-2b0d-9ac1" name="Volcanic Axe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Add 1 to that weapon’s Damage characteristic. In addition, each time you make an unmodified hit roll of 6 for an attack made with that weapon, the target suffers 1 mortal wound after all of the bearer’s attacks have been resolved.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Add 1 to that weapon’s Damage characteristic. In addition, each time you make an unmodified hit roll of 6 for an attack made with that weapon, the target suffers 1 mortal wound after all of the bearer’s attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5602,7 +5602,7 @@
             <profile id="d851-6235-6594-c7bf" name="Wild Rampage" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, you can re-roll failed wound rolls for attacks with melee weapons made by this 单位. However, subtract 1 from save rolls for attacks that target this 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, you can re-roll failed wound rolls for attacks with 肉搏 武器 made by this 单位. However, subtract 1 from save rolls for attacks that target this 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5615,7 +5615,7 @@
             <profile id="648b-7797-8e34-c355" name="Titanic Fury" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly BEASTS OF CHAOS 怪兽 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, add 1 to the Attacks characteristic of that 怪兽’s melee weapons.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly BEASTS OF CHAOS 怪兽 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, add 1 to the Attacks characteristic of that 怪兽’s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5647,7 +5647,7 @@
             <profile id="189c-c35d-88da-1644" name="Sundering Blades" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 wholly within 18寸 of the caster that is visible to them. Until your next 英雄阶段, improve the Rend characteristic of that 单位’s melee weapons by 1.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 wholly within 18寸 of the caster that is visible to them. Until your next 英雄阶段, improve the Rend characteristic of that 单位’s 肉搏 武器 by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5825,7 +5825,7 @@
           <profiles>
             <profile id="74a0-cc5d-76bf-57db" name="Blade of the Desecrator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. Improve the Rend characteristic of that weapon by 1 for attacks that target a 单位 of 10 or more models. Improve the Rend characteristic of that weapon by 2 instead for attacks that target a 单位 of 20 or more models. Attacks made by this weapon cannot have a Rend characteristic greater than -3.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1 for attacks that target a 单位 of 10 or more models. Improve the Rend characteristic of that weapon by 2 instead for attacks that target a 单位 of 20 or more models. Attacks made by this weapon cannot have a Rend characteristic greater than -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5881,7 +5881,7 @@
           <profiles>
             <profile id="f2da-e752-a120-1575" name="Mutating Gnarlblade" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Pick one of the bearer’s melee weapons. Add 2 to the Damage characteristic of that weapon. However, each unmodified hit roll of 1 for attacks made with that weapon inflicts 1 mortal wound upon the bearer after all of the bearer’s attacks have been made.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Pick one of the bearer’s 肉搏 武器. Add 2 to the Damage characteristic of that weapon. However, each unmodified hit roll of 1 for attacks made with that weapon inflicts 1 mortal wound upon the bearer after all of the bearer’s attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5914,7 +5914,7 @@
   <sharedProfiles>
     <profile id="c29e-5df7-f312-8e74" name="Man-ripper Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>

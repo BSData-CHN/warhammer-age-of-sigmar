@@ -232,7 +232,7 @@
           <profiles>
             <profile id="9da2-ec47-b2ab-39d1" name="Silverwood Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -284,12 +284,12 @@
         </profile>
         <profile id="13d1-2791-f685-055f" name="Crewed 战争机械" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Highborn Repeater Bolt Thrower can only move if its CREW are within 1寸 at the start of the movement phase. If its Crew are within 1寸 of the Highborn Repeater Bolt Thrower in the shooting phase, they can fire the 战争机械. The Highborn Repeater Bolt Thrower cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Highborn Repeater Bolt Thrower can only move if its CREW are within 1寸 at the start of the movement phase. If its Crew are within 1寸 of the Highborn Repeater Bolt Thrower in the 射击阶段, they can fire the 战争机械. The Highborn Repeater Bolt Thrower cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="b121-0cfb-a3ae-6c04" name="Crew0" hidden="false" typeId="6225-ea79-ad10-453c" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Crew Within 1寸" typeId="2948-8afa-a72b-8b39">2 models</characteristic>
+            <characteristic name="Crew Within 1寸" typeId="2948-8afa-a72b-8b39">2个模型</characteristic>
             <characteristic name="移动力" typeId="bd63-20a2-2fc7-7598">4寸</characteristic>
             <characteristic name="Ithilmar Bolt" typeId="f573-f0d3-4418-df2f">2</characteristic>
             <characteristic name="Repeating Bolts" typeId="589b-66ce-6bf4-e702">12</characteristic>
@@ -297,7 +297,7 @@
         </profile>
         <profile id="5f22-3a73-0949-0ec0" name="Crew1" hidden="false" typeId="6225-ea79-ad10-453c" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Crew Within 1寸" typeId="2948-8afa-a72b-8b39">1 model</characteristic>
+            <characteristic name="Crew Within 1寸" typeId="2948-8afa-a72b-8b39">1个模型</characteristic>
             <characteristic name="移动力" typeId="bd63-20a2-2fc7-7598">2寸</characteristic>
             <characteristic name="Ithilmar Bolt" typeId="f573-f0d3-4418-df2f">1</characteristic>
             <characteristic name="Repeating Bolts" typeId="589b-66ce-6bf4-e702">6</characteristic>
@@ -305,7 +305,7 @@
         </profile>
         <profile id="60ab-3179-41d1-2362" name="Crew2" hidden="false" typeId="6225-ea79-ad10-453c" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Crew Within 1寸" typeId="2948-8afa-a72b-8b39">No models</characteristic>
+            <characteristic name="Crew Within 1寸" typeId="2948-8afa-a72b-8b39">没有模型</characteristic>
             <characteristic name="移动力" typeId="bd63-20a2-2fc7-7598">0寸</characteristic>
             <characteristic name="Ithilmar Bolt" typeId="f573-f0d3-4418-df2f">0</characteristic>
             <characteristic name="Repeating Bolts" typeId="589b-66ce-6bf4-e702">0</characteristic>
@@ -329,7 +329,7 @@
           <profiles>
             <profile id="860c-734f-4123-1176" name="Ithilmar Bolt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">36寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -351,7 +351,7 @@
           <profiles>
             <profile id="cc79-8dca-de47-012d" name="Repeating Bolts" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">36寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -373,7 +373,7 @@
           <profiles>
             <profile id="48e1-4019-ff3e-1e8a" name="Ithilmar Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -421,7 +421,7 @@
         </profile>
         <profile id="8b4b-be15-ab49-fe02" name="Lance Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for this 单位’s Ithilmar Lances and Swords and increase the Damage characteristic of the weapons by 1 if it made a charge move in the same turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for this 单位’s Ithilmar Lances and Swords and increase the Damage characteristic of the 武器 by 1 if it made a charge move in the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -443,7 +443,7 @@
           <profiles>
             <profile id="55ba-2dd6-2333-48b0" name="Ithilmar Lance and Sword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -465,7 +465,7 @@
           <profiles>
             <profile id="1569-dfae-1f21-e543" name="Aelven Purebreed&apos;s Swift Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -534,7 +534,7 @@
           <profiles>
             <profile id="f6ca-9d60-e9df-1038" name="Zephyr Trident" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -556,7 +556,7 @@
           <profiles>
             <profile id="cc1e-2f75-6a70-cdfb" name="Ithilmar Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -645,7 +645,7 @@
           <profiles>
             <profile id="b60a-3abf-e7e1-f8f6" name="Beak and Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -697,17 +697,17 @@
         </profile>
         <profile id="8866-b642-0bb8-5f7b" name="Hawkeye" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The 领袖 of this 单位 is a Hawkeye. Add 1 to hit rolls for a Hawkeye in the shooting phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The 领袖 of this 单位 is a Hawkeye. Add 1 to hit rolls for a Hawkeye in the 射击阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="c5f4-51b0-7983-1984" name="Aelven Archery" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for this 单位 in the shooting phase while it has 20 or more models and there are no enemy models within 3寸 of it.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for this 单位 in the 射击阶段 while it has 20 or more models and there are no enemy models within 3寸 of it.</characteristic>
           </characteristics>
         </profile>
         <profile id="b2a6-c7f0-f89f-3692" name="Storm of Arrows" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, you can declare that this 单位 will fire a Storm of Arrows in their shooting phase; when you do so, add 1 to the Attacks characteristic of their Silverwood Longbows. This 单位 cannot fire a Storm of Arrows if there are any enemy models within 3寸 of it.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, you can declare that this 单位 will fire a Storm of Arrows in their 射击阶段; when you do so, add 1 to the Attacks characteristic of their Silverwood Longbows. This 单位 cannot fire a Storm of Arrows if there are any enemy models within 3寸 of it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -726,7 +726,7 @@
           <profiles>
             <profile id="2ab4-f2e8-aae4-44c5" name="Silverwood Longbow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">20寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -735,9 +735,9 @@
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
             </profile>
-            <profile id="a09c-0fc3-5a82-23ab" name="Silverwood Longbow (Melee)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="a09c-0fc3-5a82-23ab" name="Silverwood Longbow (肉搏)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -815,7 +815,7 @@
   <sharedProfiles>
     <profile id="ba38-3ec6-d6fc-c83a" name="Aelven Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll save rolls of 1 for a 单位 with Aelven Shields. In the shooting phase, re-roll failed save rolls of 1 or 2 instead.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll save rolls of 1 for a 单位 with Aelven Shields. In the 射击阶段, re-roll failed save rolls of 1 or 2 instead.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -138,7 +138,7 @@
           <profiles>
             <profile id="7468-ed36-15a1-44c7" name="Battlemage&apos;s Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -160,7 +160,7 @@
           <profiles>
             <profile id="b355-26b5-d406-b52e" name="Pegasus&apos; Iron-hard Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -204,12 +204,12 @@
         </profile>
         <profile id="1a2a-107c-6408-27ce" name="Crewed 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Greatcannon can only move if its CREW are within 1寸 at the start of the movement phase. If its CREW are within 1寸 of the cannon in the shooting phase, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Greatcannon can only move if its CREW are within 1寸 at the start of the movement phase. If its CREW are within 1寸 of the cannon in the 射击阶段, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="cdef-7fd8-49ee-562e" name="Grapeshot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of firing a Cannon Ball using the profile in the shooting phase, the Crew can load their 战争机械 with grapeshot; if they do, then select a target that is visible to the Greatcannon. Roll one dice for each model in the target 单位 that is within 10寸 of the Greatcannon; for each roll of a 6, that 单位 suffers a mortal wound.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of firing a Cannon Ball using the profile in the 射击阶段, the Crew can load their 战争机械 with grapeshot; if they do, then select a target that is visible to the Greatcannon. Roll one dice for each model in the target 单位 that is within 10寸 of the Greatcannon; for each roll of a 6, that 单位 suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="099b-7b41-5635-4380" name="Crew0" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
@@ -221,28 +221,28 @@
         </profile>
         <profile id="4c4f-6ba6-c836-4406" name="Crew1" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">3 models</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">3个模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">4寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">2</characteristic>
           </characteristics>
         </profile>
         <profile id="0524-ad26-cc9a-18f2" name="Crew2" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">2 models</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">2个模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">3寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">2</characteristic>
           </characteristics>
         </profile>
         <profile id="f54f-b1b6-3aa0-3ef5" name="Crew3" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">1 model</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">1个模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">2寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">1</characteristic>
           </characteristics>
         </profile>
         <profile id="e455-2223-bf7e-20a6" name="Crew4" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">No models</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">没有模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">0寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">0</characteristic>
           </characteristics>
@@ -264,7 +264,7 @@
           <profiles>
             <profile id="4028-ad50-fabc-dc0e" name="Cannon Ball" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">40寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -286,7 +286,7 @@
           <profiles>
             <profile id="47be-cba6-b90d-62c8" name="Crew&apos;s Tools" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -332,35 +332,35 @@
         </profile>
         <profile id="f374-ebd3-99bf-86c2" name="Crew1" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">3 models</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">3个模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">4寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">2+</characteristic>
           </characteristics>
         </profile>
         <profile id="eb9c-54bc-f525-5976" name="Crew2" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">2 models</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">2个模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">3寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="09b2-69af-1eea-e0a5" name="Crew3" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">1 model</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">1个模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">2寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="d104-3303-490d-3eb3" name="Crew4" hidden="false" typeId="d405-e4e8-b129-0a52" typeName="Crew Table">
           <characteristics>
-            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">No models</characteristic>
+            <characteristic name="Variable1" typeId="b82c-de13-1b0a-6472">没有模型</characteristic>
             <characteristic name="Variable2" typeId="2a79-1f99-1784-db0c">0寸</characteristic>
             <characteristic name="Variable3" typeId="d05a-4e50-dd21-be77">0</characteristic>
           </characteristics>
         </profile>
         <profile id="2555-b214-e27f-51b2" name="Crewed 炮兵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Field Mortar can only move if its CREW are within 1寸 at the start of the movement phase. If its CREW are within 1寸 of the mortar in the shooting phase, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Field Mortar can only move if its CREW are within 1寸 at the start of the movement phase. If its CREW are within 1寸 of the mortar in the 射击阶段, they can fire the 战争机械. The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability that uses Bravery. The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
         <profile id="823d-4bdb-9448-7f4d" name="炮兵 Barrage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -390,7 +390,7 @@
           <profiles>
             <profile id="f5a1-d0a3-ce91-c110" name="Crew&apos;s Tools" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -412,7 +412,7 @@
           <profiles>
             <profile id="9f29-8589-5bb3-b501" name="Mortar Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10-30寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
@@ -467,7 +467,7 @@
           <profiles>
             <profile id="31d5-b378-301f-5bc9" name="Huntmarshal&apos;s Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">20寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -489,7 +489,7 @@
           <profiles>
             <profile id="314f-3eb8-c3f7-bd54" name="Woodsman&apos;s Longsword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -525,7 +525,7 @@
         </profile>
         <profile id="607e-608b-aed9-a579" name="Range-finding Optics" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for this model in the shooting phase if they did not move in their preceding movement phase and there are no enemy models within 3寸 of them.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for this model in the 射击阶段 if they did not move in their preceding movement phase and there are no enemy models within 3寸 of them.</characteristic>
           </characteristics>
         </profile>
         <profile id="c5f9-e24a-7234-5f0f" name="Clockwork Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -549,7 +549,7 @@
           <profiles>
             <profile id="a610-1853-9db8-fe91" name="Mechanical Steed&apos;s Steel Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -565,7 +565,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7e46-adde-2b22-cb59" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7e46-adde-2b22-cb59" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a128-52f9-fd6f-20b4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ab5-7844-7d08-0130" type="min"/>
@@ -575,7 +575,7 @@
               <profiles>
                 <profile id="a96f-1352-6b01-b20b" name="Handgun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">16寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -593,7 +593,7 @@
               <profiles>
                 <profile id="0104-dc91-002a-78e0" name="Grenade Launching Blunderbuss" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">10寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -611,7 +611,7 @@
               <profiles>
                 <profile id="10ba-93c1-d4ce-5c5a" name="Repeater Handgun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">14寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -629,7 +629,7 @@
               <profiles>
                 <profile id="89dd-18ad-8f23-f4cf" name="Long Rifle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -706,7 +706,7 @@
           <profiles>
             <profile id="ee1b-bd06-98a4-4a7a" name="Warhorse&apos;s Steel-shod Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -752,7 +752,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0378-c061-4e77-3818" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0378-c061-4e77-3818" name="武器选项" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbbc-4acc-f31f-c255" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a567-6b35-c481-cf83" type="min"/>
@@ -762,7 +762,7 @@
               <profiles>
                 <profile id="b04b-e847-7b91-e61a" name="Lance and Sword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -790,7 +790,7 @@
               <profiles>
                 <profile id="521d-13b9-4cc4-af31" name="Calvery Hammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>

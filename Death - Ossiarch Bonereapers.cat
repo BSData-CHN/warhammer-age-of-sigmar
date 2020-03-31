@@ -91,7 +91,7 @@
         <infoLink id="3adb-a54b-a2c5-1ff5" name="Reinforce Battle-shields" hidden="false" targetId="8ecf-2c24-01f4-91a8" type="profile"/>
         <infoLink id="3735-cae2-d9bb-1f2b" name="Protection of Nagash" hidden="false" targetId="957f-d96d-fa7d-29ce" type="profile"/>
         <infoLink id="027a-b573-1075-7877" name="Mortal Contract" hidden="false" targetId="3ff6-a32d-e21e-db9b" type="profile"/>
-        <infoLink id="fbca-fd6e-e7cd-892c" name="Empower Nadirite Weapons" hidden="false" targetId="5836-86f3-e447-30d0" type="profile"/>
+        <infoLink id="fbca-fd6e-e7cd-892c" name="Empower Nadirite 武器" hidden="false" targetId="5836-86f3-e447-30d0" type="profile"/>
         <infoLink id="e392-69ad-1fd5-2e1a" name="Drain Vitality" hidden="false" targetId="fbd9-a008-0497-d584" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -108,7 +108,7 @@
       <infoLinks>
         <infoLink id="e589-a1a8-38f4-366d" name="Arcane Command" hidden="false" targetId="c9b5-fb8b-d658-18b9" type="profile"/>
         <infoLink id="30f8-ebb4-4e81-3718" name="Drain Vitality" hidden="false" targetId="fbd9-a008-0497-d584" type="profile"/>
-        <infoLink id="cb42-c5cb-8b68-6542" name="Empower Nadirite Weapons" hidden="false" targetId="5836-86f3-e447-30d0" type="profile"/>
+        <infoLink id="cb42-c5cb-8b68-6542" name="Empower Nadirite 武器" hidden="false" targetId="5836-86f3-e447-30d0" type="profile"/>
         <infoLink id="db1a-2bc7-9704-9258" name="Mortal Contract" hidden="false" targetId="3ff6-a32d-e21e-db9b" type="profile"/>
         <infoLink id="41f5-4a01-28c7-314c" name="Protection of Nagash" hidden="false" targetId="957f-d96d-fa7d-29ce" type="profile"/>
         <infoLink id="8d39-5160-691b-68f4" name="Reinforce Battle-shields" hidden="false" targetId="8ecf-2c24-01f4-91a8" type="profile"/>
@@ -310,7 +310,7 @@
       <profiles>
         <profile id="17f7-6751-80a4-54a4" name="Endless Duty" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of weapons used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="8dea-2f55-258e-a64f" name="Supreme Lord of the Bonereaper Legions" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -335,7 +335,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, if this model is on the battlefield you can pick up to 3 different friendly OSSIARCH BONEREAPERS units wholly within 24寸 of this model. For each of those units, you can either heal up to 3 wounds allocated to that 单位 or, if no wounds are allocated to it, you can return a number of slain models to that 单位 with a combined Wounds characteristic of 3 or less.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5ce1-4d87-7388-bdb4" name="Nadirite Weapons" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="5ce1-4d87-7388-bdb4" name="Nadirite 武器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a Nadirite weapon is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit.</characteristic>
           </characteristics>
@@ -418,7 +418,7 @@
           <profiles>
             <profile id="6028-c93e-36f0-ebb4" name="Inda-Khaat" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -440,7 +440,7 @@
           <profiles>
             <profile id="c71a-2484-c8f5-3523" name="The Shield Immortis" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -462,7 +462,7 @@
           <profiles>
             <profile id="7c36-ebca-0c1a-823e" name="Nadirite Dagger" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -484,7 +484,7 @@
           <profiles>
             <profile id="a483-8cf3-e59f-8e6f" name="Nadirite Duelling Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -506,7 +506,7 @@
           <profiles>
             <profile id="c365-dd9d-0a95-fd16" name="Soulreaver Greatblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -528,7 +528,7 @@
           <profiles>
             <profile id="bd3d-dac4-3252-61a3" name="Spirit Dagger" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -670,12 +670,12 @@ Designer’s Note: Many Ossiarch Bonereapers 指挥能力 do not require a 英�
       <profiles>
         <profile id="6cf5-8ac2-fcd3-a61f" name="Levellers of Cities" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase. If you do so, pick 1 friendly CREMATORIANS 单位 that either has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly CREMATORIANS 英雄. Do not apply the cover modifier to save rolls for attacks made with melee weapons by that CREMATORIANS 单位 in that phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase. If you do so, pick 1 friendly CREMATORIANS 单位 that either has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly CREMATORIANS 英雄. Do not apply the cover modifier to save rolls for attacks made with 肉搏 武器 by that CREMATORIANS 单位 in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7a2f-13cd-83da-d66f" name="Immolation" hidden="false" typeId="f670-aa2b-192b-4937" typeName="Legion Abilities">
           <characteristics>
-            <characteristic name="Legion Abilities 细节" typeId="42b4-00f1-787a-3067">Roll a dice each time a friendly CREMATORIANS model is slain by an attack made with a melee weapon, before the slain model is removed from play. Add 1 to the roll if the slain model is a 英雄 or 怪兽. On a 5+, pick 1 enemy 单位 within 3寸 of the slain model. That 单位 suffers 1 mortal wound.</characteristic>
+            <characteristic name="Legion Abilities 细节" typeId="42b4-00f1-787a-3067">Roll a dice each time a friendly CREMATORIANS model is slain by an attack made with a 肉搏 weapon, before the slain model is removed from play. Add 1 to the roll if the slain model is a 英雄 or 怪兽. On a 5+, pick 1 enemy 单位 within 3寸 of the slain model. That 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -717,7 +717,7 @@ Designer’s Note: Many Ossiarch Bonereapers 指挥能力 do not require a 英�
         </profile>
         <profile id="6825-6699-c0a0-d7e8" name="Bludgeon" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in a combat phase. If you do so, pick 1 friendly PETRIFEX ELITE 单位 that either has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly PETRIFEX ELITE 英雄. In that combat phase, improve the Rend characteristic of melee weapons used by that 单位 by 1. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in a combat phase. If you do so, pick 1 friendly PETRIFEX ELITE 单位 that either has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly PETRIFEX ELITE 英雄. In that combat phase, improve the Rend characteristic of 肉搏 武器 used by that 单位 by 1. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -770,12 +770,12 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="4805-1b3e-4a6f-62a4" name="Endless Duty" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of weapons used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
           </characteristics>
         </profile>
         <profile id="0a93-7de8-af2c-42e3" name="Still Their Breath!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase or any combat phase. If you do so, pick 1 friendly MORTIS PRAETORIANS 单位 that is wholly within 24寸 of this model. Re-roll wound rolls of 1 for attacks made by that 单位 that target ORDER and DESTRUCTION units. You can re-roll any wound rolls for attacks made by that 单位 that target CHAOS units.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly MORTIS PRAETORIANS 单位 that is wholly within 24寸 of this model. Re-roll wound rolls of 1 for attacks made by that 单位 that target ORDER and DESTRUCTION units. You can re-roll any wound rolls for attacks made by that 单位 that target CHAOS units.</characteristic>
           </characteristics>
         </profile>
         <profile id="5bbb-fec3-3a27-0d87" name="Arch-Kavalos Zandtos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -799,7 +799,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="41bc-1e94-228b-5fad" name="The Dark Lance" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -826,7 +826,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="bc1f-70c2-53d0-cebd" name="Nadirite Battle-shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -848,7 +848,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="9410-ebcf-abd6-61e8" name="Hooves, Teeth and Barbed Tails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -879,7 +879,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="498e-80ef-9ead-3fe2" name="Endless Duty" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your shooting phase or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of weapons used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
           </characteristics>
         </profile>
         <profile id="d754-1fab-c219-578a" name="Liege-Kavalos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -908,7 +908,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="37d4-72a2-218f-7292" name="Commander&apos;s Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -930,7 +930,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="e6f0-f164-18ae-84c9" name="Nadirite Battle-shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -952,7 +952,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="d18c-cae7-35d0-31f8" name="Hooves, Teeth and Barbed Tails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1048,7 +1048,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="2e62-0ae3-bdbb-b428" name="Ossified Talons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1128,7 +1128,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="a0cc-d94f-c8bc-fe76" name="Soulreaper Scythe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1164,7 +1164,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <profile id="bce3-7457-dd26-6bba" name="Soul-guide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 wholly within 24寸 of the caster that is visible to them. You can re-roll hit rolls of 1 for attacks made by that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 wholly within 24寸 of the caster that is visible to them. 可以重投命中骰的1 for attacks made by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="f4e4-0326-50c4-aec3" name="Mortisan Soulmason" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -1203,7 +1203,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="9eac-28d3-15a8-a643" name="Soulmason&apos;s Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1225,7 +1225,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="f782-8ab0-b259-54ae" name="Ossified Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1308,7 +1308,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="e8bb-d9c7-c0c9-7578" name="Staff of Retribution" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1330,7 +1330,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="6d2c-c156-ba20-25ab" name="Gaze of Death" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1363,10 +1363,10 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="7a8d-9eef-acfc-117e" name="Mortek Hekatos" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Mortek Hekatos. Add 1 to the Attacks characteristic of that model’s melee weapon.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Mortek Hekatos. Add 1 to the Attacks characteristic of that model’s 肉搏 weapon.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3cf1-78e4-ae98-a78d" name="Nadirite Weapons" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="3cf1-78e4-ae98-a78d" name="Nadirite 武器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with this 单位’s Nadirite Blades or Nadirite Spears is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit.</characteristic>
           </characteristics>
@@ -1422,7 +1422,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="4221-5e17-054c-4fbe" name="Soulcleaver Greatblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1448,7 +1448,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
               <profiles>
                 <profile id="0208-ce33-004b-fb83" name="Nadirite Spear and Shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1466,7 +1466,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
               <profiles>
                 <profile id="ec3f-f5cb-12f6-af64" name="Nadirite Blade and Shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1491,10 +1491,10 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       <profiles>
         <profile id="79d4-98e2-b03a-f1c5" name="Mortek Hekatos" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Mortek Hekatos. Add 1 to the Attacks characteristic of that model’s melee weapon.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Mortek Hekatos. Add 1 to the Attacks characteristic of that model’s 肉搏 weapon.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e691-6d14-9842-63e6" name="Nadirite Weapons" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="e691-6d14-9842-63e6" name="Nadirite 武器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with this 单位’s Nadirite Blades or Nadirite Spears is 6, that attack scores 2 hits on the target instead of 1. Make a wound and save roll for each hit.</characteristic>
           </characteristics>
@@ -1549,7 +1549,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="4882-f421-bf61-c5e1" name="Hooves and Teeth" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1575,7 +1575,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
               <profiles>
                 <profile id="5387-99dc-1246-3071" name="Nadirite Spear and Shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1593,7 +1593,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
               <profiles>
                 <profile id="e137-b6da-c953-532c" name="Nadirite Blade and Shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1665,7 +1665,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="f516-90d9-dff6-397f" name="Nadirite Battle-shield" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1687,7 +1687,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
           <profiles>
             <profile id="2c9e-0150-6a9b-2ed2" name="Dread Halberd" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1723,7 +1723,7 @@ Blade-parry Aspect: You can re-roll save rolls for attacks that target this 单�
 
 Destroyer Aspect: You can re-roll wound rolls for attacks made by this 单位.
 
-Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s melee weapons by 1.</characteristic>
+Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s 肉搏 武器 by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="1b97-d476-11a8-7940" name="Immortis Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -1760,7 +1760,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="72ce-649c-02e5-66bd" name="Spirit Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1788,7 +1788,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="3b72-7925-67ce-e8eb" name="Dread Falchions" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1816,7 +1816,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
         <profile id="9b2f-0d17-415d-a145" name="Cauldron of Torment" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Cauldron of Torment. Instead, pick 1 enemy 单位 that is in range of the attack and roll 1 dice for each model in the target 单位. Add the modifier for Cauldron of Torment shown on the 损伤表 above to each roll. If the result is equal to or greater than the unmodified Bravery characteristic of the target 单位, 1 model from that 单位 is slain.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Cauldron of Torment. Instead, pick 1 enemy 单位 that is in range of the attack and roll 1 dice for each model in the target 单位. Add the modifier for Cauldron of Torment shown on the 损伤表 above to each roll. If the result is equal to or greater than the unmodified Bravery characteristic of the target 单位, 1个模型 from that 单位 is slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="d96a-7d64-1bc3-fdfa" name="Cursed Stele" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1890,7 +1890,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="8ba4-648e-9b11-6878" name="Crawler Tools" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1912,7 +1912,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="5757-517f-d7e6-1a81" name="Dread Catapult - Necrotic Skulls" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸-36寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -1934,7 +1934,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="070a-9d18-ca19-e9fd" name="Dread Catapult - Cauldron of Torment" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸-36寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269"/>
@@ -1956,7 +1956,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="be50-1301-cd19-de9c" name="Dread Catapult - Cursed Stele" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">6寸-36寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269"/>
@@ -2052,7 +2052,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="56b4-a534-e6b9-5e09" name="Death&apos;s Head Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">*</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2074,7 +2074,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="bb65-2a4e-a3c1-1079" name="Ossified Hooves and Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2100,7 +2100,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
               <profiles>
                 <profile id="6c74-5645-9d9a-6be1" name="Soulcrusher Bludgeons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2118,7 +2118,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
               <profiles>
                 <profile id="85d2-e2bf-0296-3aaf" name="Soulcleaver Sickles" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2785,7 +2785,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="4646-ab88-a0cd-596f" name="Peerless Warrior" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a melee weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a 肉搏 weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2800,7 +2800,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="b0ca-cbfc-dac4-e5ba" name="Hatred of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with melee weapons by this general and their mount unless the target has the DEATH keyword.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with 肉搏 武器 by this general and their mount unless the target has the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2946,7 +2946,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="509c-1bcd-961a-2b5e" name="Mindblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s melee weapons. If the unmodified hit roll for an attack made with that weapon that targets a 英雄 is 6, your opponent loses 1 command point (to a minimum of 0) and that 英雄 cannot use 指挥能力 for the rest of the battle.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon that targets a 英雄 is 6, your opponent loses 1 command point (to a minimum of 0) and that 英雄 cannot use 指挥能力 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3095,7 +3095,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="e0f6-4978-25f9-575b" name="Gothizzar Cartouche" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with melee weapons by friendly DEATH units wholly within 9寸 of the bearer if the target does not have the DEATH keyword.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with 肉搏 武器 by friendly DEATH units wholly within 9寸 of the bearer if the target does not have the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3135,7 +3135,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9480-dc88-92c6-b7a6" name="Artefacts: Weapons of the Soulreaper" publicationId="cb62-7d89-9fa6-76ad" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9480-dc88-92c6-b7a6" name="Artefacts: 武器 of the Soulreaper" publicationId="cb62-7d89-9fa6-76ad" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc7-d1f2-436b-71cf" type="max"/>
       </constraints>
@@ -3200,12 +3200,12 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ea10-0025-3481-4ccd" name="2. Empower Nadirite Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ea10-0025-3481-4ccd" name="2. Empower Nadirite 武器" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="141a-22f4-0b40-3cbf" name="Empower Nadirite Weapons" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+            <profile id="141a-22f4-0b40-3cbf" name="Empower Nadirite 武器" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite Weapons ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite Weapons ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3310,7 +3310,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="6937-9ad5-55a3-94ba" name="Weapons of the Soulreaper" hidden="false" collective="false" import="true" targetId="9480-dc88-92c6-b7a6" type="selectionEntryGroup">
+        <entryLink id="6937-9ad5-55a3-94ba" name="武器 of the Soulreaper" hidden="false" collective="false" import="true" targetId="9480-dc88-92c6-b7a6" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -3362,7 +3362,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
               <characteristics>
                 <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A NULL MYRIAD general must have this 指挥特性 instead of one listed on page 74.
 
-Subtract 1 from hit rolls for attacks made with melee weapons that target this general. In addition, subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
+Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this general. In addition, subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3398,7 +3398,7 @@ Subtract 1 from hit rolls for attacks made with melee weapons that target this g
               <characteristics>
                 <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">An IVORY HOST general must have this 指挥特性 instead of one listed on page 74.
 
-In each of your 英雄 phases, roll a dice for this general. On a 5+, add 1 to the Attacks characteristic of melee weapons used by this general for the rest of the battle.</characteristic>
+In each of your 英雄 phases, roll a dice for this general. On a 5+, add 1 to the Attacks characteristic of 肉搏 武器 used by this general for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3609,7 +3609,7 @@ Once per battle, at the start of your 英雄阶段, if this general is on the ba
               <characteristics>
                 <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first MORTIS PRAETORIANS 英雄 to receive an artefact of power must be given an Artificer’s Blade.
 
-Pick 1 of the bearer’s melee weapons. Change the Rend characteristic of that weapon to -3.</characteristic>
+Pick 1 of the bearer’s 肉搏 武器. Change the Rend characteristic of that weapon to -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3639,7 +3639,7 @@ Pick 1 of the bearer’s melee weapons. Change the Rend characteristic of that w
               <characteristics>
                 <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first NULL MYRIAD 英雄 to receive an artefact of power must be given a Baleful Blade.
 
-Pick 1 of the bearer’s melee weapons. Do not make save rolls for attacks made with that weapon, and wounds inflicted by that weapon cannot be negated when they are allocated to a model (the wounds can be healed later in the battle).</characteristic>
+Pick 1 of the bearer’s 肉搏 武器. Do not make save rolls for attacks made with that weapon, and wounds inflicted by that weapon cannot be negated when they are allocated to a model (the wounds can be healed later in the battle).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3669,7 +3669,7 @@ Pick 1 of the bearer’s melee weapons. Do not make save rolls for attacks made 
               <characteristics>
                 <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first IVORY HOST 英雄 to receive an artefact of power must be given a Beastbone Blade.
 
-Pick 1 of the bearer’s melee weapons. Add 1 to the Attacks characteristic of that weapon.</characteristic>
+Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Attacks characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3729,7 +3729,7 @@ The first wound allocated to the bearer in each phase is negated.</characteristi
               <characteristics>
                 <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first CREMATORIANS 英雄 to receive an artefact of power must be given a Searing Blade.
 
-Pick 1 of the bearer’s melee weapons. Add 1 to the Damage characteristic of that weapon.</characteristic>
+Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3789,10 +3789,10 @@ You must subtract 1 from casting rolls for a 法师 that is soul-linked to an en
         <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, you receive D3 relentless discipline points.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5836-86f3-e447-30d0" name="Empower Nadirite Weapons" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+    <profile id="5836-86f3-e447-30d0" name="Empower Nadirite 武器" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite Weapons ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite Weapons ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
       </characteristics>
     </profile>
     <profile id="957f-d96d-fa7d-29ce" name="Protection of Nagash" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">

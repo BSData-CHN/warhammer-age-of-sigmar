@@ -154,7 +154,7 @@
                       <profiles>
                         <profile id="2864-e51c-62b6-a66f" name="Forgotten Nightmares" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Missile weapons can only be used to target an Idoneth Deepkin with this 战斗特性 if it is the closest visible enemy 单位</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Missile 武器 can only be used to target an Idoneth Deepkin with this 战斗特性 if it is the closest visible enemy 单位</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -249,7 +249,7 @@
                       <profiles>
                         <profile id="339f-695a-995f-8206" name="Revel in Slaughter" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
                           <characteristics>
-                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls of 1 for Fuethán units that are affected by the Flood Tide ability from the Tides of Death table (pg 86). In addition, whenever a Fuethán 单位 would be affected by the Ebb Tide ability from the Tides of Death table, they are instead affected by the Flood Tide ability from the same table.</characteristic>
+                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">可以重投命中骰的1 for Fuethán units that are affected by the Flood Tide ability from the Tides of Death table (pg 86). In addition, whenever a Fuethán 单位 would be affected by the Ebb Tide ability from the Tides of Death table, they are instead affected by the Flood Tide ability from the same table.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="aaa0-9d13-590f-473b" name="Fiercest of Creatures" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -348,7 +348,7 @@
         </profile>
         <profile id="a86f-7ed9-cd25-7b3f" name="Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12寸 of your general. Add 1 to the Attacks characteristic of melee weapons used by that 单位 until your next 英雄阶段. </characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12寸 of your general. Add 1 to the Attacks characteristic of 肉搏 武器 used by that 单位 until your next 英雄阶段. </characteristic>
           </characteristics>
         </profile>
         <profile id="54a5-a674-ce5b-e284" name="Akhelian King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -379,7 +379,7 @@
           <profiles>
             <profile id="b430-e0ba-c963-c3d1" name="Falchion" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -395,7 +395,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fb59-9f25-5f5a-56dc" name="Melee Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fb59-9f25-5f5a-56dc" name="肉搏 Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e5-9527-54c5-a2e6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01bf-23ee-3fda-33fc" type="max"/>
@@ -405,7 +405,7 @@
               <profiles>
                 <profile id="766f-6d9e-011a-48bd" name="Greatsword" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -423,7 +423,7 @@
               <profiles>
                 <profile id="24ef-524e-090a-6046" name="Bladed Polearm" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -486,7 +486,7 @@
       <profiles>
         <profile id="5c01-e560-3dbf-3a5f" name="Deepmare&apos;s Fanged Jaw and Talon&apos;s" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -497,7 +497,7 @@
         </profile>
         <profile id="8015-2b6c-601e-6433" name="Deepmare&apos;s Lashing Tails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -538,7 +538,7 @@
         </profile>
         <profile id="c0d7-c100-8460-42ef" name="Supreme Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18寸 of Volturnus. Add 1 to the Attacks characteristic of melee weapons used by those units until your next 英雄阶段</characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18寸 of Volturnus. Add 1 to the Attacks characteristic of 肉搏 武器 used by those units until your next 英雄阶段</characteristic>
           </characteristics>
         </profile>
         <profile id="a479-0026-d75e-56fd" name="Volturnos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -569,7 +569,7 @@
           <profiles>
             <profile id="6f50-9a9b-a7d6-517b" name="The Astra Solus" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -658,7 +658,7 @@
           <profiles>
             <profile id="99ac-1f63-3e9c-43fc" name="Psi-trident" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -680,7 +680,7 @@
           <profiles>
             <profile id="20ef-8179-19b6-75a7" name="Deep-sea Sceptre" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -702,7 +702,7 @@
           <profiles>
             <profile id="5ce8-e450-ba59-9e29" name="Blasts of Abyssal Energy" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -737,7 +737,7 @@
       <profiles>
         <profile id="1b39-5fb6-bc25-ead7" name="Stormshoal" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -796,7 +796,7 @@
           <profiles>
             <profile id="3e36-e67e-913d-dea3" name="Crulhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -818,7 +818,7 @@
           <profiles>
             <profile id="0fcf-3585-60b3-2f4f" name="Fuathtar, Spear of Repressed Fury" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -889,7 +889,7 @@
           <profiles>
             <profile id="a484-43d5-4102-ea29" name="Bone Quill" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -911,7 +911,7 @@
           <profiles>
             <profile id="1bec-eb8e-af21-ff10" name="Ochtar&apos;s Cudgel" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -933,7 +933,7 @@
           <profiles>
             <profile id="6c56-23d4-f88d-1a85" name="Ochtar&apos;s Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -955,7 +955,7 @@
           <profiles>
             <profile id="cd7d-54ee-10c0-f184" name="Ochtar&apos;s Tentacles" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1017,7 +1017,7 @@
           <profiles>
             <profile id="745e-4276-a06c-df98" name="Keening Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1039,7 +1039,7 @@
           <profiles>
             <profile id="9fd0-cbbd-35bc-a08b" name="Wisperbow: Aimed Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1050,7 +1050,7 @@
             </profile>
             <profile id="ec1c-6e74-2c06-637b" name="Wisperbow: Storm Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1061,7 +1061,7 @@
             </profile>
             <profile id="6fd6-2f49-caab-4e1f" name="Fluid Firing Style" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Whisperbow, choose either the Aimed Fire or Storm Fire missile weapon characteristics for that shooting attack.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Whisperbow, choose either the Aimed Fire or Storm Fire 射击武器 characteristics for that shooting attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1097,7 +1097,7 @@
               <profiles>
                 <profile id="a3fb-a65c-7ec1-4faa" name="Keening Blade - Icon Bearer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1119,7 +1119,7 @@
               <profiles>
                 <profile id="0235-1465-b6ec-10e8" name="Wisperbow: Aimed Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1130,7 +1130,7 @@
                 </profile>
                 <profile id="0473-a88f-5921-5646" name="Wisperbow: Storm Fire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1141,7 +1141,7 @@
                 </profile>
                 <profile id="5d69-e63f-7c4b-236d" name="Fluid Firing Style" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Whisperbow, choose either the Aimed Fire or Storm Fire missile weapon characteristics for that shooting attack.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Whisperbow, choose either the Aimed Fire or Storm Fire 射击武器 characteristics for that shooting attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1201,7 +1201,7 @@
           <profiles>
             <profile id="7703-9282-f9a2-0344" name="Lanmari Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1248,7 +1248,7 @@
               <profiles>
                 <profile id="3fe5-a76f-b5c6-0609" name="Lanmari Blade - Icon Bearer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1326,7 +1326,7 @@
           <profiles>
             <profile id="a4e8-6fde-5dbe-c862" name="Pelagic Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1389,7 +1389,7 @@
           <profiles>
             <profile id="d824-c790-abee-f3fa" name="Scryfish Shoal" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -1411,7 +1411,7 @@
           <profiles>
             <profile id="38f7-de1a-b0ef-774a" name="Finger-claw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1472,7 +1472,7 @@
           <profiles>
             <profile id="41e3-b1bb-8d6f-d8d8" name="Talúnhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1494,7 +1494,7 @@
           <profiles>
             <profile id="7e87-d102-772f-3937" name="Rakerdart’s Serrated Bill" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1553,7 +1553,7 @@
           <profiles>
             <profile id="d95e-4a6a-b3c4-1e14" name="Barbed Hooks and Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1575,7 +1575,7 @@
           <profiles>
             <profile id="e857-b9b2-32b6-edbf" name="Alopex&apos;s Scythed Fins" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1597,7 +1597,7 @@
           <profiles>
             <profile id="22f3-6e75-0140-00ff" name="Allopex&apos;s Ferocious Bite" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1622,7 +1622,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e9bf-dc43-44f9-7c8f" name="Missile Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e9bf-dc43-44f9-7c8f" name="射击武器" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d408-d996-7133-052d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89fd-0a72-07f0-0cda" type="max"/>
@@ -1632,7 +1632,7 @@
               <profiles>
                 <profile id="2bf4-1c15-de9b-92bd" name="Retarius Net Launcher" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1672,7 +1672,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1772,7 +1772,7 @@
           <profiles>
             <profile id="74dd-22ea-aa6c-4c12" name="Leviadon&apos;s Crushing Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">*</characteristic>
@@ -1794,7 +1794,7 @@
           <profiles>
             <profile id="f922-c2ce-027c-e969" name="Leviadon&apos;s Massive Scythed Fins" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1816,7 +1816,7 @@
           <profiles>
             <profile id="2f1a-7716-6002-bdfd" name="Harpoon Launchers" publicationId="0d25-2712-pubN77739" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1838,7 +1838,7 @@
           <profiles>
             <profile id="a992-ca18-532c-3365" name="Twin-pronged Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1905,7 +1905,7 @@
           <profiles>
             <profile id="d856-5e09-5d6f-66ef" name="Voltspear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1965,7 +1965,7 @@
               <profiles>
                 <profile id="b063-baeb-fdbc-7c4e" name="Voltspear - Locian Prince" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2037,7 +2037,7 @@
               <profiles>
                 <profile id="fe0f-6191-e298-6daa" name="Helsabre - Locian Prince" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2075,7 +2075,7 @@
           <profiles>
             <profile id="5e84-ee81-4563-4195" name="Fangmora&apos;s Fanged Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2097,7 +2097,7 @@
           <profiles>
             <profile id="da6d-88c8-c694-067d" name="Fangmora&apos;s Lashing Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2151,7 +2151,7 @@
           <profiles>
             <profile id="d918-3a5b-6440-174b" name="Helsabre" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2902,7 +2902,7 @@
           <profiles>
             <profile id="d05c-b344-fd81-ab79" name="Unstoppable Fury" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Attacks characteristic of any weapons used by this general in any battle round in which the High Tide ability (pg 86) is in effect.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Attacks characteristic of any 武器 used by this general in any battle round in which the High Tide ability (pg 86) is in effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2973,7 +2973,7 @@
           <profiles>
             <profile id="12e5-cc7f-0801-79cc" name="Sanguine Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a melee weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 肉搏 weapon. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3018,7 +3018,7 @@
           <profiles>
             <profile id="3e81-c82f-688e-9566" name="Armour of the Cythai" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for melee weapons that target the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for 肉搏 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3193,7 +3193,7 @@
           <profiles>
             <profile id="61a6-c6a9-a2ff-1bd7" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a missile weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 射击武器. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3238,7 +3238,7 @@
           <profiles>
             <profile id="98f7-044c-378e-bb8e" name="Auric Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your shooting phase, pick an enemy 单位 within 18寸of the bearer that is in cover. Until your next shooting phase, that enemy 单位 does not receive the benefit to its saving throw for being in cover.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 射击阶段, pick an enemy 单位 within 18寸of the bearer that is in cover. Until your next 射击阶段, that enemy 单位 does not receive the benefit to its saving throw for being in cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3303,7 +3303,7 @@
           <profiles>
             <profile id="d372-20c1-842b-aead" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a missile weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 射击武器. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3363,7 +3363,7 @@
           <profiles>
             <profile id="6615-11c9-da4d-853f" name="-" hidden="false" typeId="af55-be3c-69fd-b6f5" typeName="Kraken Tooth - D6 Roll">
               <characteristics>
-                <characteristic name="Effect" typeId="9878-bea0-9436-4b49">Once per battle, in your shooting phase, pick an enemy 单位 within 12寸of the bearer that is visible to them. Then, roll a dice and look up the result below.</characteristic>
+                <characteristic name="Effect" typeId="9878-bea0-9436-4b49">Once per battle, in your 射击阶段, pick an enemy 单位 within 12寸of the bearer that is visible to them. Then, roll a dice and look up the result below.</characteristic>
               </characteristics>
             </profile>
             <profile id="fcc4-912b-7828-aa12" name="6 - A Tasty Morsel" hidden="false" typeId="af55-be3c-69fd-b6f5" typeName="Kraken Tooth - D6 Roll">

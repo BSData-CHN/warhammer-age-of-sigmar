@@ -10,7 +10,7 @@
     <profileType id="c2be-a0b1-e9a8-572a" name="Skyvessel Wound Track">
       <characteristicTypes>
         <characteristicType id="6158-1d51-00a9-21f2" name="移动力"/>
-        <characteristicType id="c371-0867-82a5-a591" name="Boarding Weapons"/>
+        <characteristicType id="c371-0867-82a5-a591" name="舰载武器"/>
         <characteristicType id="b29b-9a5c-1505-5e90" name="Bomb Racks"/>
       </characteristicTypes>
     </profileType>
@@ -214,7 +214,7 @@
           <profiles>
             <profile id="14b4-f77a-fbbc-dbc9" name="Ranging Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -236,7 +236,7 @@
           <profiles>
             <profile id="dee4-4289-0e58-f890" name="Zephyrscope" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -279,12 +279,12 @@
         </profile>
         <profile id="9dbb-f5be-9761-26d6" name="If You Want A Job Done…" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit and wound rolls of 1 for attacks made with a melee weapon by this model that target a 英雄 or 怪兽.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit and wound rolls of 1 for attacks made with a 肉搏 weapon by this model that target a 英雄 or 怪兽.</characteristic>
           </characteristics>
         </profile>
         <profile id="1b25-8639-3f13-473e" name="Master of the Skies" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your shooting phase. If you do, pick 1 friendly SKYVESSEL that has a model with this command ability in its garrison. That SKYVESSEL can shoot in that phase even if it ran earlier in the same turn.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 射击阶段. If you do, pick 1 friendly SKYVESSEL that has a model with this command ability in its garrison. That SKYVESSEL can shoot in that phase even if it ran earlier in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="f720-3b06-6e15-d83f" name="Protect the Admiral!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -306,7 +306,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
         </profile>
         <profile id="cab7-c88d-a372-716c" name="On My Mark, Fire!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your shooting phase. If you do so, pick 1 friendly SKYVESSEL that has a model with this command ability in its garrison. You can re-roll hit rolls of 1 for attacks made by that SKYVESSEL in that phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 射击阶段. If you do so, pick 1 friendly SKYVESSEL that has a model with this command ability in its garrison. 可以重投命中骰的1 for attacks made by that SKYVESSEL in that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -329,7 +329,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
           <profiles>
             <profile id="200f-ab15-5d88-217f" name="Skalfhammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -351,7 +351,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
           <profiles>
             <profile id="de41-bd37-8e99-b680" name="Volley Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -397,7 +397,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
         </profile>
         <profile id="c725-a74f-7c5e-0f03" name="Arkanaut Cutter (Company Captain)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -428,7 +428,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="177d-058a-e5aa-aa51" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="177d-058a-e5aa-aa51" name="武器选项" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="0aab-3599-caa3-cf5b" value="10.0">
               <repeats>
@@ -450,7 +450,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
               <profiles>
                 <profile id="d744-014f-4240-0623" name="Arkanaut Cutter" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -461,7 +461,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
                 </profile>
                 <profile id="223c-e2e6-1661-e317" name="Privateer Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -477,7 +477,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8a1d-0495-762e-f361" name="Special Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8a1d-0495-762e-f361" name="特殊武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="increment" field="41cf-63c0-6104-58c2" value="3.0">
                   <repeats>
@@ -489,7 +489,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41cf-63c0-6104-58c2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="5d70-ea92-f152-cf9d" name="Light Skyhook" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5d70-ea92-f152-cf9d" name="Light 天钩" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="042e-feaf-ce65-6a58" value="1.0">
                       <repeats>
@@ -501,9 +501,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="042e-feaf-ce65-6a58" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="9682-14be-160a-c874" name="Light Skyhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                    <profile id="9682-14be-160a-c874" name="Light 天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                       <characteristics>
-                        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -517,7 +517,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0e5c-27de-5cb8-6d53" name="Aethermatic Volley Gun &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="0e5c-27de-5cb8-6d53" name="以太连发枪 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="cea0-925a-22d2-a702" value="1.0">
                       <repeats>
@@ -529,8 +529,8 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cea0-925a-22d2-a702" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="986c-18be-7c66-0e97" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
-                    <infoLink id="e373-5d06-a898-d0ef" name="Aethermatic Volley Gun" hidden="false" targetId="32c3-b317-f5fc-c3ee" type="profile"/>
+                    <infoLink id="986c-18be-7c66-0e97" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="e373-5d06-a898-d0ef" name="以太连发枪" hidden="false" targetId="32c3-b317-f5fc-c3ee" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -550,7 +550,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
                   <profiles>
                     <profile id="141d-8e09-9aee-5c11" name="Skypike" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                       <characteristics>
-                        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -568,7 +568,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1257-4fa4-2691-7c7a" name="Weapon Options (Company Captain)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1257-4fa4-2691-7c7a" name="武器选项 (Company Captain)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ec2-2114-5c7e-c989" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50e3-df50-37c5-06ba" type="min"/>
@@ -578,7 +578,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
               <profiles>
                 <profile id="fcb2-213e-4950-9718" name="Aetherflare Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -596,7 +596,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to a friend
               <profiles>
                 <profile id="648e-d803-8083-c507" name="Volley Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -668,7 +668,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="229d-6566-3d15-a1a7" name="Aethershot Carbines" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -691,35 +691,35 @@ An attack made by a weapon that is in range of this model can target either this
             <profile id="6b82-5174-80fb-dff2" name="13+" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">4寸</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">2</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">2</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">-1</characteristic>
               </characteristics>
             </profile>
             <profile id="da65-179d-3fec-acce" name="00-03" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">12寸, Disengage, Fly High</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">6</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">6</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">+1</characteristic>
               </characteristics>
             </profile>
             <profile id="6acf-5742-ac91-785c" name="07-09" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">8寸, Disengage</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">4</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">4</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">0</characteristic>
               </characteristics>
             </profile>
             <profile id="4f57-f0ce-30ff-17f3" name="04-06" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">10寸, Disengage, Fly High</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">5</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">5</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">0</characteristic>
               </characteristics>
             </profile>
             <profile id="5b7f-0722-6b71-208d" name="10-12" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">6寸</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">3</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">3</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">-1</characteristic>
               </characteristics>
             </profile>
@@ -728,13 +728,13 @@ An attack made by a weapon that is in range of this model can target either this
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ead0-37a9-6c1c-52d3" name="Boarding Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ead0-37a9-6c1c-52d3" name="舰载武器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9445-51d0-334e-af9c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b0-56ab-f221-1c5c" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ba4d-a1d4-e5f3-96ce" name="Boarding Weapons" hidden="false" targetId="9af5-3294-a7d1-26e5" type="profile"/>
+            <infoLink id="ba4d-a1d4-e5f3-96ce" name="舰载武器" hidden="false" targetId="9af5-3294-a7d1-26e5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -742,17 +742,17 @@ An attack made by a weapon that is in range of this model can target either this
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d3bf-196d-9aa4-a6ab" name="Weapon Options" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="d3bf-196d-9aa4-a6ab" name="武器选项" hidden="false" collective="true" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff1e-2a19-36bf-2a4a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a8d-e7d3-c97b-7cb9" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="85da-e8e0-6e58-b058" name="Heavy Sky Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="85da-e8e0-6e58-b058" name="Heavy 天空炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="bfe7-b255-b907-2d14" name="Heavy Sky Cannon: Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="bfe7-b255-b907-2d14" name="Heavy 天空炮: Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -761,9 +761,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="f6d8-9b57-2364-2ca4" name="Heavy Sky Cannon: Shrapnel" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="f6d8-9b57-2364-2ca4" name="Heavy 天空炮: 破片弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -772,9 +772,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="8929-a22e-bdcc-4fd9" name="Heavy Sky Cannon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+                <profile id="8929-a22e-bdcc-4fd9" name="Heavy 天空炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Heavy Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Heavy 天空炮, choose either the 破片弹 or Shell 射击武器 characteristics for that shooting attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -782,11 +782,11 @@ An attack made by a weapon that is in range of this model can target either this
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f688-b90e-0e6b-6f91" name="Heavy Skyhook" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f688-b90e-0e6b-6f91" name="Heavy 天钩" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0b88-0d3d-9fc8-501c" name="Heavy Skyhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="0b88-0d3d-9fc8-501c" name="Heavy 天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -795,9 +795,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="5a15-d584-9be0-f377" name="Heavy Skyhook" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+                <profile id="5a15-d584-9be0-f377" name="Heavy 天钩" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 to the charge rolls for this model if it is armed with a Heavy Skyhook.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 to the charge rolls for this model if it is armed with a Heavy 天钩.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -859,7 +859,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="8ac5-acba-80bf-2f85" name="Aethershock Torpedoes" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -881,7 +881,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="8c24-8c91-3832-99a6" name="Aethershot Carbines" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -904,35 +904,35 @@ An attack made by a weapon that is in range of this model can target either this
             <profile id="be28-15ee-70f6-2421" name="13+" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">4寸</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">4</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">4</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">-1</characteristic>
               </characteristics>
             </profile>
             <profile id="fed6-3892-9934-e621" name="00-03" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">10寸, Disengage, Fly High</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">8</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">8</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">+2</characteristic>
               </characteristics>
             </profile>
             <profile id="b98a-f168-7009-3ed3" name="07-09" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">6寸, Disengage</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">6</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">6</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">0</characteristic>
               </characteristics>
             </profile>
             <profile id="2601-e622-1270-aa2a" name="04-06" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">8寸, Disengage, Fly High</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">7</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">7</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">+1</characteristic>
               </characteristics>
             </profile>
             <profile id="a6d0-deef-18de-3dcf" name="10-12" hidden="false" typeId="c2be-a0b1-e9a8-572a" typeName="Skyvessel Wound Track">
               <characteristics>
                 <characteristic name="移动力" typeId="6158-1d51-00a9-21f2">6寸</characteristic>
-                <characteristic name="Boarding Weapons" typeId="c371-0867-82a5-a591">5</characteristic>
+                <characteristic name="舰载武器" typeId="c371-0867-82a5-a591">5</characteristic>
                 <characteristic name="Bomb Racks" typeId="b29b-9a5c-1505-5e90">0</characteristic>
               </characteristics>
             </profile>
@@ -941,13 +941,13 @@ An attack made by a weapon that is in range of this model can target either this
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1bc1-065d-115c-f79f" name="Boarding Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1bc1-065d-115c-f79f" name="舰载武器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c006-8864-c51d-776b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e807-784d-e669-d824" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="c403-9ec5-2ca3-2fff" name="Boarding Weapons" hidden="false" targetId="9af5-3294-a7d1-26e5" type="profile"/>
+            <infoLink id="c403-9ec5-2ca3-2fff" name="舰载武器" hidden="false" targetId="9af5-3294-a7d1-26e5" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -955,17 +955,17 @@ An attack made by a weapon that is in range of this model can target either this
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0899-b1d4-2ed5-8eb6" name="Weapon Options" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="0899-b1d4-2ed5-8eb6" name="武器选项" hidden="false" collective="true" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7d9-a41b-e2f7-31b3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d3f-3a39-1fce-ee51" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6d6e-903b-18e2-452d" name="Great Sky Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6d6e-903b-18e2-452d" name="Great 天空炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a38e-6c9b-6069-2119" name="Great Sky Cannon: Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="a38e-6c9b-6069-2119" name="Great 天空炮: Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -974,9 +974,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">6</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="fa1b-69d3-0bec-663f" name="Great Sky Cannon: Shrapnel" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="fa1b-69d3-0bec-663f" name="Great 天空炮: 破片弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -985,9 +985,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d040-a1ad-847a-d3f8" name="Great Sky Cannon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+                <profile id="d040-a1ad-847a-d3f8" name="Great 天空炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Great Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Great 天空炮, choose either the 破片弹 or Shell 射击武器 characteristics for that shooting attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -995,11 +995,11 @@ An attack made by a weapon that is in range of this model can target either this
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="17bb-fd50-fe15-01c9" name="Great Skyhook" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="17bb-fd50-fe15-01c9" name="Great 天钩" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9f30-96c6-5437-8121" name="Great Skyhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="9f30-96c6-5437-8121" name="Great 天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1008,9 +1008,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">6</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="bf1e-3a1a-7a16-bbf8" name="Great Skyhook" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+                <profile id="bf1e-3a1a-7a16-bbf8" name="Great 天钩" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 to the charge rolls for this model if it is armed with a Great Skyhook.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 2 to the charge rolls for this model if it is armed with a Great 天钩.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1022,7 +1022,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="54e6-db93-079c-1fc8" name="Great Volley Cannon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4D6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1109,7 +1109,7 @@ An attack made by a weapon that is in range of this model can target either this
       <profiles>
         <profile id="a74e-eaf3-7fc7-ff61" name="Focused Fire" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your shooting phase, you can pick 1 enemy 单位 for this 阵型 to focus fire on. If you do so, you can re-roll hit rolls of 1 for attacks made by unuts from this 阵型 that target that 单位 in that phase.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 射击阶段, you can pick 1 enemy 单位 for this 阵型 to focus fire on. If you do so, 可以重投命中骰的1 for attacks made by unuts from this 阵型 that target that 单位 in that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1331,7 +1331,7 @@ An attack made by a weapon that is in range of this model can target either this
         </profile>
         <profile id="0607-d2f0-3155-856c" name="Endrinharness" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack inflicts D3 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 肉搏 weapon by this model is 6, that attack inflicts D3 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1358,7 +1358,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="b821-10ab-bde1-3ba6" name="Aetherblaster" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1372,13 +1372,13 @@ An attack made by a weapon that is in range of this model can target either this
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="de5f-280b-2481-28df" name="Aethermatic Saw" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="de5f-280b-2481-28df" name="以太链锯剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c7d-1bf8-9c55-1c26" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f226-66ae-aaa4-239a" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="ad18-a861-f2ef-d3ba" name="Aethermatic Saw" hidden="false" targetId="e873-a35a-fbf1-333c" type="profile"/>
+            <infoLink id="ad18-a861-f2ef-d3ba" name="以太链锯剑" hidden="false" targetId="e873-a35a-fbf1-333c" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1392,7 +1392,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="d5a3-8973-c328-179b" name="Grungsson&apos;s Boast" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1414,7 +1414,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="53bd-31f5-8609-e8ec" name="Magnate&apos;s Charter" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1455,7 +1455,7 @@ An attack made by a weapon that is in range of this model can target either this
         </profile>
         <profile id="9bb3-1b29-8d89-ae57" name="Endrinharness" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a melee weapon by this model is 6, that attack inflicts 3 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 肉搏 weapon by this model is 6, that attack inflicts 3 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1482,7 +1482,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="e2f0-e397-49dc-e24e" name="Aethermight Hammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1542,7 +1542,7 @@ An attack made by a weapon that is in range of this model can target either this
         </profile>
         <profile id="5e76-5332-99fc-43f7" name="Mizzenmaster" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Mizzenmaster. Add 1 to the Attacks characteristic of that model’s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Mizzenmaster. Add 1 to the Attacks characteristic of that model’s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1577,7 +1577,7 @@ An attack made by a weapon that is in range of this model can target either this
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4eca-a321-3c58-be63" name="Weapon Options" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="4eca-a321-3c58-be63" name="武器选项" hidden="false" collective="true" import="true">
           <modifiers>
             <modifier type="increment" field="e0ea-2df2-34ce-8833" value="3">
               <repeats>
@@ -1595,7 +1595,7 @@ An attack made by a weapon that is in range of this model can target either this
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f817-10c4-3cd1-4a34" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8743-5d36-b52c-7c9c" name="Aethermatic Volley Gun &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8743-5d36-b52c-7c9c" name="以太连发枪 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="338a-49ea-c691-9ef0" value="1.0">
                   <repeats>
@@ -1607,18 +1607,18 @@ An attack made by a weapon that is in range of this model can target either this
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="338a-49ea-c691-9ef0" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7af7-8cbd-9ddc-c8c2" name="Aethermatic Volley Gun" hidden="false" targetId="a9b2-7f29-648a-91e0" type="profile"/>
-                <infoLink id="dd9e-7a5f-ea4a-cc27" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                <infoLink id="7af7-8cbd-9ddc-c8c2" name="以太连发枪" hidden="false" targetId="a9b2-7f29-648a-91e0" type="profile"/>
+                <infoLink id="dd9e-7a5f-ea4a-cc27" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="efa4-a584-374f-6b9c" name="Rapid-fire Rivet Gun and Aethermatic Saw" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="efa4-a584-374f-6b9c" name="速射钉枪 和 以太链锯剑" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="4649-523b-5c1e-87e2" name="Rapid-fire Rivet Gun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="4649-523b-5c1e-87e2" name="速射钉枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1627,9 +1627,9 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="1fa1-0f6e-71d5-a294" name="Aethermatic Saw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="1fa1-0f6e-71d5-a294" name="以太链锯剑" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1645,7 +1645,7 @@ An attack made by a weapon that is in range of this model can target either this
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1c6f-cbc3-5b79-a50a" name="Special Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1c6f-cbc3-5b79-a50a" name="特殊武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="increment" field="67ed-cb18-cb27-1baf" value="1">
                   <repeats>
@@ -1657,31 +1657,31 @@ An attack made by a weapon that is in range of this model can target either this
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="67ed-cb18-cb27-1baf" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="0cdb-3baa-feb2-89da" name="Drill Launcher &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="0cdb-3baa-feb2-89da" name="钻头发射器 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="a175-fdd7-1b46-56ac" name="Drill Launcher" hidden="false" targetId="1a76-8c3f-0661-bc75" type="profile"/>
-                    <infoLink id="70e8-f104-51a0-087e" name="Drill Launcher" hidden="false" targetId="7526-d8d0-ee2a-fab1" type="profile"/>
-                    <infoLink id="1136-2075-93ff-ee58" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="a175-fdd7-1b46-56ac" name="钻头发射器" hidden="false" targetId="1a76-8c3f-0661-bc75" type="profile"/>
+                    <infoLink id="70e8-f104-51a0-087e" name="钻头发射器" hidden="false" targetId="7526-d8d0-ee2a-fab1" type="profile"/>
+                    <infoLink id="1136-2075-93ff-ee58" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="49a0-2b41-b9a8-d754" name="Grapnel Launcher &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="49a0-2b41-b9a8-d754" name="抓钩发射器 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="3476-2bdd-7ec7-e5fd" name="Grapnel Launcher or Skyhook" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
-                    <infoLink id="e59f-b38e-c602-67f9" name="Grapnel Launcher" hidden="false" targetId="b36d-3a09-bd80-f888" type="profile"/>
-                    <infoLink id="fc18-b88e-188d-78d9" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="3476-2bdd-7ec7-e5fd" name="抓钩发射器 或 天钩" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
+                    <infoLink id="e59f-b38e-c602-67f9" name="抓钩发射器" hidden="false" targetId="b36d-3a09-bd80-f888" type="profile"/>
+                    <infoLink id="fc18-b88e-188d-78d9" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="bfdf-13a3-997c-a5a3" name="Skyhook &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="bfdf-13a3-997c-a5a3" name="天钩 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="e640-7b80-babe-c6dd" name="Grapnel Launcher or Skyhook" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
-                    <infoLink id="c38d-751c-b163-76ee" name="Skyhook" hidden="false" targetId="88bc-f22c-e0a8-9853" type="profile"/>
-                    <infoLink id="fb69-6f0b-bb76-0626" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="e640-7b80-babe-c6dd" name="抓钩发射器 或 天钩" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
+                    <infoLink id="c38d-751c-b163-76ee" name="天钩" hidden="false" targetId="88bc-f22c-e0a8-9853" type="profile"/>
+                    <infoLink id="fb69-6f0b-bb76-0626" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -1740,15 +1740,15 @@ An attack made by a weapon that is in range of this model can target either this
         <categoryLink id="bdf5-4930-1cf7-c665" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="54cc-a3db-bc15-1b73" name="Aethershot Carbine" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="54cc-a3db-bc15-1b73" name="以太卡宾枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff6-d505-3eaa-7026" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0a-24a8-691a-3cd7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="56ae-c901-888b-9719" name="Aethershot Carbine" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="56ae-c901-888b-9719" name="以太卡宾枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1762,15 +1762,15 @@ An attack made by a weapon that is in range of this model can target either this
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="56a4-ee68-7d25-ffe2" name="Boarding Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="56a4-ee68-7d25-ffe2" name="舰载武器" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d4-6368-0077-25a7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aee2-80ff-1692-88f2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b1bf-c87e-ec53-8170" name="Boarding Weapons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="b1bf-c87e-ec53-8170" name="舰载武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1786,17 +1786,17 @@ An attack made by a weapon that is in range of this model can target either this
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6e06-671d-0cdc-9cb8" name="Weapon Options" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="6e06-671d-0cdc-9cb8" name="武器选项" hidden="false" collective="true" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5707-a4b9-47b9-da7c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e34-f6e8-2d09-e006" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9e7b-433a-6809-9733" name="Sky Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9e7b-433a-6809-9733" name="天空炮" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="18aa-c0f5-c7e2-0903" name="Sky Cannon: Shrapnel" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="18aa-c0f5-c7e2-0903" name="天空炮: 破片弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1805,14 +1805,14 @@ An attack made by a weapon that is in range of this model can target either this
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="9eaa-7d1d-5d7c-35b9" name="Sky Cannon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+                <profile id="9eaa-7d1d-5d7c-35b9" name="天空炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a Sky Cannon, choose either the Shrapnel or Shell missile weapon characteristics for that shooting attack.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before attacking with a 天空炮, choose either the 破片弹 or Shell 射击武器 characteristics for that shooting attack.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="f1d9-d5d9-c510-2dd1" name="Sky Cannon: Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+                <profile id="f1d9-d5d9-c510-2dd1" name="天空炮: Shell" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1830,7 +1830,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="718e-9437-0c95-3016" name="Drill Cannon" page="" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">36寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1878,17 +1878,17 @@ An attack made by a weapon that is in range of this model can target either this
         </profile>
         <profile id="f57e-f883-0d2b-91d0" name="Gunnery Sergeant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Gunnery Sergeant. Replace that model&apos;s weapons with a Double-barreled Aethershot Rifle, Gun Butt and Drillbill.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Gunnery Sergeant. Replace that model&apos;s 武器 with a Double-barreled Aethershot Rifle, 枪托 and Drillbill.</characteristic>
           </characteristics>
         </profile>
         <profile id="39f3-aab7-1670-7fea" name="Pin, Shred Them, Finish Them" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a Grundstok Mortar, Decksweeper or Aethercannon when it is used by a 单位 that has at least 1 of each of these weapons (i.e. at least 1 Grundstok Mortar, and at least 1 Decksweeper, and at least 1 Aethercannon). This ability cannot be used by a model that is part of a garrison.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with a Grundstok Mortar, Decksweeper or Aethercannon when it is used by a 单位 that has at least 1 of each of these 武器 (i.e. at least 1 Grundstok Mortar, and at least 1 Decksweeper, and at least 1 Aethercannon). This ability cannot be used by a model that is part of a garrison.</characteristic>
           </characteristics>
         </profile>
         <profile id="6779-6056-880d-a808" name="Drive Them Back!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of missile weapons used by this 单位 while any enemy units are within 3寸 of this 单位. This ability cannot be used by a model that is part of a garrison.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of missile 武器 used by this 单位 while any enemy units are within 3寸 of this 单位. This ability cannot be used by a model that is part of a garrison.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1911,13 +1911,13 @@ An attack made by a weapon that is in range of this model can target either this
             <cost name="pts" typeId="points" value="120.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f5e1-142e-0f14-16d1" name="Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f5e1-142e-0f14-16d1" name="枪托" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d40-c8e3-b1a7-1c65" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9f-cb62-f888-dc5f" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="472e-2c5c-0175-690b" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+            <infoLink id="472e-2c5c-0175-690b" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1954,7 +1954,7 @@ An attack made by a weapon that is in range of this model can target either this
           <profiles>
             <profile id="e1df-dc50-eb48-f0a7" name="Double-barreled Aethershot Rifle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1965,7 +1965,7 @@ An attack made by a weapon that is in range of this model can target either this
             </profile>
             <profile id="9a2f-e61c-3b0d-4628" name="Drillbill" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1981,7 +1981,7 @@ An attack made by a weapon that is in range of this model can target either this
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8a57-02a6-8878-c46c" name="Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8a57-02a6-8878-c46c" name="武器选项" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="increment" field="85f8-a692-7d48-f0b7" value="5.0">
               <repeats>
@@ -2003,7 +2003,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="fe24-85e4-76f7-5738" name="Aethershot Rifle" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2031,7 +2031,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="4f93-4da1-542a-d128" name="Aetheric Fumigator" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2064,7 +2064,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="24da-2df2-bbac-3616" name="Decksweeper" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2092,7 +2092,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="acee-0d1d-7169-e312" name="Aethercannon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2120,7 +2120,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="8ee1-0086-daf4-f949" name="Grundstok Mortar" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2170,7 +2170,7 @@ An attack made by a weapon that is in range of this model can target either this
         </profile>
         <profile id="6140-6bb5-428b-60d4" name="Custodian" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Custodian. Add 1 to the Attacks characteristic of that model’s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Custodian. Add 1 to the Attacks characteristic of that model’s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2205,7 +2205,7 @@ An attack made by a weapon that is in range of this model can target either this
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ce38-7dac-1822-2942" name="Weapon Options" hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="ce38-7dac-1822-2942" name="武器选项" hidden="false" collective="true" import="true">
           <modifiers>
             <modifier type="increment" field="512d-a6f6-6bcd-111f" value="3.0">
               <repeats>
@@ -2223,7 +2223,7 @@ An attack made by a weapon that is in range of this model can target either this
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0ad-5650-df83-1d92" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c400-264c-994a-82b2" name="Aethermatic Volley Gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c400-264c-994a-82b2" name="以太连发枪" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="59ca-d781-d1dd-ed53" value="1.0">
                   <repeats>
@@ -2235,7 +2235,7 @@ An attack made by a weapon that is in range of this model can target either this
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ca-d781-d1dd-ed53" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="5347-62d1-c9a0-408f" name="Aethermatic Volley Gun" hidden="false" targetId="a9b2-7f29-648a-91e0" type="profile"/>
+                <infoLink id="5347-62d1-c9a0-408f" name="以太连发枪" hidden="false" targetId="a9b2-7f29-648a-91e0" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2245,7 +2245,7 @@ An attack made by a weapon that is in range of this model can target either this
               <profiles>
                 <profile id="11af-f6a3-2331-a582" name="Vulcaniser Pistol" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2256,7 +2256,7 @@ An attack made by a weapon that is in range of this model can target either this
                 </profile>
                 <profile id="44f9-20b6-e0c7-5f76" name="Skypike" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2272,7 +2272,7 @@ An attack made by a weapon that is in range of this model can target either this
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d573-8615-c669-fc69" name="Special Weapons" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d573-8615-c669-fc69" name="特殊武器" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="increment" field="db95-ce43-9563-3f44" value="1.0">
                   <repeats>
@@ -2284,31 +2284,31 @@ An attack made by a weapon that is in range of this model can target either this
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="db95-ce43-9563-3f44" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="8a55-5f55-091e-c654" name="Drill Launcher &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="8a55-5f55-091e-c654" name="钻头发射器 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="6c37-e16e-962a-a722" name="Drill Launcher" hidden="false" targetId="1a76-8c3f-0661-bc75" type="profile"/>
-                    <infoLink id="edad-aad3-a879-6550" name="Drill Launcher" hidden="false" targetId="7526-d8d0-ee2a-fab1" type="profile"/>
-                    <infoLink id="cb44-59be-1100-6c43" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="6c37-e16e-962a-a722" name="钻头发射器" hidden="false" targetId="1a76-8c3f-0661-bc75" type="profile"/>
+                    <infoLink id="edad-aad3-a879-6550" name="钻头发射器" hidden="false" targetId="7526-d8d0-ee2a-fab1" type="profile"/>
+                    <infoLink id="cb44-59be-1100-6c43" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="69fd-ff87-d9db-3714" name="Grapnel Launcher &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="69fd-ff87-d9db-3714" name="抓钩发射器 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="cc46-686d-ef21-a5aa" name="Grapnel Launcher or Skyhook" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
-                    <infoLink id="b6f9-2bec-1bd5-5db0" name="Grapnel Launcher" hidden="false" targetId="b36d-3a09-bd80-f888" type="profile"/>
-                    <infoLink id="b0e0-834a-94f3-6b1a" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="cc46-686d-ef21-a5aa" name="抓钩发射器 或 天钩" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
+                    <infoLink id="b6f9-2bec-1bd5-5db0" name="抓钩发射器" hidden="false" targetId="b36d-3a09-bd80-f888" type="profile"/>
+                    <infoLink id="b0e0-834a-94f3-6b1a" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="bf76-108d-ad5b-f2e9" name="Skyhook &amp; Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="bf76-108d-ad5b-f2e9" name="天钩 和 枪托" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="7c49-d65a-e5b9-0ba3" name="Grapnel Launcher or Skyhook" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
-                    <infoLink id="6ac6-52e1-c0c9-4e52" name="Skyhook" hidden="false" targetId="88bc-f22c-e0a8-9853" type="profile"/>
-                    <infoLink id="5d8c-939d-0fa0-905a" name="Gun Butt" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
+                    <infoLink id="7c49-d65a-e5b9-0ba3" name="抓钩发射器 或 天钩" hidden="false" targetId="bc64-1e96-817b-df63" type="profile"/>
+                    <infoLink id="6ac6-52e1-c0c9-4e52" name="天钩" hidden="false" targetId="88bc-f22c-e0a8-9853" type="profile"/>
+                    <infoLink id="5d8c-939d-0fa0-905a" name="枪托" hidden="false" targetId="1237-93a8-9a08-68eb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -2419,7 +2419,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
                       <profiles>
                         <profile id="a3fa-aa72-81c4-532f" name="Deeds, Not Words" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to wound rolls for attacks made with melee weapons for friendly SKYFARERS units that made a charge move in the same turn, and add 1 to hit rolls for attacks made with mlee weapons by friendly SKYWARDEN units that made a charge move in the same turn.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to wound rolls for attacks made with 肉搏 武器 for friendly SKYFARERS units that made a charge move in the same turn, and add 1 to hit rolls for attacks made with mlee 武器 by friendly SKYWARDEN units that made a charge move in the same turn.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2622,7 +2622,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
                           <profiles>
                             <profile id="023c-dda1-f572-27ca" name="Chronicle of Grudges" hidden="false" typeId="011e-0bf8-5310-7fc6" typeName="1) 条款">
                               <characteristics>
-                                <characteristic name="细节" typeId="f6f3-7ccb-f03b-76de">After armies are set up but before the first battle round begins, pick up to 3 different enemy units. You can re-roll hit rolls of 1 for attacks made by friendly BARAK-THRYNG units that target those units.</characteristic>
+                                <characteristic name="细节" typeId="f6f3-7ccb-f03b-76de">After armies are set up but before the first battle round begins, pick up to 3 different enemy units. 可以重投命中骰的1 for attacks made by friendly BARAK-THRYNG units that target those units.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2638,7 +2638,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
                           <profiles>
                             <profile id="2c1d-702b-77c4-ceaf" name="Honour the Gods, Just in Case" hidden="false" typeId="6bee-9bbf-1847-2f14" typeName="3) 脚注">
                               <characteristics>
-                                <characteristic name="细节" typeId="928f-ca19-9ee0-38c3">Once per battle, at the start of your shooting phase or a combat phase, you can pick 1 friendly BARAK-THRYNG 单位. Until the end of that phase, unmodified hit rolls of 6 for attacks made by that 单位 score 2 hits on the target instead of 1. Make a wound and save roll for each hit.</characteristic>
+                                <characteristic name="细节" typeId="928f-ca19-9ee0-38c3">Once per battle, at the start of your 射击阶段 or a combat phase, you can pick 1 friendly BARAK-THRYNG 单位. Until the end of that phase, unmodified hit rolls of 6 for attacks made by that 单位 score 2 hits on the target instead of 1. Make a wound and save roll for each hit.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2671,7 +2671,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
                               <profiles>
                                 <profile id="bd3b-036e-39f7-d80a" name="Settle the Grudges" hidden="false" typeId="011e-0bf8-5310-7fc6" typeName="1) 条款">
                                   <characteristics>
-                                    <characteristic name="细节" typeId="f6f3-7ccb-f03b-76de">After armies are set up but beforre the first battle round begins, pick 1 enemy 单位. You can re-roll hit rolls of 1 for attacks made by friendly KHARADRON OVERLORDS units that target that 单位.</characteristic>
+                                    <characteristic name="细节" typeId="f6f3-7ccb-f03b-76de">After armies are set up but beforre the first battle round begins, pick 1 enemy 单位. 可以重投命中骰的1 for attacks made by friendly KHARADRON OVERLORDS units that target that 单位.</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -2963,15 +2963,15 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
         <categoryLink id="88c5-ec20-64d8-064a" name="MARINE" hidden="false" targetId="2745-024c-7e44-960f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f599-186a-d5c2-c1c3" name="Aethermatic Volley Gun" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f599-186a-d5c2-c1c3" name="以太连发枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f82-4da2-9b1c-e317" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a20-c9af-12fa-7d85" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6f56-cd0a-eef5-d8c1" name="Aethermatic Volley Gun (Enrik Ironhail)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="6f56-cd0a-eef5-d8c1" name="以太连发枪 (Enrik Ironhail)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -2993,7 +2993,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="a7da-7107-a134-1501" name="Aethershot Rifle (Dead-Eye Lund)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3015,7 +3015,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="1031-7687-a89b-2a87" name="Privateer Pistol (Garodd Alensen)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3037,7 +3037,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="155b-fa59-503d-0429" name="Vulcaniser Pistol (Khazgan Drakkskewer)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3059,7 +3059,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="2165-9ed0-2ee2-a86c" name="Arkanaut Cutter (Garodd Alensen)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3073,15 +3073,15 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="69d8-bcab-cbc6-d938" name="Gun Butt" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="69d8-bcab-cbc6-d938" name="枪托" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab73-d451-1d5b-723e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3408-02b1-aae6-5ebd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6083-b93b-667d-6c38" name="Gun Butt (Enrik Ironhail and Dead-Eye Lund)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="6083-b93b-667d-6c38" name="枪托 (Enrik Ironhail and Dead-Eye Lund)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3103,7 +3103,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="0de5-424a-a1ce-8094" name="Skypike (Khazgan Drakkskewer)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3169,13 +3169,13 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ba4f-50f0-725d-b41d" name="Aethermatic Saw" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ba4f-50f0-725d-b41d" name="以太链锯剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9718-8107-eb11-684e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d46b-ce78-d0eb-07cd" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="343a-2c94-dd4b-de64" name="Aethermatic Saw" hidden="false" targetId="e873-a35a-fbf1-333c" type="profile"/>
+            <infoLink id="343a-2c94-dd4b-de64" name="以太链锯剑" hidden="false" targetId="e873-a35a-fbf1-333c" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3189,7 +3189,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="dbb2-adb4-5610-0d3c" name="Dirigible Suit Weapon Battery" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3211,7 +3211,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
           <profiles>
             <profile id="f805-537a-6864-93de" name="Aethercannon" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3480,7 +3480,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="5d36-7902-d096-bd81" name="The Last Word" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of the enemy charge phase you can pick 1 enemy 单位 that finished a charge move in that phase within 3寸 of this model. This model can shoot at that 单位 with its Great Sky Cannon, Great Skyhook or Great Volley Cannon.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of the enemy charge phase you can pick 1 enemy 单位 that finished a charge move in that phase within 3寸 of this model. This model can shoot at that 单位 with its Great 天空炮, Great 天钩 or Great Volley Cannon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3632,7 +3632,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="1265-a428-b617-6925" name="Breath of Morgrim" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your shooting phase, you can pick 1 enemy 单位 and roll 1 dice for each model from that 单位 within 6寸 of the bearer. For each 6, that 单位 suffers 1 mortal wound.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick 1 enemy 单位 and roll 1 dice for each model from that 单位 within 6寸 of the bearer. For each 6, that 单位 suffers 1 mortal wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4257,7 +4257,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="9b77-d767-8ec3-b297" name="Hammer of Aetheric Might" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s melee weapons. If the unmodified hit roll for an attack made with that weapon is 6, that attack inflicts 1 mortal wound on the target in addition to its normal damage.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon is 6, that attack inflicts 1 mortal wound on the target in addition to its normal damage.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4286,7 +4286,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="87aa-8c02-7412-dfe0" name="Emergency Ventplates" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the enemy shooting phase, you can say that the bearer will use their Emergency Ventplates. If you do so, subtract 1 from hit rolls for attacks that target the bearer or any friendly 单位 wholly within 6寸 of the bearer.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the enemy 射击阶段, you can say that the bearer will use their Emergency Ventplates. If you do so, subtract 1 from hit rolls for attacks that target the bearer or any friendly 单位 wholly within 6寸 of the bearer.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4445,7 +4445,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="aff8-7dae-3f80-d4cf" name="Phosphorite Bomblets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your shooting phase, you can pick 1 单位 within 6寸 of this model and roll a dice. On a 2+, that 单位 suffers 1 mortal wound you can roll again. Keep on rolling until the target is destroyed or you roll a 1.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, you can pick 1 单位 within 6寸 of this model and roll a dice. On a 2+, that 单位 suffers 1 mortal wound you can roll again. Keep on rolling until the target is destroyed or you roll a 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4609,7 +4609,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="16ae-bceb-ddda-b3bf" name="Grudgehammer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons. Add 1 to hit rolls for attacks made by that weapon. In addition, if the unmodified wound roll for an attack made by that weapon targets an enemy 单位 which was picked for the Chronicle of Grudges 条款 is 6, that attack inflicts 3 mortal wounds on the target in addition to any normal damage.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. Add 1 to hit rolls for attacks made by that weapon. In addition, if the unmodified wound roll for an attack made by that weapon targets an enemy 单位 which was picked for the Chronicle of Grudges 条款 is 6, that attack inflicts 3 mortal wounds on the target in addition to any normal damage.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4637,7 +4637,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="19e7-46df-500e-177f" name="Aethersped Hammer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons. Add 2 to the Attack characteristic of that weapon.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. Add 2 to the Attack characteristic of that weapon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4665,7 +4665,7 @@ Once per phase, you can say that 1 单位 from your army that has any shares of 
               <profiles>
                 <profile id="19f2-4aad-6875-f22c" name="Staff of Ocular Optimization" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
                   <characteristics>
-                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s missile weapons. Add 1 to the hit rolls for attacks made by that weapon.</characteristic>
+                    <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s missile 武器. Add 1 to the hit rolls for attacks made by that weapon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4718,7 +4718,7 @@ No more than 7 models can hitch a lift on the same SKYVESSEL in the same turn.</
     </profile>
     <profile id="70e6-5a48-61e1-ab98" name="Gaze of Grungni" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4732,9 +4732,9 @@ No more than 7 models can hitch a lift on the same SKYVESSEL in the same turn.</
         <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, you can pick 1 friendly SKYVESSEL within 1寸 of this model. Heal 3 wounds allocated to that SKYVESSEL.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e873-a35a-fbf1-333c" name="Aethermatic Saw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="e873-a35a-fbf1-333c" name="以太链锯剑" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4750,9 +4750,9 @@ No more than 7 models can hitch a lift on the same SKYVESSEL in the same turn.</
 If you do so, you can re-roll any of the dice that determine how many wounds are healed by that 引擎机工 单位 in that phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1237-93a8-9a08-68eb" name="Gun Butt" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="1237-93a8-9a08-68eb" name="枪托" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4761,9 +4761,9 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="32c3-b317-f5fc-c3ee" name="Aethermatic Volley Gun (Arkanauts)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="32c3-b317-f5fc-c3ee" name="以太连发枪 (Arkanauts)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -4774,7 +4774,7 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
     </profile>
     <profile id="694c-8767-6019-7412" name="Atmospheric Anatomiser" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3D6</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4785,7 +4785,7 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
     </profile>
     <profile id="ebf3-1b11-b294-2d63" name="Heavy Instruments" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4804,9 +4804,9 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
         <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made by enemy models while they are within 3寸 of any friendly models with this ability. This ability cannot be used by an 以太化学家 that is part of a garrison.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9af5-3294-a7d1-26e5" name="Boarding Weapons" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="9af5-3294-a7d1-26e5" name="舰载武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4840,24 +4840,24 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
         <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, you can pick 1 friendly Skyvessel within 1寸 of this 单位 and roll 1 dice for each model in this 单位. For each 4+, heal 1 wound allocated to that Skyvessel.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b36d-3a09-bd80-f888" name="Grapnel Launcher" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+    <profile id="b36d-3a09-bd80-f888" name="抓钩发射器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Enemy units cannot retreat if they are within 3寸 of any models from this 单位 armed with a Grapnel Launcher.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Enemy units cannot retreat if they are within 3寸 of any models from this 单位 armed with a 抓钩发射器.</characteristic>
       </characteristics>
     </profile>
-    <profile id="88bc-f22c-e0a8-9853" name="Skyhook" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+    <profile id="88bc-f22c-e0a8-9853" name="天钩" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to charge rolls for this 单位 if any models from this 单位 are armed with a Skyhook.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to charge rolls for this 单位 if any models from this 单位 are armed with a 天钩.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a76-8c3f-0661-bc75" name="Drill Launcher" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+    <profile id="1a76-8c3f-0661-bc75" name="钻头发射器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a Drill Launcher is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 钻头发射器 is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
       </characteristics>
     </profile>
-    <profile id="7526-d8d0-ee2a-fab1" name="Drill Launcher" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="7526-d8d0-ee2a-fab1" name="钻头发射器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4866,9 +4866,9 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
       </characteristics>
     </profile>
-    <profile id="bc64-1e96-817b-df63" name="Grapnel Launcher or Skyhook" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="bc64-1e96-817b-df63" name="抓钩发射器 或 天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4877,9 +4877,9 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="a9b2-7f29-648a-91e0" name="Aethermatic Volley Gun" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+    <profile id="a9b2-7f29-648a-91e0" name="以太连发枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4890,7 +4890,7 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
     </profile>
     <profile id="612f-9a19-8770-3f69" name="Honour is Everything" hidden="false" typeId="011e-0bf8-5310-7fc6" typeName="1) 条款">
       <characteristics>
-        <characteristic name="细节" typeId="f6f3-7ccb-f03b-76de">You can re-roll hit rolls of 1 for attacks made by friendly KHARADRON OVERLORDS HEROES that target a 英雄 or 怪兽.</characteristic>
+        <characteristic name="细节" typeId="f6f3-7ccb-f03b-76de">可以重投命中骰的1 for attacks made by friendly KHARADRON OVERLORDS HEROES that target a 英雄 or 怪兽.</characteristic>
       </characteristics>
     </profile>
     <profile id="ad34-333f-8d53-a2e1" name="Master the Skies" hidden="false" typeId="011e-0bf8-5310-7fc6" typeName="1) 条款">
@@ -4920,7 +4920,7 @@ If you do so, you can re-roll any of the dice that determine how many wounds are
     </profile>
     <profile id="42e8-50ef-2e5e-943b" name="Grudgebearer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
       <characteristics>
-        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">After armies are set up, pick 1 enemy 英雄. Double the damage inflicted by weapons used by this general that target that 英雄.</characteristic>
+        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">After armies are set up, pick 1 enemy 英雄. Double the damage inflicted by 武器 used by this general that target that 英雄.</characteristic>
       </characteristics>
     </profile>
     <profile id="bd2f-9c3d-18be-804a" name="Prudency Chutes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">

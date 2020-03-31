@@ -131,7 +131,7 @@
     <categoryEntry id="0124-e1e8-c2e7-ef6b" name="MAZRALL THE BUTCHER" hidden="false"/>
     <categoryEntry id="0d42-43fb-57b1-0841" name="SKAARAC THE BLOODBORN" hidden="false"/>
     <categoryEntry id="ad6e-0a22-fb09-e66d" name="GIGANTIC CHAOS SPAWN" hidden="false"/>
-    <categoryEntry id="f486-dd97-6af4-bd89" name="VORGAROTH THE SCARRED &amp; SKALOK THE SKULL HOST OF KHORNE" hidden="false"/>
+    <categoryEntry id="f486-dd97-6af4-bd89" name="VORGAROTH THE SCARRED 和 SKALOK THE SKULL HOST OF KHORNE" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="3a9d-107d-4df8-1346" name="Aspiring Deathbringer" hidden="false" collective="false" import="true" targetId="c098-9c13-471b-7fc8" type="selectionEntry">
@@ -353,7 +353,7 @@
     <entryLink id="85bb-fd8e-2611-8937" name="阵型: Bloodmarked Warband" hidden="false" collective="false" import="true" targetId="552b-50ad-cd20-d625" type="selectionEntry"/>
     <entryLink id="2edd-afe1-6bdd-6fd8" name="阵型: Skall&apos;uk&apos;s Slaughterband (Open Play)" hidden="false" collective="false" import="true" targetId="4029-82e5-afde-0d4f" type="selectionEntry"/>
     <entryLink id="ea5a-c7d5-39a3-f17a" name="阵型: Goreblade Warband (Open Play) [Starter Set 阵型]" hidden="false" collective="false" import="true" targetId="bcdb-55cb-80d1-c1b4" type="selectionEntry"/>
-    <entryLink id="e41e-d85c-2fa1-7f9c" name="Vorgaroth the Scarred &amp; Skalok the Skull Host of Khorne" hidden="false" collective="false" import="true" targetId="21cb-7a81-d3f9-5c05" type="selectionEntry">
+    <entryLink id="e41e-d85c-2fa1-7f9c" name="Vorgaroth the Scarred 和 Skalok the Skull Host of Khorne" hidden="false" collective="false" import="true" targetId="21cb-7a81-d3f9-5c05" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1796-c5cc-172f-56fc" name="巨兽" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="7762-4b37-8848-3151" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -470,7 +470,7 @@
         </profile>
         <profile id="a455-aa4d-6f28-8f34" name="Slaughter Incarnate" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, add 1 to the Attacks characteristic of melee weapons used by friendly KHORNE MORTAL units while they are wholly within 12寸 of that model. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that phase, add 1 to the Attacks characteristic of 肉搏 武器 used by friendly KHORNE MORTAL units while they are wholly within 12寸 of that model. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="d0f7-aafe-ae08-7b09" name="Bane of Cowards" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -488,13 +488,13 @@
         <categoryLink id="22d8-78fc-97d7-37bb" name="New CategoryLink" hidden="false" targetId="7bbb-0a60-709a-6952" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="35b9-5efe-63de-964a" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="57cc-05f8-a255-d1b9">
+        <selectionEntryGroup id="35b9-5efe-63de-964a" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="57cc-05f8-a255-d1b9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="606b-29f6-3ec3-225f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff1b-3dee-856b-e64c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="47b3-88ec-1635-e022" name="Bloodaxe &amp; Wrath-hammer" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="47b3-88ec-1635-e022" name="Bloodaxe 和 Wrath-hammer" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -508,7 +508,7 @@
               <profiles>
                 <profile id="6fe7-db7c-ee41-167a" name="Bloodaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -519,7 +519,7 @@
                 </profile>
                 <profile id="8b51-deb0-4a18-bde9" name="Wrath-hammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -533,14 +533,14 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="57cc-05f8-a255-d1b9" name="Goreaxe &amp; Skullhammer" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="57cc-05f8-a255-d1b9" name="Goreaxe 和 Skullhammer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="463a-257d-e699-de57" type="max"/>
               </constraints>
               <profiles>
                 <profile id="11e6-3b6f-784b-3cc6" name="Goreaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -551,7 +551,7 @@
                 </profile>
                 <profile id="e8fa-0406-8bad-eb16" name="Skullhammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -802,7 +802,7 @@
       <profiles>
         <profile id="fbd0-c517-2490-054c" name="Hellblades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -829,7 +829,7 @@
       <profiles>
         <profile id="76cd-600f-8285-cf50" name="Gnashing Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -867,12 +867,12 @@
         </profile>
         <profile id="e674-6b12-4e9b-1db5" name="Chaos Champion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Chaos Champion. Add 1 to the Attacks characteristic of that model&apos;s Goreaxe(s).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Chaos Champion. Add 1 to the Attacks characteristic of that model&apos;s Goreaxe(s).</characteristic>
           </characteristics>
         </profile>
         <profile id="9255-e045-eda9-bf3b" name="No Respite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model from this 单位 is slain in the combat phase, before that model is removed from play, that model can make a pile-in move and then attack wtih all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model from this 单位 is slain in the combat phase, before that model is removed from play, that model can make a pile-in move and then attack wtih all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -915,7 +915,7 @@
           <profiles>
             <profile id="286e-5d6a-5cd2-146f" name="Goreglaive" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -946,7 +946,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fad9-b262-3889-16ca" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="554b-39c8-fcb5-c0ed">
+        <selectionEntryGroup id="fad9-b262-3889-16ca" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="554b-39c8-fcb5-c0ed">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="70e8-39fa-d3b5-c03d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c024-58ee-06c3-3cdb" type="max"/>
@@ -959,7 +959,7 @@
               <profiles>
                 <profile id="00d4-fb47-87f9-e61d" name="Gorefists" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If an unmodified save roll for an attack made with a melee weapon that targets a 单位 that includes any models armed with a Goreaxe and Gorefist is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If an unmodified save roll for an attack made with a 肉搏 weapon that targets a 单位 that includes any models armed with a Goreaxe and Gorefist is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -977,7 +977,7 @@
               <profiles>
                 <profile id="87b5-b99f-67af-eb41" name="Goreaxes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for models armed with a pair of Goreaxes.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for models armed with a pair of Goreaxes.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -999,7 +999,7 @@
       <profiles>
         <profile id="63c1-c8de-d4cc-8f56" name="Frenzied Charge" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by a 单位 from this 阵型 if that 单位 made a charge move in the same turn.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by a 单位 from this 阵型 if that 单位 made a charge move in the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1223,7 +1223,7 @@
       <profiles>
         <profile id="3b68-27f9-8081-695a" name="Juggernaut&apos;s Brazen Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1241,7 +1241,7 @@
       <profiles>
         <profile id="26ae-945c-99e8-8efb" name="Feast of Wrath" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Immediately after a 单位 of WRATHMONGERS from this 阵型 has fought in your combat phase for the first time that pase, if that 单位 is within 3寸 of any enemy units and wholly within 8寸 of a SKULLGRINDER from the same 阵型, that 单位 can immediately make a pile-in move and then attack with all of the melee weapons it is armed with for a second time.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Immediately after a 单位 of WRATHMONGERS from this 阵型 has fought in your combat phase for the first time that pase, if that 单位 is within 3寸 of any enemy units and wholly within 8寸 of a SKULLGRINDER from the same 阵型, that 单位 can immediately make a pile-in move and then attack with all of the 肉搏 武器 it is armed with for a second time.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1334,12 +1334,12 @@
         </profile>
         <profile id="ddb4-7cf6-da0e-67da" name="Chieftain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Chieftain. Add 1 to the Attacks characteristic of that model&apos;s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Chieftain. Add 1 to the Attacks characteristic of that model&apos;s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="5190-b17d-b718-5294" name="Frenzied Devotion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s melee weapons while this 单位 is wholly within 16寸 of any friendly KHORNE TOTEMS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s 肉搏 武器 while this 单位 is wholly within 16寸 of any friendly KHORNE TOTEMS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1400,7 +1400,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="806d-2e4c-1aaa-e454" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b24-bb27-15f1-f660">
+        <selectionEntryGroup id="806d-2e4c-1aaa-e454" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="4b24-bb27-15f1-f660">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d24-3d15-a186-a75d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfdf-b99f-52d7-b596" type="max"/>
@@ -1410,7 +1410,7 @@
               <profiles>
                 <profile id="295f-fad0-6d9c-188d" name="Reaver Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1421,7 +1421,7 @@
                 </profile>
                 <profile id="9ee9-21b9-7457-17df" name="Reaver Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for models attacks made with Reaver Blades.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for models attacks made with Reaver Blades.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1433,7 +1433,7 @@
               <profiles>
                 <profile id="7c83-9106-22a6-8bef" name="Meatripper Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1471,7 +1471,7 @@
         </profile>
         <profile id="1fed-101c-b6c3-52ae" name="Rage of Khorne" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of melee weapons used by friendly KHORNE units while they are wholly within 16寸 of any models with this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly KHORNE units while they are wholly within 16寸 of any models with this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1493,7 +1493,7 @@
           <profiles>
             <profile id="a0dd-75ed-487c-78cc" name="Ensorcelled Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1550,7 +1550,7 @@
           <profiles>
             <profile id="7ead-cc4b-c496-1e94" name="Torture Blade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1572,7 +1572,7 @@
           <profiles>
             <profile id="9ac6-6ae1-b252-00d7" name="Blood Whip" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -1910,7 +1910,7 @@
       <profiles>
         <profile id="bb71-2cc1-422a-af51" name="Feeding Frenzy" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by BLOODREAVERS units from this 阵型 while they are wholly within 16寸 of a SLAUGHTERPRIEST from the same 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by BLOODREAVERS units from this 阵型 while they are wholly within 16寸 of a SLAUGHTERPRIEST from the same 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1988,7 +1988,7 @@
         </profile>
         <profile id="4038-864b-a028-21af" name="Blooded Lieutenant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is not your general, add 2 to the Attacks characteristic of this model&apos;s melee weapons while it is wholly within 12寸 of a friendly KHORNE general.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is not your general, add 2 to the Attacks characteristic of this model&apos;s 肉搏 武器 while it is wholly within 12寸 of a friendly KHORNE general.</characteristic>
           </characteristics>
         </profile>
         <profile id="c722-e315-4770-5ea4" name="Brutal Command" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -2006,20 +2006,20 @@
         <categoryLink id="886a-e366-87d0-813b" name="New CategoryLink" hidden="false" targetId="5238-dca9-ae44-5836" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9806-6225-5da8-6fc9" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb32-8c3a-845d-6be4">
+        <selectionEntryGroup id="9806-6225-5da8-6fc9" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb32-8c3a-845d-6be4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d00d-b845-ef10-40af" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09af-7b34-245b-7d98" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4572-2ab0-352d-23b1" name="Bloodbite Axe &amp; Runemarked Shield" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4572-2ab0-352d-23b1" name="Bloodbite Axe 和 Runemarked Shield" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af9e-97e2-4e9e-e8b8" type="max"/>
               </constraints>
               <profiles>
                 <profile id="febe-ed7f-7494-4119" name="Bloodbite Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2038,14 +2038,14 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="14c1-4cae-ab80-7268" name="Ruinous Axe &amp; Skullgouger" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="14c1-4cae-ab80-7268" name="Ruinous Axe 和 Skullgouger" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7a26-3945-cb09-2a4d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="c6fd-1b5e-6df4-b13c" name="Ruinous Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2076,7 +2076,7 @@
                 </profile>
                 <profile id="4894-0980-fbc9-a1af" name="Impaling Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2109,7 +2109,7 @@
       <profiles>
         <profile id="77ed-672a-e576-4910" name="Frenzied Devotion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s melee weapons while this 单位 is wholly within 16寸 of any friendly KHORNE TOTEMS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of this 单位&apos;s 肉搏 武器 while this 单位 is wholly within 16寸 of any friendly KHORNE TOTEMS.</characteristic>
           </characteristics>
         </profile>
         <profile id="f38c-25be-5141-cbfc" name="Garrek&apos;s Reavers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -2145,7 +2145,7 @@
               <profiles>
                 <profile id="6256-374c-f95d-a8fa" name="Saek&apos;s Meatripper Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2190,7 +2190,7 @@
               <profiles>
                 <profile id="73bd-6c4b-8d2f-69ee" name="Garrek&apos;s Blooddrinker Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2223,7 +2223,7 @@
               <profiles>
                 <profile id="bdf4-7d32-fcb8-8972" name="Karsus&apos; Chained Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2256,7 +2256,7 @@
               <profiles>
                 <profile id="1a34-890d-b1da-d7b7" name="Reaver Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2267,7 +2267,7 @@
                 </profile>
                 <profile id="99c4-e810-efd5-af8d" name="Reaver Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made with Reaver Blades.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made with Reaver Blades.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2294,7 +2294,7 @@
               <profiles>
                 <profile id="e13b-276f-58df-76a5" name="Reaver Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2305,7 +2305,7 @@
                 </profile>
                 <profile id="662d-3cc9-0afe-4d61" name="Reaver Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls of 1 for attacks made with Reaver Blades.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">可以重投命中骰的1 for attacks made with Reaver Blades.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2399,7 +2399,7 @@
       <profiles>
         <profile id="9b8a-f4e2-dc8d-4d31" name="The Cannons of Khorne" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls for attacks made with missile weapons by SKULL CANNONS from this 阵型 that are wholly within 12寸 of a HERALD OF KHORNE ON BLOOD THRONE from the same 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls for attacks made with missile 武器 by SKULL CANNONS from this 阵型 that are wholly within 12寸 of a HERALD OF KHORNE ON BLOOD THRONE from the same 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2501,7 +2501,7 @@
           <profiles>
             <profile id="be30-9a1c-b131-9250" name="Gore-slick Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2523,7 +2523,7 @@
           <profiles>
             <profile id="15b1-8378-40e8-1f7b" name="Three Savage Maws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -2585,7 +2585,7 @@
               <profiles>
                 <profile id="6952-3ac6-c96c-756d" name="Claws and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">5</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2648,7 +2648,7 @@
         </profile>
         <profile id="0115-960c-b720-6f0f" name="Lord of the Goretide" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability that is a general. Until the end of that phase, you can re-roll hit rolls of 1 for attacks made by friendly GORETIDE units wholly within 16寸 of that model.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability that is a general. Until the end of that phase, 可以重投命中骰的1 for attacks made by friendly GORETIDE units wholly within 16寸 of that model.</characteristic>
           </characteristics>
         </profile>
         <profile id="257a-2d27-ce54-e4b4" name="Korghos Khul" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -2684,7 +2684,7 @@
           <profiles>
             <profile id="6d77-5cdd-cb72-2b55" name="Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2711,7 +2711,7 @@
           <profiles>
             <profile id="aa2f-0d4a-1540-352f" name="Claws and Fangs" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2776,7 +2776,7 @@
           <profiles>
             <profile id="dcf9-8a51-8d5d-a833" name="Wrathforged Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2860,7 +2860,7 @@
           <profiles>
             <profile id="322f-a7ed-2695-2a41" name="Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2887,7 +2887,7 @@
           <profiles>
             <profile id="efd5-0b4f-36c5-4a70" name="Flesh Hound&apos;s Blood-dark Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -2940,12 +2940,12 @@
         </profile>
         <profile id="eb39-a14f-7990-c1ce" name="Skullhunter" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Skullhunter. Add 1 to the Attacks characteristic of that model&apos;s melee weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Skullhunter. Add 1 to the Attacks characteristic of that model&apos;s 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="2291-44d9-962c-c8b2" name="Murderous Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a model in this 单位 makes a charge move, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 2+ that enemy 单位 suffers 1 mortal wound. If this 单位 has more than 1 model, roll to determine if mortal wounds are inflicted after each model completes its charge move, but do not allocate the mortal wounds until after all of the models in the 单位 have moved. If this 单位 has 6 or more models when it makes a charge move, change the mortal wounds inflicted by this ability from 1 to D3.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After a model in this 单位 makes a charge move, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 2+ that enemy 单位 suffers 1 mortal wound. If this 单位 has more than 1个模型, roll to determine if mortal wounds are inflicted after each model completes its charge move, but do not allocate the mortal wounds until after all of the models in the 单位 have moved. If this 单位 has 6 or more models when it makes a charge move, change the mortal wounds inflicted by this ability from 1 to D3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2974,7 +2974,7 @@
           <profiles>
             <profile id="6a02-7f40-bc17-9834" name="Hornblowers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3 models in this 单位 can be a Hornblower. Add 1 to run and charge rolls made for this 单位 while it includes any Hornblowers.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3个模型 in this 单位 can be a Hornblower. Add 1 to run and charge rolls made for this 单位 while it includes any Hornblowers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2989,7 +2989,7 @@
           <profiles>
             <profile id="722e-034e-12c7-4b05" name="Standard Bearers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3 models in this 单位 can be a Standard Bearer. Add 2 to the Bravery characteristic of this 单位 while it includes any Standard Bearers.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 in every 3个模型 in this 单位 can be a Standard Bearer. Add 2 to the Bravery characteristic of this 单位 while it includes any Standard Bearers.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2999,7 +2999,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d142-9c81-7606-32ca" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="905a-077e-51b8-1b5c">
+        <selectionEntryGroup id="d142-9c81-7606-32ca" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="905a-077e-51b8-1b5c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f246-2e3e-211b-c4d0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8d8-bc7c-20a9-d3a3" type="max"/>
@@ -3009,7 +3009,7 @@
               <profiles>
                 <profile id="1f0c-41c7-fb48-6fb8" name="Bloodglaive" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3027,7 +3027,7 @@
               <profiles>
                 <profile id="ff5f-6e19-e782-f78b" name="Ensorcelled Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3240,7 +3240,7 @@
           <profiles>
             <profile id="e4e2-945f-cf2d-f3b2" name="Brutal Fists" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3262,7 +3262,7 @@
           <profiles>
             <profile id="fd43-f8c5-31c7-2da8" name="Serpentine Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3326,7 +3326,7 @@
           <profiles>
             <profile id="836d-8512-88fe-82d9" name="Bloodstorm Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">2+</characteristic>
@@ -3386,7 +3386,7 @@
           <profiles>
             <profile id="279b-ef8c-9da0-fc76" name="Brazen Anvil" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3422,12 +3422,12 @@
         </profile>
         <profile id="f80e-90e3-ce35-ac6c" name="Skullseeker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 is a Skullseeker. That model is armed with a Vicious Mutation in addition to its 其他 weapons.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 is a Skullseeker. That model is armed with a Vicious Mutation in addition to its 其他 武器.</characteristic>
           </characteristics>
         </profile>
         <profile id="5917-8006-124a-a2d6" name="Vicious Mutation" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3443,10 +3443,10 @@
         </profile>
         <profile id="c3ae-2258-4491-9832" name="Murderous to the Last" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not take battleshock tests for this 单位. In addition, roll a dice each time a model from this 单位 is slain by an attack made with a melee weapon, before the model is removed from play. ON a 5+ pick 1 enemy 单位 within 1寸 of the slain model. That 单位 suffers D3 mortal wounds after all of its attacks have been resolved.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not take battleshock tests for this 单位. In addition, roll a dice each time a model from this 单位 is slain by an attack made with a 肉搏 weapon, before the model is removed from play. ON a 5+ pick 1 enemy 单位 within 1寸 of the slain model. That 单位 suffers D3 mortal wounds after all of its attacks have been resolved.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e9c9-4552-54f2-8876" name="Daemonforged Weapons" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="e9c9-4552-54f2-8876" name="Daemonforged 武器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with this 单位&apos;s Gore-slick Blades, Daemonblades, Spinecleavers, and Soultearers is 6, that attack inflicts 1 mortal wound in addition to any normal damage.</characteristic>
           </characteristics>
@@ -3492,7 +3492,7 @@
           <profiles>
             <profile id="8048-bc0d-4970-0449" name="Gore-slick Blades, Daemonblades, Spinecleavers, and Soultearers" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -3674,7 +3674,7 @@
       <profiles>
         <profile id="e80c-7a31-854f-4c06" name="Mightiest of Champions" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of melee weapons used by units from this 阵型. In addition, while a 单位 from this 阵型 is wholly within 8寸 of at least two 其他 units from the same battakoin, add 1 to hit rolls for attacks made by that 单位.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by units from this 阵型. In addition, while a 单位 from this 阵型 is wholly within 8寸 of at least two 其他 units from the same battakoin, add 1 to hit rolls for attacks made by that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3768,7 +3768,7 @@
       <profiles>
         <profile id="ed0e-7614-cb13-9f75" name="Inward to Bloodshed" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Worsen the Rend characteristic of melee weapons and for attacks that target a 单位 from this 阵型 by 1 (to a minimum of 0).</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Worsen the Rend characteristic of 肉搏 武器 and for attacks that target a 单位 from this 阵型 by 1 (to a minimum of 0).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3839,7 +3839,7 @@
         </profile>
         <profile id="eb12-25ff-e00d-4e88" name="Runes of Binding" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you set up a Slaughterbrute of Khorne, you can pick a KHORNE MORTAL 英雄 in your army to be its master (a model cannot be the master of more than one Slaughterbrute - the effort 需要 would be fatal). As long as the Slaughterbrute&apos;s master is on the battlefield, the Slaughterbrute&apos;s melee weapons hit on rolls of 3+ rather than 4+.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you set up a Slaughterbrute of Khorne, you can pick a KHORNE MORTAL 英雄 in your army to be its master (a model cannot be the master of more than one Slaughterbrute - the effort 需要 would be fatal). As long as the Slaughterbrute&apos;s master is on the battlefield, the Slaughterbrute&apos;s 肉搏 武器 hit on rolls of 3+ rather than 4+.</characteristic>
           </characteristics>
         </profile>
         <profile id="8721-2bae-f32d-799f" name="Beast Unbound" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -3863,7 +3863,7 @@
           <profiles>
             <profile id="bf01-bdf5-d1fe-fbb3" name="Razor-tipped Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3885,7 +3885,7 @@
           <profiles>
             <profile id="b539-3575-63ea-83ce" name="Mighty Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -3907,7 +3907,7 @@
           <profiles>
             <profile id="b5fa-914c-71c0-2c57" name="Lesser Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4013,20 +4013,20 @@
         <categoryLink id="b108-ebb3-960c-85ba" name="New CategoryLink" hidden="false" targetId="7f35-c3fd-d226-25c3" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="28a8-2726-c4ca-ec15" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="d01c-b03e-4f0e-c991">
+        <selectionEntryGroup id="28a8-2726-c4ca-ec15" name="武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="d01c-b03e-4f0e-c991">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93ed-a2f6-ecf9-ad32" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d7a-1657-c8b6-7356" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d01c-b03e-4f0e-c991" name="Hackblade &amp; Wrath-hammer" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d01c-b03e-4f0e-c991" name="Hackblade 和 Wrath-hammer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="81d5-dc2a-7865-ad6b" type="max"/>
               </constraints>
               <profiles>
                 <profile id="83a9-f656-dc97-76c5" name="Hackblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4037,7 +4037,7 @@
                 </profile>
                 <profile id="78be-aadd-7b5c-2040" name="Wrath-hammer" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4058,7 +4058,7 @@
               <profiles>
                 <profile id="5f42-2e1a-17e9-2d5d" name="Bloodbathed Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4105,7 +4105,7 @@
         </profile>
         <profile id="fd1d-5b4c-00d3-6ee6" name="Daemonshield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from wound rolls for attacks made with melee weapons that target this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from wound rolls for attacks made with 肉搏 武器 that target this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="6264-8c20-304a-6304" name="On Bloodstained Wings" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -4136,7 +4136,7 @@
           <profiles>
             <profile id="68c0-a5f6-3749-3de9" name="Slaupnir" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4172,12 +4172,12 @@
         </profile>
         <profile id="5dd8-4b27-6605-2992" name="Wrathmaster" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1 model in this 单位 can be a Wrathmaster. Add 1 to the Attacks characteristic of that model&apos;s Wrath-flails.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">1个模型 in this 单位 can be a Wrathmaster. Add 1 to the Attacks characteristic of that model&apos;s Wrath-flails.</characteristic>
           </characteristics>
         </profile>
         <profile id="1a10-e5b6-f319-6702" name="Crimson Haze" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of melee weapons used by KHORNE units while they are wholly within 8寸 of any units with this ability. This ability has no effect on WRATHMONGERS.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Attacks characteristic of 肉搏 武器 used by KHORNE units while they are wholly within 8寸 of any units with this ability. This ability has no effect on WRATHMONGERS.</characteristic>
           </characteristics>
         </profile>
         <profile id="0858-2443-a610-441c" name="Bloodfury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4216,7 +4216,7 @@
           <profiles>
             <profile id="8bbc-f5c7-1bb6-c729" name="Wrath-flails" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4239,7 +4239,7 @@
       <profiles>
         <profile id="9b90-ee4c-0ee4-79f6" name="Arch-Slaughterer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time an attack made by this general with a melee weapon slays an enemy 英雄 or 怪兽, you receive 2 Blood Tithe points instead of 1.</characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time an attack made by this general with a 肉搏 weapon slays an enemy 英雄 or 怪兽, you receive 2 Blood Tithe points instead of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4263,7 +4263,7 @@
       <profiles>
         <profile id="b06e-5048-480e-2a9b" name="Slaughterborn" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with melee weapons by this general.</characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with 肉搏 武器 by this general.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4324,7 +4324,7 @@
       <profiles>
         <profile id="2f8a-b830-fa9a-6ed1" name="No Respite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model from this 单位 is slain inthe combat phase, before that model is removed formplay, that model can make a pile-in move and then attack with all of the melee weapons it is armed with.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model from this 单位 is slain inthe combat phase, before that model is removed formplay, that model can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="f78a-2fc8-6391-ec14" name="Blood Scent" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4363,7 +4363,7 @@
           <profiles>
             <profile id="d59c-6c20-569f-4f29" name="Magore&apos;s Belly Maw" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4385,7 +4385,7 @@
           <profiles>
             <profile id="6d8b-d2c3-90c8-acfe" name="Gorefist" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If an unmodified save roll for an attack made with a melee weapon that targets a 单位 that includes any models armed with a Goreaxe and Gorefist is 6, the attacking 单位 suffers 1 mortal wound after all of its awttacks have been resolved.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If an unmodified save roll for an attack made with a 肉搏 weapon that targets a 单位 that includes any models armed with a Goreaxe and Gorefist is 6, the attacking 单位 suffers 1 mortal wound after all of its awttacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4405,7 +4405,7 @@
           <profiles>
             <profile id="e958-1453-2c78-ba3a" name="Magore&apos;s Daemonic Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4474,7 +4474,7 @@
           <profiles>
             <profile id="5baa-d555-0cea-f552" name="Blood-dark Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4619,7 +4619,7 @@
           <profiles>
             <profile id="40a9-daae-f616-95eb" name="Brutal Blades" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -4641,7 +4641,7 @@
           <profiles>
             <profile id="f37d-34b5-6489-0132" name="Thunderous Hooves" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4717,7 +4717,7 @@
           <profiles>
             <profile id="e18b-0ad0-1d79-63a0" name="Freakish Mutations" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4812,7 +4812,7 @@
           <profiles>
             <profile id="1b7b-81af-48d9-87ba" name="Freakish Mutations" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4834,7 +4834,7 @@
           <profiles>
             <profile id="d57e-9a48-0056-8edb" name="Slavering Maws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -4882,7 +4882,7 @@
         </profile>
         <profile id="f80f-9893-eae1-a7e6" name="Hooked Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5189,7 +5189,7 @@
           <profiles>
             <profile id="fc41-d804-cfd5-fe82" name="Blood Rage" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
               <characteristics>
-                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any 英雄 from a Bloodmarked Warband slays an enemy model in the combat phase, then all 其他 units from that warband within 16寸 become filled with an unstoppable blood rage. Add 1 to the Attacks of any melee weapons used by those units for the rest of the combat phase.</characteristic>
+                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any 英雄 from a Bloodmarked Warband slays an enemy model in the combat phase, then all 其他 units from that warband within 16寸 become filled with an unstoppable blood rage. Add 1 to the Attacks of any 肉搏 武器 used by those units for the rest of the combat phase.</characteristic>
               </characteristics>
             </profile>
             <profile id="1ec9-b952-9fe1-cf8f" name="Brand of the Blood God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -5199,7 +5199,7 @@
             </profile>
             <profile id="c17e-d143-482e-4f8c" name="Raised to Greatness" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
               <characteristics>
-                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 英雄 from this warband is slain, pick another model in the warband that is not a 英雄. That model adds 1 to the Attacks of all its melee weapons, becomes a 英雄, and is treated as a separate 单位 for the rest of the Battle.</characteristic>
+                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 英雄 from this warband is slain, pick another model in the warband that is not a 英雄. That model adds 1 to the Attacks of all its 肉搏 武器, becomes a 英雄, and is treated as a separate 单位 for the rest of the Battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5457,7 +5457,7 @@
         </profile>
         <profile id="7e24-7d0d-60cb-d736" name="Khorne Cares Not From Whence The Blood Flows" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any units are wiped out during the combat phase, you can add 1 to the Attacks characteristic of all melee weapons used by the Goreblade Warband for the remainder of that combat phase.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any units are wiped out during the combat phase, you can add 1 to the Attacks characteristic of all 肉搏 武器 used by the Goreblade Warband for the remainder of that combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5576,7 +5576,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21cb-7a81-d3f9-5c05" name="Vorgaroth the Scarred &amp; Skalok the Skull Host of Khorne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="21cb-7a81-d3f9-5c05" name="Vorgaroth the Scarred 和 Skalok the Skull Host of Khorne" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbd9-6bd2-cd00-6aa4" type="max"/>
       </constraints>
@@ -5598,7 +5598,7 @@
         </profile>
         <profile id="1a24-6136-786e-8aee" name="Fettered Servitude" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before you take a battleshock test for a friendly KHORNE 单位 wholly within 12寸 of this model, you can say that this model demands unwavering obedience. If you do so, 1 model in that 单位 is slain, but you do not have to take a battleshock test for that 单位 in that phase. If you do not do so, and the battleshock test for that 单位 is failed, add D3 to the number of models that flee from that 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before you take a battleshock test for a friendly KHORNE 单位 wholly within 12寸 of this model, you can say that this model demands unwavering obedience. If you do so, 1个模型 in that 单位 is slain, but you do not have to take a battleshock test for that 单位 in that phase. If you do not do so, and the battleshock test for that 单位 is failed, add D3 to the number of models that flee from that 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="a4e1-1320-8e7b-3bea" name="Fueled by Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -5611,7 +5611,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 3 from casting and unbinding rolls for enemy 法师 models that are within 18寸 of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6d69-5b39-1615-a342" name="Vorgaroth the Scarred &amp; Skalok the Skull Host of Khorne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="6d69-5b39-1615-a342" name="Vorgaroth the Scarred 和 Skalok the Skull Host of Khorne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">30</characteristic>
@@ -5630,7 +5630,7 @@
         <categoryLink id="96f6-b3aa-8e92-e0e6" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
         <categoryLink id="a722-b97b-cb6c-f10e" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="f97d-db8c-b704-810d" name="MORTAL" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false"/>
-        <categoryLink id="dee7-8fd5-8376-597b" name="VORGAROTH THE SCARRED &amp; SKALOK THE SKULL HOST OF KHORNE" hidden="false" targetId="f486-dd97-6af4-bd89" primary="false"/>
+        <categoryLink id="dee7-8fd5-8376-597b" name="VORGAROTH THE SCARRED 和 SKALOK THE SKULL HOST OF KHORNE" hidden="false" targetId="f486-dd97-6af4-bd89" primary="false"/>
         <categoryLink id="5689-d61d-4e38-af52" name="Unique" hidden="false" targetId="088b-3a27-03f7-8249" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5642,7 +5642,7 @@
           <profiles>
             <profile id="09f4-c4e9-8861-bfd2" name="White-hot Balefire" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">20寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5664,7 +5664,7 @@
           <profiles>
             <profile id="f1d4-8e82-5ac2-b3ec" name="Skull Cleaver Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">12</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -5686,7 +5686,7 @@
           <profiles>
             <profile id="7166-bdee-3266-3b4b" name="Eviscerating Claws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -5708,7 +5708,7 @@
           <profiles>
             <profile id="2fc8-e788-52ca-2e88" name="Cavernous Jaws" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5730,7 +5730,7 @@
           <profiles>
             <profile id="e4ab-910c-95ad-7969" name="Brass-plated Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -5811,7 +5811,7 @@
       <profiles>
         <profile id="e789-734d-0ab4-a102" name="Hellblade" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
-            <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+            <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
             <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -6072,7 +6072,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="ad58-b80a-67b2-d328" name="Artefacts: Daemonic Weapons" hidden="false" collective="false" import="true" targetId="3401-856a-e55b-4191" type="selectionEntryGroup">
+        <entryLink id="ad58-b80a-67b2-d328" name="Artefacts: Daemonic 武器" hidden="false" collective="false" import="true" targetId="3401-856a-e55b-4191" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -6215,7 +6215,7 @@
           <profiles>
             <profile id="c81e-0d24-fb45-075d" name="Disciple of Khorne" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Attacks characteristic of this general&apos;s melee weapons.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to the Attacks characteristic of this general&apos;s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6276,7 +6276,7 @@
           <profiles>
             <profile id="40fe-f184-8f80-2d9c" name="Banner of Rage" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls of 1 for attacks made with melee weapons by friendly KHORNE units that are wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">可以重投命中骰的1 for attacks made with 肉搏 武器 by friendly KHORNE units that are wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6384,7 +6384,7 @@
           <profiles>
             <profile id="3bdf-097b-c56e-8e1a" name="The Blade of Endless Bloodshed" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons. Improve the Rend characteristic of that weapon by 1.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. Improve the Rend characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6399,7 +6399,7 @@
           <profiles>
             <profile id="d31e-bab1-a963-a21e" name="Mark of the Destroyer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s melee weapons. Add 2 to the Attacks characteristic of that weapon.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. Add 2 to the Attacks characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6431,7 +6431,7 @@
   <sharedProfiles>
     <profile id="1e59-b134-d86a-40da" name="Khorne Cares Not From Whence The Blood Flows" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
       <characteristics>
-        <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any units are wiped out during the combat phase, you can add 1 to the Attacks characteristic of all melee weapons used by this 阵型 for the remainder of that combat phase.</characteristic>
+        <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If any units are wiped out during the combat phase, you can add 1 to the Attacks characteristic of all 肉搏 武器 used by this 阵型 for the remainder of that combat phase.</characteristic>
       </characteristics>
     </profile>
     <profile id="6967-3d69-b8ab-31c6" name="The Blood God&apos;s Scorn" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -6451,7 +6451,7 @@
     </profile>
     <profile id="1ebc-6dfb-5777-dfab" name="Goreaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>

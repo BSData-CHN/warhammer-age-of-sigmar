@@ -332,7 +332,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c759-f2ae-2167-d0a5" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a893-12ae-ba9c-0fd4">
+        <selectionEntryGroup id="c759-f2ae-2167-d0a5" name="武器选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="a893-12ae-ba9c-0fd4">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -387,7 +387,7 @@
           <profiles>
             <profile id="8e5c-190d-0d1a-dbe4" name="Totemic Staff" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -459,7 +459,7 @@
       <profiles>
         <profile id="6c4f-04ca-7c20-3c1f" name="Waaagh!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If an Orruk Warboss uses this ability, then all ORRUK units from your army that are within 12寸 when they attack in your next combat phase are frenzied. All models in these units make 1 extra attack with all of their melee weapons.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If an Orruk Warboss uses this ability, then all ORRUK units from your army that are within 12寸 when they attack in your next combat phase are frenzied. All models in these units make 1 extra attack with all of their 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -469,7 +469,7 @@
         </rule>
       </rules>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b38f-9652-ac40-cfce" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec2c-3ba5-7cb2-e679">
+        <selectionEntryGroup id="b38f-9652-ac40-cfce" name="武器选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="ec2c-3ba5-7cb2-e679">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -482,7 +482,7 @@
               <profiles>
                 <profile id="0410-7e33-2fcf-d3f5" name="Boss Choppas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -508,7 +508,7 @@
               <profiles>
                 <profile id="4b37-fba0-8e67-3f77" name="Boss Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -534,7 +534,7 @@
               <profiles>
                 <profile id="e634-75ee-19e5-39c5" name="Great Waaagh! Banner" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -560,7 +560,7 @@
               <profiles>
                 <profile id="d3f2-a1df-be51-f69f" name="Massive Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -654,7 +654,7 @@
         </profile>
         <profile id="2b1b-60d3-f8e0-43e8" name="Waaagh!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If an Orruk Warboss on Wyvern uses this ability, then all ORRUK units from your army that are within 12寸 when they attack in your next combat phase are frenzied. All models in these units make 1 extra attack with all of their melee weapons.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If an Orruk Warboss on Wyvern uses this ability, then all ORRUK units from your army that are within 12寸 when they attack in your next combat phase are frenzied. All models in these units make 1 extra attack with all of their 肉搏 武器.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -718,7 +718,7 @@
           <profiles>
             <profile id="eb57-c7f2-7903-7c12" name="Wyvern&apos;s Barbed, Venomous Tail" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -740,7 +740,7 @@
           <profiles>
             <profile id="19cf-e1ed-f8c2-98ee" name="Wyvern&apos;s Horns, Claws and Teeth" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
-                <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
                 <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -756,7 +756,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a3c7-7983-657e-0bc2" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="28a9-1dbe-9f62-7e33">
+        <selectionEntryGroup id="a3c7-7983-657e-0bc2" name="武器选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="28a9-1dbe-9f62-7e33">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -771,7 +771,7 @@
                 </profile>
                 <profile id="373f-cb5a-a97e-554f" name="Boss Choppas" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -797,7 +797,7 @@
                 </profile>
                 <profile id="bf6a-9de6-6a36-36af" name="Boss Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
@@ -835,7 +835,7 @@
         </profile>
         <profile id="c8ee-66a2-871d-4818" name="Mob Rule" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Orruks make 1 extra attack with their melee weapons if their 单位 has 20 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Orruks make 1 extra attack with their 肉搏 武器 if their 单位 has 20 or more models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -919,7 +919,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="65c7-ea51-e7ac-1dd0" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="8206-2e9c-9644-bcc8">
+        <selectionEntryGroup id="65c7-ea51-e7ac-1dd0" name="武器选项" hidden="false" collective="false" import="true" defaultSelectionEntryId="8206-2e9c-9644-bcc8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -956,7 +956,7 @@
               <profiles>
                 <profile id="b42f-5ebe-443f-1bc8" name="Orruk Bow" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Missile</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
@@ -967,7 +967,7 @@
                 </profile>
                 <profile id="1259-c5c5-3f08-7e23" name="Cutta" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
-                    <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+                    <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                     <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
                     <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -993,7 +993,7 @@
               <profiles>
                 <profile id="fac4-179f-bec3-3ef7" name="Choppas" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Wielding two weapons gives an Orruk a better chance of landing a blow. You can re-roll hit rolls of 1 for a model attacking with two Choppas.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Wielding two 武器 gives an Orruk a better chance of landing a blow. 可以重投命中骰的1 for a model attacking with two Choppas.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1080,7 +1080,7 @@
     </profile>
     <profile id="a0e5-4c01-9371-34fb" name="War Boar&apos;s Tusks" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1101,7 +1101,7 @@
     </profile>
     <profile id="b825-e23d-3dab-a80e" name="Pigstikka Spear" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1112,7 +1112,7 @@
     </profile>
     <profile id="0b24-24d0-8dba-5d4d" name="Choppa" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
@@ -1123,7 +1123,7 @@
     </profile>
     <profile id="94a8-c226-f44c-e15b" name="Spore Squig’s Vicious Teef" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
-        <characteristic name="类型" typeId="655c-362e-a663-3e50">Melee</characteristic>
+        <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
         <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
         <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>

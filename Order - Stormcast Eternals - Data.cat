@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82b4-f6e1-3e37-5ea1" name="秩序 - Stormcast Eternals - Data" revision="52" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82b4-f6e1-3e37-5ea1" name="秩序 - 雷铸神兵 - Data" revision="52" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="ed04-877b-pubN65537" name="Order Battletome: Stormcast Eternals (2nd Edition)"/>
-    <publication id="ed04-877b-pubN71576" name="Battletome: Stormcast Eternals (2nd Edition)"/>
-    <publication id="ed04-877b-pubN71830" name="Battletome: Stormcast Eternals, Errata July 2018"/>
-    <publication id="ed04-877b-pubN100815" name="Order Battletome Stormcast Eternals"/>
-    <publication id="ed04-877b-pubN101748" name="Order Official FAQs and errata, Version 1.4"/>
+    <publication id="ed04-877b-pubN65537" name="秩序军书: 雷铸神兵 (2nd Edition)"/>
+    <publication id="ed04-877b-pubN71576" name="军书: 雷铸神兵 (2nd Edition)"/>
+    <publication id="ed04-877b-pubN71830" name="军书: 雷铸神兵, Errata July 2018"/>
+    <publication id="ed04-877b-pubN100815" name="秩序军书 雷铸神兵"/>
+    <publication id="ed04-877b-pubN101748" name="秩序官方FAQ和勘误, 版本 1.4"/>
     <publication id="ed04-877b-pubN110200" name="Blightwar"/>
     <publication id="ed04-877b-pubN117503" name="Warhammer World Exclusive"/>
     <publication id="ed04-877b-pubN126219" name="White Dwarf: Feb 2019"/>
@@ -102,7 +102,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="81f4-ef16-b80c-6926" name="Allegiance: Stormcast Eternals" publicationId="ed04-877b-pubN65537" page="116" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="81f4-ef16-b80c-6926" name="Allegiance: 雷铸神兵" publicationId="ed04-877b-pubN65537" page="116" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1de2-9aa8-2e5c-12d5" name="Scions of the Storm" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -116,7 +116,7 @@
                 </profile>
                 <profile id="b030-9956-546a-8c13" name="Stormhosts" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If your army is a Stormcast Eternals army, you can give it a Stormhost keyword. All STORMCAST ETERNAL units in your army gain that keyword. If a model already has a Stormhost keyword, it cannot gain another one, but this does not prevent 其他 units in your army from having a different Stormhost keyword. You can either choose one of the Stormhosts in the list, or choose another Stormhost you&apos;ve read about or created yourself. If you choose from the list below, all units with that keyword benefit from the extra abilities listed for that Stormhost. If you choose a different Stormhost, simply pick the Stormhost that most closely matches the nature of your own Stormhost.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If your army is a 雷铸神兵 army, you can give it a Stormhost keyword. All STORMCAST ETERNAL units in your army gain that keyword. If a model already has a Stormhost keyword, it cannot gain another one, but this does not prevent 其他 units in your army from having a different Stormhost keyword. You can either choose one of the Stormhosts in the list, or choose another Stormhost you&apos;ve read about or created yourself. If you choose from the list below, all units with that keyword benefit from the extra abilities listed for that Stormhost. If you choose a different Stormhost, simply pick the Stormhost that most closely matches the nature of your own Stormhost.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5572,7 +5572,7 @@
         </profile>
         <profile id="5c3d-a1d1-6de3-29ce" name="First to be Forged" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">The Hammers of Sigmar were the first Stormcast Eternals, the most veteran of Sigmar&apos;s superhuman warriors.  All units in a Hammer of Sigmar Warrior Chamber increase their Bravery characteristic by 1.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">The Hammers of Sigmar were the first 雷铸神兵, the most veteran of Sigmar&apos;s superhuman warriors.  All units in a Hammer of Sigmar Warrior Chamber increase their Bravery characteristic by 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="347e-3dce-ce18-dd95" name="Heralds of the God-Kings" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -8056,7 +8056,7 @@
         <categoryLink id="08a2-29af-f096-27a3" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="46ca-3f78-6b4e-8a3a" name="HUMAN" hidden="false" targetId="2308-7db2-829e-94b3" primary="false"/>
         <categoryLink id="a010-38ac-b1c8-c90e" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="be62-b176-2f48-aea8" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
+        <categoryLink id="be62-b176-2f48-aea8" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
         <categoryLink id="5ed4-a4f3-91e0-ec41" name="KNIGHT-ZEPHYROS" hidden="false" targetId="9488-aaef-57c2-445b" primary="false"/>
         <categoryLink id="c6ba-ca99-b5dc-ca21" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -8153,7 +8153,7 @@
       <categoryLinks>
         <categoryLink id="b577-13ab-da7c-3c01" name="CELESTIAL" hidden="false" targetId="7c69-4225-cf08-7991" primary="false"/>
         <categoryLink id="eb9e-c6e7-65b5-fef6" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
-        <categoryLink id="b9f1-08db-b876-38d2" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
+        <categoryLink id="b9f1-08db-b876-38d2" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
         <categoryLink id="1fbc-5f1d-7693-6f73" name="HUMAN" hidden="false" targetId="2308-7db2-829e-94b3" primary="false"/>
         <categoryLink id="9fe4-56ba-db4f-b0e8" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="a8ab-236d-2990-44bb" name="SACROSANCT" hidden="false" targetId="c697-a15a-76d4-5329" primary="false"/>
@@ -8362,7 +8362,7 @@
         <categoryLink id="79b5-5e8e-5d73-d67b" name="HUMAN" hidden="false" targetId="2308-7db2-829e-94b3" primary="false"/>
         <categoryLink id="7d6b-f71c-fbc6-5d7d" name="DRACOLINE" hidden="false" targetId="c83b-e760-c03a-7031" primary="false"/>
         <categoryLink id="0d78-eb74-1072-8a1f" name="SACROSANCT" hidden="false" targetId="c697-a15a-76d4-5329" primary="false"/>
-        <categoryLink id="1db5-45ea-7889-5a50" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
+        <categoryLink id="1db5-45ea-7889-5a50" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
         <categoryLink id="4167-3148-b1b3-772a" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="68e5-731d-7491-6f7b" name="LORD-ARCANUM" hidden="false" targetId="e278-4f31-d3f9-2c34" primary="false"/>
         <categoryLink id="21ac-b037-4131-711b" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -8452,7 +8452,7 @@
         <categoryLink id="cb1f-20fd-7ec0-e241" name="HUMAN" hidden="false" targetId="2308-7db2-829e-94b3" primary="false"/>
         <categoryLink id="164d-bc71-1ed8-611b" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="47ac-b30b-fb06-b64d" name="SACROSANCT" hidden="false" targetId="c697-a15a-76d4-5329" primary="false"/>
-        <categoryLink id="aab2-2253-4de1-988e" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
+        <categoryLink id="aab2-2253-4de1-988e" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false"/>
         <categoryLink id="3142-8fea-45a8-9184" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="d9e0-e3f7-396d-aea1" name="LORD-EXORCIST" hidden="false" targetId="23c1-58a3-fb87-cbfc" primary="false"/>
         <categoryLink id="86e0-990b-450f-adcd" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -11155,7 +11155,7 @@
           <profiles>
             <profile id="5edd-4a1f-d7bb-189f" name="Scroll of Condemnation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this artefact. If they do so, pick an enemy 英雄 within 12寸 of the bearer. Until the end of that turn, add 1 to wound rolls for attacks made by friendly STORMCAST ETERNALS that target that model.</characteristic>
+                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this artefact. If they do so, pick an enemy 英雄 within 12寸 of the bearer. Until the end of that turn, add 1 to wound rolls for attacks made by friendly 雷铸神兵 that target that model.</characteristic>
               </characteristics>
             </profile>
           </profiles>

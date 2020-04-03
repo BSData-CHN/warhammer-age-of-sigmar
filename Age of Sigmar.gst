@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e51d-b1a3-75fc-dc33" name="西格玛时代" revision="59" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e51d-b1a3-75fc-dc33" name="西格玛时代" revision="59" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="e51d-b1a3-pubEC" name="将军手册"/>
     <publication id="e51d-b1a3-pubEQ" name="核心规则"/>
@@ -133,9 +133,9 @@
     <categoryEntry id="b970-b3bf-e1a4-a6fc" name="ORDER" hidden="false"/>
     <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="DEATH" hidden="false"/>
     <categoryEntry id="d963-a5fb-c348-2371" name="DESTRUCTION" hidden="false"/>
-    <categoryEntry id="2654-58fb-a46f-b28d" name="KHARADRON OVERLORDS" hidden="false"/>
+    <categoryEntry id="2654-58fb-a46f-b28d" name="卡拉顿天空霸主" hidden="false"/>
     <categoryEntry id="9efd-7c5d-dc14-2302" name="DAUGHTERS OF KHAINE" hidden="false"/>
-    <categoryEntry id="b396-0600-80d6-cee9" name="STORMCAST ETERNALS" hidden="false"/>
+    <categoryEntry id="b396-0600-80d6-cee9" name="雷铸神兵" hidden="false"/>
     <categoryEntry id="de6f-3fcb-09b2-a59e" name="SYLVANETH" hidden="false"/>
     <categoryEntry id="1f30-24b4-f90b-c2c2" name="DARKLING COVENS" hidden="false"/>
     <categoryEntry id="4e6a-bfb6-606f-fc89" name="DISPOSSESSED" hidden="false"/>

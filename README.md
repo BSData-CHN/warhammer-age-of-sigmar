@@ -1,10 +1,10 @@
 Warhammer 西格玛时代 2018 Edition
 ============================
 
-[![GitHub release](https://img.shields.io/github/release/BSData/warhammer-age-of-sigmar.svg?style=flat-square)](https://github.com/BSData/warhammer-age-of-sigmar/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/BSData/warhammer-age-of-sigmar.svg?style=flat-square)](https://github.com/BSData-CHN/WH-AOS-Chinese-Localization/releases/latest)
 ![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/warhammer-age-of-sigmar/latest.svg?style=flat-square)
 [![AppVeyor master branch](https://img.shields.io/appveyor/ci/BSData/warhammer-age-of-sigmar/master.svg?style=flat-square)](https://ci.appveyor.com/project/BSData/warhammer-age-of-sigmar)
-[![Gitter](https://img.shields.io/gitter/room/BSData/warhammer-age-of-sigmar.svg?style=flat-square)](https://gitter.im/BSData/warhammer-age-of-sigmar)
+[![Gitter](https://img.shields.io/gitter/room/BSData/warhammer-age-of-sigmar.svg?style=flat-square)](https://github.com/BSData-CHN/WH-AOS-Chinese-Localization)
 
 ## Important ##
 [Important]: #important
@@ -50,12 +50,12 @@ The Catalogs have been updated to support Matched Play points and FAQ's for the 
 * __I'd just like to contact you.__
 
   Then join us on the Warhammer 西格玛时代 Gitter!  
- [![Join the chat at Gitter](https://badges.gitter.im/BSData/warhammer-age-of-sigmar.svg)](https://gitter.im/BSData/warhammer-age-of-sigmar?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+ [![Join the chat at Gitter](https://badges.gitter.im/BSData/warhammer-age-of-sigmar.svg)](https://github.com/BSData-CHN/WH-AOS-Chinese-Localization?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
  
   _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we all have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
 
 [Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
-[Open Issue directly]: https://github.com/BSData/warhammer-age-of-sigmar/issues
+[Open Issue directly]: https://github.com/BSData-CHN/WH-AOS-Chinese-Localization/issues
 
 ## Links ##
 
@@ -68,4 +68,4 @@ The Catalogs have been updated to support Matched Play points and FAQ's for the 
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
-[WAoS Catalog Wiki - Implementation Guidelines]: https://github.com/BSData/warhammer-age-of-sigmar/wiki/Implementation-Guidelines
+[WAoS Catalog Wiki - Implementation Guidelines]: https://github.com/BSData-CHN/WH-AOS-Chinese-Localization/wiki/Implementation-Guidelines

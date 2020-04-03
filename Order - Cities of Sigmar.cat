@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="522a-d5b0-4c7e-321d" name="秩序 - Cities of Sigmar" revision="21" battleScribeVersion="2.03" authorName="https://gitter.im/BSData/warhammer-age-of-sigmar" authorContact="@BSData" authorUrl="https://github.com/BSData/warhammer-age-of-sigmar" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="522a-d5b0-4c7e-321d" name="秩序 - Cities of Sigmar" revision="21" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="deec-d475-pubN65537" name="Grand Alliance: Order"/>
-    <publication id="e440-9199-1072-a7a0" name="Cities of Sigmar Battletome"/>
+    <publication id="e440-9199-1072-a7a0" name="Cities of Sigmar 军书"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="2e31-b1a1-10c7-22d4" name="GRIFFON" hidden="false"/>
@@ -282,7 +282,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="ca6f-37ff-283b-3cdb" name="Scenery" hidden="false" targetId="bc8a-9257-1601-6d62" primary="false"/>
-        <categoryLink id="cac2-cc6c-9b33-8854" name="STORMCAST ETERNALS" hidden="false" targetId="b396-0600-80d6-cee9" primary="false">
+        <categoryLink id="cac2-cc6c-9b33-8854" name="雷铸神兵" hidden="false" targetId="b396-0600-80d6-cee9" primary="false">
           <modifiers>
             <modifier type="increment" field="e07a-8193-2b4d-f3ae" value="1.0">
               <repeats>
@@ -309,7 +309,7 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="943a-11bb-9439-5959" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f044-a157-4e18-453d" name="KHARADRON OVERLORDS" hidden="false" targetId="2654-58fb-a46f-b28d" primary="false">
+        <categoryLink id="f044-a157-4e18-453d" name="卡拉顿天空霸主" hidden="false" targetId="2654-58fb-a46f-b28d" primary="false">
           <modifiers>
             <modifier type="increment" field="1b55-0c66-b2fe-c821" value="1.0">
               <repeats>
@@ -1425,7 +1425,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="40a7-f61a-bd3d-4e3b" name="Stormkeeps" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">1 in every 4 units in a Cities of Sigmar army can be a STORMCAST ETERNALS 单位. Those units gain the CITIES OF SIGMAR keyword and the city keyword chosen for your army.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">1 in every 4 units in a Cities of Sigmar army can be a 雷铸神兵 单位. Those units gain the CITIES OF SIGMAR keyword and the city keyword chosen for your army.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1642,7 +1642,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                         </profile>
                         <profile id="1a85-e824-9759-d1cb" name="Standing Contracts" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Tempest’s Eye army can include KHARADRON OVERLORDS units. 1 in every 4 units in the army can be a KHARADRON OVERLORDS 单位. Those units gain the CITIES OF SIGMAR keyword and the TEMPEST’S EYE keyword.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Tempest’s Eye army can include 卡拉顿天空霸主 units. 1 in every 4 units in the army can be a 卡拉顿天空霸主 单位. Those units gain the CITIES OF SIGMAR keyword and the TEMPEST’S EYE keyword.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="889e-b505-7819-fa37" name="Rapid Redeploy" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -11499,8 +11499,8 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="22e0-2a9a-1fc7-b22e" name="秩序 - Kharadron Overlords - Data" targetId="3981-271d-5871-845b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - Stormcast Eternals - Data" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="22e0-2a9a-1fc7-b22e" name="秩序 - 卡拉顿天空霸主 - 数据" targetId="3981-271d-5871-845b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - 雷铸神兵 - Data" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="0d03-03c0-3de1-50fc" name="秩序 - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

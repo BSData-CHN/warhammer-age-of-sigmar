@@ -3,7 +3,7 @@
   <publications>
     <publication id="e23c-3deb-pubN65537" name="秩序军书: 卡拉顿天空霸主"/>
     <publication id="e23c-3deb-pubN66862" name="秩序官方FAQ和勘误, 版本 1.4"/>
-    <publication id="e23c-3deb-pubN72781" name="军书: 雷铸神兵 '17'"/>
+    <publication id="e23c-3deb-pubN72781" name="军书: 雷铸神兵 &apos;17&apos;"/>
     <publication id="9f8c-de34-da67-5e71" name="以太战争"/>
   </publications>
   <profileTypes>
@@ -3287,11 +3287,11 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0cb8-ad19-8612-9cd8" name="阵型: Intrepid Prospectors" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0cb8-ad19-8612-9cd8" name="阵型: 无畏勘探者" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="12da-ac0a-5a97-ae8f" name="This&apos;ll Be Quick Work" publicationId="9f8c-de34-da67-5e71" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
+        <profile id="12da-ac0a-5a97-ae8f" name="尽快工作" publicationId="9f8c-de34-da67-5e71" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
           <characteristics>
-            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">After armies have been set up but before the first battle round begins, you can move friendly units from this 阵型 up to 6寸.</characteristic>
+            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">部署结束第一轮开始之前,你可以移动此阵型中单位6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3305,7 +3305,7 @@
             <entryLink id="9cdc-0c26-7850-9dbb" name="*锤击炮艇" hidden="false" collective="false" import="true" targetId="fb69-6292-fcca-fba7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="af28-a73c-d684-bdd5" name="3) 1 单位 of 3 天空守卫" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc49-9914-df73-b2ff">
+        <selectionEntryGroup id="af28-a73c-d684-bdd5" name="3) 1个3个模型的天空守卫单位" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc49-9914-df73-b2ff">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7161-19b3-c11a-d1c1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625f-e4d1-9087-5fe8" type="max"/>
@@ -3314,7 +3314,7 @@
             <entryLink id="dc49-9914-df73-b2ff" name="*天空守卫" hidden="false" collective="false" import="true" targetId="6891-3bc7-0d14-3e01" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0df6-b508-9a13-8711" name="2) 1 单位 of 3 引擎机工" hidden="false" collective="false" import="true" defaultSelectionEntryId="0cdc-9b72-b347-8bbe">
+        <selectionEntryGroup id="0df6-b508-9a13-8711" name="2) 1个3个模型引擎机工单位" hidden="false" collective="false" import="true" defaultSelectionEntryId="0cdc-9b72-b347-8bbe">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad9-ab78-fee1-f9c2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b31-65f5-5e2f-2cc3" type="max"/>
@@ -3323,7 +3323,7 @@
             <entryLink id="0cdc-9b72-b347-8bbe" name="*引擎机工" hidden="false" collective="false" import="true" targetId="0064-c926-85e4-d674" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="80a1-ee70-d446-2c79" name="1) 引擎大师 in Dirigible Suit" hidden="false" collective="false" import="true" defaultSelectionEntryId="701f-b6ed-d9a5-67fc">
+        <selectionEntryGroup id="80a1-ee70-d446-2c79" name="1) 引擎大师-装备浮空装甲" hidden="false" collective="false" import="true" defaultSelectionEntryId="701f-b6ed-d9a5-67fc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="673d-6097-f7f9-b8e2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c008-cd2c-0f0d-f390" type="max"/>
@@ -3716,9 +3716,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64f-d038-a326-3134" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7c98-b408-9ec8-ff99" name="高超指挥" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="7c98-b408-9ec8-ff99" name="高超指挥" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将每消耗指挥点数使用自己规则上的指挥能力时，投 D6，若结果为 5+，你获得一点指挥点数。</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将每消耗指挥点数使用自己规则上的指挥能力时，投 D6，若结果为 5+，你获得一点指挥点数。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3736,9 +3736,9 @@
             </selectionEntry>
             <selectionEntry id="bd8c-d77e-0c11-655a" name="6. 航空员学者" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="afa6-adf5-f691-a6c1" name="航空员学者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="afa6-adf5-f691-a6c1" name="航空员学者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">你可以为你的军队额外选择一条不同的脚注</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">你可以为你的军队额外选择一条不同的脚注</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3748,9 +3748,9 @@
             </selectionEntry>
             <selectionEntry id="5df9-ad37-e97e-b182" name="4. 狡猾司令" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="fccc-1ee1-98b4-7faf" name="狡猾司令" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="fccc-1ee1-98b4-7faf" name="狡猾司令" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，第一个大回合开始前，一艘友方天舰可以进行一次普通移动，若不是航空铁甲舰，则也可以选择进行升空</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，第一个大回合开始前，一艘友方天舰可以进行一次普通移动，若不是航空铁甲舰，则也可以选择进行升空</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3760,9 +3760,9 @@
             </selectionEntry>
             <selectionEntry id="4c3b-e0c0-d3a5-109f" name="5. 身负战痕" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="32e2-76cf-087f-5c55" name="身负战痕" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="32e2-76cf-087f-5c55" name="身负战痕" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，为此主将投 D6，若结果为 1，则此主将命中骰结果-1，直到你的下个英雄阶段，若结果为 2+，则你获得一点指挥点数</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，为此主将投 D6，若结果为 1，则此主将命中骰结果-1，直到你的下个英雄阶段，若结果为 2+，则你获得一点指挥点数</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3831,9 +3831,9 @@
             </selectionEntry>
             <selectionEntry id="8aa1-a7ba-9fc0-2918" name="6. 工程教授" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="7166-a88d-d1ae-5d4a" name="工程教授" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="7166-a88d-d1ae-5d4a" name="工程教授" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">一回合一次，在你的英雄阶段，此主将可以不消耗指挥点数使用一次其格朗尼在上啊！我可盯着你呢！能力</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">一回合一次，在你的英雄阶段，此主将可以不消耗指挥点数使用一次其格朗尼在上啊！我可盯着你呢！能力</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3843,9 +3843,9 @@
             </selectionEntry>
             <selectionEntry id="a20e-7970-f5e7-28dd" name="5. 大修补匠" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="91cd-6c96-b4fe-8a7d" name="大修补匠" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="91cd-6c96-b4fe-8a7d" name="大修补匠" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将的格朗尼凝视攻击次数+2</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将的格朗尼凝视攻击次数+2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3855,9 +3855,9 @@
             </selectionEntry>
             <selectionEntry id="53fa-fe46-fdd3-4796" name="4. 机工宗师" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="f4b4-5719-2416-0387" name="机工宗师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="f4b4-5719-2416-0387" name="机工宗师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将使用引擎大师能力时，可回复的血量值+1</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将使用引擎大师能力时，可回复的血量值+1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3904,9 +3904,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07f9-942e-c14a-e142" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7012-a9d2-38b0-c580" name="进步冠军" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="7012-a9d2-38b0-c580" name="进步冠军" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">友方纳尔港单位完全位于此主将 12 寸内时不进行震慑测试。</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">友方纳尔港单位完全位于此主将 12 寸内时不进行震慑测试。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3932,9 +3932,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3df-84f1-9f36-e4f4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ff68-485d-fea3-4c41" name="背负铁星" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="ff68-485d-fea3-4c41" name="背负铁星" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将第一次被杀死时，在移出桌面之前，投 D6，若结果为 2+，则此主将不被杀死，回复 D3 点生命值且无视所有待分配的伤害。</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将第一次被杀死时，在移出桌面之前，投 D6，若结果为 2+，则此主将不被杀死，回复 D3 点生命值且无视所有待分配的伤害。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3960,9 +3960,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6af-6e91-6046-50ed" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a269-1dde-add0-ae8a" name="投机空盗" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="a269-1dde-add0-ae8a" name="投机空盗" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">在双方军队布置完成后，第一个大回合开始前，若此主将驻守在一艘友方天舰中，则你可以将这艘天舰移出桌面并重新布置到任意敌方的 9 寸外的位置，若如此重新布置，此天舰在第一个大回合中无法进行普通移动，驻守其中的单位也不能离舰</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">在双方军队布置完成后，第一个大回合开始前，若此主将驻守在一艘友方天舰中，则你可以将这艘天舰移出桌面并重新布置到任意敌方的 9 寸外的位置，若如此重新布置，此天舰在第一个大回合中无法进行普通移动，驻守其中的单位也不能离舰</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3988,9 +3988,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a5-51ba-6d31-586b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="caf8-2601-51c5-5160" name="极其坚忍" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="caf8-2601-51c5-5160" name="极其坚忍" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将的惊人坚忍能力只需 2+就可以生效。</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将的惊人坚忍能力只需 2+就可以生效。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4030,9 +4030,9 @@
             </selectionEntry>
             <selectionEntry id="7c51-bb36-8ae0-18ab" name="6. 探金师" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="b774-1bc0-323c-2654" name="探金师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="b774-1bc0-323c-2654" name="探金师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一片地形，友方卡拉顿天空霸主单位完全位于那片地形 12 寸内时不进行震慑测试</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一片地形，友方卡拉顿天空霸主单位完全位于那片地形 12 寸内时不进行震慑测试</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4042,9 +4042,9 @@
             </selectionEntry>
             <selectionEntry id="b847-125f-486f-08e3" name="5. 质疑魔法" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="620b-1509-97a9-379b" name="质疑魔法" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="620b-1509-97a9-379b" name="质疑魔法" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将破法骰和驱散骰结果+1</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将破法骰和驱散骰结果+1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4054,9 +4054,9 @@
             </selectionEntry>
             <selectionEntry id="88b3-1968-84c7-b86b" name="4. 驭风而行" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e16d-c1f4-2181-f066" name="驭风而行" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="e16d-c1f4-2181-f066" name="驭风而行" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">有此主将驻守的天舰移动力+3</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">有此主将驻守的天舰移动力+3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4066,9 +4066,9 @@
             </selectionEntry>
             <selectionEntry id="b769-a837-272a-ef17" name="3. 唤风者" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3153-525b-d760-33c4" name="唤风者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="3153-525b-d760-33c4" name="唤风者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将使用以太风暴能力时，可以重投决定效果的骰子</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将使用以太风暴能力时，可以重投决定效果的骰子</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4113,9 +4113,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e519-017b-d9fb-c089" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0025-2dbc-17cb-0eb4" name="首席化学家" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="0025-2dbc-17cb-0eb4" name="首席化学家" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">主将为以太化学家时才必须选用此特性
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">主将为以太化学家时才必须选用此特性
 此主将在使用以太强化能力时，可以选择最多 2 个符合条件的友方旅空单位为目标。</characteristic>
                   </characteristics>
                 </profile>
@@ -4150,9 +4150,9 @@
             </selectionEntry>
             <selectionEntry id="c526-6a3b-a3bb-e367" name="6. 攒金能手" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="517d-563b-c34b-0cc2" name="攒金能手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="517d-563b-c34b-0cc2" name="攒金能手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">若此主将拥有魔法道具，则你军队中可以有额外一个英雄获得魔法道具</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">若此主将拥有魔法道具，则你军队中可以有额外一个英雄获得魔法道具</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4162,9 +4162,9 @@
             </selectionEntry>
             <selectionEntry id="e56b-b760-eb63-f0e9" name="5. 发明天才" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="811c-5211-c1b4-89f9" name="发明天才" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="811c-5211-c1b4-89f9" name="发明天才" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将的以太强化范围从 12 寸变为 18 寸</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将的以太强化范围从 12 寸变为 18 寸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4174,9 +4174,9 @@
             </selectionEntry>
             <selectionEntry id="f56a-e0c9-1fcf-3978" name="4. 淘金熟手" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c6f5-3fca-4aff-aae6" name="淘金熟手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                <profile id="c6f5-3fca-4aff-aae6" name="淘金熟手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
                   <characteristics>
-                    <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，投 D6，若结果为 5+，则此主将获得一份以太金分成</characteristic>
+                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，投 D6，若结果为 5+，则此主将获得一份以太金分成</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4941,19 +4941,19 @@
         <characteristic name="细节" typeId="b7b8-2932-5eae-1dd0">友方莫卡拉顿天空霸主单位在奔跑的同回合仍可以射击。</characteristic>
       </characteristics>
     </profile>
-    <profile id="aa03-fe11-36bb-8ba2" name="富有以太金" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+    <profile id="aa03-fe11-36bb-8ba2" name="富有以太金" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
       <characteristics>
-        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将可以获得 2 份以太金分成。</characteristic>
+        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将可以获得 2 份以太金分成。</characteristic>
       </characteristics>
     </profile>
-    <profile id="6849-f269-fde1-941d" name="坚韧不拔" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+    <profile id="6849-f269-fde1-941d" name="坚韧不拔" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
       <characteristics>
-        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">此主将血量值+2</characteristic>
+        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将血量值+2</characteristic>
       </characteristics>
     </profile>
-    <profile id="42e8-50ef-2e5e-943b" name="负仇者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+    <profile id="42e8-50ef-2e5e-943b" name="负仇者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
       <characteristics>
-        <characteristic name="详情" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一个敌方英雄，此主将攻击那个英雄时武器伤害值翻倍</characteristic>
+        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一个敌方英雄，此主将攻击那个英雄时武器伤害值翻倍</characteristic>
       </characteristics>
     </profile>
     <profile id="bd2f-9c3d-18be-804a" name="逃生滑道" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a990-882b-7e62-27e9" name="Chaos - Beasts of Chaos - Data" revision="18" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a990-882b-7e62-27e9" name="混沌 - Beasts of 混沌 - Data" revision="18" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="c9b2-1fe6-pubN65537" name="军书: Beasts of Chaos"/>
+    <publication id="c9b2-1fe6-pubN65537" name="军书: Beasts of 混沌"/>
     <publication id="c9b2-1fe6-pubN83353" name="1"/>
   </publications>
   <profileTypes>
@@ -40,14 +40,14 @@
     <categoryEntry id="d809-dc0b-17c2-c7ac" name="WARHERD" hidden="false"/>
     <categoryEntry id="0eff-3787-7ce8-f79b" name="CYGOR" hidden="false"/>
     <categoryEntry id="d58d-ffaa-6d24-1a5e" name="GHORGON" hidden="false"/>
-    <categoryEntry id="4d26-d95f-9bcd-aeff" name="MONSTERS OF CHAOS" hidden="false"/>
-    <categoryEntry id="120a-b4f8-cf68-0480" name="CHAOS WARHOUNDS" hidden="false"/>
+    <categoryEntry id="4d26-d95f-9bcd-aeff" name="MONSTERS OF 混沌" hidden="false"/>
+    <categoryEntry id="120a-b4f8-cf68-0480" name="混沌 WARHOUNDS" hidden="false"/>
     <categoryEntry id="675d-4c51-5823-2962" name="JABBERSLYTHE" hidden="false"/>
     <categoryEntry id="e2f4-9429-13a3-c681" name="COCKATRICE" hidden="false"/>
-    <categoryEntry id="bb97-9935-5ccd-67b7" name="CHAOS SPAWN" hidden="false"/>
+    <categoryEntry id="bb97-9935-5ccd-67b7" name="混沌 SPAWN" hidden="false"/>
     <categoryEntry id="248f-83c5-8cea-6ac2" name="CHIMERA" hidden="false"/>
     <categoryEntry id="c2ae-c785-1e40-0891" name="GARGANT" hidden="false"/>
-    <categoryEntry id="7fd3-01d8-3a52-8de5" name="CHAOS GARGANT" hidden="false"/>
+    <categoryEntry id="7fd3-01d8-3a52-8de5" name="混沌 GARGANT" hidden="false"/>
     <categoryEntry id="0a23-1dea-91f1-9ad3" name="DRAGON OGOR" hidden="false"/>
     <categoryEntry id="7020-fecd-a479-8a04" name="SHAGGOTH" hidden="false"/>
     <categoryEntry id="9a13-aa85-e9e2-9793" name="THUNDERSCORN" hidden="false"/>
@@ -60,7 +60,7 @@
     <categoryEntry id="ade4-b2f0-af54-5333" name="ALLHERD" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="9a9a-7579-ec51-6d76" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9a9a-7579-ec51-6d76" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -82,19 +82,19 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04c9-810f-2f9a-91d2" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="04c9-810f-2f9a-91d2" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b1-fb45-9f89-cd21" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bf-32cd-f7fb-63d1" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="1378-5154-1483-85b9">
+        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="1378-5154-1483-85b9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ca-ff17-9618-e0d6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e129-c3f9-1b86-c60c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a509-a616-4749-8806" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a509-a616-4749-8806" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="981a-8106-b589-1dd0" name="Unbridled Malice" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>
@@ -102,7 +102,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1378-5154-1483-85b9" name="Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1378-5154-1483-85b9" name="Beasts of 混沌" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="13b2-0db3-c165-f113" name="The Herdstone" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -111,7 +111,7 @@
                 </profile>
                 <profile id="8647-a131-ae8b-f5c0" name="Brayherd Ambush" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a BRAYHERD 单位 on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve 单位. You can set up one reserve 单位 in ambush for each BEASTS OF CHAOS 单位 you have set up on the battlefield. At the end of your first movement phase, you must set up all friendly reserve units that are in ambush on the battlefield, wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units. Any reserve units that cannot be set up are slain</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a BRAYHERD 单位 on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve 单位. You can set up one reserve 单位 in ambush for each BEASTS OF 混沌 单位 you have set up on the battlefield. At the end of your first movement phase, you must set up all friendly reserve units that are in ambush on the battlefield, wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units. Any reserve units that cannot be set up are slain</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8050-59e2-5042-987f" name="Creatures of the Storm" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -126,7 +126,7 @@
                 </profile>
                 <profile id="985e-c99e-95e4-57f2" name="Primordial Call" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can summon units of BEASTS OF CHAOS to the battlefield if you collect enough Primordial Call points. At the start of your 英雄阶段, you receive 1 Primordial Call point. In addition, in your 英雄阶段 you can choose one friendly BEASTS OF CHAOS 英雄 within 3寸 of the HERDSTONE you set up at the start of the battle and say that they will enact a savage blood ritual. If you do so, pick a friendly BEASTS OF CHAOS 单位 within 3寸 of the HERDSTONE. That 单位 suffers D3 mortal wounds. For each mortal wound inflicted on that 单位, you receive 1 Primordial Call point.   If you have 3 or more Primordial Call points at the end of your movement phase, you can summon one or more units from the following list onto the battlefield, and add them to your army. Each 单位 you summon costs a number of Primordial Call points, as shown on the list, and you can only summon a 单位 if you have enough Primordial Call points remaining to pay its cost. Summoned units must be set up wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units. Subtract the cost of the summoned 单位 from the number of Primordial Call points you have available immediately after it has been set up.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can summon units of BEASTS OF 混沌 to the battlefield if you collect enough Primordial Call points. At the start of your 英雄阶段, you receive 1 Primordial Call point. In addition, in your 英雄阶段 you can choose one friendly BEASTS OF 混沌 英雄 within 3寸 of the HERDSTONE you set up at the start of the battle and say that they will enact a savage blood ritual. If you do so, pick a friendly BEASTS OF 混沌 单位 within 3寸 of the HERDSTONE. That 单位 suffers D3 mortal wounds. For each mortal wound inflicted on that 单位, you receive 1 Primordial Call point.   If you have 3 or more Primordial Call points at the end of your movement phase, you can summon one or more units from the following list onto the battlefield, and add them to your army. Each 单位 you summon costs a number of Primordial Call points, as shown on the list, and you can only summon a 单位 if you have enough Primordial Call points remaining to pay its cost. Summoned units must be set up wholly within 6寸 of the edge of the battlefield and more than 9寸 from any enemy units. Subtract the cost of the summoned 单位 from the number of Primordial Call points you have available immediately after it has been set up.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7d8a-73ee-3eaa-c7a2" name="(13) 3 Tzaangor Enlightened" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
@@ -174,7 +174,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">9</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="4ca8-af44-1446-ff69" name="(04) Chaos Gargant" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="4ca8-af44-1446-ff69" name="(04) 混沌 Gargant" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">9</characteristic>
                   </characteristics>
@@ -204,7 +204,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">3</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="cc8b-e181-83b6-2bfc" name="(18) 1 Chaos Spawn" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="cc8b-e181-83b6-2bfc" name="(18) 1 混沌 Spawn" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">3</characteristic>
                   </characteristics>
@@ -219,7 +219,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">4</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="79c5-23bb-1ddc-0122" name="(15) 10 Chaos Warhounds" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="79c5-23bb-1ddc-0122" name="(15) 10 混沌 Warhounds" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">4</characteristic>
                   </characteristics>
@@ -245,7 +245,7 @@
                       <profiles>
                         <profile id="3507-f63b-153d-c352" name="Booming Roar" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段 if your general is on the battlefield. If you do so, you receive 1 Primordial Call point.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段 if your 主将 is on the battlefield. If you do so, you receive 1 Primordial Call point.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="817e-6396-8143-28aa" name="Bestial Might" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -265,12 +265,12 @@
                       <profiles>
                         <profile id="ad7b-6563-ff1a-10b9" name="Propagator of Devolution" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN 单位 wholly within 12寸 of a friendly GAVESPAWN CHAOS SPAWN. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 until the end of that phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN 单位 wholly within 12寸 of a friendly GAVESPAWN 混沌 SPAWN. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 until the end of that phase.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="2df4-e0c5-3e64-d8b7" name="Gift of Morghur" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN 英雄 is slain, roll a dice before removing the model. On a 2+ one CHAOS SPAWN is added to your army. Set up the CHAOS SPAWN anywhere on the battlefield within 6寸 of the slain 英雄. If the 英雄 had the KHORNE, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the CHAOS SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that CHAOS SPAWN .</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN 英雄 is slain, roll a dice before removing the model. On a 2+ one 混沌 SPAWN is added to your army. Set up the 混沌 SPAWN anywhere on the battlefield within 6寸 of the slain 英雄. If the 英雄 had the KHORNE, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the 混沌 SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that 混沌 SPAWN .</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -340,8 +340,8 @@
         <categoryLink id="ba7c-27ae-d765-d00c" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="aa96-df7e-4547-d3f3" name="BEASTLORD" hidden="false" targetId="a65c-12b4-8978-4013" primary="false"/>
         <categoryLink id="d268-0cda-178b-aed0" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
-        <categoryLink id="d086-4c45-41a6-f828" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="ad6b-7c9e-00e8-f75c" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="d086-4c45-41a6-f828" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="ad6b-7c9e-00e8-f75c" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="4ef6-3136-f37e-daf5" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -372,7 +372,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9da2-eaec-87e2-25dc" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9da2-eaec-87e2-25dc" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -429,10 +429,10 @@
         <categoryLink id="f4ed-e51b-812d-b35c" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="be7b-8f3c-fbd5-655d" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="413b-222d-670e-8b29" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
-        <categoryLink id="cf55-fa78-e537-1da4" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="cf55-fa78-e537-1da4" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="8de8-8538-a23b-2890" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="e8be-05c8-116d-a389" name="GREAT BRAY-SHAMAN" hidden="false" targetId="16b0-d1d2-6e48-f877" primary="false"/>
-        <categoryLink id="da84-8263-1777-8b3b" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="da84-8263-1777-8b3b" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6506-49a9-5ff3-909c" name="Devolve" hidden="false" collective="false" import="true" type="upgrade">
@@ -474,7 +474,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8d6e-7279-ad7d-ef2c" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8d6e-7279-ad7d-ef2c" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -569,8 +569,8 @@
       <categoryLinks>
         <categoryLink id="0da4-5cb5-dd6d-aa2d" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="1773-e2e4-3973-215a" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="a62e-c648-ed9e-9a1f" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="ba8b-c018-5813-3099" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="a62e-c648-ed9e-9a1f" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="ba8b-c018-5813-3099" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3f0c-643e-9d54-5037" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -683,8 +683,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="f686-99e8-d26e-8463" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="5e79-b04e-1d8b-ac08" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="260e-b5b8-27d7-eaca" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="5e79-b04e-1d8b-ac08" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="260e-b5b8-27d7-eaca" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3310-1c07-32ec-948e" name="UNGOR" hidden="false" targetId="1ecf-67b0-98d3-f870" primary="false"/>
         <categoryLink id="e68a-a608-9aaf-5558" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
@@ -787,9 +787,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="d60c-14c4-1c44-9c34" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="d60c-14c4-1c44-9c34" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="d830-00e2-e69c-18a6" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="3ce0-9261-1d9f-85b5" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3ce0-9261-1d9f-85b5" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="50f3-64f4-294f-1c57" name="UNGOR" hidden="false" targetId="1ecf-67b0-98d3-f870" primary="false"/>
         <categoryLink id="b5ec-1811-5632-3e74" name="UNGOR RAIDERS" hidden="false" targetId="bec6-9e93-870a-1018" primary="false"/>
       </categoryLinks>
@@ -916,9 +916,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7e88-43c4-f080-d797" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="7e88-43c4-f080-d797" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="e6f5-e02e-9e07-0eea" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="dea3-b705-2cc6-a834" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="dea3-b705-2cc6-a834" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="32ee-a7dd-e97b-7708" name="BESTIGORS" hidden="false" targetId="6188-9126-8813-8505" primary="false"/>
         <categoryLink id="975f-7065-4211-9e27" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="0a62-aa7e-637b-8942" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -980,9 +980,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="589d-d2a9-6cf1-720d" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="589d-d2a9-6cf1-720d" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="1278-b866-f0c9-9865" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="3b18-2b0a-8ff7-d9e0" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3b18-2b0a-8ff7-d9e0" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9d82-94be-4fdb-7dd6" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="0469-a0fb-0856-ee87" name="TUSKGOR CHARIOTS" hidden="false" targetId="91fd-3254-1b11-c779" primary="false"/>
       </categoryLinks>
@@ -1078,9 +1078,9 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="6bc2-b02c-b372-5116" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="6bc2-b02c-b372-5116" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="d254-9608-fbea-f871" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
-        <categoryLink id="e151-13a1-0923-de46" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="e151-13a1-0923-de46" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="fff8-b91e-26b0-aa36" name="DOOMBULL" hidden="false" targetId="dcec-7da2-0ccd-ca86" primary="false"/>
         <categoryLink id="54fe-41f2-7b81-5a05" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="ff10-af4f-34e2-c920" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
@@ -1130,7 +1130,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3d86-4ca7-c6bd-2867" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3d86-4ca7-c6bd-2867" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1233,7 +1233,7 @@
       <categoryLinks>
         <categoryLink id="41e0-d263-fde9-d36a" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3d07-e065-9443-8ebc" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="02bc-d130-69cb-a5bc" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="02bc-d130-69cb-a5bc" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="52d5-f9d3-732c-9551" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
         <categoryLink id="97ce-af30-3a1d-b4d3" name="CYGOR" hidden="false" targetId="0eff-3787-7ce8-f79b" primary="false"/>
         <categoryLink id="151a-adae-8599-1919" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
@@ -1360,9 +1360,9 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="ac57-0337-f837-7b19" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="84b8-4f76-a2ea-4dc6" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="84b8-4f76-a2ea-4dc6" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="a5a0-563e-2985-46d6" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
-        <categoryLink id="2f66-51ff-23dd-d727" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="2f66-51ff-23dd-d727" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="ae47-13e1-6548-8f78" name="GHORGON" hidden="false" targetId="d58d-ffaa-6d24-1a5e" primary="false"/>
         <categoryLink id="d941-833d-5856-492c" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
       </categoryLinks>
@@ -1416,9 +1416,9 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3975-c1f2-7a13-beb5" name="Chaos Warhounds" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3975-c1f2-7a13-beb5" name="混沌 Warhounds" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="1c53-7882-04a2-db69" name="Outrunners of Chaos" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="1c53-7882-04a2-db69" name="Outrunners of 混沌" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your movement phase, if you declare that this 单位 will run, do not make a run roll. Instead, add 6寸 to the Move characteristic of all models in this 单位 for that phase.</characteristic>
           </characteristics>
@@ -1426,12 +1426,12 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="dd73-1021-4c84-4051" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="11ef-b088-2207-85b4" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="4721-8fd3-4cf2-6d37" name="CHAOS WARHOUNDS" hidden="false" targetId="120a-b4f8-cf68-0480" primary="false"/>
-        <categoryLink id="bdbc-244c-5921-0899" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="11ef-b088-2207-85b4" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="4721-8fd3-4cf2-6d37" name="混沌 WARHOUNDS" hidden="false" targetId="120a-b4f8-cf68-0480" primary="false"/>
+        <categoryLink id="bdbc-244c-5921-0899" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2ed9-881b-645a-dd6f" name="10 Chaos Warhounds" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2ed9-881b-645a-dd6f" name="10 混沌 Warhounds" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="decrement" field="points" value="10">
               <conditions>
@@ -1444,7 +1444,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="312b-198e-be46-135c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c443-da81-baa1-7482" name="Chaos Warhound" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+            <profile id="c443-da81-baa1-7482" name="混沌 Warhound" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
               <characteristics>
                 <characteristic name="移动力" typeId="8655-6213-2824-1752">10寸</characteristic>
                 <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -1500,8 +1500,8 @@
       <categoryLinks>
         <categoryLink id="54f4-4323-ab0d-d226" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="82d1-043b-6c80-c202" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="7816-7278-44bc-2fab" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="1173-3cb5-e7da-6704" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="7816-7278-44bc-2fab" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="1173-3cb5-e7da-6704" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
         <categoryLink id="db14-d47b-2128-abcd" name="COCKATRICE" hidden="false" targetId="e2f4-9429-13a3-c681" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1598,9 +1598,9 @@
       <categoryLinks>
         <categoryLink id="6fea-ae62-3930-a17e" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="3c8e-d242-5600-52eb" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="346b-48ca-11f1-6cd1" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="346b-48ca-11f1-6cd1" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="a149-f0cc-9125-a7cf" name="COCKATRICE" hidden="false" targetId="e2f4-9429-13a3-c681" primary="false"/>
-        <categoryLink id="3289-330f-af84-bc27" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="3289-330f-af84-bc27" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
         <categoryLink id="b4bc-267c-a638-d71f" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -1680,14 +1680,14 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="463c-335b-796c-ffb2" name="Chaos Spawn" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="463c-335b-796c-ffb2" name="混沌 Spawn" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="edc5-f3f3-76dd-4124" name="Writhing Tentacles" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you roll a double when determining the number of attacks made by a CHAOS SPAWN’s Freakish Mutations, add 1 to hit and wound rolls for attacks made by that model until the end of the phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you roll a double when determining the number of attacks made by a 混沌 SPAWN’s Freakish Mutations, add 1 to hit and wound rolls for attacks made by that model until the end of the phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c46e-2444-698b-da4e" name="Chaos Spawn" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c46e-2444-698b-da4e" name="混沌 Spawn" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">2D6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1700,11 +1700,11 @@
         <categoryLink id="0d67-c591-cf3c-300b" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="8451-4fd6-6a77-ca82" name="New CategoryLink" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false"/>
         <categoryLink id="c1eb-47c7-39de-007c" name="New CategoryLink" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
-        <categoryLink id="1769-c6c5-cdfa-e278" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="603b-8783-14aa-6c6a" name="CHAOS SPAWN" hidden="false" targetId="bb97-9935-5ccd-67b7" primary="false"/>
+        <categoryLink id="1769-c6c5-cdfa-e278" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="603b-8783-14aa-6c6a" name="混沌 SPAWN" hidden="false" targetId="bb97-9935-5ccd-67b7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2e40-daea-d412-4342" name="Chaos Spawn" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2e40-daea-d412-4342" name="混沌 Spawn" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4770-3729-e0d2-be7a" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fbe-c367-d28e-5e6f" type="max"/>
@@ -1739,7 +1739,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="bc44-f10f-0073-7384" name="Mark of Chaos" hidden="false" collective="false" import="true" targetId="7016-ae89-f6cf-e026" type="selectionEntryGroup"/>
+        <entryLink id="bc44-f10f-0073-7384" name="Mark of 混沌" hidden="false" collective="false" import="true" targetId="7016-ae89-f6cf-e026" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1767,9 +1767,9 @@
       <categoryLinks>
         <categoryLink id="cb43-c12a-c7ae-81e3" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="1e6a-8fb5-b5fa-c335" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="e5f7-6dbf-6815-e184" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="e5f7-6dbf-6815-e184" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="6fcb-4abe-ae3d-bcfa" name="CHIMERA" hidden="false" targetId="248f-83c5-8cea-6ac2" primary="false"/>
-        <categoryLink id="b85c-1d54-9341-73f0" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="b85c-1d54-9341-73f0" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="702c-e772-9e92-835f" name="Draconic Head&apos;s Fiery Breath" hidden="false" collective="false" import="true" type="upgrade">
@@ -1938,9 +1938,9 @@
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5c2-d8df-2527-dc3d" name="Chaos Gargant" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e5c2-d8df-2527-dc3d" name="混沌 Gargant" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="c383-6299-513f-bfa5" name="Chaos Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c383-6299-513f-bfa5" name="混沌 Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -2000,17 +2000,17 @@
         </profile>
         <profile id="62c6-7f43-7b76-6213" name="Whipped into a Frenzy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, if this model is within 3寸 of any friendly BEASTS OF CHAOS HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s 肉搏 武器 until the end of that phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, if this model is within 3寸 of any friendly BEASTS OF 混沌 HEROES, you can whip it into a frenzy. If you do so, this model suffers 1 mortal wound, but you can add 1 to the Attacks characteristic of this model’s 肉搏 武器 until the end of that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="6b21-2ae9-4aae-b6b5" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="52ad-0140-39cb-d870" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="e664-ff9a-cf42-d5cb" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="6a61-c6db-50e4-2a87" name="CHAOS GARGANT" hidden="false" targetId="7fd3-01d8-3a52-8de5" primary="false"/>
+        <categoryLink id="e664-ff9a-cf42-d5cb" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="6a61-c6db-50e4-2a87" name="混沌 GARGANT" hidden="false" targetId="7fd3-01d8-3a52-8de5" primary="false"/>
         <categoryLink id="83a7-e86c-a85f-100d" name="GARGANT" hidden="false" targetId="c2ae-c785-1e40-0891" primary="false"/>
-        <categoryLink id="8ab7-383a-597b-8b35" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="8ab7-383a-597b-8b35" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9b26-b68f-4d5e-3c29" name="Massive Club" hidden="false" collective="false" import="true" type="upgrade">
@@ -2119,7 +2119,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="34cb-4606-7b9f-e89a" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="8c52-41de-386b-82d4" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="8c52-41de-386b-82d4" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="3787-8a1b-1368-7eeb" name="BULLGOR" hidden="false" targetId="0137-3314-e905-285a" primary="false"/>
         <categoryLink id="fbac-ac55-0524-4caa" name="WARHERD" hidden="false" targetId="d809-dc0b-17c2-c7ac" primary="false"/>
         <categoryLink id="4ff7-67c8-cc70-c644" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -2300,7 +2300,7 @@
         <categoryLink id="f82d-147a-d81e-6ee4" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="0245-455d-c825-017a" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="98fc-fa1e-0b1c-7294" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="5f29-2b65-640d-20d0" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="5f29-2b65-640d-20d0" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="98a6-20e4-88ac-11cd" name="SHAGGOTH" hidden="false" targetId="7020-fecd-a479-8a04" primary="false"/>
         <categoryLink id="9ee4-4d47-3f73-5c3f" name="DRAGON OGOR" hidden="false" targetId="0a23-1dea-91f1-9ad3" primary="false"/>
         <categoryLink id="2b51-4c11-b684-4e94" name="THUNDERSCORN" hidden="false" targetId="9a13-aa85-e9e2-9793" primary="false"/>
@@ -2374,7 +2374,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2c47-4f13-c440-c8f1" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2c47-4f13-c440-c8f1" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -2438,7 +2438,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="3625-f97b-4439-f26d" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="b442-68b1-a6ad-f470" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="b442-68b1-a6ad-f470" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="8678-915e-612e-7c75" name="DRAGON OGOR" hidden="false" targetId="0a23-1dea-91f1-9ad3" primary="false"/>
         <categoryLink id="d899-edb5-d22d-1c55" name="THUNDERSCORN" hidden="false" targetId="9a13-aa85-e9e2-9793" primary="false"/>
         <categoryLink id="2d7d-0de1-0539-988b" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -2581,7 +2581,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="6c28-2d91-ae4e-1cdc" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="47ca-3c09-566f-69c6" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="47ca-3c09-566f-69c6" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="cb8e-5c81-da51-6f3e" name="CENTIGOR" hidden="false" targetId="2087-1476-7590-473b" primary="false"/>
         <categoryLink id="5791-4dbe-3fd4-34bf" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
       </categoryLinks>
@@ -2689,8 +2689,8 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="66a2-5704-e76e-c9ab" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
-        <categoryLink id="b56d-a2cb-665f-d26c" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="22ac-783d-fa36-2e06" name="MONSTERS OF CHAOS" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
+        <categoryLink id="b56d-a2cb-665f-d26c" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="22ac-783d-fa36-2e06" name="MONSTERS OF 混沌" hidden="false" targetId="4d26-d95f-9bcd-aeff" primary="false"/>
         <categoryLink id="1d9a-bb53-194b-2d3e" name="RAZORGOR" hidden="false" targetId="2973-d8ab-165b-c11e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2759,12 +2759,12 @@
         <infoLink id="bce0-6618-5e99-5ced" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3123-cdee-b150-a84d" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3123-cdee-b150-a84d" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9662-d102-d37d-a8d1" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="c76b-b1f1-3608-855b" name="DAEMON" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
+        <categoryLink id="c76b-b1f1-3608-855b" name="恶魔" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
         <categoryLink id="f3da-f9fa-d27d-0330" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="6733-967c-5d5c-437f" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
-        <categoryLink id="918c-71b5-1ce4-fd37" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="918c-71b5-1ce4-fd37" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="1ecb-590e-0b8d-f278" name="TZAANGOR SKYFIRE" hidden="false" targetId="00bd-5d9e-6d0b-9e10" primary="false"/>
         <categoryLink id="9c8b-d69a-2c4d-35d8" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
       </categoryLinks>
@@ -2914,13 +2914,13 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="123a-915a-3b3f-d816" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
-        <categoryLink id="bda0-9944-39af-ea64" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="bda0-9944-39af-ea64" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="b46c-d491-88c1-e485" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="61ff-d8ed-cd4f-f390" name="DAEMON" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
+        <categoryLink id="61ff-d8ed-cd4f-f390" name="恶魔" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
         <categoryLink id="52c5-5a36-ee1e-b912" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="7c7f-8eb3-1019-0b3b" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="29cc-dd0b-4e68-c207" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
-        <categoryLink id="210c-f884-687f-003c" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="210c-f884-687f-003c" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="709f-f1a6-fb37-bf30" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="830c-322a-1cc6-66d5" name="TZAANGOR SHAMAN" hidden="false" targetId="cb6b-150d-1eda-84a7" primary="false"/>
       </categoryLinks>
@@ -2991,7 +2991,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a9d5-dd1c-0c21-9dd3" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a9d5-dd1c-0c21-9dd3" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -3055,7 +3055,7 @@
         <categoryLink id="406d-3396-db7d-e486" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="e24d-21cc-8053-0e7c" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="400d-4a4b-eba3-0de1" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="67b1-d54a-8405-d7cb" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="67b1-d54a-8405-d7cb" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="d96f-3e12-77e2-f298" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="7a4e-8f60-53b2-8f97" name="TZAANGOR ENLIGHTENED" hidden="false" targetId="01c3-a8a3-0323-85aa" primary="false"/>
         <categoryLink id="a70b-2667-2985-67b6" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
@@ -3166,11 +3166,11 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="8cda-8cec-febb-19dc" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="8cda-8cec-febb-19dc" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="4e7f-ea46-4aa7-42b6" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="67c7-f21b-d9ad-ef1b" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="eaf6-0e33-95f6-a97f" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
-        <categoryLink id="d2de-9ce0-4818-0841" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="d2de-9ce0-4818-0841" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="99ec-9b59-2e49-dcc7" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="aead-a337-6184-d6a7" name="TZAANGORS" hidden="false" targetId="bd0e-f2ff-1677-8b2e" primary="false"/>
         <categoryLink id="3431-45c9-7a3a-ecaa" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -3708,12 +3708,12 @@
       <profiles>
         <profile id="a7fb-f8ee-9a4c-ebdb" name="Covetous Fury" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll failed charge rolls made for units from this 阵型 while they are within 12寸 of an enemy 英雄 with an artefact of power. In addition, you can re-roll hit rolls for attacks made with 肉搏 武器 by models from this 阵型 that target an enemy 英雄 with an artefact of power.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll failed charge rolls made for units from this 阵型 while they are within 12寸 of an enemy 英雄 with an 魔法道具 of power. In addition, you can re-roll hit rolls for attacks made with 肉搏 武器 by models from this 阵型 that target an enemy 英雄 with an 魔法道具 of power.</characteristic>
           </characteristics>
         </profile>
         <profile id="39c8-63a0-b56c-b6cb" name="Marked by the Decadent Fiend" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the SLAANESH keyword. In addition, this warscroll 阵型 is part of the Slaanesh faction and the Beasts of Chaos faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the SLAANESH keyword. In addition, this warscroll 阵型 is part of the Slaanesh faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3836,7 +3836,7 @@
         </profile>
         <profile id="505e-2a29-f79a-706a" name="Followers of the Brass Bull" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the KHORNE keyword. In addition, this warscroll 阵型 is part of the Khorne faction and the Beasts of Chaos faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the KHORNE keyword. In addition, this warscroll 阵型 is part of the Khorne faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3939,7 +3939,7 @@
         </profile>
         <profile id="85c8-8982-b348-3862" name="Covens of the Changer" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the TZEENTCH keyword. In addition, this warscroll 阵型 is part of the Tzeentch faction and the Beasts of Chaos faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the TZEENTCH keyword. In addition, this warscroll 阵型 is part of the Tzeentch faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4210,7 +4210,7 @@
         </profile>
         <profile id="4582-1f5d-50ca-a14c" name="Vectors of the Plague God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the NURGLE keyword. In addition, this warscroll 阵型 is part of the Nurgle faction and the Beasts of Chaos faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the NURGLE keyword. In addition, this warscroll 阵型 is part of the Nurgle faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4325,12 +4325,12 @@
         <profile id="ef2d-7693-9f24-673e" name="Summon Ravening Direflock" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF CHAOS WIZARDS can attempt to cast this 法术. If successfully cast, set up a Ravening Direflock model wholly within 12寸 of the caster and more than 3寸 from any units, then set up the second and third Ravening Direflock models wholly within 6寸 of the first and more than 3寸 from any units.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF 混沌 WIZARDS can attempt to cast this 法术. If successfully cast, set up a Ravening Direflock model wholly within 12寸 of the caster and more than 3寸 from any units, then set up the second and third Ravening Direflock models wholly within 6寸 of the first and more than 3寸 from any units.</characteristic>
           </characteristics>
         </profile>
         <profile id="5958-5d4e-7197-fdeb" name="Malevolent Intentions" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 2 from the Bravery characteristic of units while they are within 6寸 of any Ravening Direflock models. BEASTS OF CHAOS units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 2 from the Bravery characteristic of units while they are within 6寸 of any Ravening Direflock models. BEASTS OF 混沌 units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="9851-5e3b-2006-7850" name="Moon of Ill Omen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4356,7 +4356,7 @@
         <profile id="facd-4317-60f1-7414" name="Summon Wildfire Taurus" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF CHAOS WIZARDS can attempt to cast this 法术. If successfully cast, set up a Wildfire Taurus model wholly within 12寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF 混沌 WIZARDS can attempt to cast this 法术. If successfully cast, set up a Wildfire Taurus model wholly within 12寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="39ac-3389-9223-608f" name="Raging Stampede" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4382,12 +4382,12 @@
         <profile id="8d0e-52cd-4467-6f47" name="Summon Doomblast Dirgehorn" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF CHAOS WIZARDS can attempt to cast this 法术. If successfully cast, set up a Doomblast Dirgehorn model wholly within 12寸 of the caster</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only BEASTS OF 混沌 WIZARDS can attempt to cast this 法术. If successfully cast, set up a Doomblast Dirgehorn model wholly within 12寸 of the caster</characteristic>
           </characteristics>
         </profile>
         <profile id="c1f4-5c36-9a58-8b24" name="Booming Cacophony" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made by units within 3寸 of this model. BEASTS OF CHAOS models are not affected by this ability</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks made by units within 3寸 of this model. BEASTS OF 混沌 models are not affected by this ability</characteristic>
           </characteristics>
         </profile>
         <profile id="8275-cd7b-ccdd-a26f" name="Rising Discord" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -4407,12 +4407,12 @@
       <profiles>
         <profile id="122e-2809-4f14-2384" name="Entropic Lodestone" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from save rolls for attacks that target units within 6寸 of this terrain feature. At the start of each battle round after the first, add 6寸 to the range of this ability. BEASTS OF CHAOS units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from save rolls for attacks that target units within 6寸 of this terrain feature. At the start of each battle round after the first, add 6寸 to the range of this ability. BEASTS OF 混沌 units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="d44b-949b-c56e-0a49" name="Locus of Savagery" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">BEASTS OF CHAOS units wholly within 6寸 of this terrain feature do not take battleshock tests. At the start of each battle round after the first, add 6寸 to the range of this ability</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">BEASTS OF 混沌 units wholly within 6寸 of this terrain feature do not take battleshock tests. At the start of each battle round after the first, add 6寸 to the range of this ability</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4423,12 +4423,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a4b-2ef5-480e-678b" name="Endless Spells: Beasts of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6a4b-2ef5-480e-678b" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b8-c1d8-3d0d-73e8" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="ae82-78f2-a45b-63a2" name="Endless Spells: Beasts of Chaos" hidden="false" collective="false" import="true" targetId="20c1-5cc5-2d3a-3914" type="selectionEntryGroup"/>
+        <entryLink id="ae82-78f2-a45b-63a2" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true" targetId="20c1-5cc5-2d3a-3914" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4467,7 +4467,7 @@
         <categoryLink id="f518-6e5a-cf3d-56c6" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9cb5-8e58-de47-ea69" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="48b3-bbde-531d-d237" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="8c95-c125-e838-a4a1" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="8c95-c125-e838-a4a1" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="53b6-341d-5fcf-e2e0" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="9efe-2629-5619-08a5" name="TZAANGOR ENLIGHTENED" hidden="false" targetId="01c3-a8a3-0323-85aa" primary="false"/>
         <categoryLink id="816e-750c-2c23-0b62" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
@@ -4590,10 +4590,10 @@
         <categoryLink id="8d97-224d-cf36-bcea" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="083f-2506-dcea-76d6" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="b1bc-b121-8c44-af6f" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
-        <categoryLink id="248a-032a-a8ad-f259" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="248a-032a-a8ad-f259" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="0325-1595-1f6e-7b2d" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="870b-e322-ee6b-e629" name="GREAT BRAY-SHAMAN" hidden="false" targetId="16b0-d1d2-6e48-f877" primary="false"/>
-        <categoryLink id="cb28-91dd-4a7c-212e" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="cb28-91dd-4a7c-212e" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="edbd-44d1-2d0e-c53e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -4636,7 +4636,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fb06-0452-5a9f-6457" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fb06-0452-5a9f-6457" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -4704,8 +4704,8 @@
       <categoryLinks>
         <categoryLink id="f1bb-5881-c3dc-251a" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
         <categoryLink id="936c-c835-5d8e-f842" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="180a-00b8-da14-e806" name="BEASTS OF CHAOS" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
-        <categoryLink id="6355-16ef-31c8-be2f" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="180a-00b8-da14-e806" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
+        <categoryLink id="6355-16ef-31c8-be2f" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="03dc-1f72-cc9b-d44d" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
         <categoryLink id="86f7-d55d-8ac0-f732" name="ALLHERD" hidden="false" targetId="ade4-b2f0-af54-5333" primary="false"/>
       </categoryLinks>
@@ -4836,7 +4836,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5662-d1bb-8f17-85f5" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a629-6cb9-79f7-1ae7" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="a629-6cb9-79f7-1ae7" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4915,7 +4915,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d56c-69d5-1279-8a0d" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="435b-cac0-4e04-263e" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="435b-cac0-4e04-263e" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4976,10 +4976,10 @@
         <entryLink id="eb2c-ce18-697a-047e" name="Traits: Nurgle Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
         <entryLink id="4dfe-ff6f-40d7-d6b2" name="Traits: Tzeentch Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
         <entryLink id="1e58-1f5f-6ec8-1898" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
-        <entryLink id="6abf-954c-1ea6-ba0e" name="Traits: Tzeentch Daemon" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
+        <entryLink id="6abf-954c-1ea6-ba0e" name="Traits: Tzeentch 恶魔" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7016-ae89-f6cf-e026" name="Mark of Chaos" hidden="false" collective="false" import="true" defaultSelectionEntryId="39f4-785f-6b88-c22c">
+    <selectionEntryGroup id="7016-ae89-f6cf-e026" name="Mark of 混沌" hidden="false" collective="false" import="true" defaultSelectionEntryId="39f4-785f-6b88-c22c">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e868-b11c-2293-cc2d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6820-cd0c-5323-f099" type="min"/>
@@ -5034,7 +5034,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="39f4-785f-6b88-c22c" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="39f4-785f-6b88-c22c" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -5063,7 +5063,7 @@
           <profiles>
             <profile id="7b46-47ae-bc43-10a1" name="Malevolent Despoiler" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot receive the benefit of cover while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot receive the benefit of cover while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5075,7 +5075,7 @@
           <profiles>
             <profile id="4034-dfd3-b337-1b06" name="Oracle of the Dark Tongue" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5087,7 +5087,7 @@
           <profiles>
             <profile id="416c-e5af-3b91-6cf3" name="Shadowpelt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks that target this general made by models more than 3寸 away from the general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks that target this 主将 made by models more than 3寸 away from the 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5099,7 +5099,7 @@
           <profiles>
             <profile id="0ec2-11b1-bb62-c0c5" name="3. Apex Predator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for attacks made by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for attacks made by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5111,7 +5111,7 @@
           <profiles>
             <profile id="e32c-62cd-4e6b-c016" name="Indomitable Beast" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general&apos;s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将&apos;s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5142,7 +5142,7 @@
           <profiles>
             <profile id="0f83-f384-70c9-774e" name="Gouge-tusks" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, pick an enemy 单位 within 3寸 of this general and roll a dice. On a 1, nothing happens. On a 2-5, that 单位 suffers 1 mortal wound. On a 6 that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, pick an enemy 单位 within 3寸 of this 主将 and roll a dice. On a 1, nothing happens. On a 2-5, that 单位 suffers 1 mortal wound. On a 6 that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5154,7 +5154,7 @@
           <profiles>
             <profile id="d433-697b-472d-6f8c" name="Roaring Brute" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5166,7 +5166,7 @@
           <profiles>
             <profile id="baa8-5489-d707-8223" name="Rugged Hide" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Worsen the Rend characteristic of attacks that target this general by 1 (to a minimum of ‘-’).</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Worsen the Rend characteristic of attacks that target this 主将 by 1 (to a minimum of ‘-’).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5178,7 +5178,7 @@
           <profiles>
             <profile id="a760-1775-8866-207f" name="Gorger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not roll a D3 to determine the number of wounds healed by the Bloodgorge 战斗特性 (pg 61) for friendly WARHERD units that are wholly within 12寸 of this general. Instead, the 战斗特性 heals 3 wounds allocated to that 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not roll a D3 to determine the number of wounds healed by the Bloodgorge 战斗特性 (pg 61) for friendly WARHERD units that are wholly within 12寸 of this 主将. Instead, the 战斗特性 heals 3 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5190,7 +5190,7 @@
           <profiles>
             <profile id="089a-7664-4d4e-2971" name="Rampant Juggernaut" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly WARHERD units wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly WARHERD units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5202,7 +5202,7 @@
           <profiles>
             <profile id="bc16-f39b-00a3-9481" name="Eater of Heroes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made by this general that target an enemy 英雄.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made by this 主将 that target an enemy 英雄.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5221,7 +5221,7 @@
           <profiles>
             <profile id="e1b3-069e-ef85-683f" name="Lightning-fast Monstrosity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general fights at the start of the combat phase if it made a charge move in the same turn, before the players start picking any 其他 units to fight in that combat phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 fights at the start of the combat phase if it made a charge move in the same turn, before the players start picking any 其他 units to fight in that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5233,7 +5233,7 @@
           <profiles>
             <profile id="db62-1cfe-21b5-7477" name="Adamantine Scales" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Save characteristic of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Save characteristic of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5257,7 +5257,7 @@
           <profiles>
             <profile id="315d-f5fa-f2cb-b69e" name="Father of the Storm" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use the Creatures of the Storm 战斗特性 (pg 61), you can re-roll the dice that determines how far units can move if this general is on the battlefield.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use the Creatures of the Storm 战斗特性 (pg 61), you can re-roll the dice that determines how far units can move if this 主将 is on the battlefield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5269,7 +5269,7 @@
           <profiles>
             <profile id="cfc8-b0b9-9d42-d4d7" name="Magnetic Monstrosity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot retreat while they are within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot retreat while they are within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5281,7 +5281,7 @@
           <profiles>
             <profile id="c86c-7e78-e2b3-1eab" name="Tempestuous Tyrant" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed wound rolls for attacks made by this general that target a 怪兽.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed wound rolls for attacks made by this 主将 that target a 怪兽.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5298,9 +5298,9 @@
       <selectionEntries>
         <selectionEntry id="8e03-a027-708b-3c3e" name="1. Cleaver of the Brass Bull" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8ce7-5271-cdfd-cd00" name="Cleaver of the Brass Bull" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8ce7-5271-cdfd-cd00" name="Cleaver of the Brass Bull" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve that weapon’s Rend characteristic by 1. In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve that weapon’s Rend characteristic by 1. In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5310,9 +5310,9 @@
         </selectionEntry>
         <selectionEntry id="483c-5ed3-3308-48d6" name="2. Gilded Horns" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c7db-7aa9-90f9-bf51" name="Gilded Horns" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c7db-7aa9-90f9-bf51" name="Gilded Horns" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After the bearer has made a charge move, pick an enemy 单位 within 1寸 of the bearer and roll a number of dice equal to the charge roll for that charge move. For each roll of 5+, that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After the bearer has made a charge move, pick an enemy 单位 within 1寸 of the bearer and roll a number of dice equal to the charge roll for that charge move. For each roll of 5+, that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5320,11 +5320,11 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f7a7-b6fc-e44d-1b9a" name="4. Blackened Armour of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f7a7-b6fc-e44d-1b9a" name="4. Blackened Armour of 混沌" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="af6e-2d77-7e08-be2e" name="Blackened Armour of Chaos" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="af6e-2d77-7e08-be2e" name="Blackened Armour of 混沌" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ that mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ that mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5334,9 +5334,9 @@
         </selectionEntry>
         <selectionEntry id="59cd-703c-6f05-dfd3" name="3. Glyph-etched Talisman" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1790-8c42-5d85-fad2" name="Glyph-etched Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1790-8c42-5d85-fad2" name="Glyph-etched Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5346,9 +5346,9 @@
         </selectionEntry>
         <selectionEntry id="8b84-1b27-91d9-a366" name="5. Champion’s Doomcloak" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="acec-dec2-824d-5b68" name="Champion’s Doomcloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="acec-dec2-824d-5b68" name="Champion’s Doomcloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to charge rolls made for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to charge rolls made for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5358,9 +5358,9 @@
         </selectionEntry>
         <selectionEntry id="fa5a-0eb2-8105-cb32" name="6. Herdstone Shard" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d49f-067c-79ac-b7cd" name="Herdstone Shard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d49f-067c-79ac-b7cd" name="Herdstone Shard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When BULLGOR units wholly within 6寸 of the bearer use their Bloodgreed ability, it activates on an unmodified roll of 5 or 6.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">When BULLGOR units wholly within 6寸 of the bearer use their Bloodgreed ability, it activates on an unmodified roll of 5 or 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5377,9 +5377,9 @@
       <selectionEntries>
         <selectionEntry id="977c-fb24-0aa0-bb3b" name="1. Ancestral Azyrite Blade" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cac2-ecde-5d92-4f5c" name="Ancestral Azyrite Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cac2-ecde-5d92-4f5c" name="Ancestral Azyrite Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve that weapon’s Rend characteristic by 2.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve that weapon’s Rend characteristic by 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5389,9 +5389,9 @@
         </selectionEntry>
         <selectionEntry id="9134-4968-2a68-d23e" name="2. Lightning-chained Bracers" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="af29-50a7-2850-2abc" name="Lightning-chained Bracers" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="af29-50a7-2850-2abc" name="Lightning-chained Bracers" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll failed hit rolls for attacks made by the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll failed hit rolls for attacks made by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5401,9 +5401,9 @@
         </selectionEntry>
         <selectionEntry id="de9a-55bc-baf5-df13" name="4. Horn of the Tempest" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e232-eaf3-358e-1e63" name="Horn of the Tempest" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e232-eaf3-358e-1e63" name="Horn of the Tempest" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Friendly THUNDERSCORN units wholly within 18寸 of the bearer at the start of your charge phase can make a charge move in that phase even if they ran in the same turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Friendly THUNDERSCORN units wholly within 18寸 of the bearer at the start of your charge phase can make a charge move in that phase even if they ran in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5413,9 +5413,9 @@
         </selectionEntry>
         <selectionEntry id="1eea-5477-a1a1-5746" name="3. Thunderstrike Lodestone" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a216-5273-5cf9-1dce" name="Thunderstrike Lodestone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a216-5273-5cf9-1dce" name="Thunderstrike Lodestone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, if the bearer is on the battlefield, they can call down a bolt of lightning. If they do so, you can heal D3 wounds allocated to the bearer. In addition, roll a dice for each enemy 单位 within 1寸 of the bearer. On a 2+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, if the bearer is on the battlefield, they can call down a bolt of lightning. If they do so, you can heal D3 wounds allocated to the bearer. In addition, roll a dice for each enemy 单位 within 1寸 of the bearer. On a 2+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5425,9 +5425,9 @@
         </selectionEntry>
         <selectionEntry id="9add-8ccf-94d6-5eee" name="5. Tanglehorn Familiars" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="bfac-7c37-3ee5-5283" name="Tanglehorn Familiars" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="bfac-7c37-3ee5-5283" name="Tanglehorn Familiars" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the enemy 英雄阶段, you can pick an enemy 法师 within 12寸 of the bearer. That 法师 cannot cast any spells that 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the enemy 英雄阶段, you can pick an enemy 法师 within 12寸 of the bearer. That 法师 cannot cast any spells that 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5437,9 +5437,9 @@
         </selectionEntry>
         <selectionEntry id="bc2a-babd-80d1-0063" name="6. Ruinous Icon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cc23-6a53-a0b6-ef14" name="Ruinous Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cc23-6a53-a0b6-ef14" name="Ruinous Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or endless 法术, roll a dice. On a 4+ ignore the effects of that 法术 on the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or endless 法术, roll a dice. On a 4+ ignore the effects of that 法术 on the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5456,9 +5456,9 @@
       <selectionEntries>
         <selectionEntry id="f324-a7f3-796e-c2ed" name="1. Ramhorn Helm" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1f3c-30cb-db32-421e" name="Ramhorn Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1f3c-30cb-db32-421e" name="Ramhorn Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After the bearer completes a charge move, pick an enemy 单位 within 1寸 of them. That 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After the bearer completes a charge move, pick an enemy 单位 within 1寸 of them. That 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5468,9 +5468,9 @@
         </selectionEntry>
         <selectionEntry id="a80d-9c26-a53a-24dd" name="2. Brayblast Trumpet" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8cae-59f8-60fc-e484" name="Brayblast Trumpet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8cae-59f8-60fc-e484" name="Brayblast Trumpet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly BRAYHERD units while they ar wholly within 18寸 of the bearer if those units used the Brayherd Ambush 战斗特性 to set up on the battlefield that turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly BRAYHERD units while they ar wholly within 18寸 of the bearer if those units used the Brayherd Ambush 战斗特性 to set up on the battlefield that turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5480,9 +5480,9 @@
         </selectionEntry>
         <selectionEntry id="a049-3ea6-20a2-f53e" name="4. Volcanic Axe" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="fc01-3292-2b0d-9ac1" name="Volcanic Axe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fc01-3292-2b0d-9ac1" name="Volcanic Axe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Add 1 to that weapon’s Damage characteristic. In addition, each time you make an unmodified hit roll of 6 for an attack made with that weapon, the target suffers 1 mortal wound after all of the bearer’s attacks have been resolved.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Add 1 to that weapon’s Damage characteristic. In addition, each time you make an unmodified hit roll of 6 for an attack made with that weapon, the target suffers 1 mortal wound after all of the bearer’s attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5492,9 +5492,9 @@
         </selectionEntry>
         <selectionEntry id="574b-8d0b-8ab7-fb6c" name="3. The Knowing Eye" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0e9a-e205-aaa5-a324" name="The Knowing Eye" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0e9a-e205-aaa5-a324" name="The Knowing Eye" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, roll a dice if the bearer is on the battlefield. On a 4+ you receive 1 additional command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, roll a dice if the bearer is on the battlefield. On a 4+ you receive 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5504,9 +5504,9 @@
         </selectionEntry>
         <selectionEntry id="bde3-cd0d-d1b0-0912" name="5. Bleating Gnarlstaff" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3573-1d2e-d80c-7d2e" name="Bleating Gnarlstaff" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3573-1d2e-d80c-7d2e" name="Bleating Gnarlstaff" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is within 1寸 of a terrain feature at the end of your movement phase, roll a dice. On a 3+ each enemy 单位 within 1寸 of that terrain feature suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is within 1寸 of a terrain feature at the end of your movement phase, roll a dice. On a 3+ each enemy 单位 within 1寸 of that terrain feature suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5516,9 +5516,9 @@
         </selectionEntry>
         <selectionEntry id="d011-d2ef-19b9-0462" name="6. Troggoth-hide Cloak" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="caa3-0236-153e-74a6" name="Troggoth-hide Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="caa3-0236-153e-74a6" name="Troggoth-hide Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, you can heal 1 wound that has been allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, you can heal 1 wound that has been allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5615,7 +5615,7 @@
             <profile id="648b-7797-8e34-c355" name="Titanic Fury" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly BEASTS OF CHAOS 怪兽 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, add 1 to the Attacks characteristic of that 怪兽’s 肉搏 武器.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly BEASTS OF 混沌 怪兽 within 12寸 of the caster that is visible to them. Until your next 英雄阶段, add 1 to the Attacks characteristic of that 怪兽’s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5721,7 +5721,7 @@
           <profiles>
             <profile id="ecd9-e17f-774d-f8c6" name="Dominator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly ALLHERD units wholly within 18寸 of this general if this general is within 3寸 of any enemy units.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls made for friendly ALLHERD units wholly within 18寸 of this 主将 if this 主将 is within 3寸 of any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5749,7 +5749,7 @@
           <profiles>
             <profile id="4c3b-7ea2-70e6-7fd6" name="Nomadic 领袖" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5777,7 +5777,7 @@
           <profiles>
             <profile id="b96d-3be3-1b61-e7ad" name="Unravelling Aura" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师. If this general is already a 法师, they can attempt to unbind 1 additional 法术 in the enemy 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师. If this 主将 is already a 法师, they can attempt to unbind 1 additional 法术 in the enemy 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5823,9 +5823,9 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b279-6e77-d95e-918f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="74a0-cc5d-76bf-57db" name="Blade of the Desecrator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="74a0-cc5d-76bf-57db" name="Blade of the Desecrator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1 for attacks that target a 单位 of 10 or more models. Improve the Rend characteristic of that weapon by 2 instead for attacks that target a 单位 of 20 or more models. Attacks made by this weapon cannot have a Rend characteristic greater than -3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1 for attacks that target a 单位 of 10 or more models. Improve the Rend characteristic of that weapon by 2 instead for attacks that target a 单位 of 20 or more models. Attacks made by this weapon cannot have a Rend characteristic greater than -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5851,9 +5851,9 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a04b-8321-8622-0b82" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5ae0-910e-952c-b859" name="Desolate Shard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5ae0-910e-952c-b859" name="Desolate Shard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use the Desolate Shard if they are within 3寸 of a terrain feature. If they do so, roll a dice for each enemy 单位 within 1寸 of that terrain feature. On a 4+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use the Desolate Shard if they are within 3寸 of a terrain feature. If they do so, roll a dice for each enemy 单位 within 1寸 of that terrain feature. On a 4+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5891,7 +5891,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="20c1-5cc5-2d3a-3914" name="Endless Spells: Beasts of Chaos" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="20c1-5cc5-2d3a-3914" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="d8a3-a5ab-f07e-254f" name="Endless 法术: Ravening Direflock" hidden="false" collective="false" import="true" targetId="a5f8-f319-4988-5cfa" type="selectionEntry">
           <constraints>
@@ -5925,6 +5925,6 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="ddf4-1b3b-eefa-2dfb" name="Chaos Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ddf4-1b3b-eefa-2dfb" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

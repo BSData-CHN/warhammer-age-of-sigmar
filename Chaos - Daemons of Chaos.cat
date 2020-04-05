@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c8da-7df9-793f-98ba" name="Chaos - Daemons of Chaos" revision="12" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c8da-7df9-793f-98ba" name="混沌 - Daemons of 混沌" revision="12" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="c8da-7df9-pubN65537" name="Grand Alliance: Chaos"/>
+    <publication id="c8da-7df9-pubN65537" name="Grand Alliance: 混沌"/>
   </publications>
   <profileTypes>
     <profileType id="45a1-fad9-2c1f-6cfa" name="Soul Grinder Wounds">
@@ -25,23 +25,23 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="84c9-64c0-ec5a-64cb" name="FURIES" hidden="false"/>
-    <categoryEntry id="d5b2-b6bb-d9a1-2e91" name="DAEMON PRINCE" hidden="false"/>
+    <categoryEntry id="d5b2-b6bb-d9a1-2e91" name="恶魔 PRINCE" hidden="false"/>
     <categoryEntry id="9434-3e6d-2934-849d" name="SOUL GRINDER" hidden="false"/>
     <categoryEntry id="3461-9201-d262-e792" name="BE&apos;LAKOR" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="2122-46f3-20b5-6135" name="Allegiance" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
+    <entryLink id="2122-46f3-20b5-6135" name="势力" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="daac-add2-5c92-b04b" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="36c3-9d14-d807-e72e" name="Be&apos;lakor, Chaos Daemon Prince" hidden="false" collective="false" import="false" targetId="af87-90a5-8d54-9041" type="selectionEntry">
+    <entryLink id="36c3-9d14-d807-e72e" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" collective="false" import="false" targetId="af87-90a5-8d54-9041" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c524-caaf-4b0f-bf05" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="085e-8c20-b329-6905" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a564-2a13-336b-6b65" name="Daemon Prince" hidden="false" collective="false" import="false" targetId="abad-0b15-0f55-b62d" type="selectionEntry">
+    <entryLink id="a564-2a13-336b-6b65" name="恶魔 Prince" hidden="false" collective="false" import="false" targetId="abad-0b15-0f55-b62d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5d0d-82d9-425e-4767" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="958c-fb4b-189f-d97d" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -59,19 +59,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3925-778a-9672-5a95" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3925-778a-9672-5a95" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="307b-c118-0ea4-79b6" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8871-e34d-6f00-8ce6" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="de07-fa4e-9d03-69c3" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="8edb-c8a9-18b0-4ced">
+        <selectionEntryGroup id="de07-fa4e-9d03-69c3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="8edb-c8a9-18b0-4ced">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb6-b8a7-41e3-fa8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc5d-4b04-892d-34a8" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8edb-c8a9-18b0-4ced" name="Allegiance: Chaos" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8edb-c8a9-18b0-4ced" name="势力: 混沌" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -83,7 +83,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af87-90a5-8d54-9041" name="Be&apos;lakor, Chaos Daemon Prince" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="af87-90a5-8d54-9041" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9784-9b35-9549-a7c8" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a1d-237a-277a-405a" type="max"/>
@@ -127,7 +127,7 @@
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick one visible enemy 单位 within 18寸. Until your next 英雄阶段, the opposing player must subtract 1 from any wound rolls he makes for that 单位 in the combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e721-df3b-35e9-4219" name="Be&apos;lakor, Chaos Daemon Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e721-df3b-35e9-4219" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -146,15 +146,15 @@
         <categoryLink id="babe-69dc-abc2-4a37" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ed01-764c-4c22-9929" name="General" hidden="false" collective="false" import="true" targetId="3833-8279-cc38-22ce" type="selectionEntry"/>
+        <entryLink id="ed01-764c-4c22-9929" name="主将" hidden="false" collective="false" import="true" targetId="3833-8279-cc38-22ce" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abad-0b15-0f55-b62d" name="Daemon Prince" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="abad-0b15-0f55-b62d" name="恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="336c-52b8-851c-832b" name="Daemon Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="336c-52b8-851c-832b" name="恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <modifiers>
             <modifier type="set" field="8655-6213-2824-1752" value="12">
               <conditions>
@@ -187,32 +187,32 @@
         </profile>
         <profile id="7fe1-91b3-c225-5436" name="Cursed Soul-eater" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Daemon Prince that is not dedicated to one of the Chaos Gods heals 1 wound at the end of any combat phase in which it killed any models. If it killed any HEROES or MONSTERS, it heals D3 wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A 恶魔 Prince that is not dedicated to one of the 混沌 Gods heals 1 wound at the end of any combat phase in which it killed any models. If it killed any HEROES or MONSTERS, it heals D3 wounds instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="e623-08bb-7b93-82da" name="Immortal Champion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you set up this model, you can declare that it is dedicated to KHORNE, NURGLE, SLAANESH or TZEENTCH.  If you do, the Daemon Prince replaces its Cursed Soul-eater ability with the relevant ability from the Immortal Champion table.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you set up this model, you can declare that it is dedicated to KHORNE, NURGLE, SLAANESH or TZEENTCH.  If you do, the 恶魔 Prince replaces its Cursed Soul-eater ability with the relevant ability from the Immortal Champion table.</characteristic>
           </characteristics>
         </profile>
         <profile id="07b9-9c7e-a0ca-4e94" name="Khorne" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes, their veins running with liquid fire, are blood-crazed champions. You can add 1 to all hit rolls made for a Khorne Daemon Prince.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes, their veins running with liquid fire, are blood-crazed champions. You can add 1 to all hit rolls made for a Khorne 恶魔 Prince.</characteristic>
           </characteristics>
         </profile>
         <profile id="4d16-a417-e737-12df" name="Nurgle" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are bloated with disease, and are unnaturally resistent to harm. A Nurgle Daemon Prince has a save of 3+.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are bloated with disease, and are unnaturally resistent to harm. A Nurgle 恶魔 Prince has a save of 3+.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea7a-2bf6-8396-fa18" name="Tzeentch" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are surrounded by a nimbus of magical light. A Tzeentch Daemon Prince is a 法师. It can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. A Tzeentch Daemon Prince knows the Arcane Bolt and Mystic Shield Spells.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are surrounded by a nimbus of magical light. A Tzeentch 恶魔 Prince is a 法师. It can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. A Tzeentch 恶魔 Prince knows the Arcane Bolt and Mystic Shield Spells.</characteristic>
           </characteristics>
         </profile>
         <profile id="2135-68ed-d682-c6f0" name="Slaanesh" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">Daemon Princes are lithe and exotic, their every movement impossibly quick. When your opponent selects a 单位 within 3寸 of the Daemon Prince to pile in and attack in the combat phase, you can immediately select the Daemon Prince to pile in and attack before the enemy 单位, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are lithe and exotic, their every movement impossibly quick. When your opponent selects a 单位 within 3寸 of the 恶魔 Prince to pile in and attack in the combat phase, you can immediately select the 恶魔 Prince to pile in and attack before the enemy 单位, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -283,7 +283,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5605-963f-2d95-93b7" name="General" hidden="false" collective="false" import="true" targetId="3833-8279-cc38-22ce" type="selectionEntry"/>
+        <entryLink id="5605-963f-2d95-93b7" name="主将" hidden="false" collective="false" import="true" targetId="3833-8279-cc38-22ce" type="selectionEntry"/>
         <entryLink id="7eb1-619c-3ed9-6496" name="Artefacts" hidden="false" collective="false" import="true" targetId="8bf6-840d-35a1-123e" type="selectionEntryGroup"/>
         <entryLink id="4488-bad2-00be-a0cd" name="Command Traits" hidden="false" collective="false" import="true" targetId="7954-00ae-9382-83d2" type="selectionEntryGroup"/>
       </entryLinks>
@@ -356,7 +356,7 @@
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b9d9-4b95-dc19-4db8" name="Daemon Engine of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="b9d9-4b95-dc19-4db8" name="恶魔 Engine of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up a Soul Grinder, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: KHORNE, TZEENTCH, NURGLE or SLAANESH.</characteristic>
           </characteristics>
@@ -520,7 +520,7 @@
         <cost name="pts" typeId="points" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3833-8279-cc38-22ce" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3833-8279-cc38-22ce" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -557,7 +557,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2e-3da0-655b-26f6" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6849-aa1f-8dec-fd49" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
+        <entryLink id="6849-aa1f-8dec-fd49" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
         <entryLink id="4c93-ec32-932e-4859" name="Realm Artefacts of Power" hidden="false" collective="false" import="true" targetId="37b0-af21-630c-d8af" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -573,7 +573,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b7-8ace-b8c3-bb3e" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3382-62b8-e299-03f0" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
+        <entryLink id="3382-62b8-e299-03f0" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

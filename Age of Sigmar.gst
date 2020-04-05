@@ -63,9 +63,9 @@
         <characteristicType id="1b71-4c83-4e8c-093f" name="指挥能力细节"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="0ac4-aacb-2481-8e72" name="Artefact">
+    <profileType id="0ac4-aacb-2481-8e72" name="魔法道具">
       <characteristicTypes>
-        <characteristicType id="0918-c47a-d84e-c0cf" name="Artefact 细节"/>
+        <characteristicType id="0918-c47a-d84e-c0cf" name="魔法道具细节"/>
       </characteristicTypes>
     </profileType>
     <profileType id="c924-5a68-471a-2fd5" name="单位能力">
@@ -106,11 +106,11 @@
     <categoryEntry id="1959-9f6a-3056-913a" name="怪兽" hidden="false"/>
     <categoryEntry id="880e-1e33-b965-71ec" name="战争机械" hidden="false"/>
     <categoryEntry id="4f53-8230-2f02-9639" name="法师" hidden="false"/>
-    <categoryEntry id="1418-9a68-9f9e-e9a7" name="DAEMON" hidden="false"/>
-    <categoryEntry id="3504-ea8e-28ec-5150" name="TOTEM" hidden="false"/>
-    <categoryEntry id="e8a5-e4c1-3d11-e7dd" name="PRIEST" hidden="false"/>
-    <categoryEntry id="b745-17c4-8fbf-8b04" name="General" hidden="true"/>
-    <categoryEntry id="3564-4c26-10b4-d953" name="Artefact" hidden="false">
+    <categoryEntry id="1418-9a68-9f9e-e9a7" name="恶魔" hidden="false"/>
+    <categoryEntry id="3504-ea8e-28ec-5150" name="图腾" hidden="false"/>
+    <categoryEntry id="e8a5-e4c1-3d11-e7dd" name="祭司" hidden="false"/>
+    <categoryEntry id="b745-17c4-8fbf-8b04" name="主将" hidden="true"/>
+    <categoryEntry id="3564-4c26-10b4-d953" name="魔法道具" hidden="false">
       <modifiers>
         <modifier type="increment" field="459e-bc05-f498-6753" value="1.0">
           <repeats>
@@ -128,11 +128,11 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="c4f8-4679-229d-7c37" name="CREW" hidden="false"/>
-    <categoryEntry id="7cdd-80ea-cbeb-8e16" name="CHAOS" hidden="false"/>
-    <categoryEntry id="87e8-c095-f059-5f7b" name="Allegiance" hidden="false"/>
-    <categoryEntry id="b970-b3bf-e1a4-a6fc" name="ORDER" hidden="false"/>
-    <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="DEATH" hidden="false"/>
-    <categoryEntry id="d963-a5fb-c348-2371" name="DESTRUCTION" hidden="false"/>
+    <categoryEntry id="7cdd-80ea-cbeb-8e16" name="混沌" hidden="false"/>
+    <categoryEntry id="87e8-c095-f059-5f7b" name="势力" hidden="false"/>
+    <categoryEntry id="b970-b3bf-e1a4-a6fc" name="秩序" hidden="false"/>
+    <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="死亡" hidden="false"/>
+    <categoryEntry id="d963-a5fb-c348-2371" name="毁灭" hidden="false"/>
     <categoryEntry id="2654-58fb-a46f-b28d" name="卡拉顿天空霸主" hidden="false"/>
     <categoryEntry id="9efd-7c5d-dc14-2302" name="DAUGHTERS OF KHAINE" hidden="false"/>
     <categoryEntry id="b396-0600-80d6-cee9" name="雷铸神兵" hidden="false"/>
@@ -168,7 +168,7 @@
     <categoryEntry id="1422-e165-b7d0-b2d9" name="OGOR" hidden="false"/>
     <categoryEntry id="c91f-5c40-bec0-1a93" name="DRAGON" hidden="false"/>
     <categoryEntry id="6ec4-4931-4d7f-006b" name="IDONETH DEEPKIN" hidden="false"/>
-    <categoryEntry id="be2f-aa63-6d82-e2fc" name="Allegiance: Khorne" hidden="false"/>
+    <categoryEntry id="be2f-aa63-6d82-e2fc" name="势力: Khorne" hidden="false"/>
     <categoryEntry id="1974-3f49-7f0b-8422" name="Game Options" hidden="false"/>
     <categoryEntry id="fd9f-428a-177d-c765" name="Vanguard" hidden="false"/>
     <categoryEntry id="6330-7561-7a32-0851" name="Battlehost" hidden="false"/>
@@ -208,9 +208,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aeab-ce73-e115-d5bd" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="2c4b-6186-2939-7f2b" name="BEASTS OF CHAOS" hidden="false"/>
+    <categoryEntry id="2c4b-6186-2939-7f2b" name="BEASTS OF 混沌" hidden="false"/>
     <categoryEntry id="088b-3a27-03f7-8249" name="Named" hidden="false"/>
-    <categoryEntry id="2ff5-b7a1-655a-1655" name="GREATER DAEMON" hidden="false"/>
+    <categoryEntry id="2ff5-b7a1-655a-1655" name="大魔" hidden="false"/>
     <categoryEntry id="1d34-b962-7c7b-f287" name="SOULSCREAM BRIDGE" hidden="false"/>
     <categoryEntry id="cff6-06c5-3294-b74b" name="SHARDS OF VALAGHARR" hidden="false"/>
     <categoryEntry id="3b54-23ed-a577-ea1f" name="LAUCHON THE SOULSEEKER" hidden="false"/>
@@ -225,7 +225,7 @@
     <categoryEntry id="bc8a-9257-1601-6d62" name="Scenery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="36b7-ee1e-0855-f23f" name="**Pitched Battle**" hidden="false">
+    <forceEntry id="36b7-ee1e-0855-f23f" name="**竞技模式**" hidden="false">
       <modifiers>
         <modifier type="set" field="e8e3-9adc-3526-c6d6" value="1000">
           <conditions>
@@ -420,9 +420,9 @@
         </categoryLink>
         <categoryLink id="5156-dc6f-149b-1a5e" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="false"/>
         <categoryLink id="bc41-5536-8011-4348" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="false"/>
-        <categoryLink id="fadd-b7fa-31f8-4fb3" name="General" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
-        <categoryLink id="f81e-6d6a-67b4-db13" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
-        <categoryLink id="f631-f98a-5c53-05bb" name="Allegiance" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
+        <categoryLink id="fadd-b7fa-31f8-4fb3" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
+        <categoryLink id="f81e-6d6a-67b4-db13" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+        <categoryLink id="f631-f98a-5c53-05bb" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
           <constraints>
             <constraint field="selections" scope="36b7-ee1e-0855-f23f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5841-14a7-e06c-3f06" type="min"/>
           </constraints>
@@ -498,7 +498,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5894-736b-3be1-5a94" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f893-5b2f-eb0f-0a31" name="Allegiance" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
+        <categoryLink id="f893-5b2f-eb0f-0a31" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
           <constraints>
             <constraint field="selections" scope="cce4-bc9d-0c7e-74c3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a84b-92b6-09fc-c9bb" type="min"/>
           </constraints>
@@ -750,7 +750,7 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability at the start of the battleshock phase. If you do so, pick a friendly 单位 that is within 6寸 of friendly 英雄, or 12寸 of a friendly 英雄 that is a general. That 单位 does not have to take battleshock tests in that phase.</描述>
+      <描述>You can use this command ability at the start of the battleshock phase. If you do so, pick a friendly 单位 that is within 6寸 of friendly 英雄, or 12寸 of a friendly 英雄 that is a 主将. That 单位 does not have to take battleshock tests in that phase.</描述>
     </rule>
     <rule id="3f48-3925-7123-3392" name="At the Double" publicationId="e51d-b1a3-pubEQ" page="3" hidden="false">
       <modifiers>
@@ -760,7 +760,7 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability after you make a run roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a general. If you do so, the run roll is treated as being a 6.</描述>
+      <描述>You can use this command ability after you make a run roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a 主将. If you do so, the run roll is treated as being a 6.</描述>
     </rule>
     <rule id="c157-62a0-2514-c4f4" name="Forward to Victory" publicationId="e51d-b1a3-pubEQ" page="3" hidden="false">
       <modifiers>
@@ -770,7 +770,7 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability after you make a charge roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a general. If you do so, re-roll the charge roll.</描述>
+      <描述>You can use this command ability after you make a charge roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a 主将. If you do so, re-roll the charge roll.</描述>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -1269,7 +1269,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="c023-e731-5488-7bf0" name="Dancing Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6寸 of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a CHAOS 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6寸 of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a 混沌 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="ead7-9952-e01f-b3b3" name="Empowered by Chamon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1653,12 +1653,12 @@ to set up the 法师, then the 法师 is slain.</描述>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8861-09b7-3df2-abf6" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8861-09b7-3df2-abf6" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dad-f987-6f30-8719" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="3fac-3a94-439e-059f" name="General" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
+            <categoryLink id="3fac-3a94-439e-059f" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1681,9 +1681,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae99-e895-08b5-bf60" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5865-fb09-7643-0772" name="Cursed Book" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5865-fb09-7643-0772" name="Cursed Book" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You and your opponent must subtract 1 from hit rolls made for units within 3寸 of the bearer, unless the 单位 has the DEATH keyword.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You and your opponent must subtract 1 from hit rolls made for units within 3寸 of the bearer, unless the 单位 has the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1699,9 +1699,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e73-d153-8a05-e403" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6d33-b575-b1b1-3d40" name="Cloak of Mists and Shadows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6d33-b575-b1b1-3d40" name="Cloak of Mists and Shadows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of any combat phase, the bearer can use this cloak. If it does so, remove the bearer from the battlefield, and then set it up anywhere on the battlefield within 12寸 of its original location and more than 3寸 from any enemy models. If this is impossible, this model remains in its current location.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of any combat phase, the bearer can use this cloak. If it does so, remove the bearer from the battlefield, and then set it up anywhere on the battlefield within 12寸 of its original location and more than 3寸 from any enemy models. If this is impossible, this model remains in its current location.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1717,9 +1717,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="819a-782f-5496-9885" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cf43-0de1-7c17-8d94" name="Blade of Dark Summons" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cf43-0de1-7c17-8d94" name="Blade of Dark Summons" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can set up a SUMMONABLE DEATH 单位 wholly within 12寸 of the bearer and more than 3寸 from any enemy models, and add it to your army. The models in the 单位 must have a combined Wounds characteristic of no more than a 2D6 roll.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can set up a SUMMONABLE DEATH 单位 wholly within 12寸 of the bearer and more than 3寸 from any enemy models, and add it to your army. The models in the 单位 must have a combined Wounds characteristic of no more than a 2D6 roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1735,9 +1735,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1464-64f1-8374-3f0c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9d60-be5a-3bf0-9eea" name="Black Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9d60-be5a-3bf0-9eea" name="Black Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this amulet. If it does so, pick an enemy 单位 within 12寸 of the bearer. Inflict a number of mortal wounds equal to the number of the current battle round on the 单位 you picked.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this amulet. If it does so, pick an enemy 单位 within 12寸 of the bearer. Inflict a number of mortal wounds equal to the number of the current battle round on the 单位 you picked.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1753,9 +1753,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ebe-39a0-aeb6-7d08" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3276-e79f-0eb4-8955" name="Tomb Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3276-e79f-0eb4-8955" name="Tomb Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. For each wound roll of 6+ you make for this weapon, you can heal 1 wound that has been allocated to a friendly DEATHmodel within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. For each wound roll of 6+ you make for this weapon, you can heal 1 wound that has been allocated to a friendly DEATHmodel within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1771,9 +1771,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68ac-70ca-db4f-c7a0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b51f-e0a9-e729-7d56" name="Ring of Immortality" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b51f-e0a9-e729-7d56" name="Ring of Immortality" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice. On a 3+ the bearer is not slain and D3 wounds allocated to them are healed (any excess damage is negated). Then, remove the bearer from the battlefield and set them up again within 18寸 of their original location and more than 3寸 from any enemy models.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice. On a 3+ the bearer is not slain and D3 wounds allocated to them are healed (any excess damage is negated). Then, remove the bearer from the battlefield and set them up again within 18寸 of their original location and more than 3寸 from any enemy models.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1798,7 +1798,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="0764-cc0b-794f-7edb" name="Ruler of the Night" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions 战斗特性 if they are within 12寸 of this general rather than only 6寸.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions 战斗特性 if they are within 12寸 of this 主将 rather than only 6寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1813,7 +1813,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="741d-e927-a84a-a2f3" name="Predator of the Shadows" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for this general if they are in cover.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for this 主将 if they are in cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1828,7 +1828,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9055-f2ef-067f-738e" name="Death Incarnate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick an enemy 单位 within 3寸 of this general and roll 2D6. If the roll equals or exceeds the enemy 单位’s Bravery characteristic, inflict D3 mortal wounds on the 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick an enemy 单位 within 3寸 of this 主将 and roll 2D6. If the roll equals or exceeds the enemy 单位’s Bravery characteristic, inflict D3 mortal wounds on the 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1843,7 +1843,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="20c8-5780-7f3e-ded5" name="Master of the Black Arts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general is a 法师 who knows the Arcane Bolt and Mystic Shield spells. If this general is already a 法师, add 1 to all of their casting and unbinding rolls instead.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 法师 who knows the Arcane Bolt and Mystic Shield spells. If this 主将 is already a 法师, add 1 to all of their casting and unbinding rolls instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1858,7 +1858,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="dcaf-3a22-b916-c683" name="Red Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The first time this general is picked to fight in each combat phase, roll a dice at the end of that fight. On a 5+ they can immediately fight again.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The first time this 主将 is picked to fight in each combat phase, roll a dice at the end of that fight. On a 5+ they can immediately fight again.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1870,7 +1870,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="7c4d-ae2f-91a1-4769" name="Supernatural Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1890,9 +1890,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="57b0-0dc0-4f80-7fe9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c81-80a2-a7fe-6433" name="Hammerblade" publicationId="e51d-b1a3-pubE5LCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3c81-80a2-a7fe-6433" name="Hammerblade" publicationId="e51d-b1a3-pubE5LCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one 肉搏 weapon that this model can use. Instead of attacking normally with that weapon, you can roll a dice for each model within 3寸 of the bearer (apart from the bearer). On a roll of 5 or 6, 1 mortal wound is inflicted on that model&apos;s 单位.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one 肉搏 weapon that this model can use. Instead of attacking normally with that weapon, you can roll a dice for each model within 3寸 of the bearer (apart from the bearer). On a roll of 5 or 6, 1 mortal wound is inflicted on that model&apos;s 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1908,9 +1908,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="addc-60fb-ee24-bcfb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8f53-5df2-f0c3-3733" name="Battered Talisman" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8f53-5df2-f0c3-3733" name="Battered Talisman" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+, the mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+, the mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1926,9 +1926,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5099-38d5-7540-a044" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9a86-99f2-1f5e-6f23" name="Rockeye" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9a86-99f2-1f5e-6f23" name="Rockeye" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick an enemy 单位 within 12寸 of this bearer. Until your next 英雄阶段, add 1 to hit rolls made by the bearer when they target the 单位 you picked.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick an enemy 单位 within 12寸 of this bearer. Until your next 英雄阶段, add 1 to hit rolls made by the bearer when they target the 单位 you picked.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1944,9 +1944,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e0e-d321-e948-0878" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c24f-4f2e-f512-ecf9" name="Bellowing Blade" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c24f-4f2e-f512-ecf9" name="Bellowing Blade" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When the bearer is picked to fight, you can re-roll one failed wound roll for bearers attacks in that fight for each enemy 英雄 that was within 12寸 of the bearer when they were picked to fight.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">When the bearer is picked to fight, you can re-roll one failed wound roll for bearers attacks in that fight for each enemy 英雄 that was within 12寸 of the bearer when they were picked to fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1962,9 +1962,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e351-213d-edf0-2ef5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0994-850a-5408-afb3" name="Collar of Domination" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0994-850a-5408-afb3" name="Collar of Domination" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the enemy movement phase, pick an enemy 怪兽 within 3寸 of the bearer and roll 2D6. If the roll is equal to or greater than the enemy 怪兽’s Bravery characteristic, it must retreat in that movement phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the enemy movement phase, pick an enemy 怪兽 within 3寸 of the bearer and roll 2D6. If the roll is equal to or greater than the enemy 怪兽’s Bravery characteristic, it must retreat in that movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1980,9 +1980,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d399-9741-b80c-5a52" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c11d-9966-5de8-6dad" name="Battle Brew" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c11d-9966-5de8-6dad" name="Battle Brew" publicationId="e51d-b1a3-pubEQOCI" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that bearer will take either one or two swigs of Battle Brew. If the bearer takes one swig, add 1 to all hit and wound rolls for the bearer until your next 英雄阶段. If the bearer takes two swigs, add 2 to all hit and wound rolls for the model until your next 英雄阶段, but you must allocate D6 mortal wounds to the earer at the end of the turn in which they drank the brew.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that bearer will take either one or two swigs of Battle Brew. If the bearer takes one swig, add 1 to all hit and wound rolls for the bearer until your next 英雄阶段. If the bearer takes two swigs, add 2 to all hit and wound rolls for the model until your next 英雄阶段, but you must allocate D6 mortal wounds to the earer at the end of the turn in which they drank the brew.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2004,7 +2004,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bcd1-9176-4492-23ec" name="Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a terrain feature that is within 6寸 of your general and at least 5 其他 friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a terrain feature that is within 6寸 of your 主将 and at least 5 其他 friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2016,7 +2016,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="7e70-bb8b-13b3-bb52" name="Might is Right" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the wound rolls made for the general’s 肉搏 武器.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the wound rolls made for the 主将’s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2028,7 +2028,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="abd9-cb56-8363-375f" name="Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this General is picked to fight, pick one of their 肉搏 武器. Add 1 to the attach characterisict of that 肉搏 weapon for the fight. While 3 or more wounds are allocated to this general, instread add 2 to the Attacks characteristic of that 肉搏 weapon for that fight.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 is picked to fight, pick one of their 肉搏 武器. Add 1 to the attach characterisict of that 肉搏 weapon for the fight. While 3 or more wounds are allocated to this 主将, instread add 2 to the Attacks characteristic of that 肉搏 weapon for that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2040,7 +2040,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e6c7-5519-f527-355c" name="Bellowing Tyrant" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly DESTRUCTION 单位 within 6寸 of the general in your 英雄阶段. Until your next 英雄阶段, add 1 to charge and run rolls for the 单位, and use the general’s Bravery characteristic for the 单位 instead of its own.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly DESTRUCTION 单位 within 6寸 of the 主将 in your 英雄阶段. Until your next 英雄阶段, add 1 to charge and run rolls for the 单位, and use the 主将’s Bravery characteristic for the 单位 instead of its own.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2052,7 +2052,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="1851-80dd-639c-fce5" name="Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2064,7 +2064,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="6c53-2a68-0348-adc4" name="Ravager" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 3 to the Rampaging Destroyers dice roll (see battle traits) for the general instead of 2.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 3 to the Rampaging Destroyers dice roll (see battle traits) for the 主将 instead of 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2074,7 +2074,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f179-9104-3d7f-1ea1" name="Chaos Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f179-9104-3d7f-1ea1" name="混沌 Command Traits" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e106-91bb-bef8-c7e9" type="max"/>
       </constraints>
@@ -2083,7 +2083,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d11e-4267-ecf7-1094" name="Dark Avenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this general’s 肉搏 武器 if the target 单位 has the ORDER keyword.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this 主将’s 肉搏 武器 if the target 单位 has the ORDER keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2095,7 +2095,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="9c75-4d0a-1a86-b59d" name="Spiteful Duelist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general is picked to fight, you can re-roll one wound roll for one of their attacks in that fight.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is picked to fight, you can re-roll one wound roll for one of their attacks in that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2107,7 +2107,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="babc-4418-2091-f9c2" name="Cunning Deceiver" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice at the start of each of your 英雄 phases as long as this general has not been slain. On a 5+ you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice at the start of each of your 英雄 phases as long as this 主将 has not been slain. On a 5+ you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2119,7 +2119,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="264c-5601-8894-49c6" name="Lord of War" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly CHAOSunit within 3寸 of this general and roll a dice. On a 4+ you can add 1 to hit rolls for the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly CHAOSunit within 3寸 of this 主将 and roll a dice. On a 4+ you can add 1 to hit rolls for the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2131,7 +2131,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="5b4b-6ac6-d235-c9da" name="Terrifying Presence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2143,7 +2143,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="617b-164a-a339-55ae" name="Great Destroyer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see 战斗特性) for units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see 战斗特性) for units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2174,7 +2174,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f14b-13a5-16f7-d8f3" name="Inspiring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2186,7 +2186,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3b26-c45b-9b90-ff4f" name="Dauntless" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2198,7 +2198,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d599-6a50-2186-f4c7" name="Tenacious" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2210,7 +2210,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3413-3555-3979-858b" name="Legendary Fighter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this general is selected to fight, add 1 to the Attacks characteristic of one of their 肉搏 武器 for that fight.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 is selected to fight, add 1 to the Attacks characteristic of one of their 肉搏 武器 for that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2222,7 +2222,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="c089-92fd-691d-89eb" name="Master of Defence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each tim you allocate a wound or mortal wound to this general, roll a dice. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each tim you allocate a wound or mortal wound to this 主将, roll a dice. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2242,9 +2242,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cf7-199a-bbff-9614" type="max"/>
           </constraints>
           <profiles>
-            <profile id="64fc-7c64-bad6-8fa0" name="Quicksilver Potion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="64fc-7c64-bad6-8fa0" name="Quicksilver Potion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this potion. If you do so, in that combat phase, the bearer (and its mount, if it has one) fights immediately, instead of fighting later in the combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this potion. If you do so, in that combat phase, the bearer (and its mount, if it has one) fights immediately, instead of fighting later in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2260,9 +2260,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="755e-658f-d4d2-11e5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ed09-eabc-e937-3cb5" name="Obstinate Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ed09-eabc-e937-3cb5" name="Obstinate Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Improve the Rend characteristic of the weapon by 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Improve the Rend characteristic of the weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2278,9 +2278,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="40b1-e51e-5040-26a8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="eadc-c311-18a7-b983" name="Relic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="eadc-c311-18a7-b983" name="Relic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Increase the Damage characteristic of that weapon by 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Increase the Damage characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2296,9 +2296,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84fa-17d8-4e96-cf1f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a04c-51b5-a962-711c" name="Hoarfrost" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a04c-51b5-a962-711c" name="Hoarfrost" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. If an enemy model is allocated any wounds from this weapon and is not slain, subtract 1 from that model&apos;s hit rolls for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. If an enemy model is allocated any wounds from this weapon and is not slain, subtract 1 from that model&apos;s hit rolls for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2314,9 +2314,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f88-3ae2-0d77-73ac" type="max"/>
           </constraints>
           <profiles>
-            <profile id="161e-9efa-2b0a-fefe" name="Talisman of Blinding Light" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="161e-9efa-2b0a-fefe" name="Talisman of Blinding Light" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this amulet. If you do so, in that combat phase, subtract 1 from hit rolls made for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, you can use this amulet. If you do so, in that combat phase, subtract 1 from hit rolls made for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2332,9 +2332,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b2-1ef9-0dfc-f1c6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e580-f2ca-4ef6-85b6" name="Phoenix Stone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e580-f2ca-4ef6-85b6" name="Phoenix Stone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In each 英雄阶段, you can heal 1 wound that has been allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In each 英雄阶段, you can heal 1 wound that has been allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2347,7 +2347,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3c13-922a-683d-7de7" name="Artefacts of Chaos" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3c13-922a-683d-7de7" name="Artefacts of 混沌" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="180e-001b-6cfa-238a" type="max"/>
       </constraints>
@@ -2357,9 +2357,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b9-a2a3-ef6e-2f7d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c526-fe9d-86ef-39f9" name="Daemonic Weapon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c526-fe9d-86ef-39f9" name="Daemonic Weapon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Each time you roll a wound roll of 6+ for that weapon, that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Each time you roll a wound roll of 6+ for that weapon, that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2370,14 +2370,14 @@ to set up the 法师, then the 法师 is slain.</描述>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bce7-28e0-79ca-8ec1" name="2. Chaos Runeblade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bce7-28e0-79ca-8ec1" name="2. 混沌 Runeblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04b9-bd63-8e03-b108" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0043-fadd-e00b-8ebc" name="Chaos Runeblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0043-fadd-e00b-8ebc" name="混沌 Runeblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Increase the Attacks characteristic of that weapon by 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Increase the Attacks characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2393,9 +2393,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0959-900b-7900-7438" type="max"/>
           </constraints>
           <profiles>
-            <profile id="057d-22fb-6708-f98f" name="Beguiling Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="057d-22fb-6708-f98f" name="Beguiling Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick one enemy model within 3寸 of the bearer. Subtract 1 from hit rolls made for that model in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick one enemy model within 3寸 of the bearer. Subtract 1 from hit rolls made for that model in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2406,14 +2406,14 @@ to set up the 法师, then the 法师 is slain.</描述>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4048-8842-13f8-6487" name="4. Chaos Talisman" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4048-8842-13f8-6487" name="4. 混沌 Talisman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="675a-b8d6-59f5-114f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f0fd-58df-77bf-7a88" name="Chaos Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f0fd-58df-77bf-7a88" name="混沌 Talisman" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+, the wound is negated. Add 1 to the roll if the wound was inflicted by a model with the ORDER keyword.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+, the wound is negated. Add 1 to the roll if the wound was inflicted by a model with the ORDER keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2429,9 +2429,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7ed-39dd-49f5-9397" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d726-c6db-121c-8a13" name="Favour of the Gods" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d726-c6db-121c-8a13" name="Favour of the Gods" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Wounds characteristic of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Wounds characteristic of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2444,9 +2444,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b303-544d-589b-0409" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fe7c-fded-1e2c-6c81" name="Crown of Conquest" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fe7c-fded-1e2c-6c81" name="Crown of Conquest" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Friendly CHAOS units do not have to take battleshock tests while they are within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Friendly 混沌 units do not have to take battleshock tests while they are within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2473,7 +2473,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="409a-1a19-61fc-ebab" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2485,7 +2485,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="933a-c947-9fb0-e0a6" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 3寸 of the PRIEST. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2497,7 +2497,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bb1e-a8e5-4e0f-1fe6" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 英雄 from your army that is within 16寸 of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2509,7 +2509,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="a821-00f5-c6fc-2645" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2521,7 +2521,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="4cd3-aaf5-0845-37e4" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2533,7 +2533,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="ffb7-f9aa-a104-73af" name="Magebane Hex" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the PRIEST can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the 祭司 can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2588,9 +2588,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d8d-e8db-1240-e506" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f306-24f5-fc80-aef9" name="Entangling Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f306-24f5-fc80-aef9" name="Entangling Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2606,9 +2606,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2df3-57f8-b219-e14a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e387-e771-770f-df3f" name="Arboreal Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e387-e771-770f-df3f" name="Arboreal Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2624,9 +2624,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ca9-b4e2-30fa-550b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4afd-f2e6-b490-8661" name="Ghyrstrike" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4afd-f2e6-b490-8661" name="Ghyrstrike" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2642,9 +2642,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4644-d7bc-62a4-8755" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0a70-7426-d0e2-f62c" name="The Sunderblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0a70-7426-d0e2-f62c" name="The Sunderblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2660,9 +2660,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e04-fbf0-ebd9-51f2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8efc-9cae-f0f0-ee85" name="Jadewound Thorn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8efc-9cae-f0f0-ee85" name="Jadewound Thorn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2678,9 +2678,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f79-a08c-e0c5-5f78" type="max"/>
           </constraints>
           <profiles>
-            <profile id="87eb-d74e-a1e9-06fa" name="Blade of Hammerhal Ghyra" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="87eb-d74e-a1e9-06fa" name="Blade of Hammerhal Ghyra" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2753,9 +2753,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6ce-6ea7-f5fe-f036" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07f6-7fa7-96a2-ab12" name="Hypersnare Seeds" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="07f6-7fa7-96a2-ab12" name="Hypersnare Seeds" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of your opponent’s 射击阶段, pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 5+ that 单位 may not charge in the subsequent charge phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of your opponent’s 射击阶段, pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 5+ that 单位 may not charge in the subsequent charge phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2771,9 +2771,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ddff-ea79-f1a9-1c3f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f52-e252-90f1-7993" name="Wand of Restoration" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0f52-e252-90f1-7993" name="Wand of Restoration" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick a friendly model within 6寸 of the bearer that is visible to them. Heal 1 wound allocated to that model.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick a friendly model within 6寸 of the bearer that is visible to them. Heal 1 wound allocated to that model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2789,9 +2789,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df8-8660-f931-de26" type="max"/>
           </constraints>
           <profiles>
-            <profile id="97ae-8b59-27cd-47b4" name="Ghyrropian Gauntlets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="97ae-8b59-27cd-47b4" name="Ghyrropian Gauntlets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can move an extra 3寸 when making a pile-in move.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can move an extra 3寸 when making a pile-in move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2807,9 +2807,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b66c-7f8e-871f-59cb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="10d8-dc26-5c81-537c" name="Greenglade Flask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="10d8-dc26-5c81-537c" name="Greenglade Flask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink from the Greenglade Flask. If they do, heal D6 wounds allocated to them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink from the Greenglade Flask. If they do, heal D6 wounds allocated to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2825,9 +2825,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3fe-fa5f-053c-607c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b38d-8da2-4b98-14be" name="Verdant Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b38d-8da2-4b98-14be" name="Verdant Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer may attempt to dispel one endless 法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer may attempt to dispel one endless 法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2843,9 +2843,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4db-6ced-82f1-46aa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d11d-df26-af25-0ff6" name="Jade Diadem" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d11d-df26-af25-0ff6" name="Jade Diadem" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, heal 1 wound allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2875,9 +2875,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf63-430b-8f5e-a4bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5979-efc9-1495-26a1" name="Stonehorn Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5979-efc9-1495-26a1" name="Stonehorn Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Stonehorn Blade. Roll a dice at the end of any phase in which any wounds were inflicted by that weapon. On a 5+ you can pick an enemy 单位 within 3寸 of the bearer. That 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Stonehorn Blade. Roll a dice at the end of any phase in which any wounds were inflicted by that weapon. On a 5+ you can pick an enemy 单位 within 3寸 of the bearer. That 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2893,9 +2893,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04ad-2173-dcf9-8033" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1475-454d-4ebe-654e" name="Rockjaws" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1475-454d-4ebe-654e" name="Rockjaws" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2911,9 +2911,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77d7-2719-3825-ec96" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd7f-43a8-2330-ecc0" name="Rageblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="bd7f-43a8-2330-ecc0" name="Rageblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Rageblade. Add 1 to the attacks characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Rageblade. Add 1 to the attacks characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2929,9 +2929,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53a1-be5a-cc2b-52df" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a085-d9fc-4c50-ef31" name="Blade of Carving" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a085-d9fc-4c50-ef31" name="Blade of Carving" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Carving. If a hit roll for an attack with this weapon is 6+ the wound roll for that attack is automatically successful.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Carving. If a hit roll for an attack with this weapon is 6+ the wound roll for that attack is automatically successful.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2947,9 +2947,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5bb-1d41-ae77-67a4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6732-0f63-f666-6932" name="Anraheir&apos;s Claw" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6732-0f63-f666-6932" name="Anraheir&apos;s Claw" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Anraheirs’s Claw. If the wound roll for that weapon is 6+ add 2 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Anraheirs’s Claw. If the wound roll for that weapon is 6+ add 2 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2965,9 +2965,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96d1-33fb-55f6-a0b9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7c3d-188b-a685-d7dd" name="Amberglaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7c3d-188b-a685-d7dd" name="Amberglaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Amberglaive. Add 1寸 to the Range characteristic of that weapon (to a maximum of 3寸). In addition, add 1 to hit rolls for that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Amberglaive. Add 1寸 to the Range characteristic of that weapon (to a maximum of 3寸). In addition, add 1 to hit rolls for that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2997,9 +2997,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f80a-af57-50cf-5e1d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="73e1-9ac6-3ab2-9103" name="Beastcaller&apos;s Bones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="73e1-9ac6-3ab2-9103" name="Beastcaller&apos;s Bones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, roll a dice for each 怪兽 within 3寸 of the bearer. On a 5+ the 怪兽 being rolled for cannot attack this phase. If the 怪兽 is a mount, the rider may still attack with their own 武器 as normal.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, roll a dice for each 怪兽 within 3寸 of the bearer. On a 5+ the 怪兽 being rolled for cannot attack this phase. If the 怪兽 is a mount, the rider may still attack with their own 武器 as normal.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3015,9 +3015,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a8d-ceab-9559-733e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="336b-2f8f-56b8-f5ff" name="Tuskhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="336b-2f8f-56b8-f5ff" name="Tuskhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice for each enemy 单位 within 1寸 of the bearer after the bearer completes a charge move. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice for each enemy 单位 within 1寸 of the bearer after the bearer completes a charge move. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3033,9 +3033,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c23-d223-917e-6c4e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9adf-c38a-2a1b-2d13" name="Shardfist Pelt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9adf-c38a-2a1b-2d13" name="Shardfist Pelt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time you make a save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time you make a save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3051,9 +3051,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a87a-9f06-0158-e674" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e127-3966-4632-879b" name="Gargant-bone Dice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e127-3966-4632-879b" name="Gargant-bone Dice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will roll their Gargant-bone Dice. If you do so, roll three dice. For each roll of a 5+ each enemy 单位 within 6寸 of the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will roll their Gargant-bone Dice. If you do so, roll three dice. For each roll of a 5+ each enemy 单位 within 6寸 of the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3069,9 +3069,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cca-3474-bf8a-3528" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f5e-cd66-e51d-3710" name="Drakeforged Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0f5e-cd66-e51d-3710" name="Drakeforged Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer against attacks that have a random Damage characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer against attacks that have a random Damage characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3087,9 +3087,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dee-6d40-df13-c28e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd37-7c2e-fe55-314e" name="Gryph-feather Charm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="bd37-7c2e-fe55-314e" name="Gryph-feather Charm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1寸 to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1寸 to the bearer’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3119,9 +3119,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dc0-356e-ed39-b1c5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f1af-fc4b-0e18-82f1" name="Gildenbane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f1af-fc4b-0e18-82f1" name="Gildenbane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If an enemy model is the bearer of an artefact of power, they cannot use the rules for their artefact of power while they are within 3寸 of the bearer of Gildenbane.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If an enemy model is the bearer of an 魔法道具 of power, they cannot use the rules for their 魔法道具 of power while they are within 3寸 of the bearer of Gildenbane.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3137,9 +3137,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3516-d49f-2a49-1eba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8aac-bf2d-7064-bea6" name="Alchemical Chain" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8aac-bf2d-7064-bea6" name="Alchemical Chain" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind a single 法术 in each enemy 英雄阶段 in the same manner as a 法师 . If the bearer is already a 法师 , they can attempt to unbind 1 additional 法术 instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind a single 法术 in each enemy 英雄阶段 in the same manner as a 法师 . If the bearer is already a 法师 , they can attempt to unbind 1 additional 法术 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3155,9 +3155,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a64-51c1-30b8-16bf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6c8b-0efe-002c-ab0a" name="Bejeweled Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6c8b-0efe-002c-ab0a" name="Bejeweled Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, pick an enemy 单位 within 1寸 of the bearer and roll a dice. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, pick an enemy 单位 within 1寸 of the bearer and roll a dice. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3173,9 +3173,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8bc-3159-ffef-5722" type="max"/>
           </constraints>
           <profiles>
-            <profile id="681d-11ee-2651-fc0c" name="Godwrought Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="681d-11ee-2651-fc0c" name="Godwrought Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3191,9 +3191,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad1a-d53f-d829-3f08" type="max"/>
           </constraints>
           <profiles>
-            <profile id="daff-8374-2b48-a90f" name="Argent Armor" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="daff-8374-2b48-a90f" name="Argent Armor" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks for 肉搏 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks for 肉搏 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3209,9 +3209,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b32e-2ae8-af9a-0a2e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="edc9-b33c-3caf-0e93" name="Hydroxskin Cloak" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="edc9-b33c-3caf-0e93" name="Hydroxskin Cloak" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. After the bearer has made a normal move, you can pick 1 单位 that has any models that the bearer has passed across and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. After the bearer has made a normal move, you can pick 1 单位 that has any models that the bearer has passed across and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3241,9 +3241,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53c8-48d5-f4a9-3737" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ec22-73f5-abca-9fee" name="Aiban&apos;s Hidden Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ec22-73f5-abca-9fee" name="Aiban&apos;s Hidden Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Aiban’s Hidden Blade. If the hit roll for that weapon is 6+ add 1 to the Damage characteristic of that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Aiban’s Hidden Blade. If the hit roll for that weapon is 6+ add 1 to the Damage characteristic of that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3259,9 +3259,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a91-11c8-c268-0ff1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1cd0-e539-5fe9-3c0f" name="Argentine&apos;s Tooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1cd0-e539-5fe9-3c0f" name="Argentine&apos;s Tooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Argentine’s Tooth. Re-roll hit rolls of 1 for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Argentine’s Tooth. Re-roll hit rolls of 1 for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3277,9 +3277,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4d5-934d-7410-dca3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dac3-1f3f-5859-60ff" name="Chamonite Darts" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="dac3-1f3f-5859-60ff" name="Chamonite Darts" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3295,9 +3295,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b67-5020-6474-8226" type="max"/>
           </constraints>
           <profiles>
-            <profile id="97d2-ab76-2365-b932" name="Crucible of Molten Silver" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="97d2-ab76-2365-b932" name="Crucible of Molten Silver" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3313,9 +3313,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a337-5148-0b5a-d20f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8f69-2c69-046d-e4d9" name="Flowstone Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8f69-2c69-046d-e4d9" name="Flowstone Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Flowstone Blade. Each time you roll a hit roll of 6+ for this weapon, add 1 to the wound roll for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Flowstone Blade. Each time you roll a hit roll of 6+ for this weapon, add 1 to the wound roll for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3331,9 +3331,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9de7-644a-9097-85a2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac94-fe36-5248-e9db" name="Rune Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ac94-fe36-5248-e9db" name="Rune Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Rune Blade. That weapon has a Rend characteristic of -3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Rune Blade. That weapon has a Rend characteristic of -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3363,9 +3363,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7948-5d93-5f5c-3d50" type="max"/>
           </constraints>
           <profiles>
-            <profile id="93d9-7128-bb82-235f" name="Ruby Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="93d9-7128-bb82-235f" name="Ruby Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick the closest enemy 单位 within 18寸 of the bearer and roll a dice. On a 5+ that 单位 suffers D3 mortal wounds. If two or more enemy units are equally close to the bearer, you can pick any of them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick the closest enemy 单位 within 18寸 of the bearer and roll a dice. On a 5+ that 单位 suffers D3 mortal wounds. If two or more enemy units are equally close to the bearer, you can pick any of them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3381,9 +3381,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b873-a40d-66bf-800b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fee8-91fb-5c1a-3af6" name="Exile Torch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fee8-91fb-5c1a-3af6" name="Exile Torch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick an enemy 英雄 within 3寸 of the bearer and roll a dice. On a 6+ that 英雄 suffers 1 mortal wound and may not fight or be chosen as the target of an attack until the end of the turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick an enemy 英雄 within 3寸 of the bearer and roll a dice. On a 6+ that 英雄 suffers 1 mortal wound and may not fight or be chosen as the target of an attack until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3399,9 +3399,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3f5-34e3-6135-d2de" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cb07-b23f-91f9-48a7" name="Onyx Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cb07-b23f-91f9-48a7" name="Onyx Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Onyx Blade. Add 1 to wound rolls for that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Onyx Blade. Add 1 to wound rolls for that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3417,9 +3417,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d569-06e0-0031-e678" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d56-f515-1091-90e8" name="Purefire Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5d56-f515-1091-90e8" name="Purefire Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 5+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 5+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3435,9 +3435,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d294-9fe2-5efd-8832" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fbdb-35e7-6e56-ee1c" name="Magmaforged Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fbdb-35e7-6e56-ee1c" name="Magmaforged Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Magmaforged Blade. If the wound roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Magmaforged Blade. If the wound roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3453,9 +3453,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce16-cc51-f797-fc89" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14b4-4b1b-7b05-c9c5" name="Magmadroth Blood Vials" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="14b4-4b1b-7b05-c9c5" name="Magmadroth Blood Vials" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll a dice. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll a dice. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3485,9 +3485,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b558-0ae0-a88e-a88d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3285-b445-7ff8-02eb" name="Essence of Vulcatrix" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3285-b445-7ff8-02eb" name="Essence of Vulcatrix" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer may drink the Essence of Vulcatrix. If they do so, roll a dice. On a 1, the bearer suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the bearer until your next 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer may drink the Essence of Vulcatrix. If they do so, roll a dice. On a 1, the bearer suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the bearer until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3503,9 +3503,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eccf-b2b8-03bc-dc64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3fb7-1565-42eb-b97f" name="Cleansing Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3fb7-1565-42eb-b97f" name="Cleansing Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you may declare that the bearer will activate the brooch. If you do so, heal D3 wounds allocated to them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you may declare that the bearer will activate the brooch. If you do so, heal D3 wounds allocated to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3521,9 +3521,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc61-0a36-9831-afa0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2bf3-ec82-8dd2-cc1f" name="Crown of Flames" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2bf3-ec82-8dd2-cc1f" name="Crown of Flames" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Bravery characteristic of friendly units while they are wholly within 9寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Bravery characteristic of friendly units while they are wholly within 9寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3539,9 +3539,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="923b-53a1-4c44-e763" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8bd6-b3bc-010b-bed5" name="Ignax&apos;s Scales" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8bd6-b3bc-010b-bed5" name="Ignax&apos;s Scales" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3557,9 +3557,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3c1-1961-4182-32b8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ea0e-bc83-fe89-0e82" name="Thermalrider Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ea0e-bc83-fe89-0e82" name="Thermalrider Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 4 to the bearer’s Movement characteristic. In addition, the bearer may fly.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 4 to the bearer’s Movement characteristic. In addition, the bearer may fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3575,9 +3575,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f542-d148-4014-35b5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="26e5-1179-3359-2812" name="Smouldering Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="26e5-1179-3359-2812" name="Smouldering Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time you make a successful save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time you make a successful save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3607,9 +3607,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4e7-b413-ab20-71ee" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8a2a-4de2-c167-4df5" name="Cronehair Fetish" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8a2a-4de2-c167-4df5" name="Cronehair Fetish" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can add or subtract 1 from the result of any roll on the Shyish Realmscape Features table.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can add or subtract 1 from the result of any roll on the Shyish Realmscape Features table.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3625,9 +3625,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32db-c91f-34ca-cf2b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4aeb-19ce-6f47-c88d" name="Goblet of Draining" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4aeb-19ce-6f47-c88d" name="Goblet of Draining" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If 1 or more wounds are inflicted on an enemy 英雄 by the bearer, roll a dice. On a 5+ that 英雄 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If 1 or more wounds are inflicted on an enemy 英雄 by the bearer, roll a dice. On a 5+ that 英雄 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3643,9 +3643,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd3d-a3e5-402e-1f4b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c5e0-bf9f-2d10-bcd4" name="The Ragged Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c5e0-bf9f-2d10-bcd4" name="The Ragged Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your opponent’s 射击阶段, you can declare that bearer will shroud themselves with the Ragged Cloak. If you do so, the bearer may not be chosen as the target of an attack until the end of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your opponent’s 射击阶段, you can declare that bearer will shroud themselves with the Ragged Cloak. If you do so, the bearer may not be chosen as the target of an attack until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3661,9 +3661,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a42a-d543-7398-6aa4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8fb6-5c3f-3567-f7fd" name="Amethyst Blindmask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8fb6-5c3f-3567-f7fd" name="Amethyst Blindmask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of the bearer. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of the bearer. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3679,9 +3679,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae7a-c769-9010-9310" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c780-531f-252f-5a02" name="Ethereal Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c780-531f-252f-5a02" name="Ethereal Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Ignore modifiers (positive or negative) when making save rolls for this model.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Ignore modifiers (positive or negative) when making save rolls for this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3697,9 +3697,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80bc-615a-4652-6901" type="max"/>
           </constraints>
           <profiles>
-            <profile id="52b5-d07d-09f9-e305" name="Sepulchral Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="52b5-d07d-09f9-e305" name="Sepulchral Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3729,9 +3729,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="28f0-483d-e8ee-4315" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c842-d02d-a8f6-a676" name="Blade of Endings" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c842-d02d-a8f6-a676" name="Blade of Endings" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Endings. If the hit roll for that weapon is 6+ add 2 to the Damage characteristic of that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Endings. If the hit roll for that weapon is 6+ add 2 to the Damage characteristic of that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3747,9 +3747,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3722-e8b0-62f1-c62a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="94d7-9348-e0d0-6957" name="Splintertooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="94d7-9348-e0d0-6957" name="Splintertooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, pick an enemy 单位 within 8寸 of the bearer and roll three dice. If two dice have the same roll, that enemy 单位 suffers D3 mortal wounds. If all three dice have the same roll, that enemy 单位 suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, pick an enemy 单位 within 8寸 of the bearer and roll three dice. If two dice have the same roll, that enemy 单位 suffers D3 mortal wounds. If all three dice have the same roll, that enemy 单位 suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3765,9 +3765,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="849c-cf96-7783-4fa3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f786-d277-8f65-aca1" name="Wraithbow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f786-d277-8f65-aca1" name="Wraithbow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, pick an enemy 单位 within 18寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, pick an enemy 单位 within 18寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3783,9 +3783,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aabb-d75f-6baa-692d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fc9e-5278-ce47-398d" name="Sliver of Decrepitude" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fc9e-5278-ce47-398d" name="Sliver of Decrepitude" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sliver of Decrepitude. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds by that weapon are inflicted on an enemy 英雄 or 怪兽 , subtract 2寸 from that 英雄 or 怪兽 ’s Move characteristic for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sliver of Decrepitude. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds by that weapon are inflicted on an enemy 英雄 or 怪兽 , subtract 2寸 from that 英雄 or 怪兽 ’s Move characteristic for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3801,9 +3801,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06f1-ef91-b955-bf2f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f03a-98cd-4056-e1ce" name="Banshee Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f03a-98cd-4056-e1ce" name="Banshee Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Banshee Blade. Each time you roll a hit roll of 6+ for this weapon, roll 2D6. If the roll is equal to or more than the target’s Bravery characteristic, that attack inflicts D3 mortal wounds in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Banshee Blade. Each time you roll a hit roll of 6+ for this weapon, roll 2D6. If the roll is equal to or more than the target’s Bravery characteristic, that attack inflicts D3 mortal wounds in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3819,9 +3819,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8702-02cc-eda1-d0fa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="537a-251e-b855-960b" name="Lifebane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="537a-251e-b855-960b" name="Lifebane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Lifebane. Add 1 to wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Lifebane. Add 1 to wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3851,9 +3851,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="40f8-9a63-59a7-81ad" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c013-997e-c57b-0567" name="Miasmatic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c013-997e-c57b-0567" name="Miasmatic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Miasmatic Blade. Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Miasmatic Blade. Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3869,9 +3869,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a6f-4fb0-8c72-e199" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c5c-9a42-9b6e-b026" name="Sword of Judgement" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9c5c-9a42-9b6e-b026" name="Sword of Judgement" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sword of Judgement. If the hit roll for an attack with that weapon against a 英雄 or 怪兽 is 6+, that attack inflicts D6 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sword of Judgement. If the hit roll for an attack with that weapon against a 英雄 or 怪兽 is 6+, that attack inflicts D6 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3887,9 +3887,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc65-1f01-0530-d9cb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9671-85c4-632c-b37c" name="Dimensional Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9671-85c4-632c-b37c" name="Dimensional Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Dimensional Blade. Change the Rend characteristic of this weapon to -3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Dimensional Blade. Change the Rend characteristic of this weapon to -3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3905,9 +3905,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d35a-d4cf-c376-4db3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1408-0bfe-b262-29a0" name="Blade of Secrets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1408-0bfe-b262-29a0" name="Blade of Secrets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Secrets. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 法师 by that weapon, pick one 法术 that 法师 knows. That 法师 may not attempt to cast that 法术 again during that battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Secrets. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 法师 by that weapon, pick one 法术 that 法师 knows. That 法师 may not attempt to cast that 法术 again during that battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3923,9 +3923,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="104f-1d3d-e5de-7ce9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="211b-014f-0519-3057" name="Blade of the Thirteen Dominions" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="211b-014f-0519-3057" name="Blade of the Thirteen Dominions" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of the Thirteen Dominions. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, subtract 1 from hit rolls for attacks made by that 单位 until the end of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of the Thirteen Dominions. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, subtract 1 from hit rolls for attacks made by that 单位 until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3941,9 +3941,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6bc-f64f-e52f-1c6a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cc98-df0e-8937-08cf" name="Blade of Folded Shadow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cc98-df0e-8937-08cf" name="Blade of Folded Shadow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Folded Shadows. Add 1 to hit rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Folded Shadows. Add 1 to hit rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3973,9 +3973,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b8f-5a62-0312-2c50" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b5ec-7501-6226-de38" name="Spellmirror" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b5ec-7501-6226-de38" name="Spellmirror" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If a friendly 单位 within 6寸 of the bearer is affected by a 法术, you can roll a dice. On a 5+ that 单位 is not affected by the 法术. On a 1 the Spellmirror may not be used for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If a friendly 单位 within 6寸 of the bearer is affected by a 法术, you can roll a dice. On a 5+ that 单位 is not affected by the 法术. On a 1 the Spellmirror may not be used for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3991,9 +3991,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f45d-b9e4-878a-d641" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d17f-c2f2-b06b-e153" name="Talisman of the Watcher" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d17f-c2f2-b06b-e153" name="Talisman of the Watcher" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is not within 3寸 of an enemy 单位 at the start of the combat phase, pick a friendly 单位 within 9寸 of the bearer. You can re-roll save rolls of 1 for that 单位 until the end of that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is not within 3寸 of an enemy 单位 at the start of the combat phase, pick a friendly 单位 within 9寸 of the bearer. You can re-roll save rolls of 1 for that 单位 until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4009,9 +4009,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8658-708c-2c8f-d114" type="max"/>
           </constraints>
           <profiles>
-            <profile id="03b7-b8e8-9cd0-04f2" name="Betrayer&apos;s Crown" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="03b7-b8e8-9cd0-04f2" name="Betrayer&apos;s Crown" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, pick an enemy 单位 within 3寸 of the bearer that has two or more models. Roll a dice for each model in that enemy 单位. For each 5+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, pick an enemy 单位 within 3寸 of the bearer that has two or more models. Roll a dice for each model in that enemy 单位. For each 5+ that enemy 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4027,9 +4027,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73f4-9623-bf27-6e0f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7da8-f3cc-2a76-58ac" name="Doppelganger Cloak" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7da8-f3cc-2a76-58ac" name="Doppelganger Cloak" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will put on the cloak. If you do so, the bearer cannot be chosen as the target of attacks made with 肉搏 武器 unless the bearer has made any attacks earlier in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will put on the cloak. If you do so, the bearer cannot be chosen as the target of attacks made with 肉搏 武器 unless the bearer has made any attacks earlier in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4045,9 +4045,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="195f-2405-c56f-14b3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f5cb-68c4-4298-578d" name="Trickster&apos;s Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f5cb-68c4-4298-578d" name="Trickster&apos;s Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll successful casting rolls for enemy WIZARDS while they are within 8寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll successful casting rolls for enemy WIZARDS while they are within 8寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4063,9 +4063,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="76ea-e727-dc73-5706" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac19-7456-e50e-e378" name="Wristbands of Illusion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ac19-7456-e50e-e378" name="Wristbands of Illusion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4095,9 +4095,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2867-20b7-9e06-73f1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6509-98f3-7470-cf89" name="Atherquartz Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6509-98f3-7470-cf89" name="Atherquartz Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time you spend a command point, roll a dice. On a 5+ you receive 1 command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time you spend a command point, roll a dice. On a 5+ you receive 1 command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4113,9 +4113,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fe7-29a8-88f4-39c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="535b-e357-2fa2-64d2" name="Sash of the Ten Paradises" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="535b-e357-2fa2-64d2" name="Sash of the Ten Paradises" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2寸 to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2寸 to the bearer’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4131,9 +4131,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6e2-8cd0-5c27-d633" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c510-7073-87cb-e034" name="Guardian&apos;s Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c510-7073-87cb-e034" name="Guardian&apos;s Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can call upon the guardian spirits. If they do so, until your next 英雄阶段, roll a dice each time you allocate a wound to the bearer. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can call upon the guardian spirits. If they do so, until your next 英雄阶段, roll a dice each time you allocate a wound to the bearer. On a 4+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4149,9 +4149,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="efde-839b-e586-88b1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d99f-8005-1a6e-1c64" name="Lightshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d99f-8005-1a6e-1c64" name="Lightshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of them. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of them. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4167,9 +4167,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dbce-b3dc-1775-f2c9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="04d2-fb64-23c3-6aa9" name="Lens of Refraction" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="04d2-fb64-23c3-6aa9" name="Lens of Refraction" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6寸 of the bearer suffers any mortal wounds inflicted by a 法术 or endless 法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6寸 of the bearer suffers any mortal wounds inflicted by a 法术 or endless 法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4185,9 +4185,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69a3-788a-6fc9-64ba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d743-5950-4bec-bf00" name="Mirrored Curiass" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d743-5950-4bec-bf00" name="Mirrored Curiass" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+ the wound is negated. On a 6+ you can also pick an enemy 单位 within 6寸 of the bearer. That 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+ the wound is negated. On a 6+ you can also pick an enemy 单位 within 6寸 of the bearer. That 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4217,9 +4217,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f24-a08d-53e4-6e1b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3d5f-f193-f463-5b95" name="Blade of Symmetry" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3d5f-f193-f463-5b95" name="Blade of Symmetry" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Symmetry. Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Symmetry. Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4235,9 +4235,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1943-3fb2-31af-d68d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="33f0-ffe3-8a05-b0d7" name="Prism Amyntok" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="33f0-ffe3-8a05-b0d7" name="Prism Amyntok" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll four dice. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll four dice. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4253,9 +4253,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e4c-f4c4-62c5-4f86" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dbdc-638f-1b85-d78b" name="Crystalline Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="dbdc-638f-1b85-d78b" name="Crystalline Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Crystalline Blade. Add 1 to wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Crystalline Blade. Add 1 to wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4271,9 +4271,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a589-9e3e-a4fc-081b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e5c1-8bd0-bde5-1e27" name="Sunblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e5c1-8bd0-bde5-1e27" name="Sunblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sunblade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 英雄 or 怪兽 by that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sunblade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 英雄 or 怪兽 by that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4289,9 +4289,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="243a-1a34-3ac4-2843" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ada3-9c56-e746-9935" name="Gleaming Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ada3-9c56-e746-9935" name="Gleaming Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Gleaming Blade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Gleaming Blade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, heal 1 wound allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4307,9 +4307,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="055f-28b6-4b0c-fe5e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="62d4-4ab1-2fdb-6758" name="Luminary Rod" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="62d4-4ab1-2fdb-6758" name="Luminary Rod" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4631,7 +4631,7 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="6a62-fd42-aa4d-5e6a" name="Exorcising Beam" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. If the enemy 单位 is a DAEMON or DEATH 单位, it suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 12寸 of the caster that is visible to them. That 单位 suffers D3 mortal wounds. If the enemy 单位 is a 恶魔 or DEATH 单位, it suffers D6 mortal wounds instead.</characteristic>
               </characteristics>
             </profile>
             <profile id="bf05-2d97-bcc4-15f5" name="Light of Battle" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -4778,7 +4778,7 @@ to set up the 法师, then the 法师 is slain.</描述>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="4571-8f36-98ca-2d16" name="Rampaging Destroyers" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false">
-      <描述>Roll a dice in your 英雄阶段 for your general and each DESTRUCTION 英雄 in your army. Add 2 to the roll for the general. On a roll of 6 or more, pick a friendly DESTRUCTION 单位 within 6寸 of the general or 英雄 being rolled for. That 单位 can immediately move 6寸 if it is more than 12寸 from the enemy, can immediately pile in if it is within 3寸 of the enemy, or can immediately declare a charge in any 其他 circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</描述>
+      <描述>Roll a dice in your 英雄阶段 for your 主将 and each DESTRUCTION 英雄 in your army. Add 2 to the roll for the 主将. On a roll of 6 or more, pick a friendly DESTRUCTION 单位 within 6寸 of the 主将 or 英雄 being rolled for. That 单位 can immediately move 6寸 if it is more than 12寸 from the enemy, can immediately pile in if it is within 3寸 of the enemy, or can immediately declare a charge in any 其他 circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</描述>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4801,12 +4801,12 @@ to set up the 法师, then the 法师 is slain.</描述>
     </profile>
     <profile id="6884-967e-0150-274e" name="Unbridled Malice" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When a friendly CHAOS 单位 is picked to fight, roll a dice if it is within 12寸 of your general or 3寸 of a friendly 英雄. On a 6+, add 1 to hit rolls for the 单位 for that fight.</characteristic>
+        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When a friendly 混沌 单位 is picked to fight, roll a dice if it is within 12寸 of your 主将 or 3寸 of a friendly 英雄. On a 6+, add 1 to hit rolls for the 单位 for that fight.</characteristic>
       </characteristics>
     </profile>
     <profile id="d2d8-2ac6-109a-256f" name="Deathless Minions (GA:Death)" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time you allocate a wound or mortal wound to a friendly DEATH model within 6寸 of your general or a friendly DEATH 英雄, roll a dice. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time you allocate a wound or mortal wound to a friendly DEATH model within 6寸 of your 主将 or a friendly DEATH 英雄, roll a dice. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

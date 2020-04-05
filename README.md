@@ -12,7 +12,7 @@ Warhammer 西格玛时代 2018 Edition
 **The Battlescribe data editor can cause problems when merging updates. Because of this, and also to avoid duplicated effort where multiple people are working on the same files, please join us on Gitter before you commit changes to the files.**
 
 **UPDATE -July 16, 2018:**
-The Catalogs have been updated to support Matched Play points and FAQ's for the June 2018 AoS v2.0 release and the 2018 GHB. Core support for Endless Spells, Realms of Origin and Points Lists with no validation for battle-role or points have been added in the new **\***Pitched Battle***\** Profile
+The Catalogs have been updated to support Matched Play points and FAQ's for the June 2018 AoS v2.0 release and the 2018 GHB. Core support for Endless Spells, Realms of Origin and Points Lists with no validation for battle-role or points have been added in the new **\***竞技模式***\** Profile
 
 #### Contents ####
 [Contents]: #contents

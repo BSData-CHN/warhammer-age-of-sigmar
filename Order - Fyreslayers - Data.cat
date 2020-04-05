@@ -37,19 +37,19 @@
     <categoryEntry id="4b94-6bb2-6f57-3f3f" name="MAGMIC INVOCATION" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="8e35-cdef-4c7e-0a1c" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8e35-cdef-4c7e-0a1c" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="41d4-2f31-ed73-2d14" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="94c9-6cd1-da31-5c7e">
+        <selectionEntryGroup id="41d4-2f31-ed73-2d14" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="94c9-6cd1-da31-5c7e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="94c9-6cd1-da31-5c7e" name="Allegiance: Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="94c9-6cd1-da31-5c7e" name="势力: Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="a46a-e086-cad7-00eb" name="Ur-Gold" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -179,7 +179,7 @@
                         </profile>
                         <profile id="1d06-ea7f-5fd9-11fd" name="Torrent of Magma" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段.  If you do so, pick an enemy 单位 within 12寸 of a friendly LOFNIR PRIEST.  Until the end of that phase, add 1 to hit and wound rolls for attacks made with Magmapikes by friendly units that target that enemy 单位.  The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段.  If you do so, pick an enemy 单位 within 12寸 of a friendly LOFNIR 祭司.  Until the end of that phase, add 1 to hit and wound rolls for attacks made with Magmapikes by friendly units that target that enemy 单位.  The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -197,7 +197,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="22a9-7d52-14e2-eeab" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="22a9-7d52-14e2-eeab" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1494-6390-d6a0-7358" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -370,7 +370,7 @@
         <categoryLink id="6eec-04d9-97b0-7fb4" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bc39-a830-aaee-f739" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bc39-a830-aaee-f739" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -607,7 +607,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0ab0-6e07-ea9d-aed9" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0ab0-6e07-ea9d-aed9" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -692,7 +692,7 @@
         <categoryLink id="e8f7-c813-c32c-e6d7" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a089-15db-b9ac-fc2f" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a089-15db-b9ac-fc2f" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -893,7 +893,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f64c-c9ab-c927-bd82" name="General" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
+        <entryLink id="f64c-c9ab-c927-bd82" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="c071-aa96-97fd-3998" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="55c8-68a4-9e33-e49c" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
         <entryLink id="f4c4-8f90-a314-f7f2" name="Zharrgrim Blessing" hidden="false" collective="false" import="true" targetId="3182-7f5b-0313-de75" type="selectionEntryGroup"/>
@@ -1146,7 +1146,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a693-a77c-bb8d-c854" name="General" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
+        <entryLink id="a693-a77c-bb8d-c854" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="f28b-2ec4-22ee-15ce" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="f525-652b-0571-f63a" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
         <entryLink id="dfa3-857b-5a3a-0e05" name="Magmadroth Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
@@ -1268,7 +1268,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="706a-e371-91dd-894d" name="General" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
+        <entryLink id="706a-e371-91dd-894d" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="c7c2-71eb-24f2-7c3b" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="2c1a-ba96-7550-f50e" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1519,7 +1519,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e125-3aff-bd60-83c4" name="General" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
+        <entryLink id="e125-3aff-bd60-83c4" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="ee44-e73e-8232-2db4" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="8c68-c575-da64-b012" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
         <entryLink id="bd21-f5ff-b496-1bb9" name="Magmadroth Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
@@ -1828,7 +1828,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6af1-dad9-c048-6fa3" name="General" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
+        <entryLink id="6af1-dad9-c048-6fa3" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="3beb-00ca-039a-3de8" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="a6b4-fe87-bc3d-b59e" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2269,7 +2269,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="292c-59dc-7ac8-2383" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="292c-59dc-7ac8-2383" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2363,7 +2363,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1b5a-195a-e7fe-ce96" name="General" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
+        <entryLink id="1b5a-195a-e7fe-ce96" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="8441-b1a6-a6cf-8eca" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="f394-80fd-1986-f0bf" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2476,12 +2476,12 @@
       <profiles>
         <profile id="57e8-4665-a13a-acf7" name="Molten Blessing" publicationId="68d3-0b6a-3775-07d9" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST within 6寸 of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly FYRESLAYERS PRIESTS while they are within 18寸 of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 within 6寸 of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly FYRESLAYERS PRIESTS while they are within 18寸 of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="5ac9-7370-2224-5514" name="Spending the Forge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST within 6寸 of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly FYRESLAYERS units on the battlefield. However, for the rest of the battle, FYRESLAYERS PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 within 6寸 of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly FYRESLAYERS units on the battlefield. However, for the rest of the battle, FYRESLAYERS PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2503,7 +2503,7 @@
         <profile id="03b0-ce84-c197-d5e1" name="Summon Molten Infernoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that FYRESLAYERS PRIEST.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that FYRESLAYERS 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="0cf0-4802-4d3a-7f2f" name="Burning Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2539,7 +2539,7 @@
         <profile id="bf7b-0e30-b3b0-305e" name="Summon Runic Fyrewall" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that FYRESLAYERS PRIEST.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that FYRESLAYERS 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="2eab-08d3-e553-3e5c" name="Roaring Rune-fire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2575,12 +2575,12 @@
         <profile id="eaf0-2cee-671b-b41e" name="Summon Zharrgron Flame Splitter" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS PRIEST can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that FYRESLAYERS PRIEST.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that FYRESLAYERS 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="2032-4bfd-ad2a-273b" name="Magma Blast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 射击阶段, if there is a friendly FYRESLAYERS PRIEST within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 射击阶段, if there is a friendly FYRESLAYERS 祭司 within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2754,7 +2754,7 @@
       <profiles>
         <profile id="1354-fd1d-89c2-b418" name="Ancestral Fury" publicationId="9cbd-6717-1de9-c57a" page="42" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can add 1 to hit rolls for attacks made with 肉搏 武器 by units from this 阵型.   In addition, if the target is a CHAOS 单位, you can re-roll wound rolls of 1 for 肉搏 attacks.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can add 1 to hit rolls for attacks made with 肉搏 武器 by units from this 阵型.   In addition, if the target is a 混沌 单位, you can re-roll wound rolls of 1 for 肉搏 attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2905,7 +2905,7 @@
         <categoryLink id="83d1-06da-c232-05e5" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="ca09-9974-ce41-ada5" name="MAGMADROTH" hidden="false" targetId="9277-1530-7f0f-718f" primary="false"/>
         <categoryLink id="797a-1ae1-e646-215b" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="710c-164c-6616-48d0" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="710c-164c-6616-48d0" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="572f-e2a7-9227-d4ac" name="VOSTARG" hidden="false" targetId="c34d-acb9-a4d9-74be" primary="false"/>
         <categoryLink id="ee01-9001-f7f3-ed89" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -3015,7 +3015,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7865-28af-94ee-6685" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7865-28af-94ee-6685" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -3241,7 +3241,7 @@
           <profiles>
             <profile id="23bd-5213-9f45-363e" name="Fury of the Fyreslayers" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3253,7 +3253,7 @@
           <profiles>
             <profile id="9404-f6c9-a2b8-fce5" name="Honour of the Ancestors" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3265,7 +3265,7 @@
           <profiles>
             <profile id="95d7-75c2-c5fd-52a1" name="Spirit of Grimnir" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield, when you roll to activate an ur-gold rune, it has the enhanced effect on a roll of a 5+ instead of a 6.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is on the battlefield, when you roll to activate an ur-gold rune, it has the enhanced effect on a roll of a 5+ instead of a 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3277,7 +3277,7 @@
           <profiles>
             <profile id="8179-16e1-1e64-838d" name="Blood of the Berserker" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this general has fought in that phase for the first time, if they are within 3寸 of an enemy 单位, they can immediately make a pile in move and then attack with all of the 肉搏 武器 they are armed with for a second time.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle in the combat phase, after this 主将 has fought in that phase for the first time, if they are within 3寸 of an enemy 单位, they can immediately make a pile in move and then attack with all of the 肉搏 武器 they are armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3289,7 +3289,7 @@
           <profiles>
             <profile id="d7f3-7bee-0deb-65cd" name="Iron of the Guardian" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3301,7 +3301,7 @@
           <profiles>
             <profile id="5fb5-24b3-ebb5-6f2f" name="Destroyer of Foes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this general&apos;s 肉搏 weapon.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of this 主将&apos;s 肉搏 weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3332,7 +3332,7 @@
           <profiles>
             <profile id="4c18-2485-ad1d-029a" name="Fyremantle" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3356,7 +3356,7 @@
           <profiles>
             <profile id="0ace-d64d-70f1-d9be" name="Oathsayer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly DUARDIN units while they are wholly within 18寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly DUARDIN units while they are wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3368,7 +3368,7 @@
           <profiles>
             <profile id="0e1d-c7a5-aed6-9217" name="Ash-beard" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general knows 2 prayers from the Zharrgrim Blessings table instead of 1.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 2 prayers from the Zharrgrim Blessings table instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3380,7 +3380,7 @@
           <profiles>
             <profile id="3002-4e8b-3cc8-106e" name="Fyresteel Weaponsmith" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic of this general&apos;s 武器 by 1.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Improve the Rend characteristic of this 主将&apos;s 武器 by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3388,11 +3388,11 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="82f6-82b5-212f-736d" name="6. Master Priest" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="82f6-82b5-212f-736d" name="6. Master 祭司" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f429-11b8-5ae7-933d" name="Master Priest" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f429-11b8-5ae7-933d" name="Master 祭司" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your 英雄阶段, if this general is on the battlefield, you can activate one ur-gold rune that has already been activated, instead of one that has not yet been activated.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of your 英雄阶段, if this 主将 is on the battlefield, you can activate one ur-gold rune that has already been activated, instead of one that has not yet been activated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3424,14 +3424,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2766-9966-b53a-b3ec" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f841-5c0a-d29e-8762" name="Magnetized Runes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f841-5c0a-d29e-8762" name="Magnetized Runes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the charge rolls made for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the charge rolls made for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="c260-6916-c8bd-a874" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="c260-6916-c8bd-a874" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3442,14 +3442,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46c8-bbe7-f8be-3d18" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d8af-4afa-e2f9-0b07" name="Draught of Magmalt Ale" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d8af-4afa-e2f9-0b07" name="Draught of Magmalt Ale" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can drink this potion.  If they do so, double the Attacks characteristic of all of the 肉搏 武器 they are armed with until the end of that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can drink this potion.  If they do so, double the Attacks characteristic of all of the 肉搏 武器 they are armed with until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="4927-6ef6-67e2-1a00" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="4927-6ef6-67e2-1a00" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3460,14 +3460,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff55-f812-38a9-5685" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8a95-7d23-cc3f-9751" name="Drakeslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8a95-7d23-cc3f-9751" name="Drakeslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, instead of making an attack with the bearer&apos;s Fyresteel Throwing Axe, you can say they are throwing Drakeslayer.  If you do so, pick an enemy 怪兽 within 8寸 of the bearer and roll a dice.  On a 6, that 怪兽 suffers 3D6 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, instead of making an attack with the bearer&apos;s Fyresteel Throwing Axe, you can say they are throwing Drakeslayer.  If you do so, pick an enemy 怪兽 within 8寸 of the bearer and roll a dice.  On a 6, that 怪兽 suffers 3D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="ff34-275d-a3d1-3b9c" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="ff34-275d-a3d1-3b9c" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3478,14 +3478,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9a3-b637-824b-8f11" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2c17-64fd-8aa6-f3e8" name="Obsidian Glowhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2c17-64fd-8aa6-f3e8" name="Obsidian Glowhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, roll a dice if the bearer is on the battlefield.  On a 4+ you recieve 1 additional command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, roll a dice if the bearer is on the battlefield.  On a 4+ you recieve 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="d141-5a65-e0de-b7c8" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="d141-5a65-e0de-b7c8" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3496,14 +3496,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ab-47dc-39fc-c93e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b0f8-13c7-9790-312d" name="Shimmering Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b0f8-13c7-9790-312d" name="Shimmering Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s 肉搏 武器.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s 肉搏 武器.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="fbbe-17c7-1902-6456" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="fbbe-17c7-1902-6456" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3514,14 +3514,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3757-d934-1fa4-9404" type="max"/>
           </constraints>
           <profiles>
-            <profile id="21f2-6a15-8f7d-fbed" name="Axe of Grimnir" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="21f2-6a15-8f7d-fbed" name="Axe of Grimnir" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="4173-cffe-03a4-517f" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="4173-cffe-03a4-517f" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3551,14 +3551,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7009-ea76-7a44-aadb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bdb9-e097-722f-9457" name="Beastslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="bdb9-e097-722f-9457" name="Beastslayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  If the hit roll for an attack made with that weapon that targets a 怪兽 scores a hit, that attack inflicts 2 hits on the target instead of 1.   Make a wound and save roll for each hit.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  If the hit roll for an attack made with that weapon that targets a 怪兽 scores a hit, that attack inflicts 2 hits on the target instead of 1.   Make a wound and save roll for each hit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="698a-4e91-6dba-694d" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="698a-4e91-6dba-694d" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3569,14 +3569,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="755d-15a6-3736-9d17" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6c01-5aa9-862b-7ebd" name="Bracers of Ember-iron" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6c01-5aa9-862b-7ebd" name="Bracers of Ember-iron" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="a413-aea8-c5ef-d686" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="a413-aea8-c5ef-d686" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3587,14 +3587,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e0d2-d5b4-95bb-c037" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8b3b-ab24-fca1-75f6" name="Rune of Blazing Fury" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8b3b-ab24-fca1-75f6" name="Rune of Blazing Fury" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can awaken the Rune of Blazing Fury.  If you do so, you can re-roll hit and wound rolls for attacks made by the bearer until the end of that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can awaken the Rune of Blazing Fury.  If you do so, you can re-roll hit and wound rolls for attacks made by the bearer until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="3580-8061-5ee3-3e6e" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="3580-8061-5ee3-3e6e" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3624,14 +3624,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7f54-45fc-5b79-028a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ef1c-8a9a-d792-9932" name="Salamander Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ef1c-8a9a-d792-9932" name="Salamander Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 5+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 5+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="c7f3-82a5-1473-27e4" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="c7f3-82a5-1473-27e4" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3642,14 +3642,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5fc8-fd55-bdc4-5522" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2f7b-a67b-b499-fe97" name="Ash-cloud Rune" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2f7b-a67b-b499-fe97" name="Ash-cloud Rune" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind two spells in the enemy 英雄阶段 in the same manner as a 法师.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind two spells in the enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="3533-cd8b-5660-8282" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="3533-cd8b-5660-8282" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3660,14 +3660,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9183-2084-a979-ae02" type="max"/>
           </constraints>
           <profiles>
-            <profile id="abc6-db8c-70b0-4eda" name="Volatile Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="abc6-db8c-70b0-4eda" name="Volatile Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to summon 2 magmic invocations in the same turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to summon 2 magmic invocations in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="1e37-5afa-db60-97bc" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="1e37-5afa-db60-97bc" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3678,14 +3678,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db98-253f-e0c6-82c2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f232-32c6-0cfd-beb8" name="Ancestor Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f232-32c6-0cfd-beb8" name="Ancestor Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If an enemy 单位 fails a battleshock test within 12寸 of the bearer, add D3 to the number of models that flee.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If an enemy 单位 fails a battleshock test within 12寸 of the bearer, add D3 to the number of models that flee.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="b762-5b2e-55f4-f5d1" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="b762-5b2e-55f4-f5d1" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3696,14 +3696,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9209-cce1-8f77-aa3c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="88ac-ac5e-a159-2cc2" name="Emberstone Rune" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="88ac-ac5e-a159-2cc2" name="Emberstone Rune" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to invocation rolls made for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to invocation rolls made for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="4ec8-42ce-1e2e-8b18" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="4ec8-42ce-1e2e-8b18" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3714,14 +3714,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3040-f400-64a7-704b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="15a1-f723-eaab-8cfa" name="Droth-helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="15a1-f723-eaab-8cfa" name="Droth-helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made with Claws and Horns by friendly MAGMADROTHS within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made with Claws and Horns by friendly MAGMADROTHS within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="7e10-ef3f-24ac-47f1" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="7e10-ef3f-24ac-47f1" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3746,14 +3746,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fc9-cde2-114b-d190" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4b57-0de7-687e-3bb7" name="Icon of the Ancestors" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4b57-0de7-687e-3bb7" name="Icon of the Ancestors" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The range of this Battlesmith&apos;s Icon of Grimnir and None Shall Defile the Icon abilities is 18寸 instead of 12寸.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The range of this Battlesmith&apos;s Icon of Grimnir and None Shall Defile the Icon abilities is 18寸 instead of 12寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="f737-7cd0-1082-2569" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="f737-7cd0-1082-2569" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3764,14 +3764,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="964a-be70-86a1-e9c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b739-88e4-51cd-f02b" name="Icon of Grimnir&apos;s Condemnation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b739-88e4-51cd-f02b" name="Icon of Grimnir&apos;s Condemnation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师.  In addition, if the bearer unbinds a 法术, roll a dice.   On a 2+ the caster suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师.  In addition, if the bearer unbinds a 法术, roll a dice.   On a 2+ the caster suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="7b49-16ed-99b6-ea30" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="7b49-16ed-99b6-ea30" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3782,14 +3782,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cbd9-fa38-aad7-f074" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9060-0b95-0810-6512" name="The Nulsidian Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9060-0b95-0810-6512" name="The Nulsidian Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS 单位 wholly within 12寸 of the bearer is affected by a 法术 or endless 法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS 单位 wholly within 12寸 of the bearer is affected by a 法术 or endless 法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="a3a9-9ef6-23b2-bd84" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="a3a9-9ef6-23b2-bd84" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3813,7 +3813,7 @@
           <profiles>
             <profile id="f980-166b-c80d-c43a" name="Molten Infusion" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2 the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a magmic invocation model within 12寸 of this PRIEST.  At the end of this battle round, do not make a temperamental nature roll for that magmic invocation.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2 the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a magmic invocation model within 12寸 of this 祭司.  At the end of this battle round, do not make a temperamental nature roll for that magmic invocation.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3825,7 +3825,7 @@
           <profiles>
             <profile id="3abe-d88a-5ddd-05d4" name="Searing Heat" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick an enemy 单位 within 18寸 of this PRIEST.  Subtract 1 from hit rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick an enemy 单位 within 18寸 of this 祭司.  Subtract 1 from hit rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3837,7 +3837,7 @@
           <profiles>
             <profile id="aeea-5c61-5b55-d68c" name="Prayer of Ash" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-3, the prayer is not answered.  On a 4+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 wholly within 18寸 of this PRIEST.  Add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-3, the prayer is not answered.  On a 4+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 wholly within 18寸 of this 祭司.  Add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3849,7 +3849,7 @@
           <profiles>
             <profile id="73f8-b56b-d948-3f53" name="Ember Storm" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 of VULKITE BERZERKERS or HEARTHGUARD BERZERKERS wholly within 18寸 of this PRIEST.  That 单位 can run and still charge later in that turn.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 of VULKITE BERZERKERS or HEARTHGUARD BERZERKERS wholly within 18寸 of this 祭司.  That 单位 can run and still charge later in that turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3861,7 +3861,7 @@
           <profiles>
             <profile id="97d4-fbcd-a0f0-1727" name="Prayer of Grimnir&apos;s Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of an enemy 单位 and within 12寸 of this PRIEST.   Make a pile-in move with that 英雄, and then attack with all of the 肉搏 武器 that 英雄 is armed with.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of an enemy 单位 and within 12寸 of this 祭司.   Make a pile-in move with that 英雄, and then attack with all of the 肉搏 武器 that 英雄 is armed with.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3873,7 +3873,7 @@
           <profiles>
             <profile id="4d8e-f5fd-1603-4009" name="Gilded Claws" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly MAGMADROTH wholly within 12寸 of this PRIEST.  You can re-roll wound rolls for attacks made with that 单位&apos;s Claws and Horns until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly MAGMADROTH wholly within 12寸 of this 祭司.  You can re-roll wound rolls for attacks made with that 单位&apos;s Claws and Horns until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3942,7 +3942,7 @@
           <profiles>
             <profile id="8136-1537-d00a-d541" name="Battle-scarred Veteran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general&apos;s 肉搏 武器 while there are 5 or more enemy models within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this 主将&apos;s 肉搏 武器 while there are 5 or more enemy models within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3970,7 +3970,7 @@
           <profiles>
             <profile id="ab47-ce40-ea18-00fa" name="Warrior Indominate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks that target this general and friendly HERMDAR units wholly within 12寸.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks that target this 主将 and friendly HERMDAR units wholly within 12寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3998,7 +3998,7 @@
           <profiles>
             <profile id="2bcd-5ec4-177f-3ef0" name="Explosive Charge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4031,14 +4031,14 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c80-eb31-b008-8d30" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cc41-d7f3-aaf8-15b8" name="Voxaxe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cc41-d7f3-aaf8-15b8" name="Voxaxe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s 肉搏 武器.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the battle, pick one of the bearer&apos;s 肉搏 武器.  Improve that weapon&apos;s Rend characteristic by 1.  In addition, if the unmodified hit roll for an attack made with that weapon is 6, add 1 to the Damage characteristic of that weapon for that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="ac00-be0e-147b-a38e" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="ac00-be0e-147b-a38e" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4062,14 +4062,14 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="38d1-0781-bccd-0508" type="max"/>
           </constraints>
           <profiles>
-            <profile id="12b6-74bc-3685-754f" name="Helm of Obsidian" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="12b6-74bc-3685-754f" name="Helm of Obsidian" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the Wounds characteristic of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the Wounds characteristic of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="a8b9-155f-fd28-bd64" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="a8b9-155f-fd28-bd64" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4093,14 +4093,14 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f597-3be8-ea34-704b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d4e2-e60f-e094-4b56" name="Tyrant Slayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d4e2-e60f-e094-4b56" name="Tyrant Slayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  You can re-roll wound rolls for attacks made with that weapon that target an enemy 英雄.  In addition, if the unmodified hit roll for an attack made with that weapon that targets an enemy 英雄 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  You can re-roll wound rolls for attacks made with that weapon that target an enemy 英雄.  In addition, if the unmodified hit roll for an attack made with that weapon that targets an enemy 英雄 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="cedd-3147-f024-bd4f" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="cedd-3147-f024-bd4f" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4134,14 +4134,14 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="62df-b2e5-ad41-1c07" type="min"/>
           </constraints>
           <profiles>
-            <profile id="396b-bb07-1ce9-d2bd" name="Igneous Battle-throne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="396b-bb07-1ce9-d2bd" name="Igneous Battle-throne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 6+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.  On a 6+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="5159-62ed-4bf1-1302" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+            <categoryLink id="5159-62ed-4bf1-1302" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>

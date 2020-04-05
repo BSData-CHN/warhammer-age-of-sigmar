@@ -63,13 +63,13 @@
     <categoryEntry id="4fc4-6477-589d-8faf" name="BRANCHWYCH" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="e2ee-2634-4e4c-6340" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e2ee-2634-4e4c-6340" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4ef-da99-a436-99bc" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bf4-2758-5f9d-84ad" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3d08-1ef7-fa6e-41e3" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="488b-4b28-f4b7-0557">
+        <selectionEntryGroup id="3d08-1ef7-fa6e-41e3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="488b-4b28-f4b7-0557">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ed7-6b7c-3485-c313" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e05-803f-acb1-26a4" type="min"/>
@@ -95,7 +95,7 @@
                 </profile>
                 <profile id="6414-7a4a-1169-ee80" name="Isharann Rituals" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
                   <characteristics>
-                    <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">ISHARANN HEROES from an Idoneth Deepkin army can perform the following Isharann rituals in your 英雄阶段. A maximum of one Isharann ritual can be performed in each 英雄阶段.  In order to perform a ritual, at the start of your 英雄阶段, say which ritual is being performed and then pick one ISHARANN 英雄 from your army that is more than 9寸 from any enemy models. Then roll 2D6. Add 1 to the roll if the 英雄 performing the ritual is within 1寸 of a Gloomtide Shipwreck, and add a further 1 to the roll if they are a PRIEST. In addition, add 1 to the roll for each 其他 friendly ISHARANN 英雄 that is within 3寸 of the model performing the ritual (add 2 instead for each 英雄 within 3寸 that is a PRIEST). On a 10+ the ritual is successfully performed. On any 其他 result, the ritual fails and nothing happens.</characteristic>
+                    <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">ISHARANN HEROES from an Idoneth Deepkin army can perform the following Isharann rituals in your 英雄阶段. A maximum of one Isharann ritual can be performed in each 英雄阶段.  In order to perform a ritual, at the start of your 英雄阶段, say which ritual is being performed and then pick one ISHARANN 英雄 from your army that is more than 9寸 from any enemy models. Then roll 2D6. Add 1 to the roll if the 英雄 performing the ritual is within 1寸 of a Gloomtide Shipwreck, and add a further 1 to the roll if they are a 祭司. In addition, add 1 to the roll for each 其他 friendly ISHARANN 英雄 that is within 3寸 of the model performing the ritual (add 2 instead for each 英雄 within 3寸 that is a 祭司). On a 10+ the ritual is successfully performed. On any 其他 result, the ritual fails and nothing happens.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -322,7 +322,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5ab6-9d8a-e607-0bc3" name="Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5ab6-9d8a-e607-0bc3" name="秩序" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -348,7 +348,7 @@
         </profile>
         <profile id="a86f-7ed9-cd25-7b3f" name="Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12寸 of your general. Add 1 to the Attacks characteristic of 肉搏 武器 used by that 单位 until your next 英雄阶段. </characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your 主将 and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12寸 of your 主将. Add 1 to the Attacks characteristic of 肉搏 武器 used by that 单位 until your next 英雄阶段. </characteristic>
           </characteristics>
         </profile>
         <profile id="54a5-a674-ce5b-e284" name="Akhelian King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -446,7 +446,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7eeb-7abc-44e0-3b38" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="7eeb-7abc-44e0-3b38" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
         <entryLink id="6852-61ae-50f2-3ab3" name="Deepmare Mount" hidden="false" collective="false" import="true" targetId="6c31-939f-9e1c-f83e" type="selectionEntry"/>
         <entryLink id="56da-e0fc-38f2-5050" name="Command Traits" hidden="false" collective="false" import="true" targetId="0879-c394-8274-958b" type="selectionEntryGroup"/>
         <entryLink id="5dbb-9676-d714-5512" name="Artefacts" hidden="false" collective="false" import="true" targetId="0740-e91a-e615-4ac9" type="selectionEntryGroup"/>
@@ -455,7 +455,7 @@
         <cost name="pts" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4dc9-5604-2e81-ef8a" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4dc9-5604-2e81-ef8a" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -538,7 +538,7 @@
         </profile>
         <profile id="c0d7-c100-8460-42ef" name="Supreme Lord of Tides" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your general and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18寸 of Volturnus. Add 1 to the Attacks characteristic of 肉搏 武器 used by those units until your next 英雄阶段</characteristic>
+            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your 主将 and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18寸 of Volturnus. Add 1 to the Attacks characteristic of 肉搏 武器 used by those units until your next 英雄阶段</characteristic>
           </characteristics>
         </profile>
         <profile id="a479-0026-d75e-56fd" name="Volturnos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -590,7 +590,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0a1b-bed0-c78a-e17e" name="General - Akhelian" hidden="false" collective="false" import="true" targetId="f3e4-d800-16f7-c5ab" type="selectionEntry"/>
+        <entryLink id="0a1b-bed0-c78a-e17e" name="主将 - Akhelian" hidden="false" collective="false" import="true" targetId="f3e4-d800-16f7-c5ab" type="selectionEntry"/>
         <entryLink id="1fff-c7dc-2cb7-e4cf" name="Deepmare Mount" hidden="false" collective="false" import="true" targetId="6c31-939f-9e1c-f83e" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -724,7 +724,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a226-3bb1-ebe0-188b" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="c0f2-5e1d-b7fd-4cb6" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="c0f2-5e1d-b7fd-4cb6" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
         <entryLink id="bf76-2a4a-5059-1bd3" name="Command Traits" hidden="false" collective="false" import="true" targetId="0879-c394-8274-958b" type="selectionEntryGroup"/>
         <entryLink id="95f9-40e2-d85c-8d15" name="Artefacts" hidden="false" collective="false" import="true" targetId="0740-e91a-e615-4ac9" type="selectionEntryGroup"/>
         <entryLink id="ba0b-415e-5c6c-f852" name="Spells" hidden="false" collective="false" import="true" targetId="ae84-c2fb-c58c-9d9b" type="selectionEntryGroup"/>
@@ -840,7 +840,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e079-d586-7e7d-2b20" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1f4a-6b05-ec42-ecc3" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="1f4a-6b05-ec42-ecc3" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
         <entryLink id="4b4f-44cf-02a3-052c" name="Command Traits" hidden="false" collective="false" import="true" targetId="0879-c394-8274-958b" type="selectionEntryGroup"/>
         <entryLink id="ab62-ba5e-36ce-c6b7" name="Artefacts" hidden="false" collective="false" import="true" targetId="0740-e91a-e615-4ac9" type="selectionEntryGroup"/>
       </entryLinks>
@@ -971,7 +971,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e224-edef-9995-f2dc" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="e224-edef-9995-f2dc" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -1342,7 +1342,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fd02-512f-c872-c077" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="fd02-512f-c872-c077" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
         <entryLink id="1888-ae08-b4ec-caef" name="Spells" hidden="false" collective="false" import="true" targetId="ae84-c2fb-c58c-9d9b" type="selectionEntryGroup"/>
         <entryLink id="7578-3ec4-af58-162d" name="Command Traits" hidden="false" collective="false" import="true" targetId="0879-c394-8274-958b" type="selectionEntryGroup"/>
         <entryLink id="390f-d8e4-1932-6483" name="Artefacts" hidden="false" collective="false" import="true" targetId="0740-e91a-e615-4ac9" type="selectionEntryGroup"/>
@@ -1427,7 +1427,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e581-ba1f-54d5-c952" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="e581-ba1f-54d5-c952" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
         <entryLink id="fcb3-4e60-9747-316a" name="Command Traits" hidden="false" collective="false" import="true" targetId="0879-c394-8274-958b" type="selectionEntryGroup"/>
         <entryLink id="3882-ff31-45c8-1f0f" name="Artefacts" hidden="false" collective="false" import="true" targetId="0740-e91a-e615-4ac9" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1510,7 +1510,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="eede-2562-70c6-752b" name="General" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
+        <entryLink id="eede-2562-70c6-752b" name="主将" hidden="false" collective="false" import="true" targetId="e67f-735c-9874-ba8c" type="selectionEntryGroup"/>
         <entryLink id="e7aa-7af2-5c37-edf5" name="Command Traits" hidden="false" collective="false" import="true" targetId="0879-c394-8274-958b" type="selectionEntryGroup"/>
         <entryLink id="bc11-ce88-bade-7f3c" name="Artefacts" hidden="false" collective="false" import="true" targetId="0740-e91a-e615-4ac9" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2394,7 +2394,7 @@
       <profiles>
         <profile id="cd2e-dcfe-866b-d638" name="Give Them No Respite" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if the Akhelian King from this 阵型 is your general, and the Isharann Tidecaster and Isharann Soulscryer from this 阵型 are within 3寸 of the general. If you do so, pick up to three friendly IDONETH DEEPKIN units that are wholly within 12寸of your general. Add 3寸 to the Move characteristic of the units you pick until your next 英雄阶段. </characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if the Akhelian King from this 阵型 is your 主将, and the Isharann Tidecaster and Isharann Soulscryer from this 阵型 are within 3寸 of the 主将. If you do so, pick up to three friendly IDONETH DEEPKIN units that are wholly within 12寸of your 主将. Add 3寸 to the Move characteristic of the units you pick until your next 英雄阶段. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2459,7 +2459,7 @@
       <profiles>
         <profile id="d473-e47d-67b4-24c4" name="Full Fury of the Storm" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If your army has the IDONETH DEEPKIN allegiance and includes this 阵型, then once per battle at the start of a battle round, you can choose to use the High Tide ability from the Tides of Death table (pg 86) for that battle round instead of the ability that would normally be used.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If your army has the IDONETH DEEPKIN 势力 and includes this 阵型, then once per battle at the start of a battle round, you can choose to use the High Tide ability from the Tides of Death table (pg 86) for that battle round instead of the ability that would normally be used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2503,7 +2503,7 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9502-6e5f-d77a-4ab9" name="General - Isharann" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9502-6e5f-d77a-4ab9" name="主将 - Isharann" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2526,7 +2526,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3e4-d800-16f7-c5ab" name="General - Akhelian" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f3e4-d800-16f7-c5ab" name="主将 - Akhelian" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2799,7 +2799,7 @@
           <profiles>
             <profile id="efeb-7beb-f820-458b" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2811,7 +2811,7 @@
           <profiles>
             <profile id="2913-8bcf-a6ec-17ab" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 3寸 of the PRIEST. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2823,7 +2823,7 @@
           <profiles>
             <profile id="d1a3-9cca-0f87-31a0" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 英雄 from your army that is within 16寸 of the PRIEST and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2835,7 +2835,7 @@
           <profiles>
             <profile id="e53b-d58a-d894-8370" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2847,7 +2847,7 @@
           <profiles>
             <profile id="ca39-078c-4d38-90bd" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the PRIEST or a KHORNE 单位 from your army that is within 16寸 of the PRIEST and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2859,7 +2859,7 @@
           <profiles>
             <profile id="2bd5-6888-55d1-6fd9" name="Magebane Hex" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the PRIEST can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the 祭司 can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2878,7 +2878,7 @@
           <profiles>
             <profile id="d1e7-f60e-02d5-1c25" name="Merciless Raider" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can re-roll run rolls and charge rolls for this general.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can re-roll run rolls and charge rolls for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2890,7 +2890,7 @@
           <profiles>
             <profile id="0eb0-7f32-cbb7-421a" name="Hunter of Souls" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Re-roll wound rolls of 1 for this general.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Re-roll wound rolls of 1 for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2902,7 +2902,7 @@
           <profiles>
             <profile id="d05c-b344-fd81-ab79" name="Unstoppable Fury" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Attacks characteristic of any 武器 used by this general in any battle round in which the High Tide ability (pg 86) is in effect.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Attacks characteristic of any 武器 used by this 主将 in any battle round in which the High Tide ability (pg 86) is in effect.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2914,7 +2914,7 @@
           <profiles>
             <profile id="6068-66c6-5d26-c5a0" name="Born From Agony" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Increase this general’sWounds characteristic by 2.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Increase this 主将’sWounds characteristic by 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2926,7 +2926,7 @@
           <profiles>
             <profile id="c0a9-9118-a2e2-2987" name="Nightmare Legacy" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸of this general.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2938,7 +2938,7 @@
           <profiles>
             <profile id="ca51-7035-c34b-4c0b" name="Lord of Storm and Sea" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 12寸of this general.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">Add 2 to the Bravery characteristic of friendly IDONETH DEEPKIN units while they are wholly within 12寸of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2971,9 +2971,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89d7-c5ca-e200-a18b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="12e5-cc7f-0801-79cc" name="Sanguine Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="12e5-cc7f-0801-79cc" name="Sanguine Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 肉搏 weapon. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 肉搏 weapon. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2986,9 +2986,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="faa1-9340-a73e-53d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9e03-d1d4-ec95-1441" name="Potion of Hateful Frenzy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9e03-d1d4-ec95-1441" name="Potion of Hateful Frenzy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink this potion. If they do so, add 1 to hit and wound rolls for the bearer until your next 英雄阶段. However, at the start of your next 英雄阶段 the bearer suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink this potion. If they do so, add 1 to hit and wound rolls for the bearer until your next 英雄阶段. However, at the start of your next 英雄阶段 the bearer suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3001,9 +3001,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c14b-8a6d-6521-3952" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5b27-18b6-7b5d-6b38" name="Ankusha Spur" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5b27-18b6-7b5d-6b38" name="Ankusha Spur" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to the bearer’s Move characteristic.  In addition, re-roll wound rolls of 1 for attacks made by the bearer’s mount</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to the bearer’s Move characteristic.  In addition, re-roll wound rolls of 1 for attacks made by the bearer’s mount</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3016,9 +3016,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91bf-332c-9895-1ce9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3e81-c82f-688e-9566" name="Armour of the Cythai" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3e81-c82f-688e-9566" name="Armour of the Cythai" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for 肉搏 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for 肉搏 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3031,9 +3031,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d79-b7b6-4d75-02a8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a843-7404-ba9b-902a" name="Bio-shock Shell" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a843-7404-ba9b-902a" name="Bio-shock Shell" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will use the Bio-shock Shell. If you do so, each enemy 单位 within 3寸of the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will use the Bio-shock Shell. If you do so, each enemy 单位 within 3寸of the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3046,9 +3046,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5724-985b-87f9-360d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1a0e-3f29-5596-d076" name="Abyssal Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1a0e-3f29-5596-d076" name="Abyssal Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the SLAANESH keyword.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the SLAANESH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3081,9 +3081,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7015-782e-6dd5-8d8a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d988-b9e6-77a7-86b8" name="Rune of the Surging Tide" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d988-b9e6-77a7-86b8" name="Rune of the Surging Tide" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can say that the bearer will use the Rune of the Surging Tide. If you do so, say whether the rune will be used to create a stream or a riptide. If a stream is created, add 1寸 to the Move characteristic of friendly IDONETH DEEPKIN units until your next 英雄阶段. If a riptide is created, subtract 1寸 from the Move characteristic of enemy units until your next 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can say that the bearer will use the Rune of the Surging Tide. If you do so, say whether the rune will be used to create a stream or a riptide. If a stream is created, add 1寸 to the Move characteristic of friendly IDONETH DEEPKIN units until your next 英雄阶段. If a riptide is created, subtract 1寸 from the Move characteristic of enemy units until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3096,9 +3096,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1262-cf7c-0cbc-1776" type="max"/>
           </constraints>
           <profiles>
-            <profile id="222b-e1be-68db-7fa5" name="Black Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="222b-e1be-68db-7fa5" name="Black Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3111,9 +3111,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a773-0fae-c120-11a6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4e35-5033-7c33-18a4" name="Lliandra’s Last Lament" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4e35-5033-7c33-18a4" name="Lliandra’s Last Lament" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the battleshock phase, you can say that the bearer will release Lliandra’s Last Lament. If you do so, friendly IDONETH DEEPKIN units wholly within 18寸of the bearer do not have to take battleshock tests that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the battleshock phase, you can say that the bearer will release Lliandra’s Last Lament. If you do so, friendly IDONETH DEEPKIN units wholly within 18寸of the bearer do not have to take battleshock tests that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3126,9 +3126,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c568-2a13-779a-81d6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e512-0209-69de-f1ff" name="Terrornight Venom" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e512-0209-69de-f1ff" name="Terrornight Venom" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be coated with Terrornight Venom. Re-roll wound rolls of 1 for that weapon. In addition, subtract 1 from the Bravery characteristic of enemy units that suffer any wounds from this weapon for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be coated with Terrornight Venom. Re-roll wound rolls of 1 for that weapon. In addition, subtract 1 from the Bravery characteristic of enemy units that suffer any wounds from this weapon for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3141,9 +3141,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6266-b5dc-b300-a245" type="max"/>
           </constraints>
           <profiles>
-            <profile id="97f2-6897-f37c-8fd1" name="Cloud of Midnight" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="97f2-6897-f37c-8fd1" name="Cloud of Midnight" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can release the Cloud of Midnight. If they do so, they cannot be chosen as the target for attacks, spells or abilities for the rest of the phase, but cannot themselves attack or use spells and abilities for the rest of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can release the Cloud of Midnight. If they do so, they cannot be chosen as the target for attacks, spells or abilities for the rest of the phase, but cannot themselves attack or use spells and abilities for the rest of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3156,9 +3156,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8009-1c75-8b53-6fdf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="81f3-b094-38d5-ff74" name="Whorlshell" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="81f3-b094-38d5-ff74" name="Whorlshell" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can say that the bearer will use the Whorlshell. If you do so, pick an enemy 英雄 within 9寸 of the bearer that is visible to them and roll 2D6. If the roll is greater than the enemy 英雄’s Bravery characteristic, subtract 1 from hit rolls for the enemy 英雄 for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can say that the bearer will use the Whorlshell. If you do so, pick an enemy 英雄 within 9寸 of the bearer that is visible to them and roll 2D6. If the roll is greater than the enemy 英雄’s Bravery characteristic, subtract 1 from hit rolls for the enemy 英雄 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3191,9 +3191,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00db-81b1-307f-66ae" type="max"/>
           </constraints>
           <profiles>
-            <profile id="61a6-c6a9-a2ff-1bd7" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="61a6-c6a9-a2ff-1bd7" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 射击武器. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 射击武器. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3206,9 +3206,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5297-1906-fa54-8a35" type="max"/>
           </constraints>
           <profiles>
-            <profile id="98bf-66d5-f19a-9926" name="Mind Flare" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="98bf-66d5-f19a-9926" name="Mind Flare" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, pick an enemy 单位 within 3寸 of the bearer. Subtract 1 from hit rolls for that 单位 until the end of that combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of a combat phase, pick an enemy 单位 within 3寸 of the bearer. Subtract 1 from hit rolls for that 单位 until the end of that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3221,9 +3221,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a901-d51e-bc30-0ff8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3b5e-7830-21e0-bfcc" name="Dritchleech" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3b5e-7830-21e0-bfcc" name="Dritchleech" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of WIZARDS while they are within 18寸of the bearer. IDONETH DEEPKIN WIZARDS are not affected by this artefact.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of WIZARDS while they are within 18寸of the bearer. IDONETH DEEPKIN WIZARDS are not affected by this 魔法道具.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3236,9 +3236,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d8f5-6cc2-1512-a8f5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="98f7-044c-378e-bb8e" name="Auric Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="98f7-044c-378e-bb8e" name="Auric Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 射击阶段, pick an enemy 单位 within 18寸of the bearer that is in cover. Until your next 射击阶段, that enemy 单位 does not receive the benefit to its saving throw for being in cover.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 射击阶段, pick an enemy 单位 within 18寸of the bearer that is in cover. Until your next 射击阶段, that enemy 单位 does not receive the benefit to its saving throw for being in cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3251,9 +3251,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd8d-5152-c565-b831" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ecbb-806f-f16f-e155" name="Disharmony Stones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ecbb-806f-f16f-e155" name="Disharmony Stones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, pick up to two enemy HEROES that are within 12寸of the bearer. The opposing player must then choose one of the following options:  a) Roll a dice for each 英雄 picked. On a 3+ that 英雄 suffers 1 mortal wound.  b) Roll a dice for each 英雄 picked. On a 5+ that 英雄 suffers D3 mortal wounds.  c) Each 英雄 picked suffers D3 mortal wounds. Then roll a dice. On a 4+ the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, pick up to two enemy HEROES that are within 12寸of the bearer. The opposing player must then choose one of the following options:  a) Roll a dice for each 英雄 picked. On a 3+ that 英雄 suffers 1 mortal wound.  b) Roll a dice for each 英雄 picked. On a 5+ that 英雄 suffers D3 mortal wounds.  c) Each 英雄 picked suffers D3 mortal wounds. Then roll a dice. On a 4+ the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3266,9 +3266,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe46-93d3-2fe9-fedb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="01a6-07bc-cb74-7f70" name="Brain Barnacles" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="01a6-07bc-cb74-7f70" name="Brain Barnacles" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, pick an enemy 英雄 within 12寸of the bearer and roll 2D6. If the roll is equal to or greater than the distance between the bearer and that 英雄, the enemy 英雄 is infected. Subtract 1 from hit rolls and casting rolls for the infected 英雄 for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, pick an enemy 英雄 within 12寸of the bearer and roll 2D6. If the roll is equal to or greater than the distance between the bearer and that 英雄, the enemy 英雄 is infected. Subtract 1 from hit rolls and casting rolls for the infected 英雄 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3301,9 +3301,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e82f-db4e-639e-d0a4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d372-20c1-842b-aead" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d372-20c1-842b-aead" name="Steelshell Pearl" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 射击武器. On a 5+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer that was caused by a 射击武器. On a 5+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3316,9 +3316,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="03a9-83e4-c140-4427" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c969-b04f-8597-57e4" name="Sands of Infinity" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c969-b04f-8597-57e4" name="Sands of Infinity" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can use the Sands of Infinity once per battle, before making a casting roll for the bearer for a 法术 whose effects would normally last until your next 英雄阶段. If you do so, and the 法术 is successfully cast and not unbound, then the effectsof the 法术 last until your 英雄阶段 after your next 英雄阶段 instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can use the Sands of Infinity once per battle, before making a casting roll for the bearer for a 法术 whose effects would normally last until your next 英雄阶段. If you do so, and the 法术 is successfully cast and not unbound, then the effectsof the 法术 last until your 英雄阶段 after your next 英雄阶段 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3331,9 +3331,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bcb2-0c53-49c0-100b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="543a-e508-9d2a-16d3" name="Coral Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="543a-e508-9d2a-16d3" name="Coral Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, you can re-roll a failed casting roll for the bearer. In addition, once per battle, you can re-roll a failed unbinding roll for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, you can re-roll a failed casting roll for the bearer. In addition, once per battle, you can re-roll a failed unbinding roll for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3346,9 +3346,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b544-448a-6f60-a894" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0845-5c75-c700-c031" name="Bauble of Buoyancy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0845-5c75-c700-c031" name="Bauble of Buoyancy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. In addition, double the result of run rolls for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. In addition, double the result of run rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3391,9 +3391,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c2f-52bf-cb88-c4f4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e948-19a8-2a0c-ba24" name="Augury Shells" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e948-19a8-2a0c-ba24" name="Augury Shells" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, roll 2D6. During that 英雄阶段, you can use that roll as the result of a casting roll for the bearer, or as the result of an unbinding roll for an enemy 法师 that is attempting to unbind a 法术 cast by the bearer. You must say that you will use that roll before the actual casting or unbinding roll is made.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, roll 2D6. During that 英雄阶段, you can use that roll as the result of a casting roll for the bearer, or as the result of an unbinding roll for an enemy 法师 that is attempting to unbind a 法术 cast by the bearer. You must say that you will use that roll before the actual casting or unbinding roll is made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3595,13 +3595,13 @@
         <entryLink id="0e9f-7799-6d9d-7f58" name="Lore of the Deeps" hidden="false" collective="false" import="true" targetId="c3bd-b58a-1c9c-6b11" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e67f-735c-9874-ba8c" name=" General" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e67f-735c-9874-ba8c" name=" 主将" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95d3-e321-0976-752f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb30-526d-0312-5c19" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="1c3c-655b-70db-e9ea" name="General - Isharann" hidden="false" collective="false" import="true" targetId="9502-6e5f-d77a-4ab9" type="selectionEntry">
+        <entryLink id="1c3c-655b-70db-e9ea" name="主将 - Isharann" hidden="false" collective="false" import="true" targetId="9502-6e5f-d77a-4ab9" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -3610,7 +3610,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="66d2-86fc-3910-77d2" name="General" hidden="false" collective="false" import="true" targetId="4dc9-5604-2e81-ef8a" type="selectionEntry">
+        <entryLink id="66d2-86fc-3910-77d2" name="主将" hidden="false" collective="false" import="true" targetId="4dc9-5604-2e81-ef8a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -3624,7 +3624,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="e48f-6ea8-06e9-d9c6" name="General - Akhelian" hidden="false" collective="false" import="true" targetId="f3e4-d800-16f7-c5ab" type="selectionEntry">
+        <entryLink id="e48f-6ea8-06e9-d9c6" name="主将 - Akhelian" hidden="false" collective="false" import="true" targetId="f3e4-d800-16f7-c5ab" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>

@@ -64,7 +64,7 @@
     <categoryEntry id="2b69-7ea2-a20e-27d1" name="CHARNEL THRONE" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="c7c9-5a8a-4868-57bc" name="Allegiance" hidden="false" collective="false" import="true" targetId="7f4c-7d4b-6b8e-575b" type="selectionEntry">
+    <entryLink id="c7c9-5a8a-4868-57bc" name="势力" hidden="false" collective="false" import="true" targetId="7f4c-7d4b-6b8e-575b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -618,7 +618,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="b195-f855-a98b-f061" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="b195-f855-a98b-f061" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="67ba-1059-adf3-21fa" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="1e8e-e6c5-4f25-d55f" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
         <entryLink id="08ef-1619-cf05-3d50" name="Lore of Madness" hidden="false" collective="false" import="true" targetId="948b-4376-36a6-33c8" type="selectionEntryGroup"/>
@@ -828,7 +828,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e950-ab06-cc32-de63" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="e950-ab06-cc32-de63" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="a456-5dcd-920c-4e5c" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
         <entryLink id="5976-e415-d83e-8fd8" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="e324-2bc9-8a8a-2598" name="Lore of Madness" hidden="false" collective="false" import="true" targetId="948b-4376-36a6-33c8" type="selectionEntryGroup"/>
@@ -1029,7 +1029,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4123-58ce-995d-a59d" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="4123-58ce-995d-a59d" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="1598-07e3-b647-4320" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="7b26-726e-37e0-2715" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
         <entryLink id="a5d7-2904-c239-7c37" name="Lore of Madness" hidden="false" collective="false" import="true" targetId="948b-4376-36a6-33c8" type="selectionEntryGroup"/>
@@ -1039,19 +1039,19 @@
         <cost name="pts" typeId="points" value="440.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="705f-02ae-f4f5-987a">
+        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="705f-02ae-f4f5-987a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="705f-02ae-f4f5-987a" name="Allegiance: Flesh-Eater Courts" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="705f-02ae-f4f5-987a" name="势力: Flesh-Eater Courts" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="078e-64b1-4b85-3602" name="Deathless Courtiers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -1060,12 +1060,12 @@
                 </profile>
                 <profile id="7b01-5b29-a8c6-99d2" name="Feeding Frenzy" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can use this command ability in the combat phase after a friendly FLESH-EATER COURTS 单位 has fought for the first time in that phase and is wholly within 12寸 of a friendly FLESH-EATER COURTS 英雄, or wholly within 18寸 of a friendly FLESH-EATER COURTS 英雄 that is a general.  If you do so, that 单位 can immediately make a pile-in move and then attack with all of the 肉搏 武器 it is armed with for a second time.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can use this command ability in the combat phase after a friendly FLESH-EATER COURTS 单位 has fought for the first time in that phase and is wholly within 12寸 of a friendly FLESH-EATER COURTS 英雄, or wholly within 18寸 of a friendly FLESH-EATER COURTS 英雄 that is a 主将.  If you do so, that 单位 can immediately make a pile-in move and then attack with all of the 肉搏 武器 it is armed with for a second time.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="2d74-bc24-c47b-6a6e" name="Grand Courts" page="FAQ 12/19" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Flesh-eater Courts allegiance for you army, you can choose one of the Grand Court keywords: MORGAUNT, HOLLOWMOURNE, BLISTERSKIN or GRISTLEGORE.  All FLESH-EATER COURTS units in your army gain that keyword.  You cannot pick or roll a delusion for a Grand Court, but all units with that keyword benefit from the extra abilities defined for that Grand Court. If a model already has a Grand Court keyword on its warscroll, it cannot gain another one. This does not preclude you from including the 单位 in your army, but you cannot use the allegiance abilities for its Grand Court.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Flesh-eater Courts 势力 for you army, you can choose one of the Grand Court keywords: MORGAUNT, HOLLOWMOURNE, BLISTERSKIN or GRISTLEGORE.  All FLESH-EATER COURTS units in your army gain that keyword.  You cannot pick or roll a delusion for a Grand Court, but all units with that keyword benefit from the extra abilities defined for that Grand Court. If a model already has a Grand Court keyword on its warscroll, it cannot gain another one. This does not preclude you from including the 单位 in your army, but you cannot use the 势力 abilities for its Grand Court.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1082,7 +1082,7 @@
                       <profiles>
                         <profile id="90db-601a-e3aa-51aa" name="Courts of Delusion" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Before you select your general&apos;s 指挥特性, pick on of the delusions for the army you have.  Alternatively, you can roll a dice to randomly determine the delusion the army has.  The delusion applies to all friendly FLESH-EATER COURTS 单位 for the duration of the battle, even if the general is slain (if you must select a new general during the battle, do not generate a new delusion for the army).</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Before you select your 主将&apos;s 指挥特性, pick on of the delusions for the army you have.  Alternatively, you can roll a dice to randomly determine the delusion the army has.  The delusion applies to all friendly FLESH-EATER COURTS 单位 for the duration of the battle, even if the 主将 is slain (if you must select a new 主将 during the battle, do not generate a new delusion for the army).</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1119,7 +1119,7 @@
                         </profile>
                         <profile id="b4ba-43e4-6aa5-879d" name="Ravenous Crusaders" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly HOLLOWMOURNE 单位 wholly within 9寸 of a friendly HOLLOWMOURNE 英雄, or wholly within 18寸 of a friendly HOLLOWMOURNE 英雄 that is a general.  Add 1 to run and charge rolls for that 单位 until your next 英雄阶段.  In addition, until your next 英雄阶段, that 单位 can run and still charge later in the same turn.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly HOLLOWMOURNE 单位 wholly within 9寸 of a friendly HOLLOWMOURNE 英雄, or wholly within 18寸 of a friendly HOLLOWMOURNE 英雄 that is a 主将.  Add 1 to run and charge rolls for that 单位 until your next 英雄阶段.  In addition, until your next 英雄阶段, that 单位 can run and still charge later in the same turn.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1136,7 +1136,7 @@
                         </profile>
                         <profile id="1818-b616-433c-0728" name="Lords of the Burning Skies" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase.  If you do so, pick 1 friendly BLISTERSKIN 单位 that can fly and which is wholly within 12寸 of a friendly BLISTERSKIN 英雄, or wholly within 18寸 of a friendly BLISTERSKIN 英雄 that is a general.  Remove that 单位 from the battle and then set it up again anywhere on the battlefield more than 9寸 from any enemy units.  It may not move later in that movement phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase.  If you do so, pick 1 friendly BLISTERSKIN 单位 that can fly and which is wholly within 12寸 of a friendly BLISTERSKIN 英雄, or wholly within 18寸 of a friendly BLISTERSKIN 英雄 that is a 主将.  Remove that 单位 from the battle and then set it up again anywhere on the battlefield more than 9寸 from any enemy units.  It may not move later in that movement phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1153,7 +1153,7 @@
                         </profile>
                         <profile id="20fb-347c-741e-9ad7" name="Call to War" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase if a friendly GRISTLEGORE 英雄 or GRISTLEGORE 怪兽 that has not fought in that phase is slain while it is wholly within 12寸 of a friendly GRISTLEGORE 英雄, or wholly within 18寸 of a friendly GRISTLEGORE 英雄 that is a general.  If you do so, before that model is removed from play, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase if a friendly GRISTLEGORE 英雄 or GRISTLEGORE 怪兽 that has not fought in that phase is slain while it is wholly within 12寸 of a friendly GRISTLEGORE 英雄, or wholly within 18寸 of a friendly GRISTLEGORE 英雄 that is a 主将.  If you do so, before that model is removed from play, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.  You cannot pick the same 单位 to benefit from this ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1168,7 +1168,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0395-882a-0826-8ab8" name="Allegiance: *Death*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0395-882a-0826-8ab8" name="势力: *Death*" hidden="false" collective="false" import="true" type="upgrade">
               <categoryLinks>
                 <categoryLink id="35a5-7d65-0049-6c93" name="New CategoryLink" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
               </categoryLinks>
@@ -1320,7 +1320,7 @@
       <profiles>
         <profile id="cbcb-4ca4-5a91-d6dc" name="Loyal Subjects" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls for attacks made by models from this 阵型 if your general is an ABHORRANT ARCHREGENT or ABHORRANT GHOUL KING and not been slain.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can re-roll hit rolls for attacks made by models from this 阵型 if your 主将 is an ABHORRANT ARCHREGENT or ABHORRANT GHOUL KING and not been slain.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1506,7 +1506,7 @@
       <profiles>
         <profile id="b51a-5874-38a2-7e6d" name="Dark Master" page="72" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If your general is an ABHORRANT ARCHREGENT or ABHORRANT GHOUL KING from this 阵型, treat their warscroll as having the 指挥能力 found on the warscrolls of any 其他 units included in this 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If your 主将 is an ABHORRANT ARCHREGENT or ABHORRANT GHOUL KING from this 阵型, treat their warscroll as having the 指挥能力 found on the warscrolls of any 其他 units included in this 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2370,7 +2370,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="3b99-af1e-01f2-ffe9" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
-        <entryLink id="ce4e-2370-acec-9876" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="ce4e-2370-acec-9876" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="ed1d-c050-4757-57a7" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -2489,7 +2489,7 @@
         <categoryLink id="8c12-89c7-0845-b367" name="New CategoryLink" hidden="false" targetId="6b35-0508-c6cc-6592" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f8a6-24be-1ca5-8242" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8a6-24be-1ca5-8242" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -2667,7 +2667,7 @@
         <categoryLink id="1c66-8451-d1de-ce14" name="New CategoryLink" hidden="false" targetId="6b35-0508-c6cc-6592" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4aa4-651b-be7b-f0ea" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4aa4-651b-be7b-f0ea" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -2837,14 +2837,14 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="f7a9-d478-3648-887f" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
-        <entryLink id="5e7f-6ad0-18d5-1b6b" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="5e7f-6ad0-18d5-1b6b" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="df08-eaec-094d-f077" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88d2-d540-0573-3402" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="88d2-d540-0573-3402" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -3181,7 +3181,7 @@
       <categoryLinks>
         <categoryLink id="99be-1863-8ca6-3fdb" name="ABHORRANT" hidden="false" targetId="5b04-42e4-33ef-10b1" primary="false"/>
         <categoryLink id="13be-23c3-156f-2cf0" name="ABHORRANT ARCHREGENT" hidden="false" targetId="015d-7ef1-4fdf-f90c" primary="false"/>
-        <categoryLink id="5838-c9a4-327f-d42c" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="5838-c9a4-327f-d42c" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="9f2e-4bce-03c5-eb8f" name="FLESH-EATER COURTS" hidden="false" targetId="6b35-0508-c6cc-6592" primary="false"/>
         <categoryLink id="252a-1271-e1fd-b777" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="fa3c-962d-6a71-3a2f" name="VAMPIRE" hidden="false" targetId="d1e1-d80a-c667-b587" primary="false"/>
@@ -3212,7 +3212,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4ff8-eff7-b86a-8a1e" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="4ff8-eff7-b86a-8a1e" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="55a2-aadb-e737-d46c" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="091c-f561-c1b4-8b5c" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
         <entryLink id="ac6b-2aa0-6b1b-2ae9" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
@@ -3577,9 +3577,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e66a-270d-ea44-7f54" type="min"/>
           </constraints>
           <profiles>
-            <profile id="17ae-5311-a3a1-838b" name="Decrepit Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="17ae-5311-a3a1-838b" name="Decrepit Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly MORGAUNT units while they are wholly within 12寸 of the the bearer, or wholly within 18寸 of the bearer if the bearer is your general.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly MORGAUNT units while they are wholly within 12寸 of the the bearer, or wholly within 18寸 of the bearer if the bearer is your 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3610,9 +3610,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fecd-c0a0-d337-885d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="24f4-41b8-30ee-46cf" name="Corpsefane Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="24f4-41b8-30ee-46cf" name="Corpsefane Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After this model makes a charge move, you can pick 1 enemy 单位 within 1寸 of this model and roll a dice.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After this model makes a charge move, you can pick 1 enemy 单位 within 1寸 of this model and roll a dice.  On a 2+ that enemy 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3643,9 +3643,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7da3-4924-09b9-0d7f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cda1-3c7d-7e13-ea62" name="Eye of Hysh" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cda1-3c7d-7e13-ea62" name="Eye of Hysh" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target a friendly BLISTERSKIN 单位 wholly within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target a friendly BLISTERSKIN 单位 wholly within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3676,9 +3676,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c6cc-4092-ed92-78e0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="370d-bc95-f7eb-970f" name="Ghurish Mawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="370d-bc95-f7eb-970f" name="Ghurish Mawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy model within 1寸 of the bearer and roll a dice.  If the roll is greater than that model&apos;s Wounds characteristic, that model is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy model within 1寸 of the bearer and roll a dice.  If the roll is greater than that model&apos;s Wounds characteristic, that model is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3799,7 +3799,7 @@
           <profiles>
             <profile id="bb89-a0fc-ba76-a89a" name="A Matter of Honour" hidden="false" typeId="149a-6d26-c3e0-abdc" typeName="Delusion Table">
               <characteristics>
-                <characteristic name="Delusion" typeId="3ac8-c3ba-0bac-115a">可以重投命中骰的1 for attacks made by friendly FLESH-EATER COURTS units that target a 英雄.  If the target is a general, you can re-roll wound rolls of 1 as well.</characteristic>
+                <characteristic name="Delusion" typeId="3ac8-c3ba-0bac-115a">可以重投命中骰的1 for attacks made by friendly FLESH-EATER COURTS units that target a 英雄.  If the target is a 主将, you can re-roll wound rolls of 1 as well.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3814,7 +3814,7 @@
           <profiles>
             <profile id="e84a-e6a4-c601-d390" name="The Grand Tournament" hidden="false" typeId="149a-6d26-c3e0-abdc" typeName="Delusion Table">
               <characteristics>
-                <characteristic name="Delusion" typeId="3ac8-c3ba-0bac-115a">可以重投命中骰的1 for attacks made by friendly FLESH-EATER COURTS HEROES 其他 than your general.</characteristic>
+                <characteristic name="Delusion" typeId="3ac8-c3ba-0bac-115a">可以重投命中骰的1 for attacks made by friendly FLESH-EATER COURTS HEROES 其他 than your 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3882,7 +3882,7 @@
           <profiles>
             <profile id="f430-559e-4ce3-02c6" name="Savage Chivalry" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for this general while this general is within 12寸 of a friendly MORGAUNT SERFS 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for this 主将 while this 主将 is within 12寸 of a friendly MORGAUNT SERFS 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3915,7 +3915,7 @@
           <profiles>
             <profile id="6517-7a5e-5c87-9a6d" name="Grave Robber" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic and Damage characteristic of this general&apos;s 肉搏 武器 while this general is within 3寸 of any enemy HEROES with an artefact of power.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic and Damage characteristic of this 主将&apos;s 肉搏 武器 while this 主将 is within 3寸 of any enemy HEROES with an 魔法道具 of power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3948,7 +3948,7 @@
           <profiles>
             <profile id="b678-ade1-cb30-3b0a" name="Hellish Orator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield at the start of your 英雄阶段, roll a dice.  On a 4+ you receive 1 additional command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is on the battlefield at the start of your 英雄阶段, roll a dice.  On a 4+ you receive 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3981,7 +3981,7 @@
           <profiles>
             <profile id="5eee-0521-0769-6e70" name="Savage Strike" publicationId="6afd-4f9a-0665-9b55" page="1" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general and their mount fight at the start of the combat phase if they made a charge move in the same turn. This general and their mount cannot fight again in that combat phase unless a 法术 or ability allows them to fight more than once.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 and their mount fight at the start of the combat phase if they made a charge move in the same turn. This 主将 and their mount cannot fight again in that combat phase unless a 法术 or ability allows them to fight more than once.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4056,7 +4056,7 @@
           <profiles>
             <profile id="19c8-08c4-d21d-64c8" name="Bringer of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4071,7 +4071,7 @@
           <profiles>
             <profile id="371c-da24-6622-bd6b" name="Frenzied Flesh-eater" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this general if there are any enemy models that have suffered any within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this 主将 if there are any enemy models that have suffered any within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4086,7 +4086,7 @@
           <profiles>
             <profile id="db85-200c-d00c-d3a4" name="Majestic Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the general is chosen as the model that uses a command ability that summons FLESH-EATER COURTS models to the battlefield, they can use it without a command point having to be spent.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the 主将 is chosen as the model that uses a command ability that summons FLESH-EATER COURTS models to the battlefield, they can use it without a command point having to be spent.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4101,7 +4101,7 @@
           <profiles>
             <profile id="d367-61b3-6d42-55ab" name="Savage Beyond Reason" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a 肉搏 weapon by this general is 6, that attack inflicts 2 hits on the target instead of 1.  Make a wound and save roll for each hit.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a 肉搏 weapon by this 主将 is 6, that attack inflicts 2 hits on the target instead of 1.  Make a wound and save roll for each hit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4116,7 +4116,7 @@
           <profiles>
             <profile id="1e0b-6398-9368-f0dc" name="Dark Wizardry" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting, dispelling and unbinding rolls for this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting, dispelling and unbinding rolls for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4134,7 +4134,7 @@
           <profiles>
             <profile id="43a5-9a12-994b-00a9" name="Completely Delusional" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, if this general has not been slain, you can pick a new delusion in your 英雄阶段 to replace the original delusion you chose for your army.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, if this 主将 has not been slain, you can pick a new delusion in your 英雄阶段 to replace the original delusion you chose for your army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4154,9 +4154,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="882a-f367-1766-faa2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2727-9824-e49d-a737" name="Splintervane Broach" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2727-9824-e49d-a737" name="Splintervane Broach" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from casting rolls for enemy WIZARDS within 18寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from casting rolls for enemy WIZARDS within 18寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4169,9 +4169,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73d4-86d2-9491-c3cf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="de6d-673e-78d8-6025" name="The Grim Garland" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="de6d-673e-78d8-6025" name="The Grim Garland" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 2 from the Bravery of enemy units while they are within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 2 from the Bravery of enemy units while they are within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4184,9 +4184,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8908-c194-6f96-71d9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="08a0-3cd8-80e2-02b1" name="Blood River Chalice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="08a0-3cd8-80e2-02b1" name="Blood River Chalice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this artefact.  If they do so, heal up to D6 wounds allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this 魔法道具.  If they do so, heal up to D6 wounds allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4199,9 +4199,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8be2-c5ce-658b-b8d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6df8-833a-73d5-1b33" name="Heart of the Gargant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6df8-833a-73d5-1b33" name="Heart of the Gargant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this artefact.  If they do so, you can re-roll failed wound rolls for the bearer and the mount in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this 魔法道具.  If they do so, you can re-roll failed wound rolls for the bearer and the mount in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4214,9 +4214,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d04b-aabf-d189-2cf2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="02fb-f3e7-18d3-cc16" name="Signet of the First Court" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="02fb-f3e7-18d3-cc16" name="Signet of the First Court" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified wound roll for an attack made by the bearer with a 肉搏 weapon is 6, add 1 to the damage inflicted by that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the unmodified wound roll for an attack made by the bearer with a 肉搏 weapon is 6, add 1 to the damage inflicted by that attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4229,9 +4229,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb70-4884-f122-9037" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8e98-7967-aee7-ae67" name="The Dermal Robe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8e98-7967-aee7-ae67" name="The Dermal Robe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting, dispelling and unbinding rolls for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting, dispelling and unbinding rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4253,7 +4253,7 @@
           <profiles>
             <profile id="72a1-0283-d36b-26d5" name="Bringer of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4268,7 +4268,7 @@
           <profiles>
             <profile id="7ed6-b00f-f74c-272e" name="Frenzied Flesh-eater" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this general if there are any enemy models that have suffered any within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made by this 主将 if there are any enemy models that have suffered any within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4283,7 +4283,7 @@
           <profiles>
             <profile id="f24b-20fb-5ba9-66a1" name="Savage Beyond Reason" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a 肉搏 weapon by this general is 6, that attack inflicts 2 hits on the target instead of 1.  Make a wound and save roll for each hit.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a 肉搏 weapon by this 主将 is 6, that attack inflicts 2 hits on the target instead of 1.  Make a wound and save roll for each hit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4298,7 +4298,7 @@
           <profiles>
             <profile id="6c58-aaf2-d83c-d22d" name="Hulking Brute" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general&apos;s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将&apos;s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4313,7 +4313,7 @@
           <profiles>
             <profile id="1aa2-f87c-b9a6-f028" name="Cruel Taskmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general uses a Muster ability you can re-roll the dice for this genaral that determin if slain models are returned to units (you must re-roll all of the dice).</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 uses a Muster ability you can re-roll the dice for this genaral that determin if slain models are returned to units (you must re-roll all of the dice).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4328,7 +4328,7 @@
           <profiles>
             <profile id="af67-1d9e-70f9-2a58" name="Dark Acolyte" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general gains the 法师 keyword and can cast and unbind spells in the same manner as an ABHORRANT GHOUL KING from the Abhorrant Ghoul King warscroll.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 gains the 法师 keyword and can cast and unbind spells in the same manner as an ABHORRANT GHOUL KING from the Abhorrant Ghoul King warscroll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4348,9 +4348,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e27-118e-17d1-3f6a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="774e-45ed-06a2-52e5" name="Keening Bone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="774e-45ed-06a2-52e5" name="Keening Bone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  Increase the Range characteristic of that weapon to 3寸.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器.  Increase the Range characteristic of that weapon to 3寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4363,9 +4363,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b62b-89d4-68bc-ae5a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="23dd-e34b-9ec7-f0f2" name="The Flayed Pennant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="23dd-e34b-9ec7-f0f2" name="The Flayed Pennant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll charge rolls for friendly FLESH-EATER COURTS units wholly within 24寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll charge rolls for friendly FLESH-EATER COURTS units wholly within 24寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4378,9 +4378,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32db-fc08-7d24-a4ce" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7213-b04d-0791-fce6" name="Medal of Madness" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7213-b04d-0791-fce6" name="Medal of Madness" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the bearer can use the At the Double, Forward to Victory or Inspiring Presence command ability from the 核心规则 as if they were a general, without a command point being spent.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the bearer can use the At the Double, Forward to Victory or Inspiring Presence command ability from the 核心规则 as if they were a 主将, without a command point being spent.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4393,9 +4393,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb00-e040-2c66-bfd5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d93b-3449-360d-b8f5" name="Carrion Wand" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d93b-3449-360d-b8f5" name="Carrion Wand" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer can attempt to cast the Arcane Bolt 法术 as if they were a 法师.  If the bearer is a 法师, add 1 to the casting roll when they attempt to cast Arcane Bolt instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer can attempt to cast the Arcane Bolt 法术 as if they were a 法师.  If the bearer is a 法师, add 1 to the casting roll when they attempt to cast Arcane Bolt instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4408,9 +4408,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2139-316e-e016-49c3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c91d-e362-e386-ef78" name="The Fleshform Raiment" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c91d-e362-e386-ef78" name="The Fleshform Raiment" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4423,9 +4423,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af8a-d5e7-ed2f-19d4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b62b-d038-bc6e-e673" name="The Bilious Decanter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b62b-d038-bc6e-e673" name="The Bilious Decanter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this artefact.  If they do so, add 2 the Attacks characteristic of the bearer&apos;s 肉搏 武器 in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, the bearer can use this 魔法道具.  If they do so, add 2 the Attacks characteristic of the bearer&apos;s 肉搏 武器 in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>

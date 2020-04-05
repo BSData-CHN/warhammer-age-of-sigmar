@@ -28,7 +28,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="d850-d9b0-684b-9f3a" name="Destruction" hidden="false"/>
+    <categoryEntry id="d850-d9b0-684b-9f3a" name="毁灭" hidden="false"/>
     <categoryEntry id="f643-013c-7718-007d" name="Orruk" hidden="false"/>
     <categoryEntry id="748c-7ab7-fb11-16a9" name="Ironjawz" hidden="false"/>
     <categoryEntry id="03eb-456f-dd6c-7024" name="Ardboys" hidden="false"/>
@@ -46,7 +46,7 @@
     <categoryEntry id="0967-e07d-94a5-a722" name="Firebelly" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="fc4d-9292-0908-041e" name="Allegiance" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="fc4d-9292-0908-041e" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -178,7 +178,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e9b2-a6e9-df2d-ee74" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="089d-0124-ca4f-8bb9" type="min"/>
@@ -190,7 +190,7 @@
         <categoryLink id="58cb-035e-421d-d749" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="ebc7-eda1-4e76-6609">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="ebc7-eda1-4e76-6609">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -310,7 +310,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="331c-4601-c503-0ff6" name="General" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
+        <entryLink id="331c-4601-c503-0ff6" name="主将" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
         <entryLink id="50eb-879f-7e7a-806f" name="Artefacts" hidden="false" collective="false" import="true" targetId="fdcb-7832-46a4-e9b6" type="selectionEntryGroup"/>
         <entryLink id="21f1-87e7-928c-8d19" name="Command Traits" hidden="false" collective="false" import="true" targetId="2fb3-b280-7281-037c" type="selectionEntryGroup"/>
       </entryLinks>
@@ -632,12 +632,12 @@
         </profile>
         <profile id="ab2e-1bf6-1143-a474" name="I’m da Boss, Now Stab ’em Good!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of a combat phase. If you do so, pick a friendly Moonclan 单位 wholly within 12寸 of a model with this command ability, or wholly within 24寸 of a model with this command ability that is your general. If the unmodified wound roll for an attack made by that 单位 in that phase is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of a combat phase. If you do so, pick a friendly Moonclan 单位 wholly within 12寸 of a model with this command ability, or wholly within 24寸 of a model with this command ability that is your 主将. If the unmodified wound roll for an attack made by that 单位 in that phase is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="773d-6c4c-7be7-053b" name="General" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
+        <entryLink id="773d-6c4c-7be7-053b" name="主将" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
         <entryLink id="dc2d-283a-7136-986b" name="Artefacts" hidden="false" collective="false" import="true" targetId="fdcb-7832-46a4-e9b6" type="selectionEntryGroup"/>
         <entryLink id="b14f-a5ea-8e8c-97aa" name="Command Traits" hidden="false" collective="false" import="true" targetId="2fb3-b280-7281-037c" type="selectionEntryGroup"/>
       </entryLinks>
@@ -705,7 +705,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="95d1-3e64-2480-0843" name="General" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
+        <entryLink id="95d1-3e64-2480-0843" name="主将" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
         <entryLink id="158a-c1ff-d17a-981d" name="Artefacts" hidden="false" collective="false" import="true" targetId="fdcb-7832-46a4-e9b6" type="selectionEntryGroup"/>
         <entryLink id="9180-ed0e-8b6d-9b8b" name="Command Traits" hidden="false" collective="false" import="true" targetId="2fb3-b280-7281-037c" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1076,7 +1076,7 @@
         </profile>
         <profile id="09b8-35ee-0901-b307" name="Mouthpiece of Mork" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If this model is your general and uses this command ability, then you can charge with one friendly Grot or Orruk 单位 that is wholly within 18寸 of it at the start of the following charge phase even if the 单位 ran or retreated earlier in the same turn.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If this model is your 主将 and uses this command ability, then you can charge with one friendly Grot or Orruk 单位 that is wholly within 18寸 of it at the start of the following charge phase even if the 单位 ran or retreated earlier in the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="fe61-dfb1-3624-812a" name="Fungoid Cave-Shaman" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -1106,7 +1106,7 @@
         <categoryLink id="e5ae-601d-b60e-a7f6" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="efdc-c8f4-8d0d-63b4" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="efdc-c8f4-8d0d-63b4" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a87e-93dc-9144-39a1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ceae-a2b6-6632-b296" type="max"/>
@@ -1123,7 +1123,7 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7dd-acbb-a8db-2fe5" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7dd-acbb-a8db-2fe5" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>

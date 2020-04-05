@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="de06-0235-6a96-193b" name="Chaos - Skaven Data" revision="8" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="de06-0235-6a96-193b" name="混沌 - Skaven Data" revision="8" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="bcc4-c671-pubd1e1" name="Chaos 军书: Skaven"/>
+    <publication id="bcc4-c671-pubd1e1" name="混沌 军书: Skaven"/>
     <publication id="bcc4-c671-pubd1e6847" name="Forgeworld: Monstrous Arcanum"/>
     <publication id="bcc4-c671-pubd1e21990" name="Forgeworld: Monstrous Arcanum, Jan 2019"/>
     <publication id="bcc4-c671-pubd1e30758" name="Warscroll Compendium: Skaven"/>
@@ -40,7 +40,7 @@
     <categoryEntry id="d8c1-7849-6f19-d10e" name="VERMINUS" hidden="false"/>
     <categoryEntry id="d698-1950-ee2b-e845" name="VERMINLORD WARBRINGER" hidden="false"/>
     <categoryEntry id="6ede-7ca1-630c-9a12" name="WARPGNAW VERMINLORD" hidden="false"/>
-    <categoryEntry id="774f-ffa8-46bc-3f97" name="PLAGUE PRIEST" hidden="false"/>
+    <categoryEntry id="774f-ffa8-46bc-3f97" name="PLAGUE 祭司" hidden="false"/>
     <categoryEntry id="bd72-d234-b14d-fe09" name="VERMINLORD DECEIVER" hidden="false"/>
     <categoryEntry id="e5bb-31a0-025f-93c9" name="ESHIN" hidden="false"/>
     <categoryEntry id="4e44-60d3-9cdb-58af" name="SKAVEN ASSASSIN" hidden="false"/>
@@ -166,13 +166,13 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5adc-1239-2c84-96c0" name="General - Clans Verminous" hidden="false" collective="false" import="true" targetId="b60e-1aa4-96da-a83b" type="selectionEntry"/>
+        <entryLink id="5adc-1239-2c84-96c0" name="主将 - Clans Verminous" hidden="false" collective="false" import="true" targetId="b60e-1aa4-96da-a83b" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c71b-c7bd-77ca-12b9" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c71b-c7bd-77ca-12b9" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -486,7 +486,7 @@
       <entryLinks>
         <entryLink id="b389-9236-8682-10fa" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="482e-5d38-bc75-ae41" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="d03a-1232-dfc0-047d" name="General - Clans Skyre" hidden="false" collective="false" import="true" targetId="103a-ea19-f285-ca41" type="selectionEntry"/>
+        <entryLink id="d03a-1232-dfc0-047d" name="主将 - Clans Skyre" hidden="false" collective="false" import="true" targetId="103a-ea19-f285-ca41" type="selectionEntry"/>
         <entryLink id="32e8-74d5-7821-b7b8" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="96b3-024a-cc1b-49e3" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
         <entryLink id="6836-5239-f544-a7a5" name="Lore of Warpvolt Galvanism (Clans Skyre)" hidden="false" collective="false" import="true" targetId="0bb6-f967-1481-802f" type="selectionEntryGroup"/>
@@ -1077,7 +1077,7 @@
       <entryLinks>
         <entryLink id="b9b5-068d-a769-529e" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="fc9f-fc2c-6c86-f939" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="4d6c-c040-e165-c4b8" name="General - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
+        <entryLink id="4d6c-c040-e165-c4b8" name="主将 - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
         <entryLink id="2f6a-c65b-7b48-8764" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="9ea6-9e51-f43b-50df" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
         <entryLink id="52ba-5182-6e24-e665" name="Lore of Ruin (Grey Seer)" hidden="false" collective="false" import="true" targetId="4f40-bd85-82d2-3b53" type="selectionEntryGroup"/>
@@ -1150,7 +1150,7 @@
         <categoryLink id="f4ac-d72d-54d2-1b8e" name="New CategoryLink" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
         <categoryLink id="2368-130a-ba1b-dc1a" name="New CategoryLink" hidden="false" targetId="8b8e-4f13-7644-939f" primary="false"/>
         <categoryLink id="5ae8-f764-715f-45f0" name="CLANS ESHIN" hidden="false" targetId="9a0b-8f23-d27c-491a" primary="false"/>
-        <categoryLink id="5794-a70c-db58-1b64" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="5794-a70c-db58-1b64" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9688-b9d4-df62-1b3e" name="SKAVENTIDE" hidden="false" targetId="5ed5-bfa0-f1f7-8b61" primary="false"/>
         <categoryLink id="702e-3084-8b3f-0730" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
@@ -1622,7 +1622,7 @@
         <entryLink id="628f-f01a-8d65-c8b7" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
         <entryLink id="ef64-9031-e38e-9520" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="7072-a08f-c3be-cbb8" name="Doom Glaive" hidden="false" collective="false" import="true" targetId="9113-2b30-d50d-71d8" type="selectionEntry"/>
-        <entryLink id="537a-bfd7-48ac-6e23" name="General - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
+        <entryLink id="537a-bfd7-48ac-6e23" name="主将 - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="320.0"/>
@@ -1873,7 +1873,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92a9-a243-a1df-ca15" name="Plague Priest on Plague Furnace" publicationId="e316-99a9-2860-3a7c" page="" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="92a9-a243-a1df-ca15" name="Plague 祭司 on Plague Furnace" publicationId="e316-99a9-2860-3a7c" page="" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="5ed5-01f4-bf78-6a13" name="Plague Furnace" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
@@ -2015,7 +2015,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d795-90fb-15e0-a24b" name="Plague Priest" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d795-90fb-15e0-a24b" name="Plague 祭司" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a0e-f91e-a235-3c30" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b2-544b-fe59-ca53" type="max"/>
@@ -2064,7 +2064,7 @@
           <entryLinks>
             <entryLink id="8569-efb2-6509-ae28" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
             <entryLink id="bd51-b3ec-a889-9dd1" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
-            <entryLink id="e7ff-b2b0-03f6-2c00" name="General - Clans Pestilens" hidden="false" collective="false" import="true" targetId="113c-cd67-094e-5195" type="selectionEntry"/>
+            <entryLink id="e7ff-b2b0-03f6-2c00" name="主将 - Clans Pestilens" hidden="false" collective="false" import="true" targetId="113c-cd67-094e-5195" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -2272,9 +2272,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d7d-46a4-7a4b-28a8" name="Plague Priest" publicationId="bcc4-c671-pubd1e1" page="114" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8d7d-46a4-7a4b-28a8" name="Plague 祭司" publicationId="bcc4-c671-pubd1e1" page="114" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="7a5b-d9d8-6b7c-6df0" name="Plague Priest" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7a5b-d9d8-6b7c-6df0" name="Plague 祭司" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2365,7 +2365,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="42ad-3247-b3d9-e1f2" name="General - Clans Pestilens" hidden="false" collective="false" import="true" targetId="113c-cd67-094e-5195" type="selectionEntry"/>
+        <entryLink id="42ad-3247-b3d9-e1f2" name="主将 - Clans Pestilens" hidden="false" collective="false" import="true" targetId="113c-cd67-094e-5195" type="selectionEntry"/>
         <entryLink id="b90b-4d6b-c436-e54b" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="1b7e-b23d-5206-9ddc" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2950,7 +2950,7 @@
       <entryLinks>
         <entryLink id="45fc-8abc-8300-3a34" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="6bf5-a99e-9c06-708b" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="37d8-8dac-816e-5c17" name="General - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
+        <entryLink id="37d8-8dac-816e-5c17" name="主将 - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
         <entryLink id="767a-2511-44c9-c50d" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
         <entryLink id="c50e-fa68-a2ed-dc05" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="50c4-7fe4-54a1-9830" name="Lore of Ruin (Grey Seer)" hidden="false" collective="false" import="true" targetId="4f40-bd85-82d2-3b53" type="selectionEntryGroup"/>
@@ -3721,7 +3721,7 @@
       <entryLinks>
         <entryLink id="01d0-fd74-d6e0-21d4" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="2027-71f8-109a-6e43" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="0d04-0bcc-3b13-dc84" name="General - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
+        <entryLink id="0d04-0bcc-3b13-dc84" name="主将 - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="400.0"/>
@@ -3876,7 +3876,7 @@
         <entryLink id="cdfa-bc73-9ea1-cb33" name="Prehensile Tails" hidden="false" collective="false" import="true" targetId="082e-175f-0ccd-15c2" type="selectionEntry"/>
         <entryLink id="0003-eb21-a348-0c00" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="b823-a99f-ece8-3c5d" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="d576-3934-78bf-7f92" name="General - Clans Pestilens" hidden="false" collective="false" import="true" targetId="113c-cd67-094e-5195" type="selectionEntry"/>
+        <entryLink id="d576-3934-78bf-7f92" name="主将 - Clans Pestilens" hidden="false" collective="false" import="true" targetId="113c-cd67-094e-5195" type="selectionEntry"/>
         <entryLink id="8ac0-86cc-e86e-ddaf" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="c9f1-cac7-c037-c572" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
         <entryLink id="84bd-5706-092c-3d5f" name="法术 Lores" hidden="false" collective="false" import="true" targetId="4b53-bbff-8558-f42c" type="selectionEntryGroup"/>
@@ -4053,7 +4053,7 @@
         <entryLink id="4ad8-68d9-52d2-1c9f" name="Prehensile Tails" hidden="false" collective="false" import="true" targetId="082e-175f-0ccd-15c2" type="selectionEntry"/>
         <entryLink id="b2ac-069f-620a-a557" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="c533-e8f6-e922-e247" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="5fe1-5eb0-07d5-90a1" name="General - Clans Eshin" hidden="false" collective="false" import="true" targetId="230d-5573-4086-e687" type="selectionEntry"/>
+        <entryLink id="5fe1-5eb0-07d5-90a1" name="主将 - Clans Eshin" hidden="false" collective="false" import="true" targetId="230d-5573-4086-e687" type="selectionEntry"/>
         <entryLink id="998a-1b90-04cd-98c4" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="453d-dccb-5b68-4a16" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4197,7 +4197,7 @@
         <entryLink id="04fb-ac0f-3132-d368" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="db38-b1c8-e709-7dcf" name="Prehensile Tails" hidden="false" collective="false" import="true" targetId="082e-175f-0ccd-15c2" type="selectionEntry"/>
         <entryLink id="b33f-0dab-1f9e-d95d" name="Doom Glaive" hidden="false" collective="false" import="true" targetId="9113-2b30-d50d-71d8" type="selectionEntry"/>
-        <entryLink id="567e-741b-dda9-07ed" name="General - Clans Verminous" hidden="false" collective="false" import="true" targetId="b60e-1aa4-96da-a83b" type="selectionEntry"/>
+        <entryLink id="567e-741b-dda9-07ed" name="主将 - Clans Verminous" hidden="false" collective="false" import="true" targetId="b60e-1aa4-96da-a83b" type="selectionEntry"/>
         <entryLink id="cb79-8c4c-93e6-9c7a" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="f608-4b66-852a-61d5" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4330,7 +4330,7 @@
         <entryLink id="39b5-793f-fde8-4fd4" name="Prehensile Tails" hidden="false" collective="false" import="true" targetId="082e-175f-0ccd-15c2" type="selectionEntry"/>
         <entryLink id="9ed2-accd-e2b6-a1e2" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="1d76-5b56-429b-192d" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="1104-838c-7ee1-156c" name="General - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
+        <entryLink id="1104-838c-7ee1-156c" name="主将 - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
         <entryLink id="09a5-6cf7-9eaa-4e35" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="2fac-22d4-f7b3-bee2" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4433,7 +4433,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="45bd-ef9e-e489-62a6" name="General - Clans Skyre" hidden="false" collective="false" import="true" targetId="103a-ea19-f285-ca41" type="selectionEntry"/>
+        <entryLink id="45bd-ef9e-e489-62a6" name="主将 - Clans Skyre" hidden="false" collective="false" import="true" targetId="103a-ea19-f285-ca41" type="selectionEntry"/>
         <entryLink id="829a-146b-4693-3072" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="dd65-6256-b7e4-b058" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
         <entryLink id="69c1-c3bb-6f57-6a46" name="Lore of Warpvolt Galvanism (Clans Skyre)" hidden="false" collective="false" import="true" targetId="0bb6-f967-1481-802f" type="selectionEntryGroup"/>
@@ -4850,19 +4850,19 @@
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1970-afa5-15ba-fb90" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1970-afa5-15ba-fb90" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d0b-f607-2184-d5a3" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ef7-c551-0415-33eb" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c622-0e7b-b01c-4c28" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="51b7-c778-b260-8e6a">
+        <selectionEntryGroup id="c622-0e7b-b01c-4c28" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="51b7-c778-b260-8e6a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa0a-e62e-45e7-ee1b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6793-2472-c35a-2f2f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="51b7-c778-b260-8e6a" name="Allegiance: Skaventide" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="51b7-c778-b260-8e6a" name="势力: Skaventide" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="807c-fc20-091c-c96d" name="Lead From the Back" publicationId="bcc4-c671-pubd1e1" page="67" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -4901,7 +4901,7 @@
                 </profile>
                 <profile id="2951-d411-e68d-0ed5" name="Verminous - Mighty Warlords" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you pick command traits, you can pick 1 指挥特性 for up to 6 friendly CLAWLORDS, in addition to 1 指挥特性 for your general if your general is not a CLAWLORD. You must pick a different 指挥特性 for each CLAWLORD that has a 指挥特性, and no model can have more than 1 指挥特性. You can use the 指挥特性 for that CLAWLORD even though they are not your general.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you pick command traits, you can pick 1 指挥特性 for up to 6 friendly CLAWLORDS, in addition to 1 指挥特性 for your 主将 if your 主将 is not a CLAWLORD. You must pick a different 指挥特性 for each CLAWLORD that has a 指挥特性, and no model can have more than 1 指挥特性. You can use the 指挥特性 for that CLAWLORD even though they are not your 主将.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8a0c-5640-6840-99c1" name="Skyre - Warpstone Sparks" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -4911,7 +4911,7 @@
                 </profile>
                 <profile id="8498-3020-facc-bf5d" name="Pestilens - Echoes of the Great Plagues" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If the unmodified prayer roll for a prayer chanted by a friendly CLANS PESTILENS PRIEST is 6, you can pick 1 of the following Great Plagues to manifest (in addition to the effect of the prayer). Each Great Plague can only manifest once per battle, and no more than one Great Plague can manifest in the same turn. Bubonic Blightplague: If this Great Plague manifests, pick the nearest enemy 单位 within 13寸 of the PRIEST chanting the prayer. That 单位 is infected with the Bubonic Blightplague. If several enemy units are equally close, you can pick which is infected. The infected 单位 suffers D6 mortal wounds. If the infected 单位 is destroyed by these mortal wounds, you can pick another enemy 单位 within 6寸 of the last model to be slain from the infected 单位. The new 单位 is infected and suffers D3 mortal wounds. If the second 单位 is also destroyed, then another enemy 单位 within 6寸 of the last model to be slain suffers D3 mortal wounds, and so on until a 单位 is not destroyed by the disease or there are no 其他 enemy units within 6寸 when a 单位 is destroyed. Crimsonweal Curse: If this Great Plague manifests, pick the nearest enemy 单位 within 13寸 of the PRIEST chanting the prayer. That 单位 is infected with the Crimsonweal Curse. If several enemy units are equally close, you can pick which is infected. The infected 单位 suffers 1 mortal wound. In addition, at the start of each of your 英雄 phases, the infected 单位, and each enemy 单位 within 1寸 of the infected 单位, suffers 1 mortal wound. Redmaw Plague: If this Great Plague manifests, pick the nearest enemy 英雄 within 13寸 of the PRIEST chanting the prayer. That 英雄 is infected with the Redmaw Plague. If several enemy HEROES are equally close, you can pick which is infected. If a 英雄 infected with the Redmaw Plague is within 3寸 of any 其他 models from its own army at the start of any combat phase, and is not within 3寸 of any models from your army, then you can treat that 英雄 as a friendly model until the end of that combat phase. The Neverplague: If this Great Plague manifests, you can re-roll prayer rolls for friendly CLANS PESTILENS PRIESTS for the rest of the battle. Undulant Scourge: If this Great Plague manifests, pick the nearest enemy 单位 within 13寸 of the PRIEST chanting the prayer, and roll 1 dice for each model in that 单位. If several enemy units are equally close, you can pick which of those units to roll dice for. For each 5+ that 单位 suffers 1 mortal wound.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If the unmodified prayer roll for a prayer chanted by a friendly CLANS PESTILENS 祭司 is 6, you can pick 1 of the following Great Plagues to manifest (in addition to the effect of the prayer). Each Great Plague can only manifest once per battle, and no more than one Great Plague can manifest in the same turn. Bubonic Blightplague: If this Great Plague manifests, pick the nearest enemy 单位 within 13寸 of the 祭司 chanting the prayer. That 单位 is infected with the Bubonic Blightplague. If several enemy units are equally close, you can pick which is infected. The infected 单位 suffers D6 mortal wounds. If the infected 单位 is destroyed by these mortal wounds, you can pick another enemy 单位 within 6寸 of the last model to be slain from the infected 单位. The new 单位 is infected and suffers D3 mortal wounds. If the second 单位 is also destroyed, then another enemy 单位 within 6寸 of the last model to be slain suffers D3 mortal wounds, and so on until a 单位 is not destroyed by the disease or there are no 其他 enemy units within 6寸 when a 单位 is destroyed. Crimsonweal Curse: If this Great Plague manifests, pick the nearest enemy 单位 within 13寸 of the 祭司 chanting the prayer. That 单位 is infected with the Crimsonweal Curse. If several enemy units are equally close, you can pick which is infected. The infected 单位 suffers 1 mortal wound. In addition, at the start of each of your 英雄 phases, the infected 单位, and each enemy 单位 within 1寸 of the infected 单位, suffers 1 mortal wound. Redmaw Plague: If this Great Plague manifests, pick the nearest enemy 英雄 within 13寸 of the 祭司 chanting the prayer. That 英雄 is infected with the Redmaw Plague. If several enemy HEROES are equally close, you can pick which is infected. If a 英雄 infected with the Redmaw Plague is within 3寸 of any 其他 models from its own army at the start of any combat phase, and is not within 3寸 of any models from your army, then you can treat that 英雄 as a friendly model until the end of that combat phase. The Neverplague: If this Great Plague manifests, you can re-roll prayer rolls for friendly CLANS PESTILENS PRIESTS for the rest of the battle. Undulant Scourge: If this Great Plague manifests, pick the nearest enemy 单位 within 13寸 of the 祭司 chanting the prayer, and roll 1 dice for each model in that 单位. If several enemy units are equally close, you can pick which of those units to roll dice for. For each 5+ that 单位 suffers 1 mortal wound.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4919,7 +4919,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9c8d-f25a-384b-d05b" name="Allegiance: *CHAOS*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9c8d-f25a-384b-d05b" name="势力: *混沌*" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5056,7 +5056,7 @@
         <entryLink id="e172-344e-fdd5-09a1" name="Prehensile Tails" hidden="false" collective="false" import="true" targetId="082e-175f-0ccd-15c2" type="selectionEntry"/>
         <entryLink id="ca51-5249-821b-487b" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="6774-67d3-ff82-e226" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
-        <entryLink id="eeda-834c-e190-af49" name="General - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
+        <entryLink id="eeda-834c-e190-af49" name="主将 - Masterclan" hidden="false" collective="false" import="true" targetId="3478-7e3a-da0b-2d36" type="selectionEntry"/>
         <entryLink id="9a4b-d85f-dedd-817f" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="0b82-eeee-87b3-496c" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -5068,7 +5068,7 @@
       <profiles>
         <profile id="5516-07a2-acc1-9093" name="Plague Altar" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Roll a dice each time you allocate a wound or mortal wound to a PLAGUE MONKS 单位 from this 阵型 while it is wholly within 18寸 of the same 阵型’s PLAGUE PRIEST. On a 6 that wound or mortal wound is negated.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Roll a dice each time you allocate a wound or mortal wound to a PLAGUE MONKS 单位 from this 阵型 while it is wholly within 18寸 of the same 阵型’s PLAGUE 祭司. On a 6 that wound or mortal wound is negated.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5082,7 +5082,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9f3-29e1-c85f-c758" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2b32-0e00-c8b8-2b93" name="Plague Priest on Plague Furnace" hidden="false" collective="false" import="true" targetId="92a9-a243-a1df-ca15" type="selectionEntry">
+            <entryLink id="2b32-0e00-c8b8-2b93" name="Plague 祭司 on Plague Furnace" hidden="false" collective="false" import="true" targetId="92a9-a243-a1df-ca15" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="2993-7489-0ea2-fd90" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
                 <categoryLink id="4b41-9eb2-4341-8d49" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -5107,7 +5107,7 @@
       <profiles>
         <profile id="2fe2-6873-807e-6662" name="Foetid Blessings" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to wound rolls for attacks made with missile 武器 by units in this 阵型 while they are within 13寸 of the same 阵型’s PLAGUE PRIEST.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to wound rolls for attacks made with missile 武器 by units in this 阵型 while they are within 13寸 of the same 阵型’s PLAGUE 祭司.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5115,13 +5115,13 @@
         <categoryLink id="ecb9-de21-b6da-2f11" name="New CategoryLink" hidden="false" targetId="5432-a6f0-46f0-db4a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0833-1ef0-f2ce-ef0a" name="1 Plague Priest 单位" hidden="false" collective="false" import="true" defaultSelectionEntryId="3cb6-9f9e-66c6-4ecf">
+        <selectionEntryGroup id="0833-1ef0-f2ce-ef0a" name="1 Plague 祭司 单位" hidden="false" collective="false" import="true" defaultSelectionEntryId="3cb6-9f9e-66c6-4ecf">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a05-7664-d819-facc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb4b-372e-699b-da11" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3cb6-9f9e-66c6-4ecf" name="Plague Priest" hidden="false" collective="false" import="true" targetId="8d7d-46a4-7a4b-28a8" type="selectionEntry">
+            <entryLink id="3cb6-9f9e-66c6-4ecf" name="Plague 祭司" hidden="false" collective="false" import="true" targetId="8d7d-46a4-7a4b-28a8" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="c18a-a8ab-bc55-9724" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
@@ -5164,7 +5164,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a031-80d7-7773-e59b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c72d-3f6b-6037-fbcc" name="Plague Priest on Plague Furnace" hidden="false" collective="false" import="true" targetId="92a9-a243-a1df-ca15" type="selectionEntry">
+            <entryLink id="c72d-3f6b-6037-fbcc" name="Plague 祭司 on Plague Furnace" hidden="false" collective="false" import="true" targetId="92a9-a243-a1df-ca15" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="4e56-81c5-ca4b-8b44" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
                 <categoryLink id="d193-c2f2-9898-b0bf" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -5683,7 +5683,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3e3b-7d15-1238-adc6" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="3e3b-7d15-1238-adc6" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="e8b3-8009-4cbd-add7" name="CLANS VERMINOUS" hidden="false" targetId="3058-1b6c-3bc2-746d" primary="false"/>
         <categoryLink id="a495-9805-f851-ad34" name="CLAWLORD" hidden="false" targetId="6c31-d5f5-4a7e-638e" primary="false"/>
         <categoryLink id="9e28-16b4-35d4-d22b" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
@@ -5715,7 +5715,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="331d-85a1-4227-5e34" name="General - Clans Verminous" hidden="false" collective="false" import="true" targetId="b60e-1aa4-96da-a83b" type="selectionEntry"/>
+        <entryLink id="331d-85a1-4227-5e34" name="主将 - Clans Verminous" hidden="false" collective="false" import="true" targetId="b60e-1aa4-96da-a83b" type="selectionEntry"/>
         <entryLink id="7202-ce12-593b-fc78" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="0825-9fdd-dd49-30ed" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -5745,7 +5745,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="9fe0-0185-7942-2675" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="9fe0-0185-7942-2675" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="20ae-3271-12ce-ecf8" name="CLANS ESHIN" hidden="false" targetId="9a0b-8f23-d27c-491a" primary="false"/>
         <categoryLink id="0e24-e681-2295-f257" name="DEATHMASTER" hidden="false" targetId="ab95-95da-239d-dd92" primary="false"/>
         <categoryLink id="5912-9135-9bdb-4b7c" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
@@ -5828,7 +5828,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7ef9-af0f-9799-c054" name="General - Clans Eshin" hidden="false" collective="false" import="true" targetId="230d-5573-4086-e687" type="selectionEntry"/>
+        <entryLink id="7ef9-af0f-9799-c054" name="主将 - Clans Eshin" hidden="false" collective="false" import="true" targetId="230d-5573-4086-e687" type="selectionEntry"/>
         <entryLink id="7a86-2912-bc39-a4aa" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="c30a-5072-cd73-47e6" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -5863,7 +5863,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2a98-c413-bdcf-5e4f" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="2a98-c413-bdcf-5e4f" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="e12e-6301-7a67-a3a0" name="CLANS MOULDER" hidden="false" targetId="07f3-a813-9aea-eff4" primary="false"/>
         <categoryLink id="603b-a3e3-3d1c-fdcd" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="1138-6efc-8e89-6c02" name="MASTER MOULDER" hidden="false" targetId="af93-3eab-d118-5898" primary="false"/>
@@ -5917,7 +5917,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2208-d188-0dc2-22e6" name="General - Clans Moulder" hidden="false" collective="false" import="true" targetId="1ebc-adcb-d870-3ea6" type="selectionEntry"/>
+        <entryLink id="2208-d188-0dc2-22e6" name="主将 - Clans Moulder" hidden="false" collective="false" import="true" targetId="1ebc-adcb-d870-3ea6" type="selectionEntry"/>
         <entryLink id="3fea-d70a-0579-d3d2" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="1503-29e7-ef25-15e7" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -5954,7 +5954,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="367e-245a-1b4c-c5aa" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
+        <categoryLink id="367e-245a-1b4c-c5aa" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="a7bb-f70b-3cbf-18a1" name="CLANS SKYRE" hidden="false" targetId="5e5d-af59-6ea5-832c" primary="false"/>
         <categoryLink id="647b-cac4-87e0-cca0" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="a9be-ae21-3881-5e00" name="SKAVEN" hidden="false" targetId="8f8a-7c29-799e-ace9" primary="false"/>
@@ -6010,7 +6010,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6619-dfe8-f644-15f0" name="General - Clans Skyre" hidden="false" collective="false" import="true" targetId="103a-ea19-f285-ca41" type="selectionEntry"/>
+        <entryLink id="6619-dfe8-f644-15f0" name="主将 - Clans Skyre" hidden="false" collective="false" import="true" targetId="103a-ea19-f285-ca41" type="selectionEntry"/>
         <entryLink id="d03e-f14d-b1d1-ac19" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="64f4-44d9-02e3-754a" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
         <entryLink id="cd5e-c05d-2af0-0691" name="Lore of Warpvolt Galvanism (Clans Skyre)" hidden="false" collective="false" import="true" targetId="0bb6-f967-1481-802f" type="selectionEntryGroup"/>
@@ -6255,7 +6255,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2b3e-c914-3244-1f26" name="General" hidden="false" collective="false" import="true" targetId="c71b-c7bd-77ca-12b9" type="selectionEntry"/>
+        <entryLink id="2b3e-c914-3244-1f26" name="主将" hidden="false" collective="false" import="true" targetId="c71b-c7bd-77ca-12b9" type="selectionEntry"/>
         <entryLink id="04c6-8c75-fa7c-eabf" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="73dd-4eb6-bb2a-7602" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -6346,7 +6346,7 @@
         </profile>
         <profile id="73b2-3962-3214-93ab" name="Treacherous Progression" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your general is a Skaven and has only 1 wound remaining, a Skaven Chiefain with Battle Standard can stab-stab him in the back if he is within 1寸 of him at the start of your 英雄阶段. If he does so, your general is slain; this model then becomes your general and gains any 指挥能力 known by his former master.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your 主将 is a Skaven and has only 1 wound remaining, a Skaven Chiefain with Battle Standard can stab-stab him in the back if he is within 1寸 of him at the start of your 英雄阶段. If he does so, your 主将 is slain; this model then becomes your 主将 and gains any 指挥能力 known by his former master.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6382,7 +6382,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="00c2-b558-ebd7-c687" name="General" hidden="false" collective="false" import="true" targetId="c71b-c7bd-77ca-12b9" type="selectionEntry"/>
+        <entryLink id="00c2-b558-ebd7-c687" name="主将" hidden="false" collective="false" import="true" targetId="c71b-c7bd-77ca-12b9" type="selectionEntry"/>
         <entryLink id="28b6-6e6a-f740-950d" name="Artefacts" hidden="false" collective="false" import="true" targetId="01be-261c-a6e1-68d6" type="selectionEntryGroup"/>
         <entryLink id="f0ac-532b-c737-c173" name="Command Traits" hidden="false" collective="false" import="true" targetId="d469-f2fa-07d9-bd12" type="selectionEntryGroup"/>
       </entryLinks>
@@ -6694,7 +6694,7 @@
         </profile>
         <profile id="78ee-929a-3dde-a512" name="Aura of the Horned Rat" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">SKAVENTIDE units treat this terrain feature as having the Arcane scenery rule. 其他 units treat this terrain feature as having the Deadly scenery rule. In addition, you can add 1 to the dice that determines if a prayer is answered if the prayer is chanted by a friendly SKAVENTIDE PRIEST within 1寸 of a GNAWHOLE. Arcane: Add 1 to casting and unbinding rolls for WIZARDS while they are within 1寸 of any Arcane terrain features. Deadly: Roll a dice for each 单位 that finishes a normal move or charge move within 1寸 of any Deadly terrain features. On a 1, that 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">SKAVENTIDE units treat this terrain feature as having the Arcane scenery rule. 其他 units treat this terrain feature as having the Deadly scenery rule. In addition, you can add 1 to the dice that determines if a prayer is answered if the prayer is chanted by a friendly SKAVENTIDE 祭司 within 1寸 of a GNAWHOLE. Arcane: Add 1 to casting and unbinding rolls for WIZARDS while they are within 1寸 of any Arcane terrain features. Deadly: Roll a dice for each 单位 that finishes a normal move or charge move within 1寸 of any Deadly terrain features. On a 1, that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6707,7 +6707,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3478-7e3a-da0b-2d36" name="General - Masterclan" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3478-7e3a-da0b-2d36" name="主将 - Masterclan" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6730,7 +6730,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="230d-5573-4086-e687" name="General - Clans Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="230d-5573-4086-e687" name="主将 - Clans Eshin" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6753,7 +6753,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ebc-adcb-d870-3ea6" name="General - Clans Moulder" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1ebc-adcb-d870-3ea6" name="主将 - Clans Moulder" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6776,7 +6776,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b60e-1aa4-96da-a83b" name="General - Clans Verminous" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b60e-1aa4-96da-a83b" name="主将 - Clans Verminous" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6799,7 +6799,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="113c-cd67-094e-5195" name="General - Clans Pestilens" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="113c-cd67-094e-5195" name="主将 - Clans Pestilens" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6822,7 +6822,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="103a-ea19-f285-ca41" name="General - Clans Skyre" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="103a-ea19-f285-ca41" name="主将 - Clans Skyre" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6931,7 +6931,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="911b-8115-09c6-fe41" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="d22d-d98d-5ef6-d8bf" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="d22d-d98d-5ef6-d8bf" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6975,7 +6975,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afcb-f0c3-d8dd-0cf8" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="3239-f9fd-ee74-0b40" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="3239-f9fd-ee74-0b40" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6989,7 +6989,7 @@
         <entryLink id="bcde-51e8-e252-b50a" name="Traits: Fleshmasteries (Clans Moulder)" hidden="false" collective="false" import="true" targetId="666e-e6b9-dacf-74f8" type="selectionEntryGroup"/>
         <entryLink id="1530-9d11-8b8f-029a" name="Shadowy Masteries (Clans Eshin)" hidden="false" collective="false" import="true" targetId="9565-bd79-6ad5-c568" type="selectionEntryGroup"/>
         <entryLink id="185e-1a1f-f5b4-1a66" name="Treacherous Tactics (Clans Verminous)" hidden="false" collective="false" import="true" targetId="cddc-a28b-400e-345d" type="selectionEntryGroup"/>
-        <entryLink id="fa53-96c1-619f-3c5d" name="Traits: Nurgle Daemon" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup">
+        <entryLink id="fa53-96c1-619f-3c5d" name="Traits: Nurgle 恶魔" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -7018,9 +7018,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbef-c097-23d5-1053" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14a8-a754-92fe-4e87" name="Warpstone Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="14a8-a754-92fe-4e87" name="Warpstone Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time a wound inflicted by a 肉搏 weapon is allocated to the bearer and not negated. On a 5+ the attacking 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time a wound inflicted by a 肉搏 weapon is allocated to the bearer and not negated. On a 5+ the attacking 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7036,9 +7036,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6d7-6743-d48a-16af" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9325-2380-ab2c-463b" name="Esoteric Warp Resonator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9325-2380-ab2c-463b" name="Esoteric Warp Resonator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of each battle round you receive 1 extra warpstone spark if the bearer is on the battlefield. That warpstone spark can only be used to perform a warpstone spark ability with the bearer in that battle round. If it is not used before the end of the battle round in which it was received, it is lost.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of each battle round you receive 1 extra warpstone spark if the bearer is on the battlefield. That warpstone spark can only be used to perform a warpstone spark ability with the bearer in that battle round. If it is not used before the end of the battle round in which it was received, it is lost.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7054,9 +7054,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e505-7b19-bbce-3131" type="max"/>
           </constraints>
           <profiles>
-            <profile id="80be-f475-ef50-5f34" name="Skryre&apos;s-breath Bellows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="80be-f475-ef50-5f34" name="Skryre&apos;s-breath Bellows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, the bearer can pump the bellows. If they do so, roll a dice for each 单位 其他 than the bearer that is within 3寸 of the bearer. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, the bearer can pump the bellows. If they do so, roll a dice for each 单位 其他 than the bearer that is within 3寸 of the bearer. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7072,9 +7072,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4857-62d0-005e-2a1f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="00a2-1086-7615-7073" name="Vial of the Fulminator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="00a2-1086-7615-7073" name="Vial of the Fulminator" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your movement phase, you can pick 1 friendly CLANS SKRYRE 战争机械 within 3寸 of the bearer. Double that 单位’s Move characteristic until the end of that phase. At the end of that phase, roll a dice. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your movement phase, you can pick 1 friendly CLANS SKRYRE 战争机械 within 3寸 of the bearer. Double that 单位’s Move characteristic until the end of that phase. At the end of that phase, roll a dice. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7090,9 +7090,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fde-4cda-b3c5-4039" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a500-7e99-8883-f528" name="Vigordust Injector" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a500-7e99-8883-f528" name="Vigordust Injector" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick 1 friendly SKAVENTIDE 单位 wholly within 12寸 of the bearer. Add 1 to charge rolls and hit rolls for that 单位 until your next 英雄阶段. However, at the start of your next 英雄阶段 that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick 1 friendly SKAVENTIDE 单位 wholly within 12寸 of the bearer. Add 1 to charge rolls and hit rolls for that 单位 until your next 英雄阶段. However, at the start of your next 英雄阶段 that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7108,9 +7108,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4909-ef02-a431-ecef" type="max"/>
           </constraints>
           <profiles>
-            <profile id="622a-3e4d-98ba-3999" name="The Brass Orb" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="622a-3e4d-98ba-3999" name="The Brass Orb" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can roll a dice. On a 6 the closest enemy model within 6寸 of the bearer is slain. If several enemy models are equally close, you can pick which one is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can roll a dice. On a 6 the closest enemy model within 6寸 of the bearer is slain. If several enemy models are equally close, you can pick which one is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7155,7 +7155,7 @@
           <profiles>
             <profile id="4db6-2863-4556-4fb3" name="Deranged Inventor" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 射击阶段, you can pick 1 friendly CLANS SKRYRE 单位 that is wholly within 13寸 of this general. You can re-roll hit rolls for attacks made with missile 武器 by that 单位 until the end of that phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 射击阶段, you can pick 1 friendly CLANS SKRYRE 单位 that is wholly within 13寸 of this 主将. You can re-roll hit rolls for attacks made with missile 武器 by that 单位 until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7167,7 +7167,7 @@
           <profiles>
             <profile id="b945-4783-0b03-08c0" name="Masterful Scavenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to the number of warpstone sparks this general’s army can use during a battle.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to the number of warpstone sparks this 主将’s army can use during a battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7187,7 +7187,7 @@
           <profiles>
             <profile id="1b60-b412-698a-8d2d" name="Overseer of Destruction" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 射击阶段, you can pick up to 3 friendly WEAPON TEAM units that are wholly within 13寸 of this general. You can re-roll hit rolls for attacks made by those units until the end of that phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 射击阶段, you can pick up to 3 friendly WEAPON TEAM units that are wholly within 13寸 of this 主将. You can re-roll hit rolls for attacks made by those units until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7249,7 +7249,7 @@
           <profiles>
             <profile id="35dc-f1dc-94b4-8a50" name="Brutal Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of the combat phase, you can add 3 to the Attacks characteristic of this general’s 肉搏 武器 until the end of that phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle, at the start of the combat phase, you can add 3 to the Attacks characteristic of this 主将’s 肉搏 武器 until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7264,7 +7264,7 @@
           <profiles>
             <profile id="3312-dedf-801f-0642" name="Powerful" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7279,7 +7279,7 @@
           <profiles>
             <profile id="71ae-100d-3b0a-b3c9" name="Devious Adversary" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a 肉搏 weapon that targets this general is a 1, add 1 to the Attacks characteristic of this general’s 肉搏 武器 until the end of that phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified hit roll for an attack made with a 肉搏 weapon that targets this 主将 is a 1, add 1 to the Attacks characteristic of this 主将’s 肉搏 武器 until the end of that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7329,7 +7329,7 @@
           <profiles>
             <profile id="3fa0-d220-a9a4-8711" name="Supreme Manipulator" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if you receive 1 extra command point when you use the Skilled Manipulators 战斗特性 after this general uses a command ability.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if you receive 1 extra command point when you use the Skilled Manipulators 战斗特性 after this 主将 uses a command ability.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7341,7 +7341,7 @@
           <profiles>
             <profile id="7414-c430-45d9-da8b" name="Master of Magic" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per 英雄阶段, you can add 1 to a casting, dispelling or unbinding roll for this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per 英雄阶段, you can add 1 to a casting, dispelling or unbinding roll for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7403,7 +7403,7 @@
           <profiles>
             <profile id="1375-7077-daf5-234a" name="Moulder Supreme" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use the Prized Creations 战斗特性 and pick 1 friendly CLANS MOULDER FIGHTING BEAST model for this general, you can either add 3 to that model’s Wounds characteristic instead of D3, or add D6 to that model’s Wounds characteristic instead of D3.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use the Prized Creations 战斗特性 and pick 1 friendly CLANS MOULDER FIGHTING BEAST model for this 主将, you can either add 3 to that model’s Wounds characteristic instead of D3, or add D6 to that model’s Wounds characteristic instead of D3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7415,7 +7415,7 @@
           <profiles>
             <profile id="f250-3b59-b68b-a813" name="Hordemaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this general uses the Unleash More-more Beasts! command ability, you receive a new 单位 on a roll of 4+ instead of 5+.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 uses the Unleash More-more Beasts! command ability, you receive a new 单位 on a roll of 4+ instead of 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7427,7 +7427,7 @@
           <profiles>
             <profile id="44c8-714f-c53d-9479" name="Burly" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7477,7 +7477,7 @@
           <profiles>
             <profile id="8306-aaa8-5c7c-d3fb" name="Unrivalled Killer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made by this general that target the enemy 英雄 chosen for the Masters of Murder 战斗特性.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made by this 主将 that target the enemy 英雄 chosen for the Masters of Murder 战斗特性.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7489,7 +7489,7 @@
           <profiles>
             <profile id="1674-466b-06d8-d91e" name="Shadowmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">While this general is within 1寸 of a terrain feature, this general is not visible to enemy models while they are more than 6寸 from this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">While this 主将 is within 1寸 of a terrain feature, this 主将 is not visible to enemy models while they are more than 6寸 from this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7501,7 +7501,7 @@
           <profiles>
             <profile id="7b9f-ac0d-c763-11d2" name="Incredible Agility" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can fly.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7528,9 +7528,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ed1-382b-ad05-c743" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3405-9571-f413-ce10" name="Warpstorm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3405-9571-f413-ce10" name="Warpstorm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this scroll. If they do so, roll 1 dice for each enemy 单位 within 13寸 of the bearer. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can use this scroll. If they do so, roll 1 dice for each enemy 单位 within 13寸 of the bearer. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7543,9 +7543,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b5d8-12e5-622d-ccc8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7196-b753-3293-182b" name="Suspicious Stone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7196-b753-3293-182b" name="Suspicious Stone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+ that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7558,9 +7558,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4be3-a11d-4585-f2b0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d6ba-8c22-4d4d-1c74" name="The Gnawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d6ba-8c22-4d4d-1c74" name="The Gnawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If any wounds inflicted by that weapon are allocated to an enemy model and not negated, that enemy model suffers 1 mortal wound at the end of each battle round (even if the wounds inflicted by the Gnawshard are subsequently healed).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If any wounds inflicted by that weapon are allocated to an enemy model and not negated, that enemy model suffers 1 mortal wound at the end of each battle round (even if the wounds inflicted by the Gnawshard are subsequently healed).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7573,9 +7573,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ed86-4a32-4359-13a6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b6c0-7d42-b128-ceb9" name="Skavenbrew" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b6c0-7d42-b128-ceb9" name="Skavenbrew" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can pick 1 friendly SKAVENTIDE 单位 within 3寸 of the bearer. That 单位 suffers D3 mortal wounds, but you can add 1 to the Attacks characteristic of 肉搏 weaponsused by that 单位 until your next 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can pick 1 friendly SKAVENTIDE 单位 within 3寸 of the bearer. That 单位 suffers D3 mortal wounds, but you can add 1 to the Attacks characteristic of 肉搏 weaponsused by that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7588,9 +7588,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a101-a5c5-d77c-ac90" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c97-4710-6479-b103" name="Snoutgrovel Robes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3c97-4710-6479-b103" name="Snoutgrovel Robes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly SKAVENTIDE units while they are wholly within 13寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly SKAVENTIDE units while they are wholly within 13寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7603,9 +7603,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="853a-0fdf-fee2-06d5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="45f3-f741-4bff-d218" name="Staff of Rightful Supremacy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="45f3-f741-4bff-d218" name="Staff of Rightful Supremacy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of enemy WIZARDS while they are within 13寸 of the bearer. In addition, once per battle, you can dispel one endless 法术 within 13寸 of the caster (you do not have to roll 2D6, the dispel is automatically successful).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of enemy WIZARDS while they are within 13寸 of the bearer. In addition, once per battle, you can dispel one endless 法术 within 13寸 of the caster (you do not have to roll 2D6, the dispel is automatically successful).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7632,9 +7632,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a0b-c42a-2040-41a5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="aa9f-fc29-195c-0ba4" name="Things-Bane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="aa9f-fc29-195c-0ba4" name="Things-Bane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7647,9 +7647,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="abbb-14ed-ca74-4e6f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="090c-78cf-e523-7ecc" name="Shield of Distraction" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="090c-78cf-e523-7ecc" name="Shield of Distraction" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for attacks that target the bearer. In addition, at the start of the combat phase, pick 1 enemy model within 3寸 of the bearer. Subtract 1 from hit rolls for attacks made with 肉搏 武器 by that model in that combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for attacks that target the bearer. In addition, at the start of the combat phase, pick 1 enemy model within 3寸 of the bearer. Subtract 1 from hit rolls for attacks made with 肉搏 武器 by that model in that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7662,9 +7662,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3a2-917a-06dd-93af" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d622-d36a-81fe-b33b" name="Screechskull Trophies" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d622-d36a-81fe-b33b" name="Screechskull Trophies" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 13寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 13寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7677,9 +7677,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6dea-8ba0-66c2-c4ff" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1721-d0b5-e3ae-e609" name="Flaypelt Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1721-d0b5-e3ae-e609" name="Flaypelt Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit and wound rolls of 1 for attacks made with 肉搏 武器 by the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit and wound rolls of 1 for attacks made with 肉搏 武器 by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7692,9 +7692,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f14a-6921-2ce0-76c6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e4f1-c532-7908-4b48" name="Rustcursed Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e4f1-c532-7908-4b48" name="Rustcursed Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for attacks that target the bearer. In addition, at the start of the combat phase, you can pick 1 enemy 英雄 with an artefact of power that is within 3寸 of the bearer and roll 3D6. If the roll is exactly 13, that artefact of power can no longer be used (if a weapon was picked when the artefact of power was selected, that weapon reverts to normal).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for attacks that target the bearer. In addition, at the start of the combat phase, you can pick 1 enemy 英雄 with an 魔法道具 of power that is within 3寸 of the bearer and roll 3D6. If the roll is exactly 13, that 魔法道具 of power can no longer be used (if a weapon was picked when the 魔法道具 of power was selected, that weapon reverts to normal).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7707,9 +7707,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f66-14f6-de8f-01e5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9154-6425-982e-9d32" name="Warpstone Charm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9154-6425-982e-9d32" name="Warpstone Charm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, pick 1 单位 within 3寸 of the bearer and roll a dice. On a 2-5 that 单位 suffers 1 mortal wound. On a 6 that 单位 suffers D3 mortal wounds. (Note that if there are no enemy units within 3寸 you must pick either a friendly 单位 or the bearer to be the target.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, pick 1 单位 within 3寸 of the bearer and roll a dice. On a 2-5 that 单位 suffers 1 mortal wound. On a 6 that 单位 suffers D3 mortal wounds. (Note that if there are no enemy units within 3寸 you must pick either a friendly 单位 or the bearer to be the target.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7736,9 +7736,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="20fd-94e9-bdfd-f654" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f9b0-e552-ddf7-b924" name="Lash of Fangs" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f9b0-e552-ddf7-b924" name="Lash of Fangs" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7751,9 +7751,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb7a-9f4a-0438-2921" type="max"/>
           </constraints>
           <profiles>
-            <profile id="89c7-ff57-b14c-bfe7" name="Foulhide" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="89c7-ff57-b14c-bfe7" name="Foulhide" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can heal up to D3 wounds allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can heal up to D3 wounds allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7766,9 +7766,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5780-823f-3996-0e2a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5399-4fb7-53fa-69eb" name="Snap-snap Snarepole" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5399-4fb7-53fa-69eb" name="Snap-snap Snarepole" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy model within 3寸 of the bearer. Subtract 1 from hit rolls for attacks made by that model in that combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy model within 3寸 of the bearer. Subtract 1 from hit rolls for attacks made by that model in that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7781,9 +7781,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd98-3fad-f93e-b088" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ef07-2a13-341b-49b6" name="Rat-tail Snake" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ef07-2a13-341b-49b6" name="Rat-tail Snake" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7796,9 +7796,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ecf-a6b2-ce93-a7c1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d29d-eb2c-a9e5-aa8d" name="Rabid Crown" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d29d-eb2c-a9e5-aa8d" name="Rabid Crown" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll wound rolls for attacks made by friendly CLANS MOULDER PACK units while they are wholly within 13寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll wound rolls for attacks made by friendly CLANS MOULDER PACK units while they are wholly within 13寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7811,9 +7811,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1a3-2908-ce2c-e9df" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b2af-a11a-896f-d0d6" name="Fleshgift Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b2af-a11a-896f-d0d6" name="Fleshgift Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, you can pick 1 enemy 单位 within 6寸 of the bearer and roll a dice. On a 1, the bearer suffers 1 mortal wound. On a 2-5, that enemy 单位 suffers D3 mortal wounds. On a 6 that enemy 单位 suffers D6 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, you can pick 1 enemy 单位 within 6寸 of the bearer and roll a dice. On a 1, the bearer suffers 1 mortal wound. On a 2-5, that enemy 单位 suffers D3 mortal wounds. On a 6 that enemy 单位 suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7840,9 +7840,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce83-dc70-8b68-38b9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2f94-82f9-386b-6a68" name="Shadow Magnet Trinket" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2f94-82f9-386b-6a68" name="Shadow Magnet Trinket" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, the bearer can fight at the start of the combat phase, before the players pick any 其他 units to fight in that combat phase. The bearer cannot fight again in that combat phase unless an ability or 法术 allows it to fight more than once.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, the bearer can fight at the start of the combat phase, before the players pick any 其他 units to fight in that combat phase. The bearer cannot fight again in that combat phase unless an ability or 法术 allows it to fight more than once.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7855,9 +7855,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e76-7ad6-55be-8d2e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d8f-9979-71d2-157c" name="Farskitter Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5d8f-9979-71d2-157c" name="Farskitter Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the end of your movement phase, you can remove the bearer from the battlefield and set them up again anywhere on the battlefield more than 9寸 from any enemy 单位.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the end of your movement phase, you can remove the bearer from the battlefield and set them up again anywhere on the battlefield more than 9寸 from any enemy 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7870,9 +7870,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5da3-ed79-b4e4-7c43" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1cc0-e0d9-768a-76c5" name="The Three Fangs" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1cc0-e0d9-768a-76c5" name="The Three Fangs" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 射击阶段, you can pick 1 enemy 英雄 within 6寸 of the bearer and roll 3 dice. If all 3 rolls are 3+, and the combined value of the 3 dice is greater than that enemy model’s Wounds characteristic, that enemy model is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 射击阶段, you can pick 1 enemy 英雄 within 6寸 of the bearer and roll 3 dice. If all 3 rolls are 3+, and the combined value of the 3 dice is greater than that enemy model’s Wounds characteristic, that enemy model is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7885,9 +7885,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ccc-ab1b-a426-2103" type="max"/>
           </constraints>
           <profiles>
-            <profile id="99b9-08e7-e9e4-8fab" name="Warpweeper Stars" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="99b9-08e7-e9e4-8fab" name="Warpweeper Stars" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s missile 武器. If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds onthe target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s missile 武器. If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds onthe target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7900,9 +7900,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9652-33f3-c76c-27cb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fd80-950c-7a99-2aed" name="The Cube of Mists" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fd80-950c-7a99-2aed" name="The Cube of Mists" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy 单位 within 6寸 of the bearer. That 单位 cannot make a pile-in move in that combat phase. In addition, subtract 1 from hit rolls for attacks made by that 单位 in that combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy 单位 within 6寸 of the bearer. That 单位 cannot make a pile-in move in that combat phase. In addition, subtract 1 from hit rolls for attacks made by that 单位 in that combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7915,9 +7915,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df73-442e-6d9f-4afe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b70c-cd2e-67ed-b282" name="Gnawbomb" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b70c-cd2e-67ed-b282" name="Gnawbomb" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can pick 1 terrain feature within 6寸 of the bearer. Until your next 英雄阶段, that terrain feature has the scenery rules from the Gnawhole warscroll in addition to the scenery rules it already has.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can pick 1 terrain feature within 6寸 of the bearer. Until your next 英雄阶段, that terrain feature has the scenery rules from the Gnawhole warscroll in addition to the scenery rules it already has.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8112,9 +8112,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a8b-c63c-aba2-8aa9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3940-bc14-b6b0-198d" name="The Fumigatous" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3940-bc14-b6b0-198d" name="The Fumigatous" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of each combat phase, you can pick 1 enemy 单位 within 6寸 of the bearer and roll a dice. On a 2+ that 单位 suffers 1 mortal wound. On a 5+ that 单位 suffers D3 mortal wounds instead of 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of each combat phase, you can pick 1 enemy 单位 within 6寸 of the bearer and roll a dice. On a 2+ that 单位 suffers 1 mortal wound. On a 5+ that 单位 suffers D3 mortal wounds instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8130,9 +8130,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="518a-ac19-6355-2835" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e278-9fe1-6994-8fc3" name="Brooding Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e278-9fe1-6994-8fc3" name="Brooding Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. At the end of the combat phase, roll a dice for each model wounded by this weapon but not slain. On a 2+ that model’s 单位 suffers D3 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. At the end of the combat phase, roll a dice for each model wounded by this weapon but not slain. On a 2+ that model’s 单位 suffers D3 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8148,9 +8148,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0605-70b6-4919-4551" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7740-ead3-0f70-1ba3" name="Blade of Corruption" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7740-ead3-0f70-1ba3" name="Blade of Corruption" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. You can re-roll wound rolls for attacks made with that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. You can re-roll wound rolls for attacks made with that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8166,9 +8166,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2579-6d5c-42d6-d5ce" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7858-7e41-4cb6-ecd7" name="Blistrevous, the Living Cyst" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7858-7e41-4cb6-ecd7" name="Blistrevous, the Living Cyst" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2寸 to the bearer’s Move characteristic. In addition, you can re-roll hit rolls for attacks made by the bearer. Starting from the second battle round, at the start of your 英雄阶段, if there are any 其他 friendly CLANS PESTILENS HEROES within 13寸 of the bearer, you must transfer this artefact to one of them, even if they already carry an artefact of power.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2寸 to the bearer’s Move characteristic. In addition, you can re-roll hit rolls for attacks made by the bearer. Starting from the second battle round, at the start of your 英雄阶段, if there are any 其他 friendly CLANS PESTILENS HEROES within 13寸 of the bearer, you must transfer this 魔法道具 to one of them, even if they already carry an 魔法道具 of power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8184,9 +8184,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c47c-9c4f-9b06-5ad4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2248-d3e0-31d6-5ce3" name="Liber Bubonicus" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2248-d3e0-31d6-5ce3" name="Liber Bubonicus" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can use the Plague Prayers ability from the Plague Priest warscroll. If the bearer is a PLAGUE PRIEST, then it can use the Plague Prayers ability twice in your 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can use the Plague Prayers ability from the Plague 祭司 warscroll. If the bearer is a PLAGUE 祭司, then it can use the Plague Prayers ability twice in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8202,9 +8202,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a06-a196-95a8-f510" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e717-68e5-0ce2-7861" name="The Foul Pendant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e717-68e5-0ce2-7861" name="The Foul Pendant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind 1 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind 1 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8246,7 +8246,7 @@
           <profiles>
             <profile id="ccf6-9678-fd5b-3c25" name="Diseased" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, roll a dice if this general is within 3寸 of any enemy units. On a 4+ inflict D3 mortal wounds on 1 enemy 单位 within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, roll a dice if this 主将 is within 3寸 of any enemy units. On a 4+ inflict D3 mortal wounds on 1 enemy 单位 within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8258,7 +8258,7 @@
           <profiles>
             <profile id="a742-552b-ff35-3dc4" name="Master of Rot and Ruin" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if a prayer chanted by this general is answered.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll the dice that determines if a prayer chanted by this 主将 is answered.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8278,7 +8278,7 @@
           <profiles>
             <profile id="c153-585e-0f33-99b5" name="Architect of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made with missile 武器 by friendly CLANS PESTILENS units while they are wholly within 18寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made with missile 武器 by friendly CLANS PESTILENS units while they are wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8331,21 +8331,21 @@
     </profile>
     <profile id="5a6a-2a84-bc1e-245f" name="Malevolent" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
       <characteristics>
-        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with 肉搏 武器 by this general.</characteristic>
+        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with 肉搏 武器 by this 主将.</characteristic>
       </characteristics>
     </profile>
     <profile id="5c65-a3e5-d5c9-249c" name="Verminous Valour" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
       <characteristics>
-        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Before you allocate a wound or mortal wound to this general, you can roll a dice. Subtract 1 from the roll if this general is a 怪兽 or 战争机械. On a 4+, instead of allocating the wound or mortal wound to this general, you can allocate it to a friendly SKAVENTIDE 单位 within 3寸 of this general.</characteristic>
+        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Before you allocate a wound or mortal wound to this 主将, you can roll a dice. Subtract 1 from the roll if this 主将 is a 怪兽 or 战争机械. On a 4+, instead of allocating the wound or mortal wound to this 主将, you can allocate it to a friendly SKAVENTIDE 单位 within 3寸 of this 主将.</characteristic>
       </characteristics>
     </profile>
     <profile id="0deb-5028-c39a-4a9e" name="Savage Overlord" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
       <characteristics>
-        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SKAVENTIDE units while they are wholly within 18寸 of this general.</characteristic>
+        <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SKAVENTIDE units while they are wholly within 18寸 of this 主将.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="4ecb-f2b4-78e9-ce86" name="Chaos Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4ecb-f2b4-78e9-ce86" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

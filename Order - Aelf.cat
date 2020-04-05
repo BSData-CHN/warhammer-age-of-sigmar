@@ -18,7 +18,7 @@
     <categoryEntry id="c9d5-f481-3cd6-c3f1" name="MISTWEAVER SAIH" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="7332-f387-438b-852c" name="Allegiance" hidden="false" collective="false" import="true" targetId="8171-f17c-d43c-5e0b" type="selectionEntry">
+    <entryLink id="7332-f387-438b-852c" name="势力" hidden="false" collective="false" import="true" targetId="8171-f17c-d43c-5e0b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -42,19 +42,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8171-f17c-d43c-5e0b" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8171-f17c-d43c-5e0b" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f915-3249-759d-d259" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="d51d-dec8-f7a7-351d">
+        <selectionEntryGroup id="f915-3249-759d-d259" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="d51d-dec8-f7a7-351d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d51d-dec8-f7a7-351d" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d51d-dec8-f7a7-351d" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="f6bb-9b06-85bf-e4ce" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -170,7 +170,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1a0a-d2ee-eea5-4fa5" name="General" hidden="false" collective="false" import="true" targetId="ef5a-b993-6186-a991" type="selectionEntry"/>
+        <entryLink id="1a0a-d2ee-eea5-4fa5" name="主将" hidden="false" collective="false" import="true" targetId="ef5a-b993-6186-a991" type="selectionEntry"/>
         <entryLink id="10a4-145d-d4a6-0cd5" name="Artefacts" hidden="false" collective="false" import="true" targetId="7a1e-b3fb-1de0-5141" type="selectionEntryGroup"/>
         <entryLink id="224b-efa4-1bfd-7d23" name="Command Traits" hidden="false" collective="false" import="true" targetId="d259-53a0-0dad-4016" type="selectionEntryGroup"/>
       </entryLinks>
@@ -257,7 +257,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9447-4e86-1758-cfb0" name="General" hidden="false" collective="false" import="true" targetId="ef5a-b993-6186-a991" type="selectionEntry"/>
+        <entryLink id="9447-4e86-1758-cfb0" name="主将" hidden="false" collective="false" import="true" targetId="ef5a-b993-6186-a991" type="selectionEntry"/>
         <entryLink id="51dc-e786-d3fe-5015" name="Artefacts" hidden="false" collective="false" import="true" targetId="7a1e-b3fb-1de0-5141" type="selectionEntryGroup"/>
         <entryLink id="209d-4423-ff22-3729" name="Command Traits" hidden="false" collective="false" import="true" targetId="d259-53a0-0dad-4016" type="selectionEntryGroup"/>
       </entryLinks>
@@ -265,7 +265,7 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef5a-b993-6186-a991" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ef5a-b993-6186-a991" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>

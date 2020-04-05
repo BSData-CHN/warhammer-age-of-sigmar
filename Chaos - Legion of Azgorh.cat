@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8c11-75b5-5857-1b26" name="Chaos - Legion of Azgorh" revision="13" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8c11-75b5-5857-1b26" name="混沌 - Legion of Azgorh" revision="13" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8c11-75b5-pubN65537" name="The Legion of Azgorh Warscrolls Compendium"/>
     <publication id="8c11-75b5-pubN67268" name="Warscroll: Shar’tor the Executioner"/>
@@ -23,7 +23,7 @@
     <categoryEntry id="5926-7496-eb1d-fd9b" name="K&apos;DAAI FIREBORN" hidden="false"/>
     <categoryEntry id="3452-4143-3aa6-2f62" name="BULL CENTAUR RENDERS" hidden="false"/>
     <categoryEntry id="d829-5d3d-4f19-2e8e" name="BULL CENTAUR TAUR&apos;RUK" hidden="false"/>
-    <categoryEntry id="9f0f-e75f-84e4-5f33" name="IRON DAEMON WAR ENGINE" hidden="false"/>
+    <categoryEntry id="9f0f-e75f-84e4-5f33" name="IRON 恶魔 WAR ENGINE" hidden="false"/>
     <categoryEntry id="d6a5-424f-8044-1d7d" name="SKULLCRACKER WAR ENGINE" hidden="false"/>
     <categoryEntry id="9142-537b-04c1-9d92" name="DEATHSHRIEKER ROCKET LAUNCHER" hidden="false"/>
     <categoryEntry id="1f86-67ce-4ee9-a13a" name="MAGMA CANNON" hidden="false"/>
@@ -127,7 +127,7 @@
         <categoryLink id="ef68-8cb1-5e92-5a40" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bba1-e911-d5dc-edb8" name="Iron Daemon War Engine" hidden="false" collective="false" import="true" targetId="c630-ea56-761c-4c04" type="selectionEntry">
+    <entryLink id="bba1-e911-d5dc-edb8" name="Iron 恶魔 War Engine" hidden="false" collective="false" import="true" targetId="c630-ea56-761c-4c04" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bc21-c834-e096-4405" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
@@ -169,7 +169,7 @@
         <categoryLink id="5c36-e9a9-ad43-a38e" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cabc-7926-10ad-fc7c" name="Allegiance" hidden="false" collective="false" import="true" targetId="904c-53b5-501f-08e0" type="selectionEntry">
+    <entryLink id="cabc-7926-10ad-fc7c" name="势力" hidden="false" collective="false" import="true" targetId="904c-53b5-501f-08e0" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -295,7 +295,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="884c-900f-2a17-e0fd" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="884c-900f-2a17-e0fd" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -547,7 +547,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4157-350c-facb-ab8f" name="General" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
+        <entryLink id="4157-350c-facb-ab8f" name="主将" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
         <entryLink id="72aa-c4e1-83b9-6ac5" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
         <entryLink id="8ce1-9812-2319-2441" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
       </entryLinks>
@@ -607,7 +607,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e18f-7a3f-26a1-dc50" name="General" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
+        <entryLink id="e18f-7a3f-26a1-dc50" name="主将" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
         <entryLink id="3445-2621-0981-7159" name="Artefacts of Power" hidden="false" collective="false" import="true" targetId="475c-1632-c526-a073" type="selectionEntryGroup"/>
         <entryLink id="f694-b698-ed34-89b1" name="Command Traits" hidden="false" collective="false" import="true" targetId="c403-6e43-5398-19ac" type="selectionEntryGroup"/>
       </entryLinks>
@@ -654,7 +654,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="885d-404f-3560-8be9" name="General" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
+        <entryLink id="885d-404f-3560-8be9" name="主将" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
         <entryLink id="cb4f-41f8-9a55-0347" name="Artefacts of Power" hidden="false" collective="false" import="true" targetId="475c-1632-c526-a073" type="selectionEntryGroup"/>
         <entryLink id="6d14-7022-fec4-0e87" name="Command Traits" hidden="false" collective="false" import="true" targetId="c403-6e43-5398-19ac" type="selectionEntryGroup"/>
       </entryLinks>
@@ -778,7 +778,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ed29-56c1-2004-eb2a" name="General" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
+        <entryLink id="ed29-56c1-2004-eb2a" name="主将" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
         <entryLink id="ebf0-a6c0-088f-eaf0" name="Artefacts of Power" hidden="false" collective="false" import="true" targetId="475c-1632-c526-a073" type="selectionEntryGroup"/>
         <entryLink id="d457-133f-cd79-d667" name="Command Traits" hidden="false" collective="false" import="true" targetId="c403-6e43-5398-19ac" type="selectionEntryGroup"/>
         <entryLink id="6d11-9ee5-cc5f-96b8" name="Mystic Shield" hidden="false" collective="false" import="true" targetId="5fdd-6634-f9f8-068a" type="selectionEntry"/>
@@ -1186,15 +1186,15 @@
       <entryLinks>
         <entryLink id="49e5-c186-8246-1260" name="Artefacts of Power" hidden="false" collective="false" import="true" targetId="475c-1632-c526-a073" type="selectionEntryGroup"/>
         <entryLink id="8bb5-bd95-7a71-f15d" name="Command Traits" hidden="false" collective="false" import="true" targetId="c403-6e43-5398-19ac" type="selectionEntryGroup"/>
-        <entryLink id="8f47-ad33-89a9-e714" name="General" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
+        <entryLink id="8f47-ad33-89a9-e714" name="主将" hidden="false" collective="false" import="true" targetId="88ed-914f-7045-41db" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c630-ea56-761c-4c04" name="Iron Daemon War Engine" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c630-ea56-761c-4c04" name="Iron 恶魔 War Engine" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="21e8-02a9-9eac-7600" name="Iron Daemon War Engine" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="21e8-02a9-9eac-7600" name="Iron 恶魔 War Engine" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">11</characteristic>
@@ -1729,13 +1729,13 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="decf-cd78-4d83-c132" name="1 Iron Daemon War Engine" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="decf-cd78-4d83-c132" name="1 Iron 恶魔 War Engine" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b42c-2acc-28b9-600a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-87e7-5aa6-4a7e" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0601-2f85-dd14-dcd3" name="Iron Daemon War Engine" hidden="false" collective="false" import="true" targetId="c630-ea56-761c-4c04" type="selectionEntry">
+            <entryLink id="0601-2f85-dd14-dcd3" name="Iron 恶魔 War Engine" hidden="false" collective="false" import="true" targetId="c630-ea56-761c-4c04" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="1cd8-7af2-0b93-9c71" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
               </categoryLinks>
@@ -1763,7 +1763,7 @@
                 <categoryLink id="12f5-43c7-cfc8-c3d0" name="New CategoryLink" hidden="false" targetId="1d26-07fc-6a66-d73e" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="e9af-227a-2b1f-9f9f" name="Iron Daemon War Engine" hidden="false" collective="false" import="true" targetId="c630-ea56-761c-4c04" type="selectionEntry">
+            <entryLink id="e9af-227a-2b1f-9f9f" name="Iron 恶魔 War Engine" hidden="false" collective="false" import="true" targetId="c630-ea56-761c-4c04" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="5635-1de3-1db0-80f6" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
               </categoryLinks>
@@ -1892,20 +1892,20 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="904c-53b5-501f-08e0" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="904c-53b5-501f-08e0" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf4-588a-ea62-504f" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b30-0603-7001-faa1" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43af-324b-fef9-d5ad" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ee8d-10b3-706d-ea7a" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed37-3e74-a225-25ce">
+        <selectionEntryGroup id="ee8d-10b3-706d-ea7a" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed37-3e74-a225-25ce">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79e-c6e4-7315-a107" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec2c-4448-c668-aa8c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ce74-fe99-620c-0868" name="Allegiance: Chaos" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ce74-fe99-620c-0868" name="势力: 混沌" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="15f2-097f-e587-dfa1" name="Unpredictable Destruction" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>
@@ -1916,7 +1916,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ed37-3e74-a225-25ce" name="Allegiance: Legion of Azgorh" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ed37-3e74-a225-25ce" name="势力: Legion of Azgorh" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="cc39-e510-96c7-c0a7" name="Blackshard Armor" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -1948,7 +1948,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88ed-914f-7045-41db" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="88ed-914f-7045-41db" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2099,7 +2099,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a62e-ae93-7767-0046" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="2837-33c5-7fb4-bb09" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
+        <entryLink id="2837-33c5-7fb4-bb09" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2125,7 +2125,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ba6-f158-6b78-f00b" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="5b22-a550-4a81-3ad5" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
+        <entryLink id="5b22-a550-4a81-3ad5" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2154,9 +2154,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8303-f719-91f4-7e0c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="01a5-78d8-5a88-3151" name="Black Hammer of Hashut" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="01a5-78d8-5a88-3151" name="Black Hammer of Hashut" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. You can re-roll hit rolls for attacks made with that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. You can re-roll hit rolls for attacks made with that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2172,9 +2172,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0389-0ade-65c0-cb8a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="394d-1a3a-2d75-3599" name="Armor of Bazherak the Cruel" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="394d-1a3a-2d75-3599" name="Armor of Bazherak the Cruel" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+, that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+, that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2190,9 +2190,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d68f-cd3a-f681-015f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fc19-deb5-51bf-f2e8" name="Chalice of Blood and Darkness" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fc19-deb5-51bf-f2e8" name="Chalice of Blood and Darkness" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the enemy 英雄阶段, the bearer can use this artefact. If they do so, roll a dice for each enemy 法师 within 30寸 of the bearer. On a 4+, reduce the number of spells that enemy 法师 can attempt to cast in that 英雄阶段 by 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the enemy 英雄阶段, the bearer can use this 魔法道具. If they do so, roll a dice for each enemy 法师 within 30寸 of the bearer. On a 4+, reduce the number of spells that enemy 法师 can attempt to cast in that 英雄阶段 by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2221,7 +2221,7 @@
           <profiles>
             <profile id="94e7-5a59-3b0b-3f17" name="Contemptuous" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2233,7 +2233,7 @@
           <profiles>
             <profile id="ee6e-1245-c847-6e01" name="Relentless" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
               <characteristics>
-                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">After this general has fought in each combat phase for the first time, if it is within 3寸 of an enemy 英雄 or 怪兽, roll a dice. On a 5+, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with for a second time.</characteristic>
+                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">After this 主将 has fought in each combat phase for the first time, if it is within 3寸 of an enemy 英雄 or 怪兽, roll a dice. On a 5+, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2245,7 +2245,7 @@
           <profiles>
             <profile id="9283-a1c4-dba0-d0c9" name="Grotesque" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
               <characteristics>
-                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this general.</characteristic>
+                <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>

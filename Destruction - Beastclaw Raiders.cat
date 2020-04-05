@@ -51,7 +51,7 @@
     <categoryEntry id="4d3b-7454-3924-4b1c" name="Icebrow Hunter" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="fc4d-9292-0908-041e" name="Allegiance" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="fc4d-9292-0908-041e" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -391,7 +391,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2e5-a02a-426e-7ca0" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b5-c448-3c86-73f5" type="min"/>
@@ -400,7 +400,7 @@
         <categoryLink id="16be-3131-4aa2-ed74" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="007b-7ecb-a450-1685">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="007b-7ecb-a450-1685">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -746,7 +746,7 @@
         </profile>
         <profile id="ed41-a097-5013-4e6f" name="Cunning and Wise" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If you choose to randomly generate your general’s 指挥特性, re-roll any duplicate results.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If you choose to randomly generate your 主将’s 指挥特性, re-roll any duplicate results.</characteristic>
           </characteristics>
         </profile>
         <profile id="4179-a183-ad81-37e8" name="Alfrostun Avalanche" page="" hidden="true" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -1328,7 +1328,7 @@
       <entryLinks>
         <entryLink id="cc1e-d41d-7706-c656" name="Artefacts" hidden="false" collective="false" import="true" targetId="3546-2075-75ed-0aa8" type="selectionEntryGroup"/>
         <entryLink id="fc2d-feb9-e05b-93d9" name="Command Traits" hidden="false" collective="false" import="true" targetId="eb00-a87f-8c9d-70da" type="selectionEntryGroup"/>
-        <entryLink id="529a-c923-6a66-ee80" name="General" hidden="false" collective="false" import="true" targetId="d9de-82f3-6526-d891" type="selectionEntry"/>
+        <entryLink id="529a-c923-6a66-ee80" name="主将" hidden="false" collective="false" import="true" targetId="d9de-82f3-6526-d891" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="420.0"/>
@@ -1492,7 +1492,7 @@
       <entryLinks>
         <entryLink id="5d7f-766a-8f43-02cc" name="Artefacts" hidden="false" collective="false" import="true" targetId="3546-2075-75ed-0aa8" type="selectionEntryGroup"/>
         <entryLink id="1c61-dc96-4cc3-40c4" name="Command Traits" hidden="false" collective="false" import="true" targetId="eb00-a87f-8c9d-70da" type="selectionEntryGroup"/>
-        <entryLink id="dd72-6704-b862-08d0" name="General" hidden="false" collective="false" import="true" targetId="6c1f-5fc3-5498-24b7" type="selectionEntry"/>
+        <entryLink id="dd72-6704-b862-08d0" name="主将" hidden="false" collective="false" import="true" targetId="6c1f-5fc3-5498-24b7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="420.0"/>
@@ -1718,7 +1718,7 @@
       <entryLinks>
         <entryLink id="02af-6263-8298-314f" name="Artefacts" hidden="false" collective="false" import="true" targetId="3546-2075-75ed-0aa8" type="selectionEntryGroup"/>
         <entryLink id="bf4e-b2bd-5461-34c5" name="Command Traits" hidden="false" collective="false" import="true" targetId="eb00-a87f-8c9d-70da" type="selectionEntryGroup"/>
-        <entryLink id="02ec-b319-877c-5a52" name="General" hidden="false" collective="false" import="true" targetId="d9de-82f3-6526-d891" type="selectionEntry"/>
+        <entryLink id="02ec-b319-877c-5a52" name="主将" hidden="false" collective="false" import="true" targetId="d9de-82f3-6526-d891" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="320.0"/>
@@ -1965,7 +1965,7 @@
       <entryLinks>
         <entryLink id="1492-5f16-4efd-d636" name="Artefacts" hidden="false" collective="false" import="true" targetId="3546-2075-75ed-0aa8" type="selectionEntryGroup"/>
         <entryLink id="017b-72c4-03bc-e2c1" name="Command Traits" hidden="false" collective="false" import="true" targetId="eb00-a87f-8c9d-70da" type="selectionEntryGroup"/>
-        <entryLink id="1891-6bd7-270d-66df" name="General" hidden="false" collective="false" import="true" targetId="6c1f-5fc3-5498-24b7" type="selectionEntry"/>
+        <entryLink id="1891-6bd7-270d-66df" name="主将" hidden="false" collective="false" import="true" targetId="6c1f-5fc3-5498-24b7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="360.0"/>
@@ -2005,7 +2005,7 @@
         <categoryLink id="238b-4fb9-0a49-dad6" name="New CategoryLink" hidden="false" targetId="4d3b-7454-3924-4b1c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="aeb0-4dc5-86d8-5adf" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aeb0-4dc5-86d8-5adf" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2758,7 +2758,7 @@
         <cost name="pts" typeId="points" value="320.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d9de-82f3-6526-d891" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d9de-82f3-6526-d891" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2781,7 +2781,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c1f-5fc3-5498-24b7" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6c1f-5fc3-5498-24b7" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2922,7 +2922,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6637-353c-f5c8-6e91" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8110-2e8e-d2e1-1eef" name="Blade of All-Frost" publicationId="50c5-e039-pubN81384" page="93" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8110-2e8e-d2e1-1eef" name="Blade of All-Frost" publicationId="50c5-e039-pubN81384" page="93" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2931,7 +2931,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of this 英雄&apos;s 肉搏 武器 to be the Blade of the All-Frost. Add 1 to the Damage characteristic of this weapon. if this weapon wounds a 英雄 or a 怪兽, that model cannot be selected to fight in the combat phase until after all 其他 units that can do so have fought. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of this 英雄&apos;s 肉搏 武器 to be the Blade of the All-Frost. Add 1 to the Damage characteristic of this weapon. if this weapon wounds a 英雄 or a 怪兽, that model cannot be selected to fight in the combat phase until after all 其他 units that can do so have fought. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2946,7 +2946,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8be7-534a-f68b-b704" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14c8-13f4-e322-70cc" name="Ice Mammoth Skull Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="14c8-13f4-e322-70cc" name="Ice Mammoth Skull Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2955,7 +2955,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The wearer of an Ice Mammoth Skull Plate can re-roll all save rolls against 武器 that have a Rend characteristic of &apos;-&apos;. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The wearer of an Ice Mammoth Skull Plate can re-roll all save rolls against 武器 that have a Rend characteristic of &apos;-&apos;. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2970,9 +2970,9 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba6d-f7fc-8533-f250" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2f00-7e72-2d92-cd86" name="Elixir of Froswyrm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2f00-7e72-2d92-cd86" name="Elixir of Froswyrm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In each of your shooting phases, the bearer can drink from the Elixir of Frostwyrm. If they do, pick a 单位 within 9寸 that is visible to them and roll a dice</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In each of your shooting phases, the bearer can drink from the Elixir of Frostwyrm. If they do, pick a 单位 within 9寸 that is visible to them and roll a dice</characteristic>
               </characteristics>
             </profile>
             <profile id="9961-ddd4-586f-1fdc" name="1" hidden="false" typeId="8571-3bca-3d1a-af0f" typeName="Elixir of Froswyrm">
@@ -3007,7 +3007,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69f7-440b-1657-d1ea" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c304-3e28-3360-4dfe" name="The Bleeding Skull of Dragaar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c304-3e28-3360-4dfe" name="The Bleeding Skull of Dragaar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3016,7 +3016,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer of the Bleeding Skull can attempt to unbind one 法术 in each enemy 英雄阶段 exactly as if they were a 法师. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer of the Bleeding Skull can attempt to unbind one 法术 in each enemy 英雄阶段 exactly as if they were a 法师. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3031,7 +3031,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3c8-37ac-ae0b-2d2d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f15-0eee-d73e-402a" name="The Pelt of Charngar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0f15-0eee-d73e-402a" name="The Pelt of Charngar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3040,7 +3040,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice at the start oif each of your 英雄 phases. On a 1, 2 or 3 the bearer of the Pelt of Chargnar heals 1 wound, but on a 4, 5 or 6 he heals D3. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice at the start oif each of your 英雄 phases. On a 1, 2 or 3 the bearer of the Pelt of Chargnar heals 1 wound, but on a 4, 5 or 6 he heals D3. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3055,7 +3055,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fdd2-d369-f377-4af1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3d18-58ce-9c1c-dd0d" name="Tokens of Everwinter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3d18-58ce-9c1c-dd0d" name="Tokens of Everwinter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -3064,7 +3064,7 @@
                 </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once during the battle, in any 英雄阶段, the bearer can swallow the Tokens of Everywinter. If he does, until the start of the next 英雄阶段 you can re-roll all hit rolls, wound rolls and save rolls made for him. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once during the battle, in any 英雄阶段, the bearer can swallow the Tokens of Everywinter. If he does, until the start of the next 英雄阶段 you can re-roll all hit rolls, wound rolls and save rolls made for him. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3093,7 +3093,7 @@
           <profiles>
             <profile id="47ae-f1b6-fe31-3a1a" name="Massive Bulk" publicationId="50c5-e039-pubN81384" page="91" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to your general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to your 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3108,7 +3108,7 @@
           <profiles>
             <profile id="2540-585c-2cd9-aab2" name="Everwinter’s Master" publicationId="50c5-e039-pubN81384" page="91" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can choose to re-roll the dice when rolling on the Everwinter’s Blessing table (see left) whilst your general is alive.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can choose to re-roll the dice when rolling on the Everwinter’s Blessing table (see left) whilst your 主将 is alive.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3123,7 +3123,7 @@
           <profiles>
             <profile id="796a-9558-bb13-8722" name="Avalanche Voice" publicationId="50c5-e039-pubN81384" page="91" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can add 8寸 to the range of any 指挥能力 your general uses.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can add 8寸 to the range of any 指挥能力 your 主将 uses.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3138,7 +3138,7 @@
           <profiles>
             <profile id="d96c-8cde-d11d-50c5" name="Famed Hunter" publicationId="50c5-e039-pubN81384" page="91" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll all hit rolls of 1 made for your general’s 肉搏 and missile 武器. This does not apply to any attacks made for your general’s mount (if he has one).</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll all hit rolls of 1 made for your 主将’s 肉搏 and missile 武器. This does not apply to any attacks made for your 主将’s mount (if he has one).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3153,7 +3153,7 @@
           <profiles>
             <profile id="31a8-411c-c01e-9ff8" name="Beast-eater" publicationId="50c5-e039-pubN81384" page="91" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for your general when making attacks against MONSTERS.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for your 主将 when making attacks against MONSTERS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3168,7 +3168,7 @@
           <profiles>
             <profile id="5efb-91dc-7972-5ce4" name="Fearsome 领袖" publicationId="50c5-e039-pubN81384" page="91" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units that are within 3寸 of your general must subtract 1 from their Bravery.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units that are within 3寸 of your 主将 must subtract 1 from their Bravery.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3206,9 +3206,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b1d3-0527-eb58-60c4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5813-cde1-c39b-a970" name="Helwinter Vambrace" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5813-cde1-c39b-a970" name="Helwinter Vambrace" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time the bearer suffers a mortal wound; on a 5 or more that wound is ignored.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time the bearer suffers a mortal wound; on a 5 or more that wound is ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -68,7 +68,7 @@
     <categoryEntry id="e16a-1ef0-948a-a79c" name="DEVOTED OF SIGMAR" hidden="false"/>
     <categoryEntry id="b7c7-5c53-ddd3-d0f6" name="EXCELSIOR WARPRIEST" hidden="false"/>
     <categoryEntry id="404a-f5b7-cb6c-79ba" name="FLAGELLANTS" hidden="false"/>
-    <categoryEntry id="97dc-501c-b627-060e" name="WARRIOR PRIEST" hidden="false"/>
+    <categoryEntry id="97dc-501c-b627-060e" name="WARRIOR 祭司" hidden="false"/>
     <categoryEntry id="3b72-9044-75bf-c8f0" name="WITCH HUNTER" hidden="false"/>
     <categoryEntry id="2065-9c25-54d0-793e" name="WAR ALTAR OF SIGMAR" hidden="false"/>
     <categoryEntry id="d2e0-123f-1dd2-7992" name="COLLEGIATE ARCANE" hidden="false"/>
@@ -84,7 +84,7 @@
     <categoryEntry id="5511-bd56-15b9-f523" name="HIGH WARDEN" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="7332-f387-438b-852c" name="Allegiance" hidden="false" collective="false" import="true" targetId="8171-f17c-d43c-5e0b" type="selectionEntry">
+    <entryLink id="7332-f387-438b-852c" name="势力" hidden="false" collective="false" import="true" targetId="8171-f17c-d43c-5e0b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -124,19 +124,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8171-f17c-d43c-5e0b" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8171-f17c-d43c-5e0b" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0223-6a64-1b41-04e1" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="d51d-dec8-f7a7-351d">
+        <selectionEntryGroup id="0223-6a64-1b41-04e1" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="d51d-dec8-f7a7-351d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d51d-dec8-f7a7-351d" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d51d-dec8-f7a7-351d" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="f6bb-9b06-85bf-e4ce" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -390,7 +390,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0d54-0cfd-6757-e910" name="General" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry"/>
+        <entryLink id="0d54-0cfd-6757-e910" name="主将" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry"/>
         <entryLink id="c495-80c6-567a-51ec" name="Artefacts" hidden="false" collective="false" import="true" targetId="1e63-23d3-1396-52dd" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -551,7 +551,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d25e-0277-ffc1-7e8f" name="General" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry"/>
+        <entryLink id="d25e-0277-ffc1-7e8f" name="主将" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry"/>
         <entryLink id="4e1e-d1c1-c666-0a37" name="Artefacts" hidden="false" collective="false" import="true" targetId="1e63-23d3-1396-52dd" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -783,7 +783,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="28e2-ed9c-a33d-53dd" name="General" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry">
+        <entryLink id="28e2-ed9c-a33d-53dd" name="主将" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1019,7 +1019,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2ea8-653d-5c71-1b32" name="General" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry">
+        <entryLink id="2ea8-653d-5c71-1b32" name="主将" hidden="false" collective="false" import="true" targetId="4a98-d777-fb10-135e" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1033,7 +1033,7 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a98-d777-fb10-135e" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a98-d777-fb10-135e" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>

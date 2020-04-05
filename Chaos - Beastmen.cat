@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="df5c-037a-3875-dbb1" name="Chaos - Beastmen (Warscroll Compendium)" revision="5" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="df5c-037a-3875-dbb1" name="混沌 - Beastmen (Warscroll Compendium)" revision="5" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="df5c-037a-pubN65537" name="Warscroll Compendium: Beastmen"/>
   </publications>
@@ -12,7 +12,7 @@
     <categoryEntry id="7595-6da2-8261-478f" name="CENTIGOR WARHOOF" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="a67d-4297-ee18-ee3f" name="Allegiance" hidden="false" collective="false" import="true" targetId="04c9-810f-2f9a-91d2" type="selectionEntry">
+    <entryLink id="a67d-4297-ee18-ee3f" name="势力" hidden="false" collective="false" import="true" targetId="04c9-810f-2f9a-91d2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1219-60f8-f252-d1fe" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -34,7 +34,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9a9a-7579-ec51-6d76" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9a9a-7579-ec51-6d76" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -56,19 +56,19 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04c9-810f-2f9a-91d2" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="04c9-810f-2f9a-91d2" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b1-fb45-9f89-cd21" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bf-32cd-f7fb-63d1" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="a509-a616-4749-8806">
+        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="a509-a616-4749-8806">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ca-ff17-9618-e0d6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e129-c3f9-1b86-c60c" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a509-a616-4749-8806" name="Chaos" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a509-a616-4749-8806" name="混沌" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="981a-8106-b589-1dd0" name="Unbridled Malice" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>
@@ -190,7 +190,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="cdf9-4c93-a926-fe3b" name="General" hidden="false" collective="false" import="true" targetId="9a9a-7579-ec51-6d76" type="selectionEntry"/>
+        <entryLink id="cdf9-4c93-a926-fe3b" name="主将" hidden="false" collective="false" import="true" targetId="9a9a-7579-ec51-6d76" type="selectionEntry"/>
         <entryLink id="c8e8-5a19-a202-512c" name="Artefacts" hidden="false" collective="false" import="true" targetId="f1d8-fbad-26b3-1504" type="selectionEntryGroup"/>
         <entryLink id="d738-a696-585f-0a0a" name="Command Traits" hidden="false" collective="false" import="true" targetId="b384-25a9-1c79-31de" type="selectionEntryGroup"/>
       </entryLinks>
@@ -250,7 +250,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4ee1-0f52-af41-f0f5" name="General" hidden="false" collective="false" import="true" targetId="9a9a-7579-ec51-6d76" type="selectionEntry"/>
+        <entryLink id="4ee1-0f52-af41-f0f5" name="主将" hidden="false" collective="false" import="true" targetId="9a9a-7579-ec51-6d76" type="selectionEntry"/>
         <entryLink id="429a-27fc-3164-1ec5" name="Artefacts" hidden="false" collective="false" import="true" targetId="f1d8-fbad-26b3-1504" type="selectionEntryGroup"/>
         <entryLink id="a835-1e35-c096-a1e3" name="Command Traits" hidden="false" collective="false" import="true" targetId="b384-25a9-1c79-31de" type="selectionEntryGroup"/>
       </entryLinks>
@@ -311,7 +311,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="2621-c27c-594b-787b" name="General" hidden="false" collective="false" import="true" targetId="9a9a-7579-ec51-6d76" type="selectionEntry"/>
+        <entryLink id="2621-c27c-594b-787b" name="主将" hidden="false" collective="false" import="true" targetId="9a9a-7579-ec51-6d76" type="selectionEntry"/>
         <entryLink id="cbe1-756b-2a9e-172d" name="Artefacts" hidden="false" collective="false" import="true" targetId="f1d8-fbad-26b3-1504" type="selectionEntryGroup"/>
         <entryLink id="e0e2-ce05-a03e-6cf0" name="Command Traits" hidden="false" collective="false" import="true" targetId="b384-25a9-1c79-31de" type="selectionEntryGroup"/>
       </entryLinks>
@@ -343,7 +343,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5662-d1bb-8f17-85f5" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="a629-6cb9-79f7-1ae7" name="Artefacts of Chaos" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
+        <entryLink id="a629-6cb9-79f7-1ae7" name="Artefacts of 混沌" hidden="false" collective="false" import="true" targetId="3c13-922a-683d-7de7" type="selectionEntryGroup"/>
         <entryLink id="bd75-9fe8-dc30-a67f" name="Realm Artefacts of Power" hidden="false" collective="false" import="true" targetId="37b0-af21-630c-d8af" type="selectionEntryGroup"/>
         <entryLink id="1fb8-bcf0-bf59-c099" name="Realm Artefacts of Power" hidden="false" collective="false" import="true" targetId="37b0-af21-630c-d8af" type="selectionEntryGroup"/>
       </entryLinks>
@@ -357,7 +357,7 @@
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink id="5209-afc5-7377-63b5" name="Chaos Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
+        <entryLink id="5209-afc5-7377-63b5" name="混沌 Command Traits" hidden="false" collective="false" import="true" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

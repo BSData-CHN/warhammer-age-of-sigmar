@@ -16,7 +16,7 @@
     <categoryEntry id="6517-8ae7-42c5-b77f" name="SPIREGUARD" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="290d-763e-0da2-4b55" name="Allegiance" hidden="false" collective="false" import="true" targetId="2b3a-3654-59df-3dff" type="selectionEntry">
+    <entryLink id="290d-763e-0da2-4b55" name="势力" hidden="false" collective="false" import="true" targetId="2b3a-3654-59df-3dff" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -131,7 +131,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3ec2-da11-05fd-eb3a" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ec2-da11-05fd-eb3a" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -154,19 +154,19 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b3a-3654-59df-3dff" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2b3a-3654-59df-3dff" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="835e-655b-56d8-c757" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5f8-a663-af78-3fa6" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cc2f-1ea0-6afb-4369" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="b023-a285-4373-34d9">
+        <selectionEntryGroup id="cc2f-1ea0-6afb-4369" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="b023-a285-4373-34d9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bd3e-d757-7e87-aa8e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a65-d2ab-4f57-3a47" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="abdf-5379-195d-8198" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="abdf-5379-195d-8198" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="9899-dfc8-cda3-b3fb" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -178,7 +178,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b023-a285-4373-34d9" name="Allegiance: Swifthawk Agents" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b023-a285-4373-34d9" name="势力: Swifthawk Agents" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="981c-f1ef-c1cd-0ba1" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -470,7 +470,7 @@
               <profiles>
                 <profile id="1e84-8ec5-cee3-bf59" name="Swifthawk Pennant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Skywarden with a Swifthawk Pennant gains the TOTEM keyword. You can add 1 to all wound rolls for SWIFTHAWK AGENTS units from your army if they are within 16寸 of this model when they attack.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Skywarden with a Swifthawk Pennant gains the 图腾 keyword. You can add 1 to all wound rolls for SWIFTHAWK AGENTS units from your army if they are within 16寸 of this model when they attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -482,7 +482,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="30d1-8375-7741-9987" name="General" hidden="false" collective="false" import="true" targetId="3ec2-da11-05fd-eb3a" type="selectionEntry"/>
+        <entryLink id="30d1-8375-7741-9987" name="主将" hidden="false" collective="false" import="true" targetId="3ec2-da11-05fd-eb3a" type="selectionEntry"/>
         <entryLink id="c268-7efc-979d-5e2e" name="Artefacts" hidden="false" collective="false" import="true" targetId="7757-ecfe-b442-cb2f" type="selectionEntryGroup"/>
         <entryLink id="7e59-5bd5-7507-cacc" name="Command Traits" hidden="false" collective="false" import="true" targetId="4e57-c315-8cd6-be52" type="selectionEntryGroup"/>
       </entryLinks>
@@ -666,7 +666,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3532-12cd-e297-a064" name="General" hidden="false" collective="false" import="true" targetId="3ec2-da11-05fd-eb3a" type="selectionEntry"/>
+        <entryLink id="3532-12cd-e297-a064" name="主将" hidden="false" collective="false" import="true" targetId="3ec2-da11-05fd-eb3a" type="selectionEntry"/>
         <entryLink id="d173-b2f2-05ae-0f09" name="Artefacts" hidden="false" collective="false" import="true" targetId="7757-ecfe-b442-cb2f" type="selectionEntryGroup"/>
         <entryLink id="b594-bb3d-bce7-c835" name="Command Traits" hidden="false" collective="false" import="true" targetId="4e57-c315-8cd6-be52" type="selectionEntryGroup"/>
       </entryLinks>

@@ -176,26 +176,26 @@
     <categoryEntry id="469f-24b2-d1fb-d182" name="Lantern" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a7c-011c-dd6f-b62d">
+        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a7c-011c-dd6f-b62d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0f54-f6f5-792d-47ba" name="Allegiance: Legion of Grief" hidden="false" collective="false" import="true" targetId="b5ab-f60e-c534-427f" type="selectionEntry"/>
-            <entryLink id="77e1-5dcb-0332-c3de" name="Allegiance: Legion of Sacrament" hidden="false" collective="false" import="true" targetId="9dbc-f610-1cfa-90dd" type="selectionEntry"/>
-            <entryLink id="ad27-d94d-7ae7-f384" name="Allegiance: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
-            <entryLink id="aff6-f3f7-4f0e-d61a" name="Allegiance: Legion of Night" hidden="false" collective="false" import="true" targetId="8037-0ed4-af4b-dcf3" type="selectionEntry"/>
-            <entryLink id="0f2a-bc55-0944-940a" name="Allegiance: Soulblight" hidden="false" collective="false" import="true" targetId="3980-0249-eb07-3efd" type="selectionEntry"/>
-            <entryLink id="bf01-6c42-f136-e321" name="Allegiance: Legion of Blood" hidden="false" collective="false" import="true" targetId="bf25-6b9f-6f44-5911" type="selectionEntry"/>
-            <entryLink id="97ec-ec28-f398-2dbd" name="Allegiance: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
-            <entryLink id="4a7c-011c-dd6f-b62d" name="Allegiance: Grand Host of Nagash" hidden="false" collective="false" import="true" targetId="0758-0294-87aa-6054" type="selectionEntry"/>
+            <entryLink id="0f54-f6f5-792d-47ba" name="势力: Legion of Grief" hidden="false" collective="false" import="true" targetId="b5ab-f60e-c534-427f" type="selectionEntry"/>
+            <entryLink id="77e1-5dcb-0332-c3de" name="势力: Legion of Sacrament" hidden="false" collective="false" import="true" targetId="9dbc-f610-1cfa-90dd" type="selectionEntry"/>
+            <entryLink id="ad27-d94d-7ae7-f384" name="势力: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
+            <entryLink id="aff6-f3f7-4f0e-d61a" name="势力: Legion of Night" hidden="false" collective="false" import="true" targetId="8037-0ed4-af4b-dcf3" type="selectionEntry"/>
+            <entryLink id="0f2a-bc55-0944-940a" name="势力: Soulblight" hidden="false" collective="false" import="true" targetId="3980-0249-eb07-3efd" type="selectionEntry"/>
+            <entryLink id="bf01-6c42-f136-e321" name="势力: Legion of Blood" hidden="false" collective="false" import="true" targetId="bf25-6b9f-6f44-5911" type="selectionEntry"/>
+            <entryLink id="97ec-ec28-f398-2dbd" name="势力: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
+            <entryLink id="4a7c-011c-dd6f-b62d" name="势力: Grand Host of Nagash" hidden="false" collective="false" import="true" targetId="0758-0294-87aa-6054" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -424,7 +424,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d015-06b8-0982-1ba6" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
+        <entryLink id="d015-06b8-0982-1ba6" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="bc34-8ed2-fce6-ceab" value="1.0">
               <conditionGroups>
@@ -919,7 +919,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ec4d-ca58-7faf-a2b5" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="ec4d-ca58-7faf-a2b5" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="f35e-a4fc-1b96-17ea" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="86b0-2c5c-a77d-0e28" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1133,7 +1133,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="32fe-ccb6-0a3c-1e08" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="32fe-ccb6-0a3c-1e08" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="d0c8-1e9b-2e39-a95d" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
         <entryLink id="dd9e-6ef1-5dc3-a24f" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="5fda-34de-61c1-156b" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
@@ -1446,7 +1446,7 @@
         <infoLink id="cfc8-14da-4e8a-efe1" name="Frightful Touch" hidden="false" targetId="92af-f1e1-04e3-1ce5" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9f39-2f10-072b-0ab6" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="9f39-2f10-072b-0ab6" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="b0ab-9060-0c62-d6f9" name="HEXWRAITH" hidden="false" targetId="26aa-8516-a4e4-c1fc" primary="false"/>
         <categoryLink id="1389-e637-d599-dc9d" name="MALIGNANT" hidden="false" targetId="c21c-0e74-70a9-18bb" primary="false"/>
         <categoryLink id="cd65-a28d-db6c-add8" name="NIGHTHAUNT" hidden="false" targetId="c352-dff7-7050-6f8d" primary="false"/>
@@ -1750,7 +1750,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d4f8-3dfd-456a-fa32" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
+        <entryLink id="d4f8-3dfd-456a-fa32" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="bc34-8ed2-fce6-ceab" value="1">
               <conditionGroups>
@@ -1965,7 +1965,7 @@
         </profile>
         <profile id="3b65-fedd-d0d4-5deb" name="Bound Necromancer" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for DEATH WIZARDS within 12寸 of any Mortis Engines. Subtract 1 from casting rolls for ORDER, DESTRUCTION and CHAOS WIZARDS within 12寸 of any Mortis Engines.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for DEATH WIZARDS within 12寸 of any Mortis Engines. Subtract 1 from casting rolls for ORDER, DESTRUCTION and 混沌 WIZARDS within 12寸 of any Mortis Engines.</characteristic>
           </characteristics>
         </profile>
         <profile id="13cd-b319-68d6-8525" name="Mortis Engine" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -2435,7 +2435,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5ee5-0c9c-61a5-78d4" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5ee5-0c9c-61a5-78d4" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="2613-a0dd-313a-f115" value="1.0">
               <conditionGroups>
@@ -2548,7 +2548,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e039-7fde-88a9-bda7" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="e039-7fde-88a9-bda7" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="db03-841e-8e1b-8289" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
         <entryLink id="b7a1-faa0-4482-706f" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="d83a-2618-92ed-472a" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
@@ -2752,7 +2752,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e9ba-aed4-eb01-d4d3" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
+        <entryLink id="e9ba-aed4-eb01-d4d3" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="bc34-8ed2-fce6-ceab" value="1">
               <conditionGroups>
@@ -3205,7 +3205,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9220-0b23-8b13-0757" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="9220-0b23-8b13-0757" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="0c75-7b47-9f42-8440" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="92d1-24ab-418a-0fd8" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
       </entryLinks>
@@ -3366,7 +3366,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e415-97f5-fcc6-c90e" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="e415-97f5-fcc6-c90e" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="263d-3380-554d-c604" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
         <entryLink id="a8cf-ace8-9f5f-c872" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="bc2a-f212-ebd8-5726" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
@@ -3626,7 +3626,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="dcc6-66a6-7a4e-d20b" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="dcc6-66a6-7a4e-d20b" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="408e-a63c-0dc6-9184" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
         <entryLink id="c515-a362-406b-5353" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="f932-a016-6e34-b1ca" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
@@ -3807,7 +3807,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="66e5-e8a2-5bf7-b4a1" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="66e5-e8a2-5bf7-b4a1" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="5316-8a48-62ea-2cc6" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="9d6f-f2a2-3c76-bc31" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
       </entryLinks>
@@ -3878,7 +3878,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="68a9-4974-9c08-1a4b" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="68a9-4974-9c08-1a4b" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="ba81-c19c-b1c6-5df2" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="530e-8424-79ec-5404" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4539,7 +4539,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88d2-d540-0573-3402" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="88d2-d540-0573-3402" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -4751,7 +4751,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="ef53-f1b0-a05c-ba09" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="ef53-f1b0-a05c-ba09" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="ccdd-3b6b-c9f5-e734" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
         <entryLink id="5269-607c-8b2e-e4f1" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="7f7e-a060-a734-7c69" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
@@ -4955,7 +4955,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fa99-9181-eb7c-1f59" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="fa99-9181-eb7c-1f59" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="a71e-9ea2-5b92-8230" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -5391,7 +5391,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8dfa-2d50-a239-9a14" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8dfa-2d50-a239-9a14" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cfa-ee98-a011-ecee" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ca-24f1-35c0-94f0" type="min"/>
@@ -5489,7 +5489,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <entryLinks>
         <entryLink id="25eb-9ef6-cf89-9cbc" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="33ac-262c-5e87-aa83" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
-        <entryLink id="17f3-e4e8-1b7c-5990" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="17f3-e4e8-1b7c-5990" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -5607,7 +5607,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <entryLinks>
         <entryLink id="b87a-78c3-64a1-0fb2" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="33e6-cddc-e5af-f028" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
-        <entryLink id="088b-a113-47d5-029e" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="088b-a113-47d5-029e" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="7688-7cf8-e66b-6b4e" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -5679,7 +5679,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <entryLinks>
         <entryLink id="9378-dae4-cd44-b1b9" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="d8c4-5384-f88a-11c8" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
-        <entryLink id="5a69-dd41-bd76-9085" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="5a69-dd41-bd76-9085" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -6131,7 +6131,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             </profile>
             <profile id="3635-f345-98a7-dfda" name="Suffer No Rival" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll failed hit rolls for attacks made with the Sepulchral Sceptre if the target is an enemy general.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll failed hit rolls for attacks made with the Sepulchral Sceptre if the target is an enemy 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6141,7 +6141,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5812-0d2a-2aa0-c640" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="5812-0d2a-2aa0-c640" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="180.0"/>
@@ -6207,7 +6207,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="8c7c-c645-cb3b-b17b" name="No Rest for the Wicked" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model is your general and is on the battlefield. If you do so, you can return 1 slain model to each friendly SUMMONABLE NIGHTHAUNT 单位 that is within 12寸 of a friendly model with this command ability.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model is your 主将 and is on the battlefield. If you do so, you can return 1 slain model to each friendly SUMMONABLE NIGHTHAUNT 单位 that is within 12寸 of a friendly model with this command ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6288,7 +6288,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d1e5-87be-d204-5f7b" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
+        <entryLink id="d1e5-87be-d204-5f7b" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="bc34-8ed2-fce6-ceab" value="1.0">
               <conditionGroups>
@@ -6390,7 +6390,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <entryLinks>
         <entryLink id="c836-dd5d-c22b-9077" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="8e8d-0acc-c951-7f15" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
-        <entryLink id="cde2-8cfc-4ba4-9f49" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="cde2-8cfc-4ba4-9f49" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -6489,7 +6489,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <entryLinks>
         <entryLink id="5950-f7ad-e9eb-012c" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="53ad-01a5-8e0b-0f86" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
-        <entryLink id="d9a8-9cff-2012-2042" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="d9a8-9cff-2012-2042" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -6603,7 +6603,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0f56-d492-ae1e-d5a7" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="0f56-d492-ae1e-d5a7" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="05cf-4fa7-92d5-04c6" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -7084,7 +7084,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <profiles>
         <profile id="c6a7-dc2d-ddb9-a324" name="Bound Beneath Indomitable Will" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Roll a dice each time you allocate a wound or mortal wound to a friendly NIGHTHAUNT model from this 阵型 within 12寸 of your general or a friendly NIGHTHAUNT 英雄 from the 阵型. On a 6+ the wound is negated. If this 阵型 is part of a Nighthaunt army, this ability replaces the Deathless Spirits 战斗特性 for all units in this 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Roll a dice each time you allocate a wound or mortal wound to a friendly NIGHTHAUNT model from this 阵型 within 12寸 of your 主将 or a friendly NIGHTHAUNT 英雄 from the 阵型. On a 6+ the wound is negated. If this 阵型 is part of a Nighthaunt army, this ability replaces the Deathless Spirits 战斗特性 for all units in this 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7733,7 +7733,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7dc5-65f2-d018-8e08" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="7dc5-65f2-d018-8e08" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="4c85-7fae-2552-4ba1" name="Lore of the Underworld" hidden="false" collective="false" import="true" targetId="1d74-9116-3b63-3ea2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -7947,14 +7947,14 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <entryLinks>
         <entryLink id="7f03-4782-562d-e03f" name="Artefacts" hidden="false" collective="false" import="true" targetId="a2c1-3fba-5acb-d560" type="selectionEntryGroup"/>
         <entryLink id="39a4-42bf-2ec4-ce42" name="Command Traits" hidden="false" collective="false" import="true" targetId="eda1-7945-4fea-a145" type="selectionEntryGroup"/>
-        <entryLink id="1470-3254-18b8-918c" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="1470-3254-18b8-918c" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
         <entryLink id="a845-ee36-12e5-494d" name="Lores of the Dead" hidden="false" collective="false" import="true" targetId="8417-93fc-9562-a748" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b5ab-f60e-c534-427f" name="Allegiance: Legion of Grief" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b5ab-f60e-c534-427f" name="势力: Legion of Grief" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="1388-e3db-f1d3-142b" name="Invigorating Aura" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -7963,12 +7963,12 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="9d52-90bf-cb63-d0b3" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly LEGION OF GRIEF 单位 within 6寸 of your general or anotehr friendly LEGION OF GRIEF 英雄. On a 6+ the wound or mortal wound is negated. </characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly LEGION OF GRIEF 单位 within 6寸 of your 主将 or anotehr friendly LEGION OF GRIEF 英雄. On a 6+ the wound or mortal wound is negated. </characteristic>
           </characteristics>
         </profile>
         <profile id="5b69-93fa-c7fb-905f" name="Endless Legions" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick a gravesite (see 寸The Unquiet Dead寸) that is within 9寸 of your general, and then pick a friendly SUMMONABLE 单位 that has been destroyed. Set up that 单位 wholly within 9寸 of that gravesite and more than 9寸 from any enemy units. </characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick a gravesite (see 寸The Unquiet Dead寸) that is within 9寸 of your 主将, and then pick a friendly SUMMONABLE 单位 that has been destroyed. Set up that 单位 wholly within 9寸 of that gravesite and more than 9寸 from any enemy units. </characteristic>
           </characteristics>
         </profile>
         <profile id="e614-a7d0-8ae9-4f8b" name="Aura of Grief" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -7984,11 +7984,11 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0595-259c-9405-8b88" name="Allegiance: Nighthaunt" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0595-259c-9405-8b88" name="势力: Nighthaunt" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="934b-374d-6c6e-0d57" name="Deathless Spirits" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice for each wound or mortal wound inflicted on a friendly NIGHTHAUNT 单位 wholly within 12寸 of your general or a friendly NIGHTHAUNT 英雄 from your army. On a 6+ the wound is negated.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice for each wound or mortal wound inflicted on a friendly NIGHTHAUNT 单位 wholly within 12寸 of your 主将 or a friendly NIGHTHAUNT 英雄 from your army. On a 6+ the wound is negated.</characteristic>
           </characteristics>
         </profile>
         <profile id="f383-083e-3e1d-f92b" name="Aura of Dread" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -8013,7 +8013,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="0293-f479-ce94-3df3" name="Spectral Summons" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase. If you do so, pick a friendly NIGHTHAUNT 单位 that is on the battlefield. Remove that 单位 from the battlefield, and then set it up wholly within 12&apos; of your general and more than 9寸 from any enemy models. This counts as their move for that movement phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase. If you do so, pick a friendly NIGHTHAUNT 单位 that is on the battlefield. Remove that 单位 from the battlefield, and then set it up wholly within 12&apos; of your 主将 and more than 9寸 from any enemy models. This counts as their move for that movement phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8021,7 +8021,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8604-d495-e647-5fc9" name="Allegiance: *Death*" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8604-d495-e647-5fc9" name="势力: *Death*" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c6dc-760c-dfb7-af7c" name="Deathless Minions" hidden="false" targetId="3998-f3e4-90e7-348a" type="profile"/>
       </infoLinks>
@@ -8076,7 +8076,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9dbc-f610-1cfa-90dd" name="Allegiance: Legion of Sacrament" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbc-f610-1cfa-90dd" name="势力: Legion of Sacrament" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="41de-36a4-89b5-5339" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8103,7 +8103,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0758-0294-87aa-6054" name="Allegiance: Grand Host of Nagash" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0758-0294-87aa-6054" name="势力: Grand Host of Nagash" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4208-58ce-ef10-1961" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8130,7 +8130,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf25-6b9f-6f44-5911" name="Allegiance: Legion of Blood" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bf25-6b9f-6f44-5911" name="势力: Legion of Blood" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="6105-7c05-0349-0fac" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8157,7 +8157,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8037-0ed4-af4b-dcf3" name="Allegiance: Legion of Night" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8037-0ed4-af4b-dcf3" name="势力: Legion of Night" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="be6c-a582-10f8-9ada" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8184,11 +8184,11 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3980-0249-eb07-3efd" name="Allegiance: Soulblight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3980-0249-eb07-3efd" name="势力: Soulblight" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="78bc-7665-1f20-b54b" name="Deathless Thralls" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly SOULBLIGHT 单位 within 6寸 of your general or another SOULBLIGHT HEROfrom your army. On a 6+ the wound is negated.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly SOULBLIGHT 单位 within 6寸 of your 主将 or another SOULBLIGHT HEROfrom your army. On a 6+ the wound is negated.</characteristic>
           </characteristics>
         </profile>
         <profile id="30b1-8eca-e812-b860" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -8220,7 +8220,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
               <profiles>
                 <profile id="b760-8aed-f98e-eac7" name="Lords of Night" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Models with the Lords of Night bloodline receive the benefits of the Deathless Thralls 战斗特性 even if they are not within 6寸 of the general or another friendly SOULBLIGHT 英雄.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Models with the Lords of Night bloodline receive the benefits of the Deathless Thralls 战斗特性 even if they are not within 6寸 of the 主将 or another friendly SOULBLIGHT 英雄.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8264,7 +8264,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="960b-4a8c-f2f7-62bb" name="Knights of Regret" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
             <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by units from this 阵型 that have made a charge move in the same turn.
-In addition, roll a dice before you allocate a wound or mortal wound to your general if your general is within 3寸 of any friendly units with this ability. On a 2+, you must allocate that wound or mortal wound to a friendly 单位 with that ability that is within 3寸 of your general, instead of your general.</characteristic>
+In addition, roll a dice before you allocate a wound or mortal wound to your 主将 if your 主将 is within 3寸 of any friendly units with this ability. On a 2+, you must allocate that wound or mortal wound to a friendly 单位 with that ability that is within 3寸 of your 主将, instead of your 主将.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8501,9 +8501,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f4b9-9690-452a-a9ad" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3b7d-85a1-5911-16b1" name="Deathforged Chain" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3b7d-85a1-5911-16b1" name="Deathforged Chain" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, the bearer heals 1 wound that has been allocated to it.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, the bearer heals 1 wound that has been allocated to it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8519,9 +8519,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="906e-df47-af03-9c62" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0b7f-5822-a216-483c" name="Balefire Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0b7f-5822-a216-483c" name="Balefire Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for enemy units within 6寸 of the bearer. In addition, re-roll successful casting rolls for enemy WIZARDS within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for enemy units within 6寸 of the bearer. In addition, re-roll successful casting rolls for enemy WIZARDS within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8537,9 +8537,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ea5-7956-1803-00ef" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1b05-f038-32ec-d9a8" name="Grave-sand Timeglass" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1b05-f038-32ec-d9a8" name="Grave-sand Timeglass" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Whilst the bearer is on the battlefield, once per battle, in your 英雄阶段, you can pick an enemy 英雄 on the battlefield. The enemy 英雄 suffers D3 mortal wounds. At the start of each of your subsequent 英雄 phases, roll a dice. On a 4+ the enemy 英雄 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Whilst the bearer is on the battlefield, once per battle, in your 英雄阶段, you can pick an enemy 英雄 on the battlefield. The enemy 英雄 suffers D3 mortal wounds. At the start of each of your subsequent 英雄 phases, roll a dice. On a 4+ the enemy 英雄 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8555,9 +8555,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37b8-95d6-1514-18d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d3d8-0273-6be8-e8db" name="Ossific Diadem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d3d8-0273-6be8-e8db" name="Ossific Diadem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATHRATTLEmodel within 12寸 of the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATHRATTLEmodel within 12寸 of the bearer. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8573,9 +8573,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c2f-7e29-196a-366c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="74c0-11a5-bd61-d976" name="Amethyst Shard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="74c0-11a5-bd61-d976" name="Amethyst Shard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will merge the shard with one of their 肉搏 武器. Pick one of the bearer’s 肉搏 武器. Until your next 英雄阶段, add 1 to hit and wound rolls made for that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will merge the shard with one of their 肉搏 武器. Pick one of the bearer’s 肉搏 武器. Until your next 英雄阶段, add 1 to hit and wound rolls made for that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8591,9 +8591,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="83a3-82c7-4eab-0087" type="max"/>
           </constraints>
           <profiles>
-            <profile id="853e-12d5-75f6-3ac6" name="Terrorgheist Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="853e-12d5-75f6-3ac6" name="Terrorgheist Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can declare that the bearer will unleash a death shriek. Pick an enemy 单位 within 10寸 of the bearer and roll 2 dice. If the total is higher than the enemy 单位’s Bravery characteristic, it suffers a number of mortal wounds equal to the difference.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can declare that the bearer will unleash a death shriek. Pick an enemy 单位 within 10寸 of the bearer and roll 2 dice. If the total is higher than the enemy 单位’s Bravery characteristic, it suffers a number of mortal wounds equal to the difference.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8619,9 +8619,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf44-60d5-f55a-4587" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7786-0ede-438b-cf49" name="Spiritcage" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7786-0ede-438b-cf49" name="Spiritcage" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Whenever an enemy 英雄 is slain within 6寸 of the bearer, add 1 to wound rolls for friendly DEATH units within 12寸 of the bearer until the end of the turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Whenever an enemy 英雄 is slain within 6寸 of the bearer, add 1 to wound rolls for friendly DEATH units within 12寸 of the bearer until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8637,9 +8637,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e32-99f7-c2c8-a6ff" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5a27-a574-dc99-114b" name="Shroud of Darkness" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5a27-a574-dc99-114b" name="Shroud of Darkness" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the hit rolls of attacks that target the bearer in the 射击阶段 if the attacking 单位 is within 8寸 of the bearer. Subtract 2 from the hit rolls of attacks that target the bearer in the 射击阶段 if the attacking 单位 is more than 8寸 away from the bearer</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the hit rolls of attacks that target the bearer in the 射击阶段 if the attacking 单位 is within 8寸 of the bearer. Subtract 2 from the hit rolls of attacks that target the bearer in the 射击阶段 if the attacking 单位 is more than 8寸 away from the bearer</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8655,9 +8655,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7f1-2198-c534-8038" type="max"/>
           </constraints>
           <profiles>
-            <profile id="77d9-737e-6310-90f3" name="Asylumticae" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="77d9-737e-6310-90f3" name="Asylumticae" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will open the Asylumaticae. If you do so, roll a dice. On a 1 the bearer suffers a mortal wound. On a 2+ each enemy 单位 within 12寸 of the bearer suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will open the Asylumaticae. If you do so, roll a dice. On a 1 the bearer suffers a mortal wound. On a 2+ each enemy 单位 within 12寸 of the bearer suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8673,9 +8673,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51b5-cf12-3fac-a910" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a787-b0c4-3e47-6216" name="Wristbands of Black Gold" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a787-b0c4-3e47-6216" name="Wristbands of Black Gold" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer in the 射击阶段. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer in the 射击阶段. On a 4+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8691,9 +8691,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b24d-8e94-b2d8-37a8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="86b1-edac-b44a-a446" name="Azyrbane Standard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="86b1-edac-b44a-a446" name="Azyrbane Standard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for enemy units within 6寸 of the bearer. In addition, re-roll successful casting rolls for ORDER WIZARDS within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for enemy units within 6寸 of the bearer. In addition, re-roll successful casting rolls for ORDER WIZARDS within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8709,9 +8709,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da7a-7f2d-a934-3d80" type="max"/>
           </constraints>
           <profiles>
-            <profile id="900f-13f1-dc53-b1db" name="Black Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="900f-13f1-dc53-b1db" name="Black Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will shatter the Black Gem. Pick a point on the battlefield within 8寸 of the bearer. Roll a dice for each 单位 within 3寸 of this point. On a 6+, one model from that 单位 is slain. If the 单位 has any models with wounds allocated to it, then that model must be the model that is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will shatter the Black Gem. Pick a point on the battlefield within 8寸 of the bearer. Roll a dice for each 单位 within 3寸 of this point. On a 6+, one model from that 单位 is slain. If the 单位 has any models with wounds allocated to it, then that model must be the model that is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8734,9 +8734,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="356d-d311-49c7-25d6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6b99-0222-4916-0207" name="Ring of Dominion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6b99-0222-4916-0207" name="Ring of Dominion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When the bearer is selected to fight in the combat phase, you can pick an enemy model within 3寸 of them and roll a dice. On a 5+ you can pick a 肉搏 weapon that the enemy model is armed with (though not one that has a value for one or more characteristics that is given as &apos;*&apos; or ‘See below’). For this combat phase, the bearer of this ring may attack with that weapon in addition to their own. ‘Abilities, modifers or re-rolls that apply to attacks made with that weapon when it is used by the enemy model do not apply to the attacks made with it by the bearer.’ *FAQ v1.3*</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">When the bearer is selected to fight in the combat phase, you can pick an enemy model within 3寸 of them and roll a dice. On a 5+ you can pick a 肉搏 weapon that the enemy model is armed with (though not one that has a value for one or more characteristics that is given as &apos;*&apos; or ‘See below’). For this combat phase, the bearer of this ring may attack with that weapon in addition to their own. ‘Abilities, modifers or re-rolls that apply to attacks made with that weapon when it is used by the enemy model do not apply to the attacks made with it by the bearer.’ *FAQ v1.3*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8752,9 +8752,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a692-8386-07e4-f966" type="max"/>
           </constraints>
           <profiles>
-            <profile id="364c-cc52-3825-2110" name="Shadeglass Decanter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="364c-cc52-3825-2110" name="Shadeglass Decanter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After armies have been set up but before the first battle round, select an enemy 英雄. In your 英雄阶段, as long as that 英雄 is on the battlefield, you can roll a dice. If the result is higher than the number of the current battle round, that 英雄 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After armies have been set up but before the first battle round, select an enemy 英雄. In your 英雄阶段, as long as that 英雄 is on the battlefield, you can roll a dice. If the result is higher than the number of the current battle round, that 英雄 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8770,9 +8770,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3f5-82ee-c881-43f2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="815e-bad6-04ff-160c" name="Orb of Enchantment" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="815e-bad6-04ff-160c" name="Orb of Enchantment" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer. In that combat phase, that enemy 英雄 may not pile in, attack or use abilities.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer. In that combat phase, that enemy 英雄 may not pile in, attack or use abilities.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8788,9 +8788,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2916-55e4-e14a-2803" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bcc3-d2c1-c706-0688" name="Soulbound Garments" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="bcc3-d2c1-c706-0688" name="Soulbound Garments" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8806,9 +8806,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5aad-bfb2-cd23-5605" type="max"/>
           </constraints>
           <profiles>
-            <profile id="304e-55b7-3112-3f5d" name="Oubliette Arcana" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="304e-55b7-3112-3f5d" name="Oubliette Arcana" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When an enemy 法师 successfully casts a 法术 within 30寸 of the bearer, instead of attempting to unbind it you can declare that the Oubliette Arcana will attempt to capture the magical energies. Roll a dice. On a 6+ the 法术 is negated and has no effect. In addition, that 法术 may not be cast again by that WIZARDfor the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">When an enemy 法师 successfully casts a 法术 within 30寸 of the bearer, instead of attempting to unbind it you can declare that the Oubliette Arcana will attempt to capture the magical energies. Roll a dice. On a 6+ the 法术 is negated and has no effect. In addition, that 法术 may not be cast again by that WIZARDfor the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8824,9 +8824,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27a1-9399-d6db-b7a8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d331-b293-d209-77d9" name="Amulet of Screams" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d331-b293-d209-77d9" name="Amulet of Screams" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">‘Once per battle, when an enemy 法师 successfully casts a 法术, you can declare that the bearer will use the Amulet of Screams. If you do so, you cannot attempt to unbind the 法术. Instead, roll a dice. On a 2+, the 法术 is not successfully cast.’ *FAQ v1.3*</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">‘Once per battle, when an enemy 法师 successfully casts a 法术, you can declare that the bearer will use the Amulet of Screams. If you do so, you cannot attempt to unbind the 法术. Instead, roll a dice. On a 2+, the 法术 is not successfully cast.’ *FAQ v1.3*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8849,9 +8849,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c0fc-5fcb-082c-c371" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f6ef-a6aa-dfd4-8758" name="Vial of Pure Blood" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f6ef-a6aa-dfd4-8758" name="Vial of Pure Blood" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will drink from the Vial of Pure Blood. If you do so, you can add 1 to hit and wound rolls for the bearer until your next 英雄 phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will drink from the Vial of Pure Blood. If you do so, you can add 1 to hit and wound rolls for the bearer until your next 英雄 phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8867,9 +8867,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bcf-8980-08e4-9491" type="max"/>
           </constraints>
           <profiles>
-            <profile id="180a-d136-09c8-ce3f" name="Shard of Night" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="180a-d136-09c8-ce3f" name="Shard of Night" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the hit rolls of attacks that target the bearer in the 射击阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the hit rolls of attacks that target the bearer in the 射击阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8885,9 +8885,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f2d-9c47-d6e1-bec1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6e12-591c-f976-df1c" name="Gem of Exsanguination" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6e12-591c-f976-df1c" name="Gem of Exsanguination" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick an enemy 单位 within 6寸 of the bearer and roll a dice. On a 1 nothing happens. On a 2-5 the 单位 suffers D3 mortal wounds. On a 6+ the 单位 suffers D6 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick an enemy 单位 within 6寸 of the bearer and roll a dice. On a 1 nothing happens. On a 2-5 the 单位 suffers D3 mortal wounds. On a 6+ the 单位 suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8903,9 +8903,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ff9-3b64-535c-0681" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2a37-a135-a0e6-db83" name="Chiropteric Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2a37-a135-a0e6-db83" name="Chiropteric Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can declare that the bearer will feed the Chiropteric Cloak. If you do so, the bearer suffers 1 mortal wound. During that combat phase, each time the hit roll of an attack that targets the bearer is 1 or less, the attacking 单位 suffers 1 mortal wound after all its attacks have been resolved.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can declare that the bearer will feed the Chiropteric Cloak. If you do so, the bearer suffers 1 mortal wound. During that combat phase, each time the hit roll of an attack that targets the bearer is 1 or less, the attacking 单位 suffers 1 mortal wound after all its attacks have been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8921,9 +8921,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b362-34bb-468c-9eac" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e2e6-f983-d71e-fe60" name="Morbheg&apos;s Claw" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e2e6-f983-d71e-fe60" name="Morbheg&apos;s Claw" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can declare that the bearer will carve sigils in the ground with this claw. If you do so, they may not move, charge or attack this turn, but you can add 2 to casting rolls made for friendly LEGION OF NIGHT WIZARDS within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can declare that the bearer will carve sigils in the ground with this claw. If you do so, they may not move, charge or attack this turn, but you can add 2 to casting rolls made for friendly LEGION OF NIGHT WIZARDS within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8939,9 +8939,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ce4-c21c-e416-0903" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3c80-7bb8-c4d3-4881" name="Curseblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3c80-7bb8-c4d3-4881" name="Curseblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After armies have been set up but before the first battle round begins, you can pick an enemy 英雄. In your 英雄阶段, as long as the enemy 英雄 is on the battlefield, you can roll a dice. On a 4+ that enemy 英雄 suffers 1 mortal wound and you may heal a wound that has been allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After armies have been set up but before the first battle round begins, you can pick an enemy 英雄. In your 英雄阶段, as long as the enemy 英雄 is on the battlefield, you can roll a dice. On a 4+ that enemy 英雄 suffers 1 mortal wound and you may heal a wound that has been allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9003,9 +9003,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acdb-4761-06c7-e526" type="max"/>
           </constraints>
           <profiles>
-            <profile id="642b-25b9-d71e-f3c2" name="The Slacking Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="642b-25b9-d71e-f3c2" name="The Slacking Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Keep a tally of the number of wounds allocated as a result of attacks made with that weapon. As soon as the total reaches 6 or more, the bearer heals D3 wounds that have been allocated to them, and you can add 1 to the Damage characteristic of that weapon for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. Keep a tally of the number of wounds allocated as a result of attacks made with that weapon. As soon as the total reaches 6 or more, the bearer heals D3 wounds that have been allocated to them, and you can add 1 to the Damage characteristic of that weapon for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9021,9 +9021,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="05a8-ff36-31ba-637b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ce9e-76ad-56cf-c624" name="The Scabbing Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ce9e-76ad-56cf-c624" name="The Scabbing Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of any combat phase in which the bearer caused any wounds to be allocated to any enemy models, you can heal 1 wound that has been allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of any combat phase in which the bearer caused any wounds to be allocated to any enemy models, you can heal 1 wound that has been allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9039,9 +9039,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a71-8576-14e0-33e7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7a36-4cb5-d0e3-db34" name="Crimson Wing" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7a36-4cb5-d0e3-db34" name="Crimson Wing" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 30寸 of the bearer and roll a dice. On a roll of 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 30寸 of the bearer and roll a dice. On a roll of 3+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9057,9 +9057,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d920-4fbe-0f50-47a1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="89eb-b489-118f-7555" name="Sigil of the Sanguine Throne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="89eb-b489-118f-7555" name="Sigil of the Sanguine Throne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per charge phase, you can re-roll a failed charge roll made for a friendly VAMPIRE 单位 within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per charge phase, you can re-roll a failed charge roll made for a friendly VAMPIRE 单位 within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9075,9 +9075,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86f2-357d-1119-c338" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9983-a5ad-6048-a5bb" name="The Saccharine Goblet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9983-a5ad-6048-a5bb" name="The Saccharine Goblet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At start of the combat phase, you can declare that the bearer will drink from the Saccharine Goblet. If you do so, you can add 1 to hit and wound rolls for the bearer until the end of the phase. However, if no wounds are allocated as a result of these attacks, then the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At start of the combat phase, you can declare that the bearer will drink from the Saccharine Goblet. If you do so, you can add 1 to hit and wound rolls for the bearer until the end of the phase. However, if no wounds are allocated as a result of these attacks, then the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9093,9 +9093,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2eb7-47c8-00f3-5b49" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c068-19a7-bc54-1b5d" name="Ruby Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c068-19a7-bc54-1b5d" name="Ruby Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will open the Ruby Vial. If you do so, then until your next 英雄阶段, subtract 1 from the Bravery characteristic of enemy units and subtract 1 from the result of any charge rolls made for them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will open the Ruby Vial. If you do so, then until your next 英雄阶段, subtract 1 from the Bravery characteristic of enemy units and subtract 1 from the result of any charge rolls made for them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9120,7 +9120,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="a88a-8803-a528-7db2" name="Above Suspicion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general may be set up in ambush in addition to the 3 units normally allowed by the Ageless Cunning 战斗特性.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 may be set up in ambush in addition to the 3 units normally allowed by the Ageless Cunning 战斗特性.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9135,7 +9135,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="4b94-dbb0-50c9-7960" name="Swift Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2寸 to this general’s Move characteristic. In addition, add 2寸 to the distance they can move when they run.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2寸 to this 主将’s Move characteristic. In addition, add 2寸 to the distance they can move when they run.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9150,7 +9150,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="6fb2-c346-80d2-992b" name="Unbending Will" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly LEGION OF NIGHT units within 12寸 of this general may re-roll failed battleshock tests.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly LEGION OF NIGHT units within 12寸 of this 主将 may re-roll failed battleshock tests.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9165,7 +9165,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="1b53-8c9d-696a-752e" name="Merciless Hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9180,7 +9180,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="52b7-2945-5a8d-4410" name="Unholy Impetus" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general slays any models in the combat phase, pick a friendly LEGION OF NIGHT 单位 within 3寸 of the general. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 until the end of the phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 slays any models in the combat phase, pick a friendly LEGION OF NIGHT 单位 within 3寸 of the 主将. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9195,7 +9195,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="0331-a532-4fca-27b8" name="Terrifying Visage" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units within 6寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units within 6寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9303,7 +9303,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="cefc-a37c-d135-a4ad" name="Curse of the Revenant" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9318,7 +9318,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="adb2-6c5c-e6c9-e0b8" name="Deathless Duellist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll hits rolls of 1 for this general when they attack an enemy 英雄 in the combat phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll hits rolls of 1 for this 主将 when they attack an enemy 英雄 in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9333,7 +9333,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="49c9-d9ce-9586-8920" name="Transfix" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, pick one enemy 英雄 within 3寸 of this general. Until the end of the phase, subtract 1 from hit rolls for the model you picked when it targets the general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, pick one enemy 英雄 within 3寸 of this 主将. Until the end of the phase, subtract 1 from hit rolls for the model you picked when it targets the 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9348,7 +9348,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="0599-33fb-eb1f-6c0e" name="Mist Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general retreats, they can move as if they can fly and they can still charge in the same turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 retreats, they can move as if they can fly and they can still charge in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9363,7 +9363,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="29eb-048c-39b0-b1f9" name="Killing Blow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Wound rolls of 6+ for attacks made by this general in the combat phase inflict a mortal wound in addition to any 其他 damage they inflict.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Wound rolls of 6+ for attacks made by this 主将 in the combat phase inflict a mortal wound in addition to any 其他 damage they inflict.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9378,7 +9378,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="f4f3-010a-abae-0426" name="Blood Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of 肉搏 武器 used by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of 肉搏 武器 used by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9405,9 +9405,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a271-c506-3b55-059f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f933-cfd0-e2fd-6196" name="Cloak of the Waxing Moon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f933-cfd0-e2fd-6196" name="Cloak of the Waxing Moon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The Deathless Spirits battle traits negates wounds inflicted by 肉搏 武器 that are allocated to the bearer on a 5+ instead of a 6+</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The Deathless Spirits battle traits negates wounds inflicted by 肉搏 武器 that are allocated to the bearer on a 5+ instead of a 6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9423,9 +9423,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d85-93b1-804c-f4d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="83e7-89ca-e3f5-198c" name="Pendant of the Fell Wind" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="83e7-89ca-e3f5-198c" name="Pendant of the Fell Wind" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to normal moves made by friendly NIGHTHAUNT units that are wholly within 12寸 of the bearer at the start of that normal move.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to normal moves made by friendly NIGHTHAUNT units that are wholly within 12寸 of the bearer at the start of that normal move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9441,9 +9441,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4419-f0c3-47c3-e96f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5bec-4a89-073e-bd52" name="Dreadbolt Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5bec-4a89-073e-bd52" name="Dreadbolt Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When this bearer fights, if they inflict one or moer wounds with their 肉搏 武器, you can inflict D3 mortal wounds on one enemy 单位 within 3&apos; of the bearer after all of the bearers attacks have been made.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">When this bearer fights, if they inflict one or moer wounds with their 肉搏 武器, you can inflict D3 mortal wounds on one enemy 单位 within 3&apos; of the bearer after all of the bearers attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9459,9 +9459,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a72-0c18-d4f7-020e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="24ac-a397-ee69-8e8e" name="Mirror of Screaming Souls" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="24ac-a397-ee69-8e8e" name="Mirror of Screaming Souls" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 射击阶段, roll 2D6 for each enemy 单位 within 8寸 of the bearer. If the roll is higher that than 单位&apos;s Bravery characteristic, it suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 射击阶段, roll 2D6 for each enemy 单位 within 8寸 of the bearer. If the roll is higher that than 单位&apos;s Bravery characteristic, it suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9477,9 +9477,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23d6-a36f-3029-f078" type="max"/>
           </constraints>
           <profiles>
-            <profile id="12b8-f233-9efa-cca5" name="Midnight Tome" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="12b8-f233-9efa-cca5" name="Midnight Tome" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer of the Midnight Tome becomes a 法师 and knows the Arcane Bolt and Mystic Shield spells, as well as one 法术 from the Lore of the Underworlds. They can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. If the bearer was already a 法师, they can attempt to cast one additional 法术 in each of your 英雄 phases instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer of the Midnight Tome becomes a 法师 and knows the Arcane Bolt and Mystic Shield spells, as well as one 法术 from the Lore of the Underworlds. They can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. If the bearer was already a 法师, they can attempt to cast one additional 法术 in each of your 英雄 phases instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9526,9 +9526,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f8d-7cee-3ac0-367b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="63f6-cd27-2128-a557" name="Covetous Familiar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="63f6-cd27-2128-a557" name="Covetous Familiar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of each combat phase, roll a dice fo each enemy 单位 within 3寸 of the bearer. On a 2+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of each combat phase, roll a dice fo each enemy 单位 within 3寸 of the bearer. On a 2+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9560,7 +9560,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="1a9b-40f7-a479-7506" name="1. Hatred of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made with this general&apos;s 肉搏 武器 unless the target has the DEATH keyword.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed hit rolls for attacks made with this 主将&apos;s 肉搏 武器 unless the target has the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9590,7 +9590,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="ae1a-a1d9-1ea3-8a5b" name="Lingering Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9605,7 +9605,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="6bcf-532c-ad7c-d92c" name="Spiteful Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll  dice each time you allocate a wound to this general that was infilicted by a 肉搏 weapon. On a 5+, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll  dice each time you allocate a wound to this 主将 that was infilicted by a 肉搏 weapon. On a 5+, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9620,7 +9620,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="1baf-8b74-6415-96f1" name="Cloaked in Shadow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with missile 武器 that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made with missile 武器 that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9635,7 +9635,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="b22f-f277-da05-0ae5" name="Ruler of the Spirit Host" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, you can pick a friendly SUMMONABLE NIGHTHAUNT 单位 within 9寸 of this general and return D3 slain models to that 单位 The returning models must be setup within 9寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, you can pick a friendly SUMMONABLE NIGHTHAUNT 单位 within 9寸 of this 主将 and return D3 slain models to that 单位 The returning models must be setup within 9寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9657,7 +9657,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="aa8a-c154-d4f4-15d5" name="Master of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll results of 1 (i.e. rolls of 1-2 on a D3) for friendly units affected by a Deathly Invocation ability that are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll results of 1 (i.e. rolls of 1-2 on a D3) for friendly units affected by a Deathly Invocation ability that are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9672,7 +9672,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="4917-02bc-483e-4610" name="Chosen Champion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of 肉搏 武器 used by this general for attacks made against enemy HEROES.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristic of 肉搏 武器 used by this 主将 for attacks made against enemy HEROES.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9687,7 +9687,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="ead7-432b-9940-8037" name="Bane of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this general for attacks made against enemy units that do not have the DEATH keyword.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll wound rolls of 1 for this 主将 for attacks made against enemy units that do not have the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9702,7 +9702,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="87f7-3248-2dbc-9cc6" name="Aura of Ages" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, roll a dice for each enemy 单位 within 3寸 of this general. On a 4+ subtract 1 from hit rolls made for that 单位 until the end of the combat phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, roll a dice for each enemy 单位 within 3寸 of this 主将. On a 4+ subtract 1 from hit rolls made for that 单位 until the end of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9717,7 +9717,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="d2e1-bb29-139c-ff1b" name="Ancient Strategist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll failed charge rolls for friendly DEATHRATTLE and MORGHAST units that are within 9寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll failed charge rolls for friendly DEATHRATTLE and MORGHAST units that are within 9寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9732,7 +9732,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="f18a-fc68-b176-abed" name="Lord of Nagashizzar" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly DEATHRATTLE units that are within 6寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly DEATHRATTLE units that are within 6寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9754,7 +9754,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="efde-5700-a781-e460" name="Emissary of the Master" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly DEATH units that are within 6寸 of this general at the start of the charge phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly DEATH units that are within 6寸 of this 主将 at the start of the charge phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9769,7 +9769,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="2fcb-4010-c18d-ae77" name="Mark of the Favoured" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general is selected as the target of an attack in the combat phase, roll a dice. ‘On a 6+ the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.’ *FAQ v1.3*</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is selected as the target of an attack in the combat phase, roll a dice. ‘On a 6+ the attacking 单位 suffers 1 mortal wound after all of its attacks have been resolved.’ *FAQ v1.3*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9784,7 +9784,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="3c2c-39cf-1e51-fd05" name="Dark Acolyte" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general is a 法师 that knows the Arcane Bolt and Mystic Shield spells, as well as a single 法术 from one of the Lores of the Dead. If this general is already a 法师, they may generate an additional 法术 from one of the Lores of the Dead.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 法师 that knows the Arcane Bolt and Mystic Shield spells, as well as a single 法术 from one of the Lores of the Dead. If this 主将 is already a 法师, they may generate an additional 法术 from one of the Lores of the Dead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9805,7 +9805,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="dcd8-5b39-fd9b-4adb" name="Mastery of Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, all friendly DEATH units within 6寸 of this general may immediately make a move of up to 3寸 as if it were your movement phase. They may not run as part of this move.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, all friendly DEATH units within 6寸 of this 主将 may immediately make a move of up to 3寸 as if it were your movement phase. They may not run as part of this move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9820,7 +9820,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="86a3-3eff-a624-f610" name="Peerless Commander" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general may summon a 单位 from a gravesite (see 寸The Unquiet Dead寸 战斗特性) whilst they are within 12寸 rather than 9寸.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 may summon a 单位 from a gravesite (see 寸The Unquiet Dead寸 战斗特性) whilst they are within 12寸 rather than 9寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9835,12 +9835,12 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="0303-1bfe-041a-6c84" name="Bound to the Master" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general may use Arkhan the Black’s First of the Mortarchs command ability.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 may use Arkhan the Black’s First of the Mortarchs command ability.</characteristic>
               </characteristics>
             </profile>
             <profile id="fc2b-633a-2983-2f93" name="First of the Mortarchs (Bound to the Master)" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If Arkhan the Black (or General with &apos;Bound to the Master&apos;) uses this ability, then until the end of the 英雄阶段 all friendly DEATH WIZARDS within 18寸 of him can increase the range of their spells by 6.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If Arkhan the Black (or 主将 with &apos;Bound to the Master&apos;) uses this ability, then until the end of the 英雄阶段 all friendly DEATH WIZARDS within 18寸 of him can increase the range of their spells by 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9862,7 +9862,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="c1c1-0db5-32ad-b54f" name="Swift Strikes" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time you make a hit roll of 6+ in the combat phase for this general, you can make one additional hit roll for the same weapon against the same target.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time you make a hit roll of 6+ in the combat phase for this 主将, you can make one additional hit roll for the same weapon against the same target.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9877,7 +9877,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="80dd-5d39-c9e4-ca1b" name="Soul-crushing Contempt" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general slays any models in the combat phase, subtract 1 from the Bravery characteristic of the slain model’s 单位 until the end of the turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 slays any models in the combat phase, subtract 1 from the Bravery characteristic of the slain model’s 单位 until the end of the turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9892,7 +9892,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="e42b-040e-8af1-aadd" name="Aristocracy of Blood" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly SOULBLIGHT units that are within 9寸 of this general at the start of the charge phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll failed charge rolls for friendly SOULBLIGHT units that are within 9寸 of this 主将 at the start of the charge phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9907,7 +9907,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="55c1-99c7-3843-e59a" name="Aura of Dark Majesty" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the hit rolls of attacks that target this general in the combat phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the hit rolls of attacks that target this 主将 in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9922,7 +9922,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="4f8f-76d9-7e59-b32b" name="Walking Death" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the hit roll for an attack made with one of this general’s 肉搏 武器 is 6+, do not roll to wound. Instead, the target suffers a number of mortal wounds equal to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the hit roll for an attack made with one of this 主将’s 肉搏 武器 is 6+, do not roll to wound. Instead, the target suffers a number of mortal wounds equal to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9937,7 +9937,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="e001-157a-4934-ac14" name="Sanguine Blur" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2寸 to this general’s Move characteristic. In addition, you can re-roll failed charge rolls for this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2寸 to this 主将’s Move characteristic. In addition, you can re-roll failed charge rolls for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10015,9 +10015,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a72-9773-01bb-0040" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6684-f75e-ca51-b1c1" name="Beacon of Nagashizzar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6684-f75e-ca51-b1c1" name="Beacon of Nagashizzar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer successfully casts the Spectral Lure 法术 and it is not unbound, instead of the normal effects of the 法术 you an either heal D6+3 wounds that have been allocatged to the target 单位 or, if no wounds have been alloacated to that 单位, you can return a number of slain models to it that have a combined Wounds characteristic equal to or less than D6+3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer successfully casts the Spectral Lure 法术 and it is not unbound, instead of the normal effects of the 法术 you an either heal D6+3 wounds that have been allocatged to the target 单位 or, if no wounds have been alloacated to that 单位, you can return a number of slain models to it that have a combined Wounds characteristic equal to or less than D6+3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10033,9 +10033,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="263a-5afc-6c49-4603" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1640-02d0-0f36-7681" name="Wychlight Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1640-02d0-0f36-7681" name="Wychlight Lantern" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting rolls for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to casting rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10051,9 +10051,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b60-fdb5-0fa5-e3a2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d795-9d88-e6b2-bd78" name="Lightshard of the Harvest Moon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d795-9d88-e6b2-bd78" name="Lightshard of the Harvest Moon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can use this artefact. If they do so, you can re-roll failed hit rolls for attacks made by friendly NIGHTHAUNT units that are wholly within 12寸 of the bearer when they attack in the combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can use this 魔法道具. If they do so, you can re-roll failed hit rolls for attacks made by friendly NIGHTHAUNT units that are wholly within 12寸 of the bearer when they attack in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10193,9 +10193,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0100-c482-6295-bc7f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d425-7f34-6d0c-9efd" name="Shadow&apos;s Edge" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d425-7f34-6d0c-9efd" name="Shadow&apos;s Edge" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. If the unmodified hit roll for an attack made with this weapon is 6, that attack inflicts D3 mortal sounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. If the unmodified hit roll for an attack made with this weapon is 6, that attack inflicts D3 mortal sounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10211,9 +10211,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d2f-8245-7c14-b299" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8382-3e39-2aaa-a99b" name="Shrieking Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8382-3e39-2aaa-a99b" name="Shrieking Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10229,9 +10229,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e45-f6cd-5a0c-4bd5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="22f3-ed84-95ad-2b68" name="Slitter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="22f3-ed84-95ad-2b68" name="Slitter" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After picking the bearer to fight, before they pile in you can pick one enemy model within 1寸 of the bearer and roll a dice; if the roll is greater than that model&apos;s Wounds characteristic, it is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After picking the bearer to fight, before they pile in you can pick one enemy model within 1寸 of the bearer and roll a dice; if the roll is greater than that model&apos;s Wounds characteristic, it is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10247,9 +10247,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d435-9dd9-b159-5e18" type="max"/>
           </constraints>
           <profiles>
-            <profile id="adbb-6c60-f259-f778" name="Headsman&apos;s Judgement" publicationId="e320-d5ec-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="adbb-6c60-f259-f778" name="Headsman&apos;s Judgement" publicationId="e320-d5ec-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Add 1 to hit and wound rolls for attacks made with that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Add 1 to hit and wound rolls for attacks made with that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10265,9 +10265,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb32-1b35-796a-7f4b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="70ec-af5b-46cc-95a1" name="Reaper of Sorrows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="70ec-af5b-46cc-95a1" name="Reaper of Sorrows" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Before attacking with that weapon, roll 2D6. If the roll is higher than the target 单位&apos;s Bravery, that weapon&apos;s Rend characteristic is -3 for attacks made against that 单位.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer&apos;s 肉搏 武器. Before attacking with that weapon, roll 2D6. If the roll is higher than the target 单位&apos;s Bravery, that weapon&apos;s Rend characteristic is -3 for attacks made against that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10547,7 +10547,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="a4b8-22d5-f5bf-b74c" name="Amethyst Glow" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general is a 法师. They can attempt to cast one 法术 in your 英雄阶段, and attempt to unbind one 法术 in the enemy 英雄阶段. They know the Arcane Bolt and Mystic Shield spells. If this general is already a 法师, they know one extra 法术 from the Lore of Sorrows. </characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 法师. They can attempt to cast one 法术 in your 英雄阶段, and attempt to unbind one 法术 in the enemy 英雄阶段. They know the Arcane Bolt and Mystic Shield spells. If this 主将 is already a 法师, they know one extra 法术 from the Lore of Sorrows. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10566,7 +10566,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="e69d-b7d2-5df1-f331" name="Vassal of the Craven King" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is on the battlefield, each time you spend a command point, roll a dice. On a 5+, you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is on the battlefield, each time you spend a command point, roll a dice. On a 5+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10581,7 +10581,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
           <profiles>
             <profile id="bccd-6786-f681-7bb8" name="Tragic Emanations" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10612,9 +10612,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c23-ac16-ef6f-401d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cf8a-92d0-4fb2-5522" name="Souldrain Pendant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="cf8a-92d0-4fb2-5522" name="Souldrain Pendant" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of the bearer. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of the bearer. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10630,9 +10630,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50c5-2ff1-b205-4729" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0edc-0da9-0b06-53b1" name="Gothizzari Mortuary Candle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0edc-0da9-0b06-53b1" name="Gothizzari Mortuary Candle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10648,9 +10648,9 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d78f-92f8-2e5f-4e96" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a4b2-c07d-cf5b-ccb2" name="Grave-sand Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a4b2-c07d-cf5b-ccb2" name="Grave-sand Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can either inflict 1 mortal wound on 1 enemy 英雄 within 6寸 of the bearer, or you can heal 1 wound that has been allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can either inflict 1 mortal wound on 1 enemy 英雄 within 6寸 of the bearer, or you can heal 1 wound that has been allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10784,7 +10784,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
     </profile>
     <profile id="3998-f3e4-90e7-348a" name="Deathless Minions" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
       <characteristics>
-        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATH 单位 within 6寸 of your general or another friendly DEATH 英雄. On a 6+ the wound is negated.</characteristic>
+        <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly DEATH 单位 within 6寸 of your 主将 or another friendly DEATH 英雄. On a 6+ the wound is negated.</characteristic>
       </characteristics>
     </profile>
     <profile id="327f-b655-f2de-3d3b" name="Endless Legions" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -10803,7 +10803,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your gen
         </modifier>
       </modifiers>
       <characteristics>
-        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick a gravesite that is within 9寸 of your general, and then pick a friendly Summonable 单位 that has been destroyed. Set up that 单位 wholly within 9寸 of that gravesite and more than 9寸 from any enemy units. *ERRATA Jun&apos;18*</characteristic>
+        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the end of your movement phase. If you do so, pick a gravesite that is within 9寸 of your 主将, and then pick a friendly Summonable 单位 that has been destroyed. Set up that 单位 wholly within 9寸 of that gravesite and more than 9寸 from any enemy units. *ERRATA Jun&apos;18*</characteristic>
       </characteristics>
     </profile>
     <profile id="1ce5-cc3d-2776-da43" name="Pestilential Breath" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">

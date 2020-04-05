@@ -30,7 +30,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="b5b3-4c37-05d1-a51c" name="Varanguard" hidden="false" collective="false" import="true" targetId="bfe6-aed3-4741-209e" type="selectionEntry"/>
-    <entryLink id="b9b5-8b81-8bd0-45ba" name="Allegiance" hidden="false" collective="false" import="true" targetId="78b4-de9d-7810-5225" type="selectionEntry">
+    <entryLink id="b9b5-8b81-8bd0-45ba" name="势力" hidden="false" collective="false" import="true" targetId="78b4-de9d-7810-5225" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="36d2-e0f3-70c7-30bd" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -154,7 +154,7 @@
         </profile>
         <profile id="37ba-397e-95de-a422" name="Warlord Without Equal" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段, if Archaon is your general and is on the battlefield. If you do so, all 其他 混沌 Heroes in your army can use 1 command ability that is on their warscroll and which can be used in the 英雄阶段 without a command point being spent. *ERRATA Jul&apos;18*</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段, if Archaon is your 主将 and is on the battlefield. If you do so, all 其他 混沌 Heroes in your army can use 1 command ability that is on their warscroll and which can be used in the 英雄阶段 without a command point being spent. *ERRATA Jul&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="d21f-1928-9007-b3df" name="Archaon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -203,7 +203,7 @@
             </profile>
             <profile id="5b3b-8825-6108-90ea" name="The Slayer of Kings" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If Archaon directs all of his attacks with the Slayer of Kings at the same 英雄 or 怪兽, and two or more of the wound rolls are 6 or more, the daemon bound in the blade is roused and the target is slain instantly.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If Archaon directs all of his attacks with the Slayer of Kings at the same 英雄 or 怪兽, and two or more of the wound rolls are 6 or more, the 恶魔 bound in the blade is roused and the target is slain instantly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -312,19 +312,19 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="28e2-9012-9d86-fd18" name="General" hidden="false" collective="false" import="true" targetId="bfaa-14db-2af8-be38" type="selectionEntry"/>
+        <entryLink id="28e2-9012-9d86-fd18" name="主将" hidden="false" collective="false" import="true" targetId="bfaa-14db-2af8-be38" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="660.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78b4-de9d-7810-5225" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="78b4-de9d-7810-5225" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4265-6c57-7b91-79fc" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3b2-f9f2-e02d-f6b5" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b1f0-9bff-d028-c1aa" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="014b-863f-0eb3-8028">
+        <selectionEntryGroup id="b1f0-9bff-d028-c1aa" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="014b-863f-0eb3-8028">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="062a-646b-5269-0061" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6759-101d-f0cf-66f5" type="max"/>
@@ -347,7 +347,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfaa-14db-2af8-be38" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bfaa-14db-2af8-be38" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -534,7 +534,7 @@
                 </profile>
                 <profile id="6346-e98e-dd9e-69e6" name="Daemonforged Blade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a Varanguard attacks with a Daemonforged Blade and the hit roll is 6 or more, the daemon bound inside the blade awakens; roll a dice to see what happens instead of making a wound roll. On a 2 or more, that attack inflicts a mortal wound on the target as the daemonic weapon feeds upon its victim&apos;s soul, but on a 1, the attacking 单位 suffers a mortal wound instead as the daemon blade turns upon its wielder!</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a Varanguard attacks with a Daemonforged Blade and the hit roll is 6 or more, the 恶魔 bound inside the blade awakens; roll a dice to see what happens instead of making a wound roll. On a 2 or more, that attack inflicts a mortal wound on the target as the daemonic weapon feeds upon its victim&apos;s soul, but on a 1, the attacking 单位 suffers a mortal wound instead as the 恶魔 blade turns upon its wielder!</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -568,7 +568,7 @@
         </profile>
         <profile id="66ef-354e-2b00-b367" name="Daemonic Pacts" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the end of your movement phase, if Archaon is your general and on the battlefield, you can roll a dice. If you do so, on a 5+ you can summon one of the following units to the battlefield: 10 Plaguebearers; 10 Daemonettes; 10 Bloodletters; or 5 Pink Horrors. The summoned 单位 is added to your army, and must be set up wholly within 12寸 of Archaon and more than 9寸 from any enemy units. *ERRATA Jun&apos;18*</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the end of your movement phase, if Archaon is your 主将 and on the battlefield, you can roll a dice. If you do so, on a 5+ you can summon one of the following units to the battlefield: 10 Plaguebearers; 10 Daemonettes; 10 Bloodletters; or 5 Pink Horrors. The summoned 单位 is added to your army, and must be set up wholly within 12寸 of Archaon and more than 9寸 from any enemy units. *ERRATA Jun&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="e555-cd0e-3b5b-bdf6" name="Dark Command" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">

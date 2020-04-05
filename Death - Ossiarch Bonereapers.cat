@@ -120,7 +120,7 @@
         <cost name="pts" typeId="points" value="360.0"/>
       </costs>
     </entryLink>
-    <entryLink id="7649-c607-3d1d-6053" name="Allegiance: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry">
+    <entryLink id="7649-c607-3d1d-6053" name="势力: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5592-924c-dd31-5f69" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f0-8160-9679-ef81" type="max"/>
@@ -143,7 +143,7 @@
         <categoryLink id="c5ba-8aca-7636-77d1" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="8bdc-8854-b753-6129" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="76cc-7243-ae22-29a5" name="LIEGE" hidden="false" targetId="54d9-50cd-9ea0-10b9" primary="false"/>
-        <categoryLink id="eff1-2fd6-b07b-6038" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="eff1-2fd6-b07b-6038" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="e6f4-2af5-cae3-930a" name="MORTIS PRAETORIANS" hidden="false" targetId="d3ef-4794-dca3-91fe" primary="false"/>
         <categoryLink id="368f-ee45-c0fe-13fa" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
       </categoryLinks>
@@ -322,7 +322,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if KATAKROS is your general. If you do so, until your next 英雄阶段, add 1 to hit rolls for attacks made by friendly OSSIARCH BONEREAPERS units while they are wholly within 18寸 of this model, and add 1 to save rolls for attacks that target friendly MORTIS PRAETORIAN units while they are wholly within 18寸 of this model. You can only use this command ability once per 英雄阶段.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if KATAKROS is your 主将. If you do so, until your next 英雄阶段, add 1 to hit rolls for attacks made by friendly OSSIARCH BONEREAPERS units while they are wholly within 18寸 of this model, and add 1 to save rolls for attacks that target friendly MORTIS PRAETORIAN units while they are wholly within 18寸 of this model. You can only use this command ability once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="c150-6072-443c-c965" name="Deadly Combination" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -401,7 +401,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="4ee9-2b59-9305-1aa3" name="DEATHLORDS" hidden="false" targetId="a3df-7eeb-bcac-ac90" primary="false"/>
-        <categoryLink id="0033-6f53-2a67-375f" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="0033-6f53-2a67-375f" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="8048-e07f-c61e-bd38" name="LIEGE" hidden="false" targetId="54d9-50cd-9ea0-10b9" primary="false"/>
         <categoryLink id="8c49-4331-f048-b80e" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="69ab-1e75-b31d-02ac" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
@@ -544,17 +544,17 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0922-6f5e-4caa-4f44" name="General" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
+        <entryLink id="0922-6f5e-4caa-4f44" name="主将" hidden="false" collective="false" import="true" targetId="88d2-d540-0573-3402" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="500.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4030-1d9b-ec45-bc4b" name="Allegiance: The Ossiarch Empire" publicationId="cb62-7d89-9fa6-76ad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4030-1d9b-ec45-bc4b" name="势力: The Ossiarch Empire" publicationId="cb62-7d89-9fa6-76ad" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="18d0-b9ce-e638-2219" name="Relentless Discipline" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You cannot use command points. Instead, you use relentless discipline points. At the start of each battle round, before determining who has the first turn, you receive 1 relentless discipline point for each friendly OSSIARCH BONEREAPERS 英雄 that is on the battlefield. You receive 1 additional relentless discipline point for each warscroll 阵型 in your army and each friendly LIEGE that is on the battlefield, and 3 additional relentless discipline points if KATAKROS is your general and is on the battlefield. Then, roll a dice for each friendly OSSIARCH BONEREAPERS 单位 on the battlefield (including the HEROES above). For each 6, you receive 1 additional relentless discipline point.
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You cannot use command points. Instead, you use relentless discipline points. At the start of each battle round, before determining who has the first turn, you receive 1 relentless discipline point for each friendly OSSIARCH BONEREAPERS 英雄 that is on the battlefield. You receive 1 additional relentless discipline point for each warscroll 阵型 in your army and each friendly LIEGE that is on the battlefield, and 3 additional relentless discipline points if KATAKROS is your 主将 and is on the battlefield. Then, roll a dice for each friendly OSSIARCH BONEREAPERS 单位 on the battlefield (including the HEROES above). For each 6, you receive 1 additional relentless discipline point.
 
 Relentless discipline points are used in the same manner as command points, but can only be used for 指挥能力 that appear on a warscroll that has the OSSIARCH BONEREAPERS keyword, for Ossiarch Bonereaper Legion 指挥能力 and for the Unstoppable Advance command ability.</characteristic>
           </characteristics>
@@ -760,7 +760,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       <profiles>
         <profile id="478b-37f8-5940-ef46" name="Hatred of the Living" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll wound rolls of 1 for attacks made by this model that target ORDER and DESTRUCTION units. You can re-roll any wound rolls for attacks made by this model that target CHAOS units.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll wound rolls of 1 for attacks made by this model that target ORDER and DESTRUCTION units. You can re-roll any wound rolls for attacks made by this model that target 混沌 units.</characteristic>
           </characteristics>
         </profile>
         <profile id="d474-ee83-068e-98ea" name="Unstoppable Charge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -775,7 +775,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="0a93-7de8-af2c-42e3" name="Still Their Breath!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly MORTIS PRAETORIANS 单位 that is wholly within 24寸 of this model. Re-roll wound rolls of 1 for attacks made by that 单位 that target ORDER and DESTRUCTION units. You can re-roll any wound rolls for attacks made by that 单位 that target CHAOS units.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly MORTIS PRAETORIANS 单位 that is wholly within 24寸 of this model. Re-roll wound rolls of 1 for attacks made by that 单位 that target ORDER and DESTRUCTION units. You can re-roll any wound rolls for attacks made by that 单位 that target 混沌 units.</characteristic>
           </characteristics>
         </profile>
         <profile id="5bbb-fec3-3a27-0d87" name="Arch-Kavalos Zandtos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -864,7 +864,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d1e0-6868-0862-a59a" name="General" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
+        <entryLink id="d1e0-6868-0862-a59a" name="主将" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="220.0"/>
@@ -892,7 +892,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="50f2-2acd-29e6-babd" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="50f2-2acd-29e6-babd" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="1280-2377-2779-6f85" name="LIEGE" hidden="false" targetId="54d9-50cd-9ea0-10b9" primary="false"/>
         <categoryLink id="5d95-608e-d5b8-ebe0" name="LIEGE-KAVALOS" hidden="false" targetId="af6c-470c-e226-ec72" primary="false"/>
         <categoryLink id="ae5c-6ad2-fd3b-f4b5" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
@@ -968,7 +968,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="be30-8600-b470-5586" name="General" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
+        <entryLink id="be30-8600-b470-5586" name="主将" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
         <entryLink id="71a2-2399-8b08-ea12" name="Command Traits" hidden="false" collective="false" import="true" targetId="3bb4-6aaa-4a0e-f67b" type="selectionEntryGroup"/>
         <entryLink id="77d4-572e-88d3-aa71" name="Artefacts" hidden="false" collective="false" import="true" targetId="196e-6964-efa8-8d05" type="selectionEntryGroup"/>
       </entryLinks>
@@ -976,7 +976,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5422-78b3-c57b-5f40" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5422-78b3-c57b-5f40" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1031,7 +1031,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <infoLink id="2922-a2ad-531f-bb2f" name="Mystic Shield" hidden="false" targetId="b41f-f1ce-7aa5-4f81" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e4f1-e560-920b-d586" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="e4f1-e560-920b-d586" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="f714-c68b-b3ea-ff77" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="40cc-7c95-7fa1-aaee" name="MORTISAN" hidden="false" targetId="c0a2-7436-d3b1-fbc4" primary="false"/>
         <categoryLink id="a0f7-86c1-334e-2e46" name="MORTISAN BONESHAPER" hidden="false" targetId="f276-f622-355d-065d" primary="false"/>
@@ -1064,7 +1064,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a24e-0e9a-9296-5ea6" name="General" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
+        <entryLink id="a24e-0e9a-9296-5ea6" name="主将" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
         <entryLink id="4d11-97d3-7d66-6734" name="Artefacts" hidden="false" collective="false" import="true" targetId="196e-6964-efa8-8d05" type="selectionEntryGroup"/>
         <entryLink id="9ecc-0fef-d720-584b" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="e282-da55-2db4-568e" name="Command Traits" hidden="false" collective="false" import="true" targetId="3bb4-6aaa-4a0e-f67b" type="selectionEntryGroup"/>
@@ -1111,7 +1111,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <infoLink id="1697-50b3-3b7a-9ddf" name="Mystic Shield" hidden="false" targetId="b41f-f1ce-7aa5-4f81" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fa07-21a4-90cb-94fc" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="fa07-21a4-90cb-94fc" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="6450-0e27-05a6-3ec7" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="f5d5-c8f1-53a3-296d" name="MORTISAN" hidden="false" targetId="c0a2-7436-d3b1-fbc4" primary="false"/>
         <categoryLink id="cfdc-f8ac-c7a0-47f7" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
@@ -1144,7 +1144,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="f52a-eace-7574-9684" name="General" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
+        <entryLink id="f52a-eace-7574-9684" name="主将" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
         <entryLink id="b14d-0b92-8979-cef1" name="Artefacts" hidden="false" collective="false" import="true" targetId="196e-6964-efa8-8d05" type="selectionEntryGroup"/>
         <entryLink id="c67d-de9d-ac9e-cf87" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="7942-2c95-0124-bfbe" name="Command Traits" hidden="false" collective="false" import="true" targetId="3bb4-6aaa-4a0e-f67b" type="selectionEntryGroup"/>
@@ -1186,7 +1186,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <infoLink id="a0dd-42da-f981-ae07" name="Mystic Shield" hidden="false" targetId="b41f-f1ce-7aa5-4f81" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b126-fae6-5e27-7a56" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="b126-fae6-5e27-7a56" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="f867-f772-3606-8bce" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="65a3-1f62-9fec-d9f9" name="MORTISAN" hidden="false" targetId="c0a2-7436-d3b1-fbc4" primary="false"/>
         <categoryLink id="105f-d8ea-dcdd-1d41" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
@@ -1241,7 +1241,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9c8d-d7ab-d8c8-d577" name="General" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
+        <entryLink id="9c8d-d7ab-d8c8-d577" name="主将" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
         <entryLink id="ac28-f4c4-f643-33c8" name="Artefacts" hidden="false" collective="false" import="true" targetId="196e-6964-efa8-8d05" type="selectionEntryGroup"/>
         <entryLink id="975e-2af3-d5b7-f09b" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="daad-d325-ae08-fcff" name="Command Traits" hidden="false" collective="false" import="true" targetId="3bb4-6aaa-4a0e-f67b" type="selectionEntryGroup"/>
@@ -1283,7 +1283,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="fd4d-0ccf-7423-575e" name="Grim Warnings" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸 of this model, and subtract 1 from unbinding rolls for WIZARDS attempting to unbind a 法术 cast by this model. If an enemy general is slain within 3寸 of this model, for the rest of the battle subtract 2 from the Bravery of enemy units within 12寸 of this model instead of 1, and subtract 2 from unbinding rolls for WIZARDS attempting to unbind a 法术 cast by this model instead of 1</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 12寸 of this model, and subtract 1 from unbinding rolls for WIZARDS attempting to unbind a 法术 cast by this model. If an enemy 主将 is slain within 3寸 of this model, for the rest of the battle subtract 2 from the Bravery of enemy units within 12寸 of this model instead of 1, and subtract 2 from unbinding rolls for WIZARDS attempting to unbind a 法术 cast by this model instead of 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1291,7 +1291,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <infoLink id="d60d-4121-cbae-f0fa" name="Mystic Shield" hidden="false" targetId="b41f-f1ce-7aa5-4f81" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f5e7-b65a-58bd-a4fe" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="f5e7-b65a-58bd-a4fe" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="27eb-117f-3de6-1eae" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="cc8d-093d-487a-21a9" name="MORTIS PRAETORIANS" hidden="false" targetId="d3ef-4794-dca3-91fe" primary="false"/>
         <categoryLink id="3dd9-99a6-5199-78a8" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
@@ -1348,7 +1348,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       <entryLinks>
         <entryLink id="ac94-469b-c3b2-cf6f" name="Arcane Bolt" hidden="false" collective="false" import="true" targetId="869c-168d-eba5-eacf" type="selectionEntry"/>
         <entryLink id="8164-1611-9b48-5e98" name="Lore of the Mortisans" hidden="false" collective="false" import="true" targetId="4dc8-30c8-8840-a6ed" type="selectionEntryGroup"/>
-        <entryLink id="371f-5574-ec7f-d230" name="General" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
+        <entryLink id="371f-5574-ec7f-d230" name="主将" hidden="false" collective="false" import="true" targetId="5422-78b3-c57b-5f40" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="180.0"/>
@@ -1386,7 +1386,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="bba8-8327-640e-dc1d" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="bba8-8327-640e-dc1d" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="f9d5-437a-757c-f268" name="MORTEK GUARD" hidden="false" targetId="d2f0-0db8-fe50-04bf" primary="false"/>
         <categoryLink id="1c8f-0704-5646-0e6a" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="dd4e-20a9-36d6-fb8e" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
@@ -1519,7 +1519,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="d1af-c049-f954-5230" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="d1af-c049-f954-5230" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="4b60-4144-8ad5-994a" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="1442-475b-ef33-5977" name="KAVALOS DEATHRIDERS" hidden="false" targetId="2d2b-30b3-f190-6a59" primary="false"/>
         <categoryLink id="2c59-a2d7-96f7-3c25" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
@@ -1641,7 +1641,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="3174-5623-cbbd-1dfc" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="3174-5623-cbbd-1dfc" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="32aa-829b-c10c-93f9" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="c0c9-1f60-37cc-7a7f" name="HEKATOS" hidden="false" targetId="4936-b2ff-a8e9-73b1" primary="false"/>
         <categoryLink id="c5dd-1650-916f-956d" name="IMMORTIS GUARD" hidden="false" targetId="7518-c312-3584-ce14" primary="false"/>
@@ -1736,7 +1736,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2b8e-d944-8361-9d02" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="2b8e-d944-8361-9d02" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="d5c4-b2a4-05cc-e8d5" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="b826-f76d-0cb6-9fda" name="HEKATOS" hidden="false" targetId="4936-b2ff-a8e9-73b1" primary="false"/>
         <categoryLink id="1240-e35b-ca23-bebc" name="IMMORTIS GUARD" hidden="false" targetId="7518-c312-3584-ce14" primary="false"/>
@@ -1874,7 +1874,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="8d79-c150-b670-a49d" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="8d79-c150-b670-a49d" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="b063-f648-717d-5b0a" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="5fe8-c099-ee9e-58af" name="MORTECK CRAWLER" hidden="false" targetId="44b1-be1e-0abb-c4f1" primary="false"/>
         <categoryLink id="6ad1-98bb-f6f3-9498" name="战争机械" hidden="false" targetId="880e-1e33-b965-71ec" primary="false"/>
@@ -2037,7 +2037,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="6e29-ef75-019d-f449" name="DEATH" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
+        <categoryLink id="6e29-ef75-019d-f449" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="0b59-a2e3-ff10-11f6" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="a0f4-0534-bcbb-20a2" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="70f0-46c4-b6bb-e78e" name="GOTHIZZAR HARVESTER" hidden="false" targetId="bf60-30f0-48ac-aa79" primary="false"/>
@@ -2196,7 +2196,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
         <profile id="29ff-bb1a-ec73-7494" name="Soul Thief" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of each phase, roll a dice if any CHAOS, DESTRUCTION or ORDER models were slain within 6寸 of this model during that phase. On a 1-2, heal 1 wound allocated to the caster soul-linked to this model. On a 3-4, inflict 1 mortal wound on each CHAOS, DESTRUCTION or ORDER 单位 within 6寸 of this model. On a 5-6, do both of these things.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of each phase, roll a dice if any 混沌, DESTRUCTION or ORDER models were slain within 6寸 of this model during that phase. On a 1-2, heal 1 wound allocated to the caster soul-linked to this model. On a 3-4, inflict 1 mortal wound on each 混沌, DESTRUCTION or ORDER 单位 within 6寸 of this model. On a 5-6, do both of these things.</characteristic>
           </characteristics>
         </profile>
         <profile id="6cae-f208-18dc-11cc" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2260,7 +2260,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
       <profiles>
         <profile id="5b08-44e9-b47f-90e8" name="Unstoppable Battleforce" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 英雄阶段, if your general is from this 阵型 and on the battlefield, you receive D3 relentless discipline points.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 英雄阶段, if your 主将 is from this 阵型 and on the battlefield, you receive D3 relentless discipline points.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2633,23 +2633,23 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de9f-25b3-3bda-dd40" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="de9f-25b3-3bda-dd40" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9389-4a1f-a2e9-b92c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71f3-4647-c586-5b45" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="007b-af79-4d8c-8e89" name="Allegiance" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="007b-af79-4d8c-8e89" name="势力" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1edb-6332-faaa-9793" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbde-e731-38ed-3851" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="7306-11c2-75c0-8e92" name="Allegiance" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false"/>
+            <categoryLink id="7306-11c2-75c0-8e92" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="b8cd-01e2-64f5-5e93" name="Allegiance: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry"/>
-            <entryLink id="0861-84a5-15f4-47c7" name="Allegiance: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
+            <entryLink id="b8cd-01e2-64f5-5e93" name="势力: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry"/>
+            <entryLink id="0861-84a5-15f4-47c7" name="势力: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2731,7 +2731,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="f90e-38f9-539a-b562" name="Ancient Knowledge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You receive 1 additional relentless discipline point at the start of the battle round if this general is on the battlefield.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You receive 1 additional relentless discipline point at the start of the battle round if this 主将 is on the battlefield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2746,7 +2746,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="8c49-201a-28f2-2c05" name="Immortal Ruler" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to this general on a roll of a 5+ instead of 6.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to this 主将 on a roll of a 5+ instead of 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2761,13 +2761,13 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="b36d-4378-56af-64fb" name="Dark Acolyte" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general is a 法师 that knows 1 法术 from the Lore of the Mortisans. They can attempt to cast that 法术 in your 英雄阶段, and attempt to unbind 1 法术 in the enemy 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 法师 that knows 1 法术 from the Lore of the Mortisans. They can attempt to cast that 法术 in your 英雄阶段, and attempt to unbind 1 法术 in the enemy 英雄阶段.</characteristic>
               </characteristics>
             </profile>
             <profile id="1fe4-502c-fcb8-7e5d" name="Dark Acolyte" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
               <characteristics>
                 <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">1/1</characteristic>
-                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">This general is a 法师 that knows 1 法术 from the Lore of the Mortisans.</characteristic>
+                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">This 主将 is a 法师 that knows 1 法术 from the Lore of the Mortisans.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2785,7 +2785,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="4646-ab88-a0cd-596f" name="Peerless Warrior" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a 肉搏 weapon by this general is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the unmodified wound roll for an attack made with a 肉搏 weapon by this 主将 is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2800,7 +2800,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="b0ca-cbfc-dac4-e5ba" name="Hatred of the Living" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with 肉搏 武器 by this general and their mount unless the target has the DEATH keyword.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with 肉搏 武器 by this 主将 and their mount unless the target has the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2815,7 +2815,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="aeca-1dd0-599a-f7fa" name="Life-stealer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, if any enemy models were slain by wounds inflicted by this general’s attacks in that combat phase, you can heal up to D3 wounds allocated to this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of the combat phase, if any enemy models were slain by wounds inflicted by this 主将’s attacks in that combat phase, you can heal up to D3 wounds allocated to this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2849,7 +2849,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="4f6b-fa30-b94f-fe27" name="Ancient Knowledge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You receive 1 additional relentless discipline point at the start of the battle round if this general is on the battlefield.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You receive 1 additional relentless discipline point at the start of the battle round if this 主将 is on the battlefield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2864,7 +2864,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="d601-cf9d-a43f-1dda" name="Immortal Ruler" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to this general on a roll of a 5+ instead of 6.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to this 主将 on a roll of a 5+ instead of 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2879,7 +2879,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="bc05-d25a-6d4b-2e2b" name="Dire Ultimatum" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2894,7 +2894,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="ad7e-c4eb-c4e3-ecfe" name="Grave-sand Bones" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra 法术 from the Lore of the Mortisans.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of the Mortisans.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2909,7 +2909,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="c7cb-285c-d647-18d1" name="Oathbreaker Curse" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time your opponent receives a command point while this general is on the battlefield. On a 6, that command point is lost.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time your opponent receives a command point while this 主将 is on the battlefield. On a 6, that command point is lost.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2924,7 +2924,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="8f9f-3652-1431-728f" name="Soul Energy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll casting, dispelling and unbinding rolls for this general. If you do so, this general suffers 1 mortal wound after the effects of the 法术 (if any) are carried out.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll casting, dispelling and unbinding rolls for this 主将. If you do so, this 主将 suffers 1 mortal wound after the effects of the 法术 (if any) are carried out.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2944,9 +2944,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b702-d94c-954b-7a18" type="max"/>
           </constraints>
           <profiles>
-            <profile id="509c-1bcd-961a-2b5e" name="Mindblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="509c-1bcd-961a-2b5e" name="Mindblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon that targets a 英雄 is 6, your opponent loses 1 command point (to a minimum of 0) and that 英雄 cannot use 指挥能力 for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon that targets a 英雄 is 6, your opponent loses 1 command point (to a minimum of 0) and that 英雄 cannot use 指挥能力 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2959,9 +2959,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c44-466b-da69-67b8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4d85-3f93-7a7b-6cc6" name="Scroll of Command" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4d85-3f93-7a7b-6cc6" name="Scroll of Command" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 2 from the Bravery characteristic of enemy units while they are within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 2 from the Bravery characteristic of enemy units while they are within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2974,9 +2974,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="880f-8b0e-2349-f12a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1bc9-931d-e337-5c79" name="Lordly Phylactery" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1bc9-931d-e337-5c79" name="Lordly Phylactery" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can use this artefact. When they do so, you receive D3 relentless discipline points.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can use this 魔法道具. When they do so, you receive D3 relentless discipline points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2989,9 +2989,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b9a-f192-d370-55cf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b461-630e-2958-8a35" name="Grave-sand Boneplate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b461-630e-2958-8a35" name="Grave-sand Boneplate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of the bearer. On a 4+, that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, roll a dice for each enemy 单位 within 3寸 of the bearer. On a 4+, that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3004,9 +3004,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b60-0313-443e-e219" type="max"/>
           </constraints>
           <profiles>
-            <profile id="60c0-85ad-0906-2567" name="5. Marrowpact" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="60c0-85ad-0906-2567" name="5. Marrowpact" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, pick 1 enemy 单位 within 6寸 of the bearer that is visible to them, and roll a dice. On a 3+, that 单位 suffers D3 mortal wounds and you can heal 1 wound allocated to the bearer for each mortal wound that is inflicted and not negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, pick 1 enemy 单位 within 6寸 of the bearer that is visible to them, and roll a dice. On a 3+, that 单位 suffers D3 mortal wounds and you can heal 1 wound allocated to the bearer for each mortal wound that is inflicted and not negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3019,9 +3019,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="18f7-8ab6-ec68-cb63" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2c1e-c959-2a14-12d3" name="Helm of the Ordained" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2c1e-c959-2a14-12d3" name="Helm of the Ordained" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly OSSIARCH BONEREAPERS units and their mounts while they are wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly OSSIARCH BONEREAPERS units and their mounts while they are wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3041,9 +3041,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="687f-0c76-0415-2416" type="max"/>
           </constraints>
           <profiles>
-            <profile id="39ab-d550-a65e-66b7" name="Artisan&apos;s Key" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="39ab-d550-a65e-66b7" name="Artisan&apos;s Key" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Before you use the bearer’s Boneshaper ability, roll a dice. On a 4+, you can either pick 2 units within 6寸 of the bearer to be affected by the Boneshaper ability instead of 1, or you can pick 1 单位 within 6寸 of the bearer to be affected by the Boneshaper ability twice.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Before you use the bearer’s Boneshaper ability, roll a dice. On a 4+, you can either pick 2 units within 6寸 of the bearer to be affected by the Boneshaper ability instead of 1, or you can pick 1 单位 within 6寸 of the bearer to be affected by the Boneshaper ability twice.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3056,9 +3056,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5fe3-161e-d39e-2a41" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fcc4-51f5-05ce-96b7" name="The Crafter-gems" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fcc4-51f5-05ce-96b7" name="The Crafter-gems" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can heal up to 3 wounds allocated to the bearer. Once the total number of wounds this artefact has been used to heal during the battle equals 3, it cannot be used again for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can heal up to 3 wounds allocated to the bearer. Once the total number of wounds this 魔法道具 has been used to heal during the battle equals 3, it cannot be used again for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3071,9 +3071,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="697f-ccfa-59ec-eeb6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="baac-9835-4a47-02d8" name="Lode of Saturation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="baac-9835-4a47-02d8" name="Lode of Saturation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, pick 1 friendly OSSIARCH BONEREAPERS 单位 其他 than the bearer that is within 1寸 of them. Until your next 英雄阶段, the Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to that 单位 on a roll of a 5+ instead of 6.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, pick 1 friendly OSSIARCH BONEREAPERS 单位 其他 than the bearer that is within 1寸 of them. Until your next 英雄阶段, the Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to that 单位 on a roll of a 5+ instead of 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3093,9 +3093,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="283b-8802-eba5-b4eb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e0f6-4978-25f9-575b" name="Gothizzar Cartouche" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e0f6-4978-25f9-575b" name="Gothizzar Cartouche" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with 肉搏 武器 by friendly DEATH units wholly within 9寸 of the bearer if the target does not have the DEATH keyword.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with 肉搏 武器 by friendly DEATH units wholly within 9寸 of the bearer if the target does not have the DEATH keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3108,9 +3108,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5089-16b6-c9dd-720b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="35c3-cd85-e722-3abc" name="Throne of Dzendt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="35c3-cd85-e722-3abc" name="Throne of Dzendt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the bearer’s Wounds characteristic, and add 2 to the Attacks characteristic of the Ossified Claws of the bearer’s mount.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the bearer’s Wounds characteristic, and add 2 to the Attacks characteristic of the Ossified Claws of the bearer’s mount.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3123,9 +3123,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4041-c6b7-b845-61ff" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4c7e-f8c0-780a-3665" name="Soul Reservoir" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4c7e-f8c0-780a-3665" name="Soul Reservoir" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to casting rolls for the bearer. However, if the casting roll for the bearer is an unmodified 10+, this artefact cannot be used again for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to casting rolls for the bearer. However, if the casting roll for the bearer is an unmodified 10+, this 魔法道具 cannot be used again for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3145,9 +3145,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e977-fccf-2b52-bd33" type="max"/>
           </constraints>
           <profiles>
-            <profile id="89af-f4fd-e5ff-4c10" name="Luminscythe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="89af-f4fd-e5ff-4c10" name="Luminscythe" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1 to casting rolls for the bearer when they attempt to cast Soul-blast, Pall of Doom or any 法术 from the Lore of the Mortisans.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1 to casting rolls for the bearer when they attempt to cast Soul-blast, Pall of Doom or any 法术 from the Lore of the Mortisans.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3160,9 +3160,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e58-1849-7d7c-7c23" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ab88-e620-4086-14e8" name="Guardian Reavesoul" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ab88-e620-4086-14e8" name="Guardian Reavesoul" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to the bearer on a roll of a 5+ instead of 6. Instead of rolling the dice, you can say that the bearer will shatter this artefact. If you do so, the wound or mortal wound is negated without a dice being rolled, but this artefact cannot be used again for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to the bearer on a roll of a 5+ instead of 6. Instead of rolling the dice, you can say that the bearer will shatter this 魔法道具. If you do so, the wound or mortal wound is negated without a dice being rolled, but this 魔法道具 cannot be used again for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3175,9 +3175,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e72-def6-75d8-5c79" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0312-f97c-11c1-366d" name="Vial of Binding" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0312-f97c-11c1-366d" name="Vial of Binding" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, pick 1 enemy model within 12寸 of the bearer that is visible to them and roll a dice. If the roll is equal to or greater than that model’s Wounds characteristic that enemy model is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, pick 1 enemy model within 12寸 of the bearer that is visible to them and roll a dice. If the roll is equal to or greater than that model’s Wounds characteristic that enemy model is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3360,9 +3360,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="a10a-a3b5-5740-e297" name="Unsettling and Sinister" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A NULL MYRIAD general must have this 指挥特性 instead of one listed on page 74.
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A NULL MYRIAD 主将 must have this 指挥特性 instead of one listed on page 74.
 
-Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this general. In addition, subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this general.</characteristic>
+Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this 主将. In addition, subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3396,9 +3396,9 @@ Subtract 1 from hit rolls for attacks made with 肉搏 武器 that target this g
           <profiles>
             <profile id="87a1-9447-7b9f-ee6b" name="Scrimshawed Savage" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">An IVORY HOST general must have this 指挥特性 instead of one listed on page 74.
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">An IVORY HOST 主将 must have this 指挥特性 instead of one listed on page 74.
 
-In each of your 英雄 phases, roll a dice for this general. On a 5+, add 1 to the Attacks characteristic of 肉搏 武器 used by this general for the rest of the battle.</characteristic>
+In each of your 英雄 phases, roll a dice for this 主将. On a 5+, add 1 to the Attacks characteristic of 肉搏 武器 used by this 主将 for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3432,9 +3432,9 @@ In each of your 英雄 phases, roll a dice for this general. On a 5+, add 1 to t
           <profiles>
             <profile id="4a09-1482-68d6-1c67" name="Mighty Archaeossian" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A PETRIFEX ELITE general must have this 指挥特性 instead of one listed on page 74.
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A PETRIFEX ELITE 主将 must have this 指挥特性 instead of one listed on page 74.
 
-Add 2 to this general’s Wounds characteristic.</characteristic>
+Add 2 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3468,9 +3468,9 @@ Add 2 to this general’s Wounds characteristic.</characteristic>
           <profiles>
             <profile id="98e2-663c-9974-00bf" name="Twisted Challenge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A STALLIARCH LORDS general must have this 指挥特性 instead of one listed on page 74.
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A STALLIARCH LORDS 主将 must have this 指挥特性 instead of one listed on page 74.
 
-At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of this general. Until the end of that phase, add 1 to hit rolls for attacks made by this general that target that enemy 英雄, but subtract 1 from hit rolls for attacks made by this general that target any 其他 单位.</characteristic>
+At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of this 主将. Until the end of that phase, add 1 to hit rolls for attacks made by this 主将 that target that enemy 英雄, but subtract 1 from hit rolls for attacks made by this 主将 that target any 其他 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3504,9 +3504,9 @@ At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of thi
           <profiles>
             <profile id="2123-1480-6970-df89" name="Wrathful Avenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A CREMATORIANS general must have this 指挥特性 instead of one listed on page 74.
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A CREMATORIANS 主将 must have this 指挥特性 instead of one listed on page 74.
 
-If this general is slain, add 2 to the Immolation dice roll instead of 1, and if the roll is successful inflict D3 mortal wounds on the enemy 单位 instead of 1.</characteristic>
+If this 主将 is slain, add 2 to the Immolation dice roll instead of 1, and if the roll is successful inflict D3 mortal wounds on the enemy 单位 instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3540,9 +3540,9 @@ If this general is slain, add 2 to the Immolation dice roll instead of 1, and if
           <profiles>
             <profile id="59c2-5026-98d0-8b5c" name="Katakros&apos; Chosen" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A MORTIS PRAETORIANS general must have this 指挥特性 instead of one listed on page 74.
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">A MORTIS PRAETORIANS 主将 must have this 指挥特性 instead of one listed on page 74.
 
-Once per battle, at the start of your 英雄阶段, if this general is on the battlefield you can receive D3 additional relentless discipline points.</characteristic>
+Once per battle, at the start of your 英雄阶段, if this 主将 is on the battlefield you can receive D3 additional relentless discipline points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3605,9 +3605,9 @@ Once per battle, at the start of your 英雄阶段, if this general is on the ba
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bb8-84e3-848e-631f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c7f2-fb44-07b6-0fab" name="Artificer&apos;s Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c7f2-fb44-07b6-0fab" name="Artificer&apos;s Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first MORTIS PRAETORIANS 英雄 to receive an artefact of power must be given an Artificer’s Blade.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first MORTIS PRAETORIANS 英雄 to receive an 魔法道具 of power must be given an Artificer’s Blade.
 
 Pick 1 of the bearer’s 肉搏 武器. Change the Rend characteristic of that weapon to -3.</characteristic>
               </characteristics>
@@ -3635,9 +3635,9 @@ Pick 1 of the bearer’s 肉搏 武器. Change the Rend characteristic of that w
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a266-960f-b5c5-45b6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="27d6-6886-b7fd-e754" name="Baleful Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="27d6-6886-b7fd-e754" name="Baleful Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first NULL MYRIAD 英雄 to receive an artefact of power must be given a Baleful Blade.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first NULL MYRIAD 英雄 to receive an 魔法道具 of power must be given a Baleful Blade.
 
 Pick 1 of the bearer’s 肉搏 武器. Do not make save rolls for attacks made with that weapon, and wounds inflicted by that weapon cannot be negated when they are allocated to a model (the wounds can be healed later in the battle).</characteristic>
               </characteristics>
@@ -3665,9 +3665,9 @@ Pick 1 of the bearer’s 肉搏 武器. Do not make save rolls for attacks made 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56ad-8636-6b0d-2480" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4a05-66d5-3ef7-d4da" name="Beastbone Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4a05-66d5-3ef7-d4da" name="Beastbone Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first IVORY HOST 英雄 to receive an artefact of power must be given a Beastbone Blade.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first IVORY HOST 英雄 to receive an 魔法道具 of power must be given a Beastbone Blade.
 
 Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Attacks characteristic of that weapon.</characteristic>
               </characteristics>
@@ -3695,9 +3695,9 @@ Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Attacks characteristic of t
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e37-7aff-89ee-ac90" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2e98-9ded-0894-6890" name="Godbone Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2e98-9ded-0894-6890" name="Godbone Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first PETRIFEX ELITE 英雄 to receive an artefact of power must be given Godbone Armour.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first PETRIFEX ELITE 英雄 to receive an 魔法道具 of power must be given Godbone Armour.
 
 The first wound allocated to the bearer in each phase is negated.</characteristic>
               </characteristics>
@@ -3725,9 +3725,9 @@ The first wound allocated to the bearer in each phase is negated.</characteristi
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e03d-0bb4-f42e-4df7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d36e-a7e9-b2a9-2cd8" name="Searing Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d36e-a7e9-b2a9-2cd8" name="Searing Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first CREMATORIANS 英雄 to receive an artefact of power must be given a Searing Blade.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first CREMATORIANS 英雄 to receive an 魔法道具 of power must be given a Searing Blade.
 
 Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
@@ -3760,9 +3760,9 @@ Pick 1 of the bearer’s 肉搏 武器. Add 1 to the Damage characteristic of th
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db9c-ee9e-5003-27cb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5c82-3cd6-99e0-e5a1" name="Nadir-bound Mount" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5c82-3cd6-99e0-e5a1" name="Nadir-bound Mount" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first STALLIARCH LORDS LIEGE to receive an artefact of power must be given a Nadir-bound Mount.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first STALLIARCH LORDS LIEGE to receive an 魔法道具 of power must be given a Nadir-bound Mount.
 
 You can roll D3 additional dice when this LIEGE uses their Unstoppable Charge ability.</characteristic>
               </characteristics>

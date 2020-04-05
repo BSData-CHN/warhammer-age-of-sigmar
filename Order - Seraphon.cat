@@ -103,7 +103,7 @@
     <categoryEntry id="3f68-596d-4abd-d26c" name="BOUND" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="7332-f387-438b-852c" name="Allegiance" hidden="false" collective="false" import="true" targetId="9392-2a0a-99ca-28fe" type="selectionEntry">
+    <entryLink id="7332-f387-438b-852c" name="势力" hidden="false" collective="false" import="true" targetId="9392-2a0a-99ca-28fe" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -258,7 +258,7 @@
         <categoryLink id="c323-04b8-77e4-dc4e" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="453a-c1b4-51fa-424d" name="Skink Priest" hidden="false" collective="false" import="true" targetId="d1f4-b364-c443-efad" type="selectionEntry">
+    <entryLink id="453a-c1b4-51fa-424d" name="Skink 祭司" hidden="false" collective="false" import="true" targetId="d1f4-b364-c443-efad" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7f17-e886-7926-20eb" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -549,19 +549,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9392-2a0a-99ca-28fe" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9392-2a0a-99ca-28fe" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dcab-3034-f776-022e" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="2769-f63b-fc02-fd64">
+        <selectionEntryGroup id="dcab-3034-f776-022e" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="2769-f63b-fc02-fd64">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2769-f63b-fc02-fd64" name="Allegiance: Seraphon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2769-f63b-fc02-fd64" name="势力: Seraphon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="5928-0e85-a9e8-db2e" name="The Great Drake" publicationId="3721-70d4-pubN65537" hidden="false" typeId="392b-293b-df9e-2f68" typeName="Secret Asterisms">
                   <characteristics>
@@ -608,7 +608,7 @@
                         </profile>
                         <profile id="7eee-d039-8d5c-aa9a" name="Celestial Conjuration" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can summon STARBORNE units to the battlefield if you collect enough celestian conjuration points (CCPs). At the start of your 英雄阶段 you receive D3 celestial conjuration points if your general is a SLANN or STARSEER and is on the battlefield, and D3 celestial conjuration points if there are one or more friendly SAURUS ASTROTLITH BEARERS on the battlefield.
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can summon STARBORNE units to the battlefield if you collect enough celestian conjuration points (CCPs). At the start of your 英雄阶段 you receive D3 celestial conjuration points if your 主将 is a SLANN or STARSEER and is on the battlefield, and D3 celestial conjuration points if there are one or more friendly SAURUS ASTROTLITH BEARERS on the battlefield.
 
 In addition, in your 英雄阶段, before attempting to cast the first 法术 with each friendly SLANN or ORACLE, you can say that it will carry out a celestial conjuration.  If you do so, you receive D3 celestial conjuration points but the number of spells which that model can attempt to cast in that phase is reduced by 1.
 
@@ -643,7 +643,7 @@ If you do so, remove that 单位 from the battlefield and then set it up on the 
                                 <characteristic name="CCP Cost" typeId="883c-d046-cdbb-9dce">6</characteristic>
                               </characteristics>
                             </profile>
-                            <profile id="e528-bf1a-8dd5-cb14" name="25) 1 Skink Priest" publicationId="3721-70d4-pubN65537" hidden="false" typeId="87af-8523-e104-0413" typeName="Starborne Summoned 单位">
+                            <profile id="e528-bf1a-8dd5-cb14" name="25) 1 Skink 祭司" publicationId="3721-70d4-pubN65537" hidden="false" typeId="87af-8523-e104-0413" typeName="Starborne Summoned 单位">
                               <characteristics>
                                 <characteristic name="CCP Cost" typeId="883c-d046-cdbb-9dce">10</characteristic>
                               </characteristics>
@@ -928,7 +928,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1819-5e57-783b-70d0" name="Allegiance: *Order*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1819-5e57-783b-70d0" name="势力: *Order*" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -1018,7 +1018,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc3-b14c-ae10-3c59" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="dfcf-22b0-9706-198e" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="dfcf-22b0-9706-198e" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="145b-3760-13cc-71f3" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="3e19-4db7-23ab-368f" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1122,7 +1122,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcdb-c4d8-3745-5a15" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e23d-12a1-77c1-062b" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="e23d-12a1-77c1-062b" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="0952-3074-16de-fa2e" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="0ed1-00f1-1c63-d376" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1130,7 +1130,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d1f4-b364-c443-efad" name="Skink Priest" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d1f4-b364-c443-efad" name="Skink 祭司" hidden="false" collective="false" import="true" type="单位">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
@@ -1168,7 +1168,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile id="863f-6c8c-77ce-d0d0" name="Skink Priest" publicationId="3721-70d4-pubN65537" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="863f-6c8c-77ce-d0d0" name="Skink 祭司" publicationId="3721-70d4-pubN65537" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -1184,7 +1184,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         <categoryLink id="7e2e-f6e2-7460-e9a8" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="9051-27aa-eb19-7df4" name="New CategoryLink" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="f447-d836-3818-5fc6" name="New CategoryLink" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
-        <categoryLink id="47d2-75de-a283-2d1e" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="47d2-75de-a283-2d1e" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="63cd-b0f7-62bd-06bf" name="Star-stone Staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -1233,7 +1233,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="acac-e8f0-69bb-9f61" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="acac-e8f0-69bb-9f61" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="202e-fe89-3e24-f6c9" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="31bd-167b-c4d8-db69" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1370,7 +1370,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
       </selectionEntries>
       <entryLinks>
         <entryLink id="4afd-0277-bf69-fbfd" name="SERAPHON 法术 Lore" hidden="false" collective="false" import="true" targetId="c399-a06c-720a-4bec" type="selectionEntryGroup"/>
-        <entryLink id="8f71-2152-91de-488a" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="8f71-2152-91de-488a" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="33fe-e0c2-b3a5-4827" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="bd3d-2170-6f77-d7a3" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1378,7 +1378,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbb4-b093-95c1-960d" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fbb4-b093-95c1-960d" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1395,7 +1395,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5286-1447-bf39-f5b5" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="aa83-dc86-69fe-4fcd" name="General" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
+        <categoryLink id="aa83-dc86-69fe-4fcd" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1410,7 +1410,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
         </profile>
         <profile id="0e97-cc10-ed1f-0e82" name="Power Unleashed" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, if this model is garrisoned by a friendly SERAPHON 法师 or friendly SERAPHON PRIEST, you can pick 1 terrain feature anywhere on the battlefield and roll a dice for each enemy 单位 within 3寸 of that terrain feature. Add 2 to the roll if that terrain feature is within 18寸 of this model, and subtract 2 from the roll if that terrainfeature is more than 36寸 from this model. On a 4+, that enemy 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, if this model is garrisoned by a friendly SERAPHON 法师 or friendly SERAPHON 祭司, you can pick 1 terrain feature anywhere on the battlefield and roll a dice for each enemy 单位 within 3寸 of that terrain feature. Add 2 to the roll if that terrain feature is within 18寸 of this model, and subtract 2 from the roll if that terrainfeature is more than 36寸 from this model. On a 4+, that enemy 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1520,7 +1520,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
       <categoryLinks>
         <categoryLink id="63bf-81a3-752f-a278" name="ETERNITY WARDEN" hidden="false" targetId="d067-6a41-5d7a-e68d" primary="false"/>
         <categoryLink id="c5bb-480d-ba1f-1c9d" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="fc6e-a249-f008-9bed" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="fc6e-a249-f008-9bed" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="a60e-b72c-87d6-f2bc" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
         <categoryLink id="4faa-1d00-c99b-d69e" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
       </categoryLinks>
@@ -1555,7 +1555,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2770-9862-0139-719b" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="68d3-850b-2e6e-2a4b" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="68d3-850b-2e6e-2a4b" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="f07c-761e-dc41-aed5" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="6a1e-3f9c-a594-fea7" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1618,7 +1618,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       </profiles>
       <categoryLinks>
         <categoryLink id="46e7-1693-982d-7c7a" name="CHAMELEON SKINKS" hidden="false" targetId="21c5-232a-57f2-0b96" primary="false"/>
-        <categoryLink id="8e46-5c6c-dc72-3760" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="8e46-5c6c-dc72-3760" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="08ac-bddf-be5e-9f73" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="01aa-879f-2331-72a0" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
       </categoryLinks>
@@ -1757,7 +1757,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       </profiles>
       <categoryLinks>
         <categoryLink id="b17f-d773-463f-1519" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="6085-3c41-7657-0884" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="6085-3c41-7657-0884" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="82c3-3d9e-5fb4-3315" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
         <categoryLink id="024b-a2d7-838d-0da7" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="5533-71e4-c3ad-1a55" name="SAURUS SUNBLOOD" hidden="false" targetId="6e2b-9f87-43b7-0a8d" primary="false"/>
@@ -1795,7 +1795,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </entryLink>
         <entryLink id="739e-a822-11b7-e716" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="3cfa-6d7f-1d8b-e244" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
-        <entryLink id="e11e-ae09-3682-dd03" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="e11e-ae09-3682-dd03" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130.0"/>
@@ -1839,7 +1839,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="6027-7a2f-a2d0-eafd" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="6027-7a2f-a2d0-eafd" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="eb9c-9782-4d63-5556" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="1a9d-a6ad-c584-b2cb" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="8292-c988-fce9-4d4e" name="SALAMANDERS" hidden="false" targetId="e8a1-25c1-0976-c3f7" primary="false"/>
@@ -2017,7 +2017,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink id="ce9e-71d4-321b-d3cf" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="ce9e-71d4-321b-d3cf" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="2132-7a0c-dc9b-2945" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="91e1-f150-60bf-361e" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="eae3-4ef2-53d8-bcaa" name="HUNTING PACK" hidden="false" targetId="9ad4-178f-49cc-2ec1" primary="false"/>
@@ -2182,7 +2182,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="3deb-de54-e41d-0c2d" name="Arcane Bolt" hidden="false" targetId="ae02-a84f-a903-1ff8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e392-69b3-f4d2-3896" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="e392-69b3-f4d2-3896" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="4ada-3cc1-4bde-bcbf" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="eacb-1b10-04b9-e94a" name="SLANN" hidden="false" targetId="ade8-71f6-c225-1090" primary="false"/>
         <categoryLink id="d48f-4ef4-1ade-7f70" name="STARMASTER" hidden="false" targetId="a960-67f1-35a1-77ca" primary="false"/>
@@ -2217,7 +2217,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <entryLink id="dcd6-ef38-d274-e3c0" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="3d4b-d3e0-aac4-9404" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="20b9-71eb-2cd2-07c8" name="SERAPHON 法术 Lore" hidden="false" collective="false" import="true" targetId="c399-a06c-720a-4bec" type="selectionEntryGroup"/>
-        <entryLink id="509f-c67d-392d-48e0" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="509f-c67d-392d-48e0" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="260.0"/>
@@ -2268,7 +2268,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="4b05-a27f-ab8c-b2b0" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="4b05-a27f-ab8c-b2b0" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="2e3b-be49-30ff-4450" name="KROXIGOR" hidden="false" targetId="1515-c894-3a1a-369f" primary="false"/>
         <categoryLink id="d3cf-96d6-8ff3-1ddc" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
       </categoryLinks>
@@ -2419,7 +2419,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="40f5-1323-b115-08f8" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="40f5-1323-b115-08f8" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="5c1d-614f-bed4-31fb" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="6461-5ac9-a522-69ee" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
         <categoryLink id="4aee-86b9-2211-7f7e" name="SAURUS WARRIORS" hidden="false" targetId="f756-9ddc-ec69-fc73" primary="false"/>
@@ -2722,11 +2722,11 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="4a04-f654-108b-5158" name="Terror" hidden="false" targetId="c644-2389-4ea6-c20a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="17c5-12b7-2200-d336" name="DAEMON" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
+        <categoryLink id="17c5-12b7-2200-d336" name="恶魔" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
         <categoryLink id="c342-e2a0-5df9-410f" name="CELESTIAL" hidden="false" targetId="ef15-e8e7-8069-3b74" primary="false"/>
         <categoryLink id="8650-1442-ca81-3ba1" name="DREAD SAURIAN" hidden="false" targetId="cf31-fafc-c454-2972" primary="false"/>
         <categoryLink id="4914-0eb3-b019-740b" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="41d0-4139-b1ed-7b74" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="41d0-4139-b1ed-7b74" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="fe7b-043a-8fa0-4a4e" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2879,7 +2879,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <profile id="7374-4dcb-f389-99b0" name="Celestial Deliverance" publicationId="3721-70d4-pubN65537" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7, 8, 9</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">The caster can attempt to cast this 法术 up to 3 times in the same 英雄阶段. It&apos;s cost increases with each attempted cast in the same phase. Each time this 法术 is successfully cast, pick up to 3 different enemy units within 10寸 of the caster and visible to them, and roll 1 dice for each 单位 you pick. On a 2+, that 单位 suffers D3 mortal wounds. If that 单位 is a CHAOS DAEMON 单位, on a 2+ it suffers 3 mortal wounds instead of D3 mortal wounds.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">The caster can attempt to cast this 法术 up to 3 times in the same 英雄阶段. It&apos;s cost increases with each attempted cast in the same phase. Each time this 法术 is successfully cast, pick up to 3 different enemy units within 10寸 of the caster and visible to them, and roll 1 dice for each 单位 you pick. On a 2+, that 单位 suffers D3 mortal wounds. If that 单位 is a 混沌 恶魔 单位, on a 2+ it suffers 3 mortal wounds instead of D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="ef69-c525-b492-93c2" name="Comet&apos;s Call" publicationId="3721-70d4-pubN65537" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -2898,7 +2898,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       <categoryLinks>
         <categoryLink id="fe35-8ef7-0018-50a7" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="c508-0d88-c4b7-7dd1" name="LORD KROAK" hidden="false" targetId="7475-491d-ae33-f513" primary="false"/>
-        <categoryLink id="d27e-330b-b113-2fc0" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="d27e-330b-b113-2fc0" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="b2c7-d4fa-2d90-24ee" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="e43c-89a8-80f7-9173" name="SLANN" hidden="false" targetId="ade8-71f6-c225-1090" primary="false"/>
         <categoryLink id="a95f-545d-b98e-38c1" name="STARMASTER" hidden="false" targetId="a960-67f1-35a1-77ca" primary="false"/>
@@ -2934,7 +2934,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1f35-2096-418c-1336" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="1f35-2096-418c-1336" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="10f2-b8b9-0e89-07bc" name="SERAPHON 法术 Lore" hidden="false" collective="false" import="true" targetId="c399-a06c-720a-4bec" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -3076,7 +3076,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       <categoryLinks>
         <categoryLink id="c999-d91f-6fea-20ae" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="63f8-22e7-e207-c2a8" name="ORACLE" hidden="false" targetId="f9ee-a3c8-06f4-422f" primary="false"/>
-        <categoryLink id="673b-7419-e2c2-8b1b" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="673b-7419-e2c2-8b1b" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="4eae-c861-2a34-4562" name="TROGLODON" hidden="false" targetId="48a5-8a1e-a3c7-5b5f" primary="false"/>
         <categoryLink id="3985-f3e4-7158-63ee" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="ef76-d4e0-388e-fef4" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
@@ -3170,7 +3170,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
           </constraints>
         </entryLink>
         <entryLink id="7ec8-28ee-737a-472e" name="SERAPHON 法术 Lore" hidden="false" collective="false" import="true" targetId="c399-a06c-720a-4bec" type="selectionEntryGroup"/>
-        <entryLink id="4950-01db-131d-1e3b" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="4950-01db-131d-1e3b" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="4a25-006a-a853-4056" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="0284-42bc-e419-85bb" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
       </entryLinks>
@@ -3352,7 +3352,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <categoryLink id="254f-41f8-eb01-c042" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="4e4f-400b-fb3e-3d3d" name="STEGADON" hidden="false" targetId="c5c6-2fef-106b-bb33" primary="false"/>
         <categoryLink id="337b-026d-ef4c-4f2a" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="8e0d-657b-dfc9-264b" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="8e0d-657b-dfc9-264b" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ad09-c074-7249-0876" name="Crew 武器" hidden="false" collective="false" import="true">
@@ -3523,7 +3523,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0125-2d1a-1ef0-9256" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="747b-ad58-9894-b377" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="747b-ad58-9894-b377" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="bbec-868f-f8c5-ae4a" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
         <categoryLink id="8086-85c8-c8bf-de8e" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="5026-76c4-26db-bec8" name="OLDBLOOD" hidden="false" targetId="5480-5806-43c4-b74e" primary="false"/>
@@ -3583,7 +3583,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06be-ff5c-cfff-dd6e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="7f49-f649-b697-44f9" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="7f49-f649-b697-44f9" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="700e-6c9d-2b6c-e805" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="6a26-b7e1-249e-6f4e" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -3665,7 +3665,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="aa78-9192-13df-09cf" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="04fe-b215-2e82-044b" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="04fe-b215-2e82-044b" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="efdb-194a-1c5a-b6da" name="RIPPERDACTYL" hidden="false" targetId="a50e-f248-996b-5e66" primary="false"/>
         <categoryLink id="1af0-23b6-4b99-d1c3" name="RIPPERDACTYL CHIEF" hidden="false" targetId="4850-3280-b2bf-8265" primary="false"/>
         <categoryLink id="f46d-9fcf-34e6-04f0" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
@@ -3708,7 +3708,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aea3-313b-09b1-4ec0" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3109-aed4-051d-fa82" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="3109-aed4-051d-fa82" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="315c-d6a9-0b68-3c53" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="3fb1-3e2b-8bf6-c6d6" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -3757,7 +3757,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="5888-c0f7-3380-f28f" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7eda-b164-d550-a2c5" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="7eda-b164-d550-a2c5" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="6ea6-6c61-69ac-8c42" name="RIPPERDACTYL" hidden="false" targetId="a50e-f248-996b-5e66" primary="false"/>
         <categoryLink id="f3de-41f8-1029-cb83" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="244e-4dae-5073-bdda" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
@@ -3962,7 +3962,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="063c-c026-6e36-8501" name="Steadfast Majesty" hidden="false" targetId="2692-1503-9f5a-f250" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="de9b-0ad3-da8f-f8e0" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="de9b-0ad3-da8f-f8e0" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="4c85-57a8-d9ba-03e5" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="9bd4-e59b-e91c-26b8" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="e6a6-bea2-22b7-ee2b" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
@@ -4038,7 +4038,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b54b-6d2e-ad21-87cc" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d24b-a6ec-9b84-d95a" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="d24b-a6ec-9b84-d95a" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="53c5-33cc-4c68-82cc" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="d8e2-3434-9501-1d19" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4129,7 +4129,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ba5f-9ac7-11e3-f26c" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="ba5f-9ac7-11e3-f26c" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="5757-fc97-c9af-2664" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="e429-0cf5-df96-db68" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="c79b-3591-99fe-cc26" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
@@ -4210,7 +4210,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
                 </profile>
                 <profile id="98ba-b559-818d-4562" name="Light of the Heavens" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the damage inflicted by each successful attack made with a Solar Engine that targets a CHAOS DAEMON 单位.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the damage inflicted by each successful attack made with a Solar Engine that targets a 混沌 恶魔 单位.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4281,7 +4281,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="72fa-a9d8-7069-acdb" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="deb9-57ff-9847-37e8" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="deb9-57ff-9847-37e8" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="4852-0341-59e6-8844" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="7028-7739-9275-efb3" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="7b15-578e-43fc-2b9d" name="TERRADON RIDERS" hidden="false" targetId="30c4-fc8b-6d15-ca52" primary="false"/>
@@ -4468,7 +4468,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="0b91-0586-5720-cda6" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c9b1-be2b-0c15-79a7" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="c9b1-be2b-0c15-79a7" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="4ef8-91a6-2e89-3bd1" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="ad45-442f-8114-76f4" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="8e9a-5239-9896-499e" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
@@ -4506,7 +4506,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5179-711c-09b2-ee90" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f609-b847-0817-7f59" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="f609-b847-0817-7f59" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="c250-80b4-ef1e-e277" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="cbc0-92c8-7197-931b" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -4559,7 +4559,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="687c-425b-63fd-e9fb" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="687c-425b-63fd-e9fb" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="85f3-a9f1-a8b9-289b" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="30b0-f536-6adb-4ef6" name="SAURUS GUARD" hidden="false" targetId="ddde-e76e-3c6b-54fe" primary="false"/>
         <categoryLink id="d30b-9725-6040-c8e8" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
@@ -4732,7 +4732,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         <infoLink id="4600-351a-f689-84f1" name="Arcane Bolt" hidden="false" targetId="ae02-a84f-a903-1ff8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2b1a-6c60-6e23-8444" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="2b1a-6c60-6e23-8444" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="2454-240f-7cab-ee88" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="ad26-1656-cee3-daad" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="b99f-6fbd-8249-2ddb" name="STARSEER" hidden="false" targetId="c439-a158-7052-397a" primary="false"/>
@@ -4791,7 +4791,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="8dbd-5e6c-8389-25d9" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="8dbd-5e6c-8389-25d9" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="91ae-f44d-b184-6bd9" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="6537-61c3-717c-e30d" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="48bb-9cda-87aa-2fc8" name="SERAPHON 法术 Lore" hidden="false" collective="false" import="true" targetId="c399-a06c-720a-4bec" type="selectionEntryGroup"/>
@@ -4845,7 +4845,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="63ab-02db-f275-5084" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="63ab-02db-f275-5084" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="8562-7f8c-2852-b68c" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="1304-2ea2-83a5-227a" name="SKINKS" hidden="false" targetId="6ce0-e41c-2ab2-ab31" primary="false"/>
       </categoryLinks>
@@ -5061,7 +5061,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       </modifierGroups>
       <categoryLinks>
         <categoryLink id="c693-a8ea-80d1-cad9" name="COLD ONE" hidden="false" targetId="01f5-8180-27e5-ac6a" primary="false"/>
-        <categoryLink id="72b9-aef6-a6da-253f" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="72b9-aef6-a6da-253f" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="fe90-f199-da42-cfee" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="43b2-3107-f26c-a42a" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
         <categoryLink id="60aa-b269-15a3-3cbe" name="SAURUS KNIGHTS" hidden="false" targetId="e9eb-dbeb-0763-e765" primary="false"/>
@@ -5345,7 +5345,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       <categoryLinks>
         <categoryLink id="cd10-2274-59fc-743e" name="CARNOSAUR" hidden="false" targetId="d19f-2f5b-fa67-a926" primary="false"/>
         <categoryLink id="4695-3123-6375-ba43" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="968b-d464-89f9-c54e" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="968b-d464-89f9-c54e" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="3ce8-656c-b26d-7029" name="OLDBLOOD" hidden="false" targetId="5480-5806-43c4-b74e" primary="false"/>
         <categoryLink id="1cf7-db49-7544-50c8" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="05a7-9a8b-722a-8020" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
@@ -5371,7 +5371,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
             </profile>
             <profile id="7265-1fc2-ac31-6eb7" name="Blazing Sunbolts" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made with a Sunbolt Gauntlet if the target is a CHAOS DAEMON 单位.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made with a Sunbolt Gauntlet if the target is a 混沌 恶魔 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5417,7 +5417,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
         </entryLink>
         <entryLink id="2994-3029-aa6a-7500" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="1045-1170-7335-dc5c" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
-        <entryLink id="d8bc-65d3-fc0c-10cf" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="d8bc-65d3-fc0c-10cf" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="250.0"/>
@@ -5514,7 +5514,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       <categoryLinks>
         <categoryLink id="0480-c3e2-2a04-0634" name="CARNOSAUR" hidden="false" targetId="d19f-2f5b-fa67-a926" primary="false"/>
         <categoryLink id="fcfe-4f17-28fe-60d1" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="22a5-65a9-2794-ecd2" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="22a5-65a9-2794-ecd2" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="dc1a-c8b0-3d01-3502" name="SERAPHON" hidden="false" targetId="461d-c7cb-74f1-84e8" primary="false"/>
         <categoryLink id="e28f-0660-7f2d-e21b" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="22d5-2535-3944-a0d8" name="SAURUS" hidden="false" targetId="8ed5-c845-09e2-7ebd" primary="false"/>
@@ -5558,7 +5558,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="723e-a6fe-646a-718f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="737a-e042-5639-0ab7" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="737a-e042-5639-0ab7" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="e61d-30b4-e4c5-bcd4" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
         <entryLink id="60cc-15be-a9da-15fd" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -5853,7 +5853,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
       <profiles>
         <profile id="fb42-0e74-ebf1-1282" name="The Trap is Sprung" publicationId="3721-70d4-pubN65537" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄阶段, pick 1 enemy 单位 that is visible to the STARPRIEST or PRIEST from this 阵型. Until your next 英雄阶段, add 1 to hit rolls for attacks made by units from this 阵型 that target that 单位.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">In your 英雄阶段, pick 1 enemy 单位 that is visible to the STARPRIEST or 祭司 from this 阵型. Until your next 英雄阶段, add 1 to hit rolls for attacks made by units from this 阵型 that target that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5893,7 +5893,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4633-5baa-c609-f93f" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3074-9a76-ab93-ea15" name="Skink Priest" hidden="false" collective="false" import="true" targetId="d1f4-b364-c443-efad" type="selectionEntry">
+            <entryLink id="3074-9a76-ab93-ea15" name="Skink 祭司" hidden="false" collective="false" import="true" targetId="d1f4-b364-c443-efad" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a62f-c8fd-a97a-62c6" type="max"/>
               </constraints>
@@ -6099,7 +6099,7 @@ Any reserve units that are in hiding and not on the battlefield at the start of 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="935c-3ca9-dfb4-00be" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7a14-a1c3-2d5f-3806" name="Skink Priest" hidden="false" collective="false" import="true" targetId="d1f4-b364-c443-efad" type="selectionEntry">
+            <entryLink id="7a14-a1c3-2d5f-3806" name="Skink 祭司" hidden="false" collective="false" import="true" targetId="d1f4-b364-c443-efad" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e7-ff0c-ac0d-c01e" type="max"/>
               </constraints>
@@ -6633,7 +6633,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="fb69-76b4-683e-f104" name="Dancing Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6寸 of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a CHAOS 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6寸 of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a 混沌 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f7e-356c-fb46-eb53" name="Empowered by Chamon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -6935,7 +6935,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <categoryLink id="6390-e0b6-b438-230e" name="SKINK" hidden="false" targetId="23b5-63b2-a761-9206" primary="false"/>
         <categoryLink id="e9cb-26a9-6ee6-0f0e" name="STEGADON" hidden="false" targetId="c5c6-2fef-106b-bb33" primary="false"/>
         <categoryLink id="6e1c-b599-d73e-1dbe" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="147c-38b5-235c-64eb" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="147c-38b5-235c-64eb" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="ed94-ed2a-b28a-4445" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -7007,7 +7007,7 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1225-3d4e-b256-9e33" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fb2c-f431-30a6-4b96" name="General" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
+        <entryLink id="fb2c-f431-30a6-4b96" name="主将" hidden="false" collective="false" import="true" targetId="fbb4-b093-95c1-960d" type="selectionEntry"/>
         <entryLink id="5949-1fda-a3c9-a343" name="Command Traits" hidden="false" collective="false" import="true" targetId="8a79-08b7-b5a2-10bf" type="selectionEntryGroup"/>
         <entryLink id="6a9f-cbc4-96de-3fbc" name="Artefacts" hidden="false" collective="false" import="true" targetId="6609-c18e-96b3-a440" type="selectionEntryGroup"/>
       </entryLinks>
@@ -7097,7 +7097,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="15df-040f-2ce7-76c3" name="Arcane Might" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll one casting, unbinding or dispelling roll for this general each 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll one casting, unbinding or dispelling roll for this 主将 each 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7112,7 +7112,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3303-ca73-9d18-6f40" name="Vast Intellect" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra 法术 from the Lore of Celestial Domination.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of Celestial Domination.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7127,7 +7127,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="8314-816b-e36b-a34b" name="Great Rememberer" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army and is on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+ you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and is on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+ you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7162,7 +7162,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d4ee-c960-d313-b8b9" name="Ancient Knowledge" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra 法术 from the Lore of Celestial Domination. In addition, you can re-roll 1 casting, dispelling, or unbinding roll for this general each 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of Celestial Domination. In addition, you can re-roll 1 casting, dispelling, or unbinding roll for this 主将 each 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7196,7 +7196,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="f32d-d8fa-3ba9-a06b" name="Disciplined Fury" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for attacks made with 肉搏 武器 by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for attacks made with 肉搏 武器 by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7211,7 +7211,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="4151-bd83-4ea5-1995" name="Thickly Scaled Hide" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7226,7 +7226,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="6de0-a2a1-2cc9-fddc" name="Mighty Warleader" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7260,7 +7260,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="59b0-bcd3-e1fa-6fb4" name="Old and Grizzled" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 3+, you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 3+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7294,7 +7294,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="33e9-d6ca-ea9a-31e8" name="Dominant Predator" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time this general is used to issue a command to a friendly KOATL&apos;S CLAW SAURUS 单位. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time this 主将 is used to issue a command to a friendly KOATL&apos;S CLAW SAURUS 单位. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7328,7 +7328,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="e521-2c45-c63c-d917" name="Master of Star Rituals" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this general if they are a 法师. If they are not a 法师, then once per battle round, they can use the Herald of the Old Ones command ability from the Skink Priest warscroll without a command point being spent.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this 主将 if they are a 法师. If they are not a 法师, then once per battle round, they can use the Herald of the Old Ones command ability from the Skink 祭司 warscroll without a command point being spent.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7354,7 +7354,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="571d-7fe7-39ef-9c76" name="Nimble" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1寸 to this general&apos;s Move characteristic, and add 1 to save rolls for attacks that target them.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1寸 to this 主将&apos;s Move characteristic, and add 1 to save rolls for attacks that target them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7369,7 +7369,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="d99a-3f3c-bcdb-d70b" name="Cunning" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of this general and roll a dice. On a 4+ that enemy 英雄 suffers 1 mortal wound.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of this 主将 and roll a dice. On a 4+ that enemy 英雄 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7401,9 +7401,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70a1-ed45-4329-7b1d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f9e7-7c54-ba53-4b1b" name="Zoetic Dial" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f9e7-7c54-ba53-4b1b" name="Zoetic Dial" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">After set-up is complete but before the battle begins, secretly record the number of a battle round. At the start of that battle round, reveal the information and then heal all wounds allocated to the bearer. In addition, during that battle round, you can re-roll save rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">After set-up is complete but before the battle begins, secretly record the number of a battle round. At the start of that battle round, reveal the information and then heal all wounds allocated to the bearer. In addition, during that battle round, you can re-roll save rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7416,9 +7416,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e989-5697-c024-f24b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="152d-2f0c-d9d9-3716" name="Light of Dracothian" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="152d-2f0c-d9d9-3716" name="Light of Dracothian" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, you can automatically unbind 1 法术 cast by an enemy 法师 within 15寸 of the bearer, or automatically dispel 1 endless 法术 within 15寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, you can automatically unbind 1 法术 cast by an enemy 法师 within 15寸 of the bearer, or automatically dispel 1 endless 法术 within 15寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7431,9 +7431,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae2f-3c11-a1f5-7bf5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2857-911b-2300-80d8" name="Itxi Grubs" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2857-911b-2300-80d8" name="Itxi Grubs" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of each 英雄阶段, you can heal 1 wound allocated to the bearer. In addition, in your 英雄阶段 you can re-roll 1 casting or dispelling roll for the bearer, and in the enemy 英雄阶段 you can re-roll 1 unbinding roll for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of each 英雄阶段, you can heal 1 wound allocated to the bearer. In addition, in your 英雄阶段 you can re-roll 1 casting or dispelling roll for the bearer, and in the enemy 英雄阶段 you can re-roll 1 unbinding roll for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7446,9 +7446,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="624e-0aec-82c0-1faf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9b06-0c2a-36d8-fa37" name="Prism of Amyntok" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9b06-0c2a-36d8-fa37" name="Prism of Amyntok" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, pick 1 enemy 单位 within 12寸 of the bearer and roll a dice. On a 1, that 单位 suffers 1 mortal wound. On a 2-5, that 单位 suffers D3 mortal wounds. On a 6, that 单位 suffers D6 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, pick 1 enemy 单位 within 12寸 of the bearer and roll a dice. On a 1, that 单位 suffers 1 mortal wound. On a 2-5, that 单位 suffers D3 mortal wounds. On a 6, that 单位 suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7461,9 +7461,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e572-a302-023e-8963" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ea53-1cd6-303d-d860" name="Plaque of Dominion" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ea53-1cd6-303d-d860" name="Plaque of Dominion" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick 1 enemy 英雄 within 12寸 of the bearer and visible to them. Until your next 英雄阶段, that 英雄 fights at the end of the combat phase In addition, if that 英雄 is a 法师, until your next 英雄阶段, subtract 1 from casting, dispelling, and unbinding rolls for that 英雄.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick 1 enemy 英雄 within 12寸 of the bearer and visible to them. Until your next 英雄阶段, that 英雄 fights at the end of the combat phase In addition, if that 英雄 is a 法师, until your next 英雄阶段, subtract 1 from casting, dispelling, and unbinding rolls for that 英雄.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7476,9 +7476,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a2ff-59c2-370e-690b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2b7c-4830-1ca0-a023" name="Throne of the Lost Gods" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2b7c-4830-1ca0-a023" name="Throne of the Lost Gods" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 4寸 to the bearer&apos;s Move characteristic and add 1 to the bearer&apos;s Wounds characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 4寸 to the bearer&apos;s Move characteristic and add 1 to the bearer&apos;s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7536,9 +7536,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b24c-21d1-94a1-177f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c5ed-0426-32cd-6e29" name="Blade of Realities" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c5ed-0426-32cd-6e29" name="Blade of Realities" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. Improve the Red characteristic of that weapon by 1. In addition, add 1 to the damage inflicted by each successful attack made with that weapon that targets a 英雄.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. Improve the Red characteristic of that weapon by 1. In addition, add 1 to the damage inflicted by each successful attack made with that weapon that targets a 英雄.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7551,9 +7551,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8170-49a6-0dfb-2dd8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6a44-3e2c-a520-6575" name="Bloodrage Pendant" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6a44-3e2c-a520-6575" name="Bloodrage Pendant" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Attacks characteristic of the bearer&apos;s 肉搏 武器 if the number of wounds allocated to the bearer is equal to or greater than half of the bearer&apos;s Wounds characteristic (rounding up).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Attacks characteristic of the bearer&apos;s 肉搏 武器 if the number of wounds allocated to the bearer is equal to or greater than half of the bearer&apos;s Wounds characteristic (rounding up).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7566,9 +7566,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="321d-12f2-41c9-9d5e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6a23-8a56-b448-c373" name="Sigils of the Prime Hunter" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6a23-8a56-b448-c373" name="Sigils of the Prime Hunter" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer fights, after all of the bearer&apos;s attacks have been resolved., you can pick 1 enemy 单位 within 1寸 of the bearer and roll a dice. On a 1, nothing happens. On a 2-5, that enemy 单位 suffers 1 mortal wound. On a 6, that enemy 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer fights, after all of the bearer&apos;s attacks have been resolved., you can pick 1 enemy 单位 within 1寸 of the bearer and roll a dice. On a 1, nothing happens. On a 2-5, that enemy 单位 suffers 1 mortal wound. On a 6, that enemy 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7600,9 +7600,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="029b-7f9b-271c-cd69" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ee8a-2ff2-8cba-c97c" name="Incandescent Rectrices" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ee8a-2ff2-8cba-c97c" name="Incandescent Rectrices" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1-3, the bearer is slain. On a 4-6, the bearer is not slain, all wounds allocated to them are healed, and any wounds that currently remain to be allocated to them are ignored.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1-3, the bearer is slain. On a 4-6, the bearer is not slain, all wounds allocated to them are healed, and any wounds that currently remain to be allocated to them are ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7615,9 +7615,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2de9-bb6b-ea7b-5cf7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2830-d9ba-6f2d-2f4f" name="Sacred Stegadon Helm" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2830-d9ba-6f2d-2f4f" name="Sacred Stegadon Helm" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer. In addition, add 1 to the Damage characteristic of 肉搏 武器 used by the bearer if they made a charge move in the same turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer. In addition, add 1 to the Damage characteristic of 肉搏 武器 used by the bearer if they made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7630,9 +7630,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0fe5-845c-173c-c478" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6e9b-21d6-3477-9bba" name="Cloak of Feathers" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6e9b-21d6-3477-9bba" name="Cloak of Feathers" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 4寸 to the bearer&apos;s Move characteristic, and the bearer can fly.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 4寸 to the bearer&apos;s Move characteristic, and the bearer can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7704,7 +7704,7 @@ to set up the 法师, then the 法师 is slain.</描述>
             <profile id="afa2-6e0b-3cd6-52f0" name="Mystical Unforging" publicationId="3721-70d4-pubN65537" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 英雄 that bears an artefact of power within 12寸 of the caster and visible to them.  That 英雄 suffers D3 mortal wounds, and you must roll a dice.  On a 5+ that 英雄 no longer bears that artefact of power (if a weapon was picked when it was selected, the weapon reverts to normal).</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 英雄 that bears an 魔法道具 of power within 12寸 of the caster and visible to them.  That 英雄 suffers D3 mortal wounds, and you must roll a dice.  On a 5+ that 英雄 no longer bears that 魔法道具 of power (if a weapon was picked when it was selected, the weapon reverts to normal).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7931,9 +7931,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="2de2-d285-d8c4-3e3d" name="Godbeast Pendant" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2de2-d285-d8c4-3e3d" name="Godbeast Pendant" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1-3, the bearer is slain. On a 4-6, the bearer is not slain, all wounds allocated to them are healed, and any wounds that currently remain to be allocated are ignored.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1-3, the bearer is slain. On a 4-6, the bearer is not slain, all wounds allocated to them are healed, and any wounds that currently remain to be allocated are ignored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7950,9 +7950,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="8317-f752-931b-768c" name="Eviscerating Blade" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8317-f752-931b-768c" name="Eviscerating Blade" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon is 6, that attack inflicts 2 mortal wounds on the target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. If the unmodified hit roll for an attack made with that weapon is 6, that attack inflicts 2 mortal wounds on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7969,9 +7969,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="71ec-74b6-3507-168a" name="Fusil of Conflagration" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="71ec-74b6-3507-168a" name="Fusil of Conflagration" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick 1 enemy 单位 within 12寸 of the bearer and visible to them and roll a dice. On a 1 this artefact cannot be used again for the rest of the battle. On a 2-3 nothing happens. On a 4-5 that enemy 单位 suffers D3 mortal wounds. On a 6 that enemy 单位 suffers D6 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick 1 enemy 单位 within 12寸 of the bearer and visible to them and roll a dice. On a 1 this 魔法道具 cannot be used again for the rest of the battle. On a 2-3 nothing happens. On a 4-5 that enemy 单位 suffers D3 mortal wounds. On a 6 that enemy 单位 suffers D6 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7988,9 +7988,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="8070-9280-47e7-2cb0" name="Serpent God Dagger" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8070-9280-47e7-2cb0" name="Serpent God Dagger" publicationId="3721-70d4-pubN65537" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. At the end of any phase, if any wounds inflicted by that weapon in that phase were allocated to an enemy model and not negated, and that enemy model has not been slain, roll a dice. On a 5+ that model is slain.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器. At the end of any phase, if any wounds inflicted by that weapon in that phase were allocated to an enemy model and not negated, and that enemy model has not been slain, roll a dice. On a 5+ that model is slain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8043,7 +8043,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3952-4874-0d83-0be4" name="Prime Warbeast" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of the 武器 used by this general&apos;s mount.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of the 武器 used by this 主将&apos;s mount.</characteristic>
               </characteristics>
             </profile>
           </profiles>

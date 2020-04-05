@@ -14,11 +14,11 @@
     <categoryEntry id="dfba-040a-ada3-e57c" name="GARGANT" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="4ab3-fafa-f7de-b92b" name="Allegiance" hidden="false" collective="false" import="true" targetId="2f91-9611-8853-7db7" type="selectionEntry"/>
+    <entryLink id="4ab3-fafa-f7de-b92b" name="势力" hidden="false" collective="false" import="true" targetId="2f91-9611-8853-7db7" type="selectionEntry"/>
     <entryLink id="15da-7d59-c7ef-2857" name="Aleguzzler Gargant" hidden="false" collective="false" import="true" targetId="e082-bfe0-59e5-9958" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="0f6f-eae6-3f0a-6cc8" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0f6f-eae6-3f0a-6cc8" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -40,7 +40,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f91-9611-8853-7db7" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2f91-9611-8853-7db7" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="077b-d74e-1498-5dd5" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679f-4285-6fe6-3398" type="min"/>
@@ -52,7 +52,7 @@
         <categoryLink id="0927-2c25-903f-3be1" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1251-7666-9c37-5a18" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="587f-c03e-aeac-eecb">
+        <selectionEntryGroup id="1251-7666-9c37-5a18" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="587f-c03e-aeac-eecb">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8638-4769-555e-caf5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="61f8-4712-d7a6-2087" type="max"/>

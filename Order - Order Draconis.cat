@@ -11,7 +11,7 @@
     <categoryEntry id="9078-4e14-1863-dbce" name="DRAGON NOBLE" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="9e0e-2cc9-1c3f-4646" name="Allegiance" hidden="false" collective="false" import="true" targetId="e898-910a-21b4-41e3" type="selectionEntry">
+    <entryLink id="9e0e-2cc9-1c3f-4646" name="势力" hidden="false" collective="false" import="true" targetId="e898-910a-21b4-41e3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -330,7 +330,7 @@
               <profiles>
                 <profile id="e689-7f24-248b-3624" name="Phoenix Banner" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Noble with a Phoenix Banner gains the TOTEM keyword.  You can re-roll any dice when determining the charge distance for ORDER DRACONIS units from your army if they are within 16寸 of this model when they charge.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Noble with a Phoenix Banner gains the 图腾 keyword.  You can re-roll any dice when determining the charge distance for ORDER DRACONIS units from your army if they are within 16寸 of this model when they charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -372,7 +372,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1412-ca89-e5e6-7a91" name="General" hidden="false" collective="false" import="true" targetId="fdeb-2ff7-c779-257d" type="selectionEntry"/>
+        <entryLink id="1412-ca89-e5e6-7a91" name="主将" hidden="false" collective="false" import="true" targetId="fdeb-2ff7-c779-257d" type="selectionEntry"/>
         <entryLink id="1b45-7355-a1fc-dcca" name="Artefacts" hidden="false" collective="false" import="true" targetId="48e0-74ab-5f7e-6792" type="selectionEntryGroup"/>
         <entryLink id="3f6a-7d8a-d566-11b1" name="Command Traits" hidden="false" collective="false" import="true" targetId="d7f4-40d6-aa3d-1da5" type="selectionEntryGroup"/>
       </entryLinks>
@@ -609,7 +609,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e420-c9f7-a7f3-550d" name="General" hidden="false" collective="false" import="true" targetId="fdeb-2ff7-c779-257d" type="selectionEntry"/>
+        <entryLink id="e420-c9f7-a7f3-550d" name="主将" hidden="false" collective="false" import="true" targetId="fdeb-2ff7-c779-257d" type="selectionEntry"/>
         <entryLink id="2969-e91e-d095-9d68" name="Artefacts" hidden="false" collective="false" import="true" targetId="48e0-74ab-5f7e-6792" type="selectionEntryGroup"/>
         <entryLink id="30cd-bbac-bd69-9e47" name="Command Traits" hidden="false" collective="false" import="true" targetId="d7f4-40d6-aa3d-1da5" type="selectionEntryGroup"/>
       </entryLinks>
@@ -617,19 +617,19 @@
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e898-910a-21b4-41e3" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e898-910a-21b4-41e3" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c21e-074f-3045-ecd1" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="30a7-d190-1a28-ab9c" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9735-73b7-61e1-2e20" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="a664-a69b-93ed-5579">
+        <selectionEntryGroup id="9735-73b7-61e1-2e20" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="a664-a69b-93ed-5579">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a02-8280-5be8-0c8f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbfa-5ce8-5425-6fb3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c4b0-d4e3-f904-00bd" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c4b0-d4e3-f904-00bd" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="aa46-7893-db8c-88eb" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -641,7 +641,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a664-a69b-93ed-5579" name="Allegiance: Order Draconis" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a664-a69b-93ed-5579" name="势力: Order Draconis" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="c6f4-4a11-eadf-5dd4" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -660,7 +660,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fdeb-2ff7-c779-257d" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fdeb-2ff7-c779-257d" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>

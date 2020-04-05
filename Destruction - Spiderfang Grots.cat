@@ -29,7 +29,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="d850-d9b0-684b-9f3a" name="Destruction" hidden="false"/>
+    <categoryEntry id="d850-d9b0-684b-9f3a" name="毁灭" hidden="false"/>
     <categoryEntry id="f643-013c-7718-007d" name="Orruk" hidden="false"/>
     <categoryEntry id="748c-7ab7-fb11-16a9" name="Ironjawz" hidden="false"/>
     <categoryEntry id="03eb-456f-dd6c-7024" name="Ardboys" hidden="false"/>
@@ -47,7 +47,7 @@
     <categoryEntry id="0967-e07d-94a5-a722" name="Firebelly" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="fc4d-9292-0908-041e" name="Allegiance" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="fc4d-9292-0908-041e" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -113,7 +113,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90f3-ff30-03f1-7656" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="089d-0124-ca4f-8bb9" type="min"/>
@@ -125,7 +125,7 @@
         <categoryLink id="58cb-035e-421d-d749" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="db37-22b2-39f5-f49e">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="db37-22b2-39f5-f49e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -191,7 +191,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink id="9607-6675-ef11-cc08" name="General" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
+        <entryLink id="9607-6675-ef11-cc08" name="主将" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
         <entryLink id="f47d-35b6-a75d-d56d" name="Artefacts" hidden="false" collective="false" import="true" targetId="fdcb-7832-46a4-e9b6" type="selectionEntryGroup"/>
         <entryLink id="c4b7-a0d6-480d-f435" name="Command Traits" hidden="false" collective="false" import="true" targetId="2fb3-b280-7281-037c" type="selectionEntryGroup"/>
         <entryLink id="1e33-688e-bd30-4657" name="ARACHNAROK 武器" hidden="false" collective="false" import="true" targetId="e266-81a4-1c3a-927b" type="selectionEntry"/>
@@ -269,7 +269,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="bf6b-1ad7-39d6-b71e" name="General" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
+        <entryLink id="bf6b-1ad7-39d6-b71e" name="主将" hidden="false" collective="false" import="true" targetId="d7dd-acbb-a8db-2fe5" type="selectionEntry"/>
         <entryLink id="952e-c256-7fdd-72ff" name="Artefacts" hidden="false" collective="false" import="true" targetId="fdcb-7832-46a4-e9b6" type="selectionEntryGroup"/>
         <entryLink id="6731-86a6-e42a-3b9f" name="Command Traits" hidden="false" collective="false" import="true" targetId="2fb3-b280-7281-037c" type="selectionEntryGroup"/>
       </entryLinks>
@@ -426,7 +426,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7dd-acbb-a8db-2fe5" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7dd-acbb-a8db-2fe5" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>

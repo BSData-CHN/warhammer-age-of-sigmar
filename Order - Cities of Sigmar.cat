@@ -6,7 +6,7 @@
   </publications>
   <categoryEntries>
     <categoryEntry id="2e31-b1a1-10c7-22d4" name="GRIFFON" hidden="false"/>
-    <categoryEntry id="f04c-3520-c73d-898e" name="FREEGUILD GENERAL" hidden="false"/>
+    <categoryEntry id="f04c-3520-c73d-898e" name="FREEGUILD 主将" hidden="false"/>
     <categoryEntry id="2308-7db2-829e-94b3" name="HUMAN" hidden="false"/>
     <categoryEntry id="33e5-4f6f-37f4-c882" name="FREEGUILD" hidden="false"/>
     <categoryEntry id="0770-8b87-2d6f-7fe2" name="DEMIGRYPH KNIGHTS" hidden="false"/>
@@ -71,7 +71,7 @@
     <categoryEntry id="f12b-14b1-eff9-c3cc" name="WILD RIDERS" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="0db5-b074-ea11-2661" name="Cities of Sigmar Pitched Battle" hidden="true">
+    <forceEntry id="0db5-b074-ea11-2661" name="Cities of Sigmar 竞技模式" hidden="true">
       <modifiers>
         <modifier type="set" field="c615-652b-2fb4-53ba" value="1000.0">
           <conditions>
@@ -261,9 +261,9 @@
         </categoryLink>
         <categoryLink id="9611-1ba7-299f-10ea" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="false"/>
         <categoryLink id="09f9-4631-f2f4-2dd8" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="false"/>
-        <categoryLink id="d576-9a07-f443-38e5" name="General" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
-        <categoryLink id="9d0a-babd-ff5d-2ac8" name="Artefact" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
-        <categoryLink id="761d-923c-f9fd-6b8d" name="Allegiance" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
+        <categoryLink id="d576-9a07-f443-38e5" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
+        <categoryLink id="9d0a-babd-ff5d-2ac8" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
+        <categoryLink id="761d-923c-f9fd-6b8d" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
           <constraints>
             <constraint field="selections" scope="0db5-b074-ea11-2661" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c6e-b316-6fb4-4016" type="min"/>
           </constraints>
@@ -329,8 +329,8 @@
   </forceEntries>
   <entryLinks>
     <entryLink id="d1b4-4124-e5f1-ddf5" name="Luminark of Hysh" hidden="false" collective="false" import="true" targetId="c2cb-f59d-ec38-10c8" type="selectionEntry"/>
-    <entryLink id="48f8-0cd0-c224-e202" name="Freeguild General" hidden="false" collective="false" import="true" targetId="aada-2a08-7231-2d0e" type="selectionEntry"/>
-    <entryLink id="e1ec-efa7-67c0-03bc" name="Freeguild General on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
+    <entryLink id="48f8-0cd0-c224-e202" name="Freeguild 主将" hidden="false" collective="false" import="true" targetId="aada-2a08-7231-2d0e" type="selectionEntry"/>
+    <entryLink id="e1ec-efa7-67c0-03bc" name="Freeguild 主将 on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
     <entryLink id="fda5-33e1-17e6-3b70" name="Decimators" hidden="false" collective="false" import="true" targetId="5330-8a21-c53d-7aa3" type="selectionEntry"/>
     <entryLink id="aa5e-44f7-bed0-8d70" name="Demigryph Knights" hidden="false" collective="false" import="true" targetId="997f-3956-6049-cc04" type="selectionEntry"/>
     <entryLink id="5261-f6e9-39cd-854b" name="Freeguild Greatswords" hidden="false" collective="false" import="true" targetId="2285-8b6d-cc95-1dac" type="selectionEntry"/>
@@ -341,7 +341,7 @@
     <entryLink id="6dee-69e4-8940-e6d7" name="Freeguild Crossbowmen" hidden="false" collective="false" import="true" targetId="731e-cbfa-70d8-28eb" type="selectionEntry"/>
     <entryLink id="166d-212e-323a-5373" name="Flagellants" hidden="false" collective="false" import="true" targetId="6c57-67c3-945c-aaa9" type="selectionEntry"/>
     <entryLink id="36a3-909d-6d66-488b" name="Assassin" hidden="false" collective="false" import="true" targetId="bec5-213e-eccf-17e0" type="selectionEntry"/>
-    <entryLink id="9a80-45f2-d7a6-f86c" name="Allegiance" hidden="false" collective="false" import="true" targetId="87f8-d0f2-e2c7-0668" type="selectionEntry">
+    <entryLink id="9a80-45f2-d7a6-f86c" name="势力" hidden="false" collective="false" import="true" targetId="87f8-d0f2-e2c7-0668" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a0e4-eb32-1a4d-4294" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -711,7 +711,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="d618-803c-36f8-0a3a" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d618-803c-36f8-0a3a" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -995,7 +995,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="42a6-ec49-775d-ca31" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="42a6-ec49-775d-ca31" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1021,7 +1021,7 @@
       <entryLinks>
         <entryLink id="3a58-29ee-24f3-4283" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="8ebd-e922-ad6a-cfcc" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
-        <entryLink id="f2e3-7e11-669b-dd66" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="f2e3-7e11-669b-dd66" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="60.0"/>
@@ -1337,7 +1337,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87f8-d0f2-e2c7-0668" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="87f8-d0f2-e2c7-0668" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="06ec-3221-cc77-09c5" value="0.0">
           <conditions>
@@ -1350,13 +1350,13 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ca-42a4-5740-2234" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3076-1c56-348e-61de" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="4455-f027-3b35-387c">
+        <selectionEntryGroup id="3076-1c56-348e-61de" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="4455-f027-3b35-387c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8938-c999-0c01-9045" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c6-67a8-82e1-ac3c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="67bf-fcea-b53b-f9c5" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="67bf-fcea-b53b-f9c5" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="34b3-c20a-4222-6784" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -1368,11 +1368,11 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4455-f027-3b35-387c" name="Allegiance: Cities of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4455-f027-3b35-387c" name="势力: Cities of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="f0ba-5ee9-2828-2ef5" name="Strongholds of Order" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose a Cities of Sigmar army, you must give it a city keyword from the list below. All CITIES OF SIGMAR units in your army gain that keyword, and you can use the allegiance abilities listed for that city on the pages indicated.
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose a Cities of Sigmar army, you must give it a city keyword from the list below. All CITIES OF SIGMAR units in your army gain that keyword, and you can use the 势力 abilities listed for that city on the pages indicated.
 
 • HAMMERHAL (pg 64-65)
 • LIVING CITY (pg 66-67)
@@ -1382,7 +1382,7 @@
 • HALLOWHEART (pg 74-75)
 • TEMPEST’S EYE (pg 76-77)
 
-If a model already has a city keyword on its warscroll, it cannot gain another one. You can still include the model in your army, but you cannot use the allegiance abilities for its city</characteristic>
+If a model already has a city keyword on its warscroll, it cannot gain another one. You can still include the model in your army, but you cannot use the 势力 abilities for its city</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c078-f8c8-4ed7-5207" name="Amplified Sorceries" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1405,22 +1405,22 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="6ce6-000d-8d40-711a" name="Honoured Retinue" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose the general of a Cities of Sigmar army, if the general has a Wounds characteristic of 6 or less, you can pick up to 1 friendly 单位 to be your general’s retinue. This 单位 must have between 5 and 20 models. If you pick a retinue, your general gains the Loyal Shields ability.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose the 主将 of a Cities of Sigmar army, if the 主将 has a Wounds characteristic of 6 or less, you can pick up to 1 friendly 单位 to be your 主将’s retinue. This 单位 must have between 5 and 20 models. If you pick a retinue, your 主将 gains the Loyal Shields ability.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="5dbf-149c-f3bf-143d" name="Loyal Shields" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice before you allocate a wound or mortal wound to your general while they are within 3寸 of their retinue. On a 4+, that wound or mortal wound is allocated to the retinue instead of the general</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice before you allocate a wound or mortal wound to your 主将 while they are within 3寸 of their retinue. On a 4+, that wound or mortal wound is allocated to the retinue instead of the 主将</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="e307-ee24-f089-753a" name="The General&apos;s Adjutant" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
+                <profile id="e307-ee24-f089-753a" name="The 主将&apos;s Adjutant" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose the general of a Cities of Sigmar army, if your general has a Wounds characteristic of 6 or less, you can pick up to 1 friendly 英雄 to be your general’s adjutant. This 英雄 must have a Wounds characteristic of 6 or less and cannot be your general. If you pick an adjutant, your general gains the Wise Council ability.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose the 主将 of a Cities of Sigmar army, if your 主将 has a Wounds characteristic of 6 or less, you can pick up to 1 friendly 英雄 to be your 主将’s adjutant. This 英雄 must have a Wounds characteristic of 6 or less and cannot be your 主将. If you pick an adjutant, your 主将 gains the Wise Council ability.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="453f-353f-f28e-786c" name="Wise Council" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">At the start of your 英雄阶段, if your general is within 3寸 of their adjutant, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">At the start of your 英雄阶段, if your 主将 is within 3寸 of their adjutant, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="40a7-f61a-bd3d-4e3b" name="Stormkeeps" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1450,7 +1450,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                         </profile>
                         <profile id="f6b8-554e-3775-8b84" name="The Magister of Hammerhal" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If your army includes AVENTIS FIRESTRIKE and he is your general, at the start of your first 英雄阶段, you receive 1 extra command point.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If your army includes AVENTIS FIRESTRIKE and he is your 主将, at the start of your first 英雄阶段, you receive 1 extra command point.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="1a73-c454-2658-e086" name="The Pride of Hammerhal" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1521,7 +1521,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                         </profile>
                         <profile id="b5ec-314b-d98a-d37e" name="Home of the Great Ironweld Guilds" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Increase the Range characteristic of missile 武器 used by friendly GREYWATER FASTNESS IRONWELD ARSENAL units by 3寸 (this does not affect the weapon’s minimum range, if it has one). In addition, if you are fighting a Pitched Battle, you can include 1 additional IRONWELD ARSENAL 炮兵 单位 in your army.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Increase the Range characteristic of missile 武器 used by friendly GREYWATER FASTNESS IRONWELD ARSENAL units by 3寸 (this does not affect the weapon’s minimum range, if it has one). In addition, if you are fighting a 竞技模式, you can include 1 additional IRONWELD ARSENAL 炮兵 单位 in your army.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="db42-6bbf-d8ad-992a" name="Salvo Fire" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1599,7 +1599,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                           <characteristics>
                             <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">To have power and influence in Anvilgard, one must know the right people. In battle, the city’s commanders call upon these contacts to give them every advantage they can glean. When you choose an Anvilgard army, you can profit from one of the following benefits of illicit dealings:
 
-Black Market Bounty: 1 additional friendly ANVILGARD 英雄 can bear an artefact of power from the Anvilgard Artefacts of Power table.
+Black Market Bounty: 1 additional friendly ANVILGARD 英雄 can bear an 魔法道具 of power from the Anvilgard Artefacts of Power table.
 
 Dabblings in Sorcery: 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or ANVILGARD WAR HYDRA can have a Drakeblood curse from the Drakeblood Curses table. 
 
@@ -1830,7 +1830,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9095-93c5-3c66-4739" name="General" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="9095-93c5-3c66-4739" name="主将" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditionGroups>
@@ -1925,7 +1925,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9d28-10e0-92fc-fb4f" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9d28-10e0-92fc-fb4f" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -1951,7 +1951,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       <entryLinks>
         <entryLink id="80a7-c472-0b0d-3cd6" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
         <entryLink id="0f1b-a2d1-fc08-0e43" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
-        <entryLink id="0358-fa70-048a-06d8" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="0358-fa70-048a-06d8" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
@@ -2249,7 +2249,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0e12-40c2-cf92-5bc2" name="General" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="0e12-40c2-cf92-5bc2" name="主将" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditionGroups>
@@ -2287,7 +2287,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aada-2a08-7231-2d0e" name="Freeguild General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aada-2a08-7231-2d0e" name="Freeguild 主将" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="87b1-64ff-852c-2ed6" name="Hold the Line!" publicationId="e440-9199-1072-a7a0" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
@@ -2299,7 +2299,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly FREEGUILD units while they are wholly within 18寸 of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8b6a-0733-769f-86ee" name="Freeguild General" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8b6a-0733-769f-86ee" name="Freeguild 主将" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2343,7 +2343,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fe29-1d66-afed-a78c" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe29-1d66-afed-a78c" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -2369,13 +2369,13 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       <entryLinks>
         <entryLink id="bf2e-7f90-ae02-a649" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
         <entryLink id="0db5-7cd7-cefa-6fa4" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
-        <entryLink id="81ea-80eb-4cbe-2e15" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="81ea-80eb-4cbe-2e15" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f97b-a868-659a-a9e5" name="Freeguild General on Griffon" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f97b-a868-659a-a9e5" name="Freeguild 主将 on Griffon" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="1648-0ca4-ef2d-54e5" name="Rousing Battle Cry" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
@@ -2395,7 +2395,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to run and charge rolls for this model if it does not carry a Freeguild Shield.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f6c6-2590-e0be-194c" name="Freeguild General on Griffon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f6c6-2590-e0be-194c" name="Freeguild 主将 on Griffon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">13</characteristic>
@@ -2518,7 +2518,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5b2f-302f-2c13-6c55" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5b2f-302f-2c13-6c55" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -3929,7 +3929,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2131-fb28-e411-de37" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2131-fb28-e411-de37" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -4083,7 +4083,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <entryLink id="73c9-8d74-0a5a-3797" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="8670-8e2e-d47c-f022" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
         <entryLink id="e17b-0841-a457-d159" name="法术 Lores" hidden="false" collective="false" import="true" targetId="3814-c1d2-228e-b8f4" type="selectionEntryGroup"/>
-        <entryLink id="c0b1-516a-3e2a-3a95" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="c0b1-516a-3e2a-3a95" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -4255,7 +4255,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ccd7-d678-30e1-2e26" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ccd7-d678-30e1-2e26" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -4507,7 +4507,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="cc93-36fd-cabd-cced" name="General" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="cc93-36fd-cabd-cced" name="主将" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditionGroups>
@@ -4760,7 +4760,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1d1c-6293-dfdb-1b9f" name="General" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="1d1c-6293-dfdb-1b9f" name="主将" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditionGroups>
@@ -4964,7 +4964,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="aae4-4776-bf05-481b" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aae4-4776-bf05-481b" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -5118,7 +5118,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dc83-1928-e5f9-3b59" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dc83-1928-e5f9-3b59" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -5145,7 +5145,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <entryLink id="81a4-3213-b586-5fd7" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
         <entryLink id="3735-e2a4-af03-abed" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="2546-132e-93c6-c71f" name="法术 Lores" hidden="false" collective="false" import="true" targetId="3814-c1d2-228e-b8f4" type="selectionEntryGroup"/>
-        <entryLink id="c59d-21cf-5ec5-19bc" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="c59d-21cf-5ec5-19bc" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -5796,10 +5796,10 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="6b5d-b849-779e-1779" name="General" hidden="false" collective="false" import="true" targetId="d618-803c-36f8-0a3a" type="selectionEntry"/>
+        <entryLink id="6b5d-b849-779e-1779" name="主将" hidden="false" collective="false" import="true" targetId="d618-803c-36f8-0a3a" type="selectionEntry"/>
         <entryLink id="c550-14bc-d71d-5507" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="0d7d-7df1-e15a-80dd" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
-        <entryLink id="90ac-7780-ab9b-128e" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="90ac-7780-ab9b-128e" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110.0"/>
@@ -5890,7 +5890,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10e5-a0f4-50cb-7479" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10e5-a0f4-50cb-7479" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -5916,7 +5916,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       <entryLinks>
         <entryLink id="5387-4ba6-75fe-44a1" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="cc36-d346-1d8b-484b" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
-        <entryLink id="b0ce-8c53-7269-6e1e" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="b0ce-8c53-7269-6e1e" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -6727,7 +6727,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8664-d8d4-8ac2-e860" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8664-d8d4-8ac2-e860" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -6753,7 +6753,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
       <entryLinks>
         <entryLink id="43b4-21fd-4725-f04c" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
         <entryLink id="5142-31fe-a1b0-5593" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
-        <entryLink id="10b8-a0f8-6865-967f" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="10b8-a0f8-6865-967f" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="60.0"/>
@@ -7503,7 +7503,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ec34-58e6-db73-143d" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ec34-58e6-db73-143d" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -8125,7 +8125,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
       <profiles>
         <profile id="f295-2ea1-8b43-b1ca" name="Galorious Cavalry Charge" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to hit and wound rolls for attacks made with 肉搏 武器 by units from this 阵型 that made a charge move in the same turn and are wholly within 18寸 of the Freeguild General on Griffon from the same 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to hit and wound rolls for attacks made with 肉搏 武器 by units from this 阵型 that made a charge move in the same turn and are wholly within 18寸 of the Freeguild 主将 on Griffon from the same 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8142,13 +8142,13 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <entryLink id="b6a4-5076-ff9d-8427" name="Demigryph Knights" hidden="false" collective="false" import="true" targetId="997f-3956-6049-cc04" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1a99-7d47-c38f-1b19" name="1 Freeguild General on Griffin" hidden="false" collective="false" import="true" defaultSelectionEntryId="5313-60e9-213b-9d8a">
+        <selectionEntryGroup id="1a99-7d47-c38f-1b19" name="1 Freeguild 主将 on Griffin" hidden="false" collective="false" import="true" defaultSelectionEntryId="5313-60e9-213b-9d8a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87d1-43df-3860-d2df" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3133-42f7-7ea9-d0b0" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5313-60e9-213b-9d8a" name="Freeguild General on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
+            <entryLink id="5313-60e9-213b-9d8a" name="Freeguild 主将 on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -8379,13 +8379,13 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <entryLink id="2a5b-9a77-7f03-fa53" name="Freeguild Pistoliers" hidden="false" collective="false" import="true" targetId="c20a-2c87-56b3-b844" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e676-0396-966b-d5f3" name="1 Freeguild General on Griffon" hidden="false" collective="false" import="true" defaultSelectionEntryId="72ee-e5bd-b384-92dd">
+        <selectionEntryGroup id="e676-0396-966b-d5f3" name="1 Freeguild 主将 on Griffon" hidden="false" collective="false" import="true" defaultSelectionEntryId="72ee-e5bd-b384-92dd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bd7-17a1-9abb-4dc6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce5-0610-529e-5e18" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="72ee-e5bd-b384-92dd" name="Freeguild General on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
+            <entryLink id="72ee-e5bd-b384-92dd" name="Freeguild 主将 on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="35c4-943f-5821-9de3" name="0-2 Grundstok Gunhaulers" hidden="false" collective="false" import="true">
@@ -8518,7 +8518,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8f5e-17d1-de7e-ed56" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f5e-17d1-de7e-ed56" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -8544,7 +8544,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
       <entryLinks>
         <entryLink id="f3f4-b789-5d38-6463" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="606b-4d58-69ae-775a" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
-        <entryLink id="e85b-a5d5-2787-540b" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="e85b-a5d5-2787-540b" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -8866,7 +8866,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="87ff-9776-b132-cf88" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="87ff-9776-b132-cf88" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -8892,7 +8892,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
       <entryLinks>
         <entryLink id="230e-680e-f3b2-a62e" name="Artefacts" hidden="false" collective="false" import="true" targetId="a00c-408d-babb-46bf" type="selectionEntryGroup"/>
         <entryLink id="ccaa-0a58-e9d9-b657" name="Command Traits" hidden="false" collective="false" import="true" targetId="6a88-d7b5-6546-bea3" type="selectionEntryGroup"/>
-        <entryLink id="1bb6-f723-aa10-2db2" name="General&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
+        <entryLink id="1bb6-f723-aa10-2db2" name="主将&apos;s Adjunct" hidden="false" collective="false" import="true" targetId="4ec5-902a-f5af-5cc6" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -9544,7 +9544,7 @@ In addition, until that 单位 moves, if the unmodified save roll for an attack 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ec5-902a-f5af-5cc6" name="General&apos;s Adjunct" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4ec5-902a-f5af-5cc6" name="主将&apos;s Adjunct" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -9817,7 +9817,7 @@ If the roll is equal to or greater than the number of wounds currently allocated
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="800e-e2f0-9b2b-7535" name="General" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="800e-e2f0-9b2b-7535" name="主将" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -9936,7 +9936,7 @@ If the roll is equal to or greater than the number of wounds currently allocated
           <profiles>
             <profile id="e49d-ce31-06f8-1745" name="Acadamae Prodigy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general’s 肉搏 武器. In addition, at the start of the battle, you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this 主将’s 肉搏 武器. In addition, at the start of the battle, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9951,7 +9951,7 @@ If the roll is equal to or greater than the number of wounds currently allocated
           <profiles>
             <profile id="9ce8-d0d9-8fc5-e105" name="Blood of the Twelve" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with 肉搏 武器 by friendly HAMMERHAL units wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made with 肉搏 武器 by friendly HAMMERHAL units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9959,14 +9959,14 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e8f8-422e-0505-0e98" name="3. Aggressive General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e8f8-422e-0505-0e98" name="3. Aggressive 主将" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a6a9-2d97-268a-a9ed" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c8a-4bd4-2037-582f" name="Aggressive General" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9c8a-4bd4-2037-582f" name="Aggressive 主将" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with 肉搏 武器 by friendly HAMMERHAL units that are wholly within 12寸 of this general if this general made a charge move in the same turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for attacks made with 肉搏 武器 by friendly HAMMERHAL units that are wholly within 12寸 of this 主将 if this 主将 made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9993,9 +9993,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="965d-19c6-226e-f7e1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4275-2b8e-e69b-161c" name="Entangling Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4275-2b8e-e69b-161c" name="Entangling Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10011,9 +10011,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="efd2-b0d0-47d3-8b5a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c7f9-73c2-b4f1-425c" name="Arboreal Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c7f9-73c2-b4f1-425c" name="Arboreal Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10029,9 +10029,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d15-9999-39b2-9d34" type="max"/>
           </constraints>
           <profiles>
-            <profile id="24b5-904b-0c62-feb8" name="Ghyrstrike" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="24b5-904b-0c62-feb8" name="Ghyrstrike" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10047,9 +10047,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="61e5-8c5d-6d89-74e8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="edd9-1608-3a2f-83dd" name="The Sunderblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="edd9-1608-3a2f-83dd" name="The Sunderblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10065,9 +10065,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a87-8e0d-29db-5bc1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="547d-0230-1376-5525" name="Jadewound Thorn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="547d-0230-1376-5525" name="Jadewound Thorn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10083,9 +10083,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52e9-adf6-f874-30b1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c399-7b47-6390-0756" name="Blade of Hammerhal Ghyra" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c399-7b47-6390-0756" name="Blade of Hammerhal Ghyra" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10115,9 +10115,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52d2-4a3c-6bdc-16b1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="183d-9b50-e466-b38c" name="Armour of Mallus" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="183d-9b50-e466-b38c" name="Armour of Mallus" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10133,9 +10133,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0921-4b1e-1f3a-4662" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f2b1-0ad9-402c-abc8" name="Saint&apos;s Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f2b1-0ad9-402c-abc8" name="Saint&apos;s Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1. In addition, while the bearer is within 6寸 of an objective marker, add 1 to the damage inflicted by attacks made with that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1. In addition, while the bearer is within 6寸 of an objective marker, add 1 to the damage inflicted by attacks made with that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10151,9 +10151,9 @@ If the roll is equal to or greater than the number of wounds currently allocated
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82ca-f7f6-baee-d355" type="max"/>
           </constraints>
           <profiles>
-            <profile id="51a8-1a70-c4c2-1e1c" name="The Twinstone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="51a8-1a70-c4c2-1e1c" name="The Twinstone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can use this artefact in each of your 英雄 phases. If you do so, pick its Aqshy aspect or its Ghyran aspect.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can use this 魔法道具 in each of your 英雄 phases. If you do so, pick its Aqshy aspect or its Ghyran aspect.
 
 Aqshy Aspect: Until the start of your next 英雄阶段, add 1 to hit rolls for attacks made with 肉搏 武器 by friendly Hammerhal units while they are wholly within 12寸 of the bearer.
 
@@ -10262,7 +10262,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12�
           <profiles>
             <profile id="8751-98a9-cdd5-413c" name="Ironoak Artisan" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this general. In addition, add 1 to wound rolls for attacks made with 肉搏 武器 by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to save rolls for attacks that target this 主将. In addition, add 1 to wound rolls for attacks made with 肉搏 武器 by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10277,7 +10277,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12�
           <profiles>
             <profile id="c6f9-6715-0b36-fdc5" name="Forest Strider" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can run and still charge in the same turn. In addition, friendly units are not affected by the Deadly scenery rule if they start a move wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 can run and still charge in the same turn. In addition, friendly units are not affected by the Deadly scenery rule if they start a move wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10292,7 +10292,7 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12�
           <profiles>
             <profile id="e697-754e-f028-9e81" name="Druid of the Everspring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is a 法师, they know all spells from the Lore of Leaves instead of only 1. If this general is not a 法师, they know 1 法术 from the Lore of Leaves and can attempt to cast it in their 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is a 法师, they know all spells from the Lore of Leaves instead of only 1. If this 主将 is not a 法师, they know 1 法术 from the Lore of Leaves and can attempt to cast it in their 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10319,9 +10319,9 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06a0-ef21-0474-9993" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c595-0da3-eb6e-4e64" name="Spear of the Hunt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c595-0da3-eb6e-4e64" name="Spear of the Hunt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1. In addition, the bearer (and their mount) fights at the start of the combat phase if they made a charge move in the same turn. The bearer cannot fight again in that combat phase unless an ability or 法术 allows them to fight more than once.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. Improve the Rend characteristic of that weapon by 1. In addition, the bearer (and their mount) fights at the start of the combat phase if they made a charge move in the same turn. The bearer cannot fight again in that combat phase unless an ability or 法术 allows them to fight more than once.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10337,9 +10337,9 @@ Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12�
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd9c-abdb-50b6-0b5a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e382-d7a5-db4d-31c4" name="Deepmire Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e382-d7a5-db4d-31c4" name="Deepmire Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer has a Wounds characteristic of 6 or less, while they are in cover, the bearer cannot be chosen to be the target of a 射击武器.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer has a Wounds characteristic of 6 or less, while they are in cover, the bearer cannot be chosen to be the target of a 射击武器.
 
 If the bearer has a Wounds characteristic of 7 or more, while they are in cover, subtract 1 from hit rolls for attacks made with missile 武器 that target the bearer.</characteristic>
               </characteristics>
@@ -10357,9 +10357,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ef2-1379-0bfb-e0d1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b9e8-1445-2cab-e9ac" name="Wardroth Horn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b9e8-1445-2cab-e9ac" name="Wardroth Horn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can sound the Wardroth Horn. If they do, until the start of your next 英雄阶段, add 1 to the Attacks characteristic of 肉搏 武器 used by LIVING CITY SYLVANETH units.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can sound the Wardroth Horn. If they do, until the start of your next 英雄阶段, add 1 to the Attacks characteristic of 肉搏 武器 used by LIVING CITY SYLVANETH units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10458,7 +10458,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="7c19-e70f-0c0e-eecd" name="Seat on the Council" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, if this general is on the battlefield, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, if this 主将 is on the battlefield, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10473,7 +10473,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="b2dd-d244-48b8-77ea" name="Drillmaster" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for attacks made with missile 武器 by friendly GREYWATER FASTNESS units that are wholly within 12寸 of this general while this general is more than 3寸 away from any enemy units.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for attacks made with missile 武器 by friendly GREYWATER FASTNESS units that are wholly within 12寸 of this 主将 while this 主将 is more than 3寸 away from any enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10488,7 +10488,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="b3ce-60ab-647e-4ad2" name="Ghoul Mere Ranger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 射击阶段, friendly units wholly within 12寸 of this general can shoot even if they ran in the same turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 射击阶段, friendly units wholly within 12寸 of this 主将 can shoot even if they ran in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10515,9 +10515,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e6bf-6a42-693b-a56e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="11bd-4d71-04d2-7d6f" name="Steam-piston Plate Mail" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="11bd-4d71-04d2-7d6f" name="Steam-piston Plate Mail" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer. In addition, if the bearer does not have a mount, add 1 to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer. In addition, if the bearer does not have a mount, add 1 to the bearer’s Move characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10533,9 +10533,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="414d-88b2-40aa-c0bf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f860-8c15-b87a-975d" name="Runic Munitions" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f860-8c15-b87a-975d" name="Runic Munitions" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s missile 武器. Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s missile 武器. Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10551,9 +10551,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15e7-ff48-39ab-faf1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3453-0044-834d-f74d" name="Mastro Vivetti’s Magnificent Macroscope" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3453-0044-834d-f74d" name="Mastro Vivetti’s Magnificent Macroscope" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the first battle round, you receive 1 extra command point. In addition, add 1 to hit rolls for attacks made with missile 武器 by the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the first battle round, you receive 1 extra command point. In addition, add 1 to hit rolls for attacks made with missile 武器 by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10647,7 +10647,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="5613-164d-9820-b684" name="Seeker of Vengeance" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this general’s 肉搏 武器 if 1 or more friendly models have been slain in the same phase. Add 3 to the Attacks characteristic of this general’s 肉搏 武器 instead of 1 if 5 or more friendly models have been slain in the same turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of this 主将’s 肉搏 武器 if 1 or more friendly models have been slain in the same phase. Add 3 to the Attacks characteristic of this 主将’s 肉搏 武器 instead of 1 if 5 or more friendly models have been slain in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10662,7 +10662,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="aaf6-2cfe-63c5-e9cb" name="One with Fire and Ice" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is a 法师, they know all spells from the Lore of the Phoenix instead of only 1. If this general is not a 法师, they know 1 法术 from the Lore of the Phoenix and can attempt to cast it in your 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is a 法师, they know all spells from the Lore of the Phoenix instead of only 1. If this 主将 is not a 法师, they know 1 法术 from the Lore of the Phoenix and can attempt to cast it in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10677,7 +10677,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="2859-9a17-6153-5726" name="Aura of Serenity" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly PHOENICIUM units while they are wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly PHOENICIUM units while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10704,9 +10704,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="194f-db21-ef54-f01e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6ce1-920a-5e0f-9f21" name="Amber Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6ce1-920a-5e0f-9f21" name="Amber Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the weapon used for an attack that targets the bearer has a Rend characteristic of -1, change the Rend characteristic for that attack to ‘-’.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the weapon used for an attack that targets the bearer has a Rend characteristic of -1, change the Rend characteristic for that attack to ‘-’.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10722,9 +10722,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88d0-8637-7810-1d61" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0a5c-b4e3-ed94-012d" name="Phoenix Pinion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0a5c-b4e3-ed94-012d" name="Phoenix Pinion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. In addition, the bearer can run and still charge later in the same turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. In addition, the bearer can run and still charge later in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10740,9 +10740,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e899-fe56-893f-6e1f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8e01-28d9-ecd3-c786" name="Phoenix Pyre Ashes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8e01-28d9-ecd3-c786" name="Phoenix Pyre Ashes" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, you can heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, you can heal 1 wound allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10851,7 +10851,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="8408-6449-513f-3f7a" name="Slayer of Monsters" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for attacks made by this general that target an enemy 怪兽.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for attacks made by this 主将 that target an enemy 怪兽.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10866,7 +10866,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="8074-0a78-5835-6857" name="Secretive Warlock" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is a 法师, they know all spells from the Lore of Dark Sorcery instead of only 1. If this general is not a 法师, they know 1 法术 from the Lore of Dark Sorcery and can attempt to cast it in their 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is a 法师, they know all spells from the Lore of Dark Sorcery instead of only 1. If this 主将 is not a 法师, they know 1 法术 from the Lore of Dark Sorcery and can attempt to cast it in their 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10893,9 +10893,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb6b-3e58-65ca-ee95" type="max"/>
           </constraints>
           <profiles>
-            <profile id="57f4-4e62-1638-b0f8" name="Drakescale Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="57f4-4e62-1638-b0f8" name="Drakescale Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+, that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+, that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10911,9 +10911,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7413-b9b1-78de-6317" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ff3c-8581-76ec-2469" name="Venomfang Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ff3c-8581-76ec-2469" name="Venomfang Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10929,9 +10929,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc54-7849-e74c-0553" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a15c-8980-6bed-c5c6" name="Asphyxica Censer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="a15c-8980-6bed-c5c6" name="Asphyxica Censer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of your combat phase, roll 1 dice for each enemy 单位 within 3寸 of the bearer. On a 4+, that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of your combat phase, roll 1 dice for each enemy 单位 within 3寸 of the bearer. On a 4+, that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11090,7 +11090,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="e4e0-6c99-e048-7393" name="Crusade" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly HALLOWHEART units while they are wholly within 18寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly HALLOWHEART units while they are wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11120,7 +11120,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="6f80-043b-e5b7-a0b6" name="Famed 法术-hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this general is a 法师, add 3 to the roll when this general attempts to dispel an endless 法术. If this general is not a 法师, they can attempt to dispel 1 endless 法术 in your 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is a 法师, add 3 to the roll when this 主将 attempts to dispel an endless 法术. If this 主将 is not a 法师, they can attempt to dispel 1 endless 法术 in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11147,9 +11147,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b4e8-6049-3675-bfc7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6215-f72a-0d8b-a400" name="Agloraxi Prism" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6215-f72a-0d8b-a400" name="Agloraxi Prism" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11165,9 +11165,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0034-48c3-851c-2d1d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4a47-df49-6ec4-bf5e" name="Pauldrons of Living Flame" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4a47-df49-6ec4-bf5e" name="Pauldrons of Living Flame" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the end of your combat phase, roll a dice for each enemy 单位 within 3寸 of the bearer. On a 4+, that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of your combat phase, roll a dice for each enemy 单位 within 3寸 of the bearer. On a 4+, that 单位 suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11183,9 +11183,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5dc3-2a8b-7f76-31a5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d775-45f5-e182-3932" name="Whitefire Tome" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d775-45f5-e182-3932" name="Whitefire Tome" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer is a 法师, they know all spells from the Lore of Whitefire instead of only 2. If the bearer is not a 法师, they know 1 法术 from the Lore of Whitefire and can attempt to cast it in your 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is a 法师, they know all spells from the Lore of Whitefire instead of only 2. If the bearer is not a 法师, they know 1 法术 from the Lore of Whitefire and can attempt to cast it in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11327,7 +11327,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="84b8-63b6-f927-58df" name="Aetherguard Captain" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly TEMPEST’S EYE units while they are wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly TEMPEST’S EYE units while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11342,7 +11342,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="b5cb-2a64-efdf-a2bb" name="Hawk-eyed" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for attacks made with missile 武器 by friendly TEMPEST’S EYE units wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for attacks made with missile 武器 by friendly TEMPEST’S EYE units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11357,7 +11357,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="2863-ea5d-b3cb-1558" name="Swift as the Wind" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can run and still charge in the same turn. In addition, this general (and their mount) fights at the start of the combat phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 can run and still charge in the same turn. In addition, this 主将 (and their mount) fights at the start of the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11384,9 +11384,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72db-13c3-9380-5882" type="max"/>
           </constraints>
           <profiles>
-            <profile id="95f5-f1f1-6b35-76ee" name="Patrician’s Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="95f5-f1f1-6b35-76ee" name="Patrician’s Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly TEMPEST’S EYE units while they are wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Do not take battleshock tests for friendly TEMPEST’S EYE units while they are wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11402,9 +11402,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a91-b874-8e8d-fff6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f143-ea02-f072-f4bf" name="Seerstone Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f143-ea02-f072-f4bf" name="Seerstone Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, if the bearer is on the battlefield, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, if the bearer is on the battlefield, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11420,9 +11420,9 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c46a-210c-fb34-c972" type="max"/>
           </constraints>
           <profiles>
-            <profile id="59d9-3e46-459f-f938" name="Zephyrite Banner" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="59d9-3e46-459f-f938" name="Zephyrite Banner" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll charge rolls for friendly TEMPEST’S EYE units while they are wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll charge rolls for friendly TEMPEST’S EYE units while they are wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -53,15 +53,15 @@
     <categoryEntry id="6005-aabb-fca3-f8ca" name="BUTCHER" hidden="false"/>
     <categoryEntry id="927c-2902-0852-853b" name="FIREBELLY" hidden="false"/>
     <categoryEntry id="9eb7-64ab-dc1d-56e0" name="BEASTCLAW RAIDERS" hidden="false"/>
-    <categoryEntry id="ca36-c74b-8ae6-2273" name="PRIEST" hidden="false"/>
+    <categoryEntry id="ca36-c74b-8ae6-2273" name="祭司" hidden="false"/>
     <categoryEntry id="c27c-df63-07a7-9fe7" name="GUTBUSTERS" hidden="false"/>
     <categoryEntry id="350a-d03f-63c8-51a0" name="SLAUGHTERMASTER" hidden="false"/>
     <categoryEntry id="fea2-305d-3823-5e71" name="GROT" hidden="false"/>
     <categoryEntry id="5194-26a4-3ec6-cfc4" name="RHINOX" hidden="false"/>
-    <categoryEntry id="f0af-a0e7-66d2-61ea" name="BEASTCLAW PRIEST" hidden="false"/>
+    <categoryEntry id="f0af-a0e7-66d2-61ea" name="BEASTCLAW 祭司" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="fc4d-9292-0908-041e" name="Allegiance" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="fc4d-9292-0908-041e" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -157,7 +157,7 @@
     <entryLink id="2f45-d6aa-271e-9cb0" name="Hrothgorn&apos;s Mantrappers" hidden="false" collective="false" import="true" targetId="71ae-1d3d-07ef-327f" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2e5-a02a-426e-7ca0" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b5-c448-3c86-73f5" type="min"/>
@@ -166,7 +166,7 @@
         <categoryLink id="16be-3131-4aa2-ed74" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="007b-7ecb-a450-1685">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="007b-7ecb-a450-1685">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -207,9 +207,9 @@
                 </profile>
                 <profile id="8ddd-c58a-06b7-91be" name="Everwinter Prayers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each BEASTCLAW RAIDERS PRIEST in an Ogor Mawtribes army knows 1 Everwinter prayer from the Manifestations of the Eternal Snowstorm table (pg 77) in addition to any 其他 prayers they know.
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each BEASTCLAW RAIDERS 祭司 in an Ogor Mawtribes army knows 1 Everwinter prayer from the Manifestations of the Eternal Snowstorm table (pg 77) in addition to any 其他 prayers they know.
 
-In your 英雄阶段, each friendly BEASTCLAW RAIDERS PRIEST that knows any Everwinter prayers can chant 1 Everwinter prayer. If they do so, make a prayer roll by rolling a dice.
+In your 英雄阶段, each friendly BEASTCLAW RAIDERS 祭司 that knows any Everwinter prayers can chant 1 Everwinter prayer. If they do so, make a prayer roll by rolling a dice.
 
 Each Everwinter prayer has a chanting value. If the prayer roll is equal to or greater than the chanting value of the Everwinter prayer, the prayer is answered.
 
@@ -269,7 +269,7 @@ If a model already has a Mawtribe keyword on its warscroll, it cannot gain anoth
                         </profile>
                         <profile id="9998-47d3-0eca-f21d" name="Call of the Endless White" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to prayer rolls for Call of the Blizzard when a WINTERBITE PRIEST is chanting that prayer.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to prayer rolls for Call of the Blizzard when a WINTERBITE 祭司 is chanting that prayer.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -308,7 +308,7 @@ If a model already has a Mawtribe keyword on its warscroll, it cannot gain anoth
                         </profile>
                         <profile id="c259-9f33-43ad-d6ae" name="Riders of the Hurricane" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to prayer rolls for Keening Gale when a THUNDERBELLIES PRIEST is chanting that prayer.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to prayer rolls for Keening Gale when a THUNDERBELLIES 祭司 is chanting that prayer.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -347,7 +347,7 @@ If a model already has a Mawtribe keyword on its warscroll, it cannot gain anoth
                         </profile>
                         <profile id="228d-fa16-cb47-3541" name="Deadly Hail" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to prayer rolls for Pulverising Hailstorm when a BOULDERHEAD PRIEST is chanting that prayer.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to prayer rolls for Pulverising Hailstorm when a BOULDERHEAD 祭司 is chanting that prayer.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -848,7 +848,7 @@ In addition, add 2 to the Bravery characteristic of this 单位 while it is whol
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b850-08c3-22b0-b291" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b850-08c3-22b0-b291" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1047,7 +1047,7 @@ In addition, add 2 to the Bravery characteristic of this 单位 while it is whol
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8a1f-9238-d8fc-c565" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8a1f-9238-d8fc-c565" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1224,7 +1224,7 @@ In addition, add 2 to the Bravery characteristic of this 单位 while it is whol
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="00c6-411a-9e15-5319" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="00c6-411a-9e15-5319" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1383,11 +1383,11 @@ In addition, add 2 to the Bravery characteristic of this 单位 while it is whol
         <categoryLink id="4ad6-0e57-8461-724c" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="8139-aca4-30ae-736f" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="5173-feb3-0930-76e9" name="New CategoryLink" hidden="false" targetId="420d-29a6-4e10-b4af" primary="false"/>
-        <categoryLink id="f07c-0b8b-a551-681f" name="PRIEST" hidden="false" targetId="ca36-c74b-8ae6-2273" primary="false"/>
+        <categoryLink id="f07c-0b8b-a551-681f" name="祭司" hidden="false" targetId="ca36-c74b-8ae6-2273" primary="false"/>
         <categoryLink id="c1d4-16b8-86b0-6b5c" name="巨兽" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="7e9e-782e-75c0-e78a" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="d98f-e9c9-d8cb-eefa" name="OGOR" hidden="false" targetId="1422-e165-b7d0-b2d9" primary="false"/>
-        <categoryLink id="956f-0fd3-74ea-fa26" name="BEASTCLAW PRIEST" hidden="false" targetId="f0af-a0e7-66d2-61ea" primary="false"/>
+        <categoryLink id="956f-0fd3-74ea-fa26" name="BEASTCLAW 祭司" hidden="false" targetId="f0af-a0e7-66d2-61ea" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5eda-f8b3-de6b-7a57" name="Frost-wreathed Ice" hidden="false" collective="false" import="true" type="upgrade">
@@ -1487,7 +1487,7 @@ In addition, add 2 to the Bravery characteristic of this 单位 while it is whol
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2b36-f83e-07a7-25d6" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2b36-f83e-07a7-25d6" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1627,7 +1627,7 @@ At the end of your movement phase, you can set up this model anywhere on the bat
         <categoryLink id="3c51-0b21-f12e-4212" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="aeb0-4dc5-86d8-5adf" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aeb0-4dc5-86d8-5adf" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2537,7 +2537,7 @@ At the end of your movement phase, you can set up this model anywhere on the bat
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c1f-5fc3-5498-24b7" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6c1f-5fc3-5498-24b7" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2605,7 +2605,7 @@ At the end of your movement phase, you can set up this model anywhere on the bat
       <categoryLinks>
         <categoryLink id="8259-cd04-b1d8-e58e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="e365-1088-8ed3-b00e" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="82a7-1060-8c59-a277" name="DESTRUCTION" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
+        <categoryLink id="82a7-1060-8c59-a277" name="毁灭" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
         <categoryLink id="b1bd-ee08-e87c-5449" name="OGOR" hidden="false" targetId="1422-e165-b7d0-b2d9" primary="false"/>
         <categoryLink id="5e77-5867-0958-2865" name="TYRANT" hidden="false" targetId="6d15-a1af-eeef-e83d" primary="false"/>
         <categoryLink id="fe6b-d12e-3da5-823d" name="GUTBUSTERS" hidden="false" targetId="c27c-df63-07a7-9fe7" primary="false"/>
@@ -2710,7 +2710,7 @@ At the end of your movement phase, you can set up this model anywhere on the bat
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a671-fe1b-abe1-5145" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a671-fe1b-abe1-5145" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2883,7 +2883,7 @@ D6 Effect
       <categoryLinks>
         <categoryLink id="ac00-51e1-8650-ee6b" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="1660-4005-cd3c-1056" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="c97e-bb52-1042-5c30" name="DESTRUCTION" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
+        <categoryLink id="c97e-bb52-1042-5c30" name="毁灭" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
         <categoryLink id="5f77-7745-d6b4-808a" name="OGOR" hidden="false" targetId="1422-e165-b7d0-b2d9" primary="false"/>
         <categoryLink id="2449-9baf-23fa-d1d8" name="GUTBUSTERS" hidden="false" targetId="c27c-df63-07a7-9fe7" primary="false"/>
         <categoryLink id="2170-2cb3-8051-1dd2" name="OGOR MAWTRIBES" hidden="false" targetId="2246-c381-2650-4ca2" primary="false"/>
@@ -2958,7 +2958,7 @@ D6 Effect
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="681d-7032-318a-57bb" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="681d-7032-318a-57bb" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -3022,7 +3022,7 @@ D6 Effect
       <categoryLinks>
         <categoryLink id="5689-0c7e-987d-df23" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="7471-2d78-417e-91ef" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="0b70-2d92-c421-f42a" name="DESTRUCTION" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
+        <categoryLink id="0b70-2d92-c421-f42a" name="毁灭" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
         <categoryLink id="5406-6adf-d6f4-9e81" name="OGOR" hidden="false" targetId="1422-e165-b7d0-b2d9" primary="false"/>
         <categoryLink id="c459-8870-93cf-4c2f" name="GUTBUSTERS" hidden="false" targetId="c27c-df63-07a7-9fe7" primary="false"/>
         <categoryLink id="e3ce-fbbb-b7f7-940a" name="OGOR MAWTRIBES" hidden="false" targetId="2246-c381-2650-4ca2" primary="false"/>
@@ -3052,7 +3052,7 @@ D6 Effect
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6da1-23ee-8f56-080b" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6da1-23ee-8f56-080b" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4285,7 +4285,7 @@ In addition, if this 法术 is successfully cast, add 1 to save rolls for attack
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="4919-69bb-a5f9-8f60" name="General" hidden="false" collective="false" import="true" targetId="6c1f-5fc3-5498-24b7" type="selectionEntry"/>
+        <entryLink id="4919-69bb-a5f9-8f60" name="主将" hidden="false" collective="false" import="true" targetId="6c1f-5fc3-5498-24b7" type="selectionEntry"/>
         <entryLink id="be26-77fd-3b27-3a04" name="Artefacts" hidden="false" collective="false" import="true" targetId="3546-2075-75ed-0aa8" type="selectionEntryGroup"/>
         <entryLink id="1380-7e8a-ca86-d667" name="Command Traits" hidden="false" collective="false" import="true" targetId="eb00-a87f-8c9d-70da" type="selectionEntryGroup"/>
         <entryLink id="ae2f-fa7f-ce92-dd0f" name="法术 Lores" hidden="false" collective="false" import="true" targetId="2e40-6d32-ace1-198f" type="selectionEntryGroup"/>
@@ -4586,7 +4586,7 @@ In addition, if this 法术 is successfully cast, add 1 to save rolls for attack
       </profiles>
       <categoryLinks>
         <categoryLink id="014e-7817-bae2-c4d1" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
-        <categoryLink id="1421-7c65-d072-e515" name="DESTRUCTION" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
+        <categoryLink id="1421-7c65-d072-e515" name="毁灭" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
         <categoryLink id="96d1-4824-d203-8eda" name="OGOR MAWTRIBES" hidden="false" targetId="2246-c381-2650-4ca2" primary="false"/>
         <categoryLink id="a7f2-4827-4233-a0fa" name="OGOR" hidden="false" targetId="1422-e165-b7d0-b2d9" primary="false"/>
         <categoryLink id="d4df-16e8-71fa-a9d2" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
@@ -4848,9 +4848,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65c-595c-0ad0-e6d6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8110-2e8e-d2e1-1eef" name="Flask of Stonehorn Blood" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8110-2e8e-d2e1-1eef" name="Flask of Stonehorn Blood" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can use this artefact. If they do so, until the end of that turn, roll a dice each time you allocate a wound or mortal wound to the bearer. On a 4+, that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of any phase, the bearer can use this 魔法道具. If they do so, until the end of that turn, roll a dice each time you allocate a wound or mortal wound to the bearer. On a 4+, that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4863,9 +4863,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd96-9418-6e87-8f64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14c8-13f4-e322-70cc" name="The Fang of Ghur" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="14c8-13f4-e322-70cc" name="The Fang of Ghur" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer’s Beastskewer Glaive has a Rend characteristic of -3 instead of -1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer’s Beastskewer Glaive has a Rend characteristic of -3 instead of -1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4878,9 +4878,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47d-2011-4a40-7569" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2f00-7e72-2d92-cd86" name="Headmasher" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="2f00-7e72-2d92-cd86" name="Headmasher" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer’s Thundermace has a Damage characteristic of 4 instead of 3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer’s Thundermace has a Damage characteristic of 4 instead of 3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4893,9 +4893,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f2-bef8-d6d0-a4ba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c304-3e28-3360-4dfe" name="Grawl’s Gut-plate" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c304-3e28-3360-4dfe" name="Grawl’s Gut-plate" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer of the Bleeding Skull can attempt to unbind one 法术 in each enemy 英雄阶段 exactly as if they were a 法师. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer of the Bleeding Skull can attempt to unbind one 法术 in each enemy 英雄阶段 exactly as if they were a 法师. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4908,9 +4908,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a674-38d3-3627-b94e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f15-0eee-d73e-402a" name="Gruesome Trophy Rackr" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0f15-0eee-d73e-402a" name="Gruesome Trophy Rackr" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly GUTBUSTERS units wholly within 12寸 of the bearer that target a 怪兽 or 英雄.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly GUTBUSTERS units wholly within 12寸 of the bearer that target a 怪兽 or 英雄.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4923,9 +4923,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b5-cb47-a384-644d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3d18-58ce-9c1c-dd0d" name="Sky-Titan Scatter Pistols" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3d18-58ce-9c1c-dd0d" name="Sky-Titan Scatter Pistols" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer’s Ogor Pistols have an Attacks characteristic of 6 instead of 2.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer’s Ogor Pistols have an Attacks characteristic of 6 instead of 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4959,7 +4959,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="47ae-f1b6-fe31-3a1a" name="Furious Guzzler" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, if this general is eating, you can heal up to D3 wounds allocated to them.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, if this 主将 is eating, you can heal up to D3 wounds allocated to them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4974,7 +4974,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="2540-585c-2cd9-aab2" name="Prodigious Girth" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4989,7 +4989,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="796a-9558-bb13-8722" name="Killer Reputation" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Before this general is set up for the first time, you can pick a second big name for them. Their second big name cannot be the same as their first big name.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Before this 主将 is set up for the first time, you can pick a second big name for them. Their second big name cannot be the same as their first big name.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5004,7 +5004,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="d96c-8cde-d11d-50c5" name="Mighty Bellower" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If an enemy 单位 fails a battleshock test within 6寸 of this general, add D3 to the number of models that flee.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If an enemy 单位 fails a battleshock test within 6寸 of this 主将, add D3 to the number of models that flee.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5019,7 +5019,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="31a8-411c-c01e-9ff8" name="An Eye for Loot" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made with 肉搏 武器 by this general that target an enemy 英雄 with an artefact of power.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit and wound rolls for attacks made with 肉搏 武器 by this 主将 that target an enemy 英雄 with an 魔法道具 of power.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5034,7 +5034,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="5efb-91dc-7972-5ce4" name="Crushing Bulk" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general is treated as a 怪兽 for the purposes of the Trampling Charge 战斗特性 (pg 71).</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is treated as a 怪兽 for the purposes of the Trampling Charge 战斗特性 (pg 71).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5130,7 +5130,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="a382-649b-b9c6-ed2c" name="Questionable Hygiene" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 6寸 of this general. </characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks made by enemy units while they are within 6寸 of this 主将. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5145,7 +5145,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="3499-5be7-01d2-c620" name="Herald of the Gulping God" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly units do not take battleshock tests while they are wholly within 15寸 of this general and this general is eating.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly units do not take battleshock tests while they are wholly within 15寸 of this 主将 and this 主将 is eating.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5160,7 +5160,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="d108-27c5-9aed-172d" name="Growling Stomach" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12寸 of this general and this general is hungry.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 2 from the Bravery characteristic of enemy units while they are within 12寸 of this 主将 and this 主将 is hungry.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5175,7 +5175,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="ffa9-947c-06e7-e2d8" name="Gastromancer" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general knows all spells from the Lore of Gutmagic (pg 76).</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows all spells from the Lore of Gutmagic (pg 76).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5190,7 +5190,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="adde-d0c3-5f0d-dcdf" name="Rolls of Fat" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to this general’s Wounds characteristic.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5205,7 +5205,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="519f-dfce-5537-b4af" name="法术-eater" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general dispels an endless 法术, you can heal any wounds allocated to them. If this general has no wounds allocated to them, you can instead add 1 to this general’s Wounds characteristic until the end of the battle. In addition, each time this general dispels an endless 法术, they can cast 1 additional 法术 in that phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 dispels an endless 法术, you can heal any wounds allocated to them. If this 主将 has no wounds allocated to them, you can instead add 1 to this 主将’s Wounds characteristic until the end of the battle. In addition, each time this 主将 dispels an endless 法术, they can cast 1 additional 法术 in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5246,7 +5246,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="3dcd-33cd-6d9d-db1c" name="Nomadic Raider" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made with 肉搏 武器 by this general (including their mount) while this general is wholly within enemy territory.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls for attacks made with 肉搏 武器 by this 主将 (including their mount) while this 主将 is wholly within enemy territory.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5261,7 +5261,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="54b4-c6a8-fc2d-a8a7" name="Voice of the Avalanche" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle round, this general can use a command ability on their warscroll without spending 1 command point.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once per battle round, this 主将 can use a command ability on their warscroll without spending 1 command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5276,7 +5276,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="c583-2a20-4521-26b5" name="Frostfell Aura" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot retreat while they are within 3寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Enemy units cannot retreat while they are within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5291,7 +5291,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="2d30-1b3f-c0ee-3c34" name="Master of the Mournfangs" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly MOURNFANG PACK units do not take battleshock tests while they are wholly within 18寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly MOURNFANG PACK units do not take battleshock tests while they are wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5306,7 +5306,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="95c4-adf6-07d6-7f5f" name="Skilled Rider" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Halve the number of wounds suffered by this general (rounding up) when determining which row on its 损伤表 to use.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Halve the number of wounds suffered by this 主将 (rounding up) when determining which row on its 损伤表 to use.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5321,7 +5321,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="e88c-0887-eecd-da4d" name="Touched by the Everwinter" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general is a PRIEST. If this general is already a PRIEST, they know 1 additional Everwinter prayer (pg 77).</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 祭司. If this 主将 is already a 祭司, they know 1 additional Everwinter prayer (pg 77).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5355,7 +5355,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="7c8a-c7fc-2c6d-e956" name="Winter Ranger" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of each of your 英雄 phases, if this general is in ambush, you gain D3 additional command points.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of each of your 英雄 phases, if this 主将 is in ambush, you gain D3 additional command points.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5370,7 +5370,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="6646-b1be-d060-d6c1" name="Eye of the Blizzard" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from hit rolls for attacks that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5385,7 +5385,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="84d5-51c8-021e-e1a7" name="Blood Vulture’s Gaze" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for attacks made with missile 武器 by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for attacks made with missile 武器 by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5400,7 +5400,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="db56-a9b4-a316-a26e" name="Frost Maw" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use this general’s Icy Breath ability, you can pick D3 enemy units within 6寸 of this general instead of 1.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use this 主将’s Icy Breath ability, you can pick D3 enemy units within 6寸 of this 主将 instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5415,7 +5415,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="48eb-bb99-886b-2b3f" name="Raised by Yhetees" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly units of ICEFALL YHETEES while they are wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly units of ICEFALL YHETEES while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5430,7 +5430,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="33d6-4729-a263-afc1" name="Skal Packmaster" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use this general’s Masters of Ambush ability, up to 2 units of FROST SABRES can join this general in ambush instead of 1.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When you use this 主将’s Masters of Ambush ability, up to 2 units of FROST SABRES can join this 主将 in ambush instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5462,9 +5462,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="111b-a8d7-3550-eb62" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6e10-014d-59cc-b0ae" name="Bloodrock Talisman" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="6e10-014d-59cc-b0ae" name="Bloodrock Talisman" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or dispel an endless 法术.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or dispel an endless 法术.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5477,9 +5477,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d9a-b8fb-2329-09e7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="98f4-0cda-0949-e10a" name="Rotting Dankhold Spores" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="98f4-0cda-0949-e10a" name="Rotting Dankhold Spores" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this artefact. If they do so, pick 1 enemy 单位 within 6寸 of the bearer and roll a number of dice equal to the number of models in that 单位. For each 4+, that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this 魔法道具. If they do so, pick 1 enemy 单位 within 6寸 of the bearer and roll a number of dice equal to the number of models in that 单位. For each 4+, that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5492,9 +5492,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d3-6e32-3608-8aee" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7948-8864-c29d-54e0" name="Dracoline Heart" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="7948-8864-c29d-54e0" name="Dracoline Heart" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this artefact. If they do so, pick 1 GREAT MAWPOT terrain feature that is part of your army, within 6寸 of the bearer and empty. That GREAT MAWPOT is now full.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this 魔法道具. If they do so, pick 1 GREAT MAWPOT terrain feature that is part of your army, within 6寸 of the bearer and empty. That GREAT MAWPOT is now full.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5502,14 +5502,14 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="69ca-3eb9-ab77-5978" name="2. Shrunken Priest Head" publicationId="50c5-e039-pubN81384" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="69ca-3eb9-ab77-5978" name="2. Shrunken 祭司 Head" publicationId="50c5-e039-pubN81384" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50b9-d024-179e-3888" type="max"/>
           </constraints>
           <profiles>
-            <profile id="662f-de71-4613-93c8" name="Shrunken Priest Head" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="662f-de71-4613-93c8" name="Shrunken 祭司 Head" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+, that wound or mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer. On a 5+, that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5522,9 +5522,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="502a-cfce-8708-6a59" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f388-91be-716b-d12a" name="Wizardflesh Apron" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f388-91be-716b-d12a" name="Wizardflesh Apron" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can cast 1 additional 法术 in each of your 英雄 phases.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can cast 1 additional 法术 in each of your 英雄 phases.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5537,9 +5537,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5669-7bc8-9162-72aa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="05d2-ddb6-c808-0a10" name="Grease-smeared Tusks" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="05d2-ddb6-c808-0a10" name="Grease-smeared Tusks" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to charge rolls for friendly MONSTERS while they are within 9寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to charge rolls for friendly MONSTERS while they are within 9寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5578,9 +5578,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cab9-92c2-7fea-35b6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c51f-8ba4-79cb-0834" name="Alvagr Rune-tokens" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c51f-8ba4-79cb-0834" name="Alvagr Rune-tokens" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this artefact. If they do so, until the start of your next 英雄阶段, you can re-roll hit and wound rolls for attacks made by the bearer and re-roll save rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can use this 魔法道具. If they do so, until the start of your next 英雄阶段, you can re-roll hit and wound rolls for attacks made by the bearer and re-roll save rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5593,9 +5593,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6727-177b-57a2-aa07" type="max"/>
           </constraints>
           <profiles>
-            <profile id="939d-e7a1-453a-dd70" name="Elixir of Frostwyrm" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="939d-e7a1-453a-dd70" name="Elixir of Frostwyrm" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 射击阶段, the bearer can use this artefact. If they do so, pick 1 enemy 单位 within 9寸 of the bearer that is visible to them. That 单位 suffers D6 mortal wounds. The bearer then suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 射击阶段, the bearer can use this 魔法道具. If they do so, pick 1 enemy 单位 within 9寸 of the bearer that is visible to them. That 单位 suffers D6 mortal wounds. The bearer then suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5608,9 +5608,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2307-562e-2b1d-b834" type="max"/>
           </constraints>
           <profiles>
-            <profile id="55a5-174e-a6dc-c8d3" name="The Rime Shroud" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="55a5-174e-a6dc-c8d3" name="The Rime Shroud" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Re-roll unmodified hit rolls of 6 for attacks made with missile 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll unmodified hit rolls of 6 for attacks made with missile 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5623,9 +5623,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02d6-bd38-59ed-0e75" type="max"/>
           </constraints>
           <profiles>
-            <profile id="82c2-3d7e-e874-ffcf" name="Blade of All-Frost" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="82c2-3d7e-e874-ffcf" name="Blade of All-Frost" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If any wounds inflicted by this weapon are allocated to an enemy 英雄 or 怪兽 model and that model is not slain, subtract 1 from hit and wound rolls for attacks made with 肉搏 武器 by that model for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. If any wounds inflicted by this weapon are allocated to an enemy 英雄 or 怪兽 model and that model is not slain, subtract 1 from hit and wound rolls for attacks made with 肉搏 武器 by that model for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5638,9 +5638,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4225-95ac-cfea-3f56" type="max"/>
           </constraints>
           <profiles>
-            <profile id="945f-6ca6-3f5f-0af7" name="Carvalox Flank" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="945f-6ca6-3f5f-0af7" name="Carvalox Flank" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Friendly ICEFALL YHETEE units that are wholly within 12寸 of the bearer at the start of the movement phase can move an extra 2寸 when they make a normal move during that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Friendly ICEFALL YHETEE units that are wholly within 12寸 of the bearer at the start of the movement phase can move an extra 2寸 when they make a normal move during that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5653,9 +5653,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2efd-70d2-6a68-6baf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d5b-2bb1-c904-44b9" name="Skullshards of Dragaar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5d5b-2bb1-c904-44b9" name="Skullshards of Dragaar" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, the bearer can attempt to unbind 1 法术 in the enemy 英雄阶段 as if they were a 法师. If they do so, that 法术 is automatically unbound (do not roll 2D6).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, the bearer can attempt to unbind 1 法术 in the enemy 英雄阶段 as if they were a 法师. If they do so, that 法术 is automatically unbound (do not roll 2D6).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5687,9 +5687,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9472-d021-ea70-65c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fdcc-00de-ac14-5124" name="The Pelt of Charngar" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="fdcc-00de-ac14-5124" name="The Pelt of Charngar" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can heal up to D3 wounds allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can heal up to D3 wounds allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5702,9 +5702,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7930-16b0-f1af-52b7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5fc7-0cde-58bf-499b" name="Kattanak Browplate" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="5fc7-0cde-58bf-499b" name="Kattanak Browplate" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer. In addition, at the start of your first 英雄阶段, you receive 1 additional command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to save rolls for attacks that target the bearer. In addition, at the start of your first 英雄阶段, you receive 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5717,9 +5717,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b28-6b1e-1004-337c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="32eb-ed4f-5595-f2de" name="Frost-talon Shardbolts" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="32eb-ed4f-5595-f2de" name="Frost-talon Shardbolts" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the unmodified hit roll for an attack made with the bearer’s Hunter’s Crossbow is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the unmodified hit roll for an attack made with the bearer’s Hunter’s Crossbow is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6287,9 +6287,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d009-cdff-ca18-b7dd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="977c-e978-7398-b904" name="Food for Thought" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="977c-e978-7398-b904" name="Food for Thought" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, if this general is eating, you gain 1 additional command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, if this 主将 is eating, you gain 1 additional command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6319,9 +6319,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aaaf-27f8-146b-96c9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="403d-498c-e029-48e5" name="Splatter-cleaver" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="403d-498c-e029-48e5" name="Splatter-cleaver" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. At the end of the combat phase, if any wounds inflicted by that weapon in that phase were allocated to an enemy model and not negated, you can heal D3 wounds allocated to each friendly BLOODGULLET OGOR 单位 wholly within 12寸 of the bearer (roll separately for each 单位).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. At the end of the combat phase, if any wounds inflicted by that weapon in that phase were allocated to an enemy model and not negated, you can heal D3 wounds allocated to each friendly BLOODGULLET OGOR 单位 wholly within 12寸 of the bearer (roll separately for each 单位).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6351,9 +6351,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a9e-c60a-e24a-8392" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0b1f-6c04-fb2d-838b" name="Gnoblar Blast Keg" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="0b1f-6c04-fb2d-838b" name="Gnoblar Blast Keg" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 射击阶段, you can use the Gnoblar Blast Keg. If you do so, pick 1 enemy 单位 within 9寸 of the bearer that is visible to them and roll 6 dice. Add 1 to each roll for every 10 models in the target 单位. For each 6+, that enemy 单位 suffers D3 mortal wounds. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 射击阶段, you can use the Gnoblar Blast Keg. If you do so, pick 1 enemy 单位 within 9寸 of the bearer that is visible to them and roll 6 dice. Add 1 to each roll for every 10 models in the target 单位. For each 6+, that enemy 单位 suffers D3 mortal wounds. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6383,9 +6383,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cad-a3e0-b463-6eb1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="286b-1163-06fd-21ad" name="Brand of the Svard" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="286b-1163-06fd-21ad" name="Brand of the Svard" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer has a mount, add 1 to hit rolls for attacks made with that mount’s 肉搏 武器.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer has a mount, add 1 to hit rolls for attacks made with that mount’s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6415,9 +6415,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b22-2963-0653-cfba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e67d-3f4f-9868-94cd" name="Shatterstone" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e67d-3f4f-9868-94cd" name="Shatterstone" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Enemy units treat terrain features within 12寸 of the bearer as having the Deadly scenery rule in addition to any 其他 scenery rules they may have.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Enemy units treat terrain features within 12寸 of the bearer as having the Deadly scenery rule in addition to any 其他 scenery rules they may have.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6447,9 +6447,9 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b047-0e60-793e-d969" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b42a-c96f-5fcd-4714" name="Frostfang" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="b42a-c96f-5fcd-4714" name="Frostfang" publicationId="50c5-e039-pubN81384" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. At the start of each battle round, roll a dice. On a 5+, add 1 to the damage inflicted by attacks made with that weapon for the rest of the battle. This effect is cumulative.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer’s 肉搏 武器. At the start of each battle round, roll a dice. On a 5+, add 1 to the damage inflicted by attacks made with that weapon for the rest of the battle. This effect is cumulative.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6528,7 +6528,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="4612-473c-d1ae-123a" name="Nice Drop of the Red Stuff!" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly units that start a pile-in move wholly within 12寸 of this general can move an extra 3寸 when they pile in.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly units that start a pile-in move wholly within 12寸 of this 主将 can move an extra 3寸 when they pile in.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6560,7 +6560,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="3fd4-0acd-4b42-6382" name="Mass of Scars" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks made with missile 武器 that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from wound rolls for attacks made with missile 武器 that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6592,7 +6592,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="c6bd-9752-e93f-b57d" name="Lord of Beasts" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly BOULDERHEAD MONSTERS that are wholly within 12寸 of this general at the start of the movement phase can move an extra 1寸 when they make a normal move during that phase.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly BOULDERHEAD MONSTERS that are wholly within 12寸 of this 主将 at the start of the movement phase can move an extra 1寸 when they make a normal move during that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6624,7 +6624,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="6f76-fa87-562d-fe27" name="Storm Chaser" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly THUNDERBELLIES units while they are wholly within 18寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly THUNDERBELLIES units while they are wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6656,7 +6656,7 @@ The first time a 单位 finishes a move within 1寸 of the trapped terrain featu
           <profiles>
             <profile id="8298-9463-82ae-3ef5" name="Wintertouched" publicationId="50c5-e039-pubN81384" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for attacks made with 肉搏 武器 by friendly WINTERBITE FROST SABRES units and WINTERBITE ICEFALL YHETEES units while they are wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to wound rolls for attacks made with 肉搏 武器 by friendly WINTERBITE FROST SABRES units and WINTERBITE ICEFALL YHETEES units while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>

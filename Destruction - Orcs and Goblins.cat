@@ -22,7 +22,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="d850-d9b0-684b-9f3a" name="Destruction" hidden="false"/>
+    <categoryEntry id="d850-d9b0-684b-9f3a" name="毁灭" hidden="false"/>
     <categoryEntry id="f643-013c-7718-007d" name="Orruk" hidden="false"/>
     <categoryEntry id="748c-7ab7-fb11-16a9" name="Ironjawz" hidden="false"/>
     <categoryEntry id="03eb-456f-dd6c-7024" name="Ardboys" hidden="false"/>
@@ -49,7 +49,7 @@
     <entryLink id="2c72-a161-c533-23bd" name="Gitboss on Wolf Chariot" hidden="false" collective="false" import="true" targetId="e5c1-b29a-e22f-b3e5" type="selectionEntry"/>
     <entryLink id="7cd7-b955-f601-8733" name="Mercenary Orruks" hidden="false" collective="false" import="true" targetId="4193-679e-f86b-6b06" type="selectionEntry"/>
     <entryLink id="0139-759e-1396-e914" name="Orruk Bully" hidden="false" collective="false" import="true" targetId="0b0f-168b-8357-7e8c" type="selectionEntry"/>
-    <entryLink id="9759-9043-13fb-995f" name="Allegiance" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="9759-9043-13fb-995f" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -60,7 +60,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="089d-0124-ca4f-8bb9" type="min"/>
@@ -72,7 +72,7 @@
         <categoryLink id="58cb-035e-421d-d749" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="db37-22b2-39f5-f49e">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="db37-22b2-39f5-f49e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -101,7 +101,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7dd-acbb-a8db-2fe5" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d7dd-acbb-a8db-2fe5" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>

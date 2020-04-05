@@ -258,7 +258,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d8f3-fc9b-77f1-5623" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d8f3-fc9b-77f1-5623" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -285,19 +285,19 @@
         <cost name="pts" typeId="points" value="600.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6892-294f-1dab-882a" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6892-294f-1dab-882a" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8bea-f792-0aa5-fc38" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc2e-a897-99a2-353f">
+        <selectionEntryGroup id="8bea-f792-0aa5-fc38" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc2e-a897-99a2-353f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cc2e-a897-99a2-353f" name="Allegiance: Sylvaneth" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cc2e-a897-99a2-353f" name="势力: Sylvaneth" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="df30-1adc-91e2-f871" name="Places of Power" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -454,7 +454,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="391d-2bf7-a92a-7cc8" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="391d-2bf7-a92a-7cc8" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="26a2-3949-a3aa-ba19" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -814,7 +814,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a15f-a36e-3e19-a822" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="a15f-a36e-3e19-a822" name="主将" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="4424-2057-a984-7fcc" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="3689-7470-7c05-0f5a" name="Deepwood 法术 Lore" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
         <entryLink id="99dc-06b5-2d16-9ab7" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
@@ -917,7 +917,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9c24-1e1d-988b-f0d8" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="9c24-1e1d-988b-f0d8" name="主将" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="648a-d7e7-ba3d-cc1e" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="c926-3d56-2a29-f190" name="Lore of the Deepwood" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
         <entryLink id="bd78-78d6-11bb-414c" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
@@ -1181,7 +1181,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="32ae-a8bf-7451-70cb" name="General" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="32ae-a8bf-7451-70cb" name="主将" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1503,7 +1503,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="0d53-a51a-ce49-1b23" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="0d53-a51a-ce49-1b23" name="主将" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="4e23-2e04-e5ab-6002" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="9006-48b1-85f4-a3a6" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2071,7 +2071,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9705-4c6c-5baf-9338" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="9705-4c6c-5baf-9338" name="主将" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="2433-1c81-97ca-231d" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="ffa4-0e7d-72e5-50ae" name="Deepwood 法术 Lore" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
         <entryLink id="35d8-2beb-d816-373b" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
@@ -2080,7 +2080,7 @@
         <cost name="pts" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="203c-cae0-53f6-9431" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="203c-cae0-53f6-9431" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2126,7 +2126,7 @@
         </profile>
         <profile id="85df-cd38-9045-4c6a" name="Call to Battle" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly SYLVANETH 单位 wholly within 9寸 of a friendly model with this command ability, or wholly within 12寸 of a friendly model with this command ability that is your general. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 in that combat phase. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly SYLVANETH 单位 wholly within 9寸 of a friendly model with this command ability, or wholly within 12寸 of a friendly model with this command ability that is your 主将. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 in that combat phase. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2137,7 +2137,7 @@
         <categoryLink id="b599-2d37-db5e-5227" name="ARCH-REVENANT" hidden="false" targetId="008c-f145-659b-06c2" primary="false"/>
         <categoryLink id="7cdd-6b41-966d-dd41" name="FREE SPIRITS" hidden="false" targetId="d6fd-d829-6545-9aee" primary="false"/>
         <categoryLink id="31a6-0683-18f6-0046" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="23a6-1858-e1e2-6494" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="23a6-1858-e1e2-6494" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="936e-02a9-7ef8-c596" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="e5a0-5013-90a0-caf4" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -2188,7 +2188,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="526d-6c70-8b97-5ab1" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="526d-6c70-8b97-5ab1" name="主将" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="e04f-deba-ca0d-a044" name="Artefacts" hidden="false" collective="false" import="true" targetId="ddcf-27d1-0fa8-de7d" type="selectionEntryGroup"/>
         <entryLink id="e998-2c09-b9f4-c9fd" name="Command Traits" hidden="false" collective="false" import="true" targetId="471d-1157-f7f5-932a" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2243,7 +2243,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="72cb-b9a0-d542-08fb" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="edc7-2fa7-528e-500d" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="edc7-2fa7-528e-500d" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="a7c5-9b48-9371-0950" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="4b0d-bb6f-6670-11f5" name="THORNWYCH" hidden="false" targetId="6a18-0e04-3e62-d0c9" primary="false"/>
         <categoryLink id="ac57-edff-1365-3d7a" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
@@ -2321,7 +2321,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e739-3608-273f-a86b" name="General" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
+        <entryLink id="e739-3608-273f-a86b" name="主将" hidden="false" collective="false" import="true" targetId="203c-cae0-53f6-9431" type="selectionEntry"/>
         <entryLink id="f3bb-767e-e3c4-f595" name="Deepwood 法术 Lore" hidden="false" collective="false" import="true" targetId="ad08-f268-8b24-726b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -2362,7 +2362,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e5b2-9dcb-9954-ed10" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="e5b2-9dcb-9954-ed10" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="cc86-6aa2-beb0-0f9f" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="8b49-5d85-35eb-9993" name="TREE-REVENANTS" hidden="false" targetId="bf04-ef65-dc69-086c" primary="false"/>
         <categoryLink id="5b85-799b-03ef-deeb" name="YLTHARI&apos;S GUARDIANS" hidden="false" targetId="b3e3-ad91-a277-16c1" primary="false"/>
@@ -2703,7 +2703,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="d5d5-5265-6791-a456" name="OAKENBROW" hidden="false" targetId="fc74-5007-3ac8-3b19" primary="false"/>
-        <categoryLink id="070b-5606-9425-7ff8" name="ORDER" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
+        <categoryLink id="070b-5606-9425-7ff8" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="e93b-2f16-04b6-f5ca" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
         <categoryLink id="43b2-f4eb-2e93-c291" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
       </categoryLinks>
@@ -2937,7 +2937,7 @@
           <profiles>
             <profile id="e409-124e-6450-395e" name="Dread Harvester" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with 肉搏 武器 by this general if this general made a charge move in the same turn.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll hit rolls for attacks made with 肉搏 武器 by this 主将 if this 主将 made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2949,7 +2949,7 @@
           <profiles>
             <profile id="46ce-ade9-e98c-aadf" name="Gnarled Warrior" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2961,7 +2961,7 @@
           <profiles>
             <profile id="607c-8ee8-fc34-8848" name="Gift of Ghyran" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, you can heal 1 wound allocated to this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, you can heal 1 wound allocated to this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2973,7 +2973,7 @@
           <profiles>
             <profile id="16d0-69ed-df1c-bd83" name="Lord of Spites" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll wound rolls of 1 for attacks made by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2985,7 +2985,7 @@
           <profiles>
             <profile id="44b4-7a7d-ae90-ff82" name="Warsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2997,7 +2997,7 @@
           <profiles>
             <profile id="1ed6-b693-eb1c-897b" name="Wisdom of the Ancients" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3024,9 +3024,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72b7-1be4-c09f-2eb0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c156-67d0-9b43-6cac" name="Lifewreath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c156-67d0-9b43-6cac" name="Lifewreath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">In you 英雄阶段, roll a dice.  On a 3+ you can heal D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 10寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In you 英雄阶段, roll a dice.  On a 3+ you can heal D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 10寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3039,9 +3039,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6664-fcd3-b947-7816" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3517-5516-e549-29ef" name="Everdew Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3517-5516-e549-29ef" name="Everdew Vial" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to run rolls and charge rolls for the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to run rolls and charge rolls for the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3054,9 +3054,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1613-1b85-74c9-8ed5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="66d3-2779-af12-67fc" name="Crown of Fell Bowers" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="66d3-2779-af12-67fc" name="Crown of Fell Bowers" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy 单位 within 6寸 of the bearer.  You can re-roll wound rolls for attacks made by friendly SYLVANETH units that target that 单位 in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy 单位 within 6寸 of the bearer.  You can re-roll wound rolls for attacks made by friendly SYLVANETH units that target that 单位 in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3069,9 +3069,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5eec-4da4-f5b4-0050" type="max"/>
           </constraints>
           <profiles>
-            <profile id="70dc-7ca6-b721-a24b" name="Seed of Rebirth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="70dc-7ca6-b721-a24b" name="Seed of Rebirth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1, the bearer is slain.  On a 2+ the bearer is not slain, you can heal up to D3 wounds allocated to them, and any wounds that remain to be allocated to them are negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The first time the bearer is slain, before removing them from the battlefield, roll a dice.  On a 1, the bearer is slain.  On a 2+ the bearer is not slain, you can heal up to D3 wounds allocated to them, and any wounds that remain to be allocated to them are negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3084,9 +3084,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b9a-893c-7678-01c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="783a-3be5-b8a6-c106" name="Wraithstone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="783a-3be5-b8a6-c106" name="Wraithstone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 10寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the Bravery characteristic of enemy units while they are within 10寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3099,9 +3099,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="597c-9b1c-08de-c8c1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c13d-ae28-13ab-ffcc" name="Etherblossom" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="c13d-ae28-13ab-ffcc" name="Etherblossom" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3128,9 +3128,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c611-5186-42bc-3bd3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1605-d29e-92be-f4cd" name="Acorn of the Ages" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1605-d29e-92be-f4cd" name="Acorn of the Ages" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can set up an AWAKENED WYLDWOOD wholly within 12寸 of the bearer and more than 1寸 from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you can set up an AWAKENED WYLDWOOD wholly within 12寸 of the bearer and more than 1寸 from any 其他 model, terrain feature or objective, and add it to your army.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3143,9 +3143,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b85-74fd-7e51-fa8d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f2cb-2b09-69bf-10aa" name="Spiritsong Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f2cb-2b09-69bf-10aa" name="Spiritsong Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to cast 1 extra 法术 in your 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to cast 1 extra 法术 in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3158,9 +3158,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6665-5a60-91dd-cb06" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3f67-cd18-2f23-9cd2" name="The Vesperal Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3f67-cd18-2f23-9cd2" name="The Vesperal Gem" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once in each of your 英雄 phases, when the bearer attempts to cast a 法术 from the Lore of the Deepwood, instead of making a casting roll you can say they are using the Vesperal Gem.  If you do so, that 法术 is automatically cast (do not roll 2D6) and cannot be unbound.  After the effect of that 法术 has been resolved, roll a dice.  On a 1, the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once in each of your 英雄 phases, when the bearer attempts to cast a 法术 from the Lore of the Deepwood, instead of making a casting roll you can say they are using the Vesperal Gem.  If you do so, that 法术 is automatically cast (do not roll 2D6) and cannot be unbound.  After the effect of that 法术 has been resolved, roll a dice.  On a 1, the bearer suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3173,9 +3173,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb79-c777-4212-e32c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ba98-0578-8b43-472b" name="Luneth&apos;s Lamp" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="ba98-0578-8b43-472b" name="Luneth&apos;s Lamp" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or display an endless 法术.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2 to the roll when the bearer attempts to unbind or display an endless 法术.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3188,9 +3188,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0879-0f78-2609-23a3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="651c-4c75-0fe2-2803" name="Hagbane Spite" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="651c-4c75-0fe2-2803" name="Hagbane Spite" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the bearer successfully unbinds a 法术, the caster suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer successfully unbinds a 法术, the caster suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3203,9 +3203,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6333-b30c-e81d-7cce" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d9dc-9bf0-f847-465b" name="Wychwood Glaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d9dc-9bf0-f847-465b" name="Wychwood Glaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Add 2 to the damage inflicted by that weapon for attacks that target a 法师.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Add 2 to the damage inflicted by that weapon for attacks that target a 法师.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3316,9 +3316,9 @@
       <selectionEntries>
         <selectionEntry id="0e2b-e066-ddf1-7df0" name="1. Daith&apos;s Reaper" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="327d-2b54-afce-4bba" name="Daith&apos;s Reaper" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="327d-2b54-afce-4bba" name="Daith&apos;s Reaper" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Improve the Rend characteristic of that weapon by 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Improve the Rend characteristic of that weapon by 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3328,9 +3328,9 @@
         </selectionEntry>
         <selectionEntry id="5222-993c-2aaa-6a28" name="2. Greenwood Gladius" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="8878-ee60-210d-faef" name="Greenwood Gladius" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="8878-ee60-210d-faef" name="Greenwood Gladius" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 weapon.  Add 2 to the Attacks characteristic of that weapon if the bearer made a charge move in the same turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 weapon.  Add 2 to the Attacks characteristic of that weapon if the bearer made a charge move in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3340,9 +3340,9 @@
         </selectionEntry>
         <selectionEntry id="7665-cda6-152e-6757" name="3. Autumn&apos;s Ire" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="aa5a-9544-13b4-a922" name="Autumn&apos;s Ire" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="aa5a-9544-13b4-a922" name="Autumn&apos;s Ire" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  You can re-roll hit and wound rolls of 1 for attacks made with that weapon while any wounds are allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  You can re-roll hit and wound rolls of 1 for attacks made with that weapon while any wounds are allocated to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3352,9 +3352,9 @@
         </selectionEntry>
         <selectionEntry id="70b2-e818-326a-1e91" name="4. Winnowstaff" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="379d-5ac4-d3f8-27f2" name="Winnowstaff" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="379d-5ac4-d3f8-27f2" name="Winnowstaff" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  You can re-roll hit rolls for attacks made with that weapon that target a 单位 with a Wounds characteristic of 1.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  You can re-roll hit rolls for attacks made with that weapon that target a 单位 with a Wounds characteristic of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3364,9 +3364,9 @@
         </selectionEntry>
         <selectionEntry id="d087-a9a7-4774-d608" name="5. Ancient Barkblade" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="309d-c157-cffb-11c3" name="Ancient Barkblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="309d-c157-cffb-11c3" name="Ancient Barkblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Add 1 to the Damage characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3376,9 +3376,9 @@
         </selectionEntry>
         <selectionEntry id="ff19-ee59-15ac-53ae" name="6. The Darkest Bough" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="aa65-d06e-3dcb-4655" name="The Darkest Bough" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="aa65-d06e-3dcb-4655" name="The Darkest Bough" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  If the unmodified wound roll for an attack made with that weapon is 6, that attack inflicts D3 mortal wounds on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3395,9 +3395,9 @@
       <selectionEntries>
         <selectionEntry id="76d2-e37a-ccb2-3a60" name="1. The Oaken Armour" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="dee4-a7dd-ea1d-82e1" name="The Oaken Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="dee4-a7dd-ea1d-82e1" name="The Oaken Armour" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll save rolls of 1 made for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll save rolls of 1 made for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3407,9 +3407,9 @@
         </selectionEntry>
         <selectionEntry id="e05d-5eb7-d5bd-892e" name="2. Briar Sheath" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3d91-f9ea-e9f2-22f0" name="Briar Sheath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3d91-f9ea-e9f2-22f0" name="Briar Sheath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3419,9 +3419,9 @@
         </selectionEntry>
         <selectionEntry id="e0e4-17fc-0683-fced" name="3. Glamourweave" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e0b6-6972-1458-b15a" name="Glamourweave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="e0b6-6972-1458-b15a" name="Glamourweave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocated a mortal wound to the bearer.  On a 5+ that mortal wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocated a mortal wound to the bearer.  On a 5+ that mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3431,9 +3431,9 @@
         </selectionEntry>
         <selectionEntry id="2260-b80e-fde3-4687" name="4. Lashvines" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="9f46-ccd5-9509-756a" name="Lashvines" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="9f46-ccd5-9509-756a" name="Lashvines" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time a wound is inflicted by a 肉搏 weapon is allocated to the bearer and not negated.  On a 6+ the attacking 单位 suffers on mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time a wound is inflicted by a 肉搏 weapon is allocated to the bearer and not negated.  On a 6+ the attacking 单位 suffers on mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3443,9 +3443,9 @@
         </selectionEntry>
         <selectionEntry id="6e52-ae1d-05cb-b393" name="5. Silken Snares" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="32aa-2e5c-420f-0d2b" name="Silken Snares" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="32aa-2e5c-420f-0d2b" name="Silken Snares" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">If the weapon used for an attack that targets the bearer has a Rend characteristic of -1, change the Rend characteristic for that attack to &apos;-&apos;.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the weapon used for an attack that targets the bearer has a Rend characteristic of -1, change the Rend characteristic for that attack to &apos;-&apos;.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3455,9 +3455,9 @@
         </selectionEntry>
         <selectionEntry id="2fbb-930c-84c7-4cc3" name="6. Nightbloom Garland" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f73b-0c0c-fd8b-4ab7" name="Nightbloom Garland" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="f73b-0c0c-fd8b-4ab7" name="Nightbloom Garland" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">The bearer is not visible to enemy models that are more than 12寸 from the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer is not visible to enemy models that are more than 12寸 from the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3483,7 +3483,7 @@
           <profiles>
             <profile id="44a7-317c-7e43-cd3e" name="Arcane Bounty" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general knows 1 extra 法术 from the Lore of the Deepwood.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of the Deepwood.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3495,7 +3495,7 @@
           <profiles>
             <profile id="4156-f782-75ac-340a" name="Mystic Regrowth" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of your 英雄阶段, if this general successfully cast any spells in that phase that were not unbound, you can heal D3 wounds allocated to this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the end of your 英雄阶段, if this 主将 successfully cast any spells in that phase that were not unbound, you can heal D3 wounds allocated to this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3507,7 +3507,7 @@
           <profiles>
             <profile id="3c76-c7a3-d94f-5004" name="Voice of Warding" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This general can attempt to unbind 1 extra 法术 in the enemy 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 can attempt to unbind 1 extra 法术 in the enemy 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3519,7 +3519,7 @@
           <profiles>
             <profile id="54d5-66e8-d0d4-0a04" name="Glade Lore" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this general while it is wholly within 6寸 of any AWAKENED WYLDWOODS.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this 主将 while it is wholly within 6寸 of any AWAKENED WYLDWOODS.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3531,7 +3531,7 @@
           <profiles>
             <profile id="0297-7e2d-761d-a63c" name="Spellsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 6寸 to the range of each 法术 this general successfully casts.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 6寸 to the range of each 法术 this 主将 successfully casts.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3543,7 +3543,7 @@
           <profiles>
             <profile id="4207-d53b-98dd-feff" name="Radiant Spirit" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general is affected by a 法术 or endless 法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or endless 法术 on this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is affected by a 法术 or endless 法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or endless 法术 on this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3587,9 +3587,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a13-7143-0598-c714" type="min"/>
           </constraints>
           <profiles>
-            <profile id="aa1f-f980-babf-20ed" name="Jewel of Withering" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="aa1f-f980-babf-20ed" name="Jewel of Withering" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for attacks made with 肉搏 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from wound rolls for attacks made with 肉搏 武器 that target the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3626,9 +3626,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8f76-54b8-6eee-9942" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3dff-4032-3d7a-55d9" name="Chalice of Nectar" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3dff-4032-3d7a-55d9" name="Chalice of Nectar" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">When making a casting or unbinding roll for the bearer, roll 3D6, remove 1 dice of your choice, and then use the remaining 2D6 to determine that casting or unbinding roll.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">When making a casting or unbinding roll for the bearer, roll 3D6, remove 1 dice of your choice, and then use the remaining 2D6 to determine that casting or unbinding roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3665,9 +3665,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bcff-2bd5-e0f6-82ef" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d89b-8c2e-3d5c-a52e" name="The Silent Sickle" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="d89b-8c2e-3d5c-a52e" name="The Silent Sickle" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Add 1 to the Attacks characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick 1 of the bearer&apos;s 肉搏 武器.  Add 1 to the Attacks characteristic of that weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3704,9 +3704,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3111-a37c-be27-b3c2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3a70-3936-6371-2f18" name="Horn of the Consort" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="3a70-3936-6371-2f18" name="Horn of the Consort" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by friendly HEARTWOOD KURNOTH HUNTERS wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made by friendly HEARTWOOD KURNOTH HUNTERS wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3743,9 +3743,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ec50-5b01-740a-6e91" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4ba5-0fff-cec6-52e6" name="Ironbark Talisman" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="4ba5-0fff-cec6-52e6" name="Ironbark Talisman" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with 肉搏 武器 by the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to wound rolls for attacks made with 肉搏 武器 by the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3782,9 +3782,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7c08-a767-fff3-e90d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1ae2-69c9-6475-32cb" name="Frozen Kernel" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="1ae2-69c9-6475-32cb" name="Frozen Kernel" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 friendly WINTERLEAF 单位 wholly within 18寸 of the bearer.  After that 单位 has fought in that phase for the first time, if it is within 3寸 of an enemy 单位, it can make a pile-in move and then attack with all of its 肉搏 武器 it is armed with for a second time.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 friendly WINTERLEAF 单位 wholly within 18寸 of the bearer.  After that 单位 has fought in that phase for the first time, if it is within 3寸 of an enemy 单位, it can make a pile-in move and then attack with all of its 肉搏 武器 it is armed with for a second time.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3821,9 +3821,9 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ec0-6ff6-d17f-f49c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="98c0-3117-9d7f-c201" name="Dawnflask" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="Artefact">
+            <profile id="98c0-3117-9d7f-c201" name="Dawnflask" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="Artefact 细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound or mortal wound to the bearer.
 On a 6+ that wound or mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
@@ -3870,7 +3870,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="8da6-9a66-ee24-2a80" name="Paragon of Terror" publicationId="3eb3-ef35-59aa-b7e2" page="78" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll successful battleshock tests for enemy units while they are within 6寸 of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Re-roll successful battleshock tests for enemy units while they are within 6寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3909,7 +3909,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="fd17-63c9-e68f-b359" name="Nurtured by Magic" publicationId="3eb3-ef35-59aa-b7e2" page="74" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once in each of your 英雄 phases, it this general successfully casts a 法术 that is not unbound, pick 1 friendly GNARLROOT 单位 wholly within 18寸 of this general.  You can heal up to D3 wounds allocated to that 单位.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Once in each of your 英雄 phases, it this 主将 successfully casts a 法术 that is not unbound, pick 1 friendly GNARLROOT 单位 wholly within 18寸 of this 主将.  You can heal up to D3 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3948,7 +3948,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="6585-d1c7-8e19-000c" name="Seek New Fruit" publicationId="3eb3-ef35-59aa-b7e2" page="79" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this general attacks with its 肉搏 武器, it can make a 6寸 move after all of its attacks have been resolved.  If it does so, it must finish the move more than 3寸 from enemy units.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 attacks with its 肉搏 武器, it can make a 6寸 move after all of its attacks have been resolved.  If it does so, it must finish the move more than 3寸 from enemy units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3987,7 +3987,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="677b-1850-f543-fdf4" name="Mere Rainfall" publicationId="3eb3-ef35-59aa-b7e2" page="76" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls for attacks made with missile 武器 that target this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls for attacks made with missile 武器 that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4026,7 +4026,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="f014-bc60-8523-7125" name="My Heart Is Ice" publicationId="3eb3-ef35-59aa-b7e2" page="77" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time a wound is inflicted by a 肉搏 weapon is allocated to this general and not negated.  On a 5+ the attacking 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time a wound is inflicted by a 肉搏 weapon is allocated to this 主将 and not negated.  On a 5+ the attacking 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4065,7 +4065,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="5c8e-f350-e523-357e" name="Legacy of Valour" publicationId="3eb3-ef35-59aa-b7e2" page="75" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the general is slain, do D3 mortal wounds to an enemy 单位 within 1寸 on a 2+. On a 6, do D6 instead.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If the 主将 is slain, do D3 mortal wounds to an enemy 单位 within 1寸 on a 2+. On a 6, do D6 instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4104,7 +4104,7 @@ On a 6+ that wound or mortal wound is negated.</characteristic>
           <profiles>
             <profile id="8173-7789-6892-d1c7" name="Regal Old-growth" publicationId="3eb3-ef35-59aa-b7e2" page="72" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Wounds characteristic of this general.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Wounds characteristic of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>

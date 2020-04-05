@@ -24,7 +24,7 @@
     <categoryEntry id="b236-1152-8593-a39c" name="SEAWARDEN" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="2284-42cf-eccf-5df5" name="Allegiance" hidden="false" collective="false" import="true" targetId="4061-375a-0f4a-6bba" type="selectionEntry">
+    <entryLink id="2284-42cf-eccf-5df5" name="势力" hidden="false" collective="false" import="true" targetId="4061-375a-0f4a-6bba" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -122,19 +122,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4061-375a-0f4a-6bba" name="Allegiance" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4061-375a-0f4a-6bba" name="势力" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9852-0b47-6350-b3b6" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f2a-c06a-3a87-d64b" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3a40-6415-02b9-7cd3" name="Allegiance" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8fa-0828-84d6-081b">
+        <selectionEntryGroup id="3a40-6415-02b9-7cd3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8fa-0828-84d6-081b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4391-9cf0-b755-a0e4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66a7-cdea-8ae0-8abd" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e8fa-0828-84d6-081b" name="Allegiance: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e8fa-0828-84d6-081b" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1f7f-72db-a54a-3032" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -153,7 +153,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca7e-5cd7-9476-2bd9" name="General" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ca7e-5cd7-9476-2bd9" name="主将" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -578,7 +578,7 @@
           <profiles>
             <profile id="0905-5837-cb59-0a7b" name="Sea Drake Pennant" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Seawarden with a Sea Drake Pennant gains the TOTEM keyword. Add 1 to all wound rolls for HIGHBORN units from your army if they are within 8寸 of a friendly Sea Drake Pennant when they attack.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Seawarden with a Sea Drake Pennant gains the 图腾 keyword. Add 1 to all wound rolls for HIGHBORN units from your army if they are within 8寸 of a friendly Sea Drake Pennant when they attack.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -588,7 +588,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fe27-5dff-9d52-dfaa" name="General" hidden="false" collective="false" import="true" targetId="ca7e-5cd7-9476-2bd9" type="selectionEntry"/>
+        <entryLink id="fe27-5dff-9d52-dfaa" name="主将" hidden="false" collective="false" import="true" targetId="ca7e-5cd7-9476-2bd9" type="selectionEntry"/>
         <entryLink id="8b6f-ddf7-4d37-62b9" name="Artefacts" hidden="false" collective="false" import="true" targetId="d207-19b5-bda6-f305" type="selectionEntryGroup"/>
         <entryLink id="a785-ee37-1de2-5626" name="Command Traits" hidden="false" collective="false" import="true" targetId="b41f-2df1-48ab-2d33" type="selectionEntryGroup"/>
       </entryLinks>

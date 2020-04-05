@@ -270,7 +270,7 @@
                         </profile>
                         <profile id="2df4-e0c5-3e64-d8b7" name="Gift of Morghur" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN 英雄 is slain, roll a dice before removing the model. On a 2+ one 混沌 SPAWN is added to your army. Set up the 混沌 SPAWN anywhere on the battlefield within 6寸 of the slain 英雄. If the 英雄 had the KHORNE, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the 混沌 SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that 混沌 SPAWN .</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN 英雄 is slain, roll a dice before removing the model. On a 2+ one 混沌 SPAWN is added to your army. Set up the 混沌 SPAWN anywhere on the battlefield within 6寸 of the slain 英雄. If the 英雄 had the 恐虐, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the 混沌 SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that 混沌 SPAWN .</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -304,7 +304,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="186e-8976-3d12-9451" name="Khorne" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
+            <entryLink id="186e-8976-3d12-9451" name="恐虐" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
             <entryLink id="b1e8-2cde-2d9e-3e79" name="Tzeentch" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
             <entryLink id="8c01-a0c0-bfd0-881c" name="Slaanesh" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
             <entryLink id="e5c1-e8a1-a45f-394b" name="Nurgle" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
@@ -3836,12 +3836,12 @@
         </profile>
         <profile id="505e-2a29-f79a-706a" name="Followers of the Brass Bull" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the KHORNE keyword. In addition, this warscroll 阵型 is part of the Khorne faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the 恐虐 keyword. In addition, this warscroll 阵型 is part of the 恐虐 faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e31d-1b6e-8348-f570" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
+        <categoryLink id="e31d-1b6e-8348-f570" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d8d-5532-28c0-b3fc" name="Brass Despoilers" hidden="false" collective="false" import="true" type="upgrade">
@@ -4320,7 +4320,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a5f8-f319-4988-5cfa" name="Endless 法术: Ravening Direflock" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a5f8-f319-4988-5cfa" name="无尽法术: Ravening Direflock" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ef2d-7693-9f24-673e" name="Summon Ravening Direflock" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
@@ -4340,17 +4340,17 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="71c8-8558-9b9f-2769" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="71c8-8558-9b9f-2769" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ced1-4557-660d-4219" name="Endless 法术: Wildfire Taurus" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ced1-4557-660d-4219" name="无尽法术: Wildfire Taurus" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="5777-5512-6b05-4127" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Wildfire Taurus is a predatory endless 法术. It can move up to 12寸 and can fly</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Wildfire Taurus is a predatory 无尽法术. It can move up to 12寸 and can fly</characteristic>
           </characteristics>
         </profile>
         <profile id="facd-4317-60f1-7414" name="Summon Wildfire Taurus" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -4371,13 +4371,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="9567-207a-d4b5-8422" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="9567-207a-d4b5-8422" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b9b7-48f9-740e-f1d4" name="Endless 法术: Doomblast Dirgehorn" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b9b7-48f9-740e-f1d4" name="无尽法术: Doomblast Dirgehorn" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="8d0e-52cd-4467-6f47" name="Summon Doomblast Dirgehorn" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
@@ -4397,7 +4397,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="806e-34a4-9b60-2843" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="806e-34a4-9b60-2843" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="60.0"/>
@@ -4972,7 +4972,7 @@
         <entryLink id="db1b-a8c3-7b3b-3c13" name="Traits: Aspects of the Perfect Liege" hidden="false" collective="false" import="true" targetId="efc7-556b-c158-a7e2" type="selectionEntryGroup"/>
         <entryLink id="bf33-e9ec-27aa-fb11" name="Traits: Tzeentch Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
         <entryLink id="b621-4126-2e3b-57f3" name="Traits: Obsessions of the Invader" hidden="false" collective="false" import="true" targetId="f0b1-f554-bc8b-f75c" type="selectionEntryGroup"/>
-        <entryLink id="5f71-105d-b50f-3d45" name="Traits: Khorne Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
+        <entryLink id="5f71-105d-b50f-3d45" name="Traits: 恐虐 Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
         <entryLink id="eb2c-ce18-697a-047e" name="Traits: Nurgle Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
         <entryLink id="4dfe-ff6f-40d7-d6b2" name="Traits: Tzeentch Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
         <entryLink id="1e58-1f5f-6ec8-1898" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
@@ -4985,7 +4985,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6820-cd0c-5323-f099" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="407a-798b-8d15-2814" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="407a-798b-8d15-2814" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9f-0b39-6506-5278" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc90-e1c6-655a-e538" type="min"/>
@@ -5439,7 +5439,7 @@
           <profiles>
             <profile id="cc23-6a53-a0b6-ef14" name="Ruinous Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or endless 法术, roll a dice. On a 4+ ignore the effects of that 法术 on the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or 无尽法术, roll a dice. On a 4+ ignore the effects of that 法术 on the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5893,17 +5893,17 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="20c1-5cc5-2d3a-3914" name="Endless Spells: Beasts of 混沌" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="d8a3-a5ab-f07e-254f" name="Endless 法术: Ravening Direflock" hidden="false" collective="false" import="true" targetId="a5f8-f319-4988-5cfa" type="selectionEntry">
+        <entryLink id="d8a3-a5ab-f07e-254f" name="无尽法术: Ravening Direflock" hidden="false" collective="false" import="true" targetId="a5f8-f319-4988-5cfa" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd11-4220-e6c7-db56" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="3f96-31c9-915b-befb" name="Endless 法术: Doomblast Dirgehorn" hidden="false" collective="false" import="true" targetId="b9b7-48f9-740e-f1d4" type="selectionEntry">
+        <entryLink id="3f96-31c9-915b-befb" name="无尽法术: Doomblast Dirgehorn" hidden="false" collective="false" import="true" targetId="b9b7-48f9-740e-f1d4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bde-649d-4f3f-9287" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="91a6-bacf-bd1b-c8d8" name="Endless 法术: Wildfire Taurus" hidden="false" collective="false" import="true" targetId="ced1-4557-660d-4219" type="selectionEntry">
+        <entryLink id="91a6-bacf-bd1b-c8d8" name="无尽法术: Wildfire Taurus" hidden="false" collective="false" import="true" targetId="ced1-4557-660d-4219" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ed-14a4-13e0-e748" type="max"/>
           </constraints>

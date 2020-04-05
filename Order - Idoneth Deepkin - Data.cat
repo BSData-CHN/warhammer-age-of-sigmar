@@ -2,8 +2,8 @@
 <catalogue id="b713-a274-2a46-fe02" name="秩序 - Idoneth Deepkin - Data" revision="25" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0d25-2712-pubN65537" name="秩序军书: Idoneth Deepkin"/>
-    <publication id="0d25-2712-pubN70885" name="GHB 2018 Errata, June 2018"/>
-    <publication id="0d25-2712-pubN77739" name="军书: ID Errata, June 2018"/>
+    <publication id="0d25-2712-pubN70885" name="GHB 2018 勘误, June 2018"/>
+    <publication id="0d25-2712-pubN77739" name="军书: ID 勘误, June 2018"/>
   </publications>
   <profileTypes>
     <profileType id="7534-9548-748f-9dcc" name="Leviadon Wounds">
@@ -2789,7 +2789,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="af7c-cb34-f500-072d" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="af7c-cb34-f500-072d" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db25-e554-345a-2aee" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd1f-1933-ec51-1bb3" type="max"/>
@@ -2799,7 +2799,7 @@
           <profiles>
             <profile id="efeb-7beb-f820-458b" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2811,7 +2811,7 @@
           <profiles>
             <profile id="2913-8bcf-a6ec-17ab" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2823,7 +2823,7 @@
           <profiles>
             <profile id="d1a3-9cca-0f87-31a0" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2835,7 +2835,7 @@
           <profiles>
             <profile id="e53b-d58a-d894-8370" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2847,7 +2847,7 @@
           <profiles>
             <profile id="ca39-078c-4d38-90bd" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>

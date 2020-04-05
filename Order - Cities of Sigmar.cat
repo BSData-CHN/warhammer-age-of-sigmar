@@ -268,7 +268,7 @@
             <constraint field="selections" scope="0db5-b074-ea11-2661" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c6e-b316-6fb4-4016" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9d98-c930-789f-5163" name="Game Options" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
+        <categoryLink id="9d98-c930-789f-5163" name="游戏选项" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
         <categoryLink id="a28c-1383-1b34-1e82" name="Realm of Origin" hidden="false" targetId="5c6d-5384-bcb1-b474" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="c7e4-1701-01a2-945a" type="max"/>
@@ -1387,7 +1387,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                 </profile>
                 <profile id="c078-f8c8-4ed7-5207" name="Amplified Sorceries" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a CITIES OF SIGMAR 法师 successfully casts an endless 法术 and that 法术 has any of the abilities listed below, those abilities are in effect for that 法术 regardless of the realm in which the battle is taking place.
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a CITIES OF SIGMAR 法师 successfully casts an 无尽法术 and that 法术 has any of the abilities listed below, those abilities are in effect for that 法术 regardless of the realm in which the battle is taking place.
 
 • Empowered by Aqshy
 • Empowered by Chamon
@@ -1570,7 +1570,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                         </profile>
                         <profile id="4145-7c28-5937-6e75" name="Eldritch Attunement" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time a friendly HALLOWHEART 单位 is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time a friendly HALLOWHEART 单位 is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="6683-4a01-4e7b-28b4" name="Mages of the Whitefire Court" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1890,7 +1890,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="d8bf-1a98-1d5b-f59e" name="Blessing of the Ur-Phoenix" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 endless 法术 in your 英雄阶段 and attempt to unbind 1 法术 in the enemy 英雄阶段.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 无尽法术 in your 英雄阶段 and attempt to unbind 1 法术 in the enemy 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5817,7 +5817,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="1842-852d-c399-4cb7" name="Runes of Spellbreaking" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 endless 法术 in your 英雄阶段 and attempt to unbind 1 法术 in the enemy 英雄阶段. Add 2 to dispelling and unbinding rolls for this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to dispel 1 无尽法术 in your 英雄阶段 and attempt to unbind 1 法术 in the enemy 英雄阶段. Add 2 to dispelling and unbinding rolls for this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f3c2-02f5-00ee-b5a5" name="Rune Lore" publicationId="e440-9199-1072-a7a0" page="1" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -5956,7 +5956,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="511e-bb08-55a9-0449" name="‘Too much damned magic flying about these days!’" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">A 单位 with this complaint can attempt to dispel 1 endless 法术 in your 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">A 单位 with this complaint can attempt to dispel 1 无尽法术 in your 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="2476-4422-a468-44cf" name="Old Guard" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -11120,7 +11120,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="6f80-043b-e5b7-a0b6" name="Famed 法术-hunter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is a 法师, add 3 to the roll when this 主将 attempts to dispel an endless 法术. If this 主将 is not a 法师, they can attempt to dispel 1 endless 法术 in your 英雄阶段.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is a 法师, add 3 to the roll when this 主将 attempts to dispel an 无尽法术. If this 主将 is not a 法师, they can attempt to dispel 1 无尽法术 in your 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>

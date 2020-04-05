@@ -73,22 +73,22 @@
     <profileType id="f6e4-6a2b-0638-cb67" name="Bloodthirster of Rage Wounds">
       <characteristicTypes>
         <characteristicType id="e696-12bc-b8d8-f1a5" name="移动力"/>
-        <characteristicType id="06ca-c1e8-12d5-8bde" name="Great Axe of Khorne"/>
+        <characteristicType id="06ca-c1e8-12d5-8bde" name="Great Axe of 恐虐"/>
         <characteristicType id="95d9-935f-6874-912f" name="Outrageous Carnage"/>
       </characteristicTypes>
     </profileType>
     <profileType id="d2d6-35aa-943d-16d6" name="Bloodthirster of Fury Wounds">
       <characteristicTypes>
         <characteristicType id="4465-81f3-e3ce-7ffd" name="移动力"/>
-        <characteristicType id="e46b-cda7-64e8-21e4" name="Lash of Khorne"/>
-        <characteristicType id="087f-a681-d695-5728" name="Mighty Axe of Khorne"/>
+        <characteristicType id="e46b-cda7-64e8-21e4" name="Lash of 恐虐"/>
+        <characteristicType id="087f-a681-d695-5728" name="Mighty Axe of 恐虐"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="dec2-2d01-ec4b-da4a" name="Wrath of Khorne Bloodthirster Wounds">
+    <profileType id="dec2-2d01-ec4b-da4a" name="Wrath of 恐虐 Bloodthirster Wounds">
       <characteristicTypes>
         <characteristicType id="77e9-d65f-d63a-c0fe" name="移动力"/>
         <characteristicType id="8190-fc3b-7afc-1805" name="Bloodflail"/>
-        <characteristicType id="2244-5f47-2965-2e06" name="Mighty Axe of Khorne"/>
+        <characteristicType id="2244-5f47-2965-2e06" name="Mighty Axe of 恐虐"/>
       </characteristicTypes>
     </profileType>
     <profileType id="b9cf-b0a6-b4bd-5165" name="Skarbrand Wounds">
@@ -98,11 +98,11 @@
         <characteristicType id="e1e9-d2bb-f723-cd12" name="Carnage"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3786-9caa-68d2-5d22" name="恶魔 of Khorne Wounds">
+    <profileType id="3786-9caa-68d2-5d22" name="恶魔 of 恐虐 Wounds">
       <characteristicTypes>
         <characteristicType id="6b1d-ec14-b9ce-49d0" name="移动力"/>
-        <characteristicType id="98ad-74f0-b137-8fa7" name="Lash of Khorne"/>
-        <characteristicType id="660e-b064-9b36-bf61" name="Migthy Axe of Khorne"/>
+        <characteristicType id="98ad-74f0-b137-8fa7" name="Lash of 恐虐"/>
+        <characteristicType id="660e-b064-9b36-bf61" name="Migthy Axe of 恐虐"/>
       </characteristicTypes>
     </profileType>
     <profileType id="910b-993b-2248-8495" name="Mazarall Wounds Suffered">
@@ -410,7 +410,7 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b541-3b22-08bb-d772" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b541-3b22-08bb-d772" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cd58-f2c2-f861-e9a6" name="Blood for the Blood God!" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -429,12 +429,12 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
         </profile>
         <profile id="c7a4-56b9-0b8b-989e" name="3" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Murderlust: Pick 1 friendly KHORNE 单位; that 单位 can make a normal move. If it is within 12寸 of an enemy model, it can either make a normal move or attempt to make a charge move. </characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Murderlust: Pick 1 friendly 恐虐 单位; that 单位 can make a normal move. If it is within 12寸 of an enemy model, it can either make a normal move or attempt to make a charge move. </characteristic>
           </characteristics>
         </profile>
         <profile id="7c59-b7ea-fdd3-44ab" name="4" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Apoplectic Frenzy: Pick 1 friendly KHORNE 单位 within 3寸 of an enemy 单位. That KHORNE 单位 can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Apoplectic Frenzy: Pick 1 friendly 恐虐 单位 within 3寸 of an enemy 单位. That 恐虐 单位 can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="c9ef-8405-a7fe-2ce5" name="5" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
@@ -444,17 +444,17 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
         </profile>
         <profile id="b513-b4b7-cf40-0ffc" name="6" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Relentless Fury: Until your next 英雄阶段, each time a friendly KHORNE model is slain in the combat phase, before the model is removed from play, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Relentless Fury: Until your next 英雄阶段, each time a friendly 恐虐 model is slain in the combat phase, before the model is removed from play, it can make a pile-in move and then attack with all of the 肉搏 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
         <profile id="53be-1111-f402-7d1e" name="7" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Crimson Rain: You can choose this reward once per battle. Immediately after you do so, and at the start of each of your subsequent 英雄 phases, you can heal up to D3 wounds allocated to each friendly KHORNE 单位 on the battlefield.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Crimson Rain: You can choose this reward once per battle. Immediately after you do so, and at the start of each of your subsequent 英雄 phases, you can heal up to D3 wounds allocated to each friendly 恐虐 单位 on the battlefield.</characteristic>
           </characteristics>
         </profile>
         <profile id="9cdd-abbf-87c3-932a" name="8" hidden="false" typeId="2e4a-4480-cd92-0b43" typeName="Blood Tithe Table - Points Expended">
           <characteristics>
-            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Slaughter Triumphant: You can choose this reward once per battle. After you do so, if the unmodified hit roll for an attack made with a 肉搏 weapon by a friendly KHORNE 单位 is 6, that attack scores 2 hits on the target instead of 1. Make a wound roll and save roll for each hit.</characteristic>
+            <characteristic name="Reward" typeId="c248-0586-10ea-3e0c">Slaughter Triumphant: You can choose this reward once per battle. After you do so, if the unmodified hit roll for an attack made with a 肉搏 weapon by a friendly 恐虐 单位 is 6, that attack scores 2 hits on the target instead of 1. Make a wound roll and save roll for each hit.</characteristic>
           </characteristics>
         </profile>
         <profile id="18cd-9282-6d84-33e8" name="(03) 1 Bloodthirster of Insensate Rage" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
@@ -462,7 +462,7 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">8</characteristic>
           </characteristics>
         </profile>
-        <profile id="1cd6-32de-5d3a-4a84" name="(02) 1 Wrath of Khorne Bloodthirster" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
+        <profile id="1cd6-32de-5d3a-4a84" name="(02) 1 Wrath of 恐虐 Bloodthirster" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">8</characteristic>
           </characteristics>
@@ -472,9 +472,9 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="8695-0c77-7b9e-1678" name="Summon Daemons of Khorne" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
+        <profile id="8695-0c77-7b9e-1678" name="Summon Daemons of 恐虐" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can summon units of KHORNE DAEMONS to the battlefield by expending Blood Tithe points. If you have 2 or more Blood Tithe points at the end of your movement phase, you can summon one 单位 from the list below onto the battlefield, and add it to your army. Each 单位 you summon costs a number of Blood Tithe points to pay its cost. If you summon a 单位 in this manner, your Blood Tithe points total is reset to zero immediately after the 单位 has been set up (you cannot save any Blood Tithe points you did not use). Units summoned in this way must be set up wholly within 12寸 of a friendly KHORNE 英雄 or SKULL ALTAR and more than 9寸 from any enemy units.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can summon units of 恐虐 DAEMONS to the battlefield by expending Blood Tithe points. If you have 2 or more Blood Tithe points at the end of your movement phase, you can summon one 单位 from the list below onto the battlefield, and add it to your army. Each 单位 you summon costs a number of Blood Tithe points to pay its cost. If you summon a 单位 in this manner, your Blood Tithe points total is reset to zero immediately after the 单位 has been set up (you cannot save any Blood Tithe points you did not use). Units summoned in this way must be set up wholly within 12寸 of a friendly 恐虐 英雄 or SKULL ALTAR and more than 9寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile id="79e3-e822-e294-ae4a" name="(05) 20 Bloodletters" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
@@ -492,7 +492,7 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">6</characteristic>
           </characteristics>
         </profile>
-        <profile id="4e1e-1b9c-172e-87ac" name="(15) 1 Bloodmaster, Herald of Khorne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
+        <profile id="4e1e-1b9c-172e-87ac" name="(15) 1 Bloodmaster, Herald of 恐虐" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">2</characteristic>
           </characteristics>
@@ -502,7 +502,7 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">5</characteristic>
           </characteristics>
         </profile>
-        <profile id="198a-4ff6-0bcc-455d" name="(13) 1 Skullmaster, Herald of Khorne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
+        <profile id="198a-4ff6-0bcc-455d" name="(13) 1 Skullmaster, Herald of 恐虐" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">3</characteristic>
           </characteristics>
@@ -512,7 +512,7 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="a784-e9c1-d286-8614" name="(11) 1 Herald of Khorne on Blood Throne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
+        <profile id="a784-e9c1-d286-8614" name="(11) 1 Herald of 恐虐 on Blood Throne" hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">4</characteristic>
           </characteristics>
@@ -532,14 +532,14 @@ If a 单位 that is affected by this 战斗特性 is also affected by any rules 
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">2</characteristic>
           </characteristics>
         </profile>
-        <profile id="a7c2-aee2-e2a0-c37c" name="(01) 1 Exalted 大魔 of Khorne " hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
+        <profile id="a7c2-aee2-e2a0-c37c" name="(01) 1 Exalted 大魔 of 恐虐 " hidden="false" typeId="53ae-6af8-0d87-ae4d" typeName="Blood Tithe Table - 单位 Summoning">
           <characteristics>
             <characteristic name="Cost" typeId="d5b0-7d16-f65b-4b39">16</characteristic>
           </characteristics>
         </profile>
         <profile id="3a10-c998-d24f-7111" name="Locus of Fury" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">可以重投命中骰的1 for attacks made by friendly KHORNE 恶魔 units while they are wholly within 12寸 of any friendly KHORNE 恶魔 HEROES, or wholly within 16寸 of any friendly KHORNE GREATER DAEMONS.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">可以重投命中骰的1 for attacks made by friendly 恐虐 恶魔 units while they are wholly within 12寸 of any friendly 恐虐 恶魔 HEROES, or wholly within 16寸 of any friendly 恐虐 GREATER DAEMONS.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1302,9 +1302,9 @@ Choose 1 单位 from the following list:
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01c2-4a03-1c0e-189f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5c24-c1c6-edc4-f483" name="Aura of Khorne" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
+        <profile id="5c24-c1c6-edc4-f483" name="Aura of 恐虐" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">可以重投命中骰的1 for attacks made with 肉搏 武器 by friendly SLAVES TO DARKNESS KHORNE units wholly within 12寸 of this model. In addition, if this model is a 主将, add 1 to wound rolls for attacks made with 肉搏 武器 by friendly SLAVES TO DARKNESS KHORNE units wholly within 12寸 of this model.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">可以重投命中骰的1 for attacks made with 肉搏 武器 by friendly SLAVES TO DARKNESS 恐虐 units wholly within 12寸 of this model. In addition, if this model is a 主将, add 1 to wound rolls for attacks made with 肉搏 武器 by friendly SLAVES TO DARKNESS 恐虐 units wholly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="2b3f-2505-0247-8b50" name="Aura of 混沌 Undivided" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
@@ -1324,12 +1324,12 @@ Choose 1 单位 from the following list:
         </profile>
         <profile id="02ef-025d-550e-a551" name="Aura of Tzeentch" hidden="false" typeId="56f6-e336-faed-bb00" typeName="Aura of 混沌 Power">
           <characteristics>
-            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">You can re-roll save rolls of 1 for attacks that target friendly SLAVES TO DARKNESS TZEENTCH units wholly within 12寸 of this model. In addition, if this model is a 主将, each time a friendly SLAVES TO DARKNESS TZEENTCH 单位 wholly within 12寸 of this model is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
+            <characteristic name="Ability" typeId="8e00-4c24-48e5-3381">You can re-roll save rolls of 1 for attacks that target friendly SLAVES TO DARKNESS TZEENTCH units wholly within 12寸 of this model. In addition, if this model is a 主将, each time a friendly SLAVES TO DARKNESS TZEENTCH 单位 wholly within 12寸 of this model is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="6eb2-b0ed-cfc0-c77e" name="Aura of 混沌" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a SLAVES TO DARKNESS 英雄 has a Mark of 混沌 keyword, that 英雄 has one of the following Aura of 混沌 abilities. The Aura of 混沌 a 英雄 has is determined by its Mark of 混沌 keyword: KHORNE HEROES have the Aura of Khorne, TZEENTCH HEROES have the Aura of Tzeentch, NURGLE HEROES have the Aura of Nurgle, SLAANESH HEROES have the Aura of Slaanesh, and UNDIVIDED HEROES have the Aura of 混沌 Undivided.
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a SLAVES TO DARKNESS 英雄 has a Mark of 混沌 keyword, that 英雄 has one of the following Aura of 混沌 abilities. The Aura of 混沌 a 英雄 has is determined by its Mark of 混沌 keyword: 恐虐 HEROES have the Aura of 恐虐, TZEENTCH HEROES have the Aura of Tzeentch, NURGLE HEROES have the Aura of Nurgle, SLAANESH HEROES have the Aura of Slaanesh, and UNDIVIDED HEROES have the Aura of 混沌 Undivided.
 
 If you select a 单位 with more than one Mark of 混沌 keyword to be part of your army, you must pick which one will apply to that 单位 for the duration of the battle.</characteristic>
           </characteristics>
@@ -1364,7 +1364,7 @@ Rewards gained by rolling on this table apply for the rest of the battle. Duplic
         <profile id="bce6-719d-b78f-4f9c" name="09-10 - Daemonic Legions" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
           <characteristics>
             <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add 1 of the following units to your army. The 单位 you add is determined by this 英雄’s Mark of 混沌. Set up the 单位 wholly within 12寸 of this 英雄 and more than 9寸 from any enemy units.
-• Khorne: 10 Bloodletters
+• 恐虐: 10 Bloodletters
 • Nurgle: 10 Plaguebearers
 • Slaanesh: 10 Daemonettes
 • Tzeentch: 10 Pink Horrors
@@ -1375,7 +1375,7 @@ Rewards gained by rolling on this table apply for the rest of the battle. Duplic
           <characteristics>
             <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">You can add a SLAVES TO DARKNESS 恶魔 PRINCE to your army. If you do so, set it up within 1寸 of this 英雄 then remove this 英雄 from play (they do not count as slain).
 
-If the 英雄 had the UNDIVIDED keyword, the 恶魔 PRINCE must instead have one of the following Mark of 混沌 keywords: KHORNE, NURGLE, SLAANESH or TZEENTCH. Otherwise, the 恶魔 PRINCE must have the same Mark of 混沌 keyword that the 英雄 had.
+If the 英雄 had the UNDIVIDED keyword, the 恶魔 PRINCE must instead have one of the following Mark of 混沌 keywords: 恐虐, NURGLE, SLAANESH or TZEENTCH. Otherwise, the 恶魔 PRINCE must have the same Mark of 混沌 keyword that the 英雄 had.
 
 The 恶魔 PRINCE keeps any command traits and artefacts of power that the 英雄 had. If the 英雄 was a 法师, the 恶魔 PRINCE is a 法师, can make the same number of casting, dispelling and unbinding attempts, and knows the same spells. If the 英雄 was your 主将, the 恶魔 PRINCE is now your 主将.
 
@@ -1389,7 +1389,7 @@ If you do not set up a SLAVES TO DARKNESS 恶魔 PRINCE, you can heal up to D3 w
         </profile>
         <profile id="8496-b7f9-89ba-115d" name="06 - Flames of 混沌" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
           <characteristics>
-            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">Each time this 英雄 is affected by a 法术 or endless 法术 you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or endless 法术 on this 英雄.</characteristic>
+            <characteristic name="Reward" typeId="79c2-2d84-0b83-6bf3">Each time this 英雄 is affected by a 法术 or 无尽法术 you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on this 英雄.</characteristic>
           </characteristics>
         </profile>
         <profile id="92cd-ffe2-3a84-503b" name="08 - Unholy Resilience" hidden="false" typeId="ac36-1184-21dd-d1f0" typeName="Eye of the Gods - 2D6 roll">
@@ -1409,7 +1409,7 @@ If you do not set up a SLAVES TO DARKNESS 恶魔 PRINCE, you can heal up to D3 w
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d281-23dc-af26-0a1e" name="Endless 法术: Burning Sigil of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d281-23dc-af26-0a1e" name="无尽法术: Burning Sigil of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1445,14 +1445,14 @@ D6 Effect
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="021f-054d-bc11-ca94" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="021f-054d-bc11-ca94" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="bfd7-56f5-0f17-c6ee" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a98-b7f1-8075-b157" name="Endless 法术: Daemonic Simulacrum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3a98-b7f1-8075-b157" name="无尽法术: Daemonic Simulacrum" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1482,7 +1482,7 @@ D6 Effect
         </profile>
         <profile id="c6f5-96b9-85ff-64f6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Daemonic Simulacrum is a predatory endless 法术. It can move up to 9寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Daemonic Simulacrum is a predatory 无尽法术. It can move up to 9寸 and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1490,14 +1490,14 @@ D6 Effect
         <infoLink id="81a9-0c73-7ec9-90e5" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1239-8ee0-5c66-f4da" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="1239-8ee0-5c66-f4da" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="5490-130a-d1bb-54e2" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e8b-070f-9f8f-2b96" name="Endless 法术: Tome of Eyes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3e8b-070f-9f8f-2b96" name="无尽法术: Tome of Eyes" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1532,7 +1532,7 @@ In addition, if the unmodified casting roll for a 法术 attempted by the caster
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="dc8a-0156-45d1-9bc3" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="dc8a-0156-45d1-9bc3" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="40df-2a60-6039-c255" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
@@ -1550,7 +1550,7 @@ In addition, if the unmodified casting roll for a 法术 attempted by the caster
           <characteristics>
             <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">At the end of the movement phase, you can pick 1 friendly 混沌 ASCENDANT 恶魔 英雄 that is on the battlefield and roll 3D6. On a 10+, you can summon 1 of the following units to the battlefield and add it to your army. The 单位 that you can summon is determined by the 英雄&apos;s keyword as shown:
 
-KHORNE 英雄: 10 Bloodletters
+恐虐 英雄: 10 Bloodletters
 NURGLE 英雄: 10 Plaguebearers
 SLAANESH 英雄: 10 Daemonettes
 TZEENTCH 英雄: 10 Horrors of Tzeentch.
@@ -1621,7 +1621,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="b853-068f-20ff-7012" name="Bloodthirsty Charge" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your charge phase. If you do so, pick a friendly model with this command ability. Until the end of that pase, you can re-roll charge rolls for friendly KHORNE 恶魔 units wholly within 16寸 of that model when the charge roll is made.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your charge phase. If you do so, pick a friendly model with this command ability. Until the end of that pase, you can re-roll charge rolls for friendly 恐虐 恶魔 units wholly within 16寸 of that model when the charge roll is made.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1639,13 +1639,13 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <categoryLink id="41ee-ea73-715e-4b1f" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e060-be90-80b8-a6f1" name="Great Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e060-be90-80b8-a6f1" name="Great Axe of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8978-7395-b3c7-9b58" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53e4-f70b-75e6-a5ab" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9b9c-0425-0c14-9755" name="Great Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="9b9c-0425-0c14-9755" name="Great Axe of 恐虐" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
@@ -1670,35 +1670,35 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <profile id="a031-a276-f11d-62c5" name="00-03" hidden="false" typeId="f6e4-6a2b-0638-cb67" typeName="Bloodthirster of Rage Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="e696-12bc-b8d8-f1a5">10寸</characteristic>
-                <characteristic name="Great Axe of Khorne" typeId="06ca-c1e8-12d5-8bde">5</characteristic>
+                <characteristic name="Great Axe of 恐虐" typeId="06ca-c1e8-12d5-8bde">5</characteristic>
                 <characteristic name="Outrageous Carnage" typeId="95d9-935f-6874-912f">4 mortal wounds</characteristic>
               </characteristics>
             </profile>
             <profile id="8595-0573-0bc4-6eb2" name="04-06" hidden="false" typeId="f6e4-6a2b-0638-cb67" typeName="Bloodthirster of Rage Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="e696-12bc-b8d8-f1a5">9寸</characteristic>
-                <characteristic name="Great Axe of Khorne" typeId="06ca-c1e8-12d5-8bde">5</characteristic>
+                <characteristic name="Great Axe of 恐虐" typeId="06ca-c1e8-12d5-8bde">5</characteristic>
                 <characteristic name="Outrageous Carnage" typeId="95d9-935f-6874-912f">3 mortal wounds</characteristic>
               </characteristics>
             </profile>
             <profile id="7aa3-b708-d160-4e46" name="07-09" hidden="false" typeId="f6e4-6a2b-0638-cb67" typeName="Bloodthirster of Rage Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="e696-12bc-b8d8-f1a5">8寸</characteristic>
-                <characteristic name="Great Axe of Khorne" typeId="06ca-c1e8-12d5-8bde">4</characteristic>
+                <characteristic name="Great Axe of 恐虐" typeId="06ca-c1e8-12d5-8bde">4</characteristic>
                 <characteristic name="Outrageous Carnage" typeId="95d9-935f-6874-912f">2 mortal wounds</characteristic>
               </characteristics>
             </profile>
             <profile id="189e-0ba3-fc12-6e0c" name="10-12" hidden="false" typeId="f6e4-6a2b-0638-cb67" typeName="Bloodthirster of Rage Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="e696-12bc-b8d8-f1a5">7寸</characteristic>
-                <characteristic name="Great Axe of Khorne" typeId="06ca-c1e8-12d5-8bde">4</characteristic>
+                <characteristic name="Great Axe of 恐虐" typeId="06ca-c1e8-12d5-8bde">4</characteristic>
                 <characteristic name="Outrageous Carnage" typeId="95d9-935f-6874-912f">1 mortal wound</characteristic>
               </characteristics>
             </profile>
             <profile id="8f6d-45b8-0672-82ef" name="13+" hidden="false" typeId="f6e4-6a2b-0638-cb67" typeName="Bloodthirster of Rage Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="e696-12bc-b8d8-f1a5">6寸</characteristic>
-                <characteristic name="Great Axe of Khorne" typeId="06ca-c1e8-12d5-8bde">3</characteristic>
+                <characteristic name="Great Axe of 恐虐" typeId="06ca-c1e8-12d5-8bde">3</characteristic>
                 <characteristic name="Outrageous Carnage" typeId="95d9-935f-6874-912f">1 mortal wound</characteristic>
               </characteristics>
             </profile>
@@ -1739,7 +1739,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="1e4b-9ca7-e459-243a" name="Rejoice in the Slaughter" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that combat phase friendly KHORNE 恶魔 units wholly within 16寸 of that model are eligible to fight in that combat phase if they are within 6寸 of an enemy 单位 instead of 3寸, and can move an extra 3寸 when they pile in.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that combat phase friendly 恐虐 恶魔 units wholly within 16寸 of that model are eligible to fight in that combat phase if they are within 6寸 of an enemy 单位 instead of 3寸, and can move an extra 3寸 when they pile in.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1757,13 +1757,13 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <categoryLink id="1f64-8012-91bd-8c0d" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2c1c-b400-ecd1-4054" name="Lash of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2c1c-b400-ecd1-4054" name="Lash of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25eb-fd19-f21e-44f7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0767-6938-e17f-3d2c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0d18-3ae8-7849-161a" name="Lash of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="0d18-3ae8-7849-161a" name="Lash of 恐虐" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
@@ -1779,13 +1779,13 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f70e-96a2-e935-cf93" name="Mighty Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f70e-96a2-e935-cf93" name="Mighty Axe of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6688-6d44-b30b-8908" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf5-a937-ea4c-e764" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b4ac-80c1-1070-4b50" name="Mighty Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="b4ac-80c1-1070-4b50" name="Mighty Axe of 恐虐" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
@@ -1810,36 +1810,36 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <profile id="07bf-ad6a-9579-373c" name="00-03" hidden="false" typeId="d2d6-35aa-943d-16d6" typeName="Bloodthirster of Fury Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="4465-81f3-e3ce-7ffd">10寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="e46b-cda7-64e8-21e4">4</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="087f-a681-d695-5728">2+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="e46b-cda7-64e8-21e4">4</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="087f-a681-d695-5728">2+</characteristic>
               </characteristics>
             </profile>
             <profile id="0a43-0b8b-2fb7-9e9d" name="04-06" hidden="false" typeId="d2d6-35aa-943d-16d6" typeName="Bloodthirster of Fury Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="4465-81f3-e3ce-7ffd">9寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="e46b-cda7-64e8-21e4">4</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="087f-a681-d695-5728">3+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="e46b-cda7-64e8-21e4">4</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="087f-a681-d695-5728">3+</characteristic>
               </characteristics>
             </profile>
             <profile id="b536-d2f5-cabc-9e46" name="07-09" hidden="false" typeId="d2d6-35aa-943d-16d6" typeName="Bloodthirster of Fury Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="4465-81f3-e3ce-7ffd">8寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="e46b-cda7-64e8-21e4">3</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="087f-a681-d695-5728">3+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="e46b-cda7-64e8-21e4">3</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="087f-a681-d695-5728">3+</characteristic>
               </characteristics>
             </profile>
             <profile id="0947-f674-eddf-bb07" name="10-12" hidden="false" typeId="d2d6-35aa-943d-16d6" typeName="Bloodthirster of Fury Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="4465-81f3-e3ce-7ffd">7寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="e46b-cda7-64e8-21e4">3</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="087f-a681-d695-5728">4+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="e46b-cda7-64e8-21e4">3</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="087f-a681-d695-5728">4+</characteristic>
               </characteristics>
             </profile>
             <profile id="cce0-9815-4ed6-357f" name="13+" hidden="false" typeId="d2d6-35aa-943d-16d6" typeName="Bloodthirster of Fury Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="4465-81f3-e3ce-7ffd">6寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="e46b-cda7-64e8-21e4">2</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="087f-a681-d695-5728">4+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="e46b-cda7-64e8-21e4">2</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="087f-a681-d695-5728">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2150,9 +2150,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0562-be54-fef3-aee8" name="Skullmaster, Herald of Khorne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0562-be54-fef3-aee8" name="Skullmaster, Herald of 恐虐" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="600e-2a8f-08bf-6485" name="Skullmaster, Herald of Khorne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="600e-2a8f-08bf-6485" name="Skullmaster, Herald of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2256,9 +2256,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3941-96b9-4533-17f3" name="Bloodmaster, Herald of Khorne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3941-96b9-4533-17f3" name="Bloodmaster, Herald of 恐虐" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="1c3b-8133-4ee7-6af1" name="Bloodmaster, Herald of Khorne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="1c3b-8133-4ee7-6af1" name="Bloodmaster, Herald of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2318,9 +2318,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="749a-2957-a8c5-8455" name="Wrath of Khorne Bloodthirster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="749a-2957-a8c5-8455" name="Wrath of 恐虐 Bloodthirster" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="d134-36fb-1560-f822" name="Wrath of Khorne Bloodthirster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d134-36fb-1560-f822" name="Wrath of 恐虐 Bloodthirster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -2333,14 +2333,14 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model that target a 英雄 or 怪兽.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c7a2-c577-7e4c-8b2c" name="Rune-crown of Khorne" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="c7a2-c577-7e4c-8b2c" name="Rune-crown of 恐虐" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to unbind one 法术 in the enemy 英雄阶段 as if it were a 法师. In addition, add 2 to unbinding rolls for this model. In addition, this model can attempt to dispel one endless 法术 at the start of your 英雄阶段 in the same manner as a 法师.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to unbind one 法术 in the enemy 英雄阶段 as if it were a 法师. In addition, add 2 to unbinding rolls for this model. In addition, this model can attempt to dispel one 无尽法术 at the start of your 英雄阶段 in the same manner as a 法师.</characteristic>
           </characteristics>
         </profile>
         <profile id="5c68-aabf-5030-da71" name="Lord of the Blood Hunt" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly KHORNE 恶魔 单位 wholly within 16寸 of a friendly model with this command ability. Until the end of the phase you can re-roll hit rolls for attacks made by that 单位.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly 恐虐 恶魔 单位 wholly within 16寸 of a friendly model with this command ability. Until the end of the phase you can re-roll hit rolls for attacks made by that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2404,13 +2404,13 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d789-bac7-d459-09a7" name="Mighty Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d789-bac7-d459-09a7" name="Mighty Axe of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c5a-3c45-e57d-760b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0450-a5f8-6e26-f6d0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5f75-9e5b-3d50-f810" name="Mighty Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="5f75-9e5b-3d50-f810" name="Mighty Axe of 恐虐" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
@@ -2432,39 +2432,39 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77dc-fba6-5fd7-3f90" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f709-0a7d-4685-1463" name="00-03" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of Khorne Bloodthirster Wounds">
+            <profile id="f709-0a7d-4685-1463" name="00-03" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of 恐虐 Bloodthirster Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="77e9-d65f-d63a-c0fe">10寸</characteristic>
                 <characteristic name="Bloodflail" typeId="8190-fc3b-7afc-1805">6</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="2244-5f47-2965-2e06">2+</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="2244-5f47-2965-2e06">2+</characteristic>
               </characteristics>
             </profile>
-            <profile id="d15e-eb76-184d-05a5" name="04-06" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of Khorne Bloodthirster Wounds">
+            <profile id="d15e-eb76-184d-05a5" name="04-06" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of 恐虐 Bloodthirster Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="77e9-d65f-d63a-c0fe">9寸</characteristic>
                 <characteristic name="Bloodflail" typeId="8190-fc3b-7afc-1805">3</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="2244-5f47-2965-2e06">3+</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="2244-5f47-2965-2e06">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="311b-9c23-dece-1e05" name="07-09" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of Khorne Bloodthirster Wounds">
+            <profile id="311b-9c23-dece-1e05" name="07-09" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of 恐虐 Bloodthirster Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="77e9-d65f-d63a-c0fe">8寸</characteristic>
                 <characteristic name="Bloodflail" typeId="8190-fc3b-7afc-1805">3</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="2244-5f47-2965-2e06">3+</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="2244-5f47-2965-2e06">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="d7b9-a039-18cb-9075" name="10-12" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of Khorne Bloodthirster Wounds">
+            <profile id="d7b9-a039-18cb-9075" name="10-12" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of 恐虐 Bloodthirster Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="77e9-d65f-d63a-c0fe">7寸</characteristic>
                 <characteristic name="Bloodflail" typeId="8190-fc3b-7afc-1805">D3</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="2244-5f47-2965-2e06">4+</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="2244-5f47-2965-2e06">4+</characteristic>
               </characteristics>
             </profile>
-            <profile id="9ad4-a25e-af07-8b49" name="13+" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of Khorne Bloodthirster Wounds">
+            <profile id="9ad4-a25e-af07-8b49" name="13+" hidden="false" typeId="dec2-2d01-ec4b-da4a" typeName="Wrath of 恐虐 Bloodthirster Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="77e9-d65f-d63a-c0fe">6寸</characteristic>
                 <characteristic name="Bloodflail" typeId="8190-fc3b-7afc-1805">D3</characteristic>
-                <characteristic name="Mighty Axe of Khorne" typeId="2244-5f47-2965-2e06">4+</characteristic>
+                <characteristic name="Mighty Axe of 恐虐" typeId="2244-5f47-2965-2e06">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2687,9 +2687,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="645a-d41c-2e3d-8fc3" name="Collars of Khorne" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="645a-d41c-2e3d-8fc3" name="Collars of 恐虐" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 can attempt to unbind one 法术 in each enemy 英雄阶段 in the same manner as a 法师. In addition, this 单位 can attempt to dispel one endless 法术 at the start of your 英雄阶段 in the same manner as a 法师. Add 1 to unbinding and dispelling rolls for this 单位 while it contains 10 or more models.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 can attempt to unbind one 法术 in each enemy 英雄阶段 in the same manner as a 法师. In addition, this 单位 can attempt to dispel one 无尽法术 at the start of your 英雄阶段 in the same manner as a 法师. Add 1 to unbinding and dispelling rolls for this 单位 while it contains 10 or more models.</characteristic>
           </characteristics>
         </profile>
         <profile id="f292-6ac2-21ca-2a04" name="Unflagging Hunters" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2784,7 +2784,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="4c60-5022-e23e-5bb0" name="Brass Collar of Bloody Vengeance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师. In addition, this model can attempt to dispel one endless 法术 at the start of your 英雄阶段 in the same manner as a 法师. If this model successfully unbinds a 法术 or dispels an endless 法术, the caster suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This model can attempt to unbind one 法术 in the enemy 英雄阶段 in the same manner as a 法师. In addition, this model can attempt to dispel one 无尽法术 at the start of your 英雄阶段 in the same manner as a 法师. If this model successfully unbinds a 法术 or dispels an 无尽法术, the caster suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="d13d-7e7a-8746-4329" name="Prey of the Blood God" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2861,7 +2861,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3e2-3df3-198b-52b3" name="Herald of Khorne on Blood Throne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f3e2-3df3-198b-52b3" name="Herald of 恐虐 on Blood Throne" hidden="false" collective="false" import="true" type="单位">
       <profiles>
         <profile id="fc27-ae0f-18f0-16fb" name="Blood Throne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
@@ -3143,9 +3143,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="17c4-00a9-a8e9-0f6b" name="Exalted 大魔 of Khorne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="17c4-00a9-a8e9-0f6b" name="Exalted 大魔 of 恐虐" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="9f62-834d-f7f4-4b65" name="Exalted 大魔 of Khorne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9f62-834d-f7f4-4b65" name="Exalted 大魔 of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">20</characteristic>
@@ -3165,10 +3165,10 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="0e07-eff8-8f0e-5d74" name="Rejoice in Exalted Slaughter" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that combat phase friendly Khorne 恶魔 units wholly within 18寸 of that model are eligible to fight in that combat phase if they are within 6寸 of an enemy 单位 instead of 3寸, and they can move an extra 3寸 when they pile-in.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Until the end of that combat phase friendly 恐虐 恶魔 units wholly within 18寸 of that model are eligible to fight in that combat phase if they are within 6寸 of an enemy 单位 instead of 3寸, and they can move an extra 3寸 when they pile-in.</characteristic>
           </characteristics>
         </profile>
-        <profile id="252e-05e4-1e70-204a" name="Lash of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+        <profile id="252e-05e4-1e70-204a" name="Lash of 恐虐" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">8寸</characteristic>
@@ -3179,7 +3179,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
           </characteristics>
         </profile>
-        <profile id="448b-5212-c99d-82b1" name="Mighty Axe of Khorne" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+        <profile id="448b-5212-c99d-82b1" name="Mighty Axe of 恐虐" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
             <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
@@ -3211,39 +3211,39 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1464-b8e9-542a-9647" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d5af-f8f9-6cb7-d356" name="00-04" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of Khorne Wounds">
+            <profile id="d5af-f8f9-6cb7-d356" name="00-04" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of 恐虐 Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="6b1d-ec14-b9ce-49d0">12寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="98ad-74f0-b137-8fa7">5</characteristic>
-                <characteristic name="Migthy Axe of Khorne" typeId="660e-b064-9b36-bf61">2+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="98ad-74f0-b137-8fa7">5</characteristic>
+                <characteristic name="Migthy Axe of 恐虐" typeId="660e-b064-9b36-bf61">2+</characteristic>
               </characteristics>
             </profile>
-            <profile id="0f3a-7b69-ea84-bdc1" name="05-08" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of Khorne Wounds">
+            <profile id="0f3a-7b69-ea84-bdc1" name="05-08" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of 恐虐 Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="6b1d-ec14-b9ce-49d0">10寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="98ad-74f0-b137-8fa7">4</characteristic>
-                <characteristic name="Migthy Axe of Khorne" typeId="660e-b064-9b36-bf61">2+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="98ad-74f0-b137-8fa7">4</characteristic>
+                <characteristic name="Migthy Axe of 恐虐" typeId="660e-b064-9b36-bf61">2+</characteristic>
               </characteristics>
             </profile>
-            <profile id="23ad-4117-cea8-4edc" name="09-12" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of Khorne Wounds">
+            <profile id="23ad-4117-cea8-4edc" name="09-12" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of 恐虐 Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="6b1d-ec14-b9ce-49d0">9寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="98ad-74f0-b137-8fa7">4</characteristic>
-                <characteristic name="Migthy Axe of Khorne" typeId="660e-b064-9b36-bf61">3+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="98ad-74f0-b137-8fa7">4</characteristic>
+                <characteristic name="Migthy Axe of 恐虐" typeId="660e-b064-9b36-bf61">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="b493-f779-a76d-5bae" name="13-16" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of Khorne Wounds">
+            <profile id="b493-f779-a76d-5bae" name="13-16" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of 恐虐 Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="6b1d-ec14-b9ce-49d0">8寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="98ad-74f0-b137-8fa7">3</characteristic>
-                <characteristic name="Migthy Axe of Khorne" typeId="660e-b064-9b36-bf61">3+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="98ad-74f0-b137-8fa7">3</characteristic>
+                <characteristic name="Migthy Axe of 恐虐" typeId="660e-b064-9b36-bf61">3+</characteristic>
               </characteristics>
             </profile>
-            <profile id="e619-2c19-4a64-1725" name="17+" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of Khorne Wounds">
+            <profile id="e619-2c19-4a64-1725" name="17+" hidden="false" typeId="3786-9caa-68d2-5d22" typeName="恶魔 of 恐虐 Wounds">
               <characteristics>
                 <characteristic name="移动力" typeId="6b1d-ec14-b9ce-49d0">7寸</characteristic>
-                <characteristic name="Lash of Khorne" typeId="98ad-74f0-b137-8fa7">3</characteristic>
-                <characteristic name="Migthy Axe of Khorne" typeId="660e-b064-9b36-bf61">4+</characteristic>
+                <characteristic name="Lash of 恐虐" typeId="98ad-74f0-b137-8fa7">3</characteristic>
+                <characteristic name="Migthy Axe of 恐虐" typeId="660e-b064-9b36-bf61">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3261,7 +3261,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="580.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba1e-4f88-1a78-e9c5" name="Mazarall the Butcher, 恶魔 Prince of Khorne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ba1e-4f88-1a78-e9c5" name="Mazarall the Butcher, 恶魔 Prince of 恐虐" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45af-0883-d2d8-0d94" type="max"/>
       </constraints>
@@ -3271,7 +3271,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy 单位 that is within 1寸 of this model after this model makes a charge move. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ad68-1eed-c52d-4b5e" name="Mazarall the Butcher, 恶魔 Prince of Khorne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ad68-1eed-c52d-4b5e" name="Mazarall the Butcher, 恶魔 Prince of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -3291,7 +3291,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="f21e-dc55-98cc-a620" name="The Butcher&apos;s Due" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段 if this model is on the battlefield. If you do so, pick 1 friendly Khorne 单位 wholly within 18寸 of this model. You can re-roll wound rolls of 1 for attacks made by that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段 if this model is on the battlefield. If you do so, pick 1 friendly 恐虐 单位 wholly within 18寸 of this model. You can re-roll wound rolls of 1 for attacks made by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="c00f-8c38-adc7-be54" name="00-02" hidden="false" typeId="910b-993b-2248-8495" typeName="Mazarall Wounds Suffered">
@@ -3720,7 +3720,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="82db-d6a6-3196-daea" name="Grandfather&apos;s Joy" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段. If you do, pick a friendly NURGLE 恶魔 单位 within 21寸 of this model. Add 1 to the Attacks characteristic of all 肉搏 武器 used by that 单位 until your next 英雄阶段. You cannot pick the same 单位 to benefit from this command ability more than once per 英雄阶段. *Errata Jul&apos;18*</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段. If you do, pick a friendly NURGLE 恶魔 单位 within 21寸 of this model. Add 1 to the Attacks characteristic of all 肉搏 武器 used by that 单位 until your next 英雄阶段. You cannot pick the same 单位 to benefit from this command ability more than once per 英雄阶段. *勘误 Jul&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="3c7c-2046-c46f-1b7d" name="Great Unclean One" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -5480,7 +5480,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </profile>
         <profile id="8684-9a5a-f2a5-c37c" name="法术-eater" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per turn, in your 英雄阶段, you can pick 1 endless 法术 within 18寸 of this model. That endless 法术 is dispelled.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per turn, in your 英雄阶段, you can pick 1 无尽法术 within 18寸 of this model. That 无尽法术 is dispelled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5682,7 +5682,7 @@ Note that this ability only allows you to replace a single dice roll. For 2D6 ro
         </profile>
         <profile id="9c62-7179-6832-ac96" name="法术-eater" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per turn, in your 英雄阶段, you can pick 1 endless 法术 within 18寸 of this model. That endless 法术 is dispelled.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per turn, in your 英雄阶段, you can pick 1 无尽法术 within 18寸 of this model. That 无尽法术 is dispelled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6367,7 +6367,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         </profile>
         <profile id="06c0-53e8-3a1a-e7f4" name="Soulbound Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or endless 法术 on this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="75f8-a06f-250e-a982" name="Hovering Disc of Tzeentch" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -9188,7 +9188,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="9231-58c7-4207-40e5" name="New CategoryLink" hidden="false" targetId="84ea-2e37-06de-d81e" primary="false"/>
         <categoryLink id="42cf-e731-915d-ee19" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="562f-b91b-6559-946c" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
-        <categoryLink id="451e-3ac9-f691-d277" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
+        <categoryLink id="451e-3ac9-f691-d277" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
         <categoryLink id="acaf-b502-52c3-3582" name="NURGLE" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -9222,19 +9222,19 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee4-cfe2-3834-5326" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7f6e-afd3-cdeb-1880" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7f6e-afd3-cdeb-1880" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0ce-6df9-988e-d85b" type="max"/>
               </constraints>
               <profiles>
                 <profile id="0758-6d8b-eb0d-0f24" name="Bloodslick Ground" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                   <characteristics>
-                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model has the KHORNE keyword. If you do so, until your next 英雄阶段, run and charge rolls made for enemy units within 18寸 of this model are halved. You cannot use this command ability more than once per turn.</characteristic>
+                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model has the 恐虐 keyword. If you do so, until your next 英雄阶段, run and charge rolls made for enemy units within 18寸 of this model are halved. You cannot use this command ability more than once per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <categoryLinks>
-                <categoryLink id="ab3a-e5f5-86a9-c270" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
+                <categoryLink id="ab3a-e5f5-86a9-c270" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -9367,7 +9367,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         </profile>
         <profile id="eb17-50cc-f2bf-fe4d" name="恶魔 Engine of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up a Soul Grinder, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: KHORNE, TZEENTCH, NURGLE or SLAANESH.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up a Soul Grinder, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: 恐虐, TZEENTCH, NURGLE or SLAANESH.</characteristic>
           </characteristics>
         </profile>
         <profile id="e70d-5073-6447-29d0" name="Implacable Advance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -9530,7 +9530,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f41c-2a89-4873-8d35" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3b24-b882-ec53-97aa" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3b24-b882-ec53-97aa" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="5a6d-b4d7-33b0-aa5d" value="0.0">
                   <conditions>
@@ -9691,7 +9691,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <cost name="pts" typeId="points" value="210.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed34-b208-fdd6-9776" name="Endless 法术: Darkfire Daemonrift" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ed34-b208-fdd6-9776" name="无尽法术: Darkfire Daemonrift" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a392-1832-5810-3040" type="max"/>
       </constraints>
@@ -9714,12 +9714,12 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         </profile>
         <profile id="ea24-4880-248e-4755" name="Fuelled by Sorcery" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the number of mortal wounds inflicted by this endless 法术 for each 法师 and each 其他 ENDLESS 法术 within 12寸 of this model after it has moved.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the number of mortal wounds inflicted by this 无尽法术 for each 法师 and each 其他 无尽法术 within 12寸 of this model after it has moved.</characteristic>
           </characteristics>
         </profile>
         <profile id="fef5-f635-8cd4-0f2d" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Darkfire Daemonrift is a predatory endless 法术. It can move up to 12寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Darkfire Daemonrift is a predatory 无尽法术. It can move up to 12寸 and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9727,14 +9727,14 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <infoLink id="b2a0-4338-0fff-661f" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2087-500d-fbda-353b" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="2087-500d-fbda-353b" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="e919-744f-d4c7-c173" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="32dc-cfa8-abf0-d138" name="Endless 法术: Eightfold Doom-Sigil" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="32dc-cfa8-abf0-d138" name="无尽法术: Eightfold Doom-Sigil" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69b7-d53e-ed38-b7df" type="max"/>
       </constraints>
@@ -9752,14 +9752,14 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="41d5-d8b5-5464-215f" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="41d5-d8b5-5464-215f" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="76f4-08ab-e794-4a7e" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b55d-a5d2-8d55-e948" name="Endless 法术: Realmscourge Rupture" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b55d-a5d2-8d55-e948" name="无尽法术: Realmscourge Rupture" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37d3-5a6a-4a7d-aeca" type="max"/>
       </constraints>
@@ -9789,7 +9789,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
         </profile>
         <profile id="2a45-3782-388c-bc53" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Realmscourge Rupture is a predatory endless 法术. It can move up to 9寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Realmscourge Rupture is a predatory 无尽法术. It can move up to 9寸 and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9797,7 +9797,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
         <infoLink id="9db9-5e02-f058-d102" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9bf5-0e12-2cb9-d187" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="9bf5-0e12-2cb9-d187" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="25d3-65f0-ebf9-614e" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
@@ -9846,11 +9846,11 @@ In addition, until the end of the battle round, halve the Move characteristic of
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9680-f449-8188-3797" name="2. Collar of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9680-f449-8188-3797" name="2. Collar of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="cd91-5ab5-eca6-0c25" name="Collar of Khorne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="cd91-5ab5-eca6-0c25" name="Collar of 恐虐" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">This 单位 can attempt to unbind one 法术 in each enemy 英雄阶段 in the same manner as a 法师. In addition, this 单位 can attempt to dispel one endless 法术 at the start of your 英雄阶段 in the same manner as a 法师. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">This 单位 can attempt to unbind one 法术 in each enemy 英雄阶段 in the same manner as a 法师. In addition, this 单位 can attempt to dispel one 无尽法术 at the start of your 英雄阶段 in the same manner as a 法师. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9923,7 +9923,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2db0-3894-8f6a-94b5" name="Traits: Khorne Mortal" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="2db0-3894-8f6a-94b5" name="Traits: 恐虐 Mortal" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -9976,7 +9976,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="9478-b0dd-9b2b-10ad" name="Violent Urgency" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for friendly KHORNE units that are wholly within 12寸 of this 主将 when the charge roll is made.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for friendly 恐虐 units that are wholly within 12寸 of this 主将 when the charge roll is made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9991,7 +9991,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
         <entryLink id="bb40-7953-f35f-81a1" name="3. Slaughterborn" hidden="false" collective="false" import="true" targetId="40b7-86d2-2f0b-164b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e7ff-4d02-bb3b-4151" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e7ff-4d02-bb3b-4151" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10008,7 +10008,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="8e9f-24a1-2013-0ee8" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can  chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick 1 friendly KHORNE 单位 wholly within 16寸 of the model chanting this prayer and visible to them. Add 1 to save rolls for that 单位 until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can  chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick 1 friendly 恐虐 单位 wholly within 16寸 of the model chanting this prayer and visible to them. Add 1 to save rolls for that 单位 until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10020,7 +10020,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="cc70-c724-39b1-6dc5" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a KHORNE 单位 wholly within 8寸 of the model chanting this prayer. That 单位 suffers D3 mortal wounds and you receive 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a 恐虐 单位 wholly within 8寸 of the model chanting this prayer. That 单位 suffers D3 mortal wounds and you receive 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10032,7 +10032,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="3c29-2f68-e31e-cfb5" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a friendly KHORNE 英雄 wholly within 16寸 of the model chanting this prayer and visible to them. You can heal up to D3 wounds allocated to that 单位.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is answered, pick a friendly 恐虐 英雄 wholly within 16寸 of the model chanting this prayer and visible to them. You can heal up to D3 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10044,7 +10044,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="18d5-7b07-318f-cc9c" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have to take battleshock tests until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have to take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10056,7 +10056,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="265e-e32e-1394-3845" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it. If they do so, make a prayer roll by rolling a dice. On a 1, the model chanting this prayer suffers 1 mortal wound and the prayer is not answered. On a 2-3, the prayer is not answered. On a 4+ the prayer is answered. If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10401,7 +10401,7 @@ In addition, until the end of the battle round, halve the Move characteristic of
           <profiles>
             <profile id="af8d-d930-51f9-b596" name="Skullshard Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or endless 法术, you can roll a dice. If y ou do so, on a 2+ ignore the effects of that 法术 on the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or 无尽法术, you can roll a dice. If y ou do so, on a 2+ ignore the effects of that 法术 on the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10715,7 +10715,7 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
                 <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly TZEENTCH 单位 wholly within 18寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位 gains one of the following effects based on the number of your remaining Destiny Dice:
 1-3	You can re-roll save rolls of 1 for attacks that target that 单位.
 4-6	You can re-roll save rolls for attacks that target that 单位.
-7-9	You can roll a dice each time that 单位 is affected by a 法术 or endless 法术. On a 4+, ignore the effects of that 法术 or endless 法术 on that 单位. In addition, you can re-roll save rolls for attacks that target that 单位.</characteristic>
+7-9	You can roll a dice each time that 单位 is affected by a 法术 or 无尽法术. On a 4+, ignore the effects of that 法术 or 无尽法术 on that 单位. In addition, you can re-roll save rolls for attacks that target that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10888,7 +10888,7 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
           <profiles>
             <profile id="aad2-0714-1003-7b92" name="Nexus Staff" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can pick 1 endless 法术 within 9寸 of the bearer. If you do so, that endless 法术 is dispelled.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can pick 1 无尽法术 within 9寸 of the bearer. If you do so, that 无尽法术 is dispelled.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12217,7 +12217,7 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
           <profiles>
             <profile id="da36-d9d8-08ca-edd7" name="Incorporeal Form" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is affected by a 法术 or endless 法术, you can roll a dice. On a 5+, ignore the effects of that 法术 or endless 法术 on this 主将.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is affected by a 法术 or 无尽法术, you can roll a dice. On a 5+, ignore the effects of that 法术 or 无尽法术 on this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12634,13 +12634,13 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
         <entryLink id="17e8-1e61-3b3a-2c30" name="Traits: Aspects of the Perfect Liege" hidden="false" collective="false" import="true" targetId="efc7-556b-c158-a7e2" type="selectionEntryGroup"/>
         <entryLink id="d506-e4d9-5d09-8ee7" name="Traits: Nurgle Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
         <entryLink id="6df6-95dc-26ba-eee3" name="Traits: Tzeentch 恶魔" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
-        <entryLink id="d39e-c45b-ca35-5eee" name="Traits: Khorne Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
+        <entryLink id="d39e-c45b-ca35-5eee" name="Traits: 恐虐 Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
         <entryLink id="eba7-ff07-3e5a-9884" name="Traits: Nurgle 恶魔" hidden="false" collective="false" import="true" targetId="357f-59b8-5edf-fd53" type="selectionEntryGroup"/>
         <entryLink id="336c-e739-bb4a-a9ff" name="Traits: Masters of Dark Sorcery" hidden="false" collective="false" import="true" targetId="a2f4-4e22-5cb9-c475" type="selectionEntryGroup"/>
         <entryLink id="0985-369f-0f75-90df" name="Traits: Obsessions of the Invader" hidden="false" collective="false" import="true" targetId="f0b1-f554-bc8b-f75c" type="selectionEntryGroup"/>
         <entryLink id="8e98-03e5-e2b5-f675" name="Traits: Aspects of the Ascended" hidden="false" collective="false" import="true" targetId="3dd8-663d-e647-5e96" type="selectionEntryGroup"/>
         <entryLink id="0a7c-eb26-8c47-615e" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
-        <entryLink id="2e52-32dc-3fc8-79ae" name="Traits: Khorne 恶魔" hidden="false" collective="false" import="true" targetId="004d-f904-2f15-93ce" type="selectionEntryGroup"/>
+        <entryLink id="2e52-32dc-3fc8-79ae" name="Traits: 恐虐 恶魔" hidden="false" collective="false" import="true" targetId="004d-f904-2f15-93ce" type="selectionEntryGroup"/>
         <entryLink id="46ad-c07e-e908-5b10" name="Traits: Wrathchosen" hidden="false" collective="false" import="true" targetId="79dc-a292-43f4-d01f" type="selectionEntryGroup"/>
         <entryLink id="c3b5-cea2-175b-ba60" name="Traits: Scions of the Ruinous Powers" hidden="false" collective="false" import="true" targetId="c616-b2bc-7bf7-6d36" type="selectionEntryGroup"/>
       </entryLinks>
@@ -13549,11 +13549,11 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd20-3b12-7594-7003" name="4. Collar of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fd20-3b12-7594-7003" name="4. Collar of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1fbc-93b8-407d-dc5e" name="Collar of Khorne" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="1fbc-93b8-407d-dc5e" name="Collar of 恐虐" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">This 单位 can attempt to unbind one 法术 in each enemy 英雄阶段 in the same manner as a 法师. In addition, this 单位 can attempt to dispel one endless 法术 at the start of your 英雄阶段 in the same manner as a 法师. </characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">This 单位 can attempt to unbind one 法术 in each enemy 英雄阶段 in the same manner as a 法师. In addition, this 单位 can attempt to dispel one 无尽法术 at the start of your 英雄阶段 in the same manner as a 法师. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13583,7 +13583,7 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
           <profiles>
             <profile id="89b5-98b9-3724-0f61" name="Mark of the Slayer" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">可以重投命中骰的1 for attacks made with 肉搏 武器 by friendly KHORNE units wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">可以重投命中骰的1 for attacks made with 肉搏 武器 by friendly 恐虐 units wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13713,7 +13713,7 @@ Kneel: Subtract 1 from save rolls for attacks that target that 单位 until your
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="004d-f904-2f15-93ce" name="Traits: Khorne 恶魔" hidden="true" collective="false" import="true">
+    <selectionEntryGroup id="004d-f904-2f15-93ce" name="Traits: 恐虐 恶魔" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -13991,7 +13991,7 @@ Nightmare Chasm: At the start of each 英雄阶段, roll a dice for this terrain
             </profile>
             <profile id="dee9-a56f-afad-d68f" name="Cabalists" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
               <characteristics>
-                <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Pick 1 friendly CABALISTS 单位 within 3寸 of the 法师 performing this binding ritual and roll a dice. On a 3+, the ritual is successful and D3 models from that 单位 are slain. Then, pick 1 predatory endless 法术 within 12寸 of that 法师. If 1个模型 was slain by this ritual, you can move that endless 法术 up to 3寸. If 2个模型 were slain by this ritual, you can move that endless 法术 up to 6寸. If 3个模型 were slain by this ritual, you can move that endless 法术 up to 9寸.</characteristic>
+                <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Pick 1 friendly CABALISTS 单位 within 3寸 of the 法师 performing this binding ritual and roll a dice. On a 3+, the ritual is successful and D3 models from that 单位 are slain. Then, pick 1 predatory 无尽法术 within 12寸 of that 法师. If 1个模型 was slain by this ritual, you can move that 无尽法术 up to 3寸. If 2个模型 were slain by this ritual, you can move that 无尽法术 up to 6寸. If 3个模型 were slain by this ritual, you can move that 无尽法术 up to 9寸.</characteristic>
               </characteristics>
             </profile>
             <profile id="d5db-0ffa-d3c6-4383" name="Crippling Rain" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">

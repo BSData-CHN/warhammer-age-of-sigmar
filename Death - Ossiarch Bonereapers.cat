@@ -241,7 +241,7 @@
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </entryLink>
-    <entryLink id="6e9f-ac32-c338-def7" name="Endless 法术: Nightmare Predator" hidden="false" collective="false" import="true" targetId="b4ad-e53d-6779-f874" type="selectionEntry">
+    <entryLink id="6e9f-ac32-c338-def7" name="无尽法术: Nightmare Predator" hidden="false" collective="false" import="true" targetId="b4ad-e53d-6779-f874" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="95bf-a513-26b8-543d" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -249,7 +249,7 @@
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </entryLink>
-    <entryLink id="a6d1-cb91-65d5-e34e" name="Endless 法术: Soulstealer Carrion" hidden="false" collective="false" import="true" targetId="e990-28ce-967f-af1e" type="selectionEntry">
+    <entryLink id="a6d1-cb91-65d5-e34e" name="无尽法术: Soulstealer Carrion" hidden="false" collective="false" import="true" targetId="e990-28ce-967f-af1e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9cc3-796a-c7b9-6186" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -257,7 +257,7 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </entryLink>
-    <entryLink id="6244-9226-881b-df63" name="Endless 法术: Bone-tithe Serieker" hidden="false" collective="false" import="true" targetId="6e39-88c1-feeb-fa8e" type="selectionEntry">
+    <entryLink id="6244-9226-881b-df63" name="无尽法术: Bone-tithe Serieker" hidden="false" collective="false" import="true" targetId="6e39-88c1-feeb-fa8e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9296-db68-6fe1-05b2" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -691,12 +691,12 @@ Designer’s Note: Many Ossiarch Bonereapers 指挥能力 do not require a 英�
       <profiles>
         <profile id="f93c-5b22-03b5-d6df" name="Holdfast" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability before you use the Eldritch Nulls ability for a 单位 that either has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly NULL MYRIAD 英雄; that 单位 is not affected by the 法术 or endless 法术 on a roll of 2+ instead of 5+</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability before you use the Eldritch Nulls ability for a 单位 that either has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly NULL MYRIAD 英雄; that 单位 is not affected by the 法术 or 无尽法术 on a roll of 2+ instead of 5+</characteristic>
           </characteristics>
         </profile>
         <profile id="f5b3-f686-7512-997e" name="Eldritch Nulls" hidden="false" typeId="f670-aa2b-192b-4937" typeName="Legion Abilities">
           <characteristics>
-            <characteristic name="Legion Abilities 细节" typeId="42b4-00f1-787a-3067">Each time a friendly NULL MYRIAD 单位 is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
+            <characteristic name="Legion Abilities 细节" typeId="42b4-00f1-787a-3067">Each time a friendly NULL MYRIAD 单位 is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2139,7 +2139,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b4ad-e53d-6779-f874" name="Endless 法术: Nightmare Predator" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b4ad-e53d-6779-f874" name="无尽法术: Nightmare Predator" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="770b-921c-4194-4274" type="max"/>
       </constraints>
@@ -2162,7 +2162,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
         <profile id="612e-e758-b80e-3c7a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Nightmare Predator is a predatory endless 法术. It can move up to 2D6寸 and can fly</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Nightmare Predator is a predatory 无尽法术. It can move up to 2D6寸 and can fly</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2178,7 +2178,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e990-28ce-967f-af1e" name="Endless 法术: Soulstealer Carrion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e990-28ce-967f-af1e" name="无尽法术: Soulstealer Carrion" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5b4-4c1b-4ede-c94d" type="max"/>
       </constraints>
@@ -2201,7 +2201,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
         <profile id="6cae-f208-18dc-11cc" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Soulstealer Carrion is a predatory endless 法术. It can move up to 16寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Soulstealer Carrion is a predatory 无尽法术. It can move up to 16寸 and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2217,7 +2217,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e39-88c1-feeb-fa8e" name="Endless 法术: Bone-tithe Shrieker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e39-88c1-feeb-fa8e" name="无尽法术: Bone-tithe Shrieker" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d33-e4b7-a541-3bba" type="max"/>
       </constraints>
@@ -2240,7 +2240,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
         <profile id="a01d-23d9-b647-81dc" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Bone-tithe Shrieker is a predatory endless 法术. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Bone-tithe Shrieker is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3777,9 +3777,9 @@ You can roll D3 additional dice when this LIEGE uses their Unstoppable Charge ab
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6039-9017-61e1-9b11" name="Soul-linked" publicationId="cb62-7d89-9fa6-76ad" hidden="false">
-      <描述>This 法术 is soul-linked to the caster. When predatory endless spells are moved at the start of the battle round, any that are soul-linked to a caster are moved first, followed by any endless spells that are not. Soul-linked spells are always moved by the player whose army includes the caster the 法术 is soul-linked to. The player that won the roll-off to determine who moves an endless 法术 first must move all their soul-linked spells first, followed by their opponent.
+      <描述>This 法术 is soul-linked to the caster. When predatory endless spells are moved at the start of the battle round, any that are soul-linked to a caster are moved first, followed by any endless spells that are not. Soul-linked spells are always moved by the player whose army includes the caster the 法术 is soul-linked to. The player that won the roll-off to determine who moves an 无尽法术 first must move all their soul-linked spells first, followed by their opponent.
 
-You must subtract 1 from casting rolls for a 法师 that is soul-linked to an endless 法术. A caster cannot be soul-linked to more than one endless 法术 at the same time. If the caster is slain, then any endless 法术 they are soul-linked to is dispelled.</描述>
+You must subtract 1 from casting rolls for a 法师 that is soul-linked to an 无尽法术. A caster cannot be soul-linked to more than one 无尽法术 at the same time. If the caster is slain, then any 无尽法术 they are soul-linked to is dispelled.</描述>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -3,7 +3,7 @@
   <publications>
     <publication id="ed04-877b-pubN65537" name="秩序军书: 雷铸神兵 (2nd Edition)"/>
     <publication id="ed04-877b-pubN71576" name="军书: 雷铸神兵 (2nd Edition)"/>
-    <publication id="ed04-877b-pubN71830" name="军书: 雷铸神兵, Errata July 2018"/>
+    <publication id="ed04-877b-pubN71830" name="军书: 雷铸神兵, 勘误 2018年07月"/>
     <publication id="ed04-877b-pubN100815" name="秩序军书 雷铸神兵"/>
     <publication id="ed04-877b-pubN101748" name="秩序官方FAQ和勘误, 版本 1.4"/>
     <publication id="ed04-877b-pubN110200" name="Blightwar"/>
@@ -147,7 +147,7 @@
                       <profiles>
                         <profile id="2bf5-68c5-17c4-4e84" name="Only the Faithful" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly HALLOWED KNIGHTS 单位 is affected by a 法术 or endless 法术, roll a dice. On a 6+ ignore the effects of that 法术 on that 单位.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly HALLOWED KNIGHTS 单位 is affected by a 法术 or 无尽法术, roll a dice. On a 6+ ignore the effects of that 法术 on that 单位.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="9386-4a0d-d24b-32d8" name="Holy Crusaders" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -8139,7 +8139,7 @@
         </profile>
         <profile id="1c01-76ae-a2bc-b29c" name="Aetheric Manipulation" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability before an endless 法术 is moved. If you do so, pick a predatory ENDLESS 法术 model within 12寸 of a friendly model with this command ability. Add D6寸 to the distance that endless 法术 can move until the end of the battle round.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability before an 无尽法术 is moved. If you do so, pick a predatory 无尽法术 model within 12寸 of a friendly model with this command ability. Add D6寸 to the distance that 无尽法术 can move until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9025,14 +9025,14 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37f9-5999-6ae6-0ded" name="Endless 法术: Celestian Vortex" publicationId="ed04-877b-pubN71576" page="189" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="37f9-5999-6ae6-0ded" name="无尽法术: Celestian Vortex" publicationId="ed04-877b-pubN71576" page="189" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3a0b-4ab8-8747-5651" type="max"/>
       </constraints>
       <profiles>
         <profile id="831d-1ac0-fe83-9d1b" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Celestian Vortex is a predatory endless 法术. A Celestian Vortex can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Celestian Vortex is a predatory 无尽法术. A Celestian Vortex can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="e3f0-1c60-cef7-d18d" name="Summon Celestian Vortex" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -9070,7 +9070,7 @@
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39fa-f5f9-1707-1d8d" name="Endless 法术: Dais Arcanum" publicationId="ed04-877b-pubN71576" page="190" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="39fa-f5f9-1707-1d8d" name="无尽法术: Dais Arcanum" publicationId="ed04-877b-pubN71576" page="190" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="765d-18c8-bb67-e94b" type="max"/>
       </constraints>
@@ -9078,7 +9078,7 @@
         <profile id="192d-afc9-494c-e8a1" name="Summon Dais Arcanum" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only STORMCAST ETERNAL WIZARDS that do not have a Wounds characteristic of 6 or more, are not part of a 单位 with 2 or more models, and are not already on a Dais Arcanum, can attempt to cast this 法术. If successfully cast, set up a Dais Arcanum model within 1寸 of the caster and more than 3寸 from any enemy models and then place the caster on top of it.  As long as the Dais Arcanum remains on the battlefield, the Dais Arcanum and the caster are treated as a single model from the caster’s army that uses the caster’s warscroll as well as the endless 法术 rules. It is treated as an enemy model by the opposing player’s army.  A model on a Dais Arcanum has a Move characteristic of 12寸 and can fly.  If a model on a Dais Arcanum is slain, that Dais Arcanum is immediately dispelled and removed from play along with the slain model.  If a Dais Arcanum is dispelled and the model on it has not been slain, set up that model wholly within 6寸 of the Dais Arcanum and more than 3寸 from any enemy models, and then remove the Dais Arcanum from play. If it is impossible to set up that model, it is slain.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only STORMCAST ETERNAL WIZARDS that do not have a Wounds characteristic of 6 or more, are not part of a 单位 with 2 or more models, and are not already on a Dais Arcanum, can attempt to cast this 法术. If successfully cast, set up a Dais Arcanum model within 1寸 of the caster and more than 3寸 from any enemy models and then place the caster on top of it.  As long as the Dais Arcanum remains on the battlefield, the Dais Arcanum and the caster are treated as a single model from the caster’s army that uses the caster’s warscroll as well as the 无尽法术 rules. It is treated as an enemy model by the opposing player’s army.  A model on a Dais Arcanum has a Move characteristic of 12寸 and can fly.  If a model on a Dais Arcanum is slain, that Dais Arcanum is immediately dispelled and removed from play along with the slain model.  If a Dais Arcanum is dispelled and the model on it has not been slain, set up that model wholly within 6寸 of the Dais Arcanum and more than 3寸 from any enemy models, and then remove the Dais Arcanum from play. If it is impossible to set up that model, it is slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="9d9d-64a4-03ce-9257" name="Arcane Enhancement" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -9105,7 +9105,7 @@
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f2e-b7f4-470b-4ef8" name="Endless 法术: Everblaze Comet" publicationId="ed04-877b-pubN71576" page="190" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4f2e-b7f4-470b-4ef8" name="无尽法术: Everblaze Comet" publicationId="ed04-877b-pubN71576" page="190" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0430-5254-0069-4e52" type="max"/>
       </constraints>
@@ -10481,7 +10481,7 @@
           <profiles>
             <profile id="1a18-7693-d821-9312" name="Obsidian Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or endless 法术, roll a dice. On a 4+ ignore the effects of that 法术 on the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time the bearer is affected by a 法术 or 无尽法术, roll a dice. On a 4+ ignore the effects of that 法术 on the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -301,7 +301,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="2ab4-09e8-9a37-0b00" name="Khorne" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
+            <entryLink id="2ab4-09e8-9a37-0b00" name="恐虐" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
             <entryLink id="ee45-d68a-b62d-5c84" name="Slaanesh" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
             <entryLink id="29b2-3770-e8d4-b574" name="Nurgle" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
             <entryLink id="4eb8-51d6-0f8d-685a" name="Tzeentch" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
@@ -2028,9 +2028,9 @@
             <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the UNDIVIDED keyword, you can re-roll charge rolls for that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="66b2-bdd4-89ff-dac1" name="Favour of Khorne" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+        <profile id="66b2-bdd4-89ff-dac1" name="Favour of 恐虐" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the KHORNE keyword, you can re-roll hit rolls for attacks made with 肉搏 武器 by that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the 恐虐 keyword, you can re-roll hit rolls for attacks made with 肉搏 武器 by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="d641-3980-a7ae-00ac" name="Favour of Nurgle" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
@@ -2045,7 +2045,7 @@
         </profile>
         <profile id="0679-cde1-ed61-366f" name="Favour of Tzeentch" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the TZEENTCH keyword, until your next 英雄阶段, each time that 单位 is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or endless 法术 on that 单位.</characteristic>
+            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the TZEENTCH keyword, until your next 英雄阶段, each time that 单位 is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="ad0f-906d-2f44-c3c3" name="Protection of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2160,7 +2160,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="f74f-a3ef-3526-2d7f" name="Mark of 混沌" hidden="false" collective="false" import="true" targetId="24d3-e75e-90ef-632f" type="selectionEntryGroup"/>
-        <entryLink id="608f-7d91-c55a-0228" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true" targetId="9e00-edd6-ffdf-3f9c" type="selectionEntryGroup"/>
+        <entryLink id="608f-7d91-c55a-0228" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true" targetId="9e00-edd6-ffdf-3f9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="170.0"/>
@@ -2205,7 +2205,7 @@
         <categoryLink id="a1a5-9768-a407-2534" name="New CategoryLink" hidden="false" targetId="84ea-2e37-06de-d81e" primary="false"/>
         <categoryLink id="cd5a-c260-1831-967b" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="4aed-c02d-c12d-5aba" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
-        <categoryLink id="21e9-9be3-05b7-b0ac" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
+        <categoryLink id="21e9-9be3-05b7-b0ac" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
         <categoryLink id="5c6e-7ddc-3052-3c3d" name="NURGLE" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2239,14 +2239,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def6-c78e-4d90-e3a6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7c8f-72be-1c3d-0d8d" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7c8f-72be-1c3d-0d8d" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e97-2c2d-47c2-bd0d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="b479-1066-419a-dc33" name="Bloodslick Ground" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                   <characteristics>
-                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model has the KHORNE keyword. If you do so, until your next 英雄阶段, run and charge rolls made for enemy units within 18寸 of this model are halved. You cannot use this command ability more than once per turn.</characteristic>
+                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model has the 恐虐 keyword. If you do so, until your next 英雄阶段, run and charge rolls made for enemy units within 18寸 of this model are halved. You cannot use this command ability more than once per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3932,7 +3932,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         </profile>
         <profile id="371c-758d-484c-232f" name="The Everchosen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or endless 法术 on this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="3928-3bef-cd6a-3d96" name="By My Will" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -4015,7 +4015,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
             </profile>
             <profile id="a6fa-603b-9873-05b8" name="法术-Eater" hidden="false" typeId="f7f4-b79f-f613-624c" typeName="Triple-headed Monstrosity">
               <characteristics>
-                <characteristic name="Effect" typeId="8205-6cdc-6b9a-32c7">Pick 1 endless 法术 within 18寸 of this model; that endless 法术 is dispelled.</characteristic>
+                <characteristic name="Effect" typeId="8205-6cdc-6b9a-32c7">Pick 1 无尽法术 within 18寸 of this model; that 无尽法术 is dispelled.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4155,7 +4155,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
           <profiles>
             <profile id="739c-01a4-0fb4-a851" name="Warpsteel Shield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this 单位 is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or endless 法术 on this 单位. </characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this 单位 is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 5+, ignore the effects of that 法术 or 无尽法术 on this 单位. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5136,12 +5136,12 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0a29-a61e-4c84-37f5" name="Mark of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0a29-a61e-4c84-37f5" name="Mark of 恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbf1-6811-d5c4-40a0" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="325d-5ec6-9060-0b1c" name="KHORNE" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
+            <categoryLink id="325d-5ec6-9060-0b1c" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -5597,7 +5597,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="2c3d-96a1-5568-2189" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7d36-1855-f556-9184" name="1 MORTAL SLAVES TO DARKNESS KHORNE 英雄" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7d36-1855-f556-9184" name="1 MORTAL SLAVES TO DARKNESS 恐虐 英雄" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5664-4136-5610-7b8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6938-02d3-c971-1be5" type="min"/>
@@ -5615,7 +5615,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="3563-3be4-38d8-36cb" name="混沌 Lord on Manticore" hidden="false" collective="false" import="true" targetId="3303-cef0-2064-a5f5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e41-342f-25db-590d" name="8 MORTAL SLAVES TO DARKNESS KHORNE Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7e41-342f-25db-590d" name="8 MORTAL SLAVES TO DARKNESS 恐虐 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3397-1da5-5aa2-b431" type="min"/>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f7-3ea6-fc54-8972" type="max"/>
@@ -5657,7 +5657,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
       <profiles>
         <profile id="cc1e-eb33-c6d2-3423" name="Scions of Change" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 英雄阶段, you can pick 1 单位 from this 阵型 that has 9 or more models. If you do so, until the end of that phase, that 单位 can attempt to cast 1 法术 and attempt to dispel 1 endless 法术. It knows the Stolen Sting 法术:</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of your 英雄阶段, you can pick 1 单位 from this 阵型 that has 9 or more models. If you do so, until the end of that phase, that 单位 can attempt to cast 1 法术 and attempt to dispel 1 无尽法术. It knows the Stolen Sting 法术:</characteristic>
           </characteristics>
         </profile>
         <profile id="d21b-d01f-def9-fb07" name="Stolen Sting" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -5911,7 +5911,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191c-5d3f-c66a-9cb2" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="9bb6-5709-016e-2327" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9bb6-5709-016e-2327" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="0a8c-94c0-c737-41d5" value="0.0">
               <conditions>
@@ -6120,7 +6120,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
           </modifiers>
         </entryLink>
         <entryLink id="6448-d8ae-e32c-2acf" name="Traits: Ruinous Overlords" hidden="false" collective="false" import="true" targetId="e3ff-2b48-800c-c641" type="selectionEntryGroup"/>
-        <entryLink id="a258-37cf-ba09-5278" name="Khorne Mortal Command Traits" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
+        <entryLink id="a258-37cf-ba09-5278" name="恐虐 Mortal Command Traits" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
         <entryLink id="a25a-17b9-5fc2-28a1" name="Nurgle Mortal Command Traits" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
         <entryLink id="9ed5-49ab-c3d6-34f5" name="Tzeentch Mortal Command Traits" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
         <entryLink id="521e-5201-a437-c53c" name="Slaughterhost Command Traits" hidden="false" collective="false" import="true" targetId="1aa0-14d1-5940-3c9e" type="selectionEntryGroup"/>
@@ -6129,7 +6129,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <entryLink id="3a72-c03a-f774-5832" name="Traits of the Seeker Supreme" hidden="false" collective="false" import="true" targetId="b02e-15de-67df-8664" type="selectionEntryGroup"/>
         <entryLink id="b963-7d3b-e327-df8d" name="Traits: Masters of Dark Sorcery" hidden="false" collective="false" import="true" targetId="a2f4-4e22-5cb9-c475" type="selectionEntryGroup"/>
         <entryLink id="72d4-00d5-7fae-70ab" name="Traits: Aspects of the Ascended" hidden="false" collective="false" import="true" targetId="3dd8-663d-e647-5e96" type="selectionEntryGroup"/>
-        <entryLink id="0253-7b02-3ead-12b7" name="Traits: Khorne 恶魔" hidden="false" collective="false" import="true" targetId="004d-f904-2f15-93ce" type="selectionEntryGroup"/>
+        <entryLink id="0253-7b02-3ead-12b7" name="Traits: 恐虐 恶魔" hidden="false" collective="false" import="true" targetId="004d-f904-2f15-93ce" type="selectionEntryGroup"/>
         <entryLink id="4ad4-7041-dc10-0445" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
         <entryLink id="c295-9dff-46a2-2009" name="Traits: Wrath of the Everchosen" hidden="false" collective="false" import="true" targetId="79dc-a292-43f4-d01f" type="selectionEntryGroup"/>
       </entryLinks>

@@ -5,7 +5,7 @@
     <publication id="bcc4-c671-pubd1e6847" name="Forgeworld: Monstrous Arcanum"/>
     <publication id="bcc4-c671-pubd1e21990" name="Forgeworld: Monstrous Arcanum, Jan 2019"/>
     <publication id="bcc4-c671-pubd1e30758" name="Warscroll Compendium: Skaven"/>
-    <publication id="e316-99a9-2860-3a7c" name="军书: Skaven, Official Errata, July 2019"/>
+    <publication id="e316-99a9-2860-3a7c" name="军书: Skaven, 官方勘误, July 2019"/>
   </publications>
   <profileTypes>
     <profileType id="727c-643b-cfa1-5383" name="Too Horrible to Die - D6 Roll">
@@ -1394,7 +1394,7 @@
           <profiles>
             <profile id="5cd4-7a85-f5a1-2b4d" name="Warpstone Spikes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or endless 法术, you can roll a dice. If you do so, on a 4+ ignore the effects of that 法术 on this model.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+ ignore the effects of that 法术 on this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6577,7 +6577,7 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="031f-bc9f-50b9-e33e" name="Endless 法术: Vermintide" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="031f-bc9f-50b9-e33e" name="无尽法术: Vermintide" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33ee-b399-385e-f0fd" type="max"/>
       </constraints>
@@ -6590,7 +6590,7 @@
         </profile>
         <profile id="3b9f-a6a5-6a68-bbcf" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Vermintide is a predatory endless 法术. It can move up to 7寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Vermintide is a predatory 无尽法术. It can move up to 7寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="429a-8a41-756b-cb9b" name="Ravening Horde" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -6610,14 +6610,14 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="84d8-ab31-3851-37f6" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="84d8-ab31-3851-37f6" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="7b3e-fd39-a62e-e4b1" name="VERMINTIDE" hidden="false" targetId="a986-2dd9-5302-538e" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c5e-cf5a-0321-fa94" name="Endless 法术: Warp Lightning Vortex" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7c5e-cf5a-0321-fa94" name="无尽法术: Warp Lightning Vortex" publicationId="bcc4-c671-pubd1e1" page="125" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91a8-23e1-525a-e908" type="max"/>
       </constraints>
@@ -6630,24 +6630,24 @@
         </profile>
         <profile id="09ef-a43d-71a5-cc50" name="Warp Lightning Bolts" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, and at the end of each movement phase, roll 1 dice for each 单位 within 6寸 of any of the models from this endless 法术. Add 1 to the dice roll if that 单位 is within 6寸 of two of the models from this endless 法术. Add 2 to the dice roll instead of 1 if that 单位 is within 6寸 of all three models from this endless 法术. On a 4+ that 单位 suffers D3 mortal wounds. On an unmodified roll of 6, that 单位 suffers D6 mortal wounds instead of D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, and at the end of each movement phase, roll 1 dice for each 单位 within 6寸 of any of the models from this 无尽法术. Add 1 to the dice roll if that 单位 is within 6寸 of two of the models from this 无尽法术. Add 2 to the dice roll instead of 1 if that 单位 is within 6寸 of all three models from this 无尽法术. On a 4+ that 单位 suffers D3 mortal wounds. On an unmodified roll of 6, that 单位 suffers D6 mortal wounds instead of D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile id="ff0a-cf2f-9553-7250" name="Warp Vortex" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Units cannot run or fly when they make a normal move that starts within 6寸 of any models from this endless 法术.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Units cannot run or fly when they make a normal move that starts within 6寸 of any models from this 无尽法术.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="1cfb-d34d-4508-9a27" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="1cfb-d34d-4508-9a27" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="ffeb-6102-0169-d4bd" name="WARP LIGHTNING VORTEX" hidden="false" targetId="4440-1420-2dd0-70d1" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fe6-46f9-96bb-8673" name="Endless 法术: Bell of Doom" publicationId="bcc4-c671-pubd1e1" page="126" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4fe6-46f9-96bb-8673" name="无尽法术: Bell of Doom" publicationId="bcc4-c671-pubd1e1" page="126" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3dfe-4536-9992-ecd4" type="max"/>
       </constraints>
@@ -6670,7 +6670,7 @@
         </profile>
         <profile id="d4c8-b1e0-8022-bad5" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Bell of Doom is a predatory endless 法术. It can move up to 13寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Bell of Doom is a predatory 无尽法术. It can move up to 13寸 and can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6679,7 +6679,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="56de-a3df-c8ed-c893" name="BELL OF DOOM" hidden="false" targetId="0250-c05b-ed90-c018" primary="false"/>
-        <categoryLink id="802f-b758-ad2b-48c0" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="802f-b758-ad2b-48c0" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
@@ -7605,7 +7605,7 @@
           <profiles>
             <profile id="45f3-f741-4bff-d218" name="Staff of Rightful Supremacy" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of enemy WIZARDS while they are within 13寸 of the bearer. In addition, once per battle, you can dispel one endless 法术 within 13寸 of the caster (you do not have to roll 2D6, the dispel is automatically successful).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from the casting rolls of enemy WIZARDS while they are within 13寸 of the bearer. In addition, once per battle, you can dispel one 无尽法术 within 13寸 of the caster (you do not have to roll 2D6, the dispel is automatically successful).</characteristic>
               </characteristics>
             </profile>
           </profiles>

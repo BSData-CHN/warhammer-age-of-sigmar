@@ -371,15 +371,15 @@
     <entryLink id="4890-b5e2-f418-9a57" name="Vortemis the All-Seeing" hidden="false" collective="false" import="true" targetId="6248-9626-de8a-3ee5" type="selectionEntry"/>
     <entryLink id="08eb-4f1a-a105-c9f0" name="Eyes of the Nine" hidden="false" collective="false" import="true" targetId="eb28-d2ca-f780-08b6" type="selectionEntry"/>
     <entryLink id="c9a7-c232-6551-d8b8" name="混沌 Lord on Karkadrak" hidden="false" collective="false" import="true" targetId="e6c9-c984-cd6f-33e3" type="selectionEntry"/>
-    <entryLink id="965e-f7be-89b8-280c" name="Endless 法术: Burning Sigil of Tzeentch" hidden="false" collective="false" import="true" targetId="d281-23dc-af26-0a1e" type="selectionEntry"/>
-    <entryLink id="2ed0-c0f8-e9d8-3049" name="Endless 法术: Tome of Eyes" hidden="false" collective="false" import="true" targetId="3e8b-070f-9f8f-2b96" type="selectionEntry"/>
-    <entryLink id="bc18-31a6-8916-def0" name="Endless 法术: Daemonic Simulacrum" hidden="false" collective="false" import="true" targetId="3a98-b7f1-8075-b157" type="selectionEntry"/>
+    <entryLink id="965e-f7be-89b8-280c" name="无尽法术: Burning Sigil of Tzeentch" hidden="false" collective="false" import="true" targetId="d281-23dc-af26-0a1e" type="selectionEntry"/>
+    <entryLink id="2ed0-c0f8-e9d8-3049" name="无尽法术: Tome of Eyes" hidden="false" collective="false" import="true" targetId="3e8b-070f-9f8f-2b96" type="selectionEntry"/>
+    <entryLink id="bc18-31a6-8916-def0" name="无尽法术: Daemonic Simulacrum" hidden="false" collective="false" import="true" targetId="3a98-b7f1-8075-b157" type="selectionEntry"/>
     <entryLink id="f87a-3cb1-39cb-9ecb" name="Magister on Disc of Tzeentch" hidden="false" collective="false" import="true" targetId="2eca-78e3-762e-c0b3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0c59-0ea4-4193-e9c3" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d975-9f44-27fb-3efe" name="Endless 法术: Darkfire Daemonrift" hidden="true" collective="false" import="true" targetId="ed34-b208-fdd6-9776" type="selectionEntry">
+    <entryLink id="d975-9f44-27fb-3efe" name="无尽法术: Darkfire Daemonrift" hidden="true" collective="false" import="true" targetId="ed34-b208-fdd6-9776" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -388,7 +388,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="ec24-5337-6c95-6ca6" name="Endless 法术: Eightfold Doom-Sigil" hidden="true" collective="false" import="true" targetId="32dc-cfa8-abf0-d138" type="selectionEntry">
+    <entryLink id="ec24-5337-6c95-6ca6" name="无尽法术: Eightfold Doom-Sigil" hidden="true" collective="false" import="true" targetId="32dc-cfa8-abf0-d138" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -397,7 +397,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="d2a1-11bd-a85b-51da" name="Endless 法术: Realmscourge Rupture" hidden="true" collective="false" import="true" targetId="b55d-a5d2-8d55-e948" type="selectionEntry">
+    <entryLink id="d2a1-11bd-a85b-51da" name="无尽法术: Realmscourge Rupture" hidden="true" collective="false" import="true" targetId="b55d-a5d2-8d55-e948" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -1847,7 +1847,7 @@
         </profile>
         <profile id="5a36-b153-1c06-9c94" name="Curse of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can choose one of the following keywords to give to this 单位 the first time it is set up: Khorne, Nurgle, Slaanesh or Tzeentch.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can choose one of the following keywords to give to this 单位 the first time it is set up: 恐虐, Nurgle, Slaanesh or Tzeentch.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a54-c61d-e2ec-592b" name="Plaything of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1922,7 +1922,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9a-4dc4-4ca3-cc1d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a8ce-91c7-8a04-b8db" name="Khorne" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a8ce-91c7-8a04-b8db" name="恐虐" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0609-c898-fefc-ce39" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b6d-7a2e-4ee8-b473" type="min"/>
@@ -2029,7 +2029,7 @@
         </profile>
         <profile id="ec43-08ec-0a2e-5927" name="6. Spawnchange" hidden="false" typeId="1d9d-3543-a777-a151" typeName="Aura of Mutation - D6">
           <characteristics>
-            <characteristic name="Effect" typeId="f5fc-dc0c-4c0d-4d1b">Spawnchange: The target 单位 suffers D6 mortal wounds. If at least one model is slain by these mortal wounds, set up a 混沌 Spawn within 3寸 of the target 单位 and add it to your army. *ERRATA Jun&apos;18*</characteristic>
+            <characteristic name="Effect" typeId="f5fc-dc0c-4c0d-4d1b">Spawnchange: The target 单位 suffers D6 mortal wounds. If at least one model is slain by these mortal wounds, set up a 混沌 Spawn within 3寸 of the target 单位 and add it to your army. *勘误 Jun&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="5d23-5b14-0db4-5600" name="Aura of Mutation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2979,7 +2979,7 @@ If a friendly Magister is slain by this effect, roll a dice before removing the 
           <profiles>
             <profile id="afa7-daeb-35ea-400e" name="Boundless Mutation" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of each of your 英雄 phases, roll a dice; on a 2 or more, your 主将 heals D3 wounds. On a roll of 1, your 主将 suffers 1 mortal wound; if this slays the 主将, before you remove the 主将’s model, you can add a Tzeentch 混沌 Spawn to your army and set it up within 1寸 of your 主将. *Errata Jul&apos;18*</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of each of your 英雄 phases, roll a dice; on a 2 or more, your 主将 heals D3 wounds. On a roll of 1, your 主将 suffers 1 mortal wound; if this slays the 主将, before you remove the 主将’s model, you can add a Tzeentch 混沌 Spawn to your army and set it up within 1寸 of your 主将. *勘误 Jul&apos;18*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3185,7 +3185,7 @@ If a friendly Magister is slain by this effect, roll a dice before removing the 
     </profile>
     <profile id="9738-575e-dd59-378d" name="Book of Profane Secrets" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the end of your movement phase, if this model is within 9寸 of a Realmgate it can use its Book of Profane Secrets. If it does so, you can summon 1 单位 from the list below to the battlefield, and add it to your army. The summoned 单位 must be set up wholly within 9寸 of a this model and wholly within 9寸 of the Realmgate, and more than 9寸 from any enemy units. Choose a 单位 from the following list: • 10 Pink Horrors • 10 Bloodletters • 10 Plaguebearers • 10 Daemonettes *Errata Jul&apos;18*</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the end of your movement phase, if this model is within 9寸 of a Realmgate it can use its Book of Profane Secrets. If it does so, you can summon 1 单位 from the list below to the battlefield, and add it to your army. The summoned 单位 must be set up wholly within 9寸 of a this model and wholly within 9寸 of the Realmgate, and more than 9寸 from any enemy units. Choose a 单位 from the following list: • 10 Pink Horrors • 10 Bloodletters • 10 Plaguebearers • 10 Daemonettes *勘误 Jul&apos;18*</characteristic>
       </characteristics>
     </profile>
     <profile id="4b4d-41fe-e5d1-0f1f" name="Magical Supremacy" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">

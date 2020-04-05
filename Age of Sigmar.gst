@@ -5,8 +5,8 @@
     <publication id="e51d-b1a3-pubEQ" name="核心规则"/>
     <publication id="e51d-b1a3-pubE5LCI" name="将军手册 2018"/>
     <publication id="e51d-b1a3-pubEQOCI" name="将军手册 2017"/>
-    <publication id="e51d-b1a3-pubETJDK" name="Malign Sorcery; Official Errata, December 2018"/>
-    <publication id="e51d-b1a3-pubEFCFK" name="Malign Sorcery; Errata, July 2018"/>
+    <publication id="e51d-b1a3-pubETJDK" name="Malign Sorcery; 官方勘误, 2018年12月"/>
+    <publication id="e51d-b1a3-pubEFCFK" name="Malign Sorcery; 勘误, 2018年07月"/>
     <publication id="e51d-b1a3-pubEKHGM" name="Malign Sorcery"/>
     <publication id="e51d-b1a3-pubEHOGM" name="Malign Sorcery"/>
   </publications>
@@ -146,7 +146,7 @@
     <categoryEntry id="812f-790a-4f66-0476" name="BRAYHERD" hidden="false"/>
     <categoryEntry id="3963-2e99-aa63-c65e" name="SLAANESH" hidden="false"/>
     <categoryEntry id="dd77-19a5-28eb-cbec" name="NURGLE" hidden="false"/>
-    <categoryEntry id="f22b-976f-fc38-366a" name="KHORNE" hidden="false"/>
+    <categoryEntry id="f22b-976f-fc38-366a" name="恐虐" hidden="false"/>
     <categoryEntry id="4ba7-618a-4e30-2e0c" name="SLAVES TO DARKNESS" hidden="false"/>
     <categoryEntry id="5432-a6f0-46f0-db4a" name="PESTILENS" hidden="false"/>
     <categoryEntry id="0aa0-da78-a43c-3e8c" name="SKRYRE" hidden="false"/>
@@ -168,8 +168,8 @@
     <categoryEntry id="1422-e165-b7d0-b2d9" name="OGOR" hidden="false"/>
     <categoryEntry id="c91f-5c40-bec0-1a93" name="DRAGON" hidden="false"/>
     <categoryEntry id="6ec4-4931-4d7f-006b" name="IDONETH DEEPKIN" hidden="false"/>
-    <categoryEntry id="be2f-aa63-6d82-e2fc" name="势力: Khorne" hidden="false"/>
-    <categoryEntry id="1974-3f49-7f0b-8422" name="Game Options" hidden="false"/>
+    <categoryEntry id="be2f-aa63-6d82-e2fc" name="势力: 恐虐" hidden="false"/>
+    <categoryEntry id="1974-3f49-7f0b-8422" name="游戏选项" hidden="false"/>
     <categoryEntry id="fd9f-428a-177d-c765" name="Vanguard" hidden="false"/>
     <categoryEntry id="6330-7561-7a32-0851" name="Battlehost" hidden="false"/>
     <categoryEntry id="1e63-0b49-ac04-321f" name="Warhost" hidden="false"/>
@@ -178,7 +178,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8466-6600-12e7-0833" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="31f4-2067-3ade-e6f8" name="ENDLESS 法术" hidden="false"/>
+    <categoryEntry id="31f4-2067-3ade-e6f8" name="无尽法术" hidden="false"/>
     <categoryEntry id="eecb-ed66-d474-9ddd" name="Malign Sorcery" hidden="false"/>
     <categoryEntry id="8be8-3ccd-be93-b55e" name="Command Points" hidden="false"/>
     <categoryEntry id="5647-b7a8-9716-1d17" name="AETHERVOID PENDULUM" hidden="false"/>
@@ -427,7 +427,7 @@
             <constraint field="selections" scope="36b7-ee1e-0855-f23f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5841-14a7-e06c-3f06" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="e091-0150-8eee-0258" name="Game Options" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
+        <categoryLink id="e091-0150-8eee-0258" name="游戏选项" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
         <categoryLink id="7d52-926e-b20f-95c8" name="Realm of Origin" hidden="false" targetId="5c6d-5384-bcb1-b474" primary="false">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7025-70e4-7ad4-407a" type="max"/>
@@ -504,7 +504,7 @@
           </constraints>
         </categoryLink>
         <categoryLink id="3482-1176-7c83-8374" name="Command Points" hidden="false" targetId="8be8-3ccd-be93-b55e" primary="false"/>
-        <categoryLink id="c800-4d89-230a-a2e4" name="Game Options" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
+        <categoryLink id="c800-4d89-230a-a2e4" name="游戏选项" hidden="false" targetId="1974-3f49-7f0b-8422" primary="false"/>
         <categoryLink id="fcf3-8315-3d50-aede" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="false"/>
         <categoryLink id="e7ee-4c42-6e86-db5a" name="Realm of Battle" hidden="false" targetId="5e28-c4f1-4a92-b75c" primary="false">
           <constraints>
@@ -645,7 +645,7 @@
         <categoryLink id="5552-cffb-c874-4e24" name="Realm of Battle" hidden="false" targetId="5e28-c4f1-4a92-b75c" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="28b7-9a3f-0f7b-c498" name="Endless 法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" targetId="98c8-838b-2c8a-a9f7" type="selectionEntry">
+    <entryLink id="28b7-9a3f-0f7b-c498" name="无尽法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" targetId="98c8-838b-2c8a-a9f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8ff7-043d-6044-8c48" name="Malign Sorcery" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -665,7 +665,7 @@
         <categoryLink id="102e-6e47-67c3-a9c8" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="21eb-635c-39bd-dd60" name="Endless 法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" targetId="1ce8-9373-9c22-75a0" type="selectionEntry">
+    <entryLink id="21eb-635c-39bd-dd60" name="无尽法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" targetId="1ce8-9373-9c22-75a0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="819f-b709-0da8-07b1" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -730,7 +730,7 @@
         <categoryLink id="a795-b9f6-5518-72bc" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5094-7652-a4bc-244c" name="Endless 法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" targetId="d2dc-7e1a-c2e7-4cff" type="selectionEntry">
+    <entryLink id="5094-7652-a4bc-244c" name="无尽法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" targetId="d2dc-7e1a-c2e7-4cff" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f865-805f-d0d2-56bb" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -832,7 +832,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98c8-838b-2c8a-a9f7" name="Endless 法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98c8-838b-2c8a-a9f7" name="无尽法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a657-de49-e2b9-d312" type="max"/>
       </constraints>
@@ -845,7 +845,7 @@
         </profile>
         <profile id="21f3-0955-0b5b-632a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory endless 法术. It can move up to 8寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory 无尽法术. It can move up to 8寸 and can fly. </characteristic>
           </characteristics>
         </profile>
         <profile id="a0f5-049e-5f6b-92f7" name="Slicing Into Reality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -875,7 +875,7 @@
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98b9-64b2-7123-b7a2" name="Endless 法术: Balewind Vortex" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98b9-64b2-7123-b7a2" name="无尽法术: Balewind Vortex" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8106-c203-2ed0-e575" type="max"/>
       </constraints>
@@ -902,7 +902,7 @@
           <描述>As long as the Balewind Vortex remains on the battlefield, the caster and the Balewind Vortex are treated as being a single model
 from the caster’s army that uses the caster’s warscroll as well as the endless spells rules. It is treated as an enemy model by the opposing player’s army. A 法师 on a Balewind Vortex cannot move.
 
-If a 法师 on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional 法术 that the 法师 would have received in that 英雄阶段, and still counts as the single attempt they can make to dispel an endless 法术 this 英雄阶段, but allows them to use any remaining 法术 casting attempts normally.
+If a 法师 on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional 法术 that the 法师 would have received in that 英雄阶段, and still counts as the single attempt they can make to dispel an 无尽法术 this 英雄阶段, but allows them to use any remaining 法术 casting attempts normally.
 
 If the 法师 on the Balewind Vortex is slain, then the Balewind Vortex is immediately dispelled and removed from play along with the slain 法师.
 
@@ -919,7 +919,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a8c-091f-84b5-47aa" name="Endless 法术: Chronomatic Cogs" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a8c-091f-84b5-47aa" name="无尽法术: Chronomatic Cogs" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="437a-85d6-7962-09c8" type="max"/>
       </constraints>
@@ -945,7 +945,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec28-3ec9-f2fa-82e5" name="Endless 法术: Emerald Lifeswarm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec28-3ec9-f2fa-82e5" name="无尽法术: Emerald Lifeswarm" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41d8-6605-1f4e-1c94" type="max"/>
       </constraints>
@@ -958,7 +958,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="6183-1ed2-30a1-468a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory endless 法术. Emerald Lifeswarms can move up to 10寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory 无尽法术. Emerald Lifeswarms can move up to 10寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ee9-f13f-669c-33d7" name="Bounteous Healing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -984,7 +984,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ce8-9373-9c22-75a0" name="Endless 法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1ce8-9373-9c22-75a0" name="无尽法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f50a-76ec-115a-6e1d" type="max"/>
       </constraints>
@@ -1017,7 +1017,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="634a-99d6-067a-57e1" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory endless 法术. They can move up to 8寸 and can fly. When you move this endless 法术, the second model must finish its move within 6寸 of the first. If this is impossible, this 法术 is dispelled. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory 无尽法术. They can move up to 8寸 and can fly. When you move this 无尽法术, the second model must finish its move within 6寸 of the first. If this is impossible, this 法术 is dispelled. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1034,7 +1034,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="befc-365b-06f8-5575" name="Endless 法术: Horrorghast" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="befc-365b-06f8-5575" name="无尽法术: Horrorghast" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1106-8e19-e64d-9a0a" type="max"/>
       </constraints>
@@ -1057,7 +1057,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="e908-33ca-d3e1-dbcb" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory endless 法术. It can move up to 9寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory 无尽法术. It can move up to 9寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1065,7 +1065,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <infoLink id="b6c5-3639-29e8-2d96" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e16b-e04d-41ad-aa44" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="e16b-e04d-41ad-aa44" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6f84-3b9b-a972-b2f5" name="HORRORGHAST" hidden="false" targetId="9945-bd78-56ea-5cde" primary="false"/>
         <categoryLink id="66e7-40f4-73ab-dd04" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
@@ -1073,7 +1073,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f68-29ac-db98-ff85" name="Endless 法术: Lauchon the Soulseeker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1f68-29ac-db98-ff85" name="无尽法术: Lauchon the Soulseeker" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b648-223d-ea42-50c8" type="max"/>
       </constraints>
@@ -1101,7 +1101,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="bcbf-2a21-bf34-e39c" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory endless 法术. It can move up to 12寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory 无尽法术. It can move up to 12寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1109,7 +1109,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <infoLink id="1ea1-53b4-1328-493e" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e2c8-ee2b-6a8a-3bfc" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="e2c8-ee2b-6a8a-3bfc" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6877-c245-4af4-c221" name="LAUCHON THE SOULSEEKER" hidden="false" targetId="3b54-23ed-a577-ea1f" primary="false"/>
         <categoryLink id="5d52-d94b-a444-45b1" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
@@ -1117,7 +1117,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37a1-b025-6723-3fe1" name="Endless 法术: Malevolent Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="37a1-b025-6723-3fe1" name="无尽法术: Malevolent Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84f5-216e-20fd-46e5" type="max"/>
       </constraints>
@@ -1130,7 +1130,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="af8c-d343-e2c2-d9e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory endless 法术. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="abb3-1c3a-812b-214c" name="Devourerer of Sorcery and Souls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1161,7 +1161,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ae1-8e71-327d-0893" name="Endless 法术: Prismatic Palisade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7ae1-8e71-327d-0893" name="无尽法术: Prismatic Palisade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af02-c60b-9133-fa30" type="max"/>
       </constraints>
@@ -1197,7 +1197,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e7b-ce3f-9348-58e1" name="Endless 法术: Purple Sun of Shyish" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e7b-ce3f-9348-58e1" name="无尽法术: Purple Sun of Shyish" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="607a-4963-04ba-d79f" type="max"/>
       </constraints>
@@ -1210,7 +1210,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="9a94-5efa-6797-25e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory endless 法术. It can move up to 9寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory 无尽法术. It can move up to 9寸 and can fly. </characteristic>
           </characteristics>
         </profile>
         <profile id="376e-119b-d822-4395" name="Swirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1246,7 +1246,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc18-4df9-1a28-2df9" name="Endless 法术: Quicksilver Swords" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bc18-4df9-1a28-2df9" name="无尽法术: Quicksilver Swords" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e19-66ea-d689-4ae3" type="max"/>
       </constraints>
@@ -1259,7 +1259,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="035d-bc7f-cc14-3cc0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory endless 法术. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f8f-9119-6422-7799" name="Volley of Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1290,7 +1290,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a99d-b987-6fa6-96f6" name="Endless 法术: Ravenak&apos;s Gnashing Jaws" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a99d-b987-6fa6-96f6" name="无尽法术: Ravenak&apos;s Gnashing Jaws" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88dc-7fbb-a0af-313d" type="max"/>
       </constraints>
@@ -1303,7 +1303,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="0222-5edd-ad18-48a4" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory endless 法术. It can move up to 12寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory 无尽法术. It can move up to 12寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="983f-75f4-4a12-f26b" name="Endless Appetite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1334,7 +1334,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58a3-4afb-62c5-dd39" name="Endless 法术: Shards of Valagharr" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="58a3-4afb-62c5-dd39" name="无尽法术: Shards of Valagharr" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0021-b32d-ca2b-f4f9" type="max"/>
       </constraints>
@@ -1347,12 +1347,12 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="01e5-7b2f-ac0e-5ec3" name="Ensnaring Soul-drain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, draw an imaginary straight line 1mm wide between the closest parts of the bases of the two Shards of Valagharr models from this endless 法术. Each 单位 passed across by this line is ensnared until the end of that turn. Halve the Move characteristic of a 单位 that is ensnared. In addition, subtract 1 from hit rolls for attacks made by units that are ensnared.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, draw an imaginary straight line 1mm wide between the closest parts of the bases of the two Shards of Valagharr models from this 无尽法术. Each 单位 passed across by this line is ensnared until the end of that turn. Halve the Move characteristic of a 单位 that is ensnared. In addition, subtract 1 from hit rolls for attacks made by units that are ensnared.</characteristic>
           </characteristics>
         </profile>
         <profile id="77e0-b51d-00d4-aa72" name="Twilight Translocation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this endless 法术 from the battlefield and set it up again anywhere on the battlefield wholly within 12寸 of the 其他 Shards of Valagharr model from this endless 法术.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this 无尽法术 from the battlefield and set it up again anywhere on the battlefield wholly within 12寸 of the 其他 Shards of Valagharr model from this 无尽法术.</characteristic>
           </characteristics>
         </profile>
         <profile id="fac8-201d-3681-0dac" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1362,7 +1362,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="057a-08ae-cbb8-08b7" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="057a-08ae-cbb8-08b7" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="1a41-5fe0-2b91-319a" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
         <categoryLink id="430e-40d4-1072-bd3a" name="SHARDS OF VALAGHARR" hidden="false" targetId="cff6-06c5-3294-b74b" primary="false"/>
       </categoryLinks>
@@ -1370,7 +1370,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98da-d52f-7608-3034" name="Endless 法术: Soulscream Bridge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98da-d52f-7608-3034" name="无尽法术: Soulscream Bridge" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb75-934b-daee-022e" type="max"/>
       </constraints>
@@ -1383,7 +1383,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="3cd2-74a2-532b-25a5" name="Deathly Passage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6寸 of one Soulscream Bridge model from this endless 法术 can travel across the Soulscream Bridge. If they do so, remove that 单位 from the battlefield and set it up again wholly within 6寸 of the 其他 Soulscream Bridge model from this endless 法术, more than 9寸 from any enemy units. That 单位 cannot make a normal move that phase. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6寸 of one Soulscream Bridge model from this 无尽法术 can travel across the Soulscream Bridge. If they do so, remove that 单位 from the battlefield and set it up again wholly within 6寸 of the 其他 Soulscream Bridge model from this 无尽法术, more than 9寸 from any enemy units. That 单位 cannot make a normal move that phase. </characteristic>
           </characteristics>
         </profile>
         <profile id="eb78-8010-9568-2703" name="Nightmarish Construct" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1398,7 +1398,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="4201-3b80-3b82-7bc5" name="ENDLESS 法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
+        <categoryLink id="4201-3b80-3b82-7bc5" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="173d-484d-26a5-168a" name="SOULSCREAM BRIDGE" hidden="false" targetId="1d34-b962-7c7b-f287" primary="false"/>
         <categoryLink id="c390-75ad-8a01-32d9" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
@@ -1406,7 +1406,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec18-8377-8f6b-2591" name="Endless 法术: Soulsnare Shackles" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec18-8377-8f6b-2591" name="无尽法术: Soulsnare Shackles" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a82-fc9b-c487-a064" type="max"/>
       </constraints>
@@ -1437,7 +1437,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6de-646a-4dcc-e37d" name="Endless 法术: Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6de-646a-4dcc-e37d" name="无尽法术: Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d42-657b-97ab-f23f" type="max"/>
       </constraints>
@@ -1470,7 +1470,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="3a60-d81a-79c4-dee0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory endless 法术. It can move up to 8寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory 无尽法术. It can move up to 8寸 and can fly. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1486,7 +1486,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad9-857b-32ff-e44e" name="Endless 法术: The B﻿urning Head﻿﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ad9-857b-32ff-e44e" name="无尽法术: The B﻿urning Head﻿﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ee-e3e1-6970-f451" type="max"/>
       </constraints>
@@ -1499,7 +1499,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="c2a1-0a2c-f5ce-467b" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory endless 法术. It can move up to 9寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory 无尽法术. It can move up to 9寸 and can fly.</characteristic>
           </characteristics>
         </profile>
         <profile id="7de4-5c93-a18e-9d5f" name="Fiery Missile" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1535,7 +1535,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="Endless 法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="无尽法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="339b-832b-1f41-84f3" type="max"/>
       </constraints>
@@ -1548,7 +1548,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
         <profile id="0a1a-1532-0887-c5d7" name="Arcane Passage" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 while they are within 1寸 of an Umbral Spellportal model, the range and visibility of the 法术 can be measured from the 其他 Umbral Spellportal model from this endless 法术. After the range and visibility for a 法术 has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory endless 法术 finishes a move within 6寸 of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6寸 of the 其他 Umbral Spellportal model from this endless 法术. After an endless 法术 finishes a move within 6寸 of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 while they are within 1寸 of an Umbral Spellportal model, the range and visibility of the 法术 can be measured from the 其他 Umbral Spellportal model from this 无尽法术. After the range and visibility for a 法术 has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory 无尽法术 finishes a move within 6寸 of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6寸 of the 其他 Umbral Spellportal model from this 无尽法术. After an 无尽法术 finishes a move within 6寸 of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="f61c-06bd-bd2e-6ce5" name="Empowered by Ulgu" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2456,7 +2456,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9e00-edd6-ffdf-3f9c" name="Blood Blessings of Khorne" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9e00-edd6-ffdf-3f9c" name="Blood Blessings of 恐虐" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2473,7 +2473,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="409a-1a19-61fc-ebab" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2485,7 +2485,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="933a-c947-9fb0-e0a6" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2497,7 +2497,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="bb1e-a8e5-4e0f-1fe6" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2509,7 +2509,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="a821-00f5-c6fc-2645" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2521,7 +2521,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="4cd3-aaf5-0845-37e4" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a KHORNE 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2827,7 +2827,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="b38d-8da2-4b98-14be" name="Verdant Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer may attempt to dispel one endless 法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer may attempt to dispel one 无尽法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4169,7 +4169,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="04d2-fb64-23c3-6aa9" name="Lens of Refraction" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6寸 of the bearer suffers any mortal wounds inflicted by a 法术 or endless 法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6寸 of the bearer suffers any mortal wounds inflicted by a 法术 or 无尽法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4759,7 +4759,7 @@ to set up the 法师, then the 法师 is slain.</描述>
           <profiles>
             <profile id="3c29-7e19-781b-def8" name="Forced by the Aether" page="" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>
-                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability when you pick a predatory endless 法术 to move. If you do so, pick 1 predatory endless psell within 12寸 of a friendly 法师. Add D6寸 to the movement range on that predatory endless 法术&apos;s warscroll until the end of the battle round.</characteristic>
+                <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability when you pick a predatory 无尽法术 to move. If you do so, pick 1 predatory endless psell within 12寸 of a friendly 法师. Add D6寸 to the movement range on that predatory 无尽法术&apos;s warscroll until the end of the battle round.</characteristic>
               </characteristics>
             </profile>
             <profile id="b9a0-e9bc-9406-06c9" name="Marked Quarry" page="" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">

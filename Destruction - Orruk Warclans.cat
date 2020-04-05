@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5419-b58f-5a39-0bfe" name="Destruction - Orruk Warclans" revision="10" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5419-b58f-5a39-0bfe" name="毁灭 - Orruk Warclans" revision="10" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="7e25-33bb-pubN65537" name="Destruction 军书: Bonesplitterz"/>
+    <publication id="7e25-33bb-pubN65537" name="Destruction军书: Bonesplitterz"/>
     <publication id="7e25-33bb-pubN82863" name="西格玛时代: The Rules"/>
     <publication id="7e25-33bb-pubN82892" name="Destruction Battletomb: Ironjawz"/>
   </publications>
@@ -66,7 +66,7 @@
     <categoryEntry id="94d9-92a8-fced-0685" name="BONESPLITTERZ 法师" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="fc4d-9292-0908-041e" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="fc4d-9292-0908-041e" name="阵营" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -129,7 +129,7 @@
     <entryLink id="a2b5-6000-cd5d-5d79" name="Rogue Idol" hidden="false" collective="false" import="true" targetId="2eee-3937-3870-783a" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d421-381f-d0bc-749c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d79-362f-c799-0867" type="min"/>
@@ -138,7 +138,7 @@
         <categoryLink id="b9ba-4522-df42-a309" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="ad47-29fe-1799-53ed">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="ad47-29fe-1799-53ed">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>

@@ -34,7 +34,7 @@
     <categoryEntry id="91a7-af42-4983-92cf" name="LAMMASU" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="2122-46f3-20b5-6135" name="势力" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
+    <entryLink id="2122-46f3-20b5-6135" name="阵营" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="daac-add2-5c92-b04b" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -91,19 +91,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3925-778a-9672-5a95" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3925-778a-9672-5a95" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307b-c118-0ea4-79b6" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8871-e34d-6f00-8ce6" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="de07-fa4e-9d03-69c3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="8edb-c8a9-18b0-4ced">
+        <selectionEntryGroup id="de07-fa4e-9d03-69c3" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="8edb-c8a9-18b0-4ced">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb6-b8a7-41e3-fa8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc5d-4b04-892d-34a8" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8edb-c8a9-18b0-4ced" name="势力: 混沌" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8edb-c8a9-18b0-4ced" name="阵营: 混沌" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="e5e7-a244-d314-a350" name="Unbridled Malice" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>

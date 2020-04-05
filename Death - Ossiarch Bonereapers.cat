@@ -82,14 +82,14 @@
         <categoryLink id="fad1-daad-07d7-cd9f" name="领袖" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bfd3-6337-9f58-cb7c" name="Nagash, Supreme Lord of the Undead" hidden="false" collective="false" import="true" targetId="7c0c-91b9-f052-24af" type="selectionEntry">
+    <entryLink id="bfd3-6337-9f58-cb7c" name="纳加什, Supreme Lord of the Undead" hidden="false" collective="false" import="true" targetId="7c0c-91b9-f052-24af" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3992-b7f4-bc9f-3ac5" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="57e0-bbf8-969d-b789" name="Arcane Command" hidden="false" targetId="c9b5-fb8b-d658-18b9" type="profile"/>
         <infoLink id="3adb-a54b-a2c5-1ff5" name="Reinforce Battle-shields" hidden="false" targetId="8ecf-2c24-01f4-91a8" type="profile"/>
-        <infoLink id="3735-cae2-d9bb-1f2b" name="Protection of Nagash" hidden="false" targetId="957f-d96d-fa7d-29ce" type="profile"/>
+        <infoLink id="3735-cae2-d9bb-1f2b" name="Protection of 纳加什" hidden="false" targetId="957f-d96d-fa7d-29ce" type="profile"/>
         <infoLink id="027a-b573-1075-7877" name="Mortal Contract" hidden="false" targetId="3ff6-a32d-e21e-db9b" type="profile"/>
         <infoLink id="fbca-fd6e-e7cd-892c" name="Empower Nadirite 武器" hidden="false" targetId="5836-86f3-e447-30d0" type="profile"/>
         <infoLink id="e392-69ad-1fd5-2e1a" name="Drain Vitality" hidden="false" targetId="fbd9-a008-0497-d584" type="profile"/>
@@ -110,7 +110,7 @@
         <infoLink id="30f8-ebb4-4e81-3718" name="Drain Vitality" hidden="false" targetId="fbd9-a008-0497-d584" type="profile"/>
         <infoLink id="cb42-c5cb-8b68-6542" name="Empower Nadirite 武器" hidden="false" targetId="5836-86f3-e447-30d0" type="profile"/>
         <infoLink id="db1a-2bc7-9704-9258" name="Mortal Contract" hidden="false" targetId="3ff6-a32d-e21e-db9b" type="profile"/>
-        <infoLink id="41f5-4a01-28c7-314c" name="Protection of Nagash" hidden="false" targetId="957f-d96d-fa7d-29ce" type="profile"/>
+        <infoLink id="41f5-4a01-28c7-314c" name="Protection of 纳加什" hidden="false" targetId="957f-d96d-fa7d-29ce" type="profile"/>
         <infoLink id="8d39-5160-691b-68f4" name="Reinforce Battle-shields" hidden="false" targetId="8ecf-2c24-01f4-91a8" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -120,7 +120,7 @@
         <cost name="pts" typeId="points" value="360.0"/>
       </costs>
     </entryLink>
-    <entryLink id="7649-c607-3d1d-6053" name="势力: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry">
+    <entryLink id="7649-c607-3d1d-6053" name="阵营: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5592-924c-dd31-5f69" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f0-8160-9679-ef81" type="max"/>
@@ -550,7 +550,7 @@
         <cost name="pts" typeId="points" value="500.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4030-1d9b-ec45-bc4b" name="势力: The Ossiarch Empire" publicationId="cb62-7d89-9fa6-76ad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4030-1d9b-ec45-bc4b" name="阵营: The Ossiarch Empire" publicationId="cb62-7d89-9fa6-76ad" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="18d0-b9ce-e638-2219" name="Relentless Discipline" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -1276,7 +1276,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy model within 1寸 of the caster that is visible to them and roll a dice. On a 5+, that model is slain. The range of this 法术 cannot be modified.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8d06-71d4-9aeb-41a1" name="Contract of Nagash" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="8d06-71d4-9aeb-41a1" name="Contract of 纳加什" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, roll a dice. On a 5+, you can pick 1 enemy model within 3寸 of VOKMORTIAN. That enemy model cannot attack VOKMORTIAN in that combat phase</characteristic>
           </characteristics>
@@ -2633,23 +2633,23 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de9f-25b3-3bda-dd40" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="de9f-25b3-3bda-dd40" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9389-4a1f-a2e9-b92c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71f3-4647-c586-5b45" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="007b-af79-4d8c-8e89" name="势力" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="007b-af79-4d8c-8e89" name="阵营" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1edb-6332-faaa-9793" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbde-e731-38ed-3851" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="7306-11c2-75c0-8e92" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false"/>
+            <categoryLink id="7306-11c2-75c0-8e92" name="阵营" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="b8cd-01e2-64f5-5e93" name="势力: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry"/>
-            <entryLink id="0861-84a5-15f4-47c7" name="势力: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
+            <entryLink id="b8cd-01e2-64f5-5e93" name="阵营: The Ossiarch Empire" hidden="false" collective="false" import="true" targetId="4030-1d9b-ec45-bc4b" type="selectionEntry"/>
+            <entryLink id="0861-84a5-15f4-47c7" name="阵营: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3213,9 +3213,9 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8219-bcec-fa9b-d013" name="3. Protection of Nagash" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8219-bcec-fa9b-d013" name="3. Protection of 纳加什" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="0d2e-9f68-fe07-b99f" name="Protection of Nagash" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+            <profile id="0d2e-9f68-fe07-b99f" name="Protection of 纳加什" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
                 <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice each time a wound or mortal wound is allocated to the caster. On a 5+, that wound or mortal wound is negated. If any wounds or mortal wounds are allocated to the caster and not negated, and the caster is not slain, remove them from the battlefield after all of the wounds or mortal wounds have been allocated. Then, set them up anywhere on the battlefield more than 9寸 from any enemy units. After setting up the model, this 法术 is unbound.</characteristic>
@@ -3795,7 +3795,7 @@ You must subtract 1 from casting rolls for a 法师 that is soul-linked to an �
         <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
       </characteristics>
     </profile>
-    <profile id="957f-d96d-fa7d-29ce" name="Protection of Nagash" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+    <profile id="957f-d96d-fa7d-29ce" name="Protection of 纳加什" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
         <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice each time a wound or mortal wound is allocated to the caster. On a 5+, that wound or mortal wound is negated. If any wounds or mortal wounds are allocated to the caster and not negated, and the caster is not slain, remove them from the battlefield after all of the wounds or mortal wounds have been allocated. Then, set them up anywhere on the battlefield more than 9寸 from any enemy units. After setting up the model, this 法术 is unbound.</characteristic>
@@ -3821,6 +3821,6 @@ You must subtract 1 from casting rolls for a 法师 that is soul-linked to an �
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="0b46-379d-3e59-1e04" name="Death: LoN and Nighthaunt Data" targetId="e37a-2f18-f168-6ed3" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0b46-379d-3e59-1e04" name="Death: LoN and Nighthaunt 数据" targetId="e37a-2f18-f168-6ed3" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

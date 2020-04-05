@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="82b4-f6e1-3e37-5ea1" name="秩序 - 雷铸神兵 - Data" revision="52" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="82b4-f6e1-3e37-5ea1" name="秩序 - 雷铸神兵 - 数据" revision="52" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ed04-877b-pubN65537" name="秩序军书: 雷铸神兵 (2nd Edition)"/>
     <publication id="ed04-877b-pubN71576" name="军书: 雷铸神兵 (2nd Edition)"/>
@@ -90,19 +90,19 @@
     <categoryEntry id="35d7-5618-f3b9-79f2" name="STORMSIRE&apos;S CURSEBREAKERS" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="c6a3-2acf-1e46-3896" name="势力" publicationId="ed04-877b-pubN71576" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c6a3-2acf-1e46-3896" name="阵营" publicationId="ed04-877b-pubN71576" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c054-2350-5f5d-85b4" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="81f4-ef16-b80c-6926">
+        <selectionEntryGroup id="c054-2350-5f5d-85b4" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="81f4-ef16-b80c-6926">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="81f4-ef16-b80c-6926" name="势力: 雷铸神兵" publicationId="ed04-877b-pubN65537" page="116" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="81f4-ef16-b80c-6926" name="阵营: 雷铸神兵" publicationId="ed04-877b-pubN65537" page="116" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1de2-9aa8-2e5c-12d5" name="Scions of the Storm" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -269,7 +269,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e1e3-968f-85d3-a2a8" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e1e3-968f-85d3-a2a8" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="d68d-cbc1-aa2a-5a48" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -5131,7 +5131,7 @@
       <profiles>
         <profile id="fc60-af37-ffd2-12e1" name="Veteran of the Gnarlwood" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">This 主将 is a survivor of the Gnarlwood of Ghur, a veteran who has ended the rampage of many a legendary beast. An Astral Templars 主将 can have this 指挥特性 instead of one of those listed under 势力 Abilities. Re-roll all failed hit and wound rolls for attacks made by the 主将 against MONSTERS .</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">This 主将 is a survivor of the Gnarlwood of Ghur, a veteran who has ended the rampage of many a legendary beast. An Astral Templars 主将 can have this 指挥特性 instead of one of those listed under 阵营 Abilities. Re-roll all failed hit and wound rolls for attacks made by the 主将 against MONSTERS .</characteristic>
           </characteristics>
         </profile>
         <profile id="7caf-adc2-c92c-faa1" name="Beast-hunters" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -5965,7 +5965,7 @@
       <profiles>
         <profile id="4d71-28ac-fcc1-144a" name="The Strike Inspired" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">A Tempest Lords 主将 can have this 指挥特性 instead of one of those listed under 势力 Abilities. In your 英雄阶段, your 主将 can order a strike on an enemy 单位 within 3寸. Friendly Tempest Lords units can re-roll hit and wound rolls of 1 for attacks that target that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">A Tempest Lords 主将 can have this 指挥特性 instead of one of those listed under 阵营 Abilities. In your 英雄阶段, your 主将 can order a strike on an enemy 单位 within 3寸. Friendly Tempest Lords units can re-roll hit and wound rolls of 1 for attacks that target that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="c882-6f17-f67b-289c" name="Masters of the Skies" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">

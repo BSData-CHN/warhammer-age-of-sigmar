@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e0d8-b631-6934-ee34" name="混沌 - Slaves to Darkness Data" revision="21" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e0d8-b631-6934-ee34" name="混沌 - 黑暗之奴 数据" revision="21" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="798b-2f60-pubN65537" name="Grand Alliance: 混沌"/>
-    <publication id="798b-2f60-pubN85643" name="Forgeworld: Monstrous Arcanum"/>
+    <publication id="798b-2f60-pubN65537" name="大阵营: 混沌"/>
+    <publication id="798b-2f60-pubN85643" name="FW: Monstrous Arcanum"/>
   </publications>
   <profileTypes>
     <profileType id="56f6-e336-faed-bb00" name="Aura of 混沌 Power">
@@ -59,7 +59,7 @@
     <categoryEntry id="112f-b8bb-e0bf-8256" name="CORVUS CABAL" hidden="false"/>
     <categoryEntry id="07df-ac79-3896-05ab" name="FURIES" hidden="false"/>
     <categoryEntry id="602a-3cb3-a56f-9dbc" name="RAPTORYX" hidden="false"/>
-    <categoryEntry id="defc-5dd5-d209-c623" name="EVERCHOSEN" hidden="false"/>
+    <categoryEntry id="defc-5dd5-d209-c623" name="永世神选" hidden="false"/>
     <categoryEntry id="aaac-2517-1bc0-1cfa" name="HEDONITE" hidden="false"/>
     <categoryEntry id="d796-09d7-dd44-2578" name="MARK OF 混沌" hidden="false"/>
     <categoryEntry id="7278-2dd4-3c4c-1177" name="EYE OF THE GODS" hidden="false"/>
@@ -282,13 +282,13 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="783c-899b-9c19-1423" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="783c-899b-9c19-1423" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1513-fe00-85d9-bfe5" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dd5-4ae6-674b-fc66" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1605-c1ef-8c06-f1e7" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="1944-58a6-5662-40ea">
+        <selectionEntryGroup id="1605-c1ef-8c06-f1e7" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="1944-58a6-5662-40ea">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ee-bdcc-fa3f-afe3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b0c-e0b9-a155-01cb" type="min"/>
@@ -302,10 +302,10 @@
           </selectionEntries>
           <entryLinks>
             <entryLink id="2ab4-09e8-9a37-0b00" name="恐虐" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
-            <entryLink id="ee45-d68a-b62d-5c84" name="Slaanesh" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
-            <entryLink id="29b2-3770-e8d4-b574" name="Nurgle" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
-            <entryLink id="4eb8-51d6-0f8d-685a" name="Tzeentch" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
-            <entryLink id="1944-58a6-5662-40ea" name="Slaves to Darkness" hidden="false" collective="false" import="true" targetId="812a-a8b3-7158-4adb" type="selectionEntry"/>
+            <entryLink id="ee45-d68a-b62d-5c84" name="色孽" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
+            <entryLink id="29b2-3770-e8d4-b574" name="纳垢" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
+            <entryLink id="4eb8-51d6-0f8d-685a" name="奸奇" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
+            <entryLink id="1944-58a6-5662-40ea" name="黑暗之奴" hidden="false" collective="false" import="true" targetId="812a-a8b3-7158-4adb" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -330,7 +330,7 @@
         </profile>
         <profile id="27ef-3fb3-ba8a-b9ee" name="Slaughter-leaders" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model from this 单位 makes an attack that slays one or more enemy models, after all of this 单位’s attacks have been resolved, you can re-roll wound rolls for attacks made by friendly MORTAL SLAVES TO DARKNESS units wholly within 12寸 of any friendly 单位 with this ability until your next 英雄阶段.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a model from this 单位 makes an attack that slays one or more enemy models, after all of this 单位’s attacks have been resolved, you can re-roll wound rolls for attacks made by friendly MORTAL 黑暗之奴 units wholly within 12寸 of any friendly 单位 with this ability until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -760,7 +760,7 @@
         </profile>
         <profile id="147c-d24d-83b8-9a68" name="The Knights of 混沌" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段. If you do so, pick 1 friendly 混沌 KNIGHTS, 混沌 CHARIOTS or GOREBEAST CHARIOTS 单位 wholly within 18寸 of a friendly SLAVES TO DARKNESS 英雄 with this command ability. You can re-roll charge rolls for that 单位 and add 1 to hit rolls for attacks made by that 单位 until your next 英雄阶段. The same 单位 cannot benefit from this command ability more than once per turn.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段. If you do so, pick 1 friendly 混沌 KNIGHTS, 混沌 CHARIOTS or GOREBEAST CHARIOTS 单位 wholly within 18寸 of a friendly 黑暗之奴 英雄 with this command ability. You can re-roll charge rolls for that 单位 and add 1 to hit rolls for attacks made by that 单位 until your next 英雄阶段. The same 单位 cannot benefit from this command ability more than once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1495,7 +1495,7 @@
         </profile>
         <profile id="ad4c-95c8-2863-232d" name="Oracular Visions" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly MORTAL SLAVES TO DARKNESS 单位 wholly within 12寸 of this model. If you do so, you can re-roll save rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly MORTAL 黑暗之奴 单位 wholly within 12寸 of this model. If you do so, you can re-roll save rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1519,7 +1519,7 @@
             <profile id="b607-9aa2-f6ea-ee45" name="Daemonic Power" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly MORTAL SLAVES TO DARKNESS 单位 wholly within 18寸 of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that 单位 until your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly MORTAL 黑暗之奴 单位 wholly within 18寸 of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that 单位 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1656,7 +1656,7 @@
         </profile>
         <profile id="3298-8f06-7940-b366" name="Oracular Visions" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly MORTAL SLAVES TO DARKNESS 单位 wholly within 12寸 of this model. If you do so, you can re-roll save rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly MORTAL 黑暗之奴 单位 wholly within 12寸 of this model. If you do so, you can re-roll save rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="d299-bee6-52f2-ae10" name="Territorial Predator" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2020,7 +2020,7 @@
         </profile>
         <profile id="2310-6cce-3511-b5f5" name="Favour of the Ruinous Powers" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start your 英雄阶段, you can say that this model will chant one of the following prayers. If you do so, pick 1 friendly MORTAL SLAVES TO DARKNESS 单位 wholly within 18寸 of this model and make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+, the prayer is answered. The same 单位 cannot benefit from the same prayer more than once per turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start your 英雄阶段, you can say that this model will chant one of the following prayers. If you do so, pick 1 friendly MORTAL 黑暗之奴 单位 wholly within 18寸 of this model and make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+, the prayer is answered. The same 单位 cannot benefit from the same prayer more than once per turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="cf6c-0bd0-b083-35e7" name="Favour of 混沌" hidden="true" typeId="eed7-4131-0a52-0668" typeName="Prayer">
@@ -2033,24 +2033,24 @@
             <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the 恐虐 keyword, you can re-roll hit rolls for attacks made with 肉搏 武器 by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d641-3980-a7ae-00ac" name="Favour of Nurgle" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+        <profile id="d641-3980-a7ae-00ac" name="Favour of 纳垢" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the NURGLE keyword, add 1 to save rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the 纳垢 keyword, add 1 to save rolls for attacks that target that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e8e5-1160-59e2-55bf" name="Favour of Slaanesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+        <profile id="e8e5-1160-59e2-55bf" name="Favour of 色孽" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the SLAANESH keyword, do not take battleshock tests for that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the 色孽 keyword, do not take battleshock tests for that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0679-cde1-ed61-366f" name="Favour of Tzeentch" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+        <profile id="0679-cde1-ed61-366f" name="Favour of 奸奇" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
           <characteristics>
-            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the TZEENTCH keyword, until your next 英雄阶段, each time that 单位 is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
+            <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">In addition, if that 单位 has the 奸奇 keyword, until your next 英雄阶段, each time that 单位 is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="ad0f-906d-2f44-c3c3" name="Protection of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly Mortal Slaves to Darkness 单位 wholly within the range of any model with this ability as shown on the 损伤表 above. On a 6, that wound or mortal wound is negated.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly Mortal 黑暗之奴 单位 wholly within the range of any model with this ability as shown on the 损伤表 above. On a 6, that wound or mortal wound is negated.</characteristic>
           </characteristics>
         </profile>
         <profile id="4411-8188-e5c5-3810" name="混沌 Warshrine" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -2166,7 +2166,7 @@
         <cost name="pts" typeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2a4-c572-6ab2-6b4e" name="Slaves to Darkness 恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b2a4-c572-6ab2-6b4e" name="黑暗之奴 恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="add" field="category" value="f22b-976f-fc38-366a">
           <conditions>
@@ -2203,10 +2203,10 @@
         <categoryLink id="dd98-bb5f-90b5-391d" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="3599-dc89-2771-763f" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="a1a5-9768-a407-2534" name="New CategoryLink" hidden="false" targetId="84ea-2e37-06de-d81e" primary="false"/>
-        <categoryLink id="cd5a-c260-1831-967b" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
+        <categoryLink id="cd5a-c260-1831-967b" name="黑暗之奴" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="4aed-c02d-c12d-5aba" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="21e9-9be3-05b7-b0ac" name="恐虐" hidden="false" targetId="f22b-976f-fc38-366a" primary="false"/>
-        <categoryLink id="5c6e-7ddc-3052-3c3d" name="NURGLE" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
+        <categoryLink id="5c6e-7ddc-3052-3c3d" name="纳垢" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a973-b781-d510-7282" name="Malefic Talons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2254,14 +2254,14 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="86cc-91c7-5983-6694" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="86cc-91c7-5983-6694" name="纳垢" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf3f-7747-46af-ea11" type="max"/>
               </constraints>
               <profiles>
                 <profile id="0b80-e29a-f4f9-ecfd" name="Bloated Blessings" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can use this command ability at the start of your 英雄阶段 if this model has the NURGLE keyword. If you do so, pick 1 friendly SLAVES TO DARKNESS NURGLE 单位 wholly within 12寸 of this model. Until your next 英雄阶段, each time that 单位 is picked as the target for any attacks made with 肉搏 武器, if the unmodified hit roll for any of those attacks is 6, the attacking 单位 suffers D3 mortal wounds after all of its attacks have been resolved. The same 单位 cannot benefit from this command ability more than once per phase.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can use this command ability at the start of your 英雄阶段 if this model has the 纳垢 keyword. If you do so, pick 1 friendly 黑暗之奴 纳垢 单位 wholly within 12寸 of this model. Until your next 英雄阶段, each time that 单位 is picked as the target for any attacks made with 肉搏 武器, if the unmodified hit roll for any of those attacks is 6, the attacking 单位 suffers D3 mortal wounds after all of its attacks have been resolved. The same 单位 cannot benefit from this command ability more than once per phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2272,14 +2272,14 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8692-7716-bf69-d464" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8692-7716-bf69-d464" name="奸奇" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b78f-24a5-701f-027d" type="max"/>
               </constraints>
               <profiles>
                 <profile id="a61b-b680-38a2-7198" name="Arcane Influence" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                   <characteristics>
-                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段 if this model has the TZEENTCH keyword. If you do so, pick 1 friendly SLAVES TO DARKNESS 法师 wholly within 12寸 of this model. Add 1 to casting rolls for that 单位 until the end of that phase.</characteristic>
+                    <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段 if this model has the 奸奇 keyword. If you do so, pick 1 friendly 黑暗之奴 法师 wholly within 12寸 of this model. Add 1 to casting rolls for that 单位 until the end of that phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2290,14 +2290,14 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6c82-0a5f-279d-1979" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6c82-0a5f-279d-1979" name="色孽" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f913-2ef7-3db6-7dbc" type="max"/>
               </constraints>
               <profiles>
                 <profile id="7503-f3b9-a788-77ae" name="Revel in Agony" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can use this command ability at the start of the combat phase if this model has the SLAANESH keyword. If you do so, until your next 英雄阶段, if any models from a friendly SLAVES TO DARKNESS SLAANESH 单位 wholly within 12寸 of this model are slain by an attack made with a 肉搏 weapon by an enemy 单位, add 1 to hit rolls for attacks made by that friendly 单位 that target that enemy 单位 until your next 英雄阶段. You cannot use this command ability more than once per turn.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can use this command ability at the start of the combat phase if this model has the 色孽 keyword. If you do so, until your next 英雄阶段, if any models from a friendly 黑暗之奴 色孽 单位 wholly within 12寸 of this model are slain by an attack made with a 肉搏 weapon by an enemy 单位, add 1 to hit rolls for attacks made by that friendly 单位 that target that enemy 单位 until your next 英雄阶段. You cannot use this command ability more than once per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2772,7 +2772,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         </profile>
         <profile id="27b3-8076-2ed7-d3d5" name="Spurred by the Gods" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MORTAL SLAVES TO DARKNESS 单位 wholly within 12寸 of a friendly model with this command ability. After that 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight with later in the same phase, that 单位 can be selected to fight for a second time if it is within 3寸 of any enemy units. The same 单位 cannot benefit from this command ability more than once per turn. </characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MORTAL 黑暗之奴 单位 wholly within 12寸 of a friendly model with this command ability. After that 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight with later in the same phase, that 单位 can be selected to fight for a second time if it is within 3寸 of any enemy units. The same 单位 cannot benefit from this command ability more than once per turn. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3103,7 +3103,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         <profile id="dade-ea77-71ee-9a69" name="Traitor&apos;s Mist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Slaves to Darkness 单位 wholly within 15寸 of the caster that is visible to them. Remove that 单位 from the battlefield and then set it up again anywhere on the battlefield more than 9寸 from any enemy units. It cannot move in the subsequent movement phase.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 黑暗之奴 单位 wholly within 15寸 of the caster that is visible to them. Remove that 单位 from the battlefield and then set it up again anywhere on the battlefield more than 9寸 from any enemy units. It cannot move in the subsequent movement phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3250,7 +3250,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
       <categoryLinks>
         <categoryLink id="e7f7-722d-17bb-4713" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="330c-63ba-bd6f-c068" name="MORTAL" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false"/>
-        <categoryLink id="6bb6-4a62-8f15-bc40" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
+        <categoryLink id="6bb6-4a62-8f15-bc40" name="黑暗之奴" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="b23f-a0ed-6677-9038" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="1edb-ae92-2283-facb" name="EXALTED 英雄 OF 混沌" hidden="false" targetId="02b4-a965-7a25-897d" primary="false"/>
         <categoryLink id="d8af-9b02-d89b-c168" name="SLAMBO" hidden="false" targetId="40a1-75e5-b77f-5924" primary="false"/>
@@ -3838,7 +3838,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee9e-b8de-b25d-b6f1" name="Archaon the Everchosen" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ee9e-b8de-b25d-b6f1" name="艾查恩 the 永世神选" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7076-9f3a-d472-7132" type="max"/>
       </constraints>
@@ -3891,7 +3891,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1"/>
           </characteristics>
         </profile>
-        <profile id="905f-4785-8bae-d264" name="Archaon" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
+        <profile id="905f-4785-8bae-d264" name="艾查恩" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
             <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">2/2</characteristic>
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield</characteristic>
@@ -3909,7 +3909,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         </profile>
         <profile id="93e2-8d0a-6b91-98ce" name="混沌 Runeshield" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time Archaon suffers a mortal wound. On a 5 or a 6, that mortal wound is ignored.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time 艾查恩 suffers a mortal wound. On a 5 or a 6, that mortal wound is ignored.</characteristic>
           </characteristics>
         </profile>
         <profile id="6dfe-1ce6-4849-9705" name="The Crown of Domination" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -3922,7 +3922,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is on the battlefield at the start of your 英雄阶段, you receive 1 extra command point.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5707-847b-d071-fd83" name="Archaon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5707-847b-d071-fd83" name="艾查恩" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">20</characteristic>
@@ -3930,14 +3930,14 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="371c-758d-484c-232f" name="The Everchosen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="371c-758d-484c-232f" name="The 永世神选" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Each time this model is affected by a 法术 or 无尽法术, you can roll a dice. If you do so, on a 4+, ignore the effects of that 法术 or 无尽法术 on this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="3928-3bef-cd6a-3d96" name="By My Will" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once per turn in the 英雄阶段. If you do so, pick 1 friendly SLAVES TO DARKNESS 单位 on the battlefield. Until the end of the battle round, if a model from that 单位 is slain by an attack made with a 肉搏 weapon, that model can fight before it is removed from play.The same 单位 cannot benefit from this command ability more than once per turn</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once per turn in the 英雄阶段. If you do so, pick 1 friendly 黑暗之奴 单位 on the battlefield. Until the end of the battle round, if a model from that 单位 is slain by an attack made with a 肉搏 weapon, that model can fight before it is removed from play.The same 单位 cannot benefit from this command ability more than once per turn</characteristic>
           </characteristics>
         </profile>
         <profile id="a724-1af3-a59c-5a5f" name="All-seeing Dominion" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -3960,7 +3960,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         <categoryLink id="2d84-7e0d-1659-af89" name="New CategoryLink" hidden="false" targetId="3963-2e99-aa63-c65e" primary="false"/>
         <categoryLink id="6d5e-e4e2-f071-036e" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="9a68-607b-c463-c9d4" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
-        <categoryLink id="1c2d-1e74-3e2c-6515" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
+        <categoryLink id="1c2d-1e74-3e2c-6515" name="黑暗之奴" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="fa92-eca6-1c75-73a0" name="巨兽" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
         <categoryLink id="c598-8ac0-6dab-4636" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -4118,9 +4118,9 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, in the combat phase, after this 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight, this 单位 can be picked to fight for a second time if it is within 3寸 of any enemy units.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2e20-dbdc-b643-9239" name="Favoured of the Everchosen" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="2e20-dbdc-b643-9239" name="Favoured of the 永世神选" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with 肉搏 武器 by this 单位 (excluding those of its mounts) if ARCHAON is in your army and on the battlefield.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made with 肉搏 武器 by this 单位 (excluding those of its mounts) if 艾查恩 is in your army and on the battlefield.</characteristic>
           </characteristics>
         </profile>
         <profile id="9938-4b0c-cd55-7630" name="Varanguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
@@ -4447,7 +4447,7 @@ In addition, add 1 to the Damage characteristic of this model’s Rune-etched Ax
         </profile>
         <profile id="9a77-f282-9904-9879" name="The Knights of 混沌" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段. If you do so, pick 1 friendly 混沌 KNIGHTS, 混沌 CHARIOTS or GOREBEAST CHARIOTS 单位 wholly within 18寸 of a friendly SLAVES TO DARKNESS 英雄 with this command ability. Until your next 英雄阶段, you can re-roll charge rolls for that 单位 and add 1 to hit rolls for attacks made by that 单位. The same 单位 cannot benefit from this command ability more than once per turn.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段. If you do so, pick 1 friendly 混沌 KNIGHTS, 混沌 CHARIOTS or GOREBEAST CHARIOTS 单位 wholly within 18寸 of a friendly 黑暗之奴 英雄 with this command ability. Until your next 英雄阶段, you can re-roll charge rolls for that 单位 and add 1 to hit rolls for attacks made by that 单位. The same 单位 cannot benefit from this command ability more than once per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4800,7 +4800,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="ee77-f710-9382-6a30" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="ecf8-718c-5233-d965" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="0bbb-2245-2ef6-3b83" name="MORTAL" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false"/>
-        <categoryLink id="4a94-3e15-1bf1-cfe5" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
+        <categoryLink id="4a94-3e15-1bf1-cfe5" name="黑暗之奴" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="c1d3-b1c3-92be-53eb" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="c83b-1c9f-3111-666f" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -4863,7 +4863,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="4427-993f-8fa7-4441" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="5ae6-2c3c-4566-d387" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="b7c5-d529-fb33-bf31" name="MORTAL" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false"/>
-        <categoryLink id="d080-7148-fb43-8bf9" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
+        <categoryLink id="d080-7148-fb43-8bf9" name="黑暗之奴" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="1938-c316-3aab-a1f0" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="8a51-bad7-1a5e-fc58" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
@@ -5006,7 +5006,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         </profile>
         <profile id="34c2-fd4d-a1d1-fb05" name="Sigils of Enslavement" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up for the first time, you can pick 1 friendly SLAVES TO DARKNESS 英雄 on the battlefield to be its master. Add 1 to hit rolls for attacks made by this model while it is wholly within 12寸 of that 英雄. The same 英雄 cannot be the master of more than 1 SLAUGHTERBRUTE</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up for the first time, you can pick 1 friendly 黑暗之奴 英雄 on the battlefield to be its master. Add 1 to hit rolls for attacks made by this model while it is wholly within 12寸 of that 英雄. The same 英雄 cannot be the master of more than 1 SLAUGHTERBRUTE</characteristic>
           </characteristics>
         </profile>
         <profile id="11b1-f75a-9a3e-c6e4" name="Beast Unbound" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -5066,7 +5066,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
       <categoryLinks>
         <categoryLink id="e3c0-b6e9-1e21-0129" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="a657-4707-3d79-b8e2" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
-        <categoryLink id="add7-aeb5-6141-9e9a" name="SLAVES TO DARKNESS" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
+        <categoryLink id="add7-aeb5-6141-9e9a" name="黑暗之奴" hidden="false" targetId="4ba7-618a-4e30-2e0c" primary="false"/>
         <categoryLink id="ab81-f046-37f1-7373" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -5194,7 +5194,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         </profile>
         <profile id="a9a7-4364-3d34-d145" name="6. Spawnchange" hidden="false" typeId="1d9d-3543-a777-a151" typeName="Aura of Mutation - D6">
           <characteristics>
-            <characteristic name="Effect" typeId="f5fc-dc0c-4c0d-4d1b">The 单位 suffers D6 mortal wounds. If any models from the 单位 are slain by these mortal wounds, you can set up 1 SLAVES TO DARKNESS 混沌 SPAWN with the same Mark of 混沌 keyword as this model within 3寸 of the 单位 (or, if the 单位 was destroyed, the last model from the 单位 to be slain) and add it to your army. If you do not add a SLAVES TO DARKNESS 混沌 SPAWN to your army, you can heal up to D3 wounds allocated to this model.</characteristic>
+            <characteristic name="Effect" typeId="f5fc-dc0c-4c0d-4d1b">The 单位 suffers D6 mortal wounds. If any models from the 单位 are slain by these mortal wounds, you can set up 1 黑暗之奴 混沌 SPAWN with the same Mark of 混沌 keyword as this model within 3寸 of the 单位 (or, if the 单位 was destroyed, the last model from the 单位 to be slain) and add it to your army. If you do not add a 黑暗之奴 混沌 SPAWN to your army, you can heal up to D3 wounds allocated to this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="8137-4f8f-5f93-3706" name="Aura of Mutation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -5301,12 +5301,12 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eb56-6c45-6422-28c2" name="Mark of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eb56-6c45-6422-28c2" name="Mark of 奸奇" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b6-8bc3-c53e-8d2b" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="a0a9-e357-97df-6a6d" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
+            <categoryLink id="a0a9-e357-97df-6a6d" name="奸奇" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -5597,7 +5597,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="2c3d-96a1-5568-2189" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7d36-1855-f556-9184" name="1 MORTAL SLAVES TO DARKNESS 恐虐 英雄" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7d36-1855-f556-9184" name="1 MORTAL 黑暗之奴 恐虐 英雄" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5664-4136-5610-7b8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6938-02d3-c971-1be5" type="min"/>
@@ -5608,14 +5608,14 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
                 <categoryLink id="7916-3d67-28b6-8ff7" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="1f8e-da44-404c-f485" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="1f8e-da44-404c-f485" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="15f7-fa2d-175b-9036" name="Exalted 英雄 of 混沌" hidden="false" collective="false" import="true" targetId="69e5-b08e-9813-f378" type="selectionEntry"/>
             <entryLink id="97f4-0a25-e6dc-666a" name="混沌 Lord" hidden="false" collective="false" import="true" targetId="1ccb-5743-64df-f027" type="selectionEntry"/>
             <entryLink id="8d38-0664-8c38-dd49" name="混沌 Lord on Karkadrak" hidden="false" collective="false" import="true" targetId="e6c9-c984-cd6f-33e3" type="selectionEntry"/>
             <entryLink id="3563-3be4-38d8-36cb" name="混沌 Lord on Manticore" hidden="false" collective="false" import="true" targetId="3303-cef0-2064-a5f5" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e41-342f-25db-590d" name="8 MORTAL SLAVES TO DARKNESS 恐虐 Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7e41-342f-25db-590d" name="8 MORTAL 黑暗之奴 恐虐 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3397-1da5-5aa2-b431" type="min"/>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f7-3ea6-fc54-8972" type="max"/>
@@ -5635,7 +5635,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="5f56-e64b-92dc-8c7c" name="混沌 Marauders" hidden="false" collective="false" import="true" targetId="08c1-05a1-4828-6983" type="selectionEntry"/>
             <entryLink id="fc7a-f2b4-6af5-f172" name="混沌 Chosen" hidden="false" collective="false" import="true" targetId="7117-c074-dd10-883d" type="selectionEntry"/>
             <entryLink id="3110-da41-b9ce-ad57" name="混沌 War Mammoth" hidden="false" collective="false" import="true" targetId="23e4-3184-435d-9681" type="selectionEntry"/>
-            <entryLink id="1817-897e-4379-f81b" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="1817-897e-4379-f81b" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="f5d5-f4ee-8eec-4ac0" name="混沌 Lord" hidden="false" collective="false" import="true" targetId="1ccb-5743-64df-f027" type="selectionEntry"/>
             <entryLink id="7b7b-79a4-a59f-0521" name="混沌 Lord on Daemonic Mount" hidden="false" collective="false" import="true" targetId="ae9b-b9fe-18ba-2f9a" type="selectionEntry">
               <categoryLinks>
@@ -5671,7 +5671,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="c9a2-c272-b65b-c555" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="44e8-0031-1254-fc4d" name="1 MORTAL SLAVES TO DARKNESS TZEENTCH 英雄" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="44e8-0031-1254-fc4d" name="1 MORTAL 黑暗之奴 奸奇 英雄" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d83-b034-4f56-b905" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e308-a81f-1d45-724b" type="min"/>
@@ -5682,17 +5682,17 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
                 <categoryLink id="fba9-620f-6688-41db" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="bde9-da8a-1424-84b1" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="bde9-da8a-1424-84b1" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="cfdb-6fef-4bc5-574f" name="Exalted 英雄 of 混沌" hidden="false" collective="false" import="true" targetId="69e5-b08e-9813-f378" type="selectionEntry"/>
             <entryLink id="e87c-3a5f-416f-05d6" name="混沌 Lord" hidden="false" collective="false" import="true" targetId="1ccb-5743-64df-f027" type="selectionEntry"/>
             <entryLink id="9a64-2a86-92b8-1930" name="混沌 Lord on Karkadrak" hidden="false" collective="false" import="true" targetId="e6c9-c984-cd6f-33e3" type="selectionEntry"/>
             <entryLink id="d500-3878-3821-c6a2" name="混沌 Lord on Manticore" hidden="false" collective="false" import="true" targetId="3303-cef0-2064-a5f5" type="selectionEntry"/>
-            <entryLink id="d26a-b14b-c544-114d" name="Gaunt Summoner on Disc of Tzeentch" hidden="false" collective="false" import="true" targetId="a1ca-9781-0da5-84dd" type="selectionEntry"/>
+            <entryLink id="d26a-b14b-c544-114d" name="Gaunt Summoner on Disc of 奸奇" hidden="false" collective="false" import="true" targetId="a1ca-9781-0da5-84dd" type="selectionEntry"/>
             <entryLink id="73a3-6e50-8398-982f" name="混沌 Sorcerer Lord on Manticore" hidden="false" collective="false" import="true" targetId="c132-1271-a655-1e16" type="selectionEntry"/>
             <entryLink id="c12b-8f5e-84eb-33cf" name="混沌 Sorcerer Lord" hidden="false" collective="false" import="true" targetId="1080-2582-0880-dd78" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7f89-96f7-d78c-6b3d" name="9 MORTAL SLAVES TO DARKNESS TZEENTCH Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7f89-96f7-d78c-6b3d" name="9 MORTAL 黑暗之奴 奸奇 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e96-56e1-d848-5592" type="min"/>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1f6-0971-870e-fabc" type="max"/>
@@ -5712,7 +5712,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="6022-c74c-28f3-050c" name="混沌 Marauders" hidden="false" collective="false" import="true" targetId="08c1-05a1-4828-6983" type="selectionEntry"/>
             <entryLink id="bf37-4f47-9824-2773" name="混沌 Chosen" hidden="false" collective="false" import="true" targetId="7117-c074-dd10-883d" type="selectionEntry"/>
             <entryLink id="d94b-68a5-720c-0a24" name="混沌 War Mammoth" hidden="false" collective="false" import="true" targetId="23e4-3184-435d-9681" type="selectionEntry"/>
-            <entryLink id="d5a9-1f9d-29d0-c76b" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="d5a9-1f9d-29d0-c76b" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="2881-3f83-8b33-b9a4" name="混沌 Lord" hidden="false" collective="false" import="true" targetId="1ccb-5743-64df-f027" type="selectionEntry"/>
             <entryLink id="2b53-ce04-8b3c-1342" name="混沌 Lord on Daemonic Mount" hidden="false" collective="false" import="true" targetId="ae9b-b9fe-18ba-2f9a" type="selectionEntry">
               <categoryLinks>
@@ -5722,7 +5722,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="e7c5-cfca-f83b-993a" name="混沌 Lord on Karkadrak" hidden="false" collective="false" import="true" targetId="e6c9-c984-cd6f-33e3" type="selectionEntry"/>
             <entryLink id="3444-c5d6-ad2c-4249" name="混沌 Lord on Manticore" hidden="false" collective="false" import="true" targetId="3303-cef0-2064-a5f5" type="selectionEntry"/>
             <entryLink id="8810-3468-5ab3-e347" name="Exalted 英雄 of 混沌" hidden="false" collective="false" import="true" targetId="69e5-b08e-9813-f378" type="selectionEntry"/>
-            <entryLink id="e455-e213-e8e7-5296" name="Gaunt Summoner on Disc of Tzeentch" hidden="false" collective="false" import="true" targetId="a1ca-9781-0da5-84dd" type="selectionEntry"/>
+            <entryLink id="e455-e213-e8e7-5296" name="Gaunt Summoner on Disc of 奸奇" hidden="false" collective="false" import="true" targetId="a1ca-9781-0da5-84dd" type="selectionEntry"/>
             <entryLink id="6261-8c3b-34f9-c101" name="混沌 Sorcerer Lord on Manticore" hidden="false" collective="false" import="true" targetId="c132-1271-a655-1e16" type="selectionEntry"/>
             <entryLink id="a3c1-ca8a-967e-a900" name="混沌 Sorcerer Lord" hidden="false" collective="false" import="true" targetId="1080-2582-0880-dd78" type="selectionEntry"/>
             <entryLink id="2253-346e-7580-c12e" name="混沌 Spawn" hidden="false" collective="false" import="true" targetId="494c-81bb-bb30-3d33" type="selectionEntry"/>
@@ -5745,7 +5745,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="96e7-4990-b308-938a" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dace-9ffd-2d9f-66cf" name="1 MORTAL SLAVES TO DARKNESS NURGLE 英雄" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="dace-9ffd-2d9f-66cf" name="1 MORTAL 黑暗之奴 纳垢 英雄" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b02-4114-3fe6-7fec" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="babd-aa04-e5e4-fa2b" type="min"/>
@@ -5756,7 +5756,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
                 <categoryLink id="b945-87e1-c665-706f" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="6d4a-fec1-8228-64f9" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="6d4a-fec1-8228-64f9" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="a7e0-c642-18cb-8540" name="Exalted 英雄 of 混沌" hidden="false" collective="false" import="true" targetId="69e5-b08e-9813-f378" type="selectionEntry"/>
             <entryLink id="02fc-c71d-0af6-b773" name="混沌 Lord" hidden="false" collective="false" import="true" targetId="1ccb-5743-64df-f027" type="selectionEntry"/>
             <entryLink id="e550-4122-09ad-8f53" name="混沌 Lord on Karkadrak" hidden="false" collective="false" import="true" targetId="e6c9-c984-cd6f-33e3" type="selectionEntry"/>
@@ -5765,7 +5765,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="bed3-a625-d711-94cf" name="混沌 Sorcerer Lord" hidden="false" collective="false" import="true" targetId="1080-2582-0880-dd78" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9ab6-85f4-cc7b-4ad8" name="7 MORTAL SLAVES TO DARKNESS NURGLE Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9ab6-85f4-cc7b-4ad8" name="7 MORTAL 黑暗之奴 纳垢 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9052-97d2-b68e-a81e" type="min"/>
             <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c1-a3d6-fb82-8ad5" type="max"/>
@@ -5785,7 +5785,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="925b-1476-3730-df76" name="混沌 Marauders" hidden="false" collective="false" import="true" targetId="08c1-05a1-4828-6983" type="selectionEntry"/>
             <entryLink id="b85e-ea00-5d0c-1af8" name="混沌 Chosen" hidden="false" collective="false" import="true" targetId="7117-c074-dd10-883d" type="selectionEntry"/>
             <entryLink id="a0ea-9aef-b52f-f0f3" name="混沌 War Mammoth" hidden="false" collective="false" import="true" targetId="23e4-3184-435d-9681" type="selectionEntry"/>
-            <entryLink id="84c2-6bb0-ca22-ea76" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="84c2-6bb0-ca22-ea76" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="5b4b-3561-f35c-b68e" name="混沌 Lord" hidden="false" collective="false" import="true" targetId="1ccb-5743-64df-f027" type="selectionEntry"/>
             <entryLink id="dee1-4ddb-4884-e7b9" name="混沌 Lord on Daemonic Mount" hidden="false" collective="false" import="true" targetId="ae9b-b9fe-18ba-2f9a" type="selectionEntry">
               <categoryLinks>
@@ -5817,7 +5817,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="8522-b677-17ec-7b85" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="62db-d52f-92b4-0bd2" name="1 MORTAL SLAVES TO DARKNESS SLAANESH 英雄" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="62db-d52f-92b4-0bd2" name="1 MORTAL 黑暗之奴 色孽 英雄" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbb-6b7e-5b13-64c0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577e-2723-feac-efcb" type="min"/>
@@ -5834,10 +5834,10 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="fb3d-8f99-b22d-705e" name="混沌 Lord on Manticore" hidden="false" collective="false" import="true" targetId="3303-cef0-2064-a5f5" type="selectionEntry"/>
             <entryLink id="c63a-b685-3916-9a90" name="混沌 Sorcerer Lord on Manticore" hidden="false" collective="false" import="true" targetId="c132-1271-a655-1e16" type="selectionEntry"/>
             <entryLink id="3e50-b4cc-fc59-9136" name="混沌 Sorcerer Lord" hidden="false" collective="false" import="true" targetId="1080-2582-0880-dd78" type="selectionEntry"/>
-            <entryLink id="0f45-a863-cecc-2b13" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="0f45-a863-cecc-2b13" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fcfe-6ffe-3ea7-d848" name="6 MORTAL SLAVES TO DARKNESS SLAANESH Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fcfe-6ffe-3ea7-d848" name="6 MORTAL 黑暗之奴 色孽 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c37-0b0e-dd2a-3bec" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c763-8aa0-6264-4ef6" type="max"/>
@@ -5868,7 +5868,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <entryLink id="489a-5aed-ee36-3079" name="Exalted 英雄 of 混沌" hidden="false" collective="false" import="true" targetId="69e5-b08e-9813-f378" type="selectionEntry"/>
             <entryLink id="9b88-0186-b4b4-bdd6" name="混沌 Sorcerer Lord on Manticore" hidden="false" collective="false" import="true" targetId="c132-1271-a655-1e16" type="selectionEntry"/>
             <entryLink id="e375-9d5b-f621-cb2c" name="混沌 Sorcerer Lord" hidden="false" collective="false" import="true" targetId="1080-2582-0880-dd78" type="selectionEntry"/>
-            <entryLink id="795b-7442-b7fa-4373" name="Archaon" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
+            <entryLink id="795b-7442-b7fa-4373" name="艾查恩" hidden="false" collective="false" import="true" targetId="ee9e-b8de-b25d-b6f1" type="selectionEntry"/>
             <entryLink id="abea-c539-717d-8043" name="混沌 Spawn" hidden="false" collective="false" import="true" targetId="494c-81bb-bb30-3d33" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -5889,7 +5889,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <categoryLink id="e59b-676e-29cc-ed39" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d6d6-072d-3949-1215" name="3-6 HOSTS OF THE EVERCHOSEN Varanguard" hidden="false" collective="false" import="true" defaultSelectionEntryId="b808-897e-703d-a025">
+        <selectionEntryGroup id="d6d6-072d-3949-1215" name="3-6 HOSTS OF THE 永世神选 Varanguard" hidden="false" collective="false" import="true" defaultSelectionEntryId="b808-897e-703d-a025">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91bf-4534-d1d1-faf8" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5580-ce7c-d1f0-0a5f" type="max"/>
@@ -5959,7 +5959,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fbf3-2115-94af-2005" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fbf3-2115-94af-2005" name="纳垢" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="473f-156f-fab9-b1cb" value="0.0">
               <conditions>
@@ -5998,7 +5998,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3534-0ab1-4542-38b5" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3534-0ab1-4542-38b5" name="色孽" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="1d73-9c62-91e0-4b39" value="0.0">
               <conditions>
@@ -6037,7 +6037,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8c7-9df2-27b6-5c9f" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8c7-9df2-27b6-5c9f" name="奸奇" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="3f8c-6f8e-4ab4-1465" value="0.0">
               <conditions>
@@ -6121,8 +6121,8 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         </entryLink>
         <entryLink id="6448-d8ae-e32c-2acf" name="Traits: Ruinous Overlords" hidden="false" collective="false" import="true" targetId="e3ff-2b48-800c-c641" type="selectionEntryGroup"/>
         <entryLink id="a258-37cf-ba09-5278" name="恐虐 Mortal Command Traits" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
-        <entryLink id="a25a-17b9-5fc2-28a1" name="Nurgle Mortal Command Traits" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
-        <entryLink id="9ed5-49ab-c3d6-34f5" name="Tzeentch Mortal Command Traits" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
+        <entryLink id="a25a-17b9-5fc2-28a1" name="纳垢 Mortal Command Traits" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
+        <entryLink id="9ed5-49ab-c3d6-34f5" name="奸奇 Mortal Command Traits" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
         <entryLink id="521e-5201-a437-c53c" name="Slaughterhost Command Traits" hidden="false" collective="false" import="true" targetId="1aa0-14d1-5940-3c9e" type="selectionEntryGroup"/>
         <entryLink id="5dec-482c-f313-310d" name="Traits: Aspects of the Perfect Liege" hidden="false" collective="false" import="true" targetId="efc7-556b-c158-a7e2" type="selectionEntryGroup"/>
         <entryLink id="afe3-3962-bce5-d231" name="Obsessions of the Invader" hidden="false" collective="false" import="true" targetId="f0b1-f554-bc8b-f75c" type="selectionEntryGroup"/>
@@ -6131,7 +6131,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <entryLink id="72d4-00d5-7fae-70ab" name="Traits: Aspects of the Ascended" hidden="false" collective="false" import="true" targetId="3dd8-663d-e647-5e96" type="selectionEntryGroup"/>
         <entryLink id="0253-7b02-3ead-12b7" name="Traits: 恐虐 恶魔" hidden="false" collective="false" import="true" targetId="004d-f904-2f15-93ce" type="selectionEntryGroup"/>
         <entryLink id="4ad4-7041-dc10-0445" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
-        <entryLink id="c295-9dff-46a2-2009" name="Traits: Wrath of the Everchosen" hidden="false" collective="false" import="true" targetId="79dc-a292-43f4-d01f" type="selectionEntryGroup"/>
+        <entryLink id="c295-9dff-46a2-2009" name="Traits: Wrath of the 永世神选" hidden="false" collective="false" import="true" targetId="79dc-a292-43f4-d01f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8772-4947-7126-37dd" name="Artefacts" hidden="false" collective="false" import="true">
@@ -6151,7 +6151,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <entryLink id="f410-d3d5-a177-6b40" name="Artefacts: Trophies of Conquest" hidden="false" collective="false" import="true" targetId="5385-353b-a92e-dce9" type="selectionEntryGroup"/>
         <entryLink id="0ce5-e12a-53cf-64bf" name="Realm Artefacts of Power" hidden="false" collective="false" import="true" targetId="37b0-af21-630c-d8af" type="selectionEntryGroup"/>
         <entryLink id="9e7d-7817-563d-6e5a" name="Malign Portents Artefacts - Darkoath Warqueen" hidden="false" collective="false" import="true" targetId="edca-5d48-fdb1-c75e" type="selectionEntryGroup"/>
-        <entryLink id="633a-85b2-461b-ae1b" name="Malign Portents Artefacts - Mortal Slaanesh" hidden="false" collective="false" import="true" targetId="c0f9-cbae-79d2-3d07" type="selectionEntryGroup"/>
+        <entryLink id="633a-85b2-461b-ae1b" name="Malign Portents Artefacts - Mortal 色孽" hidden="false" collective="false" import="true" targetId="c0f9-cbae-79d2-3d07" type="selectionEntryGroup"/>
         <entryLink id="113f-96dc-2eb2-4000" name="Fated Artefacts (MORTAL)" hidden="false" collective="false" import="true" targetId="dfdf-9d22-6e78-49f0" type="selectionEntryGroup"/>
         <entryLink id="0ab2-2328-0f9b-f4a4" name="Plagueridden Gifts" hidden="false" collective="false" import="true" targetId="1841-fdf2-dbb9-2174" type="selectionEntryGroup">
           <modifiers>
@@ -6183,7 +6183,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <entryLink id="efa8-02c7-c9f1-7805" name="Artefacts: Change Coven" hidden="false" collective="false" import="true" targetId="e35c-e49d-2410-ea1d" type="selectionEntryGroup"/>
         <entryLink id="17d7-ff31-d9fb-930a" name="Artefacts: Daemonic Powers" hidden="false" collective="false" import="true" targetId="d337-deac-ccd8-677b" type="selectionEntryGroup"/>
         <entryLink id="da7e-4492-24e7-8279" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
-        <entryLink id="00a3-7da8-46ba-628a" name="Artefacts: Wrath of the Everchosen" hidden="false" collective="false" import="true" targetId="002d-5827-c449-3647" type="selectionEntryGroup"/>
+        <entryLink id="00a3-7da8-46ba-628a" name="Artefacts: Wrath of the 永世神选" hidden="false" collective="false" import="true" targetId="002d-5827-c449-3647" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="edca-5d48-fdb1-c75e" name="Malign Portents Artefacts - Darkoath Warqueen" hidden="false" collective="false" import="true">
@@ -6303,7 +6303,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <profile id="8934-18fe-8b9f-e536" name="Ruinous Vigour" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
               <characteristics>
                 <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly SLAVES TO DARKNESS 怪兽 wholly within 12寸 of the caster and visible to them. Until your next 英雄阶段, when you look up a value on that 怪兽’s 损伤表, it is treated as if it has suffered 0 wounds.</characteristic>
+                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗之奴 怪兽 wholly within 12寸 of the caster and visible to them. Until your next 英雄阶段, when you look up a value on that 怪兽’s 损伤表, it is treated as if it has suffered 0 wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6316,7 +6316,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <profile id="664a-6a53-c598-d580" name="Call to Glory" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
               <characteristics>
                 <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">5</characteristic>
-                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly SLAVES TO DARKNESS 英雄 wholly within 12寸 of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that 英雄 if target is a 英雄 or 怪兽 until your next 英雄阶段.</characteristic>
+                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly 黑暗之奴 英雄 wholly within 12寸 of the caster and visible to them. You can re-roll hit and wound rolls for attacks made by that 英雄 if target is a 英雄 or 怪兽 until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6329,7 +6329,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <profile id="4b3a-d317-bda0-2d6e" name="Mask of Darkness" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
               <characteristics>
                 <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">7</characteristic>
-                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly MORTAL SLAVES TO DARKNESS 单位 wholly within 12寸 of the caster and visible to them. Remove that 单位 from the battlefield and then set it up again anywhere on the battlefield more than 9寸 from any enemy units. That 单位 cannot move in the following movement phase.</characteristic>
+                <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">If successfully cast, pick 1 friendly MORTAL 黑暗之奴 单位 wholly within 12寸 of the caster and visible to them. Remove that 单位 from the battlefield and then set it up again anywhere on the battlefield more than 9寸 from any enemy units. That 单位 cannot move in the following movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6390,6 +6390,6 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="e2ba-3838-2584-6349" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="e2ba-3838-2584-6349" name="混沌 数据" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

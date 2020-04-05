@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="cac4-1eec-d548-b34d" name="混沌 - 恐虐" revision="49" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="cac4-1eec-pubN65537" name="混沌 军书: Blades of 恐虐"/>
-    <publication id="cac4-1eec-pubN105675" name="Grand Alliance: 混沌"/>
-    <publication id="cac4-1eec-pubN107006" name="Forgeworld: Monstrous Arcanum"/>
+    <publication id="cac4-1eec-pubN65537" name="混沌军书: Blades of 恐虐"/>
+    <publication id="cac4-1eec-pubN105675" name="大阵营: 混沌"/>
+    <publication id="cac4-1eec-pubN107006" name="FW: Monstrous Arcanum"/>
     <publication id="cac4-1eec-pubN109547" name="Start Collecting: 恐虐 Bloodbound"/>
     <publication id="cac4-1eec-pubN110134" name="阵型 Set: 恐虐 Bloodbound Slaughterstorm"/>
-    <publication id="cac4-1eec-pubN111094" name="Warscroll Compendium: Daemons of 混沌 (2015)"/>
-    <publication id="cac4-1eec-pubN112244" name="军书: Everchosen"/>
+    <publication id="cac4-1eec-pubN111094" name="Warscroll Compendium: 混沌恶魔 (2015)"/>
+    <publication id="cac4-1eec-pubN112244" name="军书: 永世神选"/>
     <publication id="cac4-1eec-pubN114183" name="Start Collecting: Daemons of 恐虐"/>
     <publication id="cac4-1eec-pubN114770" name="军书: 恐虐 Bloodbound (2015)"/>
     <publication id="cac4-1eec-pubN124386" name="Magore&apos;s Fiends"/>
@@ -150,7 +150,7 @@
     <entryLink id="6981-396f-f0b1-ac6a" name="阵型: Bloodbound Warband" hidden="false" collective="false" import="true" targetId="a584-3218-b0cd-294f" type="selectionEntry"/>
     <entryLink id="a2b3-c723-4e18-d0fc" name="阵型: Bloodbound Warhorde" hidden="false" collective="false" import="true" targetId="45b7-db81-23e4-78c8" type="selectionEntry"/>
     <entryLink id="9aed-28c1-5b53-6cb1" name="Bloodcrushers" hidden="false" collective="false" import="true" targetId="41fb-f03e-b188-fdbd" type="selectionEntry"/>
-    <entryLink id="5ba2-1eeb-9ce0-f285" name="势力" hidden="false" collective="false" import="true" targetId="c765-43a7-53c3-d8cf" type="selectionEntry">
+    <entryLink id="5ba2-1eeb-9ce0-f285" name="阵营" hidden="false" collective="false" import="true" targetId="c765-43a7-53c3-d8cf" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="dbe1-4bad-60fe-a138" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -310,7 +310,7 @@
         <categoryLink id="d26e-58e5-b26b-997a" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c922-0e7f-61d6-c680" name="Slaves to Darkness 恶魔 Prince" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
+    <entryLink id="c922-0e7f-61d6-c680" name="黑暗之奴 恶魔 Prince" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3ee4-b9a7-3425-1ce6" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
         <categoryLink id="b0f7-4970-4339-6935" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -4271,7 +4271,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c765-43a7-53c3-d8cf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c765-43a7-53c3-d8cf" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="0bf4-2758-5f9d-84ad" value="0.0">
           <conditions>
@@ -4284,7 +4284,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf4-2758-5f9d-84ad" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="186c-e4ad-284a-0209" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="76d7-b2c4-7d22-15a2">
+        <selectionEntryGroup id="186c-e4ad-284a-0209" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="76d7-b2c4-7d22-15a2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ed7-6b7c-3485-c313" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e05-803f-acb1-26a4" type="min"/>
@@ -4783,7 +4783,7 @@
         </profile>
         <profile id="6c6c-90b7-d3c6-bed6" name="Curse of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can choose one of the following keywords to give to this 单位 the first time it is set up: 恐虐, Nurgle, Slaanesh or Tzeentch.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can choose one of the following keywords to give to this 单位 the first time it is set up: 恐虐, 纳垢, 色孽 or 奸奇.</characteristic>
           </characteristics>
         </profile>
         <profile id="e73c-dd44-1fa1-6a7a" name="Plaything of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -5116,7 +5116,7 @@
                 <categoryLink id="ff5a-1114-dd45-c9f9" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7b23-e5e3-c48b-5e9c" name="Slaves to Darkness 恶魔 Prince" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
+            <entryLink id="7b23-e5e3-c48b-5e9c" name="黑暗之奴 恶魔 Prince" hidden="false" collective="false" import="true" targetId="b2a4-c572-6ab2-6b4e" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="330e-b74c-f827-cc8e" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
                 <categoryLink id="e5ea-691a-fd99-02e0" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -6462,8 +6462,8 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="7447-9328-3dfb-48e1" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="5895-e447-bc89-f155" name="混沌 - Beasts of 混沌 - Data" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="2601-b63b-4dc3-c686" name="混沌 - Slaves to Darkness Data" targetId="e0d8-b631-6934-ee34" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7447-9328-3dfb-48e1" name="混沌 数据" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="5895-e447-bc89-f155" name="混沌 - Beasts of 混沌 - 数据" targetId="a990-882b-7e62-27e9" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2601-b63b-4dc3-c686" name="混沌 - 黑暗之奴 数据" targetId="e0d8-b631-6934-ee34" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81cf-7df5-86e6-b78f" name="秩序 - Fyreslayers - Data" revision="39" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81cf-7df5-86e6-b78f" name="秩序 - Fyreslayers - 数据" revision="39" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e67a-06d2-pubN65537" name="秩序军书: Fyreslayers"/>
     <publication id="e67a-06d2-pubN69594" name="军书: Fyreslayers 勘误, 2018年07月"/>
@@ -37,19 +37,19 @@
     <categoryEntry id="4b94-6bb2-6f57-3f3f" name="MAGMIC INVOCATION" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="8e35-cdef-4c7e-0a1c" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8e35-cdef-4c7e-0a1c" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="41d4-2f31-ed73-2d14" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="94c9-6cd1-da31-5c7e">
+        <selectionEntryGroup id="41d4-2f31-ed73-2d14" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="94c9-6cd1-da31-5c7e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="94c9-6cd1-da31-5c7e" name="势力: Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="94c9-6cd1-da31-5c7e" name="阵营: Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="a46a-e086-cad7-00eb" name="Ur-Gold" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -197,7 +197,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="22a9-7d52-14e2-eeab" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="22a9-7d52-14e2-eeab" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1494-6390-d6a0-7358" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

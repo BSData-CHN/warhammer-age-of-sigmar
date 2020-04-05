@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ab8b-39f3-ebc0-e9ab" name="秩序 - Sylvaneth - Data" revision="40" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ab8b-39f3-ebc0-e9ab" name="秩序 - 树海灵木 - 数据" revision="40" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="bf19-727d-pubN65537" name="秩序军书: Sylvaneth"/>
-    <publication id="bf19-727d-pubN68286" name="军书: Sylvaneth 勘误, 2018年07月"/>
-    <publication id="bf19-727d-pubN70075" name="Grand Alliance: Order"/>
-    <publication id="3eb3-ef35-59aa-b7e2" name="军书: Sylvaneth 2019"/>
+    <publication id="bf19-727d-pubN65537" name="秩序军书: 树海灵木"/>
+    <publication id="bf19-727d-pubN68286" name="军书: 树海灵木 勘误, 2018年07月"/>
+    <publication id="bf19-727d-pubN70075" name="大阵营: 秩序"/>
+    <publication id="3eb3-ef35-59aa-b7e2" name="军书: 树海灵木 2019"/>
   </publications>
   <profileTypes>
     <profileType id="b8a6-2c1a-507f-6473" name="Soul Amphorae">
@@ -80,7 +80,7 @@
         </profile>
         <profile id="1677-1da5-cf84-e4e2" name="Lifebloom" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 30寸 of this model (roll separetely for each 单位).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can heal up to D3 wounds allocated to each friendly 树海灵木 单位 wholly within 30寸 of this model (roll separetely for each 单位).</characteristic>
           </characteristics>
         </profile>
         <profile id="15c2-0c38-24b6-0564" name="Sweeping Blows" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -101,7 +101,7 @@
         </profile>
         <profile id="1e25-d5bf-e1c8-7418" name="Ghyran&apos;s Wrath" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combats phase.  If you do so, in that phase you can re-roll wound rolls of 1 for attacks made by friendly SYLVANETH units while they are wholly within 14寸 of a friendly model with this command ability.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combats phase.  If you do so, in that phase you can re-roll wound rolls of 1 for attacks made by friendly 树海灵木 units while they are wholly within 14寸 of a friendly model with this command ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="f427-57be-79ff-3558" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -285,33 +285,33 @@
         <cost name="pts" typeId="points" value="600.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6892-294f-1dab-882a" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6892-294f-1dab-882a" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8bea-f792-0aa5-fc38" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc2e-a897-99a2-353f">
+        <selectionEntryGroup id="8bea-f792-0aa5-fc38" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc2e-a897-99a2-353f">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cc2e-a897-99a2-353f" name="势力: Sylvaneth" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cc2e-a897-99a2-353f" name="阵营: 树海灵木" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="df30-1adc-91e2-f871" name="Places of Power" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After territories have been chosen but before armies are set up, you can pick 1 terrain feature on the battlefield that was not set up by your opponent as part of their army.  Do not take battleshock tests for friendly SYLVANETH units while they are wholly within 6寸 of that terrain feature.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After territories have been chosen but before armies are set up, you can pick 1 terrain feature on the battlefield that was not set up by your opponent as part of their army.  Do not take battleshock tests for friendly 树海灵木 units while they are wholly within 6寸 of that terrain feature.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7640-f53b-75ba-7a3d" name="Forest Spirits" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a SYLVANETH 单位 on the battlefield, you can place it to one side and say it is set up in the hidden enclaves as a reserve 单位. You can set up one reserve 单位 in the hidden enclaves for each 单位 you set up on the battlefield.  At the end of your movement phase, you can set up one or more of the reserve units that are in the hidden enclaves on the battlefield wholly within 6寸 of an AWAKENED WYLDWOOD and more than 9寸 from any enemy units.  Any reserve units that are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a 树海灵木 单位 on the battlefield, you can place it to one side and say it is set up in the hidden enclaves as a reserve 单位. You can set up one reserve 单位 in the hidden enclaves for each 单位 you set up on the battlefield.  At the end of your movement phase, you can set up one or more of the reserve units that are in the hidden enclaves on the battlefield wholly within 6寸 of an AWAKENED WYLDWOOD and more than 9寸 from any enemy units.  Any reserve units that are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9256-01ed-73c9-1851" name="Navigate Realmroots" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of making a normal move in your movement phase, 1 friendly SYLVANETH 单位 wholly within 6寸 of an AWAKENED WYLDWOOD can navigate the realmroots.  If it does so, remove that 单位 from the battlefield and then set it up again wholly within 6寸 of another AWAKENED WYLDWOOD and more than 9寸 from any enemy units.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of making a normal move in your movement phase, 1 friendly 树海灵木 单位 wholly within 6寸 of an AWAKENED WYLDWOOD can navigate the realmroots.  If it does so, remove that 单位 from the battlefield and then set it up again wholly within 6寸 of another AWAKENED WYLDWOOD and more than 9寸 from any enemy units.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -454,7 +454,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="391d-2bf7-a92a-7cc8" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="391d-2bf7-a92a-7cc8" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="26a2-3949-a3aa-ba19" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -1230,7 +1230,7 @@
         </profile>
         <profile id="f0ad-33be-68b4-e835" name="Envoys of the Everqueen" publicationId="bf19-727d-pubN68286" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a friendly SYLVANETH 英雄 uses a command ability, you can measure the range of that command ability from a friendly KURNOTH HUNTERS 单位 instead of the 英雄.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a friendly 树海灵木 英雄 uses a command ability, you can measure the range of that command ability from a friendly KURNOTH HUNTERS 单位 instead of the 英雄.</characteristic>
           </characteristics>
         </profile>
         <profile id="edf3-ae6d-8050-f7fa" name="Trample Underfoot" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1372,7 +1372,7 @@
         </profile>
         <profile id="8651-41a2-d43f-3728" name="Champions of the Everqueen&apos;s Will" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12寸 of any friendly models with this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of friendly 树海灵木 units while they are wholly within 12寸 of any friendly models with this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="e22b-7889-4082-db8e" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -1973,7 +1973,7 @@
         </profile>
         <profile id="2cd9-fba6-0fe3-fc6b" name="Heed the Spirit-song" publicationId="3eb3-ef35-59aa-b7e2" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段.  If you do so, pick 1 friendly model with this command ability.  Until your next 英雄阶段, you can re-roll save rolls of 1 for attacks that target friendly SYLVANETH units wholly within 12寸 of that model.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段.  If you do so, pick 1 friendly model with this command ability.  Until your next 英雄阶段, you can re-roll save rolls of 1 for attacks that target friendly 树海灵木 units wholly within 12寸 of that model.</characteristic>
           </characteristics>
         </profile>
         <profile id="1512-f2bb-518d-444b" name="Treelord Ancient" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
@@ -2126,7 +2126,7 @@
         </profile>
         <profile id="85df-cd38-9045-4c6a" name="Call to Battle" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly SYLVANETH 单位 wholly within 9寸 of a friendly model with this command ability, or wholly within 12寸 of a friendly model with this command ability that is your 主将. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 in that combat phase. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly 树海灵木 单位 wholly within 9寸 of a friendly model with this command ability, or wholly within 12寸 of a friendly model with this command ability that is your 主将. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 in that combat phase. You cannot pick the same 单位 to benefit from this command ability more than once per combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2138,7 +2138,7 @@
         <categoryLink id="7cdd-6b41-966d-dd41" name="FREE SPIRITS" hidden="false" targetId="d6fd-d829-6545-9aee" primary="false"/>
         <categoryLink id="31a6-0683-18f6-0046" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="23a6-1858-e1e2-6494" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
-        <categoryLink id="936e-02a9-7ef8-c596" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+        <categoryLink id="936e-02a9-7ef8-c596" name="树海灵木" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="e5a0-5013-90a0-caf4" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -2244,7 +2244,7 @@
       <categoryLinks>
         <categoryLink id="72cb-b9a0-d542-08fb" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="edc7-2fa7-528e-500d" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
-        <categoryLink id="a7c5-9b48-9371-0950" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+        <categoryLink id="a7c5-9b48-9371-0950" name="树海灵木" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="4b0d-bb6f-6670-11f5" name="THORNWYCH" hidden="false" targetId="6a18-0e04-3e62-d0c9" primary="false"/>
         <categoryLink id="ac57-edff-1365-3d7a" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="130a-1ce0-16c4-1248" name="YLTHARI" hidden="false" targetId="206b-3164-1733-09c0" primary="false"/>
@@ -2363,7 +2363,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="e5b2-9dcb-9954-ed10" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
-        <categoryLink id="cc86-6aa2-beb0-0f9f" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+        <categoryLink id="cc86-6aa2-beb0-0f9f" name="树海灵木" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
         <categoryLink id="8b49-5d85-35eb-9993" name="TREE-REVENANTS" hidden="false" targetId="bf04-ef65-dc69-086c" primary="false"/>
         <categoryLink id="5b85-799b-03ef-deeb" name="YLTHARI&apos;S GUARDIANS" hidden="false" targetId="b3e3-ad91-a277-16c1" primary="false"/>
         <categoryLink id="7f6d-3ed5-d719-4ebe" name="NOBLE SPIRITS" hidden="false" targetId="634f-ae38-b430-da17" primary="false"/>
@@ -2468,7 +2468,7 @@
       <profiles>
         <profile id="f3fd-98ac-f18d-8e5b" name="Mighty-Wyldwood" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">When you choose a Sylvaneth army, you can include 2 AWAKENED WYLDWOOD terrain features instead of 1 if your army includes this 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">When you choose a 树海灵木 army, you can include 2 AWAKENED WYLDWOOD terrain features instead of 1 if your army includes this 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2539,7 +2539,7 @@
         <profile id="3f6f-bd6a-6ea9-65d0" name="Summon Gladewyrm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Gladewyrm.  If successfully cast, set up a Gladewyrm model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 树海灵木 WIZARDS can attempt to cast Summon Gladewyrm.  If successfully cast, set up a Gladewyrm model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="1255-d6df-412a-b368" name="Burrowing Doom" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2549,12 +2549,12 @@
         </profile>
         <profile id="a647-fb1c-2f60-46b9" name="Death From Below" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each 单位 within 1寸 of it.  On a 3+ that 单位 suffers D3 mortal wounds.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each 单位 within 1寸 of it.  On a 3+ that 单位 suffers D3 mortal wounds.  This ability has no effect on units with the 树海灵木 keyword.</characteristic>
           </characteristics>
         </profile>
         <profile id="78c1-fc0e-1c10-5b2b" name="Healing Mist" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each SYLVANETH 单位 wholly within 6寸 of this model.  On a 3+ heal up to D3 wounds allocated to that 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll a dice for each 树海灵木 单位 wholly within 6寸 of this model.  On a 3+ heal up to D3 wounds allocated to that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2578,12 +2578,12 @@
         <profile id="6298-0dac-fcb5-c4aa" name="Summon Spiteswarm Hive" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Spiteswarm Hive.  If successfully cast, set up a Spiteswarm Hive model wholly within 15寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 树海灵木 WIZARDS can attempt to cast Summon Spiteswarm Hive.  If successfully cast, set up a Spiteswarm Hive model wholly within 15寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="4218-363d-88cd-63b7" name="The Hive Nourishes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the 英雄阶段, if this model is on the battlefield, the player who set it up can pick one of the effects below and immediately resolve that effect.  The same 单位 cannot be picked to be affected by this ability more than once per 英雄阶段.  Vital Venoms: Roll a dice for each SYLVANETH 单位 wholly within 8寸 of this model.  On a 2+ add 3寸 to that 单位&apos;s normal moves and charge moves until the end of the turn.  Shielding Swarm: Roll a dice for each SYLVANETH 单位 wholly within 8寸 of this model.  On a 2+ re-roll save rolls of 1 for attacks that target that 单位 until the end of the turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the 英雄阶段, if this model is on the battlefield, the player who set it up can pick one of the effects below and immediately resolve that effect.  The same 单位 cannot be picked to be affected by this ability more than once per 英雄阶段.  Vital Venoms: Roll a dice for each 树海灵木 单位 wholly within 8寸 of this model.  On a 2+ add 3寸 to that 单位&apos;s normal moves and charge moves until the end of the turn.  Shielding Swarm: Roll a dice for each 树海灵木 单位 wholly within 8寸 of this model.  On a 2+ re-roll save rolls of 1 for attacks that target that 单位 until the end of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2609,7 +2609,7 @@
         <profile id="fa47-2993-9cd0-fd16" name="Summon Vengeful Skullroot" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only SYLVANETH WIZARDS can attempt to cast Summon Vengeful Skullroot.  If successfully cast, set up a Vengeful Skullroot model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 树海灵木 WIZARDS can attempt to cast Summon Vengeful Skullroot.  If successfully cast, set up a Vengeful Skullroot model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="b13a-83e3-6ba1-a361" name="Uprooted Spirit" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2619,12 +2619,12 @@
         </profile>
         <profile id="0065-f54a-5a0c-457b" name="Terrors Unearthed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 单位 fails a battleshock test within 3寸 of any models with this ability, add D3 to the number of models that flee.   This ability has no effect on units with the SYLVANETH keyword.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 单位 fails a battleshock test within 3寸 of any models with this ability, add D3 to the number of models that flee.   This ability has no effect on units with the 树海灵木 keyword.</characteristic>
           </characteristics>
         </profile>
         <profile id="1ce3-4b8d-49f7-d144" name="Strangleroots" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds, or D6 mortal wounds if that 单位 is within 3寸 of any AWAKENED WYLDWOOD.  This ability has no effect on units with the SYLVANETH keyword.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds, or D6 mortal wounds if that 单位 is within 3寸 of any AWAKENED WYLDWOOD.  This ability has no effect on units with the 树海灵木 keyword.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2649,12 +2649,12 @@
         </profile>
         <profile id="32e3-fb24-1ca5-fa58" name="Roused by Magic" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the 英雄阶段, if a 法术 is successfully cast by a 法师 wholly within 6寸 of an AWAKENED WYLDWOOD and not unbound, roll a dice for each 单位 within 1寸 of that AWAKENED WYLDWOOD which does not have the SYLVANETH keyword.  On a 5+ that 单位 suffers D3 mortal wounds after that spells&apos;s effects have been resolved.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the 英雄阶段, if a 法术 is successfully cast by a 法师 wholly within 6寸 of an AWAKENED WYLDWOOD and not unbound, roll a dice for each 单位 within 1寸 of that AWAKENED WYLDWOOD which does not have the 树海灵木 keyword.  On a 5+ that 单位 suffers D3 mortal wounds after that spells&apos;s effects have been resolved.</characteristic>
           </characteristics>
         </profile>
         <profile id="19fe-a03c-0897-19f8" name="Wyldwood" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the charge phase, roll a dice for each 单位 within 1寸 of an AWAKENED WYLDWOOD which does not have the SYLVANETH keyword.  On a 6, that 单位 suffers D3 mortal wounds.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the charge phase, roll a dice for each 单位 within 1寸 of an AWAKENED WYLDWOOD which does not have the 树海灵木 keyword.  On a 6, that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2687,7 +2687,7 @@
         <profile id="f156-a62a-7f52-b987" name="Might of Kurnoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly Sylvaneth 单位 within 12寸 of the caster that is visible to them. Add 1 to wound rolls for attacks made with 肉搏 武器 by that 单位 until the start of your next 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 树海灵木 单位 within 12寸 of the caster that is visible to them. Add 1 to wound rolls for attacks made with 肉搏 武器 by that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="73f7-d987-b475-c35c" name="Skaeth" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2705,7 +2705,7 @@
         <categoryLink id="d5d5-5265-6791-a456" name="OAKENBROW" hidden="false" targetId="fc74-5007-3ac8-3b19" primary="false"/>
         <categoryLink id="070b-5606-9425-7ff8" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="e93b-2f16-04b6-f5ca" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
-        <categoryLink id="43b2-f4eb-2e93-c291" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
+        <categoryLink id="43b2-f4eb-2e93-c291" name="树海灵木" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3e09-2a78-b988-4212" name="Hunting Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2985,7 +2985,7 @@
           <profiles>
             <profile id="44b4-7a7d-ae90-ff82" name="Warsinger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly SYLVANETH units wholly within 12寸 of this 主将.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 2 to charge rolls for friendly 树海灵木 units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2997,7 +2997,7 @@
           <profiles>
             <profile id="1ed6-b693-eb1c-897b" name="Wisdom of the Ancients" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly SYLVANETH units while they are wholly within 12寸 of this 主将.</characteristic>
+                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Bravery characteristic of friendly 树海灵木 units while they are wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3026,7 +3026,7 @@
           <profiles>
             <profile id="c156-67d0-9b43-6cac" name="Lifewreath" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In you 英雄阶段, roll a dice.  On a 3+ you can heal D3 wounds allocated to each friendly SYLVANETH 单位 wholly within 10寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In you 英雄阶段, roll a dice.  On a 3+ you can heal D3 wounds allocated to each friendly 树海灵木 单位 wholly within 10寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3056,7 +3056,7 @@
           <profiles>
             <profile id="66d3-2779-af12-67fc" name="Crown of Fell Bowers" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy 单位 within 6寸 of the bearer.  You can re-roll wound rolls for attacks made by friendly SYLVANETH units that target that 单位 in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick 1 enemy 单位 within 6寸 of the bearer.  You can re-roll wound rolls for attacks made by friendly 树海灵木 units that target that 单位 in that phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3247,7 +3247,7 @@
             <profile id="1563-d160-9771-9a83" name="Regrowth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH 单位 wholly within 18寸 of the caster and visible to them.  You can heal up to D6 wounds allocated to that 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 树海灵木 单位 wholly within 18寸 of the caster and visible to them.  You can heal up to D6 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3286,7 +3286,7 @@
             <profile id="5dbc-8797-7871-bf74" name="Verdurous Harmony" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly SYLVANETH 单位 wholly within 18寸 of the caster and visible to them.  You can return 1 slain model to that 单位.  If you picked a 单位 of DRYADS, TREE-REVENANTS or SPITE-REVENANTS you can return up to D3 slain models to that 单位 instead of 1.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 树海灵木 单位 wholly within 18寸 of the caster and visible to them.  You can return 1 slain model to that 单位.  If you picked a 单位 of DRYADS, TREE-REVENANTS or SPITE-REVENANTS you can return up to D3 slain models to that 单位 instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>

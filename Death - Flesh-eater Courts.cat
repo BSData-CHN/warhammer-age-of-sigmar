@@ -64,7 +64,7 @@
     <categoryEntry id="2b69-7ea2-a20e-27d1" name="CHARNEL THRONE" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="c7c9-5a8a-4868-57bc" name="势力" hidden="false" collective="false" import="true" targetId="7f4c-7d4b-6b8e-575b" type="selectionEntry">
+    <entryLink id="c7c9-5a8a-4868-57bc" name="阵营" hidden="false" collective="false" import="true" targetId="7f4c-7d4b-6b8e-575b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1039,19 +1039,19 @@
         <cost name="pts" typeId="points" value="440.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="705f-02ae-f4f5-987a">
+        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="705f-02ae-f4f5-987a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="705f-02ae-f4f5-987a" name="势力: Flesh-Eater Courts" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="705f-02ae-f4f5-987a" name="阵营: Flesh-Eater Courts" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="078e-64b1-4b85-3602" name="Deathless Courtiers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -1065,7 +1065,7 @@
                 </profile>
                 <profile id="2d74-bc24-c47b-6a6e" name="Grand Courts" page="FAQ 12/19" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Flesh-eater Courts 势力 for you army, you can choose one of the Grand Court keywords: MORGAUNT, HOLLOWMOURNE, BLISTERSKIN or GRISTLEGORE.  All FLESH-EATER COURTS units in your army gain that keyword.  You cannot pick or roll a delusion for a Grand Court, but all units with that keyword benefit from the extra abilities defined for that Grand Court. If a model already has a Grand Court keyword on its warscroll, it cannot gain another one. This does not preclude you from including the 单位 in your army, but you cannot use the 势力 abilities for its Grand Court.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">After you have chosen the Flesh-eater Courts 阵营 for you army, you can choose one of the Grand Court keywords: MORGAUNT, HOLLOWMOURNE, BLISTERSKIN or GRISTLEGORE.  All FLESH-EATER COURTS units in your army gain that keyword.  You cannot pick or roll a delusion for a Grand Court, but all units with that keyword benefit from the extra abilities defined for that Grand Court. If a model already has a Grand Court keyword on its warscroll, it cannot gain another one. This does not preclude you from including the 单位 in your army, but you cannot use the 阵营 abilities for its Grand Court.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1168,7 +1168,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0395-882a-0826-8ab8" name="势力: *Death*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0395-882a-0826-8ab8" name="阵营: *Death*" hidden="false" collective="false" import="true" type="upgrade">
               <categoryLinks>
                 <categoryLink id="35a5-7d65-0049-6c93" name="New CategoryLink" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
               </categoryLinks>
@@ -3230,7 +3230,7 @@
         <profile id="50b6-bce4-7249-61d8" name="Summon Corpsemare Stampede" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Corpsemare Stampede model wholly within 3D6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Corpsemare Stampede model wholly within 3D6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="4f85-8747-f14d-2eae" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -3269,7 +3269,7 @@
         <profile id="3f63-6d15-0050-20ab" name="Summon Chalice of Ushoran" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Chalice of Ushoran model wholly within 24寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Chalice of Ushoran model wholly within 24寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="26c0-a2fa-1f96-f66b" name="Soul Stealer" publicationId="6d29-cde4-pubN71388" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -3295,7 +3295,7 @@
         <profile id="e52d-0f53-fd93-5747" name="Summon Cadaverous Barricade" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Cadaverous Barricade model wholly within 24寸 of the caster and more than 1寸 from any enemy units.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and ABHORRANTS can attempt to cast this 法术. If successfully cast, set up a Cadaverous Barricade model wholly within 24寸 of the caster and more than 1寸 from any enemy units.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c76-de25-faa5-8735" name="Grasping Hands" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">

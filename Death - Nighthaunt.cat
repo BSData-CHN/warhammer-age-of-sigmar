@@ -43,7 +43,7 @@
     <entryLink id="f8e0-be9d-fb92-826e" name="Mourngul" hidden="false" collective="false" import="true" targetId="8478-fe53-87a6-0428" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="a352-6c12-37a7-8b19" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a352-6c12-37a7-8b19" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad4e-f092-52d0-792d" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e124-1f52-17ea-c1b4" type="max"/>
@@ -52,17 +52,17 @@
         <categoryLink id="8f31-b2a2-14e2-0336" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="55b7-e346-008b-18d3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="3eb2-fedd-bfbe-d34a">
+        <selectionEntryGroup id="55b7-e346-008b-18d3" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="3eb2-fedd-bfbe-d34a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="130f-6b8b-878f-d0db" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b6-5a51-44bb-5704" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="fd13-7bd7-3dfa-309c" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false"/>
+            <categoryLink id="fd13-7bd7-3dfa-309c" name="阵营" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="3eb2-fedd-bfbe-d34a" name="势力: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
-            <entryLink id="c290-6440-a621-b6c6" name="势力: *死亡*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
+            <entryLink id="3eb2-fedd-bfbe-d34a" name="阵营: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
+            <entryLink id="c290-6440-a621-b6c6" name="阵营: *死亡*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -72,6 +72,6 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink id="370e-6229-0432-30a9" name="死亡: Legions of Nagash and Nighthaunt 数据" targetId="e37a-2f18-f168-6ed3" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="370e-6229-0432-30a9" name="死亡: 纳加什军团 and Nighthaunt 数据" targetId="e37a-2f18-f168-6ed3" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

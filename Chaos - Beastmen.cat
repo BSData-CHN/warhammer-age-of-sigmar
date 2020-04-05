@@ -12,7 +12,7 @@
     <categoryEntry id="7595-6da2-8261-478f" name="CENTIGOR WARHOOF" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="a67d-4297-ee18-ee3f" name="势力" hidden="false" collective="false" import="true" targetId="04c9-810f-2f9a-91d2" type="selectionEntry">
+    <entryLink id="a67d-4297-ee18-ee3f" name="阵营" hidden="false" collective="false" import="true" targetId="04c9-810f-2f9a-91d2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1219-60f8-f252-d1fe" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -56,13 +56,13 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04c9-810f-2f9a-91d2" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="04c9-810f-2f9a-91d2" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b1-fb45-9f89-cd21" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bf-32cd-f7fb-63d1" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="a509-a616-4749-8806">
+        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="a509-a616-4749-8806">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ca-ff17-9618-e0d6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e129-c3f9-1b86-c60c" type="min"/>

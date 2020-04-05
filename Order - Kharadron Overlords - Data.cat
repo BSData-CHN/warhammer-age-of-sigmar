@@ -2345,24 +2345,24 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b79b-9f89-0015-105b" name="势力" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b79b-9f89-0015-105b" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ab4-3261-9a53-9d55" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2630-0555-6e17-6102" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="63b6-a8ec-5ba5-68a8" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="ae0a-a47d-3660-4c46">
+        <selectionEntryGroup id="63b6-a8ec-5ba5-68a8" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="ae0a-a47d-3660-4c46">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e468-af7c-6590-308c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a261-5cf3-414b-dd88" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5f36-82f1-44e9-156b" name="势力: *秩序*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5f36-82f1-44e9-156b" name="阵营: *秩序*" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ae0a-a47d-3660-4c46" name="势力: 卡拉顿天空霸主" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ae0a-a47d-3660-4c46" name="阵营: 卡拉顿天空霸主" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="9ba4-d20e-985e-d96e" name="以太金分成" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

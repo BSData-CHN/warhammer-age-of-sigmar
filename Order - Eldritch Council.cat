@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="182f-949d-8db0-92cf" name="秩序 - Eldritch Council" revision="14" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="182f-949d-pubN65537" name="Grand Alliance: Order"/>
-    <publication id="182f-949d-pubN68689" name="Grand Alliance: Order 勘误, June 2018"/>
+    <publication id="182f-949d-pubN65537" name="大阵营: 秩序"/>
+    <publication id="182f-949d-pubN68689" name="大阵营: 秩序 勘误, June 2018"/>
   </publications>
   <profileTypes>
     <profileType id="9cb4-15df-780d-f4ee" name="Crew Table">
@@ -85,7 +85,7 @@
     <categoryEntry id="5511-bd56-15b9-f523" name="HIGH WARDEN" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="7332-f387-438b-852c" name="势力" hidden="false" collective="false" import="true" targetId="8171-f17c-d43c-5e0b" type="selectionEntry">
+    <entryLink id="7332-f387-438b-852c" name="阵营" hidden="false" collective="false" import="true" targetId="8171-f17c-d43c-5e0b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -145,19 +145,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8171-f17c-d43c-5e0b" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8171-f17c-d43c-5e0b" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fede-b2b1-45ef-492a" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="87d8-a975-1e6e-3f69">
+        <selectionEntryGroup id="fede-b2b1-45ef-492a" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="87d8-a975-1e6e-3f69">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d51d-dec8-f7a7-351d" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d51d-dec8-f7a7-351d" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="f6bb-9b06-85bf-e4ce" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -169,7 +169,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="87d8-a975-1e6e-3f69" name="势力: Eldritch Council" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="87d8-a975-1e6e-3f69" name="阵营: Eldritch Council" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="c419-7144-4867-cdd5" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

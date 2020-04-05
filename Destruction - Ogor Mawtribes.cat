@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="86c6-f50d-4d44-9d02" name="Destruction - Ogor Mawtribes" revision="11" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="86c6-f50d-4d44-9d02" name="毁灭 - Ogor Mawtribes" revision="11" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="50c5-e039-pubN80915" name="Destruction Battletomb: Ironjawz"/>
-    <publication id="50c5-e039-pubN81384" name="Destruction 军书: Ogor Mawtribes"/>
+    <publication id="50c5-e039-pubN81384" name="Destruction军书: Ogor Mawtribes"/>
     <publication id="a12c-746f-81e0-57e2" name="军书: Beastclaw Raiders 官方勘误, 2018年07月"/>
   </publications>
   <profileTypes>
@@ -61,7 +61,7 @@
     <categoryEntry id="f0af-a0e7-66d2-61ea" name="BEASTCLAW 祭司" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="fc4d-9292-0908-041e" name="势力" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
+    <entryLink id="fc4d-9292-0908-041e" name="阵营" hidden="false" collective="false" import="true" targetId="9dbb-2d1a-12d8-7faf" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -157,7 +157,7 @@
     <entryLink id="2f45-d6aa-271e-9cb0" name="Hrothgorn&apos;s Mantrappers" hidden="false" collective="false" import="true" targetId="71ae-1d3d-07ef-327f" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbb-2d1a-12d8-7faf" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2e5-a02a-426e-7ca0" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b5-c448-3c86-73f5" type="min"/>
@@ -166,7 +166,7 @@
         <categoryLink id="16be-3131-4aa2-ed74" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d503-3edf-9833-b910" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="007b-7ecb-a450-1685">
+        <selectionEntryGroup id="d503-3edf-9833-b910" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="007b-7ecb-a450-1685">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>

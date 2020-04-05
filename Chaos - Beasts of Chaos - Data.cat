@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a990-882b-7e62-27e9" name="混沌 - Beasts of 混沌 - Data" revision="18" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a990-882b-7e62-27e9" name="混沌 - Beasts of 混沌 - 数据" revision="18" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c9b2-1fe6-pubN65537" name="军书: Beasts of 混沌"/>
     <publication id="c9b2-1fe6-pubN83353" name="1"/>
@@ -82,13 +82,13 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="04c9-810f-2f9a-91d2" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="04c9-810f-2f9a-91d2" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b1-fb45-9f89-cd21" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bf-32cd-f7fb-63d1" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="1378-5154-1483-85b9">
+        <selectionEntryGroup id="6df4-bae3-b4c7-2859" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="1378-5154-1483-85b9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ca-ff17-9618-e0d6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e129-c3f9-1b86-c60c" type="min"/>
@@ -144,7 +144,7 @@
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">6</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="6510-6393-a600-84ff" name="(10) 3 Tzaangor Enilightened on Discs of Tzeentch" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
+                <profile id="6510-6393-a600-84ff" name="(10) 3 Tzaangor Enilightened on Discs of 奸奇" hidden="false" typeId="8f00-6e3d-cead-a1d0" typeName="Primordial Call Table">
                   <characteristics>
                     <characteristic name="Cost" typeId="08dc-8cf5-5cde-f2df">7</characteristic>
                   </characteristics>
@@ -270,7 +270,7 @@
                         </profile>
                         <profile id="2df4-e0c5-3e64-d8b7" name="Gift of Morghur" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN 英雄 is slain, roll a dice before removing the model. On a 2+ one 混沌 SPAWN is added to your army. Set up the 混沌 SPAWN anywhere on the battlefield within 6寸 of the slain 英雄. If the 英雄 had the 恐虐, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the 混沌 SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that 混沌 SPAWN .</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a friendly GAVESPAWN 英雄 is slain, roll a dice before removing the model. On a 2+ one 混沌 SPAWN is added to your army. Set up the 混沌 SPAWN anywhere on the battlefield within 6寸 of the slain 英雄. If the 英雄 had the 恐虐, 纳垢, 色孽 or 奸奇 keyword, the same keyword must be chosen for the 混沌 SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that 混沌 SPAWN .</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -305,9 +305,9 @@
           </selectionEntries>
           <entryLinks>
             <entryLink id="186e-8976-3d12-9451" name="恐虐" hidden="false" collective="false" import="true" targetId="b541-3b22-08bb-d772" type="selectionEntry"/>
-            <entryLink id="b1e8-2cde-2d9e-3e79" name="Tzeentch" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
-            <entryLink id="8c01-a0c0-bfd0-881c" name="Slaanesh" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
-            <entryLink id="e5c1-e8a1-a45f-394b" name="Nurgle" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
+            <entryLink id="b1e8-2cde-2d9e-3e79" name="奸奇" hidden="false" collective="false" import="true" targetId="065f-c64d-3eb7-79d2" type="selectionEntry"/>
+            <entryLink id="8c01-a0c0-bfd0-881c" name="色孽" hidden="false" collective="false" import="true" targetId="d7d9-b723-6fdb-51cb" type="selectionEntry"/>
+            <entryLink id="e5c1-e8a1-a45f-394b" name="纳垢" hidden="false" collective="false" import="true" targetId="ff93-966b-c16d-8149" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2762,7 +2762,7 @@
         <categoryLink id="3123-cdee-b150-a84d" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="9662-d102-d37d-a8d1" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
         <categoryLink id="c76b-b1f1-3608-855b" name="恶魔" hidden="false" targetId="1418-9a68-9f9e-e9a7" primary="false"/>
-        <categoryLink id="f3da-f9fa-d27d-0330" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
+        <categoryLink id="f3da-f9fa-d27d-0330" name="奸奇" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="6733-967c-5d5c-437f" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
         <categoryLink id="918c-71b5-1ce4-fd37" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="1ecb-590e-0b8d-f278" name="TZAANGOR SKYFIRE" hidden="false" targetId="00bd-5d9e-6d0b-9e10" primary="false"/>
@@ -3168,7 +3168,7 @@
       <categoryLinks>
         <categoryLink id="8cda-8cec-febb-19dc" name="混沌" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false"/>
         <categoryLink id="4e7f-ea46-4aa7-42b6" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false"/>
-        <categoryLink id="67c7-f21b-d9ad-ef1b" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
+        <categoryLink id="67c7-f21b-d9ad-ef1b" name="奸奇" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
         <categoryLink id="eaf6-0e33-95f6-a97f" name="ARCANITE" hidden="false" targetId="a91f-7130-5f9c-30bf" primary="false"/>
         <categoryLink id="d2de-9ce0-4818-0841" name="BEASTS OF 混沌" hidden="false" targetId="2c4b-6186-2939-7f2b" primary="false"/>
         <categoryLink id="99ec-9b59-2e49-dcc7" name="GOR" hidden="false" targetId="b04f-e687-f85d-0b36" primary="false"/>
@@ -3713,12 +3713,12 @@
         </profile>
         <profile id="39c8-63a0-b56c-b6cb" name="Marked by the Decadent Fiend" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the SLAANESH keyword. In addition, this warscroll 阵型 is part of the Slaanesh faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the 色孽 keyword. In addition, this warscroll 阵型 is part of the 色孽 faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="094e-3a70-3373-bf9a" name="SLAANESH" hidden="false" targetId="3963-2e99-aa63-c65e" primary="false"/>
+        <categoryLink id="094e-3a70-3373-bf9a" name="色孽" hidden="false" targetId="3963-2e99-aa63-c65e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e4fd-0239-50cf-46e2" name="Depraved Drove" hidden="false" collective="false" import="true" type="upgrade">
@@ -3939,12 +3939,12 @@
         </profile>
         <profile id="85c8-8982-b348-3862" name="Covens of the Changer" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the TZEENTCH keyword. In addition, this warscroll 阵型 is part of the Tzeentch faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the 奸奇 keyword. In addition, this warscroll 阵型 is part of the 奸奇 faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="6a94-0bc8-442d-5205" name="TZEENTCH" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
+        <categoryLink id="6a94-0bc8-442d-5205" name="奸奇" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9e26-8a80-21b6-63ad" name="Phantasmagoria of Fate" hidden="false" collective="false" import="true" type="upgrade">
@@ -4210,12 +4210,12 @@
         </profile>
         <profile id="4582-1f5d-50ca-a14c" name="Vectors of the Plague God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the NURGLE keyword. In addition, this warscroll 阵型 is part of the Nurgle faction and the Beasts of 混沌 faction.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Units from this 阵型 gain the 纳垢 keyword. In addition, this warscroll 阵型 is part of the 纳垢 faction and the Beasts of 混沌 faction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="19fc-ef36-cf68-27b3" name="NURGLE" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
+        <categoryLink id="19fc-ef36-cf68-27b3" name="纳垢" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="91cb-56b9-1baf-7beb" name="Pestilent Throng" hidden="false" collective="false" import="true" type="upgrade">
@@ -4434,9 +4434,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7fba-f6f3-688b-1092" name="Tzaangor Enlightened on Discs of Tzeentch" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7fba-f6f3-688b-1092" name="Tzaangor Enlightened on Discs of 奸奇" hidden="false" collective="false" import="true" type="单位">
       <profiles>
-        <profile id="134c-a59c-9fbd-b209" name="Tzaangor Enlightened on Discs of Tzeentch" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="134c-a59c-9fbd-b209" name="Tzaangor Enlightened on Discs of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -4474,7 +4474,7 @@
         <categoryLink id="c0c0-4cdc-5344-054f" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ef05-28f5-709c-3c0c" name="3 Tzaangor Enlightened on Discs of Tzeentch" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ef05-28f5-709c-3c0c" name="3 Tzaangor Enlightened on Discs of 奸奇" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ab6-7ca0-dcaa-2b88" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="386a-b83e-9b2f-748d" type="max"/>
@@ -4900,7 +4900,7 @@
         <entryLink id="aa87-f90d-5a7f-8d6a" name="Artefacts: Change Coven" hidden="false" collective="false" import="true" targetId="e35c-e49d-2410-ea1d" type="selectionEntryGroup"/>
         <entryLink id="8adc-462f-b182-2166" name="Artefacts: Treasures of the Cults" hidden="false" collective="false" import="true" targetId="3261-1fc9-eba8-e646" type="selectionEntryGroup"/>
         <entryLink id="d637-bd4c-84bb-4eba" name="Artefacts: Daemonic 武器" hidden="false" collective="false" import="true" targetId="a688-9cf0-b48e-bb85" type="selectionEntryGroup"/>
-        <entryLink id="f08f-8587-7b14-c5b2" name="Artefacts: Wrath of the Everchosen" hidden="false" collective="false" import="true" targetId="002d-5827-c449-3647" type="selectionEntryGroup"/>
+        <entryLink id="f08f-8587-7b14-c5b2" name="Artefacts: Wrath of the 永世神选" hidden="false" collective="false" import="true" targetId="002d-5827-c449-3647" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="cbff-8503-320a-ce0d" name="Command Traits" hidden="false" collective="false" import="true">
@@ -4970,13 +4970,13 @@
         <entryLink id="f79f-ab94-d41c-1c7f" name="Slaughterhost Command Traits" hidden="false" collective="false" import="true" targetId="1aa0-14d1-5940-3c9e" type="selectionEntryGroup"/>
         <entryLink id="8bbb-91fe-37be-9252" name="Traits of the Seeker Supreme" hidden="false" collective="false" import="true" targetId="b02e-15de-67df-8664" type="selectionEntryGroup"/>
         <entryLink id="db1b-a8c3-7b3b-3c13" name="Traits: Aspects of the Perfect Liege" hidden="false" collective="false" import="true" targetId="efc7-556b-c158-a7e2" type="selectionEntryGroup"/>
-        <entryLink id="bf33-e9ec-27aa-fb11" name="Traits: Tzeentch Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
+        <entryLink id="bf33-e9ec-27aa-fb11" name="Traits: 奸奇 Mortal" hidden="false" collective="false" import="true" targetId="f264-4e0d-4f4d-7d3b" type="selectionEntryGroup"/>
         <entryLink id="b621-4126-2e3b-57f3" name="Traits: Obsessions of the Invader" hidden="false" collective="false" import="true" targetId="f0b1-f554-bc8b-f75c" type="selectionEntryGroup"/>
         <entryLink id="5f71-105d-b50f-3d45" name="Traits: 恐虐 Mortal" hidden="false" collective="false" import="true" targetId="2db0-3894-8f6a-94b5" type="selectionEntryGroup"/>
-        <entryLink id="eb2c-ce18-697a-047e" name="Traits: Nurgle Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
-        <entryLink id="4dfe-ff6f-40d7-d6b2" name="Traits: Tzeentch Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
+        <entryLink id="eb2c-ce18-697a-047e" name="Traits: 纳垢 Mortal" hidden="false" collective="false" import="true" targetId="8a09-f2db-da88-b9ff" type="selectionEntryGroup"/>
+        <entryLink id="4dfe-ff6f-40d7-d6b2" name="Traits: 奸奇 Arcanite" hidden="false" collective="false" import="true" targetId="bdb7-2e77-4755-e337" type="selectionEntryGroup"/>
         <entryLink id="1e58-1f5f-6ec8-1898" name="Traits: Change Coven" hidden="false" collective="false" import="true" targetId="f019-57cf-f8db-bb16" type="selectionEntryGroup"/>
-        <entryLink id="6abf-954c-1ea6-ba0e" name="Traits: Tzeentch 恶魔" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
+        <entryLink id="6abf-954c-1ea6-ba0e" name="Traits: 奸奇 恶魔" hidden="false" collective="false" import="true" targetId="8dba-9de2-482b-ed5b" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7016-ae89-f6cf-e026" name="Mark of 混沌" hidden="false" collective="false" import="true" defaultSelectionEntryId="39f4-785f-6b88-c22c">
@@ -4997,7 +4997,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="af46-e34b-6dd5-79b2" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="af46-e34b-6dd5-79b2" name="纳垢" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f7-98f7-13f2-ff45" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3e4-6121-688a-e039" type="min"/>
@@ -5009,7 +5009,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1e7f-845b-d8ee-5543" name="Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1e7f-845b-d8ee-5543" name="色孽" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d60-23bf-6a9f-6f6f" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df06-e099-9c61-77e7" type="min"/>
@@ -5021,7 +5021,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b468-eae2-b6d2-6ad9" name="Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b468-eae2-b6d2-6ad9" name="奸奇" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e877-df97-3717-755e" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a146-8c5a-1f3e-0311" type="min"/>
@@ -5925,6 +5925,6 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="ddf4-1b3b-eefa-2dfb" name="混沌 Data" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ddf4-1b3b-eefa-2dfb" name="混沌 数据" targetId="0339-0157-6910-d29c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

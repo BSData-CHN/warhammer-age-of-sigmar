@@ -142,7 +142,7 @@
         <categoryLink id="b6c4-4dad-f6c7-7ab9" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8678-1d38-11fb-227c" name="势力" hidden="false" collective="false" import="true" targetId="dce4-0645-f9a1-08ee" type="selectionEntry">
+    <entryLink id="8678-1d38-11fb-227c" name="阵营" hidden="false" collective="false" import="true" targetId="dce4-0645-f9a1-08ee" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -690,7 +690,7 @@
       <profiles>
         <profile id="0b83-ba20-e454-3bc2" name="Blood Rituals" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">: If your army has the DAUGHTERS OF KHAINE 势力, units in this 阵型 count the current battle round number as being 1 higher than it actually is when determining what abilities they receive from the Blood Rites 战斗特性 (pg 50). This is cumulative with 其他, similar abilities (e.g. the True Believer 指挥特性 or the Sacrament of Blood prayer).</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">: If your army has the DAUGHTERS OF KHAINE 阵营, units in this 阵型 count the current battle round number as being 1 higher than it actually is when determining what abilities they receive from the Blood Rites 战斗特性 (pg 50). This is cumulative with 其他, similar abilities (e.g. the True Believer 指挥特性 or the Sacrament of Blood prayer).</characteristic>
           </characteristics>
         </profile>
         <profile id="adfe-078d-ddce-eb6c" name="Devout Followers" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -2487,24 +2487,24 @@ Alternatively, if either 单位 is within 3寸 of an enemy 单位, it can instea
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dce4-0645-f9a1-08ee" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="dce4-0645-f9a1-08ee" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a07a-224f-dac4-a59c" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2917-f4dd-ec75-558c" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7cef-57ef-e6fe-3c9b" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="259d-0477-c9f8-2947">
+        <selectionEntryGroup id="7cef-57ef-e6fe-3c9b" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="259d-0477-c9f8-2947">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8849-3d2e-6265-b7db" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ae1-57d7-e8e4-2a33" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="583f-f03b-2624-4567" name="势力: *Order*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="583f-f03b-2624-4567" name="阵营: *Order*" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="259d-0477-c9f8-2947" name="势力: Daughters of Khaine" publicationId="388b-16d3-pubN65537" page="49" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="259d-0477-c9f8-2947" name="阵营: Daughters of Khaine" publicationId="388b-16d3-pubN65537" page="49" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="9b92-8766-4a00-c986" name="Fanatical Faith" publicationId="388b-16d3-pubN65537" page="50" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -3875,6 +3875,6 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="c410-4993-badf-5dc9" name="秩序 - 雷铸神兵 - Data" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="c410-4993-badf-5dc9" name="秩序 - 雷铸神兵 - 数据" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="6554-e5f8-d1e4-61b7" name="秩序 - Switfhawk Agents" revision="13" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="6554-e5f8-pubN65537" name="Grand Alliance: Order"/>
+    <publication id="6554-e5f8-pubN65537" name="大阵营: 秩序"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="0beb-4c70-3430-5a77" name="AELF" hidden="false"/>
@@ -16,7 +16,7 @@
     <categoryEntry id="6517-8ae7-42c5-b77f" name="SPIREGUARD" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="290d-763e-0da2-4b55" name="势力" hidden="false" collective="false" import="true" targetId="2b3a-3654-59df-3dff" type="selectionEntry">
+    <entryLink id="290d-763e-0da2-4b55" name="阵营" hidden="false" collective="false" import="true" targetId="2b3a-3654-59df-3dff" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -154,19 +154,19 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b3a-3654-59df-3dff" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2b3a-3654-59df-3dff" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="835e-655b-56d8-c757" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5f8-a663-af78-3fa6" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cc2f-1ea0-6afb-4369" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="b023-a285-4373-34d9">
+        <selectionEntryGroup id="cc2f-1ea0-6afb-4369" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="b023-a285-4373-34d9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bd3e-d757-7e87-aa8e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a65-d2ab-4f57-3a47" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="abdf-5379-195d-8198" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="abdf-5379-195d-8198" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="9899-dfc8-cda3-b3fb" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -178,7 +178,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b023-a285-4373-34d9" name="势力: Swifthawk Agents" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b023-a285-4373-34d9" name="阵营: Swifthawk Agents" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="981c-f1ef-c1cd-0ba1" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

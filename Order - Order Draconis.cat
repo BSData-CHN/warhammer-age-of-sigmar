@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="deca-a1f9-2c0a-3a3b" name="秩序 - Order Draconis" revision="11" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="deca-a1f9-pubN65537" name="Grand Alliance: Order"/>
+    <publication id="deca-a1f9-pubN65537" name="大阵营: 秩序"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="9bc2-07e6-dabf-813c" name="AELF" hidden="false"/>
@@ -11,7 +11,7 @@
     <categoryEntry id="9078-4e14-1863-dbce" name="DRAGON NOBLE" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="9e0e-2cc9-1c3f-4646" name="势力" hidden="false" collective="false" import="true" targetId="e898-910a-21b4-41e3" type="selectionEntry">
+    <entryLink id="9e0e-2cc9-1c3f-4646" name="阵营" hidden="false" collective="false" import="true" targetId="e898-910a-21b4-41e3" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -617,19 +617,19 @@
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e898-910a-21b4-41e3" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e898-910a-21b4-41e3" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c21e-074f-3045-ecd1" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="30a7-d190-1a28-ab9c" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9735-73b7-61e1-2e20" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="a664-a69b-93ed-5579">
+        <selectionEntryGroup id="9735-73b7-61e1-2e20" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="a664-a69b-93ed-5579">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a02-8280-5be8-0c8f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fbfa-5ce8-5425-6fb3" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c4b0-d4e3-f904-00bd" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c4b0-d4e3-f904-00bd" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="aa46-7893-db8c-88eb" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -641,7 +641,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a664-a69b-93ed-5579" name="势力: Order Draconis" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a664-a69b-93ed-5579" name="阵营: Order Draconis" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="c6f4-4a11-eadf-5dd4" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

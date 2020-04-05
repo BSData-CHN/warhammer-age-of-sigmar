@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="522a-d5b0-4c7e-321d" name="秩序 - Cities of Sigmar" revision="21" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="deec-d475-pubN65537" name="Grand Alliance: Order"/>
-    <publication id="e440-9199-1072-a7a0" name="Cities of Sigmar 军书"/>
+    <publication id="deec-d475-pubN65537" name="大阵营: 秩序"/>
+    <publication id="e440-9199-1072-a7a0" name="Cities of Sigmar军书"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="2e31-b1a1-10c7-22d4" name="GRIFFON" hidden="false"/>
@@ -263,7 +263,7 @@
         <categoryLink id="09f9-4631-f2f4-2dd8" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="false"/>
         <categoryLink id="d576-9a07-f443-38e5" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
         <categoryLink id="9d0a-babd-ff5d-2ac8" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
-        <categoryLink id="761d-923c-f9fd-6b8d" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
+        <categoryLink id="761d-923c-f9fd-6b8d" name="阵营" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
           <constraints>
             <constraint field="selections" scope="0db5-b074-ea11-2661" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c6e-b316-6fb4-4016" type="min"/>
           </constraints>
@@ -294,7 +294,7 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e07a-8193-2b4d-f3ae" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5ff9-a6f1-2d64-1edd" name="SYLVANETH" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false">
+        <categoryLink id="5ff9-a6f1-2d64-1edd" name="树海灵木" hidden="false" targetId="de6f-3fcb-09b2-a59e" primary="false">
           <modifiers>
             <modifier type="increment" field="943a-11bb-9439-5959" value="1.0">
               <repeats>
@@ -341,7 +341,7 @@
     <entryLink id="6dee-69e4-8940-e6d7" name="Freeguild Crossbowmen" hidden="false" collective="false" import="true" targetId="731e-cbfa-70d8-28eb" type="selectionEntry"/>
     <entryLink id="166d-212e-323a-5373" name="Flagellants" hidden="false" collective="false" import="true" targetId="6c57-67c3-945c-aaa9" type="selectionEntry"/>
     <entryLink id="36a3-909d-6d66-488b" name="Assassin" hidden="false" collective="false" import="true" targetId="bec5-213e-eccf-17e0" type="selectionEntry"/>
-    <entryLink id="9a80-45f2-d7a6-f86c" name="势力" hidden="false" collective="false" import="true" targetId="87f8-d0f2-e2c7-0668" type="selectionEntry">
+    <entryLink id="9a80-45f2-d7a6-f86c" name="阵营" hidden="false" collective="false" import="true" targetId="87f8-d0f2-e2c7-0668" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a0e4-eb32-1a4d-4294" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -1337,7 +1337,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87f8-d0f2-e2c7-0668" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="87f8-d0f2-e2c7-0668" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="06ec-3221-cc77-09c5" value="0.0">
           <conditions>
@@ -1350,13 +1350,13 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17ca-42a4-5740-2234" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3076-1c56-348e-61de" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="4455-f027-3b35-387c">
+        <selectionEntryGroup id="3076-1c56-348e-61de" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="4455-f027-3b35-387c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8938-c999-0c01-9045" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c6-67a8-82e1-ac3c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="67bf-fcea-b53b-f9c5" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="67bf-fcea-b53b-f9c5" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="34b3-c20a-4222-6784" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -1368,11 +1368,11 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4455-f027-3b35-387c" name="势力: Cities of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4455-f027-3b35-387c" name="阵营: Cities of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="f0ba-5ee9-2828-2ef5" name="Strongholds of Order" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose a Cities of Sigmar army, you must give it a city keyword from the list below. All CITIES OF SIGMAR units in your army gain that keyword, and you can use the 势力 abilities listed for that city on the pages indicated.
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">When you choose a Cities of Sigmar army, you must give it a city keyword from the list below. All CITIES OF SIGMAR units in your army gain that keyword, and you can use the 阵营 abilities listed for that city on the pages indicated.
 
 • HAMMERHAL (pg 64-65)
 • LIVING CITY (pg 66-67)
@@ -1382,7 +1382,7 @@
 • HALLOWHEART (pg 74-75)
 • TEMPEST’S EYE (pg 76-77)
 
-If a model already has a city keyword on its warscroll, it cannot gain another one. You can still include the model in your army, but you cannot use the 势力 abilities for its city</characteristic>
+If a model already has a city keyword on its warscroll, it cannot gain another one. You can still include the model in your army, but you cannot use the 阵营 abilities for its city</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c078-f8c8-4ed7-5207" name="Amplified Sorceries" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1477,7 +1477,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                         </profile>
                         <profile id="24b9-fba8-9be8-2b2b" name="The City Wargroves" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
                           <characteristics>
-                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">A Living City army can include SYLVANETH units. 1 in every 4 units in an army can be a SYLVANETH 单位. Those units gain the CITIES OF SIGMAR keyword and the LIVING CITY city keyword.</characteristic>
+                            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">A Living City army can include 树海灵木 units. 1 in every 4 units in an army can be a 树海灵木 单位. Those units gain the CITIES OF SIGMAR keyword and the LIVING CITY city keyword.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="950f-97d1-5277-3917" name="Hunters of the Hidden Paths" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -10359,7 +10359,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
           <profiles>
             <profile id="b9e8-1445-2cab-e9ac" name="Wardroth Horn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can sound the Wardroth Horn. If they do, until the start of your next 英雄阶段, add 1 to the Attacks characteristic of 肉搏 武器 used by LIVING CITY SYLVANETH units.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can sound the Wardroth Horn. If they do, until the start of your next 英雄阶段, add 1 to the Attacks characteristic of 肉搏 武器 used by LIVING CITY 树海灵木 units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11500,7 +11500,7 @@ If the bearer has a Wounds characteristic of 7 or more, while they are in cover,
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="22e0-2a9a-1fc7-b22e" name="秩序 - 卡拉顿天空霸主 - 数据" targetId="3981-271d-5871-845b" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - 雷铸神兵 - Data" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="0d03-03c0-3de1-50fc" name="秩序 - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9f18-49b4-4322-487b" name="秩序 - 雷铸神兵 - 数据" targetId="82b4-f6e1-3e37-5ea1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0d03-03c0-3de1-50fc" name="秩序 - 树海灵木 - 数据" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -109,7 +109,7 @@
         <categoryLink id="2e35-f724-9924-9d5f" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="010e-ed76-4523-f475" name="势力" hidden="false" collective="false" import="true" targetId="2779-3fd7-f711-e486" type="selectionEntry">
+    <entryLink id="010e-ed76-4523-f475" name="阵营" hidden="false" collective="false" import="true" targetId="2779-3fd7-f711-e486" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1705,19 +1705,19 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2779-3fd7-f711-e486" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2779-3fd7-f711-e486" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a76f-8c3c-f7e8-303c" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c08d-e4c9-43ea-1457" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9aa7-af7b-243b-c0a4" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="b125-3a74-03a7-94ac">
+        <selectionEntryGroup id="9aa7-af7b-243b-c0a4" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="b125-3a74-03a7-94ac">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6db5-27e5-dea0-7851" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e38-6ded-8a7f-2a34" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b125-3a74-03a7-94ac" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b125-3a74-03a7-94ac" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="44e1-b9a4-5e68-1be5" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

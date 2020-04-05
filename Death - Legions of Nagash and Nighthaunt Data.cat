@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e37a-2f18-f168-6ed3" name="Death: Legions of Nagash and Nighthaunt Data" revision="12" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e37a-2f18-f168-6ed3" name="Death: 纳加什军团 and Nighthaunt 数据" revision="12" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="e320-d5ec-pubN65537" name="军书: Legions of Nagash and 军书: Nighthaunt"/>
+    <publication id="e320-d5ec-pubN65537" name="军书: 纳加什军团 和 军书: Nighthaunt"/>
     <publication id="e320-d5ec-pubN65555" name="军书: Nighthaunt"/>
-    <publication id="e320-d5ec-pubN90237" name="Grand Alliance: Death"/>
-    <publication id="e320-d5ec-pubN95707" name="Legions of Nagash"/>
-    <publication id="e320-d5ec-pubN101284" name="军书: Legions of Nagash"/>
+    <publication id="e320-d5ec-pubN90237" name="大阵营: Death"/>
+    <publication id="e320-d5ec-pubN95707" name="纳加什军团"/>
+    <publication id="e320-d5ec-pubN101284" name="军书: 纳加什军团"/>
     <publication id="e320-d5ec-pubN102904" name="Vampire Counts: Warscroll Compendium"/>
     <publication id="e320-d5ec-pubN126193" name="Soul Wars"/>
     <publication id="e320-d5ec-pubN143137" name="Warhammer Underworlds: Nightvault"/>
     <publication id="e320-d5ec-pubN155726" name="Tomb Kings: Warscroll Compendium"/>
-    <publication id="241a-2f06-84ad-d21d" name="Death 军书: Nighthaunt"/>
+    <publication id="241a-2f06-84ad-d21d" name="Death军书: Nighthaunt"/>
   </publications>
   <profileTypes>
     <profileType id="c098-3f9a-28af-206d" name="Mourngul Wounds Suffered">
@@ -78,9 +78,9 @@
         <characteristicType id="6f77-9d28-18b4-fcb7" name="Spectral Host"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="660b-e9d5-c63d-92ce" name="Nagash&apos;s Wounds Suffered">
+    <profileType id="660b-e9d5-c63d-92ce" name="纳加什&apos;s Wounds Suffered">
       <characteristicTypes>
-        <characteristicType id="1a52-a9c3-b4d9-592e" name="The Nine Books of Nagash"/>
+        <characteristicType id="1a52-a9c3-b4d9-592e" name="The Nine Books of 纳加什"/>
         <characteristicType id="8b3e-deb8-c336-87dd" name="Zefet-nebtar"/>
         <characteristicType id="a90a-6b92-7baf-7503" name="Alakanash"/>
       </characteristicTypes>
@@ -121,7 +121,7 @@
     <categoryEntry id="7a67-dd1c-e979-4efb" name="ZOMBIE DRAGON" hidden="false"/>
     <categoryEntry id="82e0-6f10-9719-2714" name="CAIRN WRAITH" hidden="false"/>
     <categoryEntry id="f16f-2e67-9bf6-1c04" name="NECROMANCER" hidden="false"/>
-    <categoryEntry id="a30c-a3cc-8d16-7290" name="NAGASH" hidden="false"/>
+    <categoryEntry id="a30c-a3cc-8d16-7290" name="纳加什" hidden="false"/>
     <categoryEntry id="a3df-7eeb-bcac-ac90" name="DEATHLORDS" hidden="false"/>
     <categoryEntry id="4529-6256-6fef-0279" name="REANIMANT" hidden="false"/>
     <categoryEntry id="d1e1-d80a-c667-b587" name="VAMPIRE" hidden="false"/>
@@ -176,26 +176,26 @@
     <categoryEntry id="469f-24b2-d1fb-d182" name="Lantern" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7f4c-7d4b-6b8e-575b" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a7c-011c-dd6f-b62d">
+        <selectionEntryGroup id="10f7-5fb9-bd1f-7599" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a7c-011c-dd6f-b62d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0f54-f6f5-792d-47ba" name="势力: Legion of Grief" hidden="false" collective="false" import="true" targetId="b5ab-f60e-c534-427f" type="selectionEntry"/>
-            <entryLink id="77e1-5dcb-0332-c3de" name="势力: Legion of Sacrament" hidden="false" collective="false" import="true" targetId="9dbc-f610-1cfa-90dd" type="selectionEntry"/>
-            <entryLink id="ad27-d94d-7ae7-f384" name="势力: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
-            <entryLink id="aff6-f3f7-4f0e-d61a" name="势力: Legion of Night" hidden="false" collective="false" import="true" targetId="8037-0ed4-af4b-dcf3" type="selectionEntry"/>
-            <entryLink id="0f2a-bc55-0944-940a" name="势力: Soulblight" hidden="false" collective="false" import="true" targetId="3980-0249-eb07-3efd" type="selectionEntry"/>
-            <entryLink id="bf01-6c42-f136-e321" name="势力: Legion of Blood" hidden="false" collective="false" import="true" targetId="bf25-6b9f-6f44-5911" type="selectionEntry"/>
-            <entryLink id="97ec-ec28-f398-2dbd" name="势力: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
-            <entryLink id="4a7c-011c-dd6f-b62d" name="势力: Grand Host of Nagash" hidden="false" collective="false" import="true" targetId="0758-0294-87aa-6054" type="selectionEntry"/>
+            <entryLink id="0f54-f6f5-792d-47ba" name="阵营: Legion of Grief" hidden="false" collective="false" import="true" targetId="b5ab-f60e-c534-427f" type="selectionEntry"/>
+            <entryLink id="77e1-5dcb-0332-c3de" name="阵营: Legion of Sacrament" hidden="false" collective="false" import="true" targetId="9dbc-f610-1cfa-90dd" type="selectionEntry"/>
+            <entryLink id="ad27-d94d-7ae7-f384" name="阵营: *Death*" hidden="false" collective="false" import="true" targetId="8604-d495-e647-5fc9" type="selectionEntry"/>
+            <entryLink id="aff6-f3f7-4f0e-d61a" name="阵营: Legion of Night" hidden="false" collective="false" import="true" targetId="8037-0ed4-af4b-dcf3" type="selectionEntry"/>
+            <entryLink id="0f2a-bc55-0944-940a" name="阵营: Soulblight" hidden="false" collective="false" import="true" targetId="3980-0249-eb07-3efd" type="selectionEntry"/>
+            <entryLink id="bf01-6c42-f136-e321" name="阵营: Legion of Blood" hidden="false" collective="false" import="true" targetId="bf25-6b9f-6f44-5911" type="selectionEntry"/>
+            <entryLink id="97ec-ec28-f398-2dbd" name="阵营: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
+            <entryLink id="4a7c-011c-dd6f-b62d" name="阵营: Grand Host of 纳加什" hidden="false" collective="false" import="true" targetId="0758-0294-87aa-6054" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2193,7 +2193,7 @@
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c0c-91b9-f052-24af" name="Nagash, Supreme Lord of the Undead" publicationId="e320-d5ec-pubN101284" page="96" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7c0c-91b9-f052-24af" name="纳加什, Supreme Lord of the Undead" publicationId="e320-d5ec-pubN101284" page="96" hidden="false" collective="false" import="true" type="单位">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2212,42 +2212,42 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="003b-5089-c9c6-efb1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="daab-7684-ea5d-8f25" name="00-03" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="Nagash&apos;s Wounds Suffered">
+        <profile id="daab-7684-ea5d-8f25" name="00-03" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="纳加什&apos;s Wounds Suffered">
           <characteristics>
-            <characteristic name="The Nine Books of Nagash" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 5 extra spells</characteristic>
+            <characteristic name="The Nine Books of 纳加什" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 5 extra spells</characteristic>
             <characteristic name="Zefet-nebtar" typeId="8b3e-deb8-c336-87dd">6</characteristic>
             <characteristic name="Alakanash" typeId="a90a-6b92-7baf-7503">3+ cast / 3+ unbind</characteristic>
           </characteristics>
         </profile>
-        <profile id="00c9-5b3f-51b0-2b3a" name="11-13" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="Nagash&apos;s Wounds Suffered">
+        <profile id="00c9-5b3f-51b0-2b3a" name="11-13" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="纳加什&apos;s Wounds Suffered">
           <characteristics>
-            <characteristic name="The Nine Books of Nagash" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 2 extra spells</characteristic>
+            <characteristic name="The Nine Books of 纳加什" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 2 extra spells</characteristic>
             <characteristic name="Zefet-nebtar" typeId="8b3e-deb8-c336-87dd">3</characteristic>
             <characteristic name="Alakanash" typeId="a90a-6b92-7baf-7503">+2 cast / +1 unbind</characteristic>
           </characteristics>
         </profile>
-        <profile id="8ec7-961a-3831-c538" name="07-10" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="Nagash&apos;s Wounds Suffered">
+        <profile id="8ec7-961a-3831-c538" name="07-10" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="纳加什&apos;s Wounds Suffered">
           <characteristics>
-            <characteristic name="The Nine Books of Nagash" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 3 extra spells</characteristic>
+            <characteristic name="The Nine Books of 纳加什" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 3 extra spells</characteristic>
             <characteristic name="Zefet-nebtar" typeId="8b3e-deb8-c336-87dd">4</characteristic>
             <characteristic name="Alakanash" typeId="a90a-6b92-7baf-7503">+2 cast / +2 unbind</characteristic>
           </characteristics>
         </profile>
-        <profile id="9e9c-73e8-15ed-12be" name="04-06" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="Nagash&apos;s Wounds Suffered">
+        <profile id="9e9c-73e8-15ed-12be" name="04-06" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="纳加什&apos;s Wounds Suffered">
           <characteristics>
-            <characteristic name="The Nine Books of Nagash" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 4 extra spells</characteristic>
+            <characteristic name="The Nine Books of 纳加什" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 4 extra spells</characteristic>
             <characteristic name="Zefet-nebtar" typeId="8b3e-deb8-c336-87dd">5</characteristic>
             <characteristic name="Alakanash" typeId="a90a-6b92-7baf-7503">+3 cast / +2 unbind</characteristic>
           </characteristics>
         </profile>
-        <profile id="cf8a-1e7d-610d-5b2c" name="14+" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="Nagash&apos;s Wounds Suffered">
+        <profile id="cf8a-1e7d-610d-5b2c" name="14+" hidden="false" typeId="660b-e9d5-c63d-92ce" typeName="纳加什&apos;s Wounds Suffered">
           <characteristics>
-            <characteristic name="The Nine Books of Nagash" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 1 extra 法术</characteristic>
+            <characteristic name="The Nine Books of 纳加什" typeId="1a52-a9c3-b4d9-592e">Cast and unbind 1 extra 法术</characteristic>
             <characteristic name="Zefet-nebtar" typeId="8b3e-deb8-c336-87dd">2</characteristic>
             <characteristic name="Alakanash" typeId="a90a-6b92-7baf-7503">+1 cast / +1 unbind</characteristic>
           </characteristics>
         </profile>
-        <profile id="6f9a-6c88-aba3-e02e" name="Nagash" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
+        <profile id="6f9a-6c88-aba3-e02e" name="纳加什" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
             <characteristic name="施法/破法" typeId="8294-f605-2c0f-8f92">3/3 *</characteristic>
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Hand of Dust and Soul Stealer spells.</characteristic>
@@ -2258,19 +2258,19 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a mortal wound to this model. On a 1-3, nothing happens. On a 4-5, that mortal wound is negated. On a 6, that mortal wound is negated and the attacking 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4c72-3563-df65-c838" name="The Nine Books of Nagash" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="4c72-3563-df65-c838" name="The Nine Books of 纳加什" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Nine Books of Nagash allow Nagash to cast extra spells in your 英雄阶段 and unbind extra spells in the enemy 英雄阶段. The number of extra spells he can attempt to cast or unbind is shown on this model’s 损伤表.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Nine Books of 纳加什 allow 纳加什 to cast extra spells in your 英雄阶段 and unbind extra spells in the enemy 英雄阶段. The number of extra spells he can attempt to cast or unbind is shown on this model’s 损伤表.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0961-95f0-c86a-d537" name="Invocation of Nagash" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="0961-95f0-c86a-d537" name="Invocation of 纳加什" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, if this model is on the battlefield you can pick up to 5 different friendly SUMMONABLE units or friendly OSSIARCH BONEREAPERS units in any combination. For each of those units, you can either heal up to 3 wounds that have been allocated to that 单位 or, if no wounds have been allocated to it, you can return a number of slain models to that 单位 with a combined Wounds characteristic of 3 or less.</characteristic>
           </characteristics>
         </profile>
         <profile id="1cb2-3b65-4d84-38da" name="Death Magic Incarnate" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll any of the D3 rolls when using Nagash’s Deathly Invocation ability (above).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll any of the D3 rolls when using 纳加什’s Deathly Invocation ability (above).</characteristic>
           </characteristics>
         </profile>
         <profile id="d3b5-1340-ed46-56f6" name="Supreme Lord of the Undead" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -2278,7 +2278,7 @@
             <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model is on the battlefield. If you do so, until your next 英雄阶段, 可以重投命中骰的1 for attacks made by friendly DEATH units, you can re-roll save rolls of 1 for attacks that target friendly DEATH units, and do not take battleshock tests for friendly DEATH units.</characteristic>
           </characteristics>
         </profile>
-        <profile id="74f9-f2e8-fbac-dded" name="Nagash, Supreme Lord of the Undead" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="74f9-f2e8-fbac-dded" name="纳加什, Supreme Lord of the Undead" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">9寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -2304,13 +2304,13 @@
         <categoryLink id="2e59-f394-89f0-4274" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2082-09f8-bd4b-a1da" name="Gaze of Nagash" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2082-09f8-bd4b-a1da" name="Gaze of 纳加什" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d98-25c5-117b-931f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f171-efe3-183f-aad0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1bde-7e64-9db4-c2d0" name="Gaze of Nagash" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="1bde-7e64-9db4-c2d0" name="Gaze of 纳加什" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
@@ -4133,12 +4133,12 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <profiles>
         <profile id="bd71-7c9c-99d8-4af8" name="Ceaseless Vigil" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Before you allocate a wound or mortal wound to Nagash, you can pick a friendly Morghast 单位 from this 阵型 within 3寸 of Nagash and roll a dice. On a 3+ the wound or mortal wound is allocated to that 单位 instead. *勘误 Jun&apos;18*</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Before you allocate a wound or mortal wound to 纳加什, you can pick a friendly Morghast 单位 from this 阵型 within 3寸 of 纳加什 and roll a dice. On a 3+ the wound or mortal wound is allocated to that 单位 instead. *勘误 Jun&apos;18*</characteristic>
           </characteristics>
         </profile>
         <profile id="d69c-1b71-0dc3-c616" name="Eternal Servitude" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If Nagash uses his Deathly Invocation ability on any SUMMONABLE 单位 from the First Cohort, you can treat the D3 result as 3 instead of rolling the dice.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If 纳加什 uses his Deathly Invocation ability on any SUMMONABLE 单位 from the First Cohort, you can treat the D3 result as 3 instead of rolling the dice.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4147,13 +4147,13 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <categoryLink id="f919-4e8d-58eb-ef31" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b732-362a-99a6-edb6" name="1) Nagash" hidden="false" collective="false" import="true" defaultSelectionEntryId="46f1-68e9-81ad-2e7d">
+        <selectionEntryGroup id="b732-362a-99a6-edb6" name="1) 纳加什" hidden="false" collective="false" import="true" defaultSelectionEntryId="46f1-68e9-81ad-2e7d">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc5e-d7d6-2cd6-5e32" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd57-c81f-4647-0df4" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="46f1-68e9-81ad-2e7d" name="Nagash, Supreme Lord of the Undead" hidden="false" collective="false" import="true" targetId="7c0c-91b9-f052-24af" type="selectionEntry">
+            <entryLink id="46f1-68e9-81ad-2e7d" name="纳加什, Supreme Lord of the Undead" hidden="false" collective="false" import="true" targetId="7c0c-91b9-f052-24af" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="362e-4a3f-cb9b-4ab1" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
                 <categoryLink id="bc02-f3fb-632c-9d16" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
@@ -4833,7 +4833,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             <characteristic name="Sword-like Claws" typeId="3233-3d20-d2d4-1d25">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="a048-ab3a-d58a-0b96" name="Fist of Nagash" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
+        <profile id="a048-ab3a-d58a-0b96" name="Fist of 纳加什" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
             <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">If Prince Vhordrai uses this ability, pick a friendly DEATH HEROwithin 14寸 of him (you cannot choose Prince Vhordrai). That 英雄 can immediately either be chosen to pile in and attack as if it were the combat phase, or if it is a 法师, attempt to cast a 法术 in addition to any others they can attempt to cast this phase. The same 单位 cannot be picked to benefit from this command ability more than once per 英雄阶段. *勘误 Jun&apos;18*</characteristic>
           </characteristics>
@@ -5436,7 +5436,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battleshock phase, if 3 or more enemy models were slain that turn, pick a friendly NIGHTHAUNT 单位 within 6寸 of this model and heal D3 wounds that have been allocated to that 单位. If 3 or more enemy STORMCAST ETERNAL models were slain that turn, heal 3 wounds instead of D3 wounds. Alternatively, instead of healing the 单位 you picked, if models from that 单位 have been slain, you can return them to the 单位. Roll a D3; you can return any slain models to that 单位 that have a combined Wounds characteristic of less than or equal to the number you rolled. If your army includes more than one SPIRIT TORMENT, at least 3 enemy models must have been slain during the turn for each SPIRIT TORMENT that uses this ability, and no SPIRIT TORMENT can use this ability more than once in the same battleshock phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="021e-f61b-ee74-cd00" name="Nagash&apos;s Bidding" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="021e-f61b-ee74-cd00" name="纳加什&apos;s Bidding" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly NIGHTHAUNT units while they are wholly within 12寸 of any friendly Spirit Torments.</characteristic>
           </characteristics>
@@ -7269,7 +7269,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="be6c-8155-ebb2-3b13" name="Summon Mortalis Terminexus" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Mortalis Terminexus. If successfully cast, set up a Mortalis Terminexus model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Mortalis Terminexus. If successfully cast, set up a Mortalis Terminexus model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="0313-e551-7f1e-5d28" name="Keeper of Mortality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -7309,7 +7309,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="54fc-91a8-4a94-c99e" name="Summon Shyish Reaper" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Shyish Reaper. [...] If successfully cast, set up a Shyish Reaper model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Shyish Reaper. [...] If successfully cast, set up a Shyish Reaper model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="2493-7e1b-d06f-c02b" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -7354,7 +7354,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="1a30-4b26-6471-e0f3" name="Summon Vault of Souls" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only Nagash, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Vault of Souls. [...] If successfully cast, set up a Vault of Souls model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Vault of Souls. [...] If successfully cast, set up a Vault of Souls model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="fd4a-2405-b6a8-3747" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -7954,7 +7954,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b5ab-f60e-c534-427f" name="势力: Legion of Grief" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b5ab-f60e-c534-427f" name="阵营: Legion of Grief" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="1388-e3db-f1d3-142b" name="Invigorating Aura" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -7984,7 +7984,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0595-259c-9405-8b88" name="势力: Nighthaunt" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0595-259c-9405-8b88" name="阵营: Nighthaunt" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="934b-374d-6c6e-0d57" name="Deathless Spirits" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8021,7 +8021,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8604-d495-e647-5fc9" name="势力: *Death*" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8604-d495-e647-5fc9" name="阵营: *Death*" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c6dc-760c-dfb7-af7c" name="Deathless Minions" hidden="false" targetId="3998-f3e4-90e7-348a" type="profile"/>
       </infoLinks>
@@ -8076,7 +8076,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9dbc-f610-1cfa-90dd" name="势力: Legion of Sacrament" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9dbc-f610-1cfa-90dd" name="阵营: Legion of Sacrament" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="41de-36a4-89b5-5339" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8103,21 +8103,21 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0758-0294-87aa-6054" name="势力: Grand Host of Nagash" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0758-0294-87aa-6054" name="阵营: Grand Host of 纳加什" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4208-58ce-ef10-1961" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">All WIZARDS in a GRAND HOST OF NAGASH army know an additional 法术 from one of the Lores of the Dead. If Nagash is included in the army, he instead knows an additional 3 spells from the Lores of the Dead.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">All WIZARDS in a GRAND HOST OF 纳加什 army know an additional 法术 from one of the Lores of the Dead. If 纳加什 is included in the army, he instead knows an additional 3 spells from the Lores of the Dead.</characteristic>
           </characteristics>
         </profile>
         <profile id="09dc-1a0c-7e0c-f082" name="Chosen Guardians" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to the Attacks characteristic of all 肉搏 武器 used by GRAND HOST OF NAGASH MORGHAST units.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Add 1 to the Attacks characteristic of all 肉搏 武器 used by GRAND HOST OF 纳加什 MORGHAST units.</characteristic>
           </characteristics>
         </profile>
         <profile id="5b8f-f569-1608-77ee" name="Legions Innumerable" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">In your 英雄阶段, you may roll a dice for each friendly GRAND HOST OF NAGASH SUMMONABLE 单位 on the battlefield. On a 5+ you can heal up to D3 wounds that have been allocated to it. For units with a Wounds characteristic of 1, return 1 slain model to the 单位 for each wound that would have been healed.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">In your 英雄阶段, you may roll a dice for each friendly GRAND HOST OF 纳加什 SUMMONABLE 单位 on the battlefield. On a 5+ you can heal up to D3 wounds that have been allocated to it. For units with a Wounds characteristic of 1, return 1 slain model to the 单位 for each wound that would have been healed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8130,7 +8130,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf25-6b9f-6f44-5911" name="势力: Legion of Blood" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bf25-6b9f-6f44-5911" name="阵营: Legion of Blood" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="6105-7c05-0349-0fac" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8157,7 +8157,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8037-0ed4-af4b-dcf3" name="势力: Legion of Night" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8037-0ed4-af4b-dcf3" name="阵营: Legion of Night" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="be6c-a582-10f8-9ada" name="魔法" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8184,7 +8184,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3980-0249-eb07-3efd" name="势力: Soulblight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3980-0249-eb07-3efd" name="阵营: Soulblight" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="78bc-7665-1f20-b54b" name="Deathless Thralls" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
@@ -8397,7 +8397,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4524-f252-20bc-b183" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="ff1f-1c0c-762e-d93d" name="Artefacts of Nagash" hidden="false" collective="false" import="true" targetId="4752-682c-da1f-a5d5" type="selectionEntryGroup">
+        <entryLink id="ff1f-1c0c-762e-d93d" name="Artefacts of 纳加什" hidden="false" collective="false" import="true" targetId="4752-682c-da1f-a5d5" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8491,7 +8491,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4752-682c-da1f-a5d5" name="Artefacts of Nagash" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4752-682c-da1f-a5d5" name="Artefacts of 纳加什" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2599-cc33-2fba-970c" type="max"/>
       </constraints>
@@ -9244,7 +9244,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="0591-16f8-c7c7-1e07" name="Grand Host of Nagash Command Traits" hidden="false" collective="false" import="true" targetId="2d6e-6f22-c967-c81f" type="selectionEntryGroup">
+        <entryLink id="0591-16f8-c7c7-1e07" name="Grand Host of 纳加什 Command Traits" hidden="false" collective="false" import="true" targetId="2d6e-6f22-c967-c81f" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9645,7 +9645,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2d6e-6f22-c967-c81f" name="Traits: Grand Host of Nagash" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2d6e-6f22-c967-c81f" name="Traits: Grand Host of 纳加什" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d428-6013-f8e9-83a6" type="max"/>
       </constraints>

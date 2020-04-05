@@ -103,7 +103,7 @@
     <categoryEntry id="3f68-596d-4abd-d26c" name="BOUND" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="7332-f387-438b-852c" name="势力" hidden="false" collective="false" import="true" targetId="9392-2a0a-99ca-28fe" type="selectionEntry">
+    <entryLink id="7332-f387-438b-852c" name="阵营" hidden="false" collective="false" import="true" targetId="9392-2a0a-99ca-28fe" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -549,19 +549,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9392-2a0a-99ca-28fe" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9392-2a0a-99ca-28fe" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dcab-3034-f776-022e" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="2769-f63b-fc02-fd64">
+        <selectionEntryGroup id="dcab-3034-f776-022e" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="2769-f63b-fc02-fd64">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2769-f63b-fc02-fd64" name="势力: Seraphon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2769-f63b-fc02-fd64" name="阵营: Seraphon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="5928-0e85-a9e8-db2e" name="The Great Drake" publicationId="3721-70d4-pubN65537" hidden="false" typeId="392b-293b-df9e-2f68" typeName="Secret Asterisms">
                   <characteristics>
@@ -928,7 +928,7 @@ At the end of your movement phase, you can set up one or more of the reserve uni
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1819-5e57-783b-70d0" name="势力: *Order*" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1819-5e57-783b-70d0" name="阵营: *Order*" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>

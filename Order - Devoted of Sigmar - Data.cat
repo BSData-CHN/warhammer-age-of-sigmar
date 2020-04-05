@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4b5c-7068-f40e-0e0f" name="秩序 - Devoted of Sigmar - Data" revision="14" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4b5c-7068-f40e-0e0f" name="秩序 - Devoted of Sigmar - 数据" revision="14" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="22a9-8d6a-pubN65537" name="Grand Alliance: Order"/>
-    <publication id="22a9-8d6a-pubN69181" name="Grand Alliance: Order 勘误, June 2018"/>
+    <publication id="22a9-8d6a-pubN65537" name="大阵营: 秩序"/>
+    <publication id="22a9-8d6a-pubN69181" name="大阵营: 秩序 勘误, June 2018"/>
   </publications>
   <categoryEntries>
     <categoryEntry id="eb4c-f7bc-8966-0247" name="DEVOTED OF SIGMAR" hidden="false"/>
@@ -15,19 +15,19 @@
     <categoryEntry id="2fa3-7192-5ce2-10a5" name="CELESTIAL" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="e869-2e69-5dd1-a5be" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e869-2e69-5dd1-a5be" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7534-d5c8-b5fc-25ae" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e812-8b5d-c196-7429" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="44a8-ac80-af98-315b" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e6b-554a-690f-6a09">
+        <selectionEntryGroup id="44a8-ac80-af98-315b" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e6b-554a-690f-6a09">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dac4-9fa0-9855-4489" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a69-2eac-4637-8c7f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a4c6-1c18-64b8-da7b" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a4c6-1c18-64b8-da7b" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="d452-e2ee-59c8-a3d3" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
@@ -39,7 +39,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1e6b-554a-690f-6a09" name="势力: Devoted of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1e6b-554a-690f-6a09" name="阵营: Devoted of Sigmar" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="8e9b-e9b5-0ad1-e3a6" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

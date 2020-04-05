@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b713-a274-2a46-fe02" name="秩序 - Idoneth Deepkin - Data" revision="25" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b713-a274-2a46-fe02" name="秩序 - Idoneth Deepkin - 数据" revision="25" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0d25-2712-pubN65537" name="秩序军书: Idoneth Deepkin"/>
     <publication id="0d25-2712-pubN70885" name="GHB 2018 勘误, June 2018"/>
@@ -63,13 +63,13 @@
     <categoryEntry id="4fc4-6477-589d-8faf" name="BRANCHWYCH" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="e2ee-2634-4e4c-6340" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e2ee-2634-4e4c-6340" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4ef-da99-a436-99bc" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bf4-2758-5f9d-84ad" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3d08-1ef7-fa6e-41e3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="488b-4b28-f4b7-0557">
+        <selectionEntryGroup id="3d08-1ef7-fa6e-41e3" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="488b-4b28-f4b7-0557">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ed7-6b7c-3485-c313" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e05-803f-acb1-26a4" type="min"/>
@@ -2459,7 +2459,7 @@
       <profiles>
         <profile id="d473-e47d-67b4-24c4" name="Full Fury of the Storm" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If your army has the IDONETH DEEPKIN 势力 and includes this 阵型, then once per battle at the start of a battle round, you can choose to use the High Tide ability from the Tides of Death table (pg 86) for that battle round instead of the ability that would normally be used.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If your army has the IDONETH DEEPKIN 阵营 and includes this 阵型, then once per battle at the start of a battle round, you can choose to use the High Tide ability from the Tides of Death table (pg 86) for that battle round instead of the ability that would normally be used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2553,7 +2553,7 @@
       <profiles>
         <profile id="1fa0-ba56-400c-77ea" name="Strength of the Ethersea" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">SYLVANETH units from this 阵型 have the Tides of Death 战斗特性, and gain abilities from the Tides of Death table in the same manner as IDONETH DEEPKIN units.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">树海灵木 units from this 阵型 have the Tides of Death 战斗特性, and gain abilities from the Tides of Death table in the same manner as IDONETH DEEPKIN units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3048,7 +3048,7 @@
           <profiles>
             <profile id="1a0e-3f29-5596-d076" name="Abyssal Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the SLAANESH keyword.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick a weapon carried by the bearer to be the Abyssal Blade. Improve the Rend characteristic of that weapon by 1. In addition, add 1 to the Damage characteristic of that weapon if the target has the 色孽 keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3685,6 +3685,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="ed48-ee45-0f3d-5d2d" name="秩序 - Sylvaneth - Data" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ed48-ee45-0f3d-5d2d" name="秩序 - 树海灵木 - 数据" targetId="ab8b-39f3-ebc0-e9ab" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

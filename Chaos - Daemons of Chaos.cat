@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c8da-7df9-793f-98ba" name="混沌 - Daemons of 混沌" revision="12" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c8da-7df9-793f-98ba" name="混沌 - 混沌恶魔" revision="12" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="c8da-7df9-pubN65537" name="Grand Alliance: 混沌"/>
+    <publication id="c8da-7df9-pubN65537" name="大阵营: 混沌"/>
   </publications>
   <profileTypes>
     <profileType id="45a1-fad9-2c1f-6cfa" name="Soul Grinder Wounds">
@@ -30,7 +30,7 @@
     <categoryEntry id="3461-9201-d262-e792" name="BE&apos;LAKOR" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="2122-46f3-20b5-6135" name="势力" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
+    <entryLink id="2122-46f3-20b5-6135" name="阵营" hidden="false" collective="false" import="true" targetId="3925-778a-9672-5a95" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="daac-add2-5c92-b04b" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true"/>
       </categoryLinks>
@@ -59,19 +59,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3925-778a-9672-5a95" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3925-778a-9672-5a95" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="307b-c118-0ea4-79b6" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8871-e34d-6f00-8ce6" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="de07-fa4e-9d03-69c3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="8edb-c8a9-18b0-4ced">
+        <selectionEntryGroup id="de07-fa4e-9d03-69c3" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="8edb-c8a9-18b0-4ced">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb6-b8a7-41e3-fa8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc5d-4b04-892d-34a8" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8edb-c8a9-18b0-4ced" name="势力: 混沌" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8edb-c8a9-18b0-4ced" name="阵营: 混沌" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -192,7 +192,7 @@
         </profile>
         <profile id="e623-08bb-7b93-82da" name="Immortal Champion" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you set up this model, you can declare that it is dedicated to 恐虐, NURGLE, SLAANESH or TZEENTCH.  If you do, the 恶魔 Prince replaces its Cursed Soul-eater ability with the relevant ability from the Immortal Champion table.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you set up this model, you can declare that it is dedicated to 恐虐, 纳垢, 色孽 or 奸奇.  If you do, the 恶魔 Prince replaces its Cursed Soul-eater ability with the relevant ability from the Immortal Champion table.</characteristic>
           </characteristics>
         </profile>
         <profile id="07b9-9c7e-a0ca-4e94" name="恐虐" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
@@ -200,17 +200,17 @@
             <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes, their veins running with liquid fire, are blood-crazed champions. You can add 1 to all hit rolls made for a 恐虐 恶魔 Prince.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4d16-a417-e737-12df" name="Nurgle" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
+        <profile id="4d16-a417-e737-12df" name="纳垢" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are bloated with disease, and are unnaturally resistent to harm. A Nurgle 恶魔 Prince has a save of 3+.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are bloated with disease, and are unnaturally resistent to harm. A 纳垢 恶魔 Prince has a save of 3+.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ea7a-2bf6-8396-fa18" name="Tzeentch" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
+        <profile id="ea7a-2bf6-8396-fa18" name="奸奇" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
-            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are surrounded by a nimbus of magical light. A Tzeentch 恶魔 Prince is a 法师. It can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. A Tzeentch 恶魔 Prince knows the Arcane Bolt and Mystic Shield Spells.</characteristic>
+            <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are surrounded by a nimbus of magical light. A 奸奇 恶魔 Prince is a 法师. It can attempt to cast one 法术 in each of your 英雄 phases, and attempt to unbind one 法术 in each enemy 英雄阶段. A 奸奇 恶魔 Prince knows the Arcane Bolt and Mystic Shield Spells.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2135-68ed-d682-c6f0" name="Slaanesh" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
+        <profile id="2135-68ed-d682-c6f0" name="色孽" hidden="false" typeId="1d4d-2cd3-a921-678f" typeName="Immortal Champion">
           <characteristics>
             <characteristic name="Ability" typeId="4571-ae64-68a3-0bc5">恶魔 Princes are lithe and exotic, their every movement impossibly quick. When your opponent selects a 单位 within 3寸 of the 恶魔 Prince to pile in and attack in the combat phase, you can immediately select the 恶魔 Prince to pile in and attack before the enemy 单位, even though it is not your turn to do so. This model can only do this if it has not already attacked in this phase.</characteristic>
           </characteristics>
@@ -303,7 +303,7 @@
         </profile>
         <profile id="c989-23a4-1c1d-2155" name="Shadows of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up this 单位, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: 恐虐, TZEENTCH, NURGLE or SLAANESH.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up this 单位, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: 恐虐, 奸奇, 纳垢 or 色孽.</characteristic>
           </characteristics>
         </profile>
         <profile id="446f-499c-1415-15eb" name="Prey Upon Terror" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -358,7 +358,7 @@
         </profile>
         <profile id="b9d9-4b95-dc19-4db8" name="恶魔 Engine of the Dark Gods" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up a Soul Grinder, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: 恐虐, TZEENTCH, NURGLE or SLAANESH.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If you wish, when setting up a Soul Grinder, you can pick one of the following keywords to apply to this 单位 for the duration of the battle: 恐虐, 奸奇, 纳垢 or 色孽.</characteristic>
           </characteristics>
         </profile>
         <profile id="1d14-5281-504f-6ebc" name="Implacable Advance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">

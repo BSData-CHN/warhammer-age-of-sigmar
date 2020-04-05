@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0e6-fdbe-bf87-635e" name="秩序 - High Elves" revision="7" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0e6-fdbe-bf87-635e" name="秩序 - 高等精灵" revision="7" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="f0e6-fdbe-pubN65537" name="High Elves Warscroll Compendium"/>
+    <publication id="f0e6-fdbe-pubN65537" name="高等精灵 Warscroll Compendium"/>
   </publications>
   <profileTypes>
     <profileType id="6225-ea79-ad10-453c" name="Crew Table">
@@ -24,7 +24,7 @@
     <categoryEntry id="b236-1152-8593-a39c" name="SEAWARDEN" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="2284-42cf-eccf-5df5" name="势力" hidden="false" collective="false" import="true" targetId="4061-375a-0f4a-6bba" type="selectionEntry">
+    <entryLink id="2284-42cf-eccf-5df5" name="阵营" hidden="false" collective="false" import="true" targetId="4061-375a-0f4a-6bba" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -122,19 +122,19 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4061-375a-0f4a-6bba" name="势力" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4061-375a-0f4a-6bba" name="阵营" hidden="false" collective="false" import="true" type="单位">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9852-0b47-6350-b3b6" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f2a-c06a-3a87-d64b" type="max"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3a40-6415-02b9-7cd3" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8fa-0828-84d6-081b">
+        <selectionEntryGroup id="3a40-6415-02b9-7cd3" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8fa-0828-84d6-081b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4391-9cf0-b755-a0e4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="66a7-cdea-8ae0-8abd" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e8fa-0828-84d6-081b" name="势力: Order" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e8fa-0828-84d6-081b" name="阵营: Order" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1f7f-72db-a54a-3032" name="Defiant Avengers" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

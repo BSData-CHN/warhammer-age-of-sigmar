@@ -169,7 +169,7 @@
         <categoryLink id="5c36-e9a9-ad43-a38e" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cabc-7926-10ad-fc7c" name="势力" hidden="false" collective="false" import="true" targetId="904c-53b5-501f-08e0" type="selectionEntry">
+    <entryLink id="cabc-7926-10ad-fc7c" name="阵营" hidden="false" collective="false" import="true" targetId="904c-53b5-501f-08e0" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1892,20 +1892,20 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="904c-53b5-501f-08e0" name="势力" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="904c-53b5-501f-08e0" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf4-588a-ea62-504f" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b30-0603-7001-faa1" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43af-324b-fef9-d5ad" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ee8d-10b3-706d-ea7a" name="势力" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed37-3e74-a225-25ce">
+        <selectionEntryGroup id="ee8d-10b3-706d-ea7a" name="阵营" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed37-3e74-a225-25ce">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79e-c6e4-7315-a107" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec2c-4448-c668-aa8c" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ce74-fe99-620c-0868" name="势力: 混沌" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ce74-fe99-620c-0868" name="阵营: 混沌" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="15f2-097f-e587-dfa1" name="Unpredictable Destruction" hidden="false" targetId="6884-967e-0150-274e" type="profile"/>
               </infoLinks>
@@ -1916,7 +1916,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ed37-3e74-a225-25ce" name="势力: Legion of Azgorh" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ed37-3e74-a225-25ce" name="阵营: Legion of Azgorh" publicationId="8c11-75b5-pubN65537" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="cc39-e510-96c7-c0a7" name="Blackshard Armor" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>

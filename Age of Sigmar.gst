@@ -129,14 +129,14 @@
     </categoryEntry>
     <categoryEntry id="c4f8-4679-229d-7c37" name="CREW" hidden="false"/>
     <categoryEntry id="7cdd-80ea-cbeb-8e16" name="混沌" hidden="false"/>
-    <categoryEntry id="87e8-c095-f059-5f7b" name="势力" hidden="false"/>
+    <categoryEntry id="87e8-c095-f059-5f7b" name="阵营" hidden="false"/>
     <categoryEntry id="b970-b3bf-e1a4-a6fc" name="秩序" hidden="false"/>
     <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="死亡" hidden="false"/>
     <categoryEntry id="d963-a5fb-c348-2371" name="毁灭" hidden="false"/>
     <categoryEntry id="2654-58fb-a46f-b28d" name="卡拉顿天空霸主" hidden="false"/>
     <categoryEntry id="9efd-7c5d-dc14-2302" name="DAUGHTERS OF KHAINE" hidden="false"/>
     <categoryEntry id="b396-0600-80d6-cee9" name="雷铸神兵" hidden="false"/>
-    <categoryEntry id="de6f-3fcb-09b2-a59e" name="SYLVANETH" hidden="false"/>
+    <categoryEntry id="de6f-3fcb-09b2-a59e" name="树海灵木" hidden="false"/>
     <categoryEntry id="1f30-24b4-f90b-c2c2" name="DARKLING COVENS" hidden="false"/>
     <categoryEntry id="4e6a-bfb6-606f-fc89" name="DISPOSSESSED" hidden="false"/>
     <categoryEntry id="4ec3-efa9-35ba-d55f" name="FYRESLAYERS" hidden="false"/>
@@ -144,18 +144,18 @@
     <categoryEntry id="461d-c7cb-74f1-84e8" name="SERAPHON" hidden="false"/>
     <categoryEntry id="9085-6734-ca06-e1e3" name="WANDERERS" hidden="false"/>
     <categoryEntry id="812f-790a-4f66-0476" name="BRAYHERD" hidden="false"/>
-    <categoryEntry id="3963-2e99-aa63-c65e" name="SLAANESH" hidden="false"/>
-    <categoryEntry id="dd77-19a5-28eb-cbec" name="NURGLE" hidden="false"/>
+    <categoryEntry id="3963-2e99-aa63-c65e" name="色孽" hidden="false"/>
+    <categoryEntry id="dd77-19a5-28eb-cbec" name="纳垢" hidden="false"/>
     <categoryEntry id="f22b-976f-fc38-366a" name="恐虐" hidden="false"/>
-    <categoryEntry id="4ba7-618a-4e30-2e0c" name="SLAVES TO DARKNESS" hidden="false"/>
+    <categoryEntry id="4ba7-618a-4e30-2e0c" name="黑暗之奴" hidden="false"/>
     <categoryEntry id="5432-a6f0-46f0-db4a" name="PESTILENS" hidden="false"/>
     <categoryEntry id="0aa0-da78-a43c-3e8c" name="SKRYRE" hidden="false"/>
-    <categoryEntry id="8f8a-7c29-799e-ace9" name="SKAVEN" hidden="false"/>
-    <categoryEntry id="7d12-f4c5-3832-0f19" name="TZEENTCH" hidden="false"/>
+    <categoryEntry id="8f8a-7c29-799e-ace9" name="斯卡文" hidden="false"/>
+    <categoryEntry id="7d12-f4c5-3832-0f19" name="奸奇" hidden="false"/>
     <categoryEntry id="6b35-0508-c6cc-6592" name="FLESH-EATER COURTS" hidden="false"/>
     <categoryEntry id="c352-dff7-7050-6f8d" name="NIGHTHAUNT" hidden="false"/>
     <categoryEntry id="7bf1-507e-d551-9b60" name="SOULBLIGHT" hidden="false"/>
-    <categoryEntry id="233f-0198-1947-eacd" name="GRAND HOST OF NAGASH" hidden="false"/>
+    <categoryEntry id="233f-0198-1947-eacd" name="GRAND HOST OF 纳加什" hidden="false"/>
     <categoryEntry id="2691-54ce-d160-1694" name="LEGION OF BLOOD" hidden="false"/>
     <categoryEntry id="f035-07f3-0d47-af06" name="LEGION OF NIGHT" hidden="false"/>
     <categoryEntry id="ef14-184f-4f60-051d" name="LEGION OF SACRAMENT" hidden="false"/>
@@ -168,7 +168,7 @@
     <categoryEntry id="1422-e165-b7d0-b2d9" name="OGOR" hidden="false"/>
     <categoryEntry id="c91f-5c40-bec0-1a93" name="DRAGON" hidden="false"/>
     <categoryEntry id="6ec4-4931-4d7f-006b" name="IDONETH DEEPKIN" hidden="false"/>
-    <categoryEntry id="be2f-aa63-6d82-e2fc" name="势力: 恐虐" hidden="false"/>
+    <categoryEntry id="be2f-aa63-6d82-e2fc" name="阵营: 恐虐" hidden="false"/>
     <categoryEntry id="1974-3f49-7f0b-8422" name="游戏选项" hidden="false"/>
     <categoryEntry id="fd9f-428a-177d-c765" name="Vanguard" hidden="false"/>
     <categoryEntry id="6330-7561-7a32-0851" name="Battlehost" hidden="false"/>
@@ -422,7 +422,7 @@
         <categoryLink id="bc41-5536-8011-4348" name="阵型" hidden="false" targetId="be17-6bbd-b857-3f43" primary="false"/>
         <categoryLink id="fadd-b7fa-31f8-4fb3" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
         <categoryLink id="f81e-6d6a-67b4-db13" name="魔法道具" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
-        <categoryLink id="f631-f98a-5c53-05bb" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
+        <categoryLink id="f631-f98a-5c53-05bb" name="阵营" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
           <constraints>
             <constraint field="selections" scope="36b7-ee1e-0855-f23f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5841-14a7-e06c-3f06" type="min"/>
           </constraints>
@@ -498,7 +498,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5894-736b-3be1-5a94" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f893-5b2f-eb0f-0a31" name="势力" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
+        <categoryLink id="f893-5b2f-eb0f-0a31" name="阵营" hidden="false" targetId="87e8-c095-f059-5f7b" primary="false">
           <constraints>
             <constraint field="selections" scope="cce4-bc9d-0c7e-74c3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a84b-92b6-09fc-c9bb" type="min"/>
           </constraints>
@@ -4404,7 +4404,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="c0f9-cbae-79d2-3d07" name="Malign Portents Artefacts - Mortal Slaanesh" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="c0f9-cbae-79d2-3d07" name="Malign Portents Artefacts - Mortal 色孽" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>

@@ -865,7 +865,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bcfe-fca6-6bb7-9d98" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="bcfe-fca6-6bb7-9d98" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c336-90ff-ebdd-cdd6" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -973,7 +973,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b7b7-b4c4-2ba6-3533" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="b7b7-b4c4-2ba6-3533" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="78da-51b4-4e2c-a0db" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1022,7 +1022,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="70c3-a871-2959-3f48" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="70c3-a871-2959-3f48" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4c38-6913-009e-bc41" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1062,7 +1062,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b6c5-3639-29e8-2d96" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="b6c5-3639-29e8-2d96" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e16b-e04d-41ad-aa44" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1106,7 +1106,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1ea1-53b4-1328-493e" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="1ea1-53b4-1328-493e" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e2c8-ee2b-6a8a-3bfc" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1150,7 +1150,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="be2f-86ff-e6bb-7cad" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="be2f-86ff-e6bb-7cad" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8cfd-261e-8d93-fdf3" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1235,7 +1235,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c5b4-0486-5a71-dcd8" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="c5b4-0486-5a71-dcd8" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b230-aaa9-f19e-b2ce" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1279,7 +1279,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="acd4-e86a-ad0a-7bcb" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="acd4-e86a-ad0a-7bcb" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d12a-56b2-d233-8d17" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1323,7 +1323,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c529-22c8-4413-2bea" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="c529-22c8-4413-2bea" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8e10-5498-a55f-0a68" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1475,7 +1475,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c070-aff0-0add-0d50" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="c070-aff0-0add-0d50" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="27d3-7de8-58e3-bea7" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1524,7 +1524,7 @@ to set up the 法师, then the 法师 is slain.</描述>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0fd6-1afc-c9db-70f3" name="Fly" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
+        <infoLink id="0fd6-1afc-c9db-70f3" name="飞行" hidden="false" targetId="8e0c-cbe4-27be-8a30" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="45c3-0350-c231-e9b8" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -4794,9 +4794,9 @@ to set up the 法师, then the 法师 is slain.</描述>
         <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 18寸 of the caster that is visible to them. Re-roll save rolls of 1 for that 单位 until your next 英雄阶段.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8e0c-cbe4-27be-8a30" name="Fly" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+    <profile id="8e0c-cbe4-27be-8a30" name="飞行" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 can fly.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">这个单位可以飞行.</characteristic>
       </characteristics>
     </profile>
     <profile id="6884-967e-0150-274e" name="Unbridled Malice" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">

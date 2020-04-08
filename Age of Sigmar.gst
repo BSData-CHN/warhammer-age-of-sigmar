@@ -11,10 +11,10 @@
     <publication id="e51d-b1a3-pubEHOGM" name="Malign Sorcery"/>
   </publications>
   <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="0.0"/>
+    <costType id="points" name="分" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="1960-ca8e-67ce-2014" name="unit">
+    <profileType id="1960-ca8e-67ce-2014" name="单位">
       <characteristicTypes>
         <characteristicType id="8655-6213-2824-1752" name="移动力"/>
         <characteristicType id="cd0e-fea6-411f-904d" name="生命值"/>
@@ -567,12 +567,12 @@
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7126-cd45-a30a-dbb3" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="分" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19fe-0099-8319-6fdf" name="分数变化" hidden="false" collective="false" import="true" type="upgrade">
@@ -594,7 +594,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f347-8cd2-abc3-3b03" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa3a-742d-9e34-e701" name="- 250分" hidden="false" collective="false" import="true" type="upgrade">
@@ -602,7 +602,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efe9-c259-d561-60e2" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4c1d-7a55-fa32-d2be" name="+ 250分" hidden="false" collective="false" import="true" type="upgrade">
@@ -610,7 +610,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6952-757b-ea6d-06a6" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="45c9-0873-d072-007a" name="+ 500分" hidden="false" collective="false" import="true" type="upgrade">
@@ -618,14 +618,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8128-1591-7263-7d89" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="分" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -780,7 +780,7 @@
         <infoLink id="aee6-0a2c-d3ad-6a62" name="Arcane Bolt" hidden="false" targetId="ae02-a84f-a903-1ff8" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fdd-6634-f9f8-068a" name="Mystic Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -792,7 +792,7 @@
         <infoLink id="79f3-1c53-2d38-b6d1" name="Mystic Shield" hidden="false" targetId="b41f-f1ce-7aa5-4f81" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="268a-c131-4914-7087" name="Realm of Origin" hidden="false" collective="false" import="true" type="upgrade">
@@ -803,7 +803,7 @@
         <entryLink id="abe0-0cb9-7db6-f034" name="Realm of Origin" hidden="false" collective="false" import="true" targetId="0d51-8ed8-dcf5-76a0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a741-5681-7572-fa32" name="游戏类型" hidden="false" collective="false" import="true" type="upgrade">
@@ -815,7 +815,7 @@
         <entryLink id="39f6-88b3-177e-2535" name="Game Type (GAME TYPE MUST BE IDENTICAL FOR ALL FORCES)" hidden="false" collective="false" import="true" targetId="5927-9c5a-8b20-8f37" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35ce-f528-13ad-8cea" name="Realm of Battle" hidden="false" collective="false" import="true" type="upgrade">
@@ -826,7 +826,7 @@
         <entryLink id="a937-013e-50ba-3bac" name="Realm of Battle" hidden="false" collective="false" import="true" targetId="825c-e98c-986d-7985" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98c8-838b-2c8a-a9f7" name="无尽法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" type="upgrade">
@@ -869,7 +869,7 @@
         <categoryLink id="bd9a-3f79-0b5f-7f8f" name="AETHERVOID PENDULUM" hidden="false" targetId="5647-b7a8-9716-1d17" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98b9-64b2-7123-b7a2" name="无尽法术: Balewind Vortex" hidden="false" collective="false" import="true" type="upgrade">
@@ -902,7 +902,7 @@
         <categoryLink id="6fd4-dff6-47c4-10f8" name="BALEWIND VORTEX" hidden="false" targetId="0ac5-cc94-b7fe-7160" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a8c-091f-84b5-47aa" name="无尽法术: Chronomatic Cogs" hidden="false" collective="false" import="true" type="upgrade">
@@ -928,7 +928,7 @@
         <categoryLink id="c22f-fc01-e217-f01d" name="CHRONOMANTIC COGS" hidden="false" targetId="1619-fea5-de7e-8a67" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="分" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec28-3ec9-f2fa-82e5" name="无尽法术: Emerald Lifeswarm" hidden="false" collective="false" import="true" type="upgrade">
@@ -967,7 +967,7 @@
         <categoryLink id="50fa-7469-e5cc-8169" name="GHYRAN" hidden="false" targetId="0b26-9340-45cf-07ee" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ce8-9373-9c22-75a0" name="无尽法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" type="upgrade">
@@ -1017,7 +1017,7 @@
         <categoryLink id="6e8c-7f5e-3e2e-fc43" name="ULGU" hidden="false" targetId="3f66-cb68-8afb-ce99" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="befc-365b-06f8-5575" name="无尽法术: Horrorghast" hidden="false" collective="false" import="true" type="upgrade">
@@ -1056,7 +1056,7 @@
         <categoryLink id="66e7-40f4-73ab-dd04" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f68-29ac-db98-ff85" name="无尽法术: Lauchon the Soulseeker" hidden="false" collective="false" import="true" type="upgrade">
@@ -1100,7 +1100,7 @@
         <categoryLink id="5d52-d94b-a444-45b1" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37a1-b025-6723-3fe1" name="无尽法术: Malevolent Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
@@ -1144,7 +1144,7 @@
         <categoryLink id="8e0f-7122-1605-3505" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ae1-8e71-327d-0893" name="无尽法术: Prismatic Palisade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1180,7 +1180,7 @@
         <categoryLink id="9d46-498d-22f1-9b94" name="PRISMATIC PALISADE" hidden="false" targetId="316f-32e5-0c7c-72af" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e7b-ce3f-9348-58e1" name="无尽法术: Purple Sun of Shyish" hidden="false" collective="false" import="true" type="upgrade">
@@ -1229,7 +1229,7 @@
         <categoryLink id="3a3c-213b-2d2d-10f2" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc18-4df9-1a28-2df9" name="无尽法术: Quicksilver Swords" hidden="false" collective="false" import="true" type="upgrade">
@@ -1273,7 +1273,7 @@
         <categoryLink id="29f1-5754-fb05-5361" name="QUICKSILVER SWORDS" hidden="false" targetId="65dc-260f-90f3-8a5a" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a99d-b987-6fa6-96f6" name="无尽法术: Ravenak&apos;s Gnashing Jaws" hidden="false" collective="false" import="true" type="upgrade">
@@ -1317,7 +1317,7 @@
         <categoryLink id="8064-0362-4e5d-1ed0" name="RAVENAK&apos;S GNASHING JAWS" hidden="false" targetId="8b8e-c0b7-d668-19f2" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58a3-4afb-62c5-dd39" name="无尽法术: Shards of Valagharr" hidden="false" collective="false" import="true" type="upgrade">
@@ -1353,7 +1353,7 @@
         <categoryLink id="430e-40d4-1072-bd3a" name="SHARDS OF VALAGHARR" hidden="false" targetId="cff6-06c5-3294-b74b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98da-d52f-7608-3034" name="无尽法术: Soulscream Bridge" hidden="false" collective="false" import="true" type="upgrade">
@@ -1389,7 +1389,7 @@
         <categoryLink id="c390-75ad-8a01-32d9" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80.0"/>
+        <cost name="分" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec18-8377-8f6b-2591" name="无尽法术: Soulsnare Shackles" hidden="false" collective="false" import="true" type="upgrade">
@@ -1420,7 +1420,7 @@
         <categoryLink id="b32d-20d2-77e4-2013" name="SOULSNARE SHACKLES" hidden="false" targetId="4949-2041-939a-baa6" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6de-646a-4dcc-e37d" name="无尽法术: Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" type="upgrade">
@@ -1469,7 +1469,7 @@
         <categoryLink id="7c7b-031f-df94-fe46" name="SUFFOCATING GRAVETIDE" hidden="false" targetId="8e84-834f-0c7d-0d45" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="分" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ad9-857b-32ff-e44e" name="无尽法术: The B﻿urning Head﻿﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
@@ -1518,7 +1518,7 @@
         <categoryLink id="ec33-7fb2-331b-c7cb" name="THE BURNING HEAD" hidden="false" targetId="3115-9f9c-85db-1d63" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="无尽法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
@@ -1549,7 +1549,7 @@
         <categoryLink id="5724-bd35-df7f-13c8" name="UMBRAL SPELLPORTAL" hidden="false" targetId="82b0-19da-b868-9f6c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="70.0"/>
+        <cost name="分" typeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a3f-74ea-a98a-e1ee" name="Scenery: Penumbral Engine" hidden="false" collective="false" import="true" type="upgrade">
@@ -1577,12 +1577,12 @@
         <categoryLink id="f92e-b88f-0d9c-f932" name="STORMVAULT" hidden="false" targetId="798c-6e4e-1793-2fd9" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24c2-fff5-f17c-3d07" name="Gotrek Gurnisson" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d525-c9a4-8f8a-584f" name="Gotrek Gurnisson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="d525-c9a4-8f8a-584f" name="Gotrek Gurnisson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -1636,7 +1636,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8861-09b7-3df2-abf6" name="主将" hidden="false" collective="false" import="true" type="upgrade">
@@ -1647,12 +1647,12 @@
             <categoryLink id="3fac-3a94-439e-059f" name="主将" hidden="false" targetId="b745-17c4-8fbf-8b04" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="520.0"/>
+        <cost name="分" typeId="points" value="520.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1677,7 +1677,7 @@
             <categoryLink id="b1ea-11ea-2990-b9d1" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0722-70d0-8a75-b05d" name="2. Cloak of Mists and Shadows" hidden="false" collective="false" import="true" type="upgrade">
@@ -1695,7 +1695,7 @@
             <categoryLink id="d96c-b586-00b6-2deb" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d40d-6292-3309-f03b" name="3. Blade of Dark Summons" hidden="false" collective="false" import="true" type="upgrade">
@@ -1713,7 +1713,7 @@
             <categoryLink id="601b-b6f0-94d1-cd3a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="385e-f5fc-d761-9e79" name="4. Black Amulet" hidden="false" collective="false" import="true" type="upgrade">
@@ -1731,7 +1731,7 @@
             <categoryLink id="827d-a112-0f50-e58f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2326-95d1-92c4-1776" name="5. Tomb Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1749,7 +1749,7 @@
             <categoryLink id="fce5-ffa8-6118-a04a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2eab-a296-749d-9137" name="6. Ring of Immortality" hidden="false" collective="false" import="true" type="upgrade">
@@ -1767,7 +1767,7 @@
             <categoryLink id="1c34-cb7a-bfb7-bab0" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1789,7 +1789,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3fc2-a119-b371-27ac" name="2. Predator of the Shadows" hidden="false" collective="false" import="true" type="upgrade">
@@ -1804,7 +1804,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="83d0-b10b-7b0f-bb84" name="3. Death Incarnate" hidden="false" collective="false" import="true" type="upgrade">
@@ -1819,7 +1819,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ab1-ca9e-3373-5b0c" name="4. Master of the Black Arts" hidden="false" collective="false" import="true" type="upgrade">
@@ -1834,7 +1834,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="053b-e6bd-cc34-d050" name="5. Red Fury" hidden="false" collective="false" import="true" type="upgrade">
@@ -1849,7 +1849,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="10c5-32f0-ca6f-7e7c" name="6. Supernatural Horror" hidden="false" collective="false" import="true" type="upgrade">
@@ -1861,7 +1861,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1886,7 +1886,7 @@
             <categoryLink id="05a1-082d-0c9f-b63d" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="11ee-4b6d-7d08-dd98" name="2. Battered Talisman" publicationId="e51d-b1a3-pubEQOCI" hidden="false" collective="false" import="true" type="upgrade">
@@ -1904,7 +1904,7 @@
             <categoryLink id="1498-8111-b71e-2c79" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e734-c953-e710-a42a" name="3. Rockeye" publicationId="e51d-b1a3-pubEQOCI" hidden="false" collective="false" import="true" type="upgrade">
@@ -1922,7 +1922,7 @@
             <categoryLink id="4963-8263-9449-d0b7" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b111-9840-cc58-ca44" name="4. Bellowing Blade" publicationId="e51d-b1a3-pubEQOCI" hidden="false" collective="false" import="true" type="upgrade">
@@ -1940,7 +1940,7 @@
             <categoryLink id="0943-73b6-1080-7b58" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3cdf-ca0c-9c35-0727" name="5. Collar of Domination" publicationId="e51d-b1a3-pubEQOCI" hidden="false" collective="false" import="true" type="upgrade">
@@ -1958,7 +1958,7 @@
             <categoryLink id="c10f-514d-7ead-ea4f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="40a6-edd2-8f4c-bcbc" name="6. Battle Brew" publicationId="e51d-b1a3-pubEQOCI" hidden="false" collective="false" import="true" type="upgrade">
@@ -1976,7 +1976,7 @@
             <categoryLink id="fa96-9d2b-0053-d3cd" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1995,7 +1995,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b456-2252-df66-a511" name="2. Might is Right" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" collective="false" import="true" type="upgrade">
@@ -2007,7 +2007,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="33e4-5c70-c48b-9472" name="3. Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
@@ -2019,7 +2019,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6b78-5f06-40c7-eab6" name="4. Bellowing Tyrant" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
@@ -2031,7 +2031,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e5b1-baeb-ed1b-e3f3" name="5. Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
@@ -2043,7 +2043,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fdf2-ddc3-5dd8-f6e6" name="6. Ravager" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
@@ -2055,7 +2055,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2074,7 +2074,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aa8d-2468-307b-7223" name="2. Spiteful Duelist" hidden="false" collective="false" import="true" type="upgrade">
@@ -2086,7 +2086,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2ed5-ce10-22f2-9b67" name="3. Cunning Deceiver" hidden="false" collective="false" import="true" type="upgrade">
@@ -2098,7 +2098,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ce7b-5079-8e73-49df" name="4. Lord of War" hidden="false" collective="false" import="true" type="upgrade">
@@ -2110,7 +2110,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="100a-f21d-30bd-0e9a" name="5. Terrifying Presence" hidden="false" collective="false" import="true" type="upgrade">
@@ -2122,7 +2122,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f5f-faca-cb53-7d82" name="6. Great Destroyer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2134,7 +2134,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2153,7 +2153,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e366-464a-ed9e-3071" name="2. Inspiring" hidden="false" collective="false" import="true" type="upgrade">
@@ -2165,7 +2165,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0bfc-2753-ba37-63ec" name="3. Dauntless" hidden="false" collective="false" import="true" type="upgrade">
@@ -2177,7 +2177,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cda1-69d4-81a2-af6f" name="4. Tenacious" hidden="false" collective="false" import="true" type="upgrade">
@@ -2189,7 +2189,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e6ce-6770-a355-3db5" name="5. Legendary Fighter" hidden="false" collective="false" import="true" type="upgrade">
@@ -2201,7 +2201,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0d9f-944c-3eb5-5e54" name="6. Master of Defence" hidden="false" collective="false" import="true" type="upgrade">
@@ -2213,7 +2213,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2238,7 +2238,7 @@
             <categoryLink id="0d47-e56d-64f2-b4f1" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ad0e-8cce-201d-2119" name="2. Obstinate Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2256,7 +2256,7 @@
             <categoryLink id="fb80-ae0a-b51c-92be" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8939-398d-2875-695e" name="3. Relic Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2274,7 +2274,7 @@
             <categoryLink id="f4ac-61c7-417e-f15a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="595f-756d-7d05-2336" name="4. Hoarfrost" hidden="false" collective="false" import="true" type="upgrade">
@@ -2292,7 +2292,7 @@
             <categoryLink id="a495-ef60-434a-906a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c59-5080-ae42-7599" name="5. Talisman of Blinding Light" hidden="false" collective="false" import="true" type="upgrade">
@@ -2310,7 +2310,7 @@
             <categoryLink id="467a-e5a8-4779-e5e2" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3ad1-6df0-b131-e5f5" name="6. Phoenix Stone" hidden="false" collective="false" import="true" type="upgrade">
@@ -2328,7 +2328,7 @@
             <categoryLink id="0d25-bdc4-faf0-7e71" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2353,7 +2353,7 @@
             <categoryLink id="d8a8-4ff4-d670-0782" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bce7-28e0-79ca-8ec1" name="2. 混沌 Runeblade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2371,7 +2371,7 @@
             <categoryLink id="ce33-8f9d-3b55-f545" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a25-2b31-1228-58ed" name="3. Beguiling Gem" hidden="false" collective="false" import="true" type="upgrade">
@@ -2389,7 +2389,7 @@
             <categoryLink id="d192-ec68-a611-41a9" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4048-8842-13f8-6487" name="4. 混沌 Talisman" hidden="false" collective="false" import="true" type="upgrade">
@@ -2407,7 +2407,7 @@
             <categoryLink id="fe47-4784-c4b7-6d39" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="99a8-19b8-c4fc-5b82" name="5. Favour of the Gods" hidden="false" collective="false" import="true" type="upgrade">
@@ -2422,7 +2422,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b9dd-e27b-f206-d911" name="6. Crown of Conquest" hidden="false" collective="false" import="true" type="upgrade">
@@ -2437,7 +2437,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2464,7 +2464,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="23fd-8b31-0d59-0674" name="2. Blood Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
@@ -2476,7 +2476,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a089-13dc-617b-2eab" name="3. Resanguination" hidden="false" collective="false" import="true" type="upgrade">
@@ -2488,7 +2488,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d9d0-8915-d319-7a99" name="4. Brazen Fury" hidden="false" collective="false" import="true" type="upgrade">
@@ -2500,7 +2500,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e5ab-1394-46b7-55df" name="5. Killing Frenzy" hidden="false" collective="false" import="true" type="upgrade">
@@ -2512,7 +2512,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e9ec-b172-d5a2-81b0" name="6. Magebane Hex" hidden="false" collective="false" import="true" type="upgrade">
@@ -2524,7 +2524,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2584,7 +2584,7 @@
             <categoryLink id="f5fd-5e12-2e04-7052" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="54c8-4897-57f2-4500" name="6. Arboreal Stave" hidden="false" collective="false" import="true" type="upgrade">
@@ -2602,7 +2602,7 @@
             <categoryLink id="9731-0fce-ed92-f320" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1c8a-477f-17b5-5520" name="5. Ghyrstrike" hidden="false" collective="false" import="true" type="upgrade">
@@ -2620,7 +2620,7 @@
             <categoryLink id="0fb9-e2ce-f945-e9af" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb2f-c070-85ff-60eb" name="4. The Sunderblade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2638,7 +2638,7 @@
             <categoryLink id="b468-a483-9e83-f7f3" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1d7e-107a-1d2d-53c8" name="2. Jadewound Thorn" hidden="false" collective="false" import="true" type="upgrade">
@@ -2656,7 +2656,7 @@
             <categoryLink id="3ac8-3abe-a5ed-cc17" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="72be-ec0c-894a-fc00" name="3. Blade of Hammerhal Ghyra" hidden="false" collective="false" import="true" type="upgrade">
@@ -2674,7 +2674,7 @@
             <categoryLink id="0ef1-b302-d4e1-8c7d" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2687,37 +2687,37 @@
       <selectionEntries>
         <selectionEntry id="2b64-08f8-641d-be66" name="Origin: Ghyran" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4c81-5c75-b32a-c854" name="Origin: Ghur" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e938-2bcb-c732-9572" name="Origin: Chamon" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="804d-fbe5-0759-58ce" name="Origin: Aqshy" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="916b-8d03-321f-4845" name="Origin: Shyish" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="689f-c36d-3382-5eca" name="Origin: Ulgu" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="52b1-a41c-c680-c537" name="Origin: Hysh" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2749,7 +2749,7 @@
             <categoryLink id="c34c-e511-812e-65c1" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="07bb-d221-2a3b-506b" name="6. Wand of Restoration" hidden="false" collective="false" import="true" type="upgrade">
@@ -2767,7 +2767,7 @@
             <categoryLink id="dbc6-9ab4-b21d-74cf" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2391-76ae-60e1-9d73" name="5. Ghyrropian Gauntlets" hidden="false" collective="false" import="true" type="upgrade">
@@ -2785,7 +2785,7 @@
             <categoryLink id="7a28-e4ba-da1a-d222" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3c09-25d7-d1dd-588a" name="4. Greenglade Flask" hidden="false" collective="false" import="true" type="upgrade">
@@ -2803,7 +2803,7 @@
             <categoryLink id="8bee-c40d-58aa-0d59" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="66c8-af5a-7b1a-992d" name="2. Verdant Mantle" hidden="false" collective="false" import="true" type="upgrade">
@@ -2821,7 +2821,7 @@
             <categoryLink id="5b14-03a9-4fee-4582" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3acc-7b56-47f8-9c73" name="3. Jade Diadem" hidden="false" collective="false" import="true" type="upgrade">
@@ -2839,7 +2839,7 @@
             <categoryLink id="2038-6f1c-9747-a50d" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2871,7 +2871,7 @@
             <categoryLink id="5768-641f-7562-8db0" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82f7-06d7-505d-320c" name="6. Rockjaws" hidden="false" collective="false" import="true" type="upgrade">
@@ -2889,7 +2889,7 @@
             <categoryLink id="ce82-b1db-6ee4-5a86" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="efd0-3f4d-7378-7685" name="5. Rageblade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2907,7 +2907,7 @@
             <categoryLink id="73f8-f3cd-ec49-446c" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da04-d621-d130-6fe3" name="4. Blade of Carving" hidden="false" collective="false" import="true" type="upgrade">
@@ -2925,7 +2925,7 @@
             <categoryLink id="bed6-aa5a-1586-204a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f6fb-6bfa-ba52-33c7" name="2. Anraheir&apos;s Claw" hidden="false" collective="false" import="true" type="upgrade">
@@ -2943,7 +2943,7 @@
             <categoryLink id="e6b1-5c26-c12d-88a8" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aff9-0ce2-3166-5e59" name="3. Amberglaive" hidden="false" collective="false" import="true" type="upgrade">
@@ -2961,7 +2961,7 @@
             <categoryLink id="3e00-486c-b85d-c86e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2993,7 +2993,7 @@
             <categoryLink id="04f6-1089-63b7-ebd1" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b620-c40f-1d1c-0f1b" name="6. Tuskhelm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3011,7 +3011,7 @@
             <categoryLink id="ba58-c3f3-8631-9be6" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="618d-f9ee-ab56-a4e9" name="5. Shardfist Pelt" hidden="false" collective="false" import="true" type="upgrade">
@@ -3029,7 +3029,7 @@
             <categoryLink id="71a3-4a56-2a98-a55e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c5d7-e7c4-b337-6e7e" name="4. Gargant-bone Dice" hidden="false" collective="false" import="true" type="upgrade">
@@ -3047,7 +3047,7 @@
             <categoryLink id="68b7-13ce-c029-d1bf" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de85-aed2-1790-61d5" name="2. Drakeforged Plate" hidden="false" collective="false" import="true" type="upgrade">
@@ -3065,7 +3065,7 @@
             <categoryLink id="1a1b-1a52-f0f4-2024" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4501-c14b-1eff-9f70" name="3. Gryph-feather Charm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3083,7 +3083,7 @@
             <categoryLink id="30b4-ec4a-4f03-92f2" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3115,7 +3115,7 @@
             <categoryLink id="4737-67fb-147a-6260" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1188-3b82-444f-9457" name="6. Alchemical Chain" hidden="false" collective="false" import="true" type="upgrade">
@@ -3133,7 +3133,7 @@
             <categoryLink id="7ea5-c85c-ed84-7ef4" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1456-df51-b3d0-8ec5" name="5. Bejeweled Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
@@ -3151,7 +3151,7 @@
             <categoryLink id="18ac-f383-e580-eda3" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="67a6-2298-7df0-9ec1" name="4. Godwrought Helm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3169,7 +3169,7 @@
             <categoryLink id="65b9-51a3-8aba-333e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f715-2087-6630-b11e" name="2. Argent Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -3187,7 +3187,7 @@
             <categoryLink id="62e6-932a-a488-9855" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c7b-05ba-1d3a-caff" name="3. Hydroxskin Cloak" hidden="false" collective="false" import="true" type="upgrade">
@@ -3205,7 +3205,7 @@
             <categoryLink id="ff2a-0965-856e-6e4e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3237,7 +3237,7 @@
             <categoryLink id="d56d-101c-f3cc-ff72" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2922-c584-6fa1-1c16" name="6. Argentine&apos;s Tooth" hidden="false" collective="false" import="true" type="upgrade">
@@ -3255,7 +3255,7 @@
             <categoryLink id="464c-cc53-027f-253f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="faa8-f0c4-277f-a544" name="5. Chamonite Darts" hidden="false" collective="false" import="true" type="upgrade">
@@ -3273,7 +3273,7 @@
             <categoryLink id="328a-8f53-c028-16a9" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="995a-e41e-8588-5b77" name="4. Crucible of Molten Silver" hidden="false" collective="false" import="true" type="upgrade">
@@ -3291,7 +3291,7 @@
             <categoryLink id="59aa-0460-3c7a-ad62" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6910-46ba-6955-6476" name="2. Flowstone Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3309,7 +3309,7 @@
             <categoryLink id="9221-fb6e-5b27-e1fc" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fbd5-a623-b866-a1cd" name="3. Rune Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3327,7 +3327,7 @@
             <categoryLink id="0657-4603-7b03-ab61" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3359,7 +3359,7 @@
             <categoryLink id="bd30-f8a1-f3a3-328f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="58c5-5363-e6df-18a7" name="6. Exile Torch" hidden="false" collective="false" import="true" type="upgrade">
@@ -3377,7 +3377,7 @@
             <categoryLink id="a2fe-2bac-9851-df40" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3060-6f01-f57d-ea2e" name="5. Onyx Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3395,7 +3395,7 @@
             <categoryLink id="7c01-24c8-7a22-c941" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="083a-22af-c049-0c9a" name="4. Purefire Brazier" hidden="false" collective="false" import="true" type="upgrade">
@@ -3413,7 +3413,7 @@
             <categoryLink id="2c68-6671-d376-3d21" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="98ab-afd6-284a-e71f" name="2. Magmaforged Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3431,7 +3431,7 @@
             <categoryLink id="c70b-fd56-3806-f983" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6c58-255e-26d4-7017" name="3. Magmadroth Blood Vials" hidden="false" collective="false" import="true" type="upgrade">
@@ -3449,7 +3449,7 @@
             <categoryLink id="3c01-7ef7-9a4d-932d" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3481,7 +3481,7 @@
             <categoryLink id="db95-222f-4d46-46f2" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5e6b-a904-d91c-5cd9" name="6. Cleansing Brooch" hidden="false" collective="false" import="true" type="upgrade">
@@ -3499,7 +3499,7 @@
             <categoryLink id="3fb4-bdcb-1130-4cbb" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e304-52a2-d708-c8ed" name="5. Crown of Flames" hidden="false" collective="false" import="true" type="upgrade">
@@ -3517,7 +3517,7 @@
             <categoryLink id="855a-c456-6201-ec22" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c2ec-ef72-e71e-14d3" name="4. Ignax&apos;s Scales" hidden="false" collective="false" import="true" type="upgrade">
@@ -3535,7 +3535,7 @@
             <categoryLink id="aa17-0292-3847-3dfe" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2796-36b9-60fc-24f5" name="2. Thermalrider Cloak" hidden="false" collective="false" import="true" type="upgrade">
@@ -3553,7 +3553,7 @@
             <categoryLink id="6f35-674d-3322-b4c2" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cf45-f3d5-d8db-f702" name="3. Smouldering Helm" hidden="false" collective="false" import="true" type="upgrade">
@@ -3571,7 +3571,7 @@
             <categoryLink id="01b4-5074-1cae-89f3" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3603,7 +3603,7 @@
             <categoryLink id="ebda-446f-f171-020b" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9329-b3ee-9346-c9f8" name="6. Goblet of Draining" hidden="false" collective="false" import="true" type="upgrade">
@@ -3621,7 +3621,7 @@
             <categoryLink id="2ffc-d729-24c9-e55f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5202-af59-260c-df5a" name="5. The Ragged Cloak" hidden="false" collective="false" import="true" type="upgrade">
@@ -3639,7 +3639,7 @@
             <categoryLink id="a076-1b5c-2a4d-2207" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5e4b-90f7-6a80-6ac2" name="4. Amethyst Blindmask" hidden="false" collective="false" import="true" type="upgrade">
@@ -3657,7 +3657,7 @@
             <categoryLink id="176e-92ff-41c3-495f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="49a7-5b8c-27ca-ee12" name="2. Ethereal Amulet" hidden="false" collective="false" import="true" type="upgrade">
@@ -3675,7 +3675,7 @@
             <categoryLink id="b973-c4cd-2252-7fab" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7df7-3cb3-327b-c146" name="3. Sepulchral Plate" hidden="false" collective="false" import="true" type="upgrade">
@@ -3693,7 +3693,7 @@
             <categoryLink id="f880-6fca-e21d-4e85" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3725,7 +3725,7 @@
             <categoryLink id="0ae1-79f0-6b78-d369" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75c6-4c80-702f-bb3c" name="6. Splintertooth" hidden="false" collective="false" import="true" type="upgrade">
@@ -3743,7 +3743,7 @@
             <categoryLink id="a442-83ec-8b02-015e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6f88-548f-0fc1-3a08" name="5. Wraithbow" hidden="false" collective="false" import="true" type="upgrade">
@@ -3761,7 +3761,7 @@
             <categoryLink id="9b2b-f089-f9ba-bc8e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="86c2-d74e-9264-40c4" name="4. Sliver of Decrepitude" hidden="false" collective="false" import="true" type="upgrade">
@@ -3779,7 +3779,7 @@
             <categoryLink id="c682-05b3-5f75-703f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1002-e26a-a6a2-9f8c" name="2. Banshee Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3797,7 +3797,7 @@
             <categoryLink id="a852-5395-19cc-9467" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d73f-b922-f27d-6d81" name="3. Lifebane" hidden="false" collective="false" import="true" type="upgrade">
@@ -3815,7 +3815,7 @@
             <categoryLink id="d374-ad95-da8c-5358" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3847,7 +3847,7 @@
             <categoryLink id="2f54-6dd6-83ab-8c94" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="503a-423c-b819-0463" name="6. Sword of Judgement" hidden="false" collective="false" import="true" type="upgrade">
@@ -3865,7 +3865,7 @@
             <categoryLink id="b174-dc18-82c0-27bd" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e6f8-0cdc-df85-fd8a" name="5. Dimensional Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3883,7 +3883,7 @@
             <categoryLink id="6fbf-c592-d819-468a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4607-16be-833e-c760" name="4. Blade of Secrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -3901,7 +3901,7 @@
             <categoryLink id="0866-e5be-458a-b20e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b75-945d-f1ee-28af" name="2. Blade of the Thirteen Dominions" hidden="false" collective="false" import="true" type="upgrade">
@@ -3919,7 +3919,7 @@
             <categoryLink id="2c38-919e-56e4-2a59" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2a9a-55aa-0422-eabf" name="3. Blade of Folded Shadow" hidden="false" collective="false" import="true" type="upgrade">
@@ -3937,7 +3937,7 @@
             <categoryLink id="e088-786f-2646-9c3a" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3969,7 +3969,7 @@
             <categoryLink id="4b6e-1c5f-de06-99e2" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fd17-d428-7cc8-0c87" name="6. Talisman of the Watcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3987,7 +3987,7 @@
             <categoryLink id="d117-b24e-e1b5-4b5e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7e05-cd53-def8-b5a2" name="5. Betrayer&apos;s Crown" hidden="false" collective="false" import="true" type="upgrade">
@@ -4005,7 +4005,7 @@
             <categoryLink id="8097-0f41-9513-fec9" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e23f-4a06-14f5-f374" name="4. Doppelganger Cloak" hidden="false" collective="false" import="true" type="upgrade">
@@ -4023,7 +4023,7 @@
             <categoryLink id="00be-caae-274c-b9d5" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2aed-d3ae-5042-05a6" name="2. Trickster&apos;s Helm" hidden="false" collective="false" import="true" type="upgrade">
@@ -4041,7 +4041,7 @@
             <categoryLink id="ba2a-34f3-b216-551f" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c658-8a97-884c-f03d" name="3. Wristbands of Illusion" hidden="false" collective="false" import="true" type="upgrade">
@@ -4059,7 +4059,7 @@
             <categoryLink id="ace7-e143-5a58-89c5" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4091,7 +4091,7 @@
             <categoryLink id="0d62-7744-121c-f538" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="11cc-f63e-bf15-ce1e" name="6. Sash of the Ten Paradises" hidden="false" collective="false" import="true" type="upgrade">
@@ -4109,7 +4109,7 @@
             <categoryLink id="feb0-1e21-9a2a-dfaf" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="056e-659f-8866-c36e" name="5. Guardian&apos;s Coronet" hidden="false" collective="false" import="true" type="upgrade">
@@ -4127,7 +4127,7 @@
             <categoryLink id="33f7-b4d3-85a6-dc53" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b85-1d3a-a8ef-710f" name="4. Lightshard" hidden="false" collective="false" import="true" type="upgrade">
@@ -4145,7 +4145,7 @@
             <categoryLink id="202a-af05-4d1f-2a79" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb14-f48b-91ca-089e" name="2. Lens of Refraction" hidden="false" collective="false" import="true" type="upgrade">
@@ -4163,7 +4163,7 @@
             <categoryLink id="1430-9e56-d54d-8c82" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2d9b-887b-232e-3955" name="3. Mirrored Curiass" hidden="false" collective="false" import="true" type="upgrade">
@@ -4181,7 +4181,7 @@
             <categoryLink id="699a-622a-95f8-3b82" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4213,7 +4213,7 @@
             <categoryLink id="736c-7ee1-f94d-4bc9" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f2d1-04f9-6b07-c53c" name="6. Prism Amyntok" hidden="false" collective="false" import="true" type="upgrade">
@@ -4231,7 +4231,7 @@
             <categoryLink id="97a3-a302-e3d5-ee1e" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e65-81f7-0865-a385" name="5. Crystalline Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -4249,7 +4249,7 @@
             <categoryLink id="04f1-c7b0-b566-f515" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ccd0-e22d-6c13-2c01" name="4. Sunblade" hidden="false" collective="false" import="true" type="upgrade">
@@ -4267,7 +4267,7 @@
             <categoryLink id="4a9e-4ecd-1301-0345" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2c10-8afb-5484-0a53" name="2. Gleaming Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -4285,7 +4285,7 @@
             <categoryLink id="385e-17bb-b37a-1659" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb40-99c1-db7f-4eaa" name="3. Luminary Rod" hidden="false" collective="false" import="true" type="upgrade">
@@ -4303,7 +4303,7 @@
             <categoryLink id="f59c-e8e3-55f8-71c2" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4334,7 +4334,7 @@
             <categoryLink id="af62-e1d8-3f54-8de9" name="New CategoryLink" hidden="false" targetId="fd9f-428a-177d-c765" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cea8-e4b2-c44f-c7b4" name="2000 分 - 战团" hidden="false" collective="false" import="true" type="upgrade">
@@ -4357,7 +4357,7 @@
             <categoryLink id="49d8-0b4f-f1d0-e5fc" name="New CategoryLink" hidden="false" targetId="6330-7561-7a32-0851" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ef67-15fb-487c-397a" name="2500 分 - 军团" hidden="false" collective="false" import="true" type="upgrade">
@@ -4380,12 +4380,12 @@
             <categoryLink id="6ada-6fab-25e6-7377" name="New CategoryLink" hidden="false" targetId="1e63-0b49-ac04-321f" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ca54-0d07-72c2-d26f" name="开放模式" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4429,7 +4429,7 @@
             <categoryLink id="b380-b165-2821-38b0" name="New CategoryLink" hidden="false" targetId="3564-4c26-10b4-d953" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4480,7 +4480,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ed53-d347-e94c-2431" name="Battle: Chamon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4523,7 +4523,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="afb2-6845-cd03-2596" name="Battle: Ghur" hidden="false" collective="false" import="true" type="upgrade">
@@ -4566,7 +4566,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="286a-bfe7-f725-ca75" name="Battle: Ghyran" hidden="false" collective="false" import="true" type="upgrade">
@@ -4609,7 +4609,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="632b-73ed-9385-2491" name="Battle: Hysh" hidden="false" collective="false" import="true" type="upgrade">
@@ -4652,7 +4652,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="098f-0986-2570-bece" name="Battle: Shyish" hidden="false" collective="false" import="true" type="upgrade">
@@ -4695,7 +4695,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3923-b6b9-c500-1062" name="Battle: Ulgu" hidden="false" collective="false" import="true" type="upgrade">
@@ -4738,7 +4738,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e236-f0fc-8bb0-ecb4" name="Battle: The Eightpoints" hidden="false" collective="false" import="true" type="upgrade">
@@ -4756,7 +4756,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

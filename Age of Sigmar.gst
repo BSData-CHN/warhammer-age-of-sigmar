@@ -73,9 +73,9 @@
         <characteristicType id="d4dc-8e81-bc0e-b8f0" name="能力细节"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="c749-bae4-71a8-0c36" name="指挥特性">
+    <profileType id="c749-bae4-71a8-0c36" name="主将特性">
       <characteristicTypes>
-        <characteristicType id="ee96-6f3a-e5ca-2350" name="指挥特性细节"/>
+        <characteristicType id="ee96-6f3a-e5ca-2350" name="主将特性细节"/>
       </characteristicTypes>
     </profileType>
     <profileType id="bdc6-78da-3796-60a3" name="阵型能力">
@@ -180,7 +180,7 @@
     </categoryEntry>
     <categoryEntry id="31f4-2067-3ade-e6f8" name="无尽法术" hidden="false"/>
     <categoryEntry id="eecb-ed66-d474-9ddd" name="Malign Sorcery" hidden="false"/>
-    <categoryEntry id="8be8-3ccd-be93-b55e" name="Command Points" hidden="false"/>
+    <categoryEntry id="8be8-3ccd-be93-b55e" name="指挥点数" hidden="false"/>
     <categoryEntry id="5647-b7a8-9716-1d17" name="AETHERVOID PENDULUM" hidden="false"/>
     <categoryEntry id="0ac5-cc94-b7fe-7160" name="BALEWIND VORTEX" hidden="false"/>
     <categoryEntry id="bed0-e4a0-f704-1eab" name="AZYR" hidden="false"/>
@@ -554,7 +554,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="745a-d2c9-a076-2d70" name="Purchased Command Points" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="745a-d2c9-a076-2d70" name="购买的指挥点数" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="584d-611d-064d-0a33" type="min"/>
       </constraints>
@@ -562,7 +562,7 @@
         <categoryLink id="d882-d72a-6391-a6be" name="New CategoryLink" hidden="false" targetId="8be8-3ccd-be93-b55e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="967b-d3ad-e0b5-e6c9" name="1 Command Point" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="967b-d3ad-e0b5-e6c9" name="1 点指挥点数" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7126-cd45-a30a-dbb3" type="max"/>
           </constraints>
@@ -575,7 +575,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19fe-0099-8319-6fdf" name="Points Variation" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="19fe-0099-8319-6fdf" name="分数变化" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ec-1682-d07c-0d5a" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21a4-6280-03cc-4ccf" type="max"/>
@@ -584,12 +584,12 @@
         <categoryLink id="5789-0b49-02bb-6396" name="New CategoryLink" hidden="false" targetId="1974-3f49-7f0b-8422" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b649-48a4-c708-d5a1" name="Variation Amount" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b649-48a4-c708-d5a1" name="变化量" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f0-ee12-c769-680f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6a86-ed1f-1db7-6f7c" name="- 500" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6a86-ed1f-1db7-6f7c" name="- 500分" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f347-8cd2-abc3-3b03" type="max"/>
               </constraints>
@@ -597,7 +597,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="aa3a-742d-9e34-e701" name="- 250" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aa3a-742d-9e34-e701" name="- 250分" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efe9-c259-d561-60e2" type="max"/>
               </constraints>
@@ -605,7 +605,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4c1d-7a55-fa32-d2be" name="+ 250" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4c1d-7a55-fa32-d2be" name="+ 250分" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6952-757b-ea6d-06a6" type="max"/>
               </constraints>
@@ -613,7 +613,7 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="45c9-0873-d072-007a" name="+  500" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="45c9-0873-d072-007a" name="+ 500分" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8128-1591-7263-7d89" type="max"/>
               </constraints>
@@ -806,7 +806,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a741-5681-7572-fa32" name="Game Type" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a741-5681-7572-fa32" name="游戏类型" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deb1-5691-1d7c-4165" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb0-e1a3-236a-4e95" type="min"/>
@@ -1782,9 +1782,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3661-8fdb-f699-ab10" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0764-cc0b-794f-7edb" name="Ruler of the Night" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0764-cc0b-794f-7edb" name="Ruler of the Night" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions 战斗特性 if they are within 12寸 of this 主将 rather than only 6寸.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DEATH units are affected by the Deathless Minions 战斗特性 if they are within 12寸 of this 主将 rather than only 6寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1797,9 +1797,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a9-1fbd-c1f7-b05d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="741d-e927-a84a-a2f3" name="Predator of the Shadows" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="741d-e927-a84a-a2f3" name="Predator of the Shadows" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for this 主将 if they are in cover.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit and wound rolls for this 主将 if they are in cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1812,9 +1812,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="490b-eaec-c34e-521e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9055-f2ef-067f-738e" name="Death Incarnate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9055-f2ef-067f-738e" name="Death Incarnate" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick an enemy 单位 within 3寸 of this 主将 and roll 2D6. If the roll equals or exceeds the enemy 单位’s Bravery characteristic, inflict D3 mortal wounds on the 单位.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick an enemy 单位 within 3寸 of this 主将 and roll 2D6. If the roll equals or exceeds the enemy 单位’s Bravery characteristic, inflict D3 mortal wounds on the 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1827,9 +1827,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5dd-14b0-8eea-2b0c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="20c8-5780-7f3e-ded5" name="Master of the Black Arts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="20c8-5780-7f3e-ded5" name="Master of the Black Arts" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 法师 who knows the Arcane Bolt and Mystic Shield spells. If this 主将 is already a 法师, add 1 to all of their casting and unbinding rolls instead.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 is a 法师 who knows the Arcane Bolt and Mystic Shield spells. If this 主将 is already a 法师, add 1 to all of their casting and unbinding rolls instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1842,9 +1842,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ca-69ba-36a1-ecfa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dcaf-3a22-b916-c683" name="Red Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="dcaf-3a22-b916-c683" name="Red Fury" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">The first time this 主将 is picked to fight in each combat phase, roll a dice at the end of that fight. On a 5+ they can immediately fight again.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">The first time this 主将 is picked to fight in each combat phase, roll a dice at the end of that fight. On a 5+ they can immediately fight again.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1854,9 +1854,9 @@
         </selectionEntry>
         <selectionEntry id="10c5-32f0-ca6f-7e7c" name="6. Supernatural Horror" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7c4d-ae2f-91a1-4769" name="Supernatural Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7c4d-ae2f-91a1-4769" name="Supernatural Horror" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">In the battleshock phase, double the number of models that flee from enemy units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1988,9 +1988,9 @@
       <selectionEntries>
         <selectionEntry id="dace-f335-0d87-3b0d" name="1. Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="bcd1-9176-4492-23ec" name="Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="bcd1-9176-4492-23ec" name="Nothing Left Standing" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a terrain feature that is within 6寸 of your 主将 and at least 5 其他 friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a terrain feature that is within 6寸 of your 主将 and at least 5 其他 friendly DESTRUCTION models. That terrain feature no longer gives cover to models that are in or on it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2000,9 +2000,9 @@
         </selectionEntry>
         <selectionEntry id="b456-2252-df66-a511" name="2. Might is Right" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="7e70-bb8b-13b3-bb52" name="Might is Right" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="7e70-bb8b-13b3-bb52" name="Might is Right" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the wound rolls made for the 主将’s 肉搏 武器.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the wound rolls made for the 主将’s 肉搏 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2012,9 +2012,9 @@
         </selectionEntry>
         <selectionEntry id="33e4-5c70-c48b-9472" name="3. Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="abd9-cb56-8363-375f" name="Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="abd9-cb56-8363-375f" name="Wild Fury" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 is picked to fight, pick one of their 肉搏 武器. Add 1 to the attach characterisict of that 肉搏 weapon for the fight. While 3 or more wounds are allocated to this 主将, instread add 2 to the Attacks characteristic of that 肉搏 weapon for that fight.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 is picked to fight, pick one of their 肉搏 武器. Add 1 to the attach characterisict of that 肉搏 weapon for the fight. While 3 or more wounds are allocated to this 主将, instread add 2 to the Attacks characteristic of that 肉搏 weapon for that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2024,9 +2024,9 @@
         </selectionEntry>
         <selectionEntry id="6b78-5f06-40c7-eab6" name="4. Bellowing Tyrant" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="e6c7-5519-f527-355c" name="Bellowing Tyrant" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e6c7-5519-f527-355c" name="Bellowing Tyrant" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly DESTRUCTION 单位 within 6寸 of the 主将 in your 英雄阶段. Until your next 英雄阶段, add 1 to charge and run rolls for the 单位, and use the 主将’s Bravery characteristic for the 单位 instead of its own.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly DESTRUCTION 单位 within 6寸 of the 主将 in your 英雄阶段. Until your next 英雄阶段, add 1 to charge and run rolls for the 单位, and use the 主将’s Bravery characteristic for the 单位 instead of its own.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2036,9 +2036,9 @@
         </selectionEntry>
         <selectionEntry id="e5b1-baeb-ed1b-e3f3" name="5. Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="1851-80dd-639c-fce5" name="Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="1851-80dd-639c-fce5" name="Big and Brutish" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the 主将’s Wounds characteristic.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2048,9 +2048,9 @@
         </selectionEntry>
         <selectionEntry id="fdf2-ddc3-5dd8-f6e6" name="6. Ravager" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="6c53-2a68-0348-adc4" name="Ravager" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6c53-2a68-0348-adc4" name="Ravager" publicationId="e51d-b1a3-pubE5LCI" page="" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 3 to the Rampaging Destroyers dice roll (see battle traits) for the 主将 instead of 2.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 3 to the Rampaging Destroyers dice roll (see battle traits) for the 主将 instead of 2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2067,9 +2067,9 @@
       <selectionEntries>
         <selectionEntry id="5584-75b3-7445-e2cf" name="1. Dark Avenger" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d11e-4267-ecf7-1094" name="Dark Avenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d11e-4267-ecf7-1094" name="Dark Avenger" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this 主将’s 肉搏 武器 if the target 单位 has the ORDER keyword.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this 主将’s 肉搏 武器 if the target 单位 has the ORDER keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2079,9 +2079,9 @@
         </selectionEntry>
         <selectionEntry id="aa8d-2468-307b-7223" name="2. Spiteful Duelist" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="9c75-4d0a-1a86-b59d" name="Spiteful Duelist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="9c75-4d0a-1a86-b59d" name="Spiteful Duelist" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is picked to fight, you can re-roll one wound roll for one of their attacks in that fight.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Each time this 主将 is picked to fight, you can re-roll one wound roll for one of their attacks in that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2091,9 +2091,9 @@
         </selectionEntry>
         <selectionEntry id="2ed5-ce10-22f2-9b67" name="3. Cunning Deceiver" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="babc-4418-2091-f9c2" name="Cunning Deceiver" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="babc-4418-2091-f9c2" name="Cunning Deceiver" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice at the start of each of your 英雄 phases as long as this 主将 has not been slain. On a 5+ you receive 1 extra command point.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice at the start of each of your 英雄 phases as long as this 主将 has not been slain. On a 5+ you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2103,9 +2103,9 @@
         </selectionEntry>
         <selectionEntry id="ce7b-5079-8e73-49df" name="4. Lord of War" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="264c-5601-8894-49c6" name="Lord of War" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="264c-5601-8894-49c6" name="Lord of War" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly CHAOSunit within 3寸 of this 主将 and roll a dice. On a 4+ you can add 1 to hit rolls for the 单位 you picked until your next 英雄阶段.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">In your 英雄阶段, pick a friendly CHAOSunit within 3寸 of this 主将 and roll a dice. On a 4+ you can add 1 to hit rolls for the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2115,9 +2115,9 @@
         </selectionEntry>
         <selectionEntry id="100a-f21d-30bd-0e9a" name="5. Terrifying Presence" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="5b4b-6ac6-d235-c9da" name="Terrifying Presence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="5b4b-6ac6-d235-c9da" name="Terrifying Presence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the Bravery characteristic of enemy units while they are within 3寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2127,9 +2127,9 @@
         </selectionEntry>
         <selectionEntry id="3f5f-faca-cb53-7d82" name="6. Great Destroyer" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="617b-164a-a339-55ae" name="Great Destroyer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="617b-164a-a339-55ae" name="Great Destroyer" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see 战斗特性) for units while they are within 12寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to Unbridled Malice dice rolls (see 战斗特性) for units while they are within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2146,9 +2146,9 @@
       <selectionEntries>
         <selectionEntry id="b044-526f-fd89-213a" name="1. Strategic Genius" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="2f4a-1ff3-4b8c-b752" name="Strategic Genius" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="2f4a-1ff3-4b8c-b752" name="Strategic Genius" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive 1 extra command point.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the first battle round, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2158,9 +2158,9 @@
         </selectionEntry>
         <selectionEntry id="e366-464a-ed9e-3071" name="2. Inspiring" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="f14b-13a5-16f7-d8f3" name="Inspiring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f14b-13a5-16f7-d8f3" name="Inspiring" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly ORDER units do not have to take battleshock tests while they are within 6寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2170,9 +2170,9 @@
         </selectionEntry>
         <selectionEntry id="0bfc-2753-ba37-63ec" name="3. Dauntless" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3b26-c45b-9b90-ff4f" name="Dauntless" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3b26-c45b-9b90-ff4f" name="Dauntless" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll charge rolls for this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2182,9 +2182,9 @@
         </selectionEntry>
         <selectionEntry id="cda1-69d4-81a2-af6f" name="4. Tenacious" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="d599-6a50-2186-f4c7" name="Tenacious" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d599-6a50-2186-f4c7" name="Tenacious" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to this 主将’s Wounds characteristic.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2194,9 +2194,9 @@
         </selectionEntry>
         <selectionEntry id="e6ce-6770-a355-3db5" name="5. Legendary Fighter" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="3413-3555-3979-858b" name="Legendary Fighter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3413-3555-3979-858b" name="Legendary Fighter" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 is selected to fight, add 1 to the Attacks characteristic of one of their 肉搏 武器 for that fight.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">When this 主将 is selected to fight, add 1 to the Attacks characteristic of one of their 肉搏 武器 for that fight.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2206,9 +2206,9 @@
         </selectionEntry>
         <selectionEntry id="0d9f-944c-3eb5-5e54" name="6. Master of Defence" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="c089-92fd-691d-89eb" name="Master of Defence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="c089-92fd-691d-89eb" name="Master of Defence" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Each tim you allocate a wound or mortal wound to this 主将, roll a dice. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Each tim you allocate a wound or mortal wound to this 主将, roll a dice. On a 6+ the wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4308,13 +4308,13 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5927-9c5a-8b20-8f37" name="Game Type (ALL GAME TYPES MUST MATCH)" hidden="false" collective="false" import="true" defaultSelectionEntryId="cea8-e4b2-c44f-c7b4">
+    <selectionEntryGroup id="5927-9c5a-8b20-8f37" name="游戏类型 (仅限竞技模式)" hidden="false" collective="false" import="true" defaultSelectionEntryId="cea8-e4b2-c44f-c7b4">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9f24-8ab9-ab48-5541" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a938-c780-2a0f-86ec" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="e860-9b1e-36bd-a54f" name="1000 Points - Vanguard" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e860-9b1e-36bd-a54f" name="1000 分 - 先锋" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="2a41-d48b-8500-7a1a" value="0.0">
               <conditionGroups>
@@ -4337,7 +4337,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cea8-e4b2-c44f-c7b4" name="2000 Points - Battlehost" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cea8-e4b2-c44f-c7b4" name="2000 分 - 战团" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="c95c-2781-073b-887d" value="0.0">
               <conditionGroups>
@@ -4360,7 +4360,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef67-15fb-487c-397a" name="2500 Points - Warhost" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ef67-15fb-487c-397a" name="2500 分 - 军团" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="94c1-18a9-d27c-23df" value="0.0">
               <conditionGroups>
@@ -4383,7 +4383,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ca54-0d07-72c2-d26f" name="No Points or Battlerole Validation (Open)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ca54-0d07-72c2-d26f" name="开放模式" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>

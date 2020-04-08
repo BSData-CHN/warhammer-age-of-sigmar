@@ -690,7 +690,7 @@
       <profiles>
         <profile id="0b83-ba20-e454-3bc2" name="Blood Rituals" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">: If your army has the DAUGHTERS OF KHAINE 阵营, units in this 阵型 count the current battle round number as being 1 higher than it actually is when determining what abilities they receive from the Blood Rites 战斗特性 (pg 50). This is cumulative with 其他, similar abilities (e.g. the True Believer 指挥特性 or the Sacrament of Blood prayer).</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">: If your army has the DAUGHTERS OF KHAINE 阵营, units in this 阵型 count the current battle round number as being 1 higher than it actually is when determining what abilities they receive from the Blood Rites 战斗特性 (pg 50). This is cumulative with 其他, similar abilities (e.g. the True Believer 主将特性 or the Sacrament of Blood prayer).</characteristic>
           </characteristics>
         </profile>
         <profile id="adfe-078d-ddce-eb6c" name="Devout Followers" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -1547,9 +1547,9 @@ Alternatively, if either 单位 is within 3寸 of an enemy 单位, it can instea
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Slaughter Queen can attempt to unbind one 法术 in the enemy 英雄阶段 as if it were a 法师.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0245-bb44-29f5-4d42" name="Orgy of Slaughter" publicationId="388b-16d3-pubN73948" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+        <profile id="0245-bb44-29f5-4d42" name="Orgy of Slaughter" publicationId="388b-16d3-pubN73948" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this model is your 主将, you can use this ability. If you do, pick a friendly DAUGHTERS OF KHAINE 单位 within 14寸 of this model. If that 单位 is within 3寸 of an enemy 单位, it can pile in and attack as if it were the combat phase. The same 单位 cannot be picked to benefit from this command ability more than once per 英雄阶段.</characteristic>
+            <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">If this model is your 主将, you can use this ability. If you do, pick a friendly DAUGHTERS OF KHAINE 单位 within 14寸 of this model. If that 单位 is within 3寸 of an enemy 单位, it can pile in and attack as if it were the combat phase. The same 单位 cannot be picked to benefit from this command ability more than once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1976,7 +1976,7 @@ Alternatively, if either 单位 is within 3寸 of an enemy 单位, it can instea
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Slaughter Queen on a Cauldron of Blood can attempt to unbind one 法术 in the enemy 英雄阶段 as if it were a 法师.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6d46-dedb-da46-46af" name="Orgy of Slaughter" publicationId="388b-16d3-pubN73948" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+        <profile id="6d46-dedb-da46-46af" name="Orgy of Slaughter" publicationId="388b-16d3-pubN73948" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1985,7 +1985,7 @@ Alternatively, if either 单位 is within 3寸 of an enemy 单位, it can instea
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this model is your 主将, you can use this ability. If you do, pick a friendly DAUGHTERS OF KHAINE 单位 within 14寸 of this model. If that 单位 is within 3寸 of an enemy 单位, it can pile in and attack as if it were the combat phase. The same 单位 cannot be picked to benefit from this command ability more than once per 英雄阶段.</characteristic>
+            <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">If this model is your 主将, you can use this ability. If you do, pick a friendly DAUGHTERS OF KHAINE 单位 within 14寸 of this model. If that 单位 is within 3寸 of an enemy 单位, it can pile in and attack as if it were the combat phase. The same 单位 cannot be picked to benefit from this command ability more than once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2824,9 +2824,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="271a-6fb9-b26a-d0b8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4af9-a6fe-3500-32af" name="Bathed in Blood" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4af9-a6fe-3500-32af" name="Bathed in Blood" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Increase this 主将’s Wounds characteristic by 1. In addition, at the start of each of your 英雄 phases, you can heal 1 wound that has been allocated to this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Increase this 主将’s Wounds characteristic by 1. In addition, at the start of each of your 英雄 phases, you can heal 1 wound that has been allocated to this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2839,9 +2839,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e3d-4c93-3299-1d5d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0327-b8c9-4690-bf40" name="Zealous Orator" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="0327-b8c9-4690-bf40" name="Zealous Orator" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DAUGHTERS OF KHAINE units within 14寸 of this 主将 use this 主将’s Bravery characteristic instead of their own.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Friendly DAUGHTERS OF KHAINE units within 14寸 of this 主将 use this 主将’s Bravery characteristic instead of their own.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2854,9 +2854,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="daed-b087-c256-12bc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="56f1-b405-19b7-28ee" name="Bloody Sacrificer" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="56f1-b405-19b7-28ee" name="Bloody Sacrificer" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this 主将’s 武器.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to hit rolls for this 主将’s 武器.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2869,9 +2869,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c528-fd2b-8f82-3375" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3dab-3b06-bce1-58a6" name="Terrifying Beauty" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3dab-3b06-bce1-58a6" name="Terrifying Beauty" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the hit rolls of attacks that target this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Subtract 1 from the hit rolls of attacks that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2884,9 +2884,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc67-2998-9a2e-3001" type="max"/>
           </constraints>
           <profiles>
-            <profile id="967d-cad4-fea3-a0d8" name="Mistress of Poisons" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="967d-cad4-fea3-a0d8" name="Mistress of Poisons" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristics of 肉搏 武器 wielded by this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Damage characteristics of 肉搏 武器 wielded by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2899,9 +2899,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1574-ac1f-80c8-be35" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5ddb-96eb-b35b-05c8" name="True Believer" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="5ddb-96eb-b35b-05c8" name="True Believer" publicationId="388b-16d3-pubN65537" page="51" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 counts the current battle round number as being 1 higher than it actually is when determining what abilities they receive from the Blood Rites 战斗特性 (pg 50). This is cumulative with 其他, similar abilities.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 counts the current battle round number as being 1 higher than it actually is when determining what abilities they receive from the Blood Rites 战斗特性 (pg 50). This is cumulative with 其他, similar abilities.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2927,9 +2927,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cb6-d55e-e12e-f7ab" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8503-472c-cb27-a68e" name="Devoted Disciples" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8503-472c-cb27-a68e" name="Devoted Disciples" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Whenever you make a Fanatical Faith roll (pg 50) for a friendly Hagg Nar 单位 within 7寸 of this 主将, the wound is negated on a 5+ instead of a 6+.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Whenever you make a Fanatical Faith roll (pg 50) for a friendly Hagg Nar 单位 within 7寸 of this 主将, the wound is negated on a 5+ instead of a 6+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2955,9 +2955,9 @@ If Morathi was your 主将 in her High Oracle of Khaine form, she remains your �
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce7a-9aa0-9c17-d07a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="449b-8bf4-c5cf-7ae9" name="Mistress of Illusion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="449b-8bf4-c5cf-7ae9" name="Mistress of Illusion" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, you can pick a friendly Khailebron 单位 within 7寸 of this 主将. If that 单位 is more than 3寸 from any enemy models, remove it from the battlefield and then set it up anywhere on the battlefield more than 9寸 from any enemy models. The 单位 cannot move in your next movement phase.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, you can pick a friendly Khailebron 单位 within 7寸 of this 主将. If that 单位 is more than 3寸 from any enemy models, remove it from the battlefield and then set it up anywhere on the battlefield more than 9寸 from any enemy models. The 单位 cannot move in your next movement phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>

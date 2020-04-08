@@ -805,9 +805,9 @@ If you do so, remove that 单位 from the battlefield and then set it up on the 
                                     <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">In the first battle round, add 3寸 to the Move characteristic of FANGS OF SOTEK SKINK units.</characteristic>
                                   </characteristics>
                                 </profile>
-                                <profile id="47e1-4312-1d2a-3cfb" name="Parting Shot" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                                <profile id="47e1-4312-1d2a-3cfb" name="Parting Shot" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                                   <characteristics>
-                                    <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability at the end of the enemy charge phase. If you do so, pick 1 friendly FANGS OF SOTEK SKINK 单位 from the Skinks warscroll, or friendly FANGS OF SOTEK CHAMELEON SKINKS 单位 that is wholly within 18寸 of a friendly FANGS OF SOTEK 英雄. That SKINKS or CHAMELEON SKINKS 单位 can shoot. After you have resolved all of the 单位&apos;s shooting attacks, roll a dice. On a 4+, that 单位 can make a normal move. If it does, it must retreat and cannot run. A 单位 cannot benefit from this command ability more than once per phase.</characteristic>
+                                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability at the end of the enemy charge phase. If you do so, pick 1 friendly FANGS OF SOTEK SKINK 单位 from the Skinks warscroll, or friendly FANGS OF SOTEK CHAMELEON SKINKS 单位 that is wholly within 18寸 of a friendly FANGS OF SOTEK 英雄. That SKINKS or CHAMELEON SKINKS 单位 can shoot. After you have resolved all of the 单位&apos;s shooting attacks, roll a dice. On a 4+, that 单位 can make a normal move. If it does, it must retreat and cannot run. A 单位 cannot benefit from this command ability more than once per phase.</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -904,9 +904,9 @@ At the end of your movement phase, you can set up one or more of the reserve uni
                                     <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by friendly KOATL&apos;S CLAW SAURUS units that made a charge move in the same turn.</characteristic>
                                   </characteristics>
                                 </profile>
-                                <profile id="33fb-4fc5-baa9-b1b6" name="Controlled Fury" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+                                <profile id="33fb-4fc5-baa9-b1b6" name="Controlled Fury" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                                   <characteristics>
-                                    <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly KOATL&apos;S CLAW SAURUS 单位 wholly within 24寸 of a friendly KOATL&apos;S CLAW SAURUS 英雄. That 单位 counts as having made a charge move in that turn for the purposes of the Savagery Incarnate ability.</characteristic>
+                                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly KOATL&apos;S CLAW SAURUS 单位 wholly within 24寸 of a friendly KOATL&apos;S CLAW SAURUS 英雄. That 单位 counts as having made a charge move in that turn for the purposes of the Savagery Incarnate ability.</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -7067,7 +7067,7 @@ to set up the 法师, then the 法师 is slain.</描述>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="2006-ecd1-0032-bbed" name="SAURUS 指挥特性" hidden="false" collective="false" import="true" targetId="46bb-a58a-3e8c-b60e" type="selectionEntryGroup"/>
+        <entryLink id="2006-ecd1-0032-bbed" name="SAURUS 主将特性" hidden="false" collective="false" import="true" targetId="46bb-a58a-3e8c-b60e" type="selectionEntryGroup"/>
         <entryLink id="71a9-8ea3-2ea1-5de2" name="SKINK Command Traits" hidden="false" collective="false" import="true" targetId="fa28-b282-cb95-61ac" type="selectionEntryGroup"/>
         <entryLink id="bedb-96b4-9fab-951a" name="SLANN Command Traits" hidden="false" collective="false" import="true" targetId="1d91-16f9-2053-b962" type="selectionEntryGroup"/>
         <entryLink id="5bb7-14cd-c5bb-5552" name="怪兽 Command Traits" hidden="false" collective="false" import="true" targetId="a0e4-0d3c-27c3-746a" type="selectionEntryGroup"/>
@@ -7095,9 +7095,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa3-cedf-eafc-f2b5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="15df-040f-2ce7-76c3" name="Arcane Might" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="15df-040f-2ce7-76c3" name="Arcane Might" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll one casting, unbinding or dispelling roll for this 主将 each 英雄阶段.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll one casting, unbinding or dispelling roll for this 主将 each 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7110,9 +7110,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6710-b2e8-dec7-01f8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3303-ca73-9d18-6f40" name="Vast Intellect" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3303-ca73-9d18-6f40" name="Vast Intellect" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of Celestial Domination.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of Celestial Domination.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7125,9 +7125,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4604-6d32-1f13-46d3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8314-816b-e36b-a34b" name="Great Rememberer" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="8314-816b-e36b-a34b" name="Great Rememberer" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and is on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+ you receive 1 extra command point.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and is on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+ you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7160,9 +7160,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5bd3-d430-ab82-625a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d4ee-c960-d313-b8b9" name="Ancient Knowledge" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d4ee-c960-d313-b8b9" name="Ancient Knowledge" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of Celestial Domination. In addition, you can re-roll 1 casting, dispelling, or unbinding roll for this 主将 each 英雄阶段.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">This 主将 knows 1 extra 法术 from the Lore of Celestial Domination. In addition, you can re-roll 1 casting, dispelling, or unbinding roll for this 主将 each 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7194,9 +7194,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b2-32fd-8510-903f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f32d-d8fa-3ba9-a06b" name="Disciplined Fury" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="f32d-d8fa-3ba9-a06b" name="Disciplined Fury" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for attacks made with 肉搏 武器 by this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">可以重投命中骰的1 for attacks made with 肉搏 武器 by this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7209,9 +7209,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8500-a28c-85b6-d596" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4151-bd83-4ea5-1995" name="Thickly Scaled Hide" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="4151-bd83-4ea5-1995" name="Thickly Scaled Hide" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">You can re-roll save rolls of 1 for attacks that target this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7224,9 +7224,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1f-6bff-4b67-2476" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6de0-a2a1-2cc9-fddc" name="Mighty Warleader" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="6de0-a2a1-2cc9-fddc" name="Mighty Warleader" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7258,9 +7258,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6ac-8085-bc8c-ca42" type="min"/>
           </constraints>
           <profiles>
-            <profile id="59b0-bcd3-e1fa-6fb4" name="Old and Grizzled" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="59b0-bcd3-e1fa-6fb4" name="Old and Grizzled" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 3+, you receive 1 extra command point.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">If this 主将 is part of your army and on the battlefield at the start of your 英雄阶段, roll a dice. On a 3+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7292,9 +7292,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8dc0-326f-9cad-1f45" type="min"/>
           </constraints>
           <profiles>
-            <profile id="33e9-d6ca-ea9a-31e8" name="Dominant Predator" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="33e9-d6ca-ea9a-31e8" name="Dominant Predator" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time this 主将 is used to issue a command to a friendly KOATL&apos;S CLAW SAURUS 单位. On a 4+, you receive 1 extra command point.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Roll a dice each time this 主将 is used to issue a command to a friendly KOATL&apos;S CLAW SAURUS 单位. On a 4+, you receive 1 extra command point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7326,9 +7326,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de2-42f6-108d-43c9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e521-2c45-c63c-d917" name="Master of Star Rituals" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="e521-2c45-c63c-d917" name="Master of Star Rituals" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this 主将 if they are a 法师. If they are not a 法师, then once per battle round, they can use the Herald of the Old Ones command ability from the Skink 祭司 warscroll without a command point being spent.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to casting rolls for this 主将 if they are a 法师. If they are not a 法师, then once per battle round, they can use the Herald of the Old Ones command ability from the Skink 祭司 warscroll without a command point being spent.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7352,9 +7352,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ec-a5b5-16f6-7ffe" type="max"/>
           </constraints>
           <profiles>
-            <profile id="571d-7fe7-39ef-9c76" name="Nimble" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="571d-7fe7-39ef-9c76" name="Nimble" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1寸 to this 主将&apos;s Move characteristic, and add 1 to save rolls for attacks that target them.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1寸 to this 主将&apos;s Move characteristic, and add 1 to save rolls for attacks that target them.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7367,9 +7367,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f6-313d-638c-5d0e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d99a-3f3c-bcdb-d70b" name="Cunning" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="d99a-3f3c-bcdb-d70b" name="Cunning" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of this 主将 and roll a dice. On a 4+ that enemy 英雄 suffers 1 mortal wound.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of the combat phase, you can pick 1 enemy 英雄 within 3寸 of this 主将 and roll a dice. On a 4+ that enemy 英雄 suffers 1 mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8041,9 +8041,9 @@ to set up the 法师, then the 法师 is slain.</描述>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e196-f50a-d635-791b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3952-4874-0d83-0be4" name="Prime Warbeast" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="指挥特性">
+            <profile id="3952-4874-0d83-0be4" name="Prime Warbeast" publicationId="3721-70d4-pubN65537" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of the 武器 used by this 主将&apos;s mount.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to the Attacks characteristic of the 武器 used by this 主将&apos;s mount.</characteristic>
               </characteristics>
             </profile>
           </profiles>

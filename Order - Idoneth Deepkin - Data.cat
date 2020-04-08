@@ -334,7 +334,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea78-2738-9e0a-b540" name="Akhelian King" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ea78-2738-9e0a-b540" name="Akhelian King" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="2586-b8c2-4e1c-da3d" name="Akhelian Paragon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -351,7 +351,7 @@
             <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if this model is your 主将 and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick a friendly IDONETH DEEPKIN 单位 wholly within 12寸 of your 主将. Add 1 to the Attacks characteristic of 肉搏 武器 used by that 单位 until your next 英雄阶段. </characteristic>
           </characteristics>
         </profile>
-        <profile id="54a5-a674-ce5b-e284" name="Akhelian King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="54a5-a674-ce5b-e284" name="Akhelian King" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -516,7 +516,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9a5-71c8-3543-c80a" name="Volturnos" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f9a5-71c8-3543-c80a" name="Volturnos" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d051-0076-d4a7-9061" type="max"/>
       </constraints>
@@ -541,7 +541,7 @@
             <characteristic name="指挥特性细节" typeId="ee96-6f3a-e5ca-2350">You can use this command ability if Volturnus is your 主将 and the High Tide ability from the Tides of Death table applies for the battle round. If you do so, pick up to 3 friendly IDONETH DEEPKIN units wholly within 18寸 of Volturnus. Add 1 to the Attacks characteristic of 肉搏 武器 used by those units until your next 英雄阶段</characteristic>
           </characteristics>
         </profile>
-        <profile id="a479-0026-d75e-56fd" name="Volturnos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="a479-0026-d75e-56fd" name="Volturnos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -597,7 +597,7 @@
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a470-1bff-9e2f-d5b2" name="Eidolon: Aspect of the Sea" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="a470-1bff-9e2f-d5b2" name="Eidolon: Aspect of the Sea" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e02b-e11a-c43e-67d1" name="Cloying Sea Mists" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
@@ -627,7 +627,7 @@
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Cloying Sea Mists, and Tsunami of Terror</characteristic>
           </characteristics>
         </profile>
-        <profile id="3286-3616-13c8-4265" name="Eidolon: Aspect of the Sea" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="3286-3616-13c8-4265" name="Eidolon: Aspect of the Sea" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">10</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -751,7 +751,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="647d-029e-80c9-2b44" name="Eidolon: Aspect of the Storm" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="647d-029e-80c9-2b44" name="Eidolon: Aspect of the Storm" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6289-4bb4-195a-5a45" name="Crashing Upon the Foe" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -768,7 +768,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, you can pick an enemy 英雄 with a Wounds characteristic of less than 8 that is within 3寸 of this model. Subtract 1 from hit rolls for that 英雄 for the rest of that combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9d64-a7c7-f46f-b249" name="Eidolon: Aspect of the Storm" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9d64-a7c7-f46f-b249" name="Eidolon: Aspect of the Storm" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -848,12 +848,12 @@
         <cost name="pts" typeId="points" value="360.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02fd-a31c-6926-4378" name="Lotann" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="02fd-a31c-6926-4378" name="Lotann" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c6c-f6de-0893-8f01" type="max"/>
       </constraints>
       <profiles>
-        <profile id="96ba-ea36-f116-a3d2" name="Lotann" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="96ba-ea36-f116-a3d2" name="Lotann" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -977,9 +977,9 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="79e1-0306-7e6e-d27d" name="Namarti Reavers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="79e1-0306-7e6e-d27d" name="Namarti Reavers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4422-5700-7fb8-f84b" name="Namarti Reavers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4422-5700-7fb8-f84b" name="Namarti Reavers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -1159,9 +1159,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e6e5-f647-e3ac-7bd2" name="Namarti Thralls" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e6e5-f647-e3ac-7bd2" name="Namarti Thralls" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d1d0-574f-59d7-b545" name="Namarti Thralls" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d1d0-574f-59d7-b545" name="Namarti Thralls" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -1277,9 +1277,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3327-30f1-f9ee-34f1" name="Isharann Tidecaster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3327-30f1-f9ee-34f1" name="Isharann Tidecaster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9dee-f3b0-44e3-2afb" name="Isharann Tidecaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9dee-f3b0-44e3-2afb" name="Isharann Tidecaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1351,9 +1351,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="251d-7ccf-13fd-2da6" name="Isharann Soulscryer" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="251d-7ccf-13fd-2da6" name="Isharann Soulscryer" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d450-645e-a1d7-4f12" name="Isharann Soulscryer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d450-645e-a1d7-4f12" name="Isharann Soulscryer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1435,9 +1435,9 @@
         <cost name="pts" typeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f717-3ffb-f9f0-e703" name="Isharann Soulrender" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f717-3ffb-f9f0-e703" name="Isharann Soulrender" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="487f-054b-99de-94c0" name="Isharann Soulrender" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="487f-054b-99de-94c0" name="Isharann Soulrender" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1518,9 +1518,9 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae34-b407-ec32-9dc8" name="Akhelian Allopexes" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ae34-b407-ec32-9dc8" name="Akhelian Allopexes" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="15d8-ee4e-cea2-1f33" name="Akhelian Allopexes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="15d8-ee4e-cea2-1f33" name="Akhelian Allopexes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -1686,7 +1686,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1925-b9c1-5230-f036" name="Akhelian Leviadon" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1925-b9c1-5230-f036" name="Akhelian Leviadon" publicationId="0d25-2712-pubN70885" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="42c4-0d16-8223-b350" name="Jaws of Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -1698,7 +1698,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">IDONETH DEEPKIN units are treated as being in cover while they are wholly within 12寸 of any friendly Akhelian Leviadons.</characteristic>
           </characteristics>
         </profile>
-        <profile id="957c-2125-ba3f-dd2a" name="Akhelian Leviadon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="957c-2125-ba3f-dd2a" name="Akhelian Leviadon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -1865,9 +1865,9 @@
         <cost name="pts" typeId="points" value="310.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d11-e272-4a3f-9cb2" name="Akhelian Morrsarr Guard" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6d11-e272-4a3f-9cb2" name="Akhelian Morrsarr Guard" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7731-199b-62b1-2a39" name="Akhelian Morrsarr Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7731-199b-62b1-2a39" name="Akhelian Morrsarr Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -2116,9 +2116,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abb8-d878-2080-d23f" name="Akhelian Ishlaen Guard" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="abb8-d878-2080-d23f" name="Akhelian Ishlaen Guard" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1471-6751-ea4f-9e4c" name="Akhelian Ishlaen Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="1471-6751-ea4f-9e4c" name="Akhelian Ishlaen Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>

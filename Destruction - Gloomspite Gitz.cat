@@ -433,7 +433,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="73c2-8a55-9faa-bb56" name="Squig Hoppers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="73c2-8a55-9faa-bb56" name="Squig Hoppers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -447,7 +447,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this 单位 has made a normal move, pick 1 enemy 单位 and roll a dice for each model in this 单位 that passed across a model from that 单位. For each 4+ that 单位 suffers 1 mortal wound. </characteristic>
           </characteristics>
         </profile>
-        <profile id="09da-9891-163d-9a2f" name="Squig Hoppers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="09da-9891-163d-9a2f" name="Squig Hoppers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">3D6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -472,7 +472,7 @@
         <categoryLink id="8696-cd13-1689-23b0" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c6be-f07c-c1ff-1f00" name="5 Squig Hoppers" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="c6be-f07c-c1ff-1f00" name="5 Squig Hoppers" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f670-fffd-b734-10f2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e968-3fde-3ec2-1f6d" type="min"/>
@@ -530,9 +530,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff2e-4400-dbde-d4c4" name="Boingrot Bounders" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ff2e-4400-dbde-d4c4" name="Boingrot Bounders" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="86e7-ae34-7bb9-331f" name="Boingrot Bounders" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="86e7-ae34-7bb9-331f" name="Boingrot Bounders" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">2D6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -567,7 +567,7 @@
         <categoryLink id="db16-825e-3c3e-37d1" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="03de-94a7-ba65-6208" name="5 Boingrot Bounderz" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="03de-94a7-ba65-6208" name="5 Boingrot Bounderz" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da7-07ac-dbb6-8bf7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002b-472b-e9e7-a69c" type="min"/>
@@ -625,7 +625,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b1a7-92f3-64d3-91f1" name="Loonsmasha Fanatics" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b1a7-92f3-64d3-91f1" name="Loonsmasha Fanatics" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="878e-2ad6-ee42-5e75" name="Release the Fanatics!" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -637,7 +637,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the charge roll for this 单位 is a double, after the charge move (or after the charge fails), this 单位 suffers 1 mortal wound and each 其他 单位 within 1寸 of this 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="964c-cbfc-06e0-db6c" name="Loonsmasha Fanatics" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="964c-cbfc-06e0-db6c" name="Loonsmasha Fanatics" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">2D6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -658,7 +658,7 @@
         <categoryLink id="d84e-6628-608d-4b62" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a4e8-77ef-5e8c-a949" name="5 Loonsmasha Fanatics" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="a4e8-77ef-5e8c-a949" name="5 Loonsmasha Fanatics" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="124b-24b7-6ffc-1dae" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="61a4-bae1-0d3e-c0d5" type="max"/>
@@ -707,7 +707,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0"> Once per battle, in your 英雄阶段, you can attempt to cast one additional 法术 with this model. If you do so, and the casting roll is a double, this model suffers D3 mortal wounds after the effects of the 法术 (if any) have been resolved. </characteristic>
           </characteristics>
         </profile>
-        <profile id="0b2a-6bc2-45b0-4962" name="Madcap Shaman" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="0b2a-6bc2-45b0-4962" name="Madcap Shaman" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -814,7 +814,7 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfa0-bc57-427f-dac8" name="阵型: Troggherd" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="cfa0-bc57-427f-dac8" name="阵型: Troggherd" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4930-b5ef-31a9-f253" name="Eat on the Move" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -862,7 +862,7 @@
     </selectionEntry>
     <selectionEntry id="5a11-19e5-ab10-9fd6" name="Dankhold Troggboss" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4f54-ed12-432d-f4db" name="Dankhold Troggboss" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4f54-ed12-432d-f4db" name="Dankhold Troggboss" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="14">
               <conditions>
@@ -973,7 +973,7 @@
     </selectionEntry>
     <selectionEntry id="9353-2c1a-a365-7fcd" name="Aleguzzler Gargant" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="1c1a-1caa-139a-d332" name="Aleguzzler Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="1c1a-1caa-139a-d332" name="Aleguzzler Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -1149,7 +1149,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the combat phase, roll 1 dice for each enemy 单位 within 3寸 of any friendly models with this ability. If the roll is equal to or greater than the number of models in that enemy 单位, that enemy 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="95b2-dd91-f98b-89c5" name="Dankhold Troggoth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="95b2-dd91-f98b-89c5" name="Dankhold Troggoth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">10</characteristic>
@@ -1223,7 +1223,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5286-aa44-42ef-756f" name="Rockgut Troggoths" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5286-aa44-42ef-756f" name="Rockgut Troggoths" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -1232,7 +1232,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="597e-ef9d-4c6c-3e03" name="Rockgut Troggoths" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="597e-ef9d-4c6c-3e03" name="Rockgut Troggoths" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -1263,7 +1263,7 @@
         <categoryLink id="9361-ec96-37ed-9111" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fbfa-a509-7ebe-d39a" name="3 Rockgut Troggoths" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="fbfa-a509-7ebe-d39a" name="3 Rockgut Troggoths" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2eb-b8b6-70a1-b2aa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3dc-683a-6be1-06ef" type="min"/>
@@ -1299,7 +1299,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1532-280f-10d7-576e" name="Fellwater Troggoths" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1532-280f-10d7-576e" name="Fellwater Troggoths" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -1313,7 +1313,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can roll a dice for this 单位. If you do so, on a 4+ heal up to D3 wounds allocated to this 单位.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a9ab-ca50-ea19-c3de" name="Fellwater Troggoths" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="a9ab-ca50-ea19-c3de" name="Fellwater Troggoths" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -1334,7 +1334,7 @@
         <categoryLink id="bc62-bac6-7977-4d1a" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="201e-a2ce-08cb-e751" name="3 Fellwater Troggoths" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="201e-a2ce-08cb-e751" name="3 Fellwater Troggoths" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ba-0914-6872-8b78" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea4f-92dc-ca1f-d52b" type="min"/>
@@ -1468,7 +1468,7 @@
             <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick 1 friendly MOONCLAN GROT 单位 wholly within 12寸 of a friendly model with this command ability, or wholly within 24寸 of a model with this command ability that is your 主将. If the unmodified wound roll for an attack made by that 单位 in that phase is 6, that attack inflicts 1 mortal wound on the target in addition to any normal damage. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="674b-1555-6f1e-d5f4" name="Loonboss" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="674b-1555-6f1e-d5f4" name="Loonboss" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="7">
               <conditions>
@@ -1553,7 +1553,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before the model is removed from play roll a dice for each 单位 within 6寸 of this model. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="38ef-5a36-5742-1e5a" name="Loonboss on Mangler Squigs" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="38ef-5a36-5742-1e5a" name="Loonboss on Mangler Squigs" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="14">
               <conditions>
@@ -1732,7 +1732,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from hit rolls for attacks that target this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7a6c-4e66-ff12-9899" name="Loonboss with Giant Cave Squig" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7a6c-4e66-ff12-9899" name="Loonboss with Giant Cave Squig" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="8">
               <conditions>
@@ -1852,7 +1852,7 @@
             <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase. If you do so, pick 1 friendly model with this command ability. All friendly SQUIG units wholly within 12寸 of that model at the start of that phase can move an extra 3寸 if they make a move in that phase. A 单位 cannot benefit from this command ability more than once per movement phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="350b-fa46-3d11-4a65" name="Loonboss on Giant Cave Squig" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="350b-fa46-3d11-4a65" name="Loonboss on Giant Cave Squig" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="8">
               <conditions>
@@ -1988,7 +1988,7 @@
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Spore Maws, one 其他 from the Lore of the Moonclan</characteristic>
           </characteristics>
         </profile>
-        <profile id="055b-d3b5-6d41-8dc4" name="Fungoid Cave-Shaman" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="055b-d3b5-6d41-8dc4" name="Fungoid Cave-Shaman" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -2143,7 +2143,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can roll a dice for this 单位. If you do so, on a 4+ heal up to D3 wounds allocated to this 单位.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0207-3e0c-088b-149a" name="Mollog" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="0207-3e0c-088b-149a" name="Mollog" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -2233,7 +2233,7 @@
     </selectionEntry>
     <selectionEntry id="acdd-a781-ffe2-69b1" name="Scuttleboss on Gigantic Spider" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e9c0-e634-1c2d-2d16" name="Scuttleboss on Gigantic Spider" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e9c0-e634-1c2d-2d16" name="Scuttleboss on Gigantic Spider" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="8">
               <conditions>
@@ -2355,7 +2355,7 @@
             <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability once per battle if this model is your 主将 and on the battlefield, before you roll the dice to determine how far the Bad Moon moves that battle round. If you do so, you can choose for the Bad Moon to either not move that battle round, or to make 1 move or 2 moves that battle round (do not roll the dice to determine how far it moves).</characteristic>
           </characteristics>
         </profile>
-        <profile id="197c-9666-418f-e4de" name="Skragrott, the Loonking" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="197c-9666-418f-e4de" name="Skragrott, the Loonking" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2469,7 +2469,7 @@
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2653-d92c-7afc-5bf6" name="Zarbag&apos;s Gitz" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2653-d92c-7afc-5bf6" name="Zarbag&apos;s Gitz" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="73ff-a6dc-655f-947b" value="1">
           <conditions>
@@ -2488,7 +2488,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">This 单位 consists of 7 models; the Squig Herder armed with a Squid Prodder, 2 Cave Squigs each armed with a Massive Gob Full of Teeth, the Netter armed with a Slitta and a Barbed Net, and 3 Moonclan Shootas each armed with a Moonclan Bow and Slitta.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d58b-f001-389f-2aac" name="Zarbag&apos;s Gitz" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d58b-f001-389f-2aac" name="Zarbag&apos;s Gitz" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -2643,7 +2643,7 @@
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Face of Da Bad Moon, one 其他 from the Lore of the Moonclan</characteristic>
           </characteristics>
         </profile>
-        <profile id="d1a3-0e74-a625-4f9b" name="Zarbag" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d1a3-0e74-a625-4f9b" name="Zarbag" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2770,7 +2770,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting and unbinding rolls for friendly SPIDERFANG WIZARDS while they are within 12寸 of any friendly models with this ability.</characteristic>
           </characteristics>
         </profile>
-        <profile id="593e-5c7a-1381-865e" name="Webspinner Shaman on Arachnarok Spider" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="593e-5c7a-1381-865e" name="Webspinner Shaman on Arachnarok Spider" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -3013,7 +3013,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Do not use the attack sequence for an attack made with a Flinger. Instead roll a dice. Add 1 to the dice roll if the target 单位 has at least 5 models. Add 2 to the dice roll instead if the target 单位 has at least 10 models.  On a 6+ the target 单位 suffers D3 mortal wounds and is engulfed in sticky webs. A 单位 that is engulfed in sticky webs fights at the end of the next combat phase, after the players have picked any 其他 units to fight.</characteristic>
           </characteristics>
         </profile>
-        <profile id="b2e2-543d-e36e-348d" name="Arachnarok Spider with Flinger" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b2e2-543d-e36e-348d" name="Arachnarok Spider with Flinger" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -3193,7 +3193,7 @@
     </selectionEntry>
     <selectionEntry id="ebf9-d4df-0661-726d" name="Mangler Squigs" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="e1b9-e79a-ab7a-c3b9" name="Mangler Squigs" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e1b9-e79a-ab7a-c3b9" name="Mangler Squigs" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -3360,7 +3360,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve 单位.  At the end of your movement phase, you can set up one or more of the reserve units that are in ambush on the battlefield more than 9寸 from any enemy units. Any reserve units that are in ambush that are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
           </characteristics>
         </profile>
-        <profile id="35b3-1836-a683-6f71" name="Skitterstrand Arachnarok" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="35b3-1836-a683-6f71" name="Skitterstrand Arachnarok" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -3472,7 +3472,7 @@
         <cost name="pts" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="649e-bb80-2cdb-9589" name="Gobbapalooza" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="649e-bb80-2cdb-9589" name="Gobbapalooza" publicationId="3323-8984-c803-feb5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="fe35-cd13-72e8-0835" name="毁灭" hidden="false" targetId="d963-a5fb-c348-2371" primary="false"/>
         <categoryLink id="b1de-0c04-6faa-f718" name="GLOOMSPITE GITZ" hidden="false" targetId="19e1-59e0-e5c6-2e94" primary="false"/>
@@ -3487,7 +3487,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e76-16f9-58bd-e83b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="09da-eaf9-5b84-519b" name="Shroomancer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+            <profile id="09da-eaf9-5b84-519b" name="Shroomancer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
               <characteristics>
                 <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
                 <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -3555,7 +3555,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae1-d133-d60d-2575" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1a42-c870-8af3-c967" name="Scaremonger" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+            <profile id="1a42-c870-8af3-c967" name="Scaremonger" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
               <characteristics>
                 <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
                 <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -3613,7 +3613,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96cb-cf13-db7a-dd27" type="max"/>
           </constraints>
           <profiles>
-            <profile id="12fe-9ae5-8f1c-2c4c" name="Boggleye" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+            <profile id="12fe-9ae5-8f1c-2c4c" name="Boggleye" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
               <characteristics>
                 <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
                 <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">3</characteristic>
@@ -3681,7 +3681,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ee-6031-2f91-b4c3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9964-fe39-b2de-c962" name="Spiker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+            <profile id="9964-fe39-b2de-c962" name="Spiker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
               <characteristics>
                 <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
                 <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">3</characteristic>
@@ -3739,7 +3739,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f990-7046-600f-b14f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3e3d-6c3a-2e43-46d1" name="Brewgit" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+            <profile id="3e3d-6c3a-2e43-46d1" name="Brewgit" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
               <characteristics>
                 <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
                 <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">3</characteristic>
@@ -3922,9 +3922,9 @@
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f2d-e883-6fb0-ef8b" name="Sneaky Shufflers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7f2d-e883-6fb0-ef8b" name="Sneaky Shufflers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0258-05a3-e7a9-31a5" name="Sneaky Shufflers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="0258-05a3-e7a9-31a5" name="Sneaky Shufflers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -3946,7 +3946,7 @@
         <categoryLink id="d07c-ccab-dd39-307d" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3db2-3139-3b64-49d5" name="6 Sneaky Snufflers" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="3db2-3139-3b64-49d5" name="6 Sneaky Snufflers" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce8-52e7-0dab-18ed" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b63-f9ce-02ef-a020" type="min"/>
@@ -4004,7 +4004,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f71c-25f7-10fd-9f8e" name="Spider Riders" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f71c-25f7-10fd-9f8e" name="Spider Riders" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -4023,7 +4023,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model makes a move, it can pass across terrain features in the same manner as a model that can fly. </characteristic>
           </characteristics>
         </profile>
-        <profile id="1ccf-4309-0242-9210" name="Spider Riders" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="1ccf-4309-0242-9210" name="Spider Riders" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">10寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -4045,7 +4045,7 @@
         <categoryLink id="3469-fc74-374d-9cd3" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c6e0-e780-602c-9f32" name="5 Spider Riders" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="c6e0-e780-602c-9f32" name="5 Spider Riders" hidden="false" collective="false" import="true" type="unit">
           <modifiers>
             <modifier type="decrement" field="points" value="10">
               <conditions>
@@ -4192,9 +4192,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f468-427a-bd3b-4e91" name="Stabbas" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f468-427a-bd3b-4e91" name="Stabbas" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="545f-1b87-086a-ff82" name="Stabbas" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="545f-1b87-086a-ff82" name="Stabbas" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -4363,7 +4363,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8599-239f-ebc7-8fcc" name="Shootas" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8599-239f-ebc7-8fcc" name="Shootas" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e8ae-3be0-5d1e-3562" name="Backstabbing Mob" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -4375,7 +4375,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for attacks that target this 单位 while it has at least 10 models with Moon Shields.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c506-a8fb-8c61-7a98" name="Shootas" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c506-a8fb-8c61-7a98" name="Shootas" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -4555,7 +4555,7 @@
     </selectionEntry>
     <selectionEntry id="61af-737d-a504-8955" name="Webspinner Shaman" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="24ad-1e93-68cd-682b" name="Webspinner Shaman" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="24ad-1e93-68cd-682b" name="Webspinner Shaman" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -4681,7 +4681,7 @@
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Hag Curse</characteristic>
           </characteristics>
         </profile>
-        <profile id="af1b-6195-0cc8-52b6" name="Troggoth Hag" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="af1b-6195-0cc8-52b6" name="Troggoth Hag" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -4838,7 +4838,7 @@
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3469-bad7-6b85-14b7" name="Sporesplatta Fanatics" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3469-bad7-6b85-14b7" name="Sporesplatta Fanatics" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6020-4ad5-ba99-9250" name="Whirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -4860,7 +4860,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Models are not visible to each 其他 if an imaginary straight line 1mm wide drawn between the closest points of the two models crosses over this 单位, or passes within 1寸 of this 单位. This ability does not apply if either of the models the line is drawn between is a model from this 单位, a model that can fly, or a 怪兽.</characteristic>
           </characteristics>
         </profile>
-        <profile id="eca8-ecc1-f24d-10b8" name="Sporesplatta Fanatics" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="eca8-ecc1-f24d-10b8" name="Sporesplatta Fanatics" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">2D6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -4876,7 +4876,7 @@
         <categoryLink id="28ac-f9da-e2b3-12d7" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="75b7-5446-a598-66e6" name="5 Sporesplatta Fanatics" hidden="false" collective="false" import="true" type="单位">
+        <selectionEntry id="75b7-5446-a598-66e6" name="5 Sporesplatta Fanatics" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8dd-b2d2-3f83-c372" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcb5-db6d-5890-d064" type="min"/>
@@ -4919,7 +4919,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before removing the model from the battlefield the players must roll off. The player who wins the roll-off picks a point on the battlefield 3寸 from this model. Each 单位 within 2寸 of that point suffers D3 mortal wounds. This model is then removed from the battlefield.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ebd3-5ba5-2790-bc9b" name="Bonegrinder Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ebd3-5ba5-2790-bc9b" name="Bonegrinder Gargant" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">20</characteristic>
@@ -5066,7 +5066,7 @@
     </selectionEntry>
     <selectionEntry id="48cd-dd8f-5a2d-5e99" name="Colossal Squig" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9910-73f0-d85b-9028" name="Colossal Squig" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9910-73f0-d85b-9028" name="Colossal Squig" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -5223,7 +5223,7 @@
     </selectionEntry>
     <selectionEntry id="4a2d-0812-1be1-cc52" name="Squig Gobba" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b02b-8f91-5b2e-b8d1" name="Squig Gobba" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b02b-8f91-5b2e-b8d1" name="Squig Gobba" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -5591,7 +5591,7 @@
         <cost name="pts" typeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a8d-7791-d79a-356a" name="阵型: Gobbapalooza" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5a8d-7791-d79a-356a" name="阵型: Gobbapalooza" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="999c-a216-0c3e-0891" name="Brew-Fuelled Madness" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5614,7 +5614,7 @@
         <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e4d-0bc4-c7d6-6eaf" name="阵型: Skulkmob Horde" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4e4d-0bc4-c7d6-6eaf" name="阵型: Skulkmob Horde" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b868-9049-022b-5a59" name="Endless Hordes" page="" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5658,7 +5658,7 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="18ec-b6d7-94d1-d444" name="阵型: Squig Rider Stampede" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="18ec-b6d7-94d1-d444" name="阵型: Squig Rider Stampede" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b5a2-b0b5-7ab9-8171" name="Madcap Momentum" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5693,7 +5693,7 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cb6-36e9-af0e-4dce" name="Super 阵型: Moonclan Skrap" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5cb6-36e9-af0e-4dce" name="Super 阵型: Moonclan Skrap" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ecdf-804a-d536-2cec" name="Spreading Lunacy" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5807,7 +5807,7 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="27da-db86-26ff-eb50" name="阵型: Arachnarok Spider Cluster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="27da-db86-26ff-eb50" name="阵型: Arachnarok Spider Cluster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="365b-80dd-eec3-f905" name="Hunting Brood" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5842,7 +5842,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cd2-feda-dc7f-2af9" name="阵型: Spider Rider Skitterswarm" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9cd2-feda-dc7f-2af9" name="阵型: Spider Rider Skitterswarm" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7fea-2646-1487-b99b" name="Outriders of the Spider God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5878,7 +5878,7 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="306e-05ca-7807-93f2" name="阵型: Skitterstrand Nest" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="306e-05ca-7807-93f2" name="阵型: Skitterstrand Nest" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d111-22a4-a838-748e" name="Burst from the Beyond" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5905,7 +5905,7 @@
         <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f39e-acf2-fa09-4b31" name="Super 阵型: Spiderfang Stalktribe" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f39e-acf2-fa09-4b31" name="Super 阵型: Spiderfang Stalktribe" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ebe9-5ffe-49ce-d8cd" name="Power of the Spider God" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
@@ -5993,7 +5993,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with this model’s Monstrous Fangs is 6, that attack inflicts D3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
           </characteristics>
         </profile>
-        <profile id="3fbc-470d-2a0b-d248" name="Arachnarok Spider with Spiderfang Warparty" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="3fbc-470d-2a0b-d248" name="Arachnarok Spider with Spiderfang Warparty" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -6154,7 +6154,7 @@
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7f2-6558-9c0f-89bc" name="Squig Herd" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d7f2-6558-9c0f-89bc" name="Squig Herd" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -6169,7 +6169,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="316e-4472-7656-59ac" name="Squig Herd" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="316e-4472-7656-59ac" name="Squig Herd" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>

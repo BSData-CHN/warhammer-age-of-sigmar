@@ -124,7 +124,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8171-f17c-d43c-5e0b" name="阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8171-f17c-d43c-5e0b" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -222,7 +222,7 @@
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a82-51b8-c8cc-4fe6" name="Battlemage" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2a82-51b8-c8cc-4fe6" name="Battlemage" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4320-a77a-953a-ca60" name="Battlemage" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
@@ -230,7 +230,7 @@
             <characteristic name="掌握的法术" typeId="dc9c-47d3-6931-859c">Arcane Bolt, Mystic Shield, Specialisation 法术</characteristic>
           </characteristics>
         </profile>
-        <profile id="d78f-29ab-ba62-74c6" name="Battlemage" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d78f-29ab-ba62-74c6" name="Battlemage" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -397,7 +397,7 @@
         <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb63-b9fd-e4ab-828a" name="Battlemage on Griffon" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="cb63-b9fd-e4ab-828a" name="Battlemage on Griffon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a0b8-685c-c565-56cb" name="Battlemage on Griffon" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
@@ -459,7 +459,7 @@
             <characteristic name="变量 4" typeId="ad26-bf56-95c4-80f1">2</characteristic>
           </characteristics>
         </profile>
-        <profile id="2bf8-b136-1adc-ec0e" name="Battlemage on Griffon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="2bf8-b136-1adc-ec0e" name="Battlemage on Griffon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">13</characteristic>
@@ -558,7 +558,7 @@
         <cost name="pts" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4dd-f8cd-fa3d-6555" name="Celestial Hurricanum" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d4dd-f8cd-fa3d-6555" name="Celestial Hurricanum" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="with Celestial Battlemage [领袖]">
           <conditions>
@@ -567,7 +567,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="f5f8-932f-c004-0640" name="Celestial Hurricanum" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f5f8-932f-c004-0640" name="Celestial Hurricanum" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">11</characteristic>
@@ -797,7 +797,7 @@
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec08-7605-f909-609e" name="Luminark of Hysh" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ec08-7605-f909-609e" name="Luminark of Hysh" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="with White Battlemage [领袖]">
           <conditions>
@@ -806,7 +806,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="955e-9c80-b598-0614" name="Luminark of Hysh" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="955e-9c80-b598-0614" name="Luminark of Hysh" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">11</characteristic>

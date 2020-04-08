@@ -92,7 +92,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="42ff-7909-64d2-1868" name="阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="42ff-7909-64d2-1868" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0eaf-52fd-9d23-122e" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="62ee-9c51-a1ef-9ca5" type="max"/>
@@ -123,9 +123,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa71-607c-5cd6-3075" name="Cannon" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="fa71-607c-5cd6-3075" name="Cannon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d9e0-8d30-87f9-e796" name="Cannon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d9e0-8d30-87f9-e796" name="Cannon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -173,7 +173,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Cannon can only move if its Crew are within 1寸 at the start of the movement phase.  If its Crew are within 1寸 of the Cannon in the 射击阶段, they can fire the 战争机械.  The 战争机械 cannot make charge moves, does not need to take battleshock tests and is unaffected by any attack or ability the uses Bravery.  The Crew are in cover while they are within 1寸 of their 战争机械.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f56b-adb4-9122-3d63" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f56b-adb4-9122-3d63" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -247,9 +247,9 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fca-ba5d-d64c-a20e" name="Helblaster Volly Gun" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4fca-ba5d-d64c-a20e" name="Helblaster Volly Gun" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="eb7b-4d27-44cc-a8d6" name="Helblaster Volly Gun" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="eb7b-4d27-44cc-a8d6" name="Helblaster Volly Gun" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -312,7 +312,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll all the dice when determing how many attacks are made with a Volley of Shots if there is an ENGINEER from your army within 1寸 of this 战争机械.</characteristic>
           </characteristics>
         </profile>
-        <profile id="4b99-c552-b8dd-045b" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4b99-c552-b8dd-045b" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -376,9 +376,9 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="235c-8039-3c97-3403" name="Helstorm Rocket Battery" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="235c-8039-3c97-3403" name="Helstorm Rocket Battery" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ef60-cb78-1a63-9754" name="Helstorm Rocket Battery" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ef60-cb78-1a63-9754" name="Helstorm Rocket Battery" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -421,7 +421,7 @@
             <characteristic name="Variable3" typeId="0491-444f-6247-5164">0</characteristic>
           </characteristics>
         </profile>
-        <profile id="65df-d115-592e-a47a" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="65df-d115-592e-a47a" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -505,9 +505,9 @@
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78de-b8b6-1fb0-daf7" name="Organ Gun" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="78de-b8b6-1fb0-daf7" name="Organ Gun" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3586-4f6d-88bb-ac60" name="Organ Gun" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="3586-4f6d-88bb-ac60" name="Organ Gun" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -565,7 +565,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll the dice rolled to see if an Organ Gun jams if there is an Engineer from your army within 1寸 of the 战争机械.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f5a8-df22-cd01-386c" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f5a8-df22-cd01-386c" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -639,9 +639,9 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7857-7548-e623-8fa1" name="Steam Tank" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="7857-7548-e623-8fa1" name="Steam Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ee63-bed4-fc04-06db" name="Steam Tank" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ee63-bed4-fc04-06db" name="Steam Tank" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -863,9 +863,9 @@
         <cost name="pts" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d3de-79cc-8b26-6b05" name="Cogsmith" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d3de-79cc-8b26-6b05" name="Cogsmith" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d465-da22-006d-75d3" name="Cogsmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d465-da22-006d-75d3" name="Cogsmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -987,9 +987,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="230d-997c-b9e9-bb51" name="Gunmaster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="230d-997c-b9e9-bb51" name="Gunmaster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8f49-ec40-a73c-1ed2" name="Gunmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8f49-ec40-a73c-1ed2" name="Gunmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1110,9 +1110,9 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f0e-425f-9fe0-2ca5" name="Gyrobombers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8f0e-425f-9fe0-2ca5" name="Gyrobombers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e50a-b962-43ee-7a7d" name="Gyrobombers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e50a-b962-43ee-7a7d" name="Gyrobombers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1186,9 +1186,9 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42ff-8440-b970-a955" name="Gyrocopters" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="42ff-8440-b970-a955" name="Gyrocopters" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f37b-eb19-0c21-f99f" name="Gyrocopters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f37b-eb19-0c21-f99f" name="Gyrocopters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>

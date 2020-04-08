@@ -1046,7 +1046,7 @@ Summoned units must be set up wholly within 12寸 of a friendly 奸奇 英雄 an
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3df8-78a6-7028-906a" name="Gaunt Summoner of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3df8-78a6-7028-906a" name="Gaunt Summoner of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ccae-6db8-758b-4c00" name="Infernal Flames" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
@@ -1054,7 +1054,7 @@ Summoned units must be set up wholly within 12寸 of a friendly 奸奇 英雄 an
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 12寸 of the caster that is visible to them, and roll 1 dice for each model in that 单位. For each 5+, that 单位 suffers 1 mortal wound. If that 单位 is an enemy 怪兽 or 战争机械, roll 3 dice for each model instead.</characteristic>
           </characteristics>
         </profile>
-        <profile id="fb2a-8e4c-9fd0-769d" name="Gaunt Summoner" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="fb2a-8e4c-9fd0-769d" name="Gaunt Summoner" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1155,7 +1155,7 @@ Choose 1 单位 from the following list:
         <cost name="pts" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1ca-9781-0da5-84dd" name="Gaunt Summoner on Disc of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="a1ca-9781-0da5-84dd" name="Gaunt Summoner on Disc of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="18fe-3b18-0683-78ed" name="Gaunt Summoner" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
@@ -1185,7 +1185,7 @@ Choose 1 单位 from the following list:
 • 6 Furies</characteristic>
           </characteristics>
         </profile>
-        <profile id="54eb-58e4-1879-8e76" name="Gaunt Summoner on Disc of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="54eb-58e4-1879-8e76" name="Gaunt Summoner on Disc of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1599,9 +1599,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e48-1e04-c653-4aaf" name="Bloodthirster of Insensate Rage" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9e48-1e04-c653-4aaf" name="Bloodthirster of Insensate Rage" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="19af-6b98-f214-0c11" name="Bloodthirster of Insensate Rage" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="19af-6b98-f214-0c11" name="Bloodthirster of Insensate Rage" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -1717,9 +1717,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="270.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8382-1180-29c2-b910" name="Bloodthirster of Unfettered Fury" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8382-1180-29c2-b910" name="Bloodthirster of Unfettered Fury" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8e5d-e383-0fa8-c077" name="Bloodthirster of Unfettered Fury" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8e5d-e383-0fa8-c077" name="Bloodthirster of Unfettered Fury" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -1857,7 +1857,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="270.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="635a-740a-3918-486d" name="Bloodletters" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="635a-740a-3918-486d" name="Bloodletters" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="points" value="300.0">
           <conditions>
@@ -1881,7 +1881,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for attacks made by this 单位 while this 单位 has at least 20 models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6ef7-fc15-4263-903d" name="Bloodletters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="6ef7-fc15-4263-903d" name="Bloodletters" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -2015,7 +2015,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41fb-f03e-b188-fdbd" name="Bloodcrushers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="41fb-f03e-b188-fdbd" name="Bloodcrushers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -2030,7 +2030,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="61e5-21e4-04fc-8194" name="Bloodcrushers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="61e5-21e4-04fc-8194" name="Bloodcrushers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -2150,9 +2150,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0562-be54-fef3-aee8" name="Skullmaster, Herald of 恐虐" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0562-be54-fef3-aee8" name="Skullmaster, Herald of 恐虐" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="600e-2a8f-08bf-6485" name="Skullmaster, Herald of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="600e-2a8f-08bf-6485" name="Skullmaster, Herald of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2256,9 +2256,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3941-96b9-4533-17f3" name="Bloodmaster, Herald of 恐虐" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3941-96b9-4533-17f3" name="Bloodmaster, Herald of 恐虐" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1c3b-8133-4ee7-6af1" name="Bloodmaster, Herald of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="1c3b-8133-4ee7-6af1" name="Bloodmaster, Herald of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2318,9 +2318,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="749a-2957-a8c5-8455" name="Wrath of 恐虐 Bloodthirster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="749a-2957-a8c5-8455" name="Wrath of 恐虐 Bloodthirster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d134-36fb-1560-f822" name="Wrath of 恐虐 Bloodthirster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d134-36fb-1560-f822" name="Wrath of 恐虐 Bloodthirster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -2482,12 +2482,12 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3345-e414-3df7-8613" name="Skulltaker" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3345-e414-3df7-8613" name="Skulltaker" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c63-4123-4010-9e00" type="max"/>
       </constraints>
       <profiles>
-        <profile id="faa7-bfd0-58a3-5b2b" name="Skulltaker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="faa7-bfd0-58a3-5b2b" name="Skulltaker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2556,14 +2556,14 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae26-5d97-dc6e-1e89" name="Skull Cannons" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ae26-5d97-dc6e-1e89" name="Skull Cannons" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="40c6-200d-3b6c-c14e" name="Grind their Bones, Seize their Skulls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this 单位 attacks for the first time in each combat phase, if any enemy models were slain by this 单位&apos;s attacks, this 单位 can attack with all of the missile 武器 it is armed with.</characteristic>
           </characteristics>
         </profile>
-        <profile id="23ad-7623-88d5-b98e" name="Skull Cannon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="23ad-7623-88d5-b98e" name="Skull Cannon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -2670,7 +2670,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="689f-60c4-e598-6550" name="Flesh Hounds" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="689f-60c4-e598-6550" name="Flesh Hounds" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -2679,7 +2679,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1d56-c1a1-f094-f6c5" name="Flesh Hounds" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="1d56-c1a1-f094-f6c5" name="Flesh Hounds" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2768,13 +2768,13 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c84a-8f7d-b40d-098b" name="Karanak" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c84a-8f7d-b40d-098b" name="Karanak" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b65-4a25-b464-3d25" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb9-bf9e-68a8-a6ee" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f7ba-d080-bb63-3320" name="Karanak" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f7ba-d080-bb63-3320" name="Karanak" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -2861,9 +2861,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3e2-3df3-198b-52b3" name="Herald of 恐虐 on Blood Throne" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f3e2-3df3-198b-52b3" name="Herald of 恐虐 on Blood Throne" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fc27-ae0f-18f0-16fb" name="Blood Throne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="fc27-ae0f-18f0-16fb" name="Blood Throne" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -2977,12 +2977,12 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c446-6412-b68b-8cb1" name="Skarbrand" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c446-6412-b68b-8cb1" name="Skarbrand" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4159-f26b-131e-0e52" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9bad-b16e-bdd1-ceba" name="Skarbrand" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9bad-b16e-bdd1-ceba" name="Skarbrand" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -3143,9 +3143,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="17c4-00a9-a8e9-0f6b" name="Exalted 大魔 of 恐虐" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="17c4-00a9-a8e9-0f6b" name="Exalted 大魔 of 恐虐" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9f62-834d-f7f4-4b65" name="Exalted 大魔 of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9f62-834d-f7f4-4b65" name="Exalted 大魔 of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">20</characteristic>
@@ -3261,7 +3261,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="580.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba1e-4f88-1a78-e9c5" name="Mazarall the Butcher, 恶魔 Prince of 恐虐" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ba1e-4f88-1a78-e9c5" name="Mazarall the Butcher, 恶魔 Prince of 恐虐" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45af-0883-d2d8-0d94" type="max"/>
       </constraints>
@@ -3271,7 +3271,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice for each enemy 单位 that is within 1寸 of this model after this model makes a charge move. On a 4+ that 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ad68-1eed-c52d-4b5e" name="Mazarall the Butcher, 恶魔 Prince of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ad68-1eed-c52d-4b5e" name="Mazarall the Butcher, 恶魔 Prince of 恐虐" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">12</characteristic>
@@ -3411,9 +3411,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="340.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dcdb-4634-5731-f776" name="Beasts of 纳垢" page="" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="dcdb-4634-5731-f776" name="Beasts of 纳垢" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5ba0-e2d9-9f98-f380" name="Beasts of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5ba0-e2d9-9f98-f380" name="Beasts of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -3483,12 +3483,12 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de73-103a-9a28-64b6" name="Epidemius, Tallyman of 纳垢" publicationId="6894-a70d-pubN65537" page="88" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="de73-103a-9a28-64b6" name="Epidemius, Tallyman of 纳垢" publicationId="6894-a70d-pubN65537" page="88" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf7e-7ac0-ccc9-b40a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="968c-cee4-904a-d412" name="Epidemius, Tallyman of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="968c-cee4-904a-d412" name="Epidemius, Tallyman of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -3562,9 +3562,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="279a-d8fc-5a96-38f9" name="Exalted 大魔 of 纳垢" page="13" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="279a-d8fc-5a96-38f9" name="Exalted 大魔 of 纳垢" page="13" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b470-05a2-007e-ab6c" name="Exalted Great Unclean One" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b470-05a2-007e-ab6c" name="Exalted Great Unclean One" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -3697,9 +3697,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="460.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc8b-1444-58ea-eb9e" name="Great Unclean One" publicationId="6894-a70d-pubN65537" page="87" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="dc8b-1444-58ea-eb9e" name="Great Unclean One" publicationId="6894-a70d-pubN65537" page="87" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c26d-fbda-b928-7797" name="Great Unclean One" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c26d-fbda-b928-7797" name="Great Unclean One" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -3889,9 +3889,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="340.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9139-0603-8006-fcb0" name="Harbinger of Decay" publicationId="6894-a70d-pubN65537" page="99" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9139-0603-8006-fcb0" name="Harbinger of Decay" publicationId="6894-a70d-pubN65537" page="99" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e62e-f77b-2e30-9c69" name="Harbinger of Decay" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e62e-f77b-2e30-9c69" name="Harbinger of Decay" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -3955,12 +3955,12 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b94e-7ce1-dafe-5243" name="Horticulux Slimux" publicationId="6894-a70d-pubN65537" page="90" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b94e-7ce1-dafe-5243" name="Horticulux Slimux" publicationId="6894-a70d-pubN65537" page="90" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51f3-d0d7-3510-37c4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8e13-4472-4a5a-0002" name="Horticulux Slimux" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8e13-4472-4a5a-0002" name="Horticulux Slimux" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -4029,9 +4029,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4a7-83d7-321b-2e22" name="Lord of Afflictions" publicationId="6894-a70d-pubN65537" page="98" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d4a7-83d7-321b-2e22" name="Lord of Afflictions" publicationId="6894-a70d-pubN65537" page="98" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="abdc-30a8-70d7-7d7c" name="Lord of Afflictions" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="abdc-30a8-70d7-7d7c" name="Lord of Afflictions" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -4160,9 +4160,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad70-44cd-aa27-73dc" name="Nurglings" publicationId="6894-a70d-pubN65537" page="93" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="ad70-44cd-aa27-73dc" name="Nurglings" publicationId="6894-a70d-pubN65537" page="93" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5551-fb33-82a5-e3e8" name="Nurglings" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5551-fb33-82a5-e3e8" name="Nurglings" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -4218,9 +4218,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="792a-edaf-d1db-1715" name="Plague Drones" publicationId="6894-a70d-pubN65537" page="92" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="792a-edaf-d1db-1715" name="Plague Drones" publicationId="6894-a70d-pubN65537" page="92" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0638-c52a-a55c-f632" name="Plague Drones" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="0638-c52a-a55c-f632" name="Plague Drones" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -4351,7 +4351,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="922f-b12d-0144-bd10" name="Plague Ogors" page="6" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="922f-b12d-0144-bd10" name="Plague Ogors" page="6" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -4375,7 +4375,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, you can roll 1 dice for each enemy 单位 within 3寸 of this 单位. On a 5+, that enemy 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d84b-1329-1de7-369c" name="Plague Ogors" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d84b-1329-1de7-369c" name="Plague Ogors" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -4423,7 +4423,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e14-a40c-8467-4b61" name="Plaguebearers" publicationId="6894-a70d-pubN65537" page="91" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1e14-a40c-8467-4b61" name="Plaguebearers" publicationId="6894-a70d-pubN65537" page="91" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="40.0">
           <conditions>
@@ -4437,7 +4437,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="3ef5-58e0-9a79-4f4f" name="Plaguebearers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="3ef5-58e0-9a79-4f4f" name="Plaguebearers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -4527,9 +4527,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d89-9b37-5081-fa4b" name="Poxbringer, Herald of 纳垢" publicationId="6894-a70d-pubN65537" page="88" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1d89-9b37-5081-fa4b" name="Poxbringer, Herald of 纳垢" publicationId="6894-a70d-pubN65537" page="88" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="35ea-cfcd-7008-ddf4" name="Poxbringer, Herald of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="35ea-cfcd-7008-ddf4" name="Poxbringer, Herald of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -4591,7 +4591,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e865-c197-6ec3-b506" name="Pusgoyle Blightlords" publicationId="6894-a70d-pubN65537" page="102" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e865-c197-6ec3-b506" name="Pusgoyle Blightlords" publicationId="6894-a70d-pubN65537" page="102" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -4605,7 +4605,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="83be-da53-5b25-f258" name="Pusgoyle Blightlords" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="83be-da53-5b25-f258" name="Pusgoyle Blightlords" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -4712,12 +4712,12 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e83a-dfaf-86a2-600d" name="Rotigus" publicationId="6894-a70d-pubN65537" page="86" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e83a-dfaf-86a2-600d" name="Rotigus" publicationId="6894-a70d-pubN65537" page="86" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e32-850e-dba9-5ce9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7afb-93e2-f1c1-da00" name="Rotigus" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7afb-93e2-f1c1-da00" name="Rotigus" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>
@@ -4860,9 +4860,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="340.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d72-3fee-87a4-716a" name="Sloppity Bilepiper, Herald of 纳垢" publicationId="6894-a70d-pubN65537" page="89" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5d72-3fee-87a4-716a" name="Sloppity Bilepiper, Herald of 纳垢" publicationId="6894-a70d-pubN65537" page="89" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="17c8-cb6b-1ae9-3d93" name="Sloppity Bilepiper, Herald of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="17c8-cb6b-1ae9-3d93" name="Sloppity Bilepiper, Herald of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -4912,9 +4912,9 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3af8-f299-d611-c091" name="Spoilpox Scrivener, Herald of 纳垢" publicationId="6894-a70d-pubN65537" page="89" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3af8-f299-d611-c091" name="Spoilpox Scrivener, Herald of 纳垢" publicationId="6894-a70d-pubN65537" page="89" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="cd64-8400-1b3e-d451" name="Spoilpox Scrivener, Herald of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="cd64-8400-1b3e-d451" name="Spoilpox Scrivener, Herald of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -4970,7 +4970,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb2e-40a0-e549-0c05" name="恶魔 Plague Toads of 纳垢" page="4" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="cb2e-40a0-e549-0c05" name="恶魔 Plague Toads of 纳垢" page="4" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="80.0">
           <conditions>
@@ -4984,7 +4984,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0d75-b18a-1b2b-1f88" name="恶魔 Plague Toads of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="0d75-b18a-1b2b-1f88" name="恶魔 Plague Toads of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -5050,7 +5050,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71b3-bfaf-29ff-0d6f" name="恶魔 Pox Riders of 纳垢" page="5" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="71b3-bfaf-29ff-0d6f" name="恶魔 Pox Riders of 纳垢" page="5" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="80.0">
           <conditions>
@@ -5059,7 +5059,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="5023-2779-c450-9fe8" name="恶魔 Pox Riders of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5023-2779-c450-9fe8" name="恶魔 Pox Riders of 纳垢" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">7寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -5146,7 +5146,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ba1-99e4-e532-1046" name="The Changeling" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4ba1-99e4-e532-1046" name="The Changeling" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3d5-00e1-5096-7349" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc5-a612-61fb-0c73" type="max"/>
@@ -5168,7 +5168,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In the enemy 英雄阶段, you can pick 1 enemy 单位 within 9寸 of this model. If you do so, until your next 英雄阶段, subtract 1 from hit rolls for attacks made by that 单位 and half the Move characteristic of that 单位 (rounding up).</characteristic>
           </characteristics>
         </profile>
-        <profile id="4bd1-54fd-15bf-e3aa" name="The Changeling" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4bd1-54fd-15bf-e3aa" name="The Changeling" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -5221,7 +5221,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d33-371b-71d9-ae31" name="The Blue Scribes" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8d33-371b-71d9-ae31" name="The Blue Scribes" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7013-b3c7-850e-ce31" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c10-d60c-286c-9d3c" type="max"/>
@@ -5249,7 +5249,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, you can re-roll casting rolls for friendly 奸奇 WIZARDS wholly within 18寸 of the caster for the rest of that phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6deb-5154-a9af-b284" name="The Blue Scribes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="6deb-5154-a9af-b284" name="The Blue Scribes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -5327,7 +5327,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f35b-6382-ab4a-64af" name="Screamers of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f35b-6382-ab4a-64af" name="Screamers of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -5340,7 +5340,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="54c3-4e48-1932-485a" name="Screamers of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="54c3-4e48-1932-485a" name="Screamers of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">3</characteristic>
@@ -5406,7 +5406,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8808-b8bb-2c9c-0e7f" name="Lord of Change" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8808-b8bb-2c9c-0e7f" name="Lord of Change" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3b2f-6027-f57f-80bc" name="Mastery of Magic" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -5470,7 +5470,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
             <characteristic name="Infernal Gateway" typeId="95de-dccf-b107-0fa7">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a324-a3db-fe6d-1a8e" name="Lord of Change" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="a324-a3db-fe6d-1a8e" name="Lord of Change" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -5598,7 +5598,7 @@ In addition, before you allocate a wound or mortal wound to BE&apos;LAKOR, pick 
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2630-15e7-36f6-8067" name="Kairos Fateweaver" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2630-15e7-36f6-8067" name="Kairos Fateweaver" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="233d-74ca-4e96-3d4e" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c0a-96e1-427a-68bc" type="max"/>
@@ -5666,7 +5666,7 @@ Note that this ability only allows you to replace a single dice roll. For 2D6 ro
             <characteristic name="Gift of Change" typeId="de6c-0a04-dd7c-d59b">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="16d4-7911-78f6-4dde" name="Kairos Fateweaver" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="16d4-7911-78f6-4dde" name="Kairos Fateweaver" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -5756,7 +5756,7 @@ Note that this ability only allows you to replace a single dice roll. For 2D6 ro
         <cost name="pts" typeId="points" value="400.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16fa-c9dc-0b3c-fc42" name="Horrors of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="16fa-c9dc-0b3c-fc42" name="Horrors of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="065e-fda7-fd27-1f40">
           <conditions>
@@ -5786,7 +5786,7 @@ Note that this ability only allows you to replace a single dice roll. For 2D6 ro
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for this 单位 while it is wholly within 12寸 of any friendly 奸奇 恶魔 HEROES.</characteristic>
           </characteristics>
         </profile>
-        <profile id="cd56-86a0-1bdc-fae3" name="Horrors of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="cd56-86a0-1bdc-fae3" name="Horrors of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -5956,7 +5956,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ede-0b81-99c2-0370" name="Fluxmaster, Herald of 奸奇 on Disc" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3ede-0b81-99c2-0370" name="Fluxmaster, Herald of 奸奇 on Disc" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d073-06eb-4b5a-a1f0" name="Arcane Tome" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -5975,7 +5975,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster and visible to them, and roll 9 dice. For each 6, that 单位 suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="20de-9993-6929-dd17" name="Fluxmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="20de-9993-6929-dd17" name="Fluxmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -6100,7 +6100,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e5d-e5ea-80ba-eac8" name="Flamers of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5e5d-e5ea-80ba-eac8" name="Flamers of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -6109,7 +6109,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b7c7-95cf-d698-0568" name="Flamers of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b7c7-95cf-d698-0568" name="Flamers of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">9寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -6207,7 +6207,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="23d2-8dc5-15ad-0d77" name="Fateskimmer, Herald of 奸奇 on Burning Chariot" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="23d2-8dc5-15ad-0d77" name="Fateskimmer, Herald of 奸奇 on Burning Chariot" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="460c-ff7e-3ef2-3e74" name="Fateskimmer" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
@@ -6231,7 +6231,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, roll a dice for each enemy 单位 within 9寸 of the caster and visible to them. On a 3+, that 单位 suffers D3 mortal wounds</characteristic>
           </characteristics>
         </profile>
-        <profile id="9e94-e90a-e3c0-b71c" name="Fateskimmer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9e94-e90a-e3c0-b71c" name="Fateskimmer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -6355,9 +6355,9 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5567-ffa8-1173-9862" name="Fatemaster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5567-ffa8-1173-9862" name="Fatemaster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f428-807c-3c3f-5340" name="Fatemaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f428-807c-3c3f-5340" name="Fatemaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -6447,7 +6447,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d367-61a5-8672-59bd" name="Exalted 大魔 of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d367-61a5-8672-59bd" name="Exalted 大魔 of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="23c0-9e4a-f5ab-e390" name="Beacon of Sorcery (EGDoT)" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
@@ -6505,7 +6505,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
             <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If an unbinding roll for this model is 9+, it knows the 法术 that it is attempting to unbind for the rest of the battle.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d774-c92d-0e43-0d23" name="Exalted 大魔 of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d774-c92d-0e43-0d23" name="Exalted 大魔 of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">20</characteristic>
@@ -6583,14 +6583,14 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="500.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0298-7b9d-8aec-096f" name="Exalted Flamers of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0298-7b9d-8aec-096f" name="Exalted Flamers of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8725-d153-40b0-658f" name="Capricious Warpflame" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by this 单位 if the target 单位 has 10 or more models. Add 2 to hit rolls instead of 1 if the target 单位 has 20 or more models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c8ee-9f5a-ea4b-9ca0" name="Exalted Flamers of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c8ee-9f5a-ea4b-9ca0" name="Exalted Flamers of 奸奇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">9寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -6673,7 +6673,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="591e-abe6-795e-ea08" name="Changecaster, Herald of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="591e-abe6-795e-ea08" name="Changecaster, Herald of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6765-ee2d-fc8f-551b" name="Changecaster" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
@@ -6697,7 +6697,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster and visible to them. That 单位 suffers D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3e31-cccf-503b-5207" name="Changecaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="3e31-cccf-503b-5207" name="Changecaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">5寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -6797,7 +6797,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="135f-d746-b867-4539" name="Burning Chariots of 奸奇" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="135f-d746-b867-4539" name="Burning Chariots of 奸奇" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -6827,7 +6827,7 @@ Set up the additional models one at a time within 1寸 of the position that the 
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this 单位 has made a normal move, you can pick 1 enemy 单位 that has any models passed across by any models from this 单位 and roll a dice. On a 2+, that enemy 单位 suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="dbbd-f2f2-2eef-19cf" name="Burning Chariot of 奸奇" page="120" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="dbbd-f2f2-2eef-19cf" name="Burning Chariot of 奸奇" page="120" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -6953,12 +6953,12 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b49-b9df-5a82-6598" name="Viceleader" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5b49-b9df-5a82-6598" name="Viceleader" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa66-6fa3-8aa8-f138" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d41d-2c0a-cd7b-24b2" name="Viceleader" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d41d-2c0a-cd7b-24b2" name="Viceleader" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -7034,12 +7034,12 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ff2-6eb8-3dcd-bd8e" name="The Masque" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6ff2-6eb8-3dcd-bd8e" name="The Masque" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1726-2d02-634b-5413" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b553-9eee-e40a-bf44" name="The Masque" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b553-9eee-e40a-bf44" name="The Masque" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">10寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -7110,9 +7110,9 @@ Set up the additional models one at a time within 1寸 of the position that the 
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d36-f3de-11c5-d9aa" name="The Contorted Epitome" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5d36-f3de-11c5-d9aa" name="The Contorted Epitome" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="091b-8f6c-a8ff-044e" name="The Contorted Epitome" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="091b-8f6c-a8ff-044e" name="The Contorted Epitome" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -7217,9 +7217,9 @@ If a 单位 that is affected by this ability is also affected by any rules that 
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb48-9244-b6b0-c83c" name="Syll&apos;esske the Vengeful 阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="eb48-9244-b6b0-c83c" name="Syll&apos;esske the Vengeful 阵营" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="55f1-fb9b-4618-abe3" name="Herald of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="55f1-fb9b-4618-abe3" name="Herald of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -7325,12 +7325,12 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b2c-4518-ea20-684e" name="Shalaxi Helbane" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1b2c-4518-ea20-684e" name="Shalaxi Helbane" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3823-ee91-0f5c-ace5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="955d-d0ee-d5f2-ec4b" name="Shalaxi Helbane" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="955d-d0ee-d5f2-ec4b" name="Shalaxi Helbane" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -7525,9 +7525,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="340.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85d4-3780-74c0-74c8" name="Seekers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="85d4-3780-74c0-74c8" name="Seekers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f791-aea0-9f9c-fba6" name="Seekers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f791-aea0-9f9c-fba6" name="Seekers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -7678,7 +7678,7 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f229-e93f-dadd-f361" name="Seeker Chariots" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f229-e93f-dadd-f361" name="Seeker Chariots" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditions>
@@ -7687,7 +7687,7 @@ In addition, you can use this command ability at the start of the battleshock ph
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="37e2-9eed-6e74-687a" name="Seeker Chariots" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="37e2-9eed-6e74-687a" name="Seeker Chariots" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -7796,9 +7796,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="43bc-62b2-ba5c-de2f" name="Keeper of Secrets" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="43bc-62b2-ba5c-de2f" name="Keeper of Secrets" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8f87-7bf0-e518-dd7c" name="Keeper of Secrets" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8f87-7bf0-e518-dd7c" name="Keeper of Secrets" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -8028,9 +8028,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="360.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9f14-c970-b1fa-0cc0" name="Infernal Enrapturess" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="9f14-c970-b1fa-0cc0" name="Infernal Enrapturess" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8ff5-1758-be75-1d90" name="Infernal Enrapturess" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8ff5-1758-be75-1d90" name="Infernal Enrapturess" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -8141,9 +8141,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8447-1b5f-998c-2af9" name="Hellflayer" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8447-1b5f-998c-2af9" name="Hellflayer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4668-f615-2d98-0cbe" name="Hellflayers of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4668-f615-2d98-0cbe" name="Hellflayers of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -8236,9 +8236,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c90b-f419-dd3d-ed81" name="Fiends" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c90b-f419-dd3d-ed81" name="Fiends" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2257-f39f-db1b-8832" name="Fiends" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="2257-f39f-db1b-8832" name="Fiends" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -8348,9 +8348,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5d3-d6a3-42af-12af" name="Exalted 大魔 of 色孽" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f5d3-d6a3-42af-12af" name="Exalted 大魔 of 色孽" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b867-da40-d57c-ee4b" name="Exalted 大魔 of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b867-da40-d57c-ee4b" name="Exalted 大魔 of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">15</characteristic>
@@ -8498,9 +8498,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="440.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b29-9ec1-b210-0d53" name="Exalted Chariot" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4b29-9ec1-b210-0d53" name="Exalted Chariot" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5ca1-cbfe-6ed3-95f6" name="Exalted Seeker Chariot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5ca1-cbfe-6ed3-95f6" name="Exalted Seeker Chariot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">10寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">9</characteristic>
@@ -8600,7 +8600,7 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="01a7-7785-07b8-3834" name="Daemonettes" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="01a7-7785-07b8-3834" name="Daemonettes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="points" value="300">
           <conditions>
@@ -8614,7 +8614,7 @@ In addition, you can use this command ability at the start of the battleshock ph
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2d3c-70a7-834f-a7e8" name="Daemonettes of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="2d3c-70a7-834f-a7e8" name="Daemonettes of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -8734,9 +8734,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a1e-2281-5a62-3935" name="Bladebringer on Seeker Chariot" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8a1e-2281-5a62-3935" name="Bladebringer on Seeker Chariot" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fe61-ffc4-ce24-eee1" name="Bladebringer on Seeker Chariot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="fe61-ffc4-ce24-eee1" name="Bladebringer on Seeker Chariot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -8856,9 +8856,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a25-e953-2ad1-f80b" name="Bladebringer on Hellflayer" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="2a25-e953-2ad1-f80b" name="Bladebringer on Hellflayer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="506b-541a-a4f4-8aaf" name="Hellflayers of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="506b-541a-a4f4-8aaf" name="Hellflayers of 色孽" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">7</characteristic>
@@ -8971,9 +8971,9 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e697-3c08-3432-f9a4" name="Bladebringer on Exalted Seeker Chariot" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e697-3c08-3432-f9a4" name="Bladebringer on Exalted Seeker Chariot" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c19f-be5b-9ded-a1d0" name="Bladebringer on Exalted Seeker Chariot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c19f-be5b-9ded-a1d0" name="Bladebringer on Exalted Seeker Chariot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">10寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">10</characteristic>
@@ -9081,7 +9081,7 @@ In addition, you can use this command ability at the start of the battleshock ph
         <cost name="pts" typeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87a1-5392-edb1-4080" name="Be&apos;lakor" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="87a1-5392-edb1-4080" name="Be&apos;lakor" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cf6-0f74-e67e-9d98" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb34-cb34-1b63-a26a" type="max"/>
@@ -9127,7 +9127,7 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster and visible to them. Subtract 1 from wound rolls for attacks made with 肉搏 武器 by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5cb1-9a88-f91e-7670" name="Be&apos;lakor" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5cb1-9a88-f91e-7670" name="Be&apos;lakor" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -9156,9 +9156,9 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <cost name="pts" typeId="points" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8320-a16d-0fc0-16ec" name="黑暗之奴 恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8320-a16d-0fc0-16ec" name="黑暗之奴 恶魔 Prince" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="e8ca-6cd9-1645-cd29" name="恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e8ca-6cd9-1645-cd29" name="恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -9355,9 +9355,9 @@ Until your next 英雄阶段, your opponent must roll a dice each time that 单�
         <cost name="pts" typeId="points" value="210.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8713-fb95-f605-7be2" name="Soul Grinder" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8713-fb95-f605-7be2" name="Soul Grinder" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5f27-f8ad-bc16-cc5b" name="Soul Grinder" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5f27-f8ad-bc16-cc5b" name="Soul Grinder" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>

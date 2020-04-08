@@ -14,7 +14,7 @@
     <costType id="points" name="pts" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
-    <profileType id="1960-ca8e-67ce-2014" name="单位">
+    <profileType id="1960-ca8e-67ce-2014" name="unit">
       <characteristicTypes>
         <characteristicType id="8655-6213-2824-1752" name="移动力"/>
         <characteristicType id="cd0e-fea6-411f-904d" name="生命值"/>
@@ -750,7 +750,6 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability at the start of the battleshock phase. If you do so, pick a friendly 单位 that is within 6寸 of friendly 英雄, or 12寸 of a friendly 英雄 that is a 主将. That 单位 does not have to take battleshock tests in that phase.</描述>
     </rule>
     <rule id="3f48-3925-7123-3392" name="At the Double" publicationId="e51d-b1a3-pubEQ" page="3" hidden="false">
       <modifiers>
@@ -760,7 +759,6 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability after you make a run roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a 主将. If you do so, the run roll is treated as being a 6.</描述>
     </rule>
     <rule id="c157-62a0-2514-c4f4" name="Forward to Victory" publicationId="e51d-b1a3-pubEQ" page="3" hidden="false">
       <modifiers>
@@ -770,7 +768,6 @@
           </conditions>
         </modifier>
       </modifiers>
-      <描述>You can use this command ability after you make a charge roll for a friendly 单位 that is within 6寸 of a friendly 英雄, or 12寸 of a friendly 英雄 that is a 主将. If you do so, re-roll the charge roll.</描述>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -898,18 +895,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="c269-8e7f-d52f-96ab" name="Balewind Vortex" hidden="false">
-          <描述>As long as the Balewind Vortex remains on the battlefield, the caster and the Balewind Vortex are treated as being a single model
-from the caster’s army that uses the caster’s warscroll as well as the endless spells rules. It is treated as an enemy model by the opposing player’s army. A 法师 on a Balewind Vortex cannot move.
-
-If a 法师 on a Balewind Vortex attempts to dispel it, the attempt is automatically successful (do not roll any dice). This uses up the additional 法术 that the 法师 would have received in that 英雄阶段, and still counts as the single attempt they can make to dispel an 无尽法术 this 英雄阶段, but allows them to use any remaining 法术 casting attempts normally.
-
-If the 法师 on the Balewind Vortex is slain, then the Balewind Vortex is immediately dispelled and removed from play along with the slain 法师.
-
-If a Balewind Vortex is dispelled and the 法师 on it has not been slain, set up the 法师 wholly within 6寸 of the Balewind
-Vortex and more than 3寸 from any enemy models, and then remove the Balewind Vortex model from play. If it is impossible
-to set up the 法师, then the 法师 is slain.</描述>
-        </rule>
+        <rule id="c269-8e7f-d52f-96ab" name="Balewind Vortex" hidden="false"/>
       </rules>
       <categoryLinks>
         <categoryLink id="e1e7-a6e3-fb42-c5fa" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -1594,9 +1580,9 @@ to set up the 法师, then the 法师 is slain.</描述>
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24c2-fff5-f17c-3d07" name="Gotrek Gurnisson" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="24c2-fff5-f17c-3d07" name="Gotrek Gurnisson" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d525-c9a4-8f8a-584f" name="Gotrek Gurnisson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d525-c9a4-8f8a-584f" name="Gotrek Gurnisson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -4777,9 +4763,7 @@ to set up the 法师, then the 法师 is slain.</描述>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="4571-8f36-98ca-2d16" name="Rampaging Destroyers" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false">
-      <描述>Roll a dice in your 英雄阶段 for your 主将 and each DESTRUCTION 英雄 in your army. Add 2 to the roll for the 主将. On a roll of 6 or more, pick a friendly DESTRUCTION 单位 within 6寸 of the 主将 or 英雄 being rolled for. That 单位 can immediately move 6寸 if it is more than 12寸 from the enemy, can immediately pile in if it is within 3寸 of the enemy, or can immediately declare a charge in any 其他 circumstances. It cannot run when it makes the move, but can move, charge or pile in again later in the same turn.</描述>
-    </rule>
+    <rule id="4571-8f36-98ca-2d16" name="Rampaging Destroyers" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="ae02-a84f-a903-1ff8" name="Arcane Bolt" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">

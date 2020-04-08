@@ -83,7 +83,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af87-90a5-8d54-9041" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="af87-90a5-8d54-9041" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9784-9b35-9549-a7c8" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a1d-237a-277a-405a" type="max"/>
@@ -127,7 +127,7 @@
             <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick one visible enemy 单位 within 18寸. Until your next 英雄阶段, the opposing player must subtract 1 from any wound rolls he makes for that 单位 in the combat phase.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e721-df3b-35e9-4219" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e721-df3b-35e9-4219" name="Be&apos;lakor, 混沌 恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -152,9 +152,9 @@
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abad-0b15-0f55-b62d" name="恶魔 Prince" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="abad-0b15-0f55-b62d" name="恶魔 Prince" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="336c-52b8-851c-832b" name="恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="336c-52b8-851c-832b" name="恶魔 Prince" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="8655-6213-2824-1752" value="12">
               <conditions>
@@ -291,9 +291,9 @@
         <cost name="pts" typeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88ab-4ca0-48c5-c539" name="Furies" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="88ab-4ca0-48c5-c539" name="Furies" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9a25-03fa-f8f1-32cd" name="Furies" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9a25-03fa-f8f1-32cd" name="Furies" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -346,9 +346,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f41-1c22-84e9-6cfa" name="Soul Grinder" publicationId="c8da-7df9-pubN65537" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4f41-1c22-84e9-6cfa" name="Soul Grinder" publicationId="c8da-7df9-pubN65537" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f99e-5c9f-6a16-41c2" name="Soul Grinder" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f99e-5c9f-6a16-41c2" name="Soul Grinder" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">16</characteristic>

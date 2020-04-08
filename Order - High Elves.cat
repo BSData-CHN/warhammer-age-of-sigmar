@@ -122,7 +122,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4061-375a-0f4a-6bba" name="阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4061-375a-0f4a-6bba" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9852-0b47-6350-b3b6" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f2a-c06a-3a87-d64b" type="max"/>
@@ -176,7 +176,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fab9-9e81-cb1e-db8a" name="Highborn Spearmen" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="fab9-9e81-cb1e-db8a" name="Highborn Spearmen" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="80">
           <conditions>
@@ -190,7 +190,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b437-b699-b379-48c3" name="Highborn Spearmen" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="b437-b699-b379-48c3" name="Highborn Spearmen" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -264,9 +264,9 @@
         <cost name="pts" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="967b-cbb0-58b4-c79c" name="Highborn Repeater Bolt Thrower" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="967b-cbb0-58b4-c79c" name="Highborn Repeater Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ed5a-e01f-4d5c-a232" name="Highborn Repeater Bolt Thrower" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ed5a-e01f-4d5c-a232" name="Highborn Repeater Bolt Thrower" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -274,7 +274,7 @@
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0d74-1944-79f9-a162" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="0d74-1944-79f9-a162" name="Crew" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
@@ -392,7 +392,7 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c434-649a-ba03-5b09" name="Highborn Silver Helms" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c434-649a-ba03-5b09" name="Highborn Silver Helms" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="140">
           <conditions>
@@ -406,7 +406,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8dfc-fc5c-b1e3-9166" name="Highborn Silver Helms" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8dfc-fc5c-b1e3-9166" name="Highborn Silver Helms" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -497,9 +497,9 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a099-6af4-e67d-feb6" name="Seawarden on Foot" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="a099-6af4-e67d-feb6" name="Seawarden on Foot" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ac3a-f304-9057-8c0e" name="Seawarden on Foot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="ac3a-f304-9057-8c0e" name="Seawarden on Foot" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -596,7 +596,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="72ae-365d-e571-d97c" name="Great Eagles" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="72ae-365d-e571-d97c" name="Great Eagles" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="60">
           <conditions>
@@ -610,7 +610,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="9aa6-66e9-91d8-b647" name="Great Eagles" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9aa6-66e9-91d8-b647" name="Great Eagles" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">16寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">4</characteristic>
@@ -673,7 +673,7 @@
         <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c609-b158-1f02-54a5" name="Highborn Archers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c609-b158-1f02-54a5" name="Highborn Archers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="decrement" field="points" value="100">
           <conditions>
@@ -687,7 +687,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="e2d5-2321-e3bf-4f12" name="Highborn Archers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="e2d5-2321-e3bf-4f12" name="Highborn Archers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>

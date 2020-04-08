@@ -145,7 +145,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8171-f17c-d43c-5e0b" name="阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8171-f17c-d43c-5e0b" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -188,7 +188,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6c68-0e48-48de-1f5c" name="Archmage" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6c68-0e48-48de-1f5c" name="Archmage" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="37ee-7cc8-71cc-4da1" name="Archmage" hidden="false" typeId="f55d-ee3a-1597-110f" typeName="魔法">
           <characteristics>
@@ -259,7 +259,7 @@
           <selectionEntries>
             <selectionEntry id="5574-a5ca-c500-b735" name="Aelven Steed" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="66ad-54b5-a5e1-c35d" name="Archmage on Aelven Steed" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+                <profile id="66ad-54b5-a5e1-c35d" name="Archmage on Aelven Steed" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
                   <characteristics>
                     <characteristic name="移动力" typeId="8655-6213-2824-1752">14寸</characteristic>
                     <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -298,7 +298,7 @@
             </selectionEntry>
             <selectionEntry id="aff8-9dd9-8ce1-6fc5" name="On Foot" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="573e-b761-bff4-7c0e" name="Archmage" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+                <profile id="573e-b761-bff4-7c0e" name="Archmage" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
                   <characteristics>
                     <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
                     <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -343,7 +343,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb14-a35a-bdc2-ed22" name="Archmage on Dragon" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="bb14-a35a-bdc2-ed22" name="Archmage on Dragon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="975f-cafd-26f2-126b" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
           <characteristics>
@@ -398,7 +398,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Dragon can unleash a blast of Dragonfire in your 射击阶段.  When it does so, pick a visable 单位 within 12寸 and roll a dice; on a 1 or 2 that 单位 suffers a mortal wound, on a 3 or 4 that 单位 suffers D3 mortal wounds, and on a 5 or 6 that 单位 suffers D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5fd9-a772-12cf-6c1a" name="Archmage on Dragon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5fd9-a772-12cf-6c1a" name="Archmage on Dragon" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -583,9 +583,9 @@
         <cost name="pts" typeId="points" value="320.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8868-e0ae-b8f0-4208" name="Drakeseer" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8868-e0ae-b8f0-4208" name="Drakeseer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6346-2bde-1c40-7a55" name="Drakeseer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="6346-2bde-1c40-7a55" name="Drakeseer" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -767,9 +767,9 @@
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7b3-1fe5-1128-a9bd" name="Loremaster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="b7b3-1fe5-1128-a9bd" name="Loremaster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2452-8998-0fbd-d0da" name="Loremaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="2452-8998-0fbd-d0da" name="Loremaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -851,7 +851,7 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4af9-fc29-2146-5db7" name="Swordmasters" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="4af9-fc29-2146-5db7" name="Swordmasters" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="points" value="380.0">
           <conditions>
@@ -860,7 +860,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="5ff8-df1a-08b4-a681" name="Swordmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5ff8-df1a-08b4-a681" name="Swordmaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">6寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>

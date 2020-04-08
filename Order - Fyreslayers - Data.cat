@@ -37,7 +37,7 @@
     <categoryEntry id="4b94-6bb2-6f57-3f3f" name="MAGMIC INVOCATION" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="8e35-cdef-4c7e-0a1c" name="阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8e35-cdef-4c7e-0a1c" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
@@ -216,7 +216,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1823-43dd-1af2-b910" name="Auric Hearthguard" publicationId="e67a-06d2-pubN65537" page="111" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="1823-43dd-1af2-b910" name="Auric Hearthguard" publicationId="e67a-06d2-pubN65537" page="111" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -246,7 +246,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly FYRESLAYERS 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3寸 to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f481-1fa7-d70c-50b0" name="Auric Hearthguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f481-1fa7-d70c-50b0" name="Auric Hearthguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -347,7 +347,7 @@
     </selectionEntry>
     <selectionEntry id="88ae-2998-b72a-3f1c" name="Auric Runefather" publicationId="e67a-06d2-pubN65537" page="103" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="571a-43be-ec53-ea94" name="Auric Runefather" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="571a-43be-ec53-ea94" name="Auric Runefather" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -435,9 +435,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d62c-b254-872a-3500" name="Auric Runefather on Magmadroth" publicationId="e67a-06d2-pubN65537" page="98" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="d62c-b254-872a-3500" name="Auric Runefather on Magmadroth" publicationId="e67a-06d2-pubN65537" page="98" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f0e8-e742-fac0-6b5c" name="Auric Runefather on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="f0e8-e742-fac0-6b5c" name="Auric Runefather on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -661,9 +661,9 @@
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0aa-7e29-3be9-8fa5" name="Auric Runemaster" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="c0aa-7e29-3be9-8fa5" name="Auric Runemaster" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9718-40fe-6fff-3115" name="Auric Runemaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="9718-40fe-6fff-3115" name="Auric Runemaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -780,9 +780,9 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="79fb-4a68-797b-95ed" name="Auric Runesmiter" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="79fb-4a68-797b-95ed" name="Auric Runesmiter" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="aaf5-d06e-0fa8-b352" name="Auric Runesmiter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="aaf5-d06e-0fa8-b352" name="Auric Runesmiter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -902,9 +902,9 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92c5-8b9d-f3e2-20e5" name="Auric Runesmiter on Magmadroth" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="92c5-8b9d-f3e2-20e5" name="Auric Runesmiter on Magmadroth" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8dc2-c5d6-f738-6e26" name="Auric Runesmiter on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="8dc2-c5d6-f738-6e26" name="Auric Runesmiter on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -1156,9 +1156,9 @@
         <cost name="pts" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54ed-538a-5a83-cbaa" name="Auric Runeson" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="54ed-538a-5a83-cbaa" name="Auric Runeson" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c6b8-f402-c7db-42f1" name="Auric Runeson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="c6b8-f402-c7db-42f1" name="Auric Runeson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1276,9 +1276,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6dae-8546-4e7f-f420" name="Auric Runeson on Magmadroth" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="6dae-8546-4e7f-f420" name="Auric Runeson on Magmadroth" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7e32-73cd-d80b-34aa" name="Auric Runeson on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7e32-73cd-d80b-34aa" name="Auric Runeson on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -1761,9 +1761,9 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f45a-1818-8096-1147" name="Battlesmith" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="f45a-1818-8096-1147" name="Battlesmith" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="984f-55be-5888-53d8" name="Battlesmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="984f-55be-5888-53d8" name="Battlesmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1838,7 +1838,7 @@
     </selectionEntry>
     <selectionEntry id="5480-a1cb-81b1-45c7" name="Doomseeker" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4eaf-f89e-1680-8d48" name="Doomseeker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4eaf-f89e-1680-8d48" name="Doomseeker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1930,9 +1930,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0520-eb44-5bea-94d3" name="Grimwrath Berzerker" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="0520-eb44-5bea-94d3" name="Grimwrath Berzerker" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7a3c-ff6f-06df-d6f2" name="Grimwrath Berzerker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7a3c-ff6f-06df-d6f2" name="Grimwrath Berzerker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2007,7 +2007,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3973-d948-c464-bddc" name="Hearthguard Berzerkers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3973-d948-c464-bddc" name="Hearthguard Berzerkers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -2028,7 +2028,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7f1a-1a1d-c3d8-4c43" name="Hearthguard Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="7f1a-1a1d-c3d8-4c43" name="Hearthguard Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2145,9 +2145,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5380-8f39-8882-eae7" name="Vulkite Berzerkers" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="5380-8f39-8882-eae7" name="Vulkite Berzerkers" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="cbcb-b0e8-43fb-a160" name="Vulkite Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="cbcb-b0e8-43fb-a160" name="Vulkite Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2305,7 +2305,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4cc-52e7-a852-1bb5" type="min"/>
       </constraints>
       <profiles>
-        <profile id="70d1-f8b3-5cbe-e40e" name="Fjul-Grimnir" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="70d1-f8b3-5cbe-e40e" name="Fjul-Grimnir" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2371,7 +2371,7 @@
         <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3544-cf2b-f1ab-8663" name="The Chosen Axes" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="3544-cf2b-f1ab-8663" name="The Chosen Axes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="87be-abcf-5c9a-edd6" value="1">
           <conditions>
@@ -2384,7 +2384,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87be-abcf-5c9a-edd6" type="min"/>
       </constraints>
       <profiles>
-        <profile id="a2f4-fb81-868b-4c98" name="The Chosen Axes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="a2f4-fb81-868b-4c98" name="The Chosen Axes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2881,7 +2881,7 @@
             <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段.  If you do so, pick 1 friendly VOSTARG 英雄 within 12寸 of this model, 其他 than this model, and roll a dice.  On a 4+ that 英雄 can immediately pile-in and attack with all of the 肉搏 武器 it is armed with.   You cannot pick the same 英雄 to benefit from this ability more than once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5b48-3ab0-d6a0-ef4b" name="Bael-Grimnir on Flamespitter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="5b48-3ab0-d6a0-ef4b" name="Bael-Grimnir on Flamespitter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>

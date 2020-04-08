@@ -65,7 +65,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8711-cb27-9a0e-8f60" name="Dragon Blades" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="8711-cb27-9a0e-8f60" name="Dragon Blades" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="f387-8ffa-cb44-414a" name="Ancient Dignity" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
@@ -87,7 +87,7 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the wound rolls and Damage of this 单位’s Drake Lances and Swords if it charged in the same turn.</characteristic>
           </characteristics>
         </profile>
-        <profile id="a8b7-60a8-509c-19a0" name="Dragon Blades" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="a8b7-60a8-509c-19a0" name="Dragon Blades" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -193,9 +193,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="905c-e6de-c6f3-2043" name="Dragon Noble" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="905c-e6de-c6f3-2043" name="Dragon Noble" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fd44-214c-9e51-10fa" name="Dragon Noble" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="fd44-214c-9e51-10fa" name="Dragon Noble" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <modifiers>
             <modifier type="set" field="8655-6213-2824-1752" value="12">
               <conditions>
@@ -380,9 +380,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85ce-115e-c49c-db90" name="Dragonlord" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="85ce-115e-c49c-db90" name="Dragonlord" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="4681-a36f-03a0-09a9" name="Dragonlord" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="4681-a36f-03a0-09a9" name="Dragonlord" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -617,7 +617,7 @@
         <cost name="pts" typeId="points" value="380.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e898-910a-21b4-41e3" name="阵营" hidden="false" collective="false" import="true" type="单位">
+    <selectionEntry id="e898-910a-21b4-41e3" name="阵营" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c21e-074f-3045-ecd1" type="min"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="30a7-d190-1a28-ab9c" type="max"/>

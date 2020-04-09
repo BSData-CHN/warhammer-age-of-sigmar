@@ -86,6 +86,7 @@ Order - Collegiate Arcane.cat
 Order - Daughters of Khaine.cat
 
 Order - Devoted of Sigmar - Data.cat
+
 Order - Dwarfs.cat
 
 Order - Eldritch Council.cat
@@ -100,7 +101,7 @@ Order - Idoneth Deepkin - Data.cat
 
 Order - Ironweld Arsenal.cat
 
-Order - Kharadron Overlords - Data.cat
+* Order - Kharadron Overlords - Data.cat
 
 Order - Lethisian Army.cat
 
@@ -112,7 +113,7 @@ Order - Order Draconis.cat
 
 Order - Seraphon.cat
 
-* Order - Stormcast Eternals - Data.cat
+Order - Stormcast Eternals - Data.cat
 
 Order - Switfhawk Agents.cat
 

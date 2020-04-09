@@ -69,3 +69,73 @@ The Catalogs have been updated to support Matched Play points and FAQ's for the 
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
 [WAoS Catalog Wiki - Implementation Guidelines]: https://github.com/BSData-CHN/WH-AOS-Chinese-Localization/wiki/Implementation-Guidelines
+
+
+Age of Sigmar.gst
+appveyor.yml
+Chaos - Beastmen.cat
+Chaos - Beasts of Chaos.cat
+Chaos - Beasts of Chaos - Data.cat
+Chaos - Daemons of Chaos.cat
+Chaos - Everchosen.cat
+Chaos - Khorne.cat
+Chaos - Legion of Azgorh.cat
+Chaos - Legion of Chaos Ascendant.cat
+Chaos - Monsters of Chaos.cat
+Chaos - Nurgle.cat
+Chaos - Skaven.cat
+Chaos - Skaven - Data.cat
+Chaos - Slaanesh.cat
+Chaos - Slaves to Darkness.cat
+Chaos - Slaves to Darkness - Data.cat
+Chaos - Tzeentch.cat
+Chaos - Warriors of Chaos.cat
+Chaos Data.cat
+Death - Flesh-eater Courts.cat
+Death - Legions of Nagash.cat
+Death - Legions of Nagash and Nighthaunt Data.cat
+Death - Nighthaunt.cat
+Death - Ossiarch Bonereapers.cat
+Death - Tomb Kings.cat
+Death - Vampire Counts.cat
+Destruction - Aleguzzler Gargant.cat
+Destruction - Beastclaw Raiders.cat
+Destruction - Gitmob Grots.cat
+Destruction - Gloomspite Gitz.cat
+Destruction - Greenskinz.cat
+Destruction - Monsters.cat
+Destruction - Moonclan Grots.cat
+Destruction - Ogor Mawtribes.cat
+Destruction - Orcs and Goblins.cat
+Destruction - Orruk Warclans.cat
+Destruction - Spiderfang Grots.cat
+Destruction - Troggoth.cat
+Order - Aelf.cat
+Order - Bretonnia.cat
+Order - Cities of Sigmar.cat
+Order - Collegiate Arcane.cat
+Order - Daughters of Khaine.cat
+Order - Devoted of Sigmar.cat
+Order - Devoted of Sigmar - Data.cat
+Order - Dwarfs.cat
+Order - Eldritch Council.cat
+Order - Empire.cat
+Order - Fyreslayers.cat
+Order - Fyreslayers - Data.cat
+Order - High Elves.cat
+Order - Idoneth Deepkin.cat
+Order - Idoneth Deepkin - Data.cat
+Order - Ironweld Arsenal.cat
+Order - Kharadron Overlords.cat
+Order - Kharadron Overlords - Data.cat
+Order - Lethisian Army.cat
+Order - Lion Rangers.cat
+Order - Monstrous Arcanum.cat
+Order - Order Draconis.cat
+Order - Seraphon.cat
+*Order - Stormcast Eternals.cat
+*Order - Stormcast Eternals - Data.cat
+Order - Switfhawk Agents.cat
+*Order - Sylvaneth.cat
+*Order - Sylvaneth - Data.cat
+Order - Wood Elves.cat

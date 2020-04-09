@@ -59,8 +59,8 @@
     <categoryEntry id="2900-4cc3-0ac7-2afb" name="MOR&apos;PHAN" hidden="false"/>
     <categoryEntry id="c131-28a2-ee27-cc6e" name="NAUTILAR" hidden="false"/>
     <categoryEntry id="af9f-f5e0-1ae5-9c03" name="DRYAD" hidden="false"/>
-    <categoryEntry id="d068-980d-1c72-ce5d" name="TREELORD ANCIENT" hidden="false"/>
-    <categoryEntry id="4fc4-6477-589d-8faf" name="BRANCHWYCH" hidden="false"/>
+    <categoryEntry id="d068-980d-1c72-ce5d" name="远古树人领主" hidden="false"/>
+    <categoryEntry id="4fc4-6477-589d-8faf" name="垂枝女巫" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="e2ee-2634-4e4c-6340" name="阵营" hidden="false" collective="false" import="true" type="upgrade">
@@ -2588,7 +2588,7 @@
             <entryLink id="2ccf-5690-b89b-2522" name="Akhelian Allopexes" hidden="false" collective="false" import="true" targetId="ae34-b407-ec32-9dc8" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3f52-4eb7-9872-0407" name="Branchwych" hidden="false" collective="false" import="true" defaultSelectionEntryId="deff-0c0f-6818-fbbc">
+        <selectionEntryGroup id="3f52-4eb7-9872-0407" name="垂枝女巫" hidden="false" collective="false" import="true" defaultSelectionEntryId="deff-0c0f-6818-fbbc">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e16-e36b-4ec3-d1a1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd26-9986-4328-e478" type="max"/>
@@ -2598,10 +2598,10 @@
             <categoryLink id="5875-818a-4d41-559a" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="deff-0c0f-6818-fbbc" name="Branchwych" hidden="false" collective="false" import="true" targetId="d65c-84f8-43bf-d534" type="selectionEntry"/>
+            <entryLink id="deff-0c0f-6818-fbbc" name="垂枝女巫" hidden="false" collective="false" import="true" targetId="d65c-84f8-43bf-d534" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4b0e-e35b-15c9-c369" name="Dryads" hidden="false" collective="false" import="true" defaultSelectionEntryId="802c-313b-069f-3f1a">
+        <selectionEntryGroup id="4b0e-e35b-15c9-c369" name="树妖" hidden="false" collective="false" import="true" defaultSelectionEntryId="802c-313b-069f-3f1a">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c480-1078-486b-a604" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f68-a57b-c158-be1f" type="max"/>
@@ -2610,7 +2610,7 @@
             <categoryLink id="0c7a-2403-a607-ef4d" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="802c-313b-069f-3f1a" name="Dryads" hidden="false" collective="false" import="true" targetId="0a14-90fc-1335-3c79" type="selectionEntry"/>
+            <entryLink id="802c-313b-069f-3f1a" name="树妖" hidden="false" collective="false" import="true" targetId="0a14-90fc-1335-3c79" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f032-2e04-4355-45cf" name="Namarti Reavers" hidden="false" collective="false" import="true" defaultSelectionEntryId="2834-7d2b-b125-23d8">
@@ -2645,7 +2645,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="54c3-f51b-2ae0-1d8f" name="Treelord Ancient" hidden="false" collective="false" import="true" defaultSelectionEntryId="e3d4-032b-98e2-0895">
+        <selectionEntryGroup id="54c3-f51b-2ae0-1d8f" name="远古树人领主" hidden="false" collective="false" import="true" defaultSelectionEntryId="e3d4-032b-98e2-0895">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8752-6ee8-67c5-cdec" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aa0-1e37-ec53-0da0" type="max"/>
@@ -2655,7 +2655,7 @@
             <categoryLink id="b721-b676-0422-c330" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="e3d4-032b-98e2-0895" name="Treelord Ancient" hidden="false" collective="false" import="true" targetId="524f-f49b-0bfd-9414" type="selectionEntry"/>
+            <entryLink id="e3d4-032b-98e2-0895" name="远古树人领主" hidden="false" collective="false" import="true" targetId="524f-f49b-0bfd-9414" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="768e-9b74-90b8-572a" name="Akhelian Guard" hidden="false" collective="false" import="true">

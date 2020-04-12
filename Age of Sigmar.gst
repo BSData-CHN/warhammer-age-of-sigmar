@@ -83,7 +83,7 @@
         <characteristicType id="08e0-9ead-1dbe-c801" name="阵型能力细节"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="eed7-4131-0a52-0668" name="Prayer">
+    <profileType id="eed7-4131-0a52-0668" name="祈祷">
       <characteristicTypes>
         <characteristicType id="0746-6cfb-5e15-53cb" name="描述"/>
       </characteristicTypes>
@@ -215,7 +215,7 @@
     <categoryEntry id="cff6-06c5-3294-b74b" name="SHARDS OF VALAGHARR" hidden="false"/>
     <categoryEntry id="3b54-23ed-a577-ea1f" name="LAUCHON THE SOULSEEKER" hidden="false"/>
     <categoryEntry id="9945-bd78-56ea-5cde" name="HORRORGHAST" hidden="false"/>
-    <categoryEntry id="c34d-acb9-a4d9-74be" name="VOSTARG" hidden="false"/>
+    <categoryEntry id="c34d-acb9-a4d9-74be" name="沃斯塔格" hidden="false"/>
     <categoryEntry id="f60b-d58c-bfee-5aa7" name="GREYFYRD" hidden="false"/>
     <categoryEntry id="3559-43bd-385b-59a0" name="HERMDAR" hidden="false"/>
     <categoryEntry id="a89a-9904-cf30-0d17" name="LOFNIR" hidden="false"/>

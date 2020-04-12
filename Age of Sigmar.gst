@@ -139,7 +139,7 @@
     <categoryEntry id="de6f-3fcb-09b2-a59e" name="树海灵木" hidden="false"/>
     <categoryEntry id="1f30-24b4-f90b-c2c2" name="DARKLING COVENS" hidden="false"/>
     <categoryEntry id="4e6a-bfb6-606f-fc89" name="DISPOSSESSED" hidden="false"/>
-    <categoryEntry id="4ec3-efa9-35ba-d55f" name="FYRESLAYERS" hidden="false"/>
+    <categoryEntry id="4ec3-efa9-35ba-d55f" name="炽焰屠夫" hidden="false"/>
     <categoryEntry id="3aa6-d62f-0782-ea99" name="FREE PEOPLES" hidden="false"/>
     <categoryEntry id="461d-c7cb-74f1-84e8" name="SERAPHON" hidden="false"/>
     <categoryEntry id="9085-6734-ca06-e1e3" name="WANDERERS" hidden="false"/>
@@ -771,7 +771,7 @@
     </rule>
   </rules>
   <sharedSelectionEntries>
-    <selectionEntry id="869c-168d-eba5-eacf" name="Arcane Bolt" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="869c-168d-eba5-eacf" name="奥术飞弹" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48b1-0361-dcc7-3913" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae24-5441-4537-9ce9" type="min"/>
@@ -783,7 +783,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5fdd-6634-f9f8-068a" name="Mystic Shield" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5fdd-6634-f9f8-068a" name="秘法护盾" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05da-ae0d-40c4-7f80" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ce-4695-4f0d-2516" type="max"/>
@@ -1580,9 +1580,9 @@
         <cost name="分" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24c2-fff5-f17c-3d07" name="Gotrek Gurnisson" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="24c2-fff5-f17c-3d07" name="高崔克·冈尼森" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d525-c9a4-8f8a-584f" name="Gotrek Gurnisson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
+        <profile id="d525-c9a4-8f8a-584f" name="高崔克·冈尼森" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
@@ -1590,24 +1590,35 @@
             <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6903-a8c0-cb34-28a6" name="Unstoppable Battle Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="6903-a8c0-cb34-28a6" name="无阻战斗怒火" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of the combat phase, if this model is within 3寸 of an enemy 单位, this model can fight again.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">一旦高崔克开始战斗， 他就会满怀无情怒火战斗到敌人都被屠戮殆尽为止。
+
+近战阶段结束时，若高崔克位于敌方单位 3 寸内，则他可以再次跟进并攻击一轮。（此效果一个阶段只触发一次）</characteristic>
           </characteristics>
         </profile>
-        <profile id="81d1-d8bf-0253-4ca3" name="Krag Blackhammer’s Master Rune" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="81d1-d8bf-0253-4ca3" name="克拉格·黑锤宗师符文" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit and wound rolls for attacks made by this model. In addition, if the unmodified hit roll for an attack made by this model is 6, that attack inflicts D6 mortal wounds on the target in addition to any normal damage.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">这块乌金符文将高崔克自身的伟力增强了数倍， 即使面对最强大的敌人， 高崔克也可以迅速将其击杀。
+
+高崔克可以重投命中骰和造伤骰。高崔克的命中骰每投出一个未修正的 6，便会对目标额外造成 D6 致命伤害。</characteristic>
           </characteristics>
         </profile>
-        <profile id="058a-45e0-308e-98f4" name="Avatar of Grimnir" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="058a-45e0-308e-98f4" name="格林姆尼尔化身" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the damage inflicted by an attack, 法术 or ability that targets or affects this model is greater than 1, change it to 1. In addition, if a 法术 or ability would slay this model, this model suffers 1 mortal wound instead. However, if this model is included in your army, it cannot be set up in reserve (it must be set up on the battlefield), and you cannot use spells or abilities on this model that would allow you to set it up again after the battle has begun. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">高崔克经年累月遍历了无数战斗和试炼， 成为了几乎不可阻挡的战神格林姆尼尔的化身。
+
+一次法术、一下攻击、一次能力对高崔克造成的伤害或致命伤害最多为 1。
+若任意法术或能力有直接杀死高崔克的效果，则那个效果改为对高崔克造成 1 点致命伤害。
+高崔克不能作为预备布置（即必须布置在桌面上），且在战斗开始后，不能由任何法术或能力重新布置。</characteristic>
           </characteristics>
         </profile>
-        <profile id="35fb-2a6b-b8db-85cd" name="Shoulder Plate of Edassa" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="35fb-2a6b-b8db-85cd" name="艾达萨肩铠" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to this model. On a 3+, that wound or mortal wound is negated.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">高崔克的左肩——曾有菲利克斯· 耶格尔照应的左肩——装备着一块形为怒吼雄狮的铠甲。
+也许是通过某种灵魂护佑， 或是仅凭纯粹的运气， 这件华丽的神器似乎能保护其装备者免遭巨量伤害。
+
+高崔克每受到 1 点伤害或致命伤害，投 D6，若结果为 3+则无视那点伤害或致命伤害。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1657,7 +1668,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e02e-6203-a19f-c021" name="Artefacts of Death" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e02e-6203-a19f-c021" name="死亡魔法道具" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d817-47b4-70da-dc76" type="max"/>
       </constraints>
@@ -1772,7 +1783,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="74cc-aa8c-c476-db29" name="Death Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="74cc-aa8c-c476-db29" name="死亡主将特性" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6812-2b77-e282-18ad" type="max"/>
       </constraints>
@@ -1866,7 +1877,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ca3c-6bfc-07f1-2953" name="Artefacts of Destruction" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ca3c-6bfc-07f1-2953" name="毁灭魔法道具" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="811a-5a80-4e1a-78b7" type="max"/>
       </constraints>
@@ -1981,7 +1992,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1319-8f5e-1ff1-08c9" name="Destruction Command Traits" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1319-8f5e-1ff1-08c9" name="毁灭主将特性" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="effb-aa38-5e89-7631" type="max"/>
       </constraints>
@@ -2060,7 +2071,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f179-9104-3d7f-1ea1" name="混沌 Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f179-9104-3d7f-1ea1" name="混沌主将特性" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e106-91bb-bef8-c7e9" type="max"/>
       </constraints>
@@ -2139,7 +2150,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="50aa-000b-1848-15c3" name="Order Command Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="50aa-000b-1848-15c3" name="秩序主将特性" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe9-9893-608b-3dde" type="max"/>
       </constraints>
@@ -2333,7 +2344,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3c13-922a-683d-7de7" name="Artefacts of 混沌" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3c13-922a-683d-7de7" name="混沌魔法道具" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="180e-001b-6cfa-238a" type="max"/>
       </constraints>
@@ -4766,16 +4777,16 @@
     <rule id="4571-8f36-98ca-2d16" name="Rampaging Destroyers" publicationId="e51d-b1a3-pubEQOCI" page="156" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
-    <profile id="ae02-a84f-a903-1ff8" name="Arcane Bolt" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+    <profile id="ae02-a84f-a903-1ff8" name="奥术飞弹" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick an enemy 单位 within 18寸 of the caster that is visible to them. That 单位 suffers 1 mortal wound. If the casting roll was 10 or more, the 单位 suffers D3 mortal wounds instead.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若成功施法，可在施法者 18 英寸范围内挑选一个可视敌方单位。该单位受到 1 处致命伤。结果为 10 点或更大时，该单位将受到 D3 处致命伤。</characteristic>
       </characteristics>
     </profile>
-    <profile id="b41f-f1ce-7aa5-4f81" name="Mystic Shield" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+    <profile id="b41f-f1ce-7aa5-4f81" name="秘法护盾" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 单位 within 18寸 of the caster that is visible to them. Re-roll save rolls of 1 for that 单位 until your next 英雄阶段.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若成功施法，可在施法者 18 英寸范围内挑选一个可视友方单位。在您的下一个英雄阶段之前，对该单位结果为 1 点的防御掷骰进行重新掷骰。</characteristic>
       </characteristics>
     </profile>
     <profile id="8e0c-cbe4-27be-8a30" name="飞行" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">

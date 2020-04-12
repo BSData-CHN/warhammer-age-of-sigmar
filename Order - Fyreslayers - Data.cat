@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="81cf-7df5-86e6-b78f" name="秩序 - Fyreslayers - 数据" revision="39" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="81cf-7df5-86e6-b78f" name="秩序 - 炽焰屠夫 - 数据" revision="39" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="e67a-06d2-pubN65537" name="秩序军书: Fyreslayers"/>
-    <publication id="e67a-06d2-pubN69594" name="军书: Fyreslayers 勘误, 2018年07月"/>
-    <publication id="68d3-0b6a-3775-07d9" name="军书: Fyreslayers 官方勘误, May 2019"/>
+    <publication id="e67a-06d2-pubN65537" name="秩序军书: 炽焰屠夫"/>
+    <publication id="e67a-06d2-pubN69594" name="军书: 炽焰屠夫 勘误, 2018年07月"/>
+    <publication id="68d3-0b6a-3775-07d9" name="军书: 炽焰屠夫 官方勘误, May 2019"/>
     <publication id="9cbd-6717-1de9-c57a" name="White Dwarf - June 2019"/>
   </publications>
   <profileTypes>
@@ -49,7 +49,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="94c9-6cd1-da31-5c7e" name="阵营: Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="94c9-6cd1-da31-5c7e" name="阵营: 炽焰屠夫" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="a46a-e086-cad7-00eb" name="Ur-Gold" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -64,38 +64,38 @@
                     </profile>
                     <profile id="a8b9-dee6-e142-5dd4" name="Rune of Fury" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">可以重投命中骰的1 for attacks made by friendly FYRESLAYERS units.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly FYRESLAYERS units.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">可以重投命中骰的1 for attacks made by friendly 炽焰屠夫 units.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 1 to the Attacks characteristic of 肉搏 武器 used by friendly 炽焰屠夫 units.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="1ece-0db0-057e-10e3" name="Rune of Searing Heat" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">If the unmodified wound roll for an attack made by a friendly FYRESLAYERS 单位 is 6, add 1 to the Damage characteristic of the weapon for that attack.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Roll a dice for each enemy 单位 within 3寸 of any friendly FYRESLAYERS units when this rune is activated; on a 2+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">If the unmodified wound roll for an attack made by a friendly 炽焰屠夫 单位 is 6, add 1 to the Damage characteristic of the weapon for that attack.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Roll a dice for each enemy 单位 within 3寸 of any friendly 炽焰屠夫 units when this rune is activated; on a 2+ that enemy 单位 suffers 1 mortal wound.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="9f8d-0e03-1cb5-752d" name="Rune of Awakened Steel" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Improve the Rend characteristic of 肉搏 武器 used by friendly FYRESLAYERS units by 1.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Improve the Rend characteristic of 肉搏 武器 used by friendly 炽焰屠夫 units by 1.</characteristic>
                         <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Improve the Rend characteristic by a further 1.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="c961-fc0a-b899-607b" name="Rune of Fiery Determination" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 1 to the Bravery characteristic of friendly FYRESLAYERS units.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Friendly FYRESLAYERS units do not have to take battleshock tests.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 1 to the Bravery characteristic of friendly 炽焰屠夫 units.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Friendly 炽焰屠夫 units do not have to take battleshock tests.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="31b4-fb40-a7e4-66ec" name="Rune of Relentless Zeal" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 2寸 to the Move characteristic of friendly FYRESLAYERS units.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 2 to charge rolls for friendly FYRESLAYERS units.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 2寸 to the Move characteristic of friendly 炽焰屠夫 units.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 2 to charge rolls for friendly 炽焰屠夫 units.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="17c8-2d62-77d9-98f5" name="Rune of Farsight" hidden="false" typeId="84c1-a205-4de9-2105" typeName="Ur-Gold Rune">
                       <characteristics>
-                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 1 to hit rolls for attacks made with Fyresteel Throwing Axes by friendly FYRESLAYERS units.</characteristic>
-                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 1 to wound rolls for attacks made with Fyresteel Throwing Axes by friendly FYRESLAYERS units.</characteristic>
+                        <characteristic name="Effect" typeId="3b0b-93bb-c656-56a0">Add 1 to hit rolls for attacks made with Fyresteel Throwing Axes by friendly 炽焰屠夫 units.</characteristic>
+                        <characteristic name="Enhanced Effect" typeId="4429-3e90-af34-dc14">Add 1 to wound rolls for attacks made with Fyresteel Throwing Axes by friendly 炽焰屠夫 units.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -243,7 +243,7 @@
         </profile>
         <profile id="716c-e897-3f32-7fba" name="Sworn Protectors" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly FYRESLAYERS 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3寸 to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly 炽焰屠夫 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3寸 to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
           </characteristics>
         </profile>
         <profile id="f481-1fa7-d70c-50b0" name="Auric Hearthguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
@@ -510,7 +510,7 @@
         </profile>
         <profile id="9afd-5078-b947-454b" name="Steadfast Advance" publicationId="e67a-06d2-pubN69594" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段. If you do so, pick a friendly model with this command ability. Until the start of your next 英雄阶段, do not take battleshock tests for friendly FYRESLAYERS units while they are wholly within 18寸 of that model.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your 英雄阶段. If you do so, pick a friendly model with this command ability. Until the start of your next 英雄阶段, do not take battleshock tests for friendly 炽焰屠夫 units while they are wholly within 18寸 of that model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -673,7 +673,7 @@
         </profile>
         <profile id="27bb-8663-5388-a92b" name="Holy Seeker" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 enemy 单位 within 12寸 of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, 可以重投命中骰的1 for attacks made by friendly FYRESLAYERS units that target that 单位. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly FYRESLAYERS units that target that 单位 instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 enemy 单位 within 12寸 of this model and roll 2 dice. If you roll at least one 6, for the rest of the battle, 可以重投命中骰的1 for attacks made by friendly 炽焰屠夫 units that target that 单位. If you roll two or more 6s, for the rest of the battle, you can re-roll hit and wound rolls of 1 for attacks made by friendly 炽焰屠夫 units that target that 单位 instead.</characteristic>
           </characteristics>
         </profile>
         <profile id="8808-2ecd-5150-87d3" name="Volcano&apos;s Call" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -792,12 +792,12 @@
         </profile>
         <profile id="b94e-526f-3963-6285" name="Runic Empowerment" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly FYRESLAYERS 单位 wholly within 12寸 of this model, or wholly within 18寸 of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly 炽焰屠夫 单位 wholly within 12寸 of this model, or wholly within 18寸 of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="9f89-983a-288f-94fc" name="Magmic Tunnelling" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place this model to one side and say that it is set up underground as a reserve 单位. If you do so, when you would set up another friendly FYRESLAYERS 单位, instead of setting up that 单位 on the battlefield, you can say that it is joining this model underground as a reserve 单位. 1 单位 can join this model in this way. At the end of your movement phase, you can set up this model anywhere on the battlefield, more than 9寸 from any enemy units; then set up any 单位 that joined this model wholly within 12寸 of this model and more than 9寸 from any enemy units. Any reserve units underground that are not set up on the battlefield before the start of the fourth battle round are destroyed.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Instead of setting up this model on the battlefield, you can place this model to one side and say that it is set up underground as a reserve 单位. If you do so, when you would set up another friendly 炽焰屠夫 单位, instead of setting up that 单位 on the battlefield, you can say that it is joining this model underground as a reserve 单位. 1 单位 can join this model in this way. At the end of your movement phase, you can set up this model anywhere on the battlefield, more than 9寸 from any enemy units; then set up any 单位 that joined this model wholly within 12寸 of this model and more than 9寸 from any enemy units. Any reserve units underground that are not set up on the battlefield before the start of the fourth battle round are destroyed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -977,7 +977,7 @@
         </profile>
         <profile id="c987-ed04-ae48-a63c" name="Runic Empowerment" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly FYRESLAYERS 单位 wholly within 12寸 of this model, or wholly within 18寸 of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, this model can chant this prayer. If they do so, make a prayer roll by rolling a dice. On a 1-2, the prayer is not answered. On a 3+ the prayer is answered. If this prayer is answered, pick a friendly 炽焰屠夫 单位 wholly within 12寸 of this model, or wholly within 18寸 of this model if this model is armed with a Forge Key. You can re-roll wound rolls for attacks made by that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="2d3e-df0c-e3eb-2c45" name="Grand Ritual of Awakening" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -1173,7 +1173,7 @@
         </profile>
         <profile id="65db-4215-296a-fa3f" name="Dauntless Assault" publicationId="e67a-06d2-pubN69594" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to wound rolls for attacks made by friendly FYRESLAYERS units wholly within 12寸 of that model until the end of that phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to wound rolls for attacks made by friendly 炽焰屠夫 units wholly within 12寸 of that model until the end of that phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1773,12 +1773,12 @@
         </profile>
         <profile id="9b5f-391e-f6db-8691" name="Icon of Grimnir" publicationId="68d3-0b6a-3775-07d9" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can say that this model is raising its icon of Grimnir. If it does so, add 1 to save rolls for attacks that target friendly FYRESLAYERS units wholly within 12寸 of this model until the start of your next 英雄阶段. However, if you do so, until the start of your next 英雄阶段, friendly FYRESLAYERS units wholly within 12寸 of this model cannot retreat.  A 单位 cannot benefit from this ability more than once per phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can say that this model is raising its icon of Grimnir. If it does so, add 1 to save rolls for attacks that target friendly 炽焰屠夫 units wholly within 12寸 of this model until the start of your next 英雄阶段. However, if you do so, until the start of your next 英雄阶段, friendly 炽焰屠夫 units wholly within 12寸 of this model cannot retreat.  A 单位 cannot benefit from this ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="bf60-2274-0653-395d" name="None Shall Defile the Icon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, friendly FYRESLAYERS units wholly within 12寸 of this model can swear to protect the fallen icon. If a 单位 does so, that 单位 cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with 肉搏 武器 by that 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If this model is slain, before it is removed from play, friendly 炽焰屠夫 units wholly within 12寸 of this model can swear to protect the fallen icon. If a 单位 does so, that 单位 cannot make normal moves and charge moves for the rest of the battle, but you can re-roll hit and wound rolls for attacks made with 肉搏 武器 by that 单位.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2476,17 +2476,17 @@
       <profiles>
         <profile id="57e8-4665-a13a-acf7" name="Molten Blessing" publicationId="68d3-0b6a-3775-07d9" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 within 6寸 of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly FYRESLAYERS PRIESTS while they are within 18寸 of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 within 6寸 of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly 炽焰屠夫 PRIESTS while they are within 18寸 of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="5ac9-7370-2224-5514" name="Spending the Forge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 within 6寸 of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly FYRESLAYERS units on the battlefield. However, for the rest of the battle, FYRESLAYERS PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 within 6寸 of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly 炽焰屠夫 units on the battlefield. However, for the rest of the battle, 炽焰屠夫 PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="cb53-adbc-d886-14af" name="FYRESLAYERS" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
+        <categoryLink id="cb53-adbc-d886-14af" name="炽焰屠夫" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
         <categoryLink id="f5c7-5e5c-7df2-e36a" name="MAGMIC BATTLEFORGE" hidden="false" targetId="7e0a-5085-683c-dcdc" primary="false"/>
         <categoryLink id="f5bc-ecbe-9361-2384" name="SCENERY" hidden="false" targetId="8910-7c1d-6c74-37ff" primary="false"/>
         <categoryLink id="b918-815b-0bf0-c71c" name="New CategoryLink" hidden="false" targetId="bc8a-9257-1601-6d62" primary="true"/>
@@ -2503,7 +2503,7 @@
         <profile id="03b0-ce84-c197-d5e1" name="Summon Molten Infernoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that FYRESLAYERS 祭司.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that 炽焰屠夫 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="0cf0-4802-4d3a-7f2f" name="Burning Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2513,12 +2513,12 @@
         </profile>
         <profile id="26f0-4f0f-d413-0530" name="Erupting Inferno" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll 12 dice for each 单位 that is within 3寸 of it at the end of its move. For each 6, that 单位 suffers 1 mortal wound. FYRESLAYERS units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, roll 12 dice for each 单位 that is within 3寸 of it at the end of its move. For each 6, that 单位 suffers 1 mortal wound. 炽焰屠夫 units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="7c2b-c61a-4c41-0936" name="Fiery Wrath of Vulcatrix" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of FYRESLAYERS units while they are wholly within 18寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the Bravery characteristic of 炽焰屠夫 units while they are wholly within 18寸 of this model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2539,7 +2539,7 @@
         <profile id="bf7b-0e30-b3b0-305e" name="Summon Runic Fyrewall" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that FYRESLAYERS 祭司.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that 炽焰屠夫 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="2eab-08d3-e553-3e5c" name="Roaring Rune-fire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2549,7 +2549,7 @@
         </profile>
         <profile id="42dd-8ad0-572e-2594" name="Awakened Runes" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll save rolls of 1 for attacks that target FYRESLAYERS units wholly within 12寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll save rolls of 1 for attacks that target 炽焰屠夫 units wholly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f468-e143-91ad-1995" name="Impervious to Heat" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2575,12 +2575,12 @@
         <profile id="eaf0-2cee-671b-b41e" name="Summon Zharrgron Flame Splitter" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly FYRESLAYERS 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that FYRESLAYERS 祭司.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that 炽焰屠夫 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="2032-4bfd-ad2a-273b" name="Magma Blast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 射击阶段, if there is a friendly FYRESLAYERS 祭司 within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 射击阶段, if there is a friendly 炽焰屠夫 祭司 within 6寸 of this model, you can pick an enemy 单位 within 24寸 of this model and roll 12 dice. Add 1 to the roll if there are 10 or more models in the 单位. Add 2 to the roll instead if there are 20 or more models in the 单位. For each 6+, the 单位 suffers 1 mortal wound. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2901,7 +2901,7 @@
       <categoryLinks>
         <categoryLink id="4871-6b73-9124-9106" name="AURIC RUNEFATHER" hidden="false" targetId="f5f5-db97-4831-824a" primary="false"/>
         <categoryLink id="0277-e6ec-4622-e66b" name="DUARDIN" hidden="false" targetId="945b-2f5e-58f0-75e2" primary="false"/>
-        <categoryLink id="31c9-8c54-8515-8784" name="FYRESLAYERS" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
+        <categoryLink id="31c9-8c54-8515-8784" name="炽焰屠夫" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
         <categoryLink id="83d1-06da-c232-05e5" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="ca09-9974-ce41-ada5" name="MAGMADROTH" hidden="false" targetId="9277-1530-7f0f-718f" primary="false"/>
         <categoryLink id="797a-1ae1-e646-215b" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
@@ -3237,11 +3237,11 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="763b-5916-a3da-bc31" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="5e52-c66e-da2e-ca56" name="1. Fury of the Fyreslayers" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5e52-c66e-da2e-ca56" name="1. Fury of the 炽焰屠夫" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="23bd-5213-9f45-363e" name="Fury of the Fyreslayers" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
+            <profile id="23bd-5213-9f45-363e" name="Fury of the 炽焰屠夫" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly FYRESLAYERS units wholly within 18寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly 炽焰屠夫 units wholly within 18寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3253,7 +3253,7 @@
           <profiles>
             <profile id="9404-f6c9-a2b8-fce5" name="Honour of the Ancestors" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly FYRESLAYERS units wholly within 12寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Do not take battleshock tests for friendly 炽焰屠夫 units wholly within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3784,7 +3784,7 @@
           <profiles>
             <profile id="9060-0b95-0810-6512" name="The Nulsidian Icon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time a friendly FYRESLAYERS 单位 wholly within 12寸 of the bearer is affected by a 法术 or 无尽法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time a friendly 炽焰屠夫 单位 wholly within 12寸 of the bearer is affected by a 法术 or 无尽法术, you can roll a dice.  If you do so, on a 4+ ignore the effects of that 法术 or 无尽法术 on that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4185,7 +4185,7 @@
     </profile>
     <profile id="bce0-112a-991d-00f4" name="Lodge 领袖" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
       <characteristics>
-        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the charge phase. If you do so, pick a friendly model with this command ability. Add 1 charge rolls for friendly FYRESLAYERS units wholly within 12寸 of that model until the end of that phase.</characteristic>
+        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the charge phase. If you do so, pick a friendly model with this command ability. Add 1 charge rolls for friendly 炽焰屠夫 units wholly within 12寸 of that model until the end of that phase.</characteristic>
       </characteristics>
     </profile>
     <profile id="d9f9-9d7b-c429-2056" name="Fyresteel Handaxe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">

@@ -3445,12 +3445,12 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6c58-255e-26d4-7017" name="3. Magmadroth Blood Vials" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6c58-255e-26d4-7017" name="3. 熔岩龙蜥 Blood Vials" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce16-cc51-f797-fc89" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14b4-4b1b-7b05-c9c5" name="Magmadroth Blood Vials" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="14b4-4b1b-7b05-c9c5" name="熔岩龙蜥 Blood Vials" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
                 <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll a dice. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
               </characteristics>

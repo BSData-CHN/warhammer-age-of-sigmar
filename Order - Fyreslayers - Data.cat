@@ -15,26 +15,26 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="0a47-97b4-1a41-f63d" name="AURIC HEARTHGUARD" hidden="false"/>
-    <categoryEntry id="f5f5-db97-4831-824a" name="AURIC RUNEFATHER" hidden="false"/>
-    <categoryEntry id="ac20-7d4d-2c40-1715" name="AURIC RUNEMASTER" hidden="false"/>
-    <categoryEntry id="59a7-074f-10b9-d92e" name="AURIC RUNESMITER" hidden="false"/>
-    <categoryEntry id="0d91-c9d2-c13f-5f42" name="AURIC RUNESON" hidden="false"/>
-    <categoryEntry id="91e1-ab50-8554-4a6e" name="BATTLESMITH" hidden="false"/>
-    <categoryEntry id="cd75-b7ef-b82f-47e0" name="GRIMWRATH BERZERKER" hidden="false"/>
-    <categoryEntry id="1089-32fd-fc13-0319" name="HEARTHGUARD BERZERKERS" hidden="false"/>
-    <categoryEntry id="9277-1530-7f0f-718f" name="MAGMADROTH" hidden="false"/>
-    <categoryEntry id="57af-4591-5841-0c21" name="VULKITE BERZERKERS" hidden="false"/>
+    <categoryEntry id="0a47-97b4-1a41-f63d" name="赤金炉卫" hidden="false"/>
+    <categoryEntry id="f5f5-db97-4831-824a" name="赤金符文之父" hidden="false"/>
+    <categoryEntry id="ac20-7d4d-2c40-1715" name="赤金符文大师" hidden="false"/>
+    <categoryEntry id="59a7-074f-10b9-d92e" name="赤金符文破敌者" hidden="false"/>
+    <categoryEntry id="0d91-c9d2-c13f-5f42" name="赤金符文之子" hidden="false"/>
+    <categoryEntry id="91e1-ab50-8554-4a6e" name="战争铁匠" hidden="false"/>
+    <categoryEntry id="cd75-b7ef-b82f-47e0" name="神怒狂战士" hidden="false"/>
+    <categoryEntry id="1089-32fd-fc13-0319" name="炉卫狂战士" hidden="false"/>
+    <categoryEntry id="9277-1530-7f0f-718f" name="熔岩龙蜥" hidden="false"/>
+    <categoryEntry id="57af-4591-5841-0c21" name="火裔狂战士" hidden="false"/>
     <categoryEntry id="945b-2f5e-58f0-75e2" name="DUARDIN" hidden="false"/>
-    <categoryEntry id="58a0-8e1a-977d-dbf4" name="DOOMSEEKER" hidden="false"/>
+    <categoryEntry id="58a0-8e1a-977d-dbf4" name="末日追寻者" hidden="false"/>
     <categoryEntry id="920f-7600-9c65-a179" name="COGSMITH" hidden="false"/>
-    <categoryEntry id="09da-5e0a-bba8-0a85" name="FJUL-GRIMNIR" hidden="false"/>
-    <categoryEntry id="4c1e-bfe5-baf1-cf60" name="THE CHOSEN AXES" hidden="false"/>
-    <categoryEntry id="7e0a-5085-683c-dcdc" name="MAGMIC BATTLEFORGE" hidden="false"/>
-    <categoryEntry id="4385-48e9-615c-c04e" name="RUNIC FIREWALL" hidden="false"/>
-    <categoryEntry id="bd1d-439c-5b12-bf4c" name="MOLTEN INFERNOTH" hidden="false"/>
-    <categoryEntry id="24f1-0987-a9c8-48a8" name="ZHARRGRON FLAME-SPITTER" hidden="false"/>
-    <categoryEntry id="4b94-6bb2-6f57-3f3f" name="MAGMIC INVOCATION" hidden="false"/>
+    <categoryEntry id="09da-5e0a-bba8-0a85" name="福格林姆尼尔" hidden="false"/>
+    <categoryEntry id="4c1e-bfe5-baf1-cf60" name="选定之斧" hidden="false"/>
+    <categoryEntry id="7e0a-5085-683c-dcdc" name="熔岩战炉" hidden="false"/>
+    <categoryEntry id="4385-48e9-615c-c04e" name="符文火墙" hidden="false"/>
+    <categoryEntry id="bd1d-439c-5b12-bf4c" name="熔火炎魔" hidden="false"/>
+    <categoryEntry id="24f1-0987-a9c8-48a8" name="喷焰巨坑" hidden="false"/>
+    <categoryEntry id="4b94-6bb2-6f57-3f3f" name="熔岩祈灵" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry id="8e35-cdef-4c7e-0a1c" name="阵营" hidden="false" collective="false" import="true" type="unit">
@@ -119,7 +119,7 @@
                         </profile>
                         <profile id="1a90-5f96-cbe6-3d6b" name="Honour Our Ancestors" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick a friendly VOSTARG 英雄.  Until the end of that phase, add 1 to hit rolls for attacks made by that 英雄 and friendly units of VULKITE BERZERKERS and HEARTHGUARD BERZERKERS wholly within 12寸 of that 英雄.  You cannot use this command ability more than once per phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  If you do so, pick a friendly VOSTARG 英雄.  Until the end of that phase, add 1 to hit rolls for attacks made by that 英雄 and friendly units of 火裔狂战士 and 炉卫狂战士 wholly within 12寸 of that 英雄.  You cannot use this command ability more than once per phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -139,7 +139,7 @@
                         </profile>
                         <profile id="4080-421c-5671-2ade" name="Expert Cohesion" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase when a friendly GREYFYRD 英雄 is picked to fight.  其他 friendly GREYFYRD HEROES that are not mounted on a MAGMADROTH and are within 3 of that 英雄 can fight immediately afterwards, before your oppenent gets the option to pick a 单位 to fight.  Any model that does so cannot fight again in that combat phase unless an ability or 法术 allows them to fight more than once.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in the combat phase when a friendly GREYFYRD 英雄 is picked to fight.  其他 friendly GREYFYRD HEROES that are not mounted on a 熔岩龙蜥 and are within 3 of that 英雄 can fight immediately afterwards, before your oppenent gets the option to pick a 单位 to fight.  Any model that does so cannot fight again in that combat phase unless an ability or 法术 allows them to fight more than once.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -159,7 +159,7 @@
                         </profile>
                         <profile id="01c9-dbe0-fa1b-d862" name="Skull-breakers and Oath-takers" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
                           <characteristics>
-                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  Pick 1 friendly HERMDAR VULKITE BERZERKERS 单位 or 1 friendly HERMDAR HEARTHGUARD BERZERKERS 单位 wholly within 12寸 of a HERMDAR 英雄.  That 单位 fights at the start of that combat phase, before the players pick any 其他 units to fight with in that combat phase.</characteristic>
+                            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase.  Pick 1 friendly HERMDAR 火裔狂战士 单位 or 1 friendly HERMDAR 炉卫狂战士 单位 wholly within 12寸 of a HERMDAR 英雄.  That 单位 fights at the start of that combat phase, before the players pick any 其他 units to fight with in that combat phase.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -174,7 +174,7 @@
                       <profiles>
                         <profile id="7e0a-1d7e-2be7-1fdd" name="Venerators of Vulcatrix" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each MAGMADROTH in a LOFNIR army, instead of only 1, can be given a Magmadroth trait.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each 熔岩龙蜥 in a LOFNIR army, instead of only 1, can be given a 熔岩龙蜥 trait.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="1d06-ea7f-5fd9-11fd" name="Torrent of Magma" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -216,7 +216,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1823-43dd-1af2-b910" name="Auric Hearthguard" publicationId="e67a-06d2-pubN65537" page="111" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1823-43dd-1af2-b910" name="赤金炉卫" publicationId="e67a-06d2-pubN65537" page="111" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -243,10 +243,10 @@
         </profile>
         <profile id="716c-e897-3f32-7fba" name="Sworn Protectors" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly 炽焰屠夫 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3寸 to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly 炽焰屠夫 英雄 that is not mounted on a 熔岩龙蜥 and is within 3寸 of any friendly units with this ability. On a 4+ that wound or mortal wound is negated, and you must choose a friendly 单位 with this ability that is within 3寸 to suffer 1 mortal wound after all wounds or mortal wounds have been allocated to that friendly 英雄.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f481-1fa7-d70c-50b0" name="Auric Hearthguard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="f481-1fa7-d70c-50b0" name="赤金炉卫" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -263,7 +263,7 @@
         <categoryLink id="0989-e60b-2d3e-5253" name="其他" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1b98-d13e-3461-998c" name="5 Auric Hearthguards" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1b98-d13e-3461-998c" name="5 赤金炉卫s" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="points" value="100">
               <conditions>
@@ -345,9 +345,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="88ae-2998-b72a-3f1c" name="Auric Runefather" publicationId="e67a-06d2-pubN65537" page="103" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="88ae-2998-b72a-3f1c" name="赤金符文之父" publicationId="e67a-06d2-pubN65537" page="103" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="571a-43be-ec53-ea94" name="Auric Runefather" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="571a-43be-ec53-ea94" name="赤金符文之父" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -435,9 +435,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d62c-b254-872a-3500" name="Auric Runefather on Magmadroth" publicationId="e67a-06d2-pubN65537" page="98" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d62c-b254-872a-3500" name="赤金符文之父-骑乘熔岩龙蜥" publicationId="e67a-06d2-pubN65537" page="98" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f0e8-e742-fac0-6b5c" name="Auric Runefather on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="f0e8-e742-fac0-6b5c" name="赤金符文之父-骑乘熔岩龙蜥" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -655,15 +655,15 @@
       <entryLinks>
         <entryLink id="219f-2edd-c56e-30d8" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="277d-2084-6ef2-5d64" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
-        <entryLink id="9042-56e7-8966-4912" name="Magmadroth Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
+        <entryLink id="9042-56e7-8966-4912" name="熔岩龙蜥 Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0aa-7e29-3be9-8fa5" name="Auric Runemaster" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c0aa-7e29-3be9-8fa5" name="赤金符文大师" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9718-40fe-6fff-3115" name="Auric Runemaster" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="9718-40fe-6fff-3115" name="赤金符文大师" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -780,9 +780,9 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="79fb-4a68-797b-95ed" name="Auric Runesmiter" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="79fb-4a68-797b-95ed" name="赤金符文破敌者" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="aaf5-d06e-0fa8-b352" name="Auric Runesmiter" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="aaf5-d06e-0fa8-b352" name="赤金符文破敌者" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -902,9 +902,9 @@
         <cost name="pts" typeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92c5-8b9d-f3e2-20e5" name="Auric Runesmiter on Magmadroth" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="92c5-8b9d-f3e2-20e5" name="赤金符文破敌者-骑乘熔岩龙蜥" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8dc2-c5d6-f738-6e26" name="Auric Runesmiter on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="8dc2-c5d6-f738-6e26" name="赤金符文破敌者-骑乘熔岩龙蜥" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -1149,16 +1149,16 @@
         <entryLink id="a693-a77c-bb8d-c854" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="f28b-2ec4-22ee-15ce" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="f525-652b-0571-f63a" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
-        <entryLink id="dfa3-857b-5a3a-0e05" name="Magmadroth Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
+        <entryLink id="dfa3-857b-5a3a-0e05" name="熔岩龙蜥 Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
         <entryLink id="f913-8956-80cb-982f" name="Zharrgrim Blessing" hidden="false" collective="false" import="true" targetId="3182-7f5b-0313-de75" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54ed-538a-5a83-cbaa" name="Auric Runeson" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="54ed-538a-5a83-cbaa" name="赤金符文之子" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c6b8-f402-c7db-42f1" name="Auric Runeson" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="c6b8-f402-c7db-42f1" name="赤金符文之子" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1168,7 +1168,7 @@
         </profile>
         <profile id="872a-35e3-701d-e221" name="Vying for Glory" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly AURIC RUNESONS within 6寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly 赤金符文之子S within 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="65db-4215-296a-fa3f" name="Dauntless Assault" publicationId="e67a-06d2-pubN69594" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -1276,9 +1276,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6dae-8546-4e7f-f420" name="Auric Runeson on Magmadroth" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6dae-8546-4e7f-f420" name="赤金符文之子-骑乘熔岩龙蜥" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7e32-73cd-d80b-34aa" name="Auric Runeson on Magmadroth" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="7e32-73cd-d80b-34aa" name="赤金符文之子-骑乘熔岩龙蜥" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
@@ -1351,12 +1351,12 @@
         </profile>
         <profile id="eff0-6ab0-dd54-c841" name="Vying for Glory" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly AURIC RUNESONS within 6寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll hit rolls for attacks made by this model if there are any 其他 friendly 赤金符文之子S within 6寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="2be6-9c70-e4d8-7b6d" name="Molten Battering Ram" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly MAGMADROTH that is within 12寸 of a friendly model with this command ability. After that 单位 makes a charge move in that charge phase, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 2+ that enemy 单位 suffers D6 mortal wounds. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your charge phase. If you do so, pick 1 friendly 熔岩龙蜥 that is within 12寸 of a friendly model with this command ability. After that 单位 makes a charge move in that charge phase, you can pick 1 enemy 单位 within 1寸 of that model and roll a dice. On a 2+ that enemy 单位 suffers D6 mortal wounds. The same 单位 cannot be picked to be affected by this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1522,7 +1522,7 @@
         <entryLink id="e125-3aff-bd60-83c4" name="主将" hidden="false" collective="false" import="true" targetId="292c-59dc-7ac8-2383" type="selectionEntry"/>
         <entryLink id="ee44-e73e-8232-2db4" name="Artefacts" hidden="false" collective="false" import="true" targetId="75d8-d2b2-772b-e9f0" type="selectionEntryGroup"/>
         <entryLink id="8c68-c575-da64-b012" name="Command Traits" hidden="false" collective="false" import="true" targetId="8db2-e52d-b376-b998" type="selectionEntryGroup"/>
-        <entryLink id="bd21-f5ff-b496-1bb9" name="Magmadroth Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
+        <entryLink id="bd21-f5ff-b496-1bb9" name="熔岩龙蜥 Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="240.0"/>
@@ -1532,7 +1532,7 @@
       <profiles>
         <profile id="7d83-125b-dee3-19a4" name="Bulwark of Molten Stone" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of the enemy 英雄阶段, you can pick 1 friendly 单位 wholly within 18寸 of any units of AURIC HEARTHGUARD from this 阵型.  If you do so, add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">At the start of the enemy 英雄阶段, you can pick 1 friendly 单位 wholly within 18寸 of any units of 赤金炉卫 from this 阵型.  If you do so, add 1 to save rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1540,27 +1540,27 @@
         <categoryLink id="4a4b-b6d8-c776-75cf" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6de7-d5fd-4626-61c6" name="3 Auric Hearthguard Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6de7-d5fd-4626-61c6" name="3 赤金炉卫 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e678-c644-6795-7af7" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cbf-e8db-46c3-8fd6" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="52e8-9639-b7f4-5be6" name="Auric Hearthguard" hidden="false" collective="false" import="true" targetId="1823-43dd-1af2-b910" type="selectionEntry"/>
+            <entryLink id="52e8-9639-b7f4-5be6" name="赤金炉卫" hidden="false" collective="false" import="true" targetId="1823-43dd-1af2-b910" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fba5-dddf-946f-ab51" name="1 Auric Runesmiter or Auric Runesmiter on Magmadroth" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fba5-dddf-946f-ab51" name="1 赤金符文破敌者 or 赤金符文破敌者-骑乘熔岩龙蜥" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23d9-dacd-f9cf-7d90" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a74-fb91-8fc8-0d9c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="eda5-cc6f-1ab9-a24f" name="Auric Runesmiter" hidden="false" collective="false" import="true" targetId="79fb-4a68-797b-95ed" type="selectionEntry">
+            <entryLink id="eda5-cc6f-1ab9-a24f" name="赤金符文破敌者" hidden="false" collective="false" import="true" targetId="79fb-4a68-797b-95ed" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="0e01-3222-8313-5b88" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="9634-2c16-144f-65c7" name="Auric Runesmiter on Magmadroth" hidden="false" collective="false" import="true" targetId="92c5-8b9d-f3e2-20e5" type="selectionEntry">
+            <entryLink id="9634-2c16-144f-65c7" name="赤金符文破敌者-骑乘熔岩龙蜥" hidden="false" collective="false" import="true" targetId="92c5-8b9d-f3e2-20e5" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="5381-51b7-1bc8-5caa" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
                 <categoryLink id="ace0-77f8-b133-8166" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -1624,20 +1624,20 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a894-630d-0017-b9f0" name="0-1 Doomseeker" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a894-630d-0017-b9f0" name="0-1 末日追寻者" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7925-d999-d789-2fbc" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6fba-d5cc-63e2-6f8f" name="Doomseeker" hidden="false" collective="false" import="true" targetId="5480-a1cb-81b1-45c7" type="selectionEntry"/>
+            <entryLink id="6fba-d5cc-63e2-6f8f" name="末日追寻者" hidden="false" collective="false" import="true" targetId="5480-a1cb-81b1-45c7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b643-290d-c2cd-615c" name="0-1 Grimwrath Berzerker" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b643-290d-c2cd-615c" name="0-1 神怒狂战士" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5db0-d5f9-455d-9b25" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d81c-d8a1-b394-1157" name="Grimwrath Berzerker" hidden="false" collective="false" import="true" targetId="0520-eb44-5bea-94d3" type="selectionEntry"/>
+            <entryLink id="d81c-d8a1-b394-1157" name="神怒狂战士" hidden="false" collective="false" import="true" targetId="0520-eb44-5bea-94d3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1649,7 +1649,7 @@
       <profiles>
         <profile id="456c-a5b3-1a3f-728a" name="Oathbound Guardians" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 单位 of HEARTHGUARD BERZERKERS from this 阵型 is wholly within 12寸 of a 英雄 from the same 阵型 at the start of the combat phase, then after that 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight with later in the same phase, it can be selected to fight for a second time.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a 单位 of 炉卫狂战士 from this 阵型 is wholly within 12寸 of a 英雄 from the same 阵型 at the start of the combat phase, then after that 单位 has fought in that phase for the first time, when it is your turn to pick a 单位 to fight with later in the same phase, it can be selected to fight for a second time.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1657,18 +1657,18 @@
         <categoryLink id="4900-32fe-188d-ecf2" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="67a0-4aa9-a5a8-c4a2" name="1 Auric Runefather or Auric Runefather on Magmadroth" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="67a0-4aa9-a5a8-c4a2" name="1 赤金符文之父 or 赤金符文之父-骑乘熔岩龙蜥" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee5-5b02-ee21-31d8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="def2-137f-e302-3584" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9201-1247-0b3f-42b0" name="Auric Runefather" hidden="false" collective="false" import="true" targetId="88ae-2998-b72a-3f1c" type="selectionEntry">
+            <entryLink id="9201-1247-0b3f-42b0" name="赤金符文之父" hidden="false" collective="false" import="true" targetId="88ae-2998-b72a-3f1c" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="7040-9f40-d4d3-df3f" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="bed5-2c70-4134-200a" name="Auric Runefather on Magmadroth" hidden="false" collective="false" import="true" targetId="d62c-b254-872a-3500" type="selectionEntry">
+            <entryLink id="bed5-2c70-4134-200a" name="赤金符文之父-骑乘熔岩龙蜥" hidden="false" collective="false" import="true" targetId="d62c-b254-872a-3500" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="f40d-aec2-d6c2-f699" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
                 <categoryLink id="d66e-f414-6ae8-6a42" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -1676,39 +1676,39 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a458-b920-a3a0-b357" name="1 Auric Runemaster" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a458-b920-a3a0-b357" name="1 赤金符文大师" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d728-0494-19c9-c864" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a891-3c24-d303-256d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f88f-d14b-510e-31f2" name="Auric Runemaster" hidden="false" collective="false" import="true" targetId="c0aa-7e29-3be9-8fa5" type="selectionEntry">
+            <entryLink id="f88f-d14b-510e-31f2" name="赤金符文大师" hidden="false" collective="false" import="true" targetId="c0aa-7e29-3be9-8fa5" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="770f-15ca-e130-9673" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="436e-5823-c6fc-5ba0" name="1 Battlesmith" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="436e-5823-c6fc-5ba0" name="1 战争铁匠" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea1-6e65-a694-c641" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f839-2e24-7a04-61f6" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8412-5b3f-df21-8bcb" name="Battlesmith" hidden="false" collective="false" import="true" targetId="f45a-1818-8096-1147" type="selectionEntry">
+            <entryLink id="8412-5b3f-df21-8bcb" name="战争铁匠" hidden="false" collective="false" import="true" targetId="f45a-1818-8096-1147" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="b34f-7906-96ad-6b29" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="80b6-c9c4-4540-a5b2" name="1 Hearthguard Berzerkers 单位" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="80b6-c9c4-4540-a5b2" name="1 炉卫狂战士 单位" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3cc-14ec-82a9-1f9d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9863-7387-cf45-d016" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c6f1-19bc-6096-86e9" name="Hearthguard Berzerkers" hidden="false" collective="false" import="true" targetId="3973-d948-c464-bddc" type="selectionEntry"/>
+            <entryLink id="c6f1-19bc-6096-86e9" name="炉卫狂战士" hidden="false" collective="false" import="true" targetId="3973-d948-c464-bddc" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1720,7 +1720,7 @@
       <profiles>
         <profile id="2bbd-a262-8893-89d3" name="Beserk Kindred" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can use the Berserk Fury ability for 1 VULKITE BERZERKERS 单位 from this 阵型 twice in the same battle if that 单位 is wholly within 12寸 of an AURIC RUNESON from the same 阵型 the second time the Berserk Fury ability is used.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">You can use the Berserk Fury ability for 1 火裔狂战士 单位 from this 阵型 twice in the same battle if that 单位 is wholly within 12寸 of an 赤金符文之子 from the same 阵型 the second time the Berserk Fury ability is used.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1728,18 +1728,18 @@
         <categoryLink id="3b13-81b4-3de5-ca57" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="991e-34f5-8f9d-4c40" name="1 Auric Runeson or Auric Runeson on Magmadroth" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="991e-34f5-8f9d-4c40" name="1 赤金符文之子 or 赤金符文之子-骑乘熔岩龙蜥" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="518b-a3e3-1ec2-2969" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf6-1d3c-6bab-bf3d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="99e0-e5ce-034b-53bd" name="Auric Runeson" hidden="false" collective="false" import="true" targetId="54ed-538a-5a83-cbaa" type="selectionEntry">
+            <entryLink id="99e0-e5ce-034b-53bd" name="赤金符文之子" hidden="false" collective="false" import="true" targetId="54ed-538a-5a83-cbaa" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="8e00-53be-9c72-62ac" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="d816-054b-49c6-b6dc" name="Auric Runeson on Magmadroth" hidden="false" collective="false" import="true" targetId="6dae-8546-4e7f-f420" type="selectionEntry">
+            <entryLink id="d816-054b-49c6-b6dc" name="赤金符文之子-骑乘熔岩龙蜥" hidden="false" collective="false" import="true" targetId="6dae-8546-4e7f-f420" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="4cea-2688-90f4-81d8" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="false"/>
                 <categoryLink id="4eb8-91fe-2fe5-d04a" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -1747,7 +1747,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="371f-b41f-7e23-3877" name="3 Vulkite Berzerkers Units" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="371f-b41f-7e23-3877" name="3 火裔狂战士 Units" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98e8-0d3b-74ec-45d4" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba3-3177-eded-8498" type="max"/>
@@ -1761,9 +1761,9 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f45a-1818-8096-1147" name="Battlesmith" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f45a-1818-8096-1147" name="战争铁匠" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="984f-55be-5888-53d8" name="Battlesmith" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="984f-55be-5888-53d8" name="战争铁匠" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1836,9 +1836,9 @@
         <cost name="pts" typeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5480-a1cb-81b1-45c7" name="Doomseeker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5480-a1cb-81b1-45c7" name="末日追寻者" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4eaf-f89e-1680-8d48" name="Doomseeker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="4eaf-f89e-1680-8d48" name="末日追寻者" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
@@ -1866,13 +1866,13 @@
         <categoryLink id="6042-3b64-5d13-cc02" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2c47-36b4-0799-cbd5" name="Doomseeker Axe" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2c47-36b4-0799-cbd5" name="末日追寻者 Axe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb2-26ef-1e1a-fcb4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8686-e308-16da-04ab" type="min"/>
           </constraints>
           <profiles>
-            <profile id="35ed-a217-0b54-2d8d" name="Doomseeker Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
+            <profile id="35ed-a217-0b54-2d8d" name="末日追寻者 Axe" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
                 <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
@@ -1930,9 +1930,9 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0520-eb44-5bea-94d3" name="Grimwrath Berzerker" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0520-eb44-5bea-94d3" name="神怒狂战士" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="7a3c-ff6f-06df-d6f2" name="Grimwrath Berzerker" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="7a3c-ff6f-06df-d6f2" name="神怒狂战士" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2007,7 +2007,7 @@
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3973-d948-c464-bddc" name="Hearthguard Berzerkers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3973-d948-c464-bddc" name="炉卫狂战士" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set-primary" field="category" value="e9f2-765a-b7b8-ce8e">
           <conditionGroups>
@@ -2028,7 +2028,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7f1a-1a1d-c3d8-4c43" name="Hearthguard Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="7f1a-1a1d-c3d8-4c43" name="炉卫狂战士" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2055,7 +2055,7 @@
         <categoryLink id="04fe-3c41-7a98-8434" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b1d0-e370-cb9b-eeca" name="5 Hearthguard Berzerkers" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b1d0-e370-cb9b-eeca" name="5 炉卫狂战士" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="points" value="100.0">
               <conditions>
@@ -2145,9 +2145,9 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5380-8f39-8882-eae7" name="Vulkite Berzerkers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5380-8f39-8882-eae7" name="火裔狂战士" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="cbcb-b0e8-43fb-a160" name="Vulkite Berzerkers" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="cbcb-b0e8-43fb-a160" name="火裔狂战士" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2179,7 +2179,7 @@
         <categoryLink id="2b06-fc34-e87f-908f" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5cd4-7e3c-e940-22a6" name="10 Vulkite Berzerkers" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5cd4-7e3c-e940-22a6" name="10 火裔狂战士" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -2292,7 +2292,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40af-3522-0296-167c" name="Fjul-Grimnir" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="40af-3522-0296-167c" name="福格林姆尼尔" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="d4cc-52e7-a852-1bb5" value="1">
           <conditions>
@@ -2305,7 +2305,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4cc-52e7-a852-1bb5" type="min"/>
       </constraints>
       <profiles>
-        <profile id="70d1-f8b3-5cbe-e40e" name="Fjul-Grimnir" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="70d1-f8b3-5cbe-e40e" name="福格林姆尼尔" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
@@ -2315,7 +2315,7 @@
         </profile>
         <profile id="6e00-06a6-974a-6028" name="Grimnir&apos;s Blessing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to Fjul-Grimnir while this model is within 3寸 of a friendly Chosen Axes 单位. On a 5+ that wound or mortal wound is negated. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to 福格林姆尼尔 while this model is within 3寸 of a friendly Chosen Axes 单位. On a 5+ that wound or mortal wound is negated. </characteristic>
           </characteristics>
         </profile>
         <profile id="1c5b-7c4f-f589-2b47" name="Honour Our Oaths" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -2371,7 +2371,7 @@
         <cost name="pts" typeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3544-cf2b-f1ab-8663" name="The Chosen Axes" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3544-cf2b-f1ab-8663" name="选定之斧" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="87be-abcf-5c9a-edd6" value="1">
           <conditions>
@@ -2384,7 +2384,7 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87be-abcf-5c9a-edd6" type="min"/>
       </constraints>
       <profiles>
-        <profile id="a2f4-fb81-868b-4c98" name="The Chosen Axes" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="a2f4-fb81-868b-4c98" name="选定之斧" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
@@ -2399,7 +2399,7 @@
         </profile>
         <profile id="e5da-d151-b028-7b17" name="Chosen Kin" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made by this 单位 while FJUL-GRIMNIR is within 3寸 of this 单位. Do not take battleshock tests for this 单位 while it is within 3寸 of FJUL-GRIMNIR.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made by this 单位 while 福格林姆尼尔 is within 3寸 of this 单位. Do not take battleshock tests for this 单位 while it is within 3寸 of 福格林姆尼尔.</characteristic>
           </characteristics>
         </profile>
         <profile id="98d1-77d5-6944-c5b8" name="Berserk Fury" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2472,22 +2472,22 @@
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a34-4e73-b5a5-7b71" name="Magmic Battleforge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9a34-4e73-b5a5-7b71" name="熔岩战炉" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="57e8-4665-a13a-acf7" name="Molten Blessing" publicationId="68d3-0b6a-3775-07d9" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 within 6寸 of a Magmic Battleforge can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly 炽焰屠夫 PRIESTS while they are within 18寸 of that Magmic Battleforge. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same Magmic Battleforge in the same phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 within 6寸 of a 熔岩战炉 can control its magmic energies. If they do so, until the end of that phase, add 1 to prayer rolls for friendly 炽焰屠夫 PRIESTS while they are within 18寸 of that 熔岩战炉. You cannot use the Molten Blessing ability and the Spending the Forge ability for the same 熔岩战炉 in the same phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="5ac9-7370-2224-5514" name="Spending the Forge" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 within 6寸 of a Magmic Battleforge can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly 炽焰屠夫 units on the battlefield. However, for the rest of the battle, 炽焰屠夫 PRIESTS can no longer use this Magmic Battleforge’s Molten Blessing ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Once per battle, at the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 within 6寸 of a 熔岩战炉 can spend all of the forge’s energy instead of using its Molten Blessing ability. If they do so, until the start of your next 英雄阶段, you can re-roll save rolls of 1 for friendly 炽焰屠夫 units on the battlefield. However, for the rest of the battle, 炽焰屠夫 PRIESTS can no longer use this 熔岩战炉’s Molten Blessing ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="cb53-adbc-d886-14af" name="炽焰屠夫" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
-        <categoryLink id="f5c7-5e5c-7df2-e36a" name="MAGMIC BATTLEFORGE" hidden="false" targetId="7e0a-5085-683c-dcdc" primary="false"/>
+        <categoryLink id="f5c7-5e5c-7df2-e36a" name="熔岩战炉" hidden="false" targetId="7e0a-5085-683c-dcdc" primary="false"/>
         <categoryLink id="f5bc-ecbe-9361-2384" name="SCENERY" hidden="false" targetId="8910-7c1d-6c74-37ff" primary="false"/>
         <categoryLink id="b918-815b-0bf0-c71c" name="New CategoryLink" hidden="false" targetId="bc8a-9257-1601-6d62" primary="true"/>
       </categoryLinks>
@@ -2495,20 +2495,20 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a210-d353-df95-85b8" name="Magmic Invocation: Molten Infernoth" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a210-d353-df95-85b8" name="熔岩祈灵: 熔火炎魔" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1074-4626-a9f5-09ca" type="max"/>
       </constraints>
       <profiles>
-        <profile id="03b0-ce84-c197-d5e1" name="Summon Molten Infernoth" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="03b0-ce84-c197-d5e1" name="Summon 熔火炎魔" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that 炽焰屠夫 祭司.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this 熔岩祈灵. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 12寸 of that 炽焰屠夫 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="0cf0-4802-4d3a-7f2f" name="Burning Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this magmic invocation is set up, the player who set it up can immediately make a move with it. In addition, at the start of each of their subsequent 英雄 phases, the player who set this magmic invocation up can make a move with it if it is still on the battlefield. When you move this magmic invocation, it can move up to 2D6寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this 熔岩祈灵 is set up, the player who set it up can immediately make a move with it. In addition, at the start of each of their subsequent 英雄 phases, the player who set this 熔岩祈灵 up can make a move with it if it is still on the battlefield. When you move this 熔岩祈灵, it can move up to 2D6寸.</characteristic>
           </characteristics>
         </profile>
         <profile id="26f0-4f0f-d413-0530" name="Erupting Inferno" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2523,23 +2523,23 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c08a-a7bf-618b-f70b" name="MOLTEN INFERNOTH" hidden="false" targetId="bd1d-439c-5b12-bf4c" primary="false"/>
-        <categoryLink id="8c4a-ba61-b056-ff3e" name="MAGMIC INVOCATION" hidden="false" targetId="4b94-6bb2-6f57-3f3f" primary="false"/>
+        <categoryLink id="c08a-a7bf-618b-f70b" name="熔火炎魔" hidden="false" targetId="bd1d-439c-5b12-bf4c" primary="false"/>
+        <categoryLink id="8c4a-ba61-b056-ff3e" name="熔岩祈灵" hidden="false" targetId="4b94-6bb2-6f57-3f3f" primary="false"/>
         <categoryLink id="5aee-40c6-5cba-9f9e" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4383-0748-eb3c-ba75" name="Magmic Invocation: Runic Fyrewall" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4383-0748-eb3c-ba75" name="熔岩祈灵: 符文火墙" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="967e-c30c-0931-a17b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bf7b-0e30-b3b0-305e" name="Summon Runic Fyrewall" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="bf7b-0e30-b3b0-305e" name="Summon 符文火墙" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that 炽焰屠夫 祭司.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this 熔岩祈灵. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 18寸 of that 炽焰屠夫 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="2eab-08d3-e553-3e5c" name="Roaring Rune-fire" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2554,28 +2554,28 @@
         </profile>
         <profile id="f468-e143-91ad-1995" name="Impervious to Heat" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">MAGMADROTHS can pass across this model in the same manner as a model that can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">熔岩龙蜥S can pass across this model in the same manner as a model that can fly.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="5930-0244-1647-95e1" name="MAGMIC INVOCATION" hidden="false" targetId="4b94-6bb2-6f57-3f3f" primary="false"/>
-        <categoryLink id="a91a-5531-f555-61b6" name="RUNIC FIREWALL" hidden="false" targetId="4385-48e9-615c-c04e" primary="false"/>
+        <categoryLink id="5930-0244-1647-95e1" name="熔岩祈灵" hidden="false" targetId="4b94-6bb2-6f57-3f3f" primary="false"/>
+        <categoryLink id="a91a-5531-f555-61b6" name="符文火墙" hidden="false" targetId="4385-48e9-615c-c04e" primary="false"/>
         <categoryLink id="3169-0b1b-04e1-3d27" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="09c6-5753-f3b3-c56c" name="Magmic Invocation: Zharrgron Flame Splitter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="09c6-5753-f3b3-c56c" name="熔岩祈灵: 喷焰巨坑" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2039-bff7-fc94-d116" type="max"/>
       </constraints>
       <profiles>
-        <profile id="eaf0-2cee-671b-b41e" name="Summon Zharrgron Flame Splitter" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="eaf0-2cee-671b-b41e" name="Summon 喷焰巨坑" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">3+</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this magmic invocation. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that 炽焰屠夫 祭司.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">At the start of your 英雄阶段, 1 friendly 炽焰屠夫 祭司 can attempt to perform this 熔岩祈灵. If they do so, make an invocation roll by rolling a dice. On a 3+ the invocation roll is successful. If the invocation roll is successful, set up this model wholly within 6寸 of that 炽焰屠夫 祭司.</characteristic>
           </characteristics>
         </profile>
         <profile id="2032-4bfd-ad2a-273b" name="Magma Blast" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2585,8 +2585,8 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="b66d-67c3-1a9d-2961" name="MAGMIC INVOCATION" hidden="false" targetId="4b94-6bb2-6f57-3f3f" primary="false"/>
-        <categoryLink id="6f9e-2722-4865-7706" name="ZHARRGRON FLAME-SPITTER" hidden="false" targetId="24f1-0987-a9c8-48a8" primary="false"/>
+        <categoryLink id="b66d-67c3-1a9d-2961" name="熔岩祈灵" hidden="false" targetId="4b94-6bb2-6f57-3f3f" primary="false"/>
+        <categoryLink id="6f9e-2722-4865-7706" name="喷焰巨坑" hidden="false" targetId="24f1-0987-a9c8-48a8" primary="false"/>
         <categoryLink id="0712-3e5a-9760-8d35" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
       <costs>
@@ -2597,7 +2597,7 @@
       <profiles>
         <profile id="678f-d367-78b6-16ea" name="Heir of the Fyreheart Temple" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a friendly 单位 of AURIC HEARTHGUARD from this 阵型 is wholly within 12寸 of Dhurgan when he uses his Magmic Prayer of Runic Empowerment ability, the prayers is answered on a 2+ instead of 3+.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">If a friendly 单位 of 赤金炉卫 from this 阵型 is wholly within 12寸 of Dhurgan when he uses his Magmic Prayer of Runic Empowerment ability, the prayers is answered on a 2+ instead of 3+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2605,26 +2605,26 @@
         <categoryLink id="c557-af82-56f9-084d" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e5f3-43ae-612a-f5d8" name="1 Auric Runesmiter (Dhurgan)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e5f3-43ae-612a-f5d8" name="1 赤金符文破敌者 (Dhurgan)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f953-2b11-7ad6-509c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e61-2398-5c26-022d" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b9ad-1934-fa67-efef" name="Auric Runesmiter" hidden="false" collective="false" import="true" targetId="79fb-4a68-797b-95ed" type="selectionEntry">
+            <entryLink id="b9ad-1934-fa67-efef" name="赤金符文破敌者" hidden="false" collective="false" import="true" targetId="79fb-4a68-797b-95ed" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="f48f-2646-0dd9-7f86" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4d65-43a7-8829-3004" name="3 units of Auric Hearthguard" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4d65-43a7-8829-3004" name="3 units of 赤金炉卫" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccaf-c3eb-a42a-187f" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1fd-2a85-a9d3-cd40" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e81d-e16a-4b60-3cd3" name="Auric Hearthguard" hidden="false" collective="false" import="true" targetId="1823-43dd-1af2-b910" type="selectionEntry">
+            <entryLink id="e81d-e16a-4b60-3cd3" name="赤金炉卫" hidden="false" collective="false" import="true" targetId="1823-43dd-1af2-b910" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -2649,7 +2649,7 @@
       <profiles>
         <profile id="1d7d-20c2-24b2-2e14" name="Mighty Deeds and Blaring Oaths" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by VULKITE BERSERKERS units from this 阵型 while they are wholly within 12寸 of this 阵型&apos;s AURIC RUNESON.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to the Attacks characteristic of 肉搏 武器 used by VULKITE BERSERKERS units from this 阵型 while they are wholly within 12寸 of this 阵型&apos;s 赤金符文之子.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2657,13 +2657,13 @@
         <categoryLink id="f077-50dc-33ef-680e" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="969d-7bb0-e084-d64b" name="1 Vostarg Auric Runeson" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="969d-7bb0-e084-d64b" name="1 Vostarg 赤金符文之子" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d26f-dfd1-358b-64e9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a049-bd65-9a35-bf6f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8568-5a64-4782-4f01" name="Auric Runeson" hidden="false" collective="false" import="true" targetId="54ed-538a-5a83-cbaa" type="selectionEntry">
+            <entryLink id="8568-5a64-4782-4f01" name="赤金符文之子" hidden="false" collective="false" import="true" targetId="54ed-538a-5a83-cbaa" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="3d8e-8ccd-26af-34b3" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
               </categoryLinks>
@@ -2696,26 +2696,26 @@
         <categoryLink id="77db-aa21-a10e-2c8f" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="eadd-5b2d-7af6-885e" name="1 Vostarg Auric Runemaster (Vaegor)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="eadd-5b2d-7af6-885e" name="1 Vostarg 赤金符文大师 (Vaegor)" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1279-2c0e-d988-bb84" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0e5-39e9-a22f-8492" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6c4e-c085-e80f-0064" name="Auric Runemaster" hidden="false" collective="false" import="true" targetId="c0aa-7e29-3be9-8fa5" type="selectionEntry">
+            <entryLink id="6c4e-c085-e80f-0064" name="赤金符文大师" hidden="false" collective="false" import="true" targetId="c0aa-7e29-3be9-8fa5" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="29fa-06aa-170f-f96e" name="领袖" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
               </categoryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a3f0-b1b4-e023-211a" name="1 Vostarg Battlesmith" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a3f0-b1b4-e023-211a" name="1 Vostarg 战争铁匠" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c8b-a801-3af6-9cff" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb0-4c50-df04-9085" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3a1b-6790-462d-25aa" name="Battlesmith" hidden="false" collective="false" import="true" targetId="f45a-1818-8096-1147" type="selectionEntry">
+            <entryLink id="3a1b-6790-462d-25aa" name="战争铁匠" hidden="false" collective="false" import="true" targetId="f45a-1818-8096-1147" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="dc49-e508-3d1e-0228" name="领袖" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="false"/>
               </categoryLinks>
@@ -2728,7 +2728,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d0-1bba-1b87-b79e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="55d5-6212-762b-5cce" name="Hearthguard Berzerkers" hidden="false" collective="false" import="true" targetId="3973-d948-c464-bddc" type="selectionEntry"/>
+            <entryLink id="55d5-6212-762b-5cce" name="炉卫狂战士" hidden="false" collective="false" import="true" targetId="3973-d948-c464-bddc" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="6fba-21ac-981f-338c" name="1 Bael-Grimnir on Flamespitter" hidden="false" collective="false" import="true">
@@ -2786,16 +2786,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a8-5e84-4d5d-4a10" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1dc5-ce29-a5cb-a59e" name="Grimwrath Berzerker" hidden="false" collective="false" import="true" targetId="0520-eb44-5bea-94d3" type="selectionEntry"/>
+            <entryLink id="1dc5-ce29-a5cb-a59e" name="神怒狂战士" hidden="false" collective="false" import="true" targetId="0520-eb44-5bea-94d3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="45c7-c874-d8cc-d48b" name="0-1 Doomseekers" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="45c7-c874-d8cc-d48b" name="0-1 末日追寻者s" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d9-236c-55f1-27fb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff7c-255f-2b8c-4889" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c854-b228-2fd3-f3da" name="Doomseeker" hidden="false" collective="false" import="true" targetId="5480-a1cb-81b1-45c7" type="selectionEntry"/>
+            <entryLink id="c854-b228-2fd3-f3da" name="末日追寻者" hidden="false" collective="false" import="true" targetId="5480-a1cb-81b1-45c7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2899,11 +2899,11 @@
         <infoLink id="7d7a-c6ad-cb6a-b98d" name="Stare Down" hidden="false" targetId="8a11-0e04-65b6-cc78" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4871-6b73-9124-9106" name="AURIC RUNEFATHER" hidden="false" targetId="f5f5-db97-4831-824a" primary="false"/>
+        <categoryLink id="4871-6b73-9124-9106" name="赤金符文之父" hidden="false" targetId="f5f5-db97-4831-824a" primary="false"/>
         <categoryLink id="0277-e6ec-4622-e66b" name="DUARDIN" hidden="false" targetId="945b-2f5e-58f0-75e2" primary="false"/>
         <categoryLink id="31c9-8c54-8515-8784" name="炽焰屠夫" hidden="false" targetId="4ec3-efa9-35ba-d55f" primary="false"/>
         <categoryLink id="83d1-06da-c232-05e5" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="ca09-9974-ce41-ada5" name="MAGMADROTH" hidden="false" targetId="9277-1530-7f0f-718f" primary="false"/>
+        <categoryLink id="ca09-9974-ce41-ada5" name="熔岩龙蜥" hidden="false" targetId="9277-1530-7f0f-718f" primary="false"/>
         <categoryLink id="797a-1ae1-e646-215b" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="710c-164c-6616-48d0" name="秩序" hidden="false" targetId="b970-b3bf-e1a4-a6fc" primary="false"/>
         <categoryLink id="572f-e2a7-9227-d4ac" name="VOSTARG" hidden="false" targetId="c34d-acb9-a4d9-74be" primary="false"/>
@@ -3040,7 +3040,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1b90-3942-ff65-70a8" name="Magmadroth Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
+        <entryLink id="1b90-3942-ff65-70a8" name="熔岩龙蜥 Traits" hidden="false" collective="false" import="true" targetId="3886-2846-4e7d-dd6a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
@@ -3128,7 +3128,7 @@
         <entryLink id="caad-f1ed-0478-7632" name="Lodge Artefacts" hidden="false" collective="false" import="true" targetId="f006-6a05-a287-1aa1" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3886-2846-4e7d-dd6a" name="Magmadroth Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3886-2846-4e7d-dd6a" name="熔岩龙蜥 Traits" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3210,7 +3210,7 @@
           <profiles>
             <profile id="6bef-aece-b920-864c" name="Ash-born Ancient" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for attacks that target this model and friendly MAGMADROTHS within 6寸 of this model.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can re-roll save rolls of 1 for attacks that target this model and friendly 熔岩龙蜥S within 6寸 of this model.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3662,7 +3662,7 @@
           <profiles>
             <profile id="abc6-db8c-70b0-4eda" name="Volatile Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to summon 2 magmic invocations in the same turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to summon 2 熔岩祈灵s in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3716,7 +3716,7 @@
           <profiles>
             <profile id="15a1-f723-eaab-8cfa" name="Droth-helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made with Claws and Horns by friendly MAGMADROTHS within 6寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can re-roll hit rolls for attacks made with Claws and Horns by friendly 熔岩龙蜥S within 6寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3748,7 +3748,7 @@
           <profiles>
             <profile id="4b57-0de7-687e-3bb7" name="Icon of the Ancestors" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The range of this Battlesmith&apos;s Icon of Grimnir and None Shall Defile the Icon abilities is 18寸 instead of 12寸.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The range of this 战争铁匠&apos;s Icon of Grimnir and None Shall Defile the Icon abilities is 18寸 instead of 12寸.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3813,7 +3813,7 @@
           <profiles>
             <profile id="f980-166b-c80d-c43a" name="Molten Infusion" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2 the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a magmic invocation model within 12寸 of this 祭司.  At the end of this battle round, do not make a temperamental nature roll for that magmic invocation.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2 the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a 熔岩祈灵 model within 12寸 of this 祭司.  At the end of this battle round, do not make a temperamental nature roll for that 熔岩祈灵.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3849,7 +3849,7 @@
           <profiles>
             <profile id="73f8-b56b-d948-3f53" name="Ember Storm" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 of VULKITE BERZERKERS or HEARTHGUARD BERZERKERS wholly within 18寸 of this 祭司.  That 单位 can run and still charge later in that turn.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 单位 of 火裔狂战士 or 炉卫狂战士 wholly within 18寸 of this 祭司.  That 单位 can run and still charge later in that turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3861,7 +3861,7 @@
           <profiles>
             <profile id="97d4-fbcd-a0f0-1727" name="Prayer of Grimnir&apos;s Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a MAGMADROTH and is within 3寸 of an enemy 单位 and within 12寸 of this 祭司.   Make a pile-in move with that 英雄, and then attack with all of the 肉搏 武器 that 英雄 is armed with.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 英雄 that is not mounted on a 熔岩龙蜥 and is within 3寸 of an enemy 单位 and within 12寸 of this 祭司.   Make a pile-in move with that 英雄, and then attack with all of the 肉搏 武器 that 英雄 is armed with.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3873,7 +3873,7 @@
           <profiles>
             <profile id="4d8e-f5fd-1603-4009" name="Gilded Claws" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
               <characteristics>
-                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly MAGMADROTH wholly within 12寸 of this 祭司.  You can re-roll wound rolls for attacks made with that 单位&apos;s Claws and Horns until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">At the start of your 英雄阶段, 1 friendly model that knows this prayer can chant it.  If they do so, make a prayer roll by rolling a dice.  On a 1-2, the prayer is not answered.  On a 3+ the prayer is answered.  If this prayer is answered, pick a friendly 熔岩龙蜥 wholly within 12寸 of this 祭司.  You can re-roll wound rolls for attacks made with that 单位&apos;s Claws and Horns until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3998,7 +3998,7 @@
           <profiles>
             <profile id="2bcd-5ec4-177f-3ef0" name="Explosive Charge" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR MAGMADROTHS within 12寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">Add 1 to charge rolls for friendly LOFNIR 熔岩龙蜥S within 12寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -5,8 +5,6 @@ Warhammer 西格玛时代 2018 Edition
 
 Age of Sigmar.gst
 
-appveyor.yml
-
 Chaos - Beastmen.cat
 
 Chaos - Beasts of Chaos - Data.cat
@@ -93,7 +91,7 @@ Order - Eldritch Council.cat
 
 Order - Empire.cat
 
-Order - 炽焰屠夫 - Data.cat
+* Order - 炽焰屠夫 - Data.cat
 
 Order - High Elves.cat
 

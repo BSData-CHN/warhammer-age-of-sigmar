@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3c2-9aff-8664-1d07" name="Death - Ossiarch Bonereapers" revision="1" battleScribeVersion="2.03" authorName="TigerWraith" authorContact="TigerWraith#5618 on Discord" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="54" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b3c2-9aff-8664-1d07" name="死亡 - 殓骨骸军" revision="122" battleScribeVersion="2.03" authorName="TigerWraith" authorContact="TigerWraith#5618 on Discord" library="false" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="54" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="cb62-7d89-9fa6-76ad" name="军书: Ossiarch Bonereapers"/>
+    <publication id="cb62-7d89-9fa6-76ad" name="军书: 殓骨骸军"/>
   </publications>
   <profileTypes>
     <profileType id="cbb7-50b4-7858-c68c" name="Katakros Wounds Suffered">
@@ -38,7 +38,7 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="d3ef-4794-dca3-91fe" name="MORTIS PRAETORIANS" publicationId="cb62-7d89-9fa6-76ad" hidden="false"/>
-    <categoryEntry id="5a33-4bd9-f08b-c2f7" name="OSSIARCH BONEREAPERS" publicationId="cb62-7d89-9fa6-76ad" hidden="false"/>
+    <categoryEntry id="5a33-4bd9-f08b-c2f7" name="殓骨骸军" publicationId="cb62-7d89-9fa6-76ad" hidden="false"/>
     <categoryEntry id="54d9-50cd-9ea0-10b9" name="LIEGE" publicationId="cb62-7d89-9fa6-76ad" hidden="false"/>
     <categoryEntry id="4936-b2ff-a8e9-73b1" name="HEKATOS" publicationId="cb62-7d89-9fa6-76ad" hidden="false"/>
     <categoryEntry id="6c5f-7df3-b2d1-f507" name="KATAKROS" publicationId="cb62-7d89-9fa6-76ad" hidden="false"/>
@@ -95,7 +95,7 @@
         <infoLink id="e392-69ad-1fd5-2e1a" name="Drain Vitality" hidden="false" targetId="fbd9-a008-0497-d584" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f421-02bb-f5b0-3dff" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="f421-02bb-f5b0-3dff" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="880.0"/>
@@ -114,7 +114,7 @@
         <infoLink id="8d39-5160-691b-68f4" name="Reinforce Battle-shields" hidden="false" targetId="8ecf-2c24-01f4-91a8" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bf3e-6af4-9516-2fa0" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="bf3e-6af4-9516-2fa0" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="360.0"/>
@@ -145,7 +145,7 @@
         <categoryLink id="76cc-7243-ae22-29a5" name="LIEGE" hidden="false" targetId="54d9-50cd-9ea0-10b9" primary="false"/>
         <categoryLink id="eff1-2fd6-b07b-6038" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="e6f4-2af5-cae3-930a" name="MORTIS PRAETORIANS" hidden="false" targetId="d3ef-4794-dca3-91fe" primary="false"/>
-        <categoryLink id="368f-ee45-c0fe-13fa" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="368f-ee45-c0fe-13fa" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="220.0"/>
@@ -310,7 +310,7 @@
       <profiles>
         <profile id="17f7-6751-80a4-54a4" name="Endless Duty" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly 殓骨骸军 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="8dea-2f55-258e-a64f" name="Supreme Lord of the Bonereaper Legions" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -322,7 +322,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if KATAKROS is your 主将. If you do so, until your next 英雄阶段, add 1 to hit rolls for attacks made by friendly OSSIARCH BONEREAPERS units while they are wholly within 18寸 of this model, and add 1 to save rolls for attacks that target friendly MORTIS PRAETORIAN units while they are wholly within 18寸 of this model. You can only use this command ability once per 英雄阶段.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if KATAKROS is your 主将. If you do so, until your next 英雄阶段, add 1 to hit rolls for attacks made by friendly 殓骨骸军 units while they are wholly within 18寸 of this model, and add 1 to save rolls for attacks that target friendly MORTIS PRAETORIAN units while they are wholly within 18寸 of this model. You can only use this command ability once per 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="c150-6072-443c-c965" name="Deadly Combination" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -332,7 +332,7 @@
         </profile>
         <profile id="923a-9a99-d525-1b0e" name="Mortarch of the Necropolis" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, if this model is on the battlefield you can pick up to 3 different friendly OSSIARCH BONEREAPERS units wholly within 24寸 of this model. For each of those units, you can either heal up to 3 wounds allocated to that 单位 or, if no wounds are allocated to it, you can return a number of slain models to that 单位 with a combined Wounds characteristic of 3 or less.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, if this model is on the battlefield you can pick up to 3 different friendly 殓骨骸军 units wholly within 24寸 of this model. For each of those units, you can either heal up to 3 wounds allocated to that 单位 or, if no wounds are allocated to it, you can return a number of slain models to that 单位 with a combined Wounds characteristic of 3 or less.</characteristic>
           </characteristics>
         </profile>
         <profile id="5ce1-4d87-7388-bdb4" name="Nadirite 武器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -347,12 +347,12 @@
         </profile>
         <profile id="db33-a913-d4c3-8927" name="Gnosis Scrollbearer" hidden="false" typeId="8a9d-4a10-7f23-258c" typeName="Companion Abilities">
           <characteristics>
-            <characteristic name="Companion Abilities 细节" typeId="4d2b-4e4a-9c90-82b0">At the start of your 英雄阶段, you can pick 1 enemy 单位 that is on the battlefield. Until your next 英雄阶段, subtract 1 from hit rolls for attacks made by that 单位 that target friendly OSSIARCH BONEREAPERS units.</characteristic>
+            <characteristic name="Companion Abilities 细节" typeId="4d2b-4e4a-9c90-82b0">At the start of your 英雄阶段, you can pick 1 enemy 单位 that is on the battlefield. Until your next 英雄阶段, subtract 1 from hit rolls for attacks made by that 单位 that target friendly 殓骨骸军 units.</characteristic>
           </characteristics>
         </profile>
         <profile id="990a-6654-3324-3c75" name="Prime Necrophoros" hidden="false" typeId="8a9d-4a10-7f23-258c" typeName="Companion Abilities">
           <characteristics>
-            <characteristic name="Companion Abilities 细节" typeId="4d2b-4e4a-9c90-82b0">When you use this model’s Supreme Lord of the Bonereaper Legions command ability, it affects friendly OSSIARCH BONEREAPERS units while they are wholly within 36寸 of this model instead of wholly within 18寸 of this model.</characteristic>
+            <characteristic name="Companion Abilities 细节" typeId="4d2b-4e4a-9c90-82b0">When you use this model’s Supreme Lord of the Bonereaper Legions command ability, it affects friendly 殓骨骸军 units while they are wholly within 36寸 of this model instead of wholly within 18寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="f793-e048-b3e8-ffd8" name="00-01" hidden="false" typeId="cbb7-50b4-7858-c68c" typeName="Katakros Wounds Suffered">
@@ -404,7 +404,7 @@
         <categoryLink id="0033-6f53-2a67-375f" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="8048-e07f-c61e-bd38" name="LIEGE" hidden="false" targetId="54d9-50cd-9ea0-10b9" primary="false"/>
         <categoryLink id="8c49-4331-f048-b80e" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="69ab-1e75-b31d-02ac" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="69ab-1e75-b31d-02ac" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="d52b-f977-90be-f8ac" name="MORTIS PRAETORIANS" hidden="false" targetId="d3ef-4794-dca3-91fe" primary="false"/>
         <categoryLink id="e448-03bd-2671-c884" name="KATAKROS" hidden="false" targetId="6c5f-7df3-b2d1-f507" primary="false"/>
         <categoryLink id="b578-fc0f-6618-16e3" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -554,26 +554,26 @@
       <profiles>
         <profile id="18d0-b9ce-e638-2219" name="Relentless Discipline" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You cannot use command points. Instead, you use relentless discipline points. At the start of each battle round, before determining who has the first turn, you receive 1 relentless discipline point for each friendly OSSIARCH BONEREAPERS 英雄 that is on the battlefield. You receive 1 additional relentless discipline point for each warscroll 阵型 in your army and each friendly LIEGE that is on the battlefield, and 3 additional relentless discipline points if KATAKROS is your 主将 and is on the battlefield. Then, roll a dice for each friendly OSSIARCH BONEREAPERS 单位 on the battlefield (including the HEROES above). For each 6, you receive 1 additional relentless discipline point.
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You cannot use command points. Instead, you use relentless discipline points. At the start of each battle round, before determining who has the first turn, you receive 1 relentless discipline point for each friendly 殓骨骸军 英雄 that is on the battlefield. You receive 1 additional relentless discipline point for each warscroll 阵型 in your army and each friendly LIEGE that is on the battlefield, and 3 additional relentless discipline points if KATAKROS is your 主将 and is on the battlefield. Then, roll a dice for each friendly 殓骨骸军 单位 on the battlefield (including the HEROES above). For each 6, you receive 1 additional relentless discipline point.
 
-Relentless discipline points are used in the same manner as command points, but can only be used for 指挥能力 that appear on a warscroll that has the OSSIARCH BONEREAPERS keyword, for Ossiarch Bonereaper Legion 指挥能力 and for the Unstoppable Advance command ability.</characteristic>
+Relentless discipline points are used in the same manner as command points, but can only be used for 指挥能力 that appear on a warscroll that has the 殓骨骸军 keyword, for Ossiarch Bonereaper Legion 指挥能力 and for the Unstoppable Advance command ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="9aa5-31fe-9014-ac47" name="Deathless Warriors" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 单位 that has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly OSSIARCH BONEREAPERS 英雄. On a 6, that wound or mortal wound is negated.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice each time you allocate a wound or mortal wound to a friendly 单位 that has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly 殓骨骸军 英雄. On a 6, that wound or mortal wound is negated.</characteristic>
           </characteristics>
         </profile>
         <profile id="c95b-122f-a912-40e6" name="Ranks Unbroken by Dissent" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Do not take battleshock tests for friendly OSSIARCH BONEREAPERS units.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Do not take battleshock tests for friendly 殓骨骸军 units.</characteristic>
           </characteristics>
         </profile>
         <profile id="e82a-1f03-63ab-46be" name="Unstoppable Advance" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can use this command ability in your movement phase. If you do so, pick 1 friendly 单位 that has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly OSSIARCH BONEREAPERS 英雄. Add 3寸 to that 单位’s Move characteristic in that phase (it can still run, or charge if it does not run). You cannot pick the same 单位 to benefit from this command ability more than once per phase.
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">You can use this command ability in your movement phase. If you do so, pick 1 friendly 单位 that has the HEKATOS keyword, or is wholly within 6寸 of a friendly Mortek Hekatos, or is wholly within 12寸 of a friendly 殓骨骸军 英雄. Add 3寸 to that 单位’s Move characteristic in that phase (it can still run, or charge if it does not run). You cannot pick the same 单位 to benefit from this command ability more than once per phase.
 
-Designer’s Note: Many Ossiarch Bonereapers 指挥能力 do not require a 英雄 to be nearby in order for you to use it. These 指挥能力 represent orders issued by the 领袖 of the 单位. In addition, some abilities allow you to return slain models to a 单位. When you do so, set up the models one at a time within 1寸 of a model from the 单位 they are returning to (this can be a model returned earlier in the phase). Returning models can only be set up within 3寸 of an enemy 单位 if any models from the 单位 they are returning to are already within 3寸 of that enemy 单位</characteristic>
+Designer’s Note: Many 殓骨骸军 指挥能力 do not require a 英雄 to be nearby in order for you to use it. These 指挥能力 represent orders issued by the 领袖 of the 单位. In addition, some abilities allow you to return slain models to a 单位. When you do so, set up the models one at a time within 1寸 of a model from the 单位 they are returning to (this can be a model returned earlier in the phase). Returning models can only be set up within 3寸 of an enemy 单位 if any models from the 单位 they are returning to are already within 3寸 of that enemy 单位</characteristic>
           </characteristics>
         </profile>
         <profile id="656e-2744-c905-65c3" name="Bone-Tithe Nexus" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -770,7 +770,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="4805-1b3e-4a6f-62a4" name="Endless Duty" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly 殓骨骸军 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
           </characteristics>
         </profile>
         <profile id="0a93-7de8-af2c-42e3" name="Still Their Breath!" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
@@ -879,7 +879,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="498e-80ef-9ead-3fe2" name="Endless Duty" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly OSSIARCH BONEREAPERS 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 射击阶段 or any combat phase. If you do so, pick 1 friendly 殓骨骸军 单位 that is wholly within 12寸 of a model with this command ability. Add 1 to the Attacks characteristic of 武器 used by that 单位 in that phase. You cannot pick the same 单位 to benefit from this command ability more than once per phase</characteristic>
           </characteristics>
         </profile>
         <profile id="d754-1fab-c219-578a" name="Liege-Kavalos" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
@@ -896,7 +896,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <categoryLink id="1280-2377-2779-6f85" name="LIEGE" hidden="false" targetId="54d9-50cd-9ea0-10b9" primary="false"/>
         <categoryLink id="5d95-608e-d5b8-ebe0" name="LIEGE-KAVALOS" hidden="false" targetId="af6c-470c-e226-ec72" primary="false"/>
         <categoryLink id="ae5c-6ad2-fd3b-f4b5" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
-        <categoryLink id="9b4e-f2ba-8ed0-cb35" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="9b4e-f2ba-8ed0-cb35" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="52cc-a992-dd79-1161" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -1003,7 +1003,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       <profiles>
         <profile id="30e3-2cf4-13d5-31ff" name="Boneshaper" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly OSSIARCH BONEREAPERS 单位 within 6寸 of this model. You can either heal up to 3 wounds that have been allocated to that 单位 or, if no wounds have been allocated to the 单位, you can return a number of slain models to it that have a combined Wounds characteristic of 3 or less.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In your 英雄阶段, you can pick 1 friendly 殓骨骸军 单位 within 6寸 of this model. You can either heal up to 3 wounds that have been allocated to that 单位 or, if no wounds have been allocated to the 单位, you can return a number of slain models to it that have a combined Wounds characteristic of 3 or less.</characteristic>
           </characteristics>
         </profile>
         <profile id="0bfd-e239-3613-1a14" name="Shard-storm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -1035,7 +1035,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <categoryLink id="f714-c68b-b3ea-ff77" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="40cc-7c95-7fa1-aaee" name="MORTISAN" hidden="false" targetId="c0a2-7436-d3b1-fbc4" primary="false"/>
         <categoryLink id="a0f7-86c1-334e-2e46" name="MORTISAN BONESHAPER" hidden="false" targetId="f276-f622-355d-065d" primary="false"/>
-        <categoryLink id="161a-fcaa-e98b-c09c" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="161a-fcaa-e98b-c09c" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="600b-752b-5d90-c899" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="d9cc-de38-855c-2d73" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
       </categoryLinks>
@@ -1114,7 +1114,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <categoryLink id="fa07-21a4-90cb-94fc" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="6450-0e27-05a6-3ec7" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="f5d5-c8f1-53a3-296d" name="MORTISAN" hidden="false" targetId="c0a2-7436-d3b1-fbc4" primary="false"/>
-        <categoryLink id="cfdc-f8ac-c7a0-47f7" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="cfdc-f8ac-c7a0-47f7" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="b073-41b4-bdc5-608d" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="32a6-9d55-0b5a-698c" name="MORTISAN SOULREAPER" hidden="false" targetId="a8de-a1bc-675c-cdc1" primary="false"/>
         <categoryLink id="3940-168b-cad8-5144" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -1164,7 +1164,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <profile id="bce3-7457-dd26-6bba" name="Soul-guide" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 wholly within 24寸 of the caster that is visible to them. 可以重投命中骰的1 for attacks made by that 单位 until your next 英雄阶段.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 殓骨骸军 单位 wholly within 24寸 of the caster that is visible to them. 可以重投命中骰的1 for attacks made by that 单位 until your next 英雄阶段.</characteristic>
           </characteristics>
         </profile>
         <profile id="f4e4-0326-50c4-aec3" name="Mortisan Soulmason" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
@@ -1189,7 +1189,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <categoryLink id="b126-fae6-5e27-7a56" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="f867-f772-3606-8bce" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="65a3-1f62-9fec-d9f9" name="MORTISAN" hidden="false" targetId="c0a2-7436-d3b1-fbc4" primary="false"/>
-        <categoryLink id="105f-d8ea-dcdd-1d41" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="105f-d8ea-dcdd-1d41" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="59b9-c9c9-3c59-e18b" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="40bd-5f0c-b4ac-d414" name="MORTISAN SOULMASON" hidden="false" targetId="d94b-1040-b14c-beec" primary="false"/>
         <categoryLink id="8e55-314e-6cb7-3bf0" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -1294,7 +1294,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         <categoryLink id="f5e7-b65a-58bd-a4fe" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="27eb-117f-3de6-1eae" name="英雄" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false"/>
         <categoryLink id="cc8d-093d-487a-21a9" name="MORTIS PRAETORIANS" hidden="false" targetId="d3ef-4794-dca3-91fe" primary="false"/>
-        <categoryLink id="3dd9-99a6-5199-78a8" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="3dd9-99a6-5199-78a8" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="8b98-3408-360a-181f" name="VOKMORTIAN" hidden="false" targetId="a1cb-8b54-abd8-80cf" primary="false"/>
         <categoryLink id="d0a3-0f86-1287-5a30" name="法师" hidden="false" targetId="4f53-8230-2f02-9639" primary="false"/>
         <categoryLink id="8ad2-a9c1-45ef-78f1" name="领袖" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true"/>
@@ -1388,7 +1388,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       <categoryLinks>
         <categoryLink id="bba8-8327-640e-dc1d" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="f9d5-437a-757c-f268" name="MORTEK GUARD" hidden="false" targetId="d2f0-0db8-fe50-04bf" primary="false"/>
-        <categoryLink id="1c8f-0704-5646-0e6a" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="1c8f-0704-5646-0e6a" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="dd4e-20a9-36d6-fb8e" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -1520,7 +1520,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       </profiles>
       <categoryLinks>
         <categoryLink id="d1af-c049-f954-5230" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
-        <categoryLink id="4b60-4144-8ad5-994a" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="4b60-4144-8ad5-994a" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="1442-475b-ef33-5977" name="KAVALOS DEATHRIDERS" hidden="false" targetId="2d2b-30b3-f190-6a59" primary="false"/>
         <categoryLink id="2c59-a2d7-96f7-3c25" name="New CategoryLink" hidden="false" targetId="e9f2-765a-b7b8-ce8e" primary="true"/>
       </categoryLinks>
@@ -1628,7 +1628,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
         </profile>
         <profile id="962f-ebf1-9691-67cc" name="Soulbound Protectors" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice before you allocate a wound or mortal wound to a friendly OSSIARCH BONEREAPERS 英雄 while it is within 3寸 of any friendly units with this ability. On a 2+, you must allocate that wound or mortal wound to a friendly 单位 with this ability that is within 3寸 of that OSSIARCH BONEREAPERS 英雄 instead of allocating it to that OSSIARCH BONEREAPERS 英雄.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice before you allocate a wound or mortal wound to a friendly 殓骨骸军 英雄 while it is within 3寸 of any friendly units with this ability. On a 2+, you must allocate that wound or mortal wound to a friendly 单位 with this ability that is within 3寸 of that 殓骨骸军 英雄 instead of allocating it to that 殓骨骸军 英雄.</characteristic>
           </characteristics>
         </profile>
         <profile id="661d-e4fe-13d2-fcea" name="Immortis Guard" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
@@ -1642,7 +1642,7 @@ Punishment of Lethargy: Pick 1 enemy 单位 wholly within 18寸 of this terrain 
       </profiles>
       <categoryLinks>
         <categoryLink id="3174-5623-cbbd-1dfc" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
-        <categoryLink id="32aa-829b-c10c-93f9" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="32aa-829b-c10c-93f9" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="c0c9-1f60-37cc-7a7f" name="HEKATOS" hidden="false" targetId="4936-b2ff-a8e9-73b1" primary="false"/>
         <categoryLink id="c5dd-1650-916f-956d" name="IMMORTIS GUARD" hidden="false" targetId="7518-c312-3584-ce14" primary="false"/>
         <categoryLink id="e658-f5fe-44ad-5b8d" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -1737,7 +1737,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
       </profiles>
       <categoryLinks>
         <categoryLink id="2b8e-d944-8361-9d02" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
-        <categoryLink id="d5c4-b2a4-05cc-e8d5" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="d5c4-b2a4-05cc-e8d5" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="b826-f76d-0cb6-9fda" name="HEKATOS" hidden="false" targetId="4936-b2ff-a8e9-73b1" primary="false"/>
         <categoryLink id="1240-e35b-ca23-bebc" name="IMMORTIS GUARD" hidden="false" targetId="7518-c312-3584-ce14" primary="false"/>
         <categoryLink id="cc49-3326-f898-44f3" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
@@ -1875,7 +1875,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
       </profiles>
       <categoryLinks>
         <categoryLink id="8d79-c150-b670-a49d" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
-        <categoryLink id="b063-f648-717d-5b0a" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="b063-f648-717d-5b0a" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="5fe8-c099-ee9e-58af" name="MORTECK CRAWLER" hidden="false" targetId="44b1-be1e-0abb-c4f1" primary="false"/>
         <categoryLink id="6ad1-98bb-f6f3-9498" name="战争机械" hidden="false" targetId="880e-1e33-b965-71ec" primary="false"/>
         <categoryLink id="9626-9dc5-39da-f24a" name="New CategoryLink" hidden="false" targetId="1d26-07fc-6a66-d73e" primary="true"/>
@@ -1979,7 +1979,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
       <profiles>
         <profile id="d944-4c5b-bfd6-83ce" name="Bone Harvest" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a model is slain within 3寸 of this model. On a 4+, you can pick 1 friendly OSSIARCH BONEREAPERS 单位 within 6寸 of this model. If you do so, and the slain model had a Wounds characteristic of 4 or less, you can heal 1 wound allocated to that 单位; if the slain model had a Wounds characteristic of 5-9, you can heal up to D3 wounds allocated to that 单位; or if the slain model had a Wounds characteristic of 10 or more, you can heal up to D6 wounds allocated to that 单位. If there are no wounds allocated to the 单位 you pick, you can return a number of slain models to that 单位 with a combined Wounds characteristic that is equal to or less than the number of wounds you could have healed.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time a model is slain within 3寸 of this model. On a 4+, you can pick 1 friendly 殓骨骸军 单位 within 6寸 of this model. If you do so, and the slain model had a Wounds characteristic of 4 or less, you can heal 1 wound allocated to that 单位; if the slain model had a Wounds characteristic of 5-9, you can heal up to D3 wounds allocated to that 单位; or if the slain model had a Wounds characteristic of 10 or more, you can heal up to D6 wounds allocated to that 单位. If there are no wounds allocated to the 单位 you pick, you can return a number of slain models to that 单位 with a combined Wounds characteristic that is equal to or less than the number of wounds you could have healed.</characteristic>
           </characteristics>
         </profile>
         <profile id="1c51-9f61-af17-2ea4" name="Soulcrusher Bludgeons" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2038,7 +2038,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
       </profiles>
       <categoryLinks>
         <categoryLink id="6e29-ef75-019d-f449" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
-        <categoryLink id="0b59-a2e3-ff10-11f6" name="OSSIARCH BONEREAPERS" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
+        <categoryLink id="0b59-a2e3-ff10-11f6" name="殓骨骸军" hidden="false" targetId="5a33-4bd9-f08b-c2f7" primary="false"/>
         <categoryLink id="a0f4-0534-bcbb-20a2" name="怪兽" hidden="false" targetId="1959-9f6a-3056-913a" primary="false"/>
         <categoryLink id="70f0-46c4-b6bb-e78e" name="GOTHIZZAR HARVESTER" hidden="false" targetId="bf60-30f0-48ac-aa79" primary="false"/>
         <categoryLink id="e79e-78ed-a3b5-cab4" name="New CategoryLink" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
@@ -2147,7 +2147,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <profile id="d0a8-96fe-d705-7f12" name="Summon Nightmare Predator" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only OSSIARCH BONEREAPERS WIZARDS can attempt to cast this 法术. If successfully cast, set up a Nightmare Predator model wholly within 6寸 of the caster and visible to them.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 殓骨骸军 WIZARDS can attempt to cast this 法术. If successfully cast, set up a Nightmare Predator model wholly within 6寸 of the caster and visible to them.</characteristic>
           </characteristics>
         </profile>
         <profile id="08a0-7679-99c5-240d" name="Perpetual Hunter" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2157,7 +2157,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         </profile>
         <profile id="ff2c-6154-1864-9434" name="Death Incarnate" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model moves, roll a dice for each 单位 within 3寸 of it. On a 2+, that 单位 suffers D3 mortal wounds. If that 单位 was this model’s prey, on a 2+ it suffers D6 mortal wounds instead of D3 mortal wounds. OSSIARCH BONEREAPERS units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model moves, roll a dice for each 单位 within 3寸 of it. On a 2+, that 单位 suffers D3 mortal wounds. If that 单位 was this model’s prey, on a 2+ it suffers D6 mortal wounds instead of D3 mortal wounds. 殓骨骸军 units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="612e-e758-b80e-3c7a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2186,7 +2186,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <profile id="632f-776f-5996-4edf" name="Summon Soulstealer Carrion" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only OSSIARCH BONEREAPERS WIZARDS can attempt to cast this 法术. If successfully cast, set up a Soulstealer Carrion model anywhere on the battlefield that is visible to the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 殓骨骸军 WIZARDS can attempt to cast this 法术. If successfully cast, set up a Soulstealer Carrion model anywhere on the battlefield that is visible to the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="6826-0d4c-9223-8c8c" name="Second Sight" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -2225,17 +2225,17 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
         <profile id="a104-fb84-cd1a-db8a" name="Summon Bone-tithe Shrieker" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only OSSIARCH BONEREAPERS WIZARDS can attempt to cast this 法术. If successfully cast, set up a Bone-tithe Shrieker model wholly within 12寸 of the caster and visible to them.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 殓骨骸军 WIZARDS can attempt to cast this 法术. If successfully cast, set up a Bone-tithe Shrieker model wholly within 12寸 of the caster and visible to them.</characteristic>
           </characteristics>
         </profile>
         <profile id="f8f5-ff38-12f8-18f7" name="Portent of Doom" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery of units while they are within 12寸 of this model. OSSIARCH BONEREAPERS units are not affected by this ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery of units while they are within 12寸 of this model. 殓骨骸军 units are not affected by this ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e0d-7a0c-a703-dc61" name="No Escape" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by OSSIARCH BONEREAPERS units that target a 单位 that is within 12寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to hit rolls for attacks made by 殓骨骸军 units that target a 单位 that is within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="a01d-23d9-b647-81dc" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -3021,7 +3021,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="2c1e-c959-2a14-12d3" name="Helm of the Ordained" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly OSSIARCH BONEREAPERS units and their mounts while they are wholly within 12寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to hit rolls for attacks made by friendly 殓骨骸军 units and their mounts while they are wholly within 12寸 of the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3073,7 +3073,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
           <profiles>
             <profile id="baac-9835-4a47-02d8" name="Lode of Saturation" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, pick 1 friendly OSSIARCH BONEREAPERS 单位 其他 than the bearer that is within 1寸 of them. Until your next 英雄阶段, the Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to that 单位 on a roll of a 5+ instead of 6.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of your 英雄阶段, pick 1 friendly 殓骨骸军 单位 其他 than the bearer that is within 1寸 of them. Until your next 英雄阶段, the Deathless Warriors 战斗特性 negates a wound or mortal wound allocated to that 单位 on a roll of a 5+ instead of 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3205,7 +3205,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <profile id="141a-22f4-0b40-3cbf" name="Empower Nadirite 武器" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 殓骨骸军 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3231,7 +3231,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <profile id="bd76-6381-1a89-95c5" name="Reinforce Battle-shields" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 armed with Shields or Nadirite Battle-shields that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, roll a dice each time you allocate a mortal wound to that 单位. On a 5+, that mortal wound is negated.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 殓骨骸军 单位 armed with Shields or Nadirite Battle-shields that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, roll a dice each time you allocate a mortal wound to that 单位. On a 5+, that mortal wound is negated.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3257,7 +3257,7 @@ Precision Aspect: Improve the Rend and Damage characteristics of this 单位’s
             <profile id="cdc5-f461-9aae-e99c" name="Mortal Contract" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them. For the rest of the battle, roll a dice at the end of each phase during which any attacks made by that 单位 inflicted any damage on a friendly OSSIARCH BONEREAPERS 单位. On a 3+, that enemy 单位 suffers D3 mortal wounds. You cannot pick the same 单位 to be the target of this 法术 more than once per battle.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them. For the rest of the battle, roll a dice at the end of each phase during which any attacks made by that 单位 inflicted any damage on a friendly 殓骨骸军 单位. On a 3+, that enemy 单位 suffers D3 mortal wounds. You cannot pick the same 单位 to be the target of this 法术 more than once per battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3792,7 +3792,7 @@ You must subtract 1 from casting rolls for a 法师 that is soul-linked to an �
     <profile id="5836-86f3-e447-30d0" name="Empower Nadirite 武器" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 殓骨骸军 单位 with the Nadirite 武器 ability that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, that 单位’s Nadirite 武器 ability causes 2 hits to be scored on an unmodified hit roll of 5+ instead of 6, or 4+ instead of 6 for a charging KAVALOS DEATHRIDERS 单位 attacking with Nadirite Spears.</characteristic>
       </characteristics>
     </profile>
     <profile id="957f-d96d-fa7d-29ce" name="Protection of 纳加什" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -3804,7 +3804,7 @@ You must subtract 1 from casting rolls for a 法师 that is soul-linked to an �
     <profile id="8ecf-2c24-01f4-91a8" name="Reinforce Battle-shields" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly OSSIARCH BONEREAPERS 单位 armed with Shields or Nadirite Battle-shields that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, roll a dice each time you allocate a mortal wound to that 单位. On a 5+, that mortal wound is negated.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick 1 friendly 殓骨骸军 单位 armed with Shields or Nadirite Battle-shields that is wholly within 24寸 of the caster and visible to them. Until the start of your next 英雄阶段, roll a dice each time you allocate a mortal wound to that 单位. On a 5+, that mortal wound is negated.</characteristic>
       </characteristics>
     </profile>
     <profile id="fbd9-a008-0497-d584" name="Drain Vitality" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
@@ -3816,7 +3816,7 @@ You must subtract 1 from casting rolls for a 法师 that is soul-linked to an �
     <profile id="3ff6-a32d-e21e-db9b" name="Mortal Contract" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
       <characteristics>
         <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">f successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them. For the rest of the battle, roll a dice at the end of each phase during which any attacks made by that 单位 inflicted any damage on a friendly OSSIARCH BONEREAPERS 单位. On a 3+, that enemy 单位 suffers D3 mortal wounds. You cannot pick the same 单位 to be affected by this 法术 more than once per 英雄阶段.</characteristic>
+        <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">f successfully cast, pick 1 enemy 单位 within 18寸 of the caster that is visible to them. For the rest of the battle, roll a dice at the end of each phase during which any attacks made by that 单位 inflicted any damage on a friendly 殓骨骸军 单位. On a 3+, that enemy 单位 suffers D3 mortal wounds. You cannot pick the same 单位 to be affected by this 法术 more than once per 英雄阶段.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

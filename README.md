@@ -43,7 +43,7 @@ Death - Legions of Nagash and 午夜凶灵 Data.cat
 
 Death - 午夜凶灵.cat
 
-Death - Ossiarch Bonereapers.cat
+Death - 殓骨骸军.cat
 
 Death - Tomb Kings.cat
 

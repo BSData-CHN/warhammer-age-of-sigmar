@@ -4458,13 +4458,13 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="825c-e98c-986d-7985" name="Realm of Battle" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="825c-e98c-986d-7985" name="位面之战" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf45-ef51-0f55-7f28" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3277-c810-a600-3a73" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ba2b-ec63-fa08-88ef" name="Battle: 阿奎夏" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ba2b-ec63-fa08-88ef" name="战场: 阿奎夏" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="dbea-58cc-3513-1868" name="Stoke Rage" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4507,7 +4507,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ed53-d347-e94c-2431" name="Battle: 查蒙" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ed53-d347-e94c-2431" name="战场: 查蒙" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="2c42-d061-a087-9527" name="Rain of Lead" publicationId="e51d-b1a3-pubEHOGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4550,7 +4550,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="afb2-6845-cd03-2596" name="Battle: 辜尔" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="afb2-6845-cd03-2596" name="战场: 辜尔" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="4980-8f82-01df-d8c1" name="The Amber Spear" publicationId="e51d-b1a3-pubEHOGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4593,7 +4593,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="286a-bfe7-f725-ca75" name="Battle: 纪伦" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="286a-bfe7-f725-ca75" name="战场: 纪伦" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="bf34-4284-e813-d06a" name="Whipvines" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4636,7 +4636,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="632b-73ed-9385-2491" name="Battle: 海希" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="632b-73ed-9385-2491" name="战场: 海希" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="6a62-fd42-aa4d-5e6a" name="Exorcising Beam" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4679,7 +4679,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="098f-0986-2570-bece" name="Battle: 煞伊许" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="098f-0986-2570-bece" name="战场: 煞伊许" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="6e51-da62-4ca8-04ad" name="Word of Ending" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4722,7 +4722,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3923-b6b9-c500-1062" name="Battle: 乌尔枯" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3923-b6b9-c500-1062" name="战场: 乌尔枯" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="7b58-9346-d870-903a" name="Labyrinth of Sorrows" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4765,7 +4765,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e236-f0fc-8bb0-ecb4" name="Battle: The Eightpoints" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e236-f0fc-8bb0-ecb4" name="战场: The Eightpoints" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="3c29-7e19-781b-def8" name="Forced by the Aether" page="" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
               <characteristics>

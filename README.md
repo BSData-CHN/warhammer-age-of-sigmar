@@ -35,7 +35,7 @@ Chaos - Warriors of Chaos.cat
 
 Chaos Data.cat
 
-Death - 食肉王廷.cat
+* Death - 食肉王廷.cat
 
 Death - Legions of Nagash.cat
 

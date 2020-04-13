@@ -72,7 +72,7 @@
     <categoryEntry id="3b72-9044-75bf-c8f0" name="WITCH HUNTER" hidden="false"/>
     <categoryEntry id="2065-9c25-54d0-793e" name="WAR ALTAR OF SIGMAR" hidden="false"/>
     <categoryEntry id="d2e0-123f-1dd2-7992" name="COLLEGIATE ARCANE" hidden="false"/>
-    <categoryEntry id="0cda-4c8e-b048-9cfe" name="LUMINARK OF HYSH" hidden="false"/>
+    <categoryEntry id="0cda-4c8e-b048-9cfe" name="LUMINARK OF 海希" hidden="false"/>
     <categoryEntry id="18e1-27b1-33f8-2955" name="BATTLEMAGE" hidden="false"/>
     <categoryEntry id="ae44-d523-ca44-b38b" name="CELESTIAL HURRICANUM" hidden="false"/>
     <categoryEntry id="7108-4397-8dc8-52bc" name="CARMINE DRAGON" hidden="false"/>
@@ -101,7 +101,7 @@
         <categoryLink id="ba25-7cb9-2478-28aa-fa0c-9044-2568-fa02" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4d56-a3f6-6e1b-6035" name="Luminark of Hysh" hidden="false" collective="false" import="true" targetId="ec08-7605-f909-609e" type="selectionEntry">
+    <entryLink id="4d56-a3f6-6e1b-6035" name="Luminark of 海希" hidden="false" collective="false" import="true" targetId="ec08-7605-f909-609e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4d56-a3f6-6e1b-6035-fa0c-9044-2568-fa02" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
       </categoryLinks>
@@ -204,13 +204,13 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="10f1-4159-62ca-ba18" name="1 Luminark of Hysh" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="10f1-4159-62ca-ba18" name="1 Luminark of 海希" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f8-0915-c3aa-c2b3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d302-5dd1-b4b0-68b3" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d8e0-52fb-f4f9-895c" name="Luminark of Hysh" hidden="false" collective="false" import="true" targetId="ec08-7605-f909-609e" type="selectionEntry">
+            <entryLink id="d8e0-52fb-f4f9-895c" name="Luminark of 海希" hidden="false" collective="false" import="true" targetId="ec08-7605-f909-609e" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="6c4b-b68c-4040-1d1c" hidden="false" targetId="fa0c-9044-2568-fa02" primary="true"/>
               </categoryLinks>
@@ -797,7 +797,7 @@
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec08-7605-f909-609e" name="Luminark of Hysh" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ec08-7605-f909-609e" name="Luminark of 海希" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="with White Battlemage [领袖]">
           <conditions>
@@ -806,7 +806,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="955e-9c80-b598-0614" name="Luminark of Hysh" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="955e-9c80-b598-0614" name="Luminark of 海希" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">11</characteristic>
@@ -819,9 +819,9 @@
             <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can roll a dice each time an ORDER model from your army suffers a wound or mortal wound whilst within range of a Luminark&apos;s Aura of Protection ability; on a 6 that attack is deflected by the aura and that wound is ignored.  The range of this ability is shown in the 损伤表.</characteristic>
           </characteristics>
         </profile>
-        <profile id="943c-d043-d68b-3180" name="Locus of Hysh" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="943c-d043-d68b-3180" name="Locus of 海希" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the unbinding rolls for COLLEGIATE ARCANE WIZARDS from your army within 10寸 of any Luminarks of Hysh.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to the unbinding rolls for COLLEGIATE ARCANE WIZARDS from your army within 10寸 of any Luminarks of 海希.</characteristic>
           </characteristics>
         </profile>
         <profile id="2a2f-1084-dd12-90cb" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">

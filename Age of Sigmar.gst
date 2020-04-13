@@ -170,9 +170,9 @@
     <categoryEntry id="6ec4-4931-4d7f-006b" name="IDONETH DEEPKIN" hidden="false"/>
     <categoryEntry id="be2f-aa63-6d82-e2fc" name="阵营: 恐虐" hidden="false"/>
     <categoryEntry id="1974-3f49-7f0b-8422" name="游戏选项" hidden="false"/>
-    <categoryEntry id="fd9f-428a-177d-c765" name="Vanguard" hidden="false"/>
-    <categoryEntry id="6330-7561-7a32-0851" name="Battlehost" hidden="false"/>
-    <categoryEntry id="1e63-0b49-ac04-321f" name="Warhost" hidden="false"/>
+    <categoryEntry id="fd9f-428a-177d-c765" name="先锋" hidden="false"/>
+    <categoryEntry id="6330-7561-7a32-0851" name="战团" hidden="false"/>
+    <categoryEntry id="1e63-0b49-ac04-321f" name="军团" hidden="false"/>
     <categoryEntry id="5c6d-5384-bcb1-b474" name="Realm of Origin" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8466-6600-12e7-0833" type="max"/>
@@ -181,28 +181,28 @@
     <categoryEntry id="31f4-2067-3ade-e6f8" name="无尽法术" hidden="false"/>
     <categoryEntry id="eecb-ed66-d474-9ddd" name="Malign Sorcery" hidden="false"/>
     <categoryEntry id="8be8-3ccd-be93-b55e" name="指挥点数" hidden="false"/>
-    <categoryEntry id="5647-b7a8-9716-1d17" name="AETHERVOID PENDULUM" hidden="false"/>
-    <categoryEntry id="0ac5-cc94-b7fe-7160" name="BALEWIND VORTEX" hidden="false"/>
+    <categoryEntry id="5647-b7a8-9716-1d17" name="以太虚空摆斧" hidden="false"/>
+    <categoryEntry id="0ac5-cc94-b7fe-7160" name="邪风旋涡" hidden="false"/>
     <categoryEntry id="bed0-e4a0-f704-1eab" name="AZYR" hidden="false"/>
-    <categoryEntry id="1619-fea5-de7e-8a67" name="CHRONOMANTIC COGS" hidden="false"/>
-    <categoryEntry id="0b26-9340-45cf-07ee" name="GHYRAN" hidden="false"/>
-    <categoryEntry id="14d2-605b-536f-dd47" name="EMERALD LIFESWORM" hidden="false"/>
-    <categoryEntry id="722d-a8ac-da30-e6be" name="GEMINIDS OF UHL-GYSH" hidden="false"/>
-    <categoryEntry id="2b18-8032-739f-7929" name="HYSH" hidden="false"/>
-    <categoryEntry id="3f66-cb68-8afb-ce99" name="ULGU" hidden="false"/>
-    <categoryEntry id="2cc9-0867-b2e3-da55" name="SHYISH" hidden="false"/>
-    <categoryEntry id="aeb3-e51f-7f02-619e" name="MALEVOLENT MAELSTROM" hidden="false"/>
-    <categoryEntry id="316f-32e5-0c7c-72af" name="PRISMATIC PALISADE" hidden="false"/>
-    <categoryEntry id="7eb6-e91d-bf00-1c84" name="PURPLE SUN OF SHYISH" hidden="false"/>
-    <categoryEntry id="65dc-260f-90f3-8a5a" name="QUICKSILVER SWORDS" hidden="false"/>
-    <categoryEntry id="97c8-2ca9-2b12-327f" name="CHAMON" hidden="false"/>
-    <categoryEntry id="c33b-1c2d-83d9-53df" name="GHUR" hidden="false"/>
-    <categoryEntry id="8b8e-c0b7-d668-19f2" name="RAVENAK&apos;S GNASHING JAWS" hidden="false"/>
-    <categoryEntry id="4949-2041-939a-baa6" name="SOULSNARE SHACKLES" hidden="false"/>
-    <categoryEntry id="8e84-834f-0c7d-0d45" name="SUFFOCATING GRAVETIDE" hidden="false"/>
-    <categoryEntry id="f760-2ebe-1af7-ff48" name="AQSHY" hidden="false"/>
-    <categoryEntry id="3115-9f9c-85db-1d63" name="THE BURNING HEAD" hidden="false"/>
-    <categoryEntry id="82b0-19da-b868-9f6c" name="UMBRAL SPELLPORTAL" hidden="false"/>
+    <categoryEntry id="1619-fea5-de7e-8a67" name="时运齿轮" hidden="false"/>
+    <categoryEntry id="0b26-9340-45cf-07ee" name="纪伦" hidden="false"/>
+    <categoryEntry id="14d2-605b-536f-dd47" name="翠绿虫群" hidden="false"/>
+    <categoryEntry id="722d-a8ac-da30-e6be" name="光暗双星" hidden="false"/>
+    <categoryEntry id="2b18-8032-739f-7929" name="海希" hidden="false"/>
+    <categoryEntry id="3f66-cb68-8afb-ce99" name="乌尔枯" hidden="false"/>
+    <categoryEntry id="2cc9-0867-b2e3-da55" name="煞伊许" hidden="false"/>
+    <categoryEntry id="aeb3-e51f-7f02-619e" name="恶毒旋涡" hidden="false"/>
+    <categoryEntry id="316f-32e5-0c7c-72af" name="光棱障壁" hidden="false"/>
+    <categoryEntry id="7eb6-e91d-bf00-1c84" name="煞伊许紫阳" hidden="false"/>
+    <categoryEntry id="65dc-260f-90f3-8a5a" name="水银剑阵" hidden="false"/>
+    <categoryEntry id="97c8-2ca9-2b12-327f" name="查蒙" hidden="false"/>
+    <categoryEntry id="c33b-1c2d-83d9-53df" name="辜尔" hidden="false"/>
+    <categoryEntry id="8b8e-c0b7-d668-19f2" name="瑞文纳克大嘴" hidden="false"/>
+    <categoryEntry id="4949-2041-939a-baa6" name="摄魂镣铐" hidden="false"/>
+    <categoryEntry id="8e84-834f-0c7d-0d45" name="窒息墓潮" hidden="false"/>
+    <categoryEntry id="f760-2ebe-1af7-ff48" name="阿奎夏" hidden="false"/>
+    <categoryEntry id="3115-9f9c-85db-1d63" name="燃烧之颅" hidden="false"/>
+    <categoryEntry id="82b0-19da-b868-9f6c" name="本影法术之门" hidden="false"/>
     <categoryEntry id="5e28-c4f1-4a92-b75c" name="Realm of Battle" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aeab-ce73-e115-d5bd" type="max"/>
@@ -211,10 +211,10 @@
     <categoryEntry id="2c4b-6186-2939-7f2b" name="BEASTS OF 混沌" hidden="false"/>
     <categoryEntry id="088b-3a27-03f7-8249" name="Named" hidden="false"/>
     <categoryEntry id="2ff5-b7a1-655a-1655" name="大魔" hidden="false"/>
-    <categoryEntry id="1d34-b962-7c7b-f287" name="SOULSCREAM BRIDGE" hidden="false"/>
-    <categoryEntry id="cff6-06c5-3294-b74b" name="SHARDS OF VALAGHARR" hidden="false"/>
-    <categoryEntry id="3b54-23ed-a577-ea1f" name="LAUCHON THE SOULSEEKER" hidden="false"/>
-    <categoryEntry id="9945-bd78-56ea-5cde" name="HORRORGHAST" hidden="false"/>
+    <categoryEntry id="1d34-b962-7c7b-f287" name="魂啸之桥" hidden="false"/>
+    <categoryEntry id="cff6-06c5-3294-b74b" name="瓦拉哈尔碎片" hidden="false"/>
+    <categoryEntry id="3b54-23ed-a577-ea1f" name="寻魂者洛坎" hidden="false"/>
+    <categoryEntry id="9945-bd78-56ea-5cde" name="恐怖鬼灵" hidden="false"/>
     <categoryEntry id="c34d-acb9-a4d9-74be" name="沃斯塔格" hidden="false"/>
     <categoryEntry id="f60b-d58c-bfee-5aa7" name="GREYFYRD" hidden="false"/>
     <categoryEntry id="3559-43bd-385b-59a0" name="HERMDAR" hidden="false"/>
@@ -690,7 +690,7 @@
         <categoryLink id="a552-c469-ecd4-90f5" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b859-8f0e-848c-c403" name="Purple Sun of Shyish" hidden="false" collective="false" import="true" targetId="6e7b-ce3f-9348-58e1" type="selectionEntry">
+    <entryLink id="b859-8f0e-848c-c403" name="Purple Sun of 煞伊许" hidden="false" collective="false" import="true" targetId="6e7b-ce3f-9348-58e1" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="dc0e-94d3-e4cc-cf13" name="New CategoryLink" hidden="false" targetId="eecb-ed66-d474-9ddd" primary="true"/>
       </categoryLinks>
@@ -795,7 +795,7 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="268a-c131-4914-7087" name="Realm of Origin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="268a-c131-4914-7087" name="位面之源" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8609-fea1-53ce-d735" type="max"/>
       </constraints>
@@ -829,35 +829,35 @@
         <cost name="分" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98c8-838b-2c8a-a9f7" name="无尽法术: Aethervoid Pendulum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98c8-838b-2c8a-a9f7" name="无尽法术: 以太虚空摆斧" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a657-de49-e2b9-d312" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b2ad-28b6-8c19-2bd7" name="Summon Aethervoid Pendulum" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="b2ad-28b6-8c19-2bd7" name="召唤以太虚空摆斧" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Aethervoid Pendulum model wholly within 6寸 of the caster so that it points lengthways in the direction you wish it to move.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者6 寸内，且指向要移动的方向。</characteristic>
           </characteristics>
         </profile>
-        <profile id="21f3-0955-0b5b-632a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="21f3-0955-0b5b-632a" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Aethervoid Pendulum is a predatory 无尽法术. It can move up to 8寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">以太虚空摆斧是一个掠食性无尽法术，它可以移动最多8 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="a0f5-049e-5f6b-92f7" name="Slicing Into Reality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="a0f5-049e-5f6b-92f7" name="撕裂现实" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型的放置者可以立即移动一次此模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="75ab-d1f9-8312-4930" name="Scything Blade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="75ab-d1f9-8312-4930" name="收割斧刃" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, suffers D6 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型移动后，为此模型经过的每个单位和其1 寸内的每个单位受到D6 致命伤害。</characteristic>
           </characteristics>
         </profile>
-        <profile id="2577-0a57-fc04-cbb1" name="Unstoppable Mechanism" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="2577-0a57-fc04-cbb1" name="无阻机械" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Whenever you set up an Aethervoid Pendulum, you must place it lengthways in the direction you wish it to move. Whenever it moves, move it in a straight line in that direction.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型放置时必须指明要移动的方向，且只能朝着那个方向移动。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -872,30 +872,36 @@
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98b9-64b2-7123-b7a2" name="无尽法术: Balewind Vortex" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98b9-64b2-7123-b7a2" name="无尽法术: 邪风旋涡" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8106-c203-2ed0-e575" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6979-410e-f790-d43c" name="Summon Balewind Vortex" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="6979-410e-f790-d43c" name="召唤邪风旋涡" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">WIZARDS with a Wounds characteristic of 9 or more, that are part of a 单位 of two or more models, or that are already on a Balewind Vortex, cannot attempt to cast this 法术. If successfully cast, set up a Balewind Vortex model within 1寸 of the caster and more than 3寸 from any enemy models, and then place the caster on the upper platform.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型置于施法者1 寸内，敌方模型3 寸外，再将施法者放置其上。
+&gt;施法者和邪风旋涡视为同个模型，且都不能移动。
+&gt;若施法者尝试驱散乘坐的旋涡，则消耗一次驱散次数，旋涡立即驱散。
+&gt;旋涡被驱散时，将乘坐旋涡的【法师】放置于其原处6 寸内，敌人3 寸外的位置，若不能满足，则那个【法师】立即死亡。
+&gt;若乘坐旋涡的施法者被杀死，则旋涡立即驱散。</characteristic>
           </characteristics>
         </profile>
-        <profile id="1ef7-6e77-e5be-458b" name="Against the Aetheric Wind" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="1ef7-6e77-e5be-458b" name="以太风护体" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to save rolls for a 法师 on a Balewind Vortex. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">乘坐的【法师】保护+1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="4fa2-0a57-2616-95cb" name="Arcane Invigoration" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="4fa2-0a57-2616-95cb" name="奥能激活" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A 法师 on a Balewind Vortex can attempt to cast an additional 法术 in each of their 英雄 phases (including the turn in which the Summon Balewind Vortex 法术 was cast), and you can add 6寸 to the range of any spells that the 法师 casts.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">乘坐的【法师】施法次数+1，且法术距离延长6 寸。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="c269-8e7f-d52f-96ab" name="Balewind Vortex" hidden="false"/>
+        <rule id="c269-8e7f-d52f-96ab" name="邪风旋涡" hidden="false">
+          <description>血量值为9+、有2+模型、或是已经在邪风旋涡上的【法师】不能施放此法术。</description>
+        </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="e1e7-a6e3-fb42-c5fa" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
@@ -905,20 +911,22 @@
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a8c-091f-84b5-47aa" name="无尽法术: Chronomatic Cogs" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a8c-091f-84b5-47aa" name="无尽法术: 时运齿轮" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="437a-85d6-7962-09c8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9590-acdc-1b4e-0963" name="Summon Chronomatic Cogs" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="9590-acdc-1b4e-0963" name="召唤时运齿轮" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Chronomantic Cogs model wholly within 12寸 of the caster. </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者12 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="4fe0-7a89-9044-9495" name="Mechanisms of Time" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="4fe0-7a89-9044-9495" name="时光机巧" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">In their controlling player’s 英雄阶段, a single 法师 within 9寸 of this model may manipulate the cogs to increase or decrease the flow of time. They may do this in the same phase as the Chronomantic Cogs are set up. If they do so, choose one of the effects opposite. The effect lasts until their next 英雄阶段, or until an enemy 法师 chooses to manipulate the cogs.  Speed Up Time: Add 2寸 to the Move characteristic of all units on the battlefield. In addition, add 2 to charge rolls for all units on the battlefield.  Slow Down Time: The 法师 manipulating the cogs can cast 1 additional 法术 in this 英雄阶段. In addition, re-roll failed save rolls for that 法师.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在每个英雄阶段，此模型9 寸内的一个【法师】可以操作此无尽法术来加速或减缓时间的流动。加速或减缓的效果都持续到该玩家的下个英雄阶段，或者有敌方【法师】操作此法术为止。
+加速：全场单位移动+2。全场单位冲锋+2。
+减缓：操作此法术的【法师】施法次数+1，且可以重投失败的保护。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -931,30 +939,30 @@
         <cost name="分" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec28-3ec9-f2fa-82e5" name="无尽法术: Emerald Lifeswarm" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec28-3ec9-f2fa-82e5" name="无尽法术: 翠绿虫群" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41d8-6605-1f4e-1c94" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e8c0-ded6-d453-a796" name="Summon Emerald Lifeswarm" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="e8c0-ded6-d453-a796" name="召唤翠绿虫群" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up an Emerald Lifeswarm model wholly within 15寸 of the caster. </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者15 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="6183-1ed2-30a1-468a" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="6183-1ed2-30a1-468a" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">An Emerald Lifeswarm is a predatory 无尽法术. Emerald Lifeswarms can move up to 10寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动10 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="1ee9-f13f-669c-33d7" name="Bounteous Healing" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="1ee9-f13f-669c-33d7" name="慷慨愈疗" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model is set up or after it has moved, pick 1 单位 within 1寸 of it. You can either heal D3 wounds that have been allocated to that 单位 or, if no wounds are currently allocated to the 单位, you may return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D3. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型布置和移动之后，选择1 寸内一个单位回复D3 点血量，若那个单位没受伤，则可以复活那个单位中的数个模型，但血量值总和不得超过D3。</characteristic>
           </characteristics>
         </profile>
-        <profile id="ffac-9035-e86e-fceb" name="Empowered by Ghyran" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="ffac-9035-e86e-fceb" name="纪伦强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Life, roll a D6 to determine the number of wounds healed or wounds worth of slain models returned by the Emerald Lifeswarm’s Bounteous Healing ability. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在生命界纪伦，则上述能力为D6 而不是D3。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -964,46 +972,48 @@
       <categoryLinks>
         <categoryLink id="78da-51b4-4e2c-a0db" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="2101-d7be-8a1f-4b6c" name="EMERALD LIFESWORM" hidden="false" targetId="14d2-605b-536f-dd47" primary="false"/>
-        <categoryLink id="50fa-7469-e5cc-8169" name="GHYRAN" hidden="false" targetId="0b26-9340-45cf-07ee" primary="false"/>
+        <categoryLink id="50fa-7469-e5cc-8169" name="纪伦" hidden="false" targetId="0b26-9340-45cf-07ee" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ce8-9373-9c22-75a0" name="无尽法术: Geminids of Uhl-Gyish" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1ce8-9373-9c22-75a0" name="无尽法术: 光暗双星" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f50a-76ec-115a-6e1d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="048c-412c-c308-90f9" name="Summon Geminids of Uhl-Gyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="048c-412c-c308-90f9" name="召唤光暗双星" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up both models within 6寸 of each 其他 and both wholly within 18寸 of the caster. You must then nominate one model to be the Light Geminid and the 其他 to be the Shadow Geminid.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者18 寸内，且彼此距离不超过6 寸。你必须指明光、暗星各为哪个模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="8b3d-a71a-02e8-e999" name="Unleashed" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="8b3d-a71a-02e8-e999" name="释放法术" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此法术布置后，布置的玩家可以立即移动一次此法术。</characteristic>
           </characteristics>
         </profile>
-        <profile id="c00d-5d8c-b48a-92d0" name="Tendrils of Shadow and Light" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="c00d-5d8c-b48a-92d0" name="光暗纠缠" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After the Shadow Geminid model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds. In addition, subtract 1 (to a minimum of 1) from the Attacks characteristic of 肉搏 武器 used by each 单位 that has any models it passed across until the end of the battle round. A 单位 is not affected by the Shadow Geminid model if it has been passed across by the Light Geminid model earlier in the same battle round. After the Light Geminid model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds. In addition, subtract 1 from hit rolls for each 单位 that has any models it passed across until the end of the battle round. A 单位 is not affected by the Light Geminid model if it has been passed across by the Shadow Geminind model earlier in the same battle round (a 单位 can be affected by one or 其他 of the models each battle round, but not both).</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">光之星移动之后，其经过的每一个单位受到D3 致命伤害，且攻击命中-1，直到本轮结束；
+暗之星移动之后，其经过的每一个单位受到D3 致命伤害，且攻击次数-1，直到本轮结束。
+&gt;一个单位一次只能被光暗双星中的一个影响。</characteristic>
           </characteristics>
         </profile>
-        <profile id="13d9-73c9-ffcc-5cfb" name="Empowered by Hysh" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="13d9-73c9-ffcc-5cfb" name="海希强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Light, you can re-roll the dice to determine the number of mortal wounds suffered by a 单位 that has any models passed across by the Light Geminid.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在光明界海希，则重投决定光之星伤害的D3。</characteristic>
           </characteristics>
         </profile>
-        <profile id="5842-43e3-814d-ff9f" name="Empowered by Ulgu" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="5842-43e3-814d-ff9f" name="乌尔枯强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Shadow, you can re-roll the dice to determine the number of mortal wounds suffered by a 单位 that has any models passed across by the Shadow Geminid.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在暗影界乌尔枯，则重投决定暗之星伤害的D3。</characteristic>
           </characteristics>
         </profile>
-        <profile id="634a-99d6-067a-57e1" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="634a-99d6-067a-57e1" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Geminids of Uhl-Gysh is a predatory 无尽法术. They can move up to 8寸 and can fly. When you move this 无尽法术, the second model must finish its move within 6寸 of the first. If this is impossible, this 法术 is dispelled. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">这两个模型可以移动8 寸且可以飞行。但移动结束时必须位于彼此6 寸内，若无法满足则立即驱散（且不结算效果）。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1013,37 +1023,37 @@
       <categoryLinks>
         <categoryLink id="4c38-6913-009e-bc41" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6b24-fde1-af25-367b" name="GEMINIDS OF UHL-GYSH" hidden="false" targetId="722d-a8ac-da30-e6be" primary="false"/>
-        <categoryLink id="a697-9700-8b40-b082" name="HYSH" hidden="false" targetId="2b18-8032-739f-7929" primary="false"/>
-        <categoryLink id="6e8c-7f5e-3e2e-fc43" name="ULGU" hidden="false" targetId="3f66-cb68-8afb-ce99" primary="false"/>
+        <categoryLink id="a697-9700-8b40-b082" name="海希" hidden="false" targetId="2b18-8032-739f-7929" primary="false"/>
+        <categoryLink id="6e8c-7f5e-3e2e-fc43" name="乌尔枯" hidden="false" targetId="3f66-cb68-8afb-ce99" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="befc-365b-06f8-5575" name="无尽法术: Horrorghast" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="befc-365b-06f8-5575" name="无尽法术: 恐怖鬼灵" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1106-8e19-e64d-9a0a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1fb0-73e9-129c-891c" name="Summon Horrorghast" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="1fb0-73e9-129c-891c" name="召唤恐怖鬼灵" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Horrorghast model wholly within 12寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者12 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="ea2b-6e1d-a138-8396" name="Prey on Fear" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="ea2b-6e1d-a138-8396" name="恐惧为食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of units while they are within 12寸 of this model. Subtract 2 instead from the Bravery characteristic of units while they are within 6寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型12 寸内的单位勇气值-1,6 寸内的单位勇气值-2。</characteristic>
           </characteristics>
         </profile>
-        <profile id="9346-aa17-cae4-7273" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="9346-aa17-cae4-7273" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12寸 instead of up to 9寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则可以移动12 寸而不是9 寸。</characteristic>
           </characteristics>
         </profile>
-        <profile id="e908-33ca-d3e1-dbcb" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="e908-33ca-d3e1-dbcb" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Horrorghast is a predatory 无尽法术. It can move up to 9寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动9 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1053,41 +1063,42 @@
       <categoryLinks>
         <categoryLink id="e16b-e04d-41ad-aa44" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6f84-3b9b-a972-b2f5" name="HORRORGHAST" hidden="false" targetId="9945-bd78-56ea-5cde" primary="false"/>
-        <categoryLink id="66e7-40f4-73ab-dd04" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="66e7-40f4-73ab-dd04" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f68-29ac-db98-ff85" name="无尽法术: Lauchon the Soulseeker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1f68-29ac-db98-ff85" name="无尽法术: 寻魂者洛坎" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b648-223d-ea42-50c8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="801d-6be1-0510-970e" name="Summon Lauchon the Soulseeker" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="801d-6be1-0510-970e" name="召唤寻魂者" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Lauchon the Soulseeker model wholly within 12寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者12 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="203f-cce0-0c04-21cc" name="Navigate Deathly Tides" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="203f-cce0-0c04-21cc" name="死潮导航" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此法术布置后，布置的玩家可以立即移动一次此法术。</characteristic>
           </characteristics>
         </profile>
-        <profile id="a466-232b-e51d-b504" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="a466-232b-e51d-b504" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 18寸 instead of up to 12寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则可以移动18 寸而不是12 寸。</characteristic>
           </characteristics>
         </profile>
-        <profile id="227e-905e-a8a2-360c" name="Soul Price" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="227e-905e-a8a2-360c" name="灵魂船费" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Before a player makes a move with this model, that player can pick a friendly 单位 wholly within 3寸 of this model. Remove that 单位 and place it to one side. After this model has moved, set that 单位 up again wholly within 3寸 of this model and more than 9寸 from any enemy units. Once that 单位 has been set up, 1个模型 from that 单位 is immediately slain.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">移动此模型之前，移动此模型的玩家可以选择完全位于此模型3 寸内的一个友方单位登船。若如此，移除那个单位，此模型移动后，再将那个单位完全布置于此模型3 寸内，且要位于任意敌方单位9 寸外，然后选择那个单位中的一个模型立即死亡。
+&gt;如此移动的单位不能在接下来的移动阶段中移动。</characteristic>
           </characteristics>
         </profile>
-        <profile id="bcbf-2a21-bf34-e39c" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="bcbf-2a21-bf34-e39c" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Lauchon the Soulseeker is a predatory 无尽法术. It can move up to 12寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动12 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1097,41 +1108,41 @@
       <categoryLinks>
         <categoryLink id="e2c8-ee2b-6a8a-3bfc" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="6877-c245-4af4-c221" name="LAUCHON THE SOULSEEKER" hidden="false" targetId="3b54-23ed-a577-ea1f" primary="false"/>
-        <categoryLink id="5d52-d94b-a444-45b1" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="5d52-d94b-a444-45b1" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="37a1-b025-6723-3fe1" name="无尽法术: Malevolent Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="37a1-b025-6723-3fe1" name="无尽法术: 恶毒旋涡" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84f5-216e-20fd-46e5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e2a0-be45-7c5a-1d9c" name="Summon Malevolent Maelstrom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="e2a0-be45-7c5a-1d9c" name="召唤恶毒旋涡" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Malevolent Maelstrom model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型模型完全置于施法者18 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="af8c-d343-e2c2-d9e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="af8c-d343-e2c2-d9e6" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Malevolent Maelstrom is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动8 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="abb3-1c3a-812b-214c" name="Devourerer of Sorcery and Souls" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="abb3-1c3a-812b-214c" name="吞噬法术魂灵" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 within 12寸 of a Malevolent Maelstrom, and that 法术 is not unbound, the Malevolent Maelstrom will attempt to steal the energies of the 法术. Make an additional unbinding roll for that 法术. If this unbinding roll is successful, the 法术 is unbound and 1 energy point is allocated to this model.  In addition, 1 energy point is allocated to this model for each 单位 destroyed within 6寸 of this model. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型12 寸内有法施法成功、且未被成功破法时，此模型可以尝试吸收那个法术的能量：额外投掷一次破法，若成功，则那个法术被破除且此模型能级+1.此外，此模型6 寸内每有一个模型被杀死，此模型能级+1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="4eff-d80f-28d3-c7fb" name="Morbid Detonation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="4eff-d80f-28d3-c7fb" name="恐怖爆炸" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the end of each battle round, roll a dice for each Malevolent Maelstrom and add the number of energy points allocated to that model to the roll. On a 7+ that Malevolent Maelstrom explodes. Each 单位 within 3D6寸 of the model that exploded suffers D3 mortal wounds. The model that exploded is then dispelled.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在每个大回合结束时，为每个此模型投D6，再加上此模型累积的能级，若结果为7+，则此模型爆炸：此模型3D6 寸内的每个单位受到D3 致命伤害，然后此模型立即被驱散。</characteristic>
           </characteristics>
         </profile>
-        <profile id="5226-8299-4978-2ab2" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="5226-8299-4978-2ab2" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, allocate 1 additional energy point to this model at the start of each battle round.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则每个大回合开始时，此模型的能级+1。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1141,82 +1152,82 @@
       <categoryLinks>
         <categoryLink id="8cfd-261e-8d93-fdf3" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="0d07-0be5-1093-dfe4" name="MALEVOLENT MAELSTROM" hidden="false" targetId="aeb3-e51f-7f02-619e" primary="false"/>
-        <categoryLink id="8e0f-7122-1605-3505" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="8e0f-7122-1605-3505" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ae1-8e71-327d-0893" name="无尽法术: Prismatic Palisade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7ae1-8e71-327d-0893" name="无尽法术: 光棱障壁" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af02-c60b-9133-fa30" type="max"/>
       </constraints>
       <profiles>
-        <profile id="34d7-8e3b-b9ac-04ca" name="Summon Prismatic Palisade" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="34d7-8e3b-b9ac-04ca" name="召唤光棱障壁" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Prismatic Palisade model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者18 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="73bc-6abe-4c52-6d23" name="Blinding Light" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="73bc-6abe-4c52-6d23" name="障目光辉" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of each turn, roll a dice for each 单位 within 6寸 of this model. On a 5+ subtract 1 from hit rolls for attacks made by that 单位 until the end of the turn.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">每个回合开始时，为此模型6 寸内的每个单位投D6，5+则那个单位在本回合攻击命中-1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="5bb4-5949-0d90-e76f" name="Dazzling Brilliance" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="5bb4-5949-0d90-e76f" name="炫目璀璨" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A model cannot see another model if an imaginary straight line, 1mm wide, drawn from the centre of its base to the centre of the 其他 model’s base passes over this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若两模型底盘中点的连线经过此模型，则那两模型互相不可见。</characteristic>
           </characteristics>
         </profile>
-        <profile id="2038-0249-055a-7b7c" name="Empowered by Hysh" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="2038-0249-055a-7b7c" name="海希强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Light, add 1 to rolls made to determine if a 单位 is affected by this model’s Blinding Light ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在光明界海希，障目光辉只需4+就能生效。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="4b8d-dbd9-17eb-66ec" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="39d0-a731-4fe8-84b8" name="HYSH" hidden="false" targetId="2b18-8032-739f-7929" primary="false"/>
+        <categoryLink id="39d0-a731-4fe8-84b8" name="海希" hidden="false" targetId="2b18-8032-739f-7929" primary="false"/>
         <categoryLink id="9d46-498d-22f1-9b94" name="PRISMATIC PALISADE" hidden="false" targetId="316f-32e5-0c7c-72af" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e7b-ce3f-9348-58e1" name="无尽法术: Purple Sun of Shyish" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e7b-ce3f-9348-58e1" name="无尽法术: 煞伊许紫阳" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="607a-4963-04ba-d79f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8677-969c-7c16-007d" name="Summon Purple Sun of Shyish" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="8677-969c-7c16-007d" name="召唤紫阳" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Purple Sun of Shyish model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者6 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="9a94-5efa-6797-25e6" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="9a94-5efa-6797-25e6" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Purple Sun of Shyish is a predatory 无尽法术. It can move up to 9寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动9 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="376e-119b-d822-4395" name="Swirling Death" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="376e-119b-d822-4395" name="死亡盘旋" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">布置此模型的玩家可以立即移动一次此模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="2e18-4510-9f25-b7cb" name="End Given Form" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="2e18-4510-9f25-b7cb" name="终焉化身" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, is subjected to the Purple Sun’s baleful energies. For each 单位 subjected to the baleful energies, roll a number of dice equal to the number of models in that 单位. For each 6+ one model in that 单位 is slain. If the 单位 has Wounds characteristic of 6 or more, it suffers 2D6 mortal wounds instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型移动后，其经过的所有单位，以及1 寸内的所有单位都会受到紫阳的影响。分别为每个被影响的单位投相当于那个单位中模型数的D6，每有一个6+，那个单位中一个模型死亡，若是血量值为6+的单位，则改为受到2D6 致命伤害。</characteristic>
           </characteristics>
         </profile>
-        <profile id="ea13-5990-3792-14cb" name="Visage of Xereus" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="ea13-5990-3792-14cb" name="紫色形体" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of all units while they are within 6寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型6 寸内的单位勇气值-1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="eb5c-ce49-e22f-6df3" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="eb5c-ce49-e22f-6df3" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move 12寸 instead of 9寸. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则可以移动12 寸而不是9 寸。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1225,42 +1236,42 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b230-aaa9-f19e-b2ce" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="9f4f-9cb2-6618-21f4" name="PURPLE SUN OF SHYISH" hidden="false" targetId="7eb6-e91d-bf00-1c84" primary="false"/>
-        <categoryLink id="3a3c-213b-2d2d-10f2" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="9f4f-9cb2-6618-21f4" name="PURPLE SUN OF 煞伊许" hidden="false" targetId="7eb6-e91d-bf00-1c84" primary="false"/>
+        <categoryLink id="3a3c-213b-2d2d-10f2" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc18-4df9-1a28-2df9" name="无尽法术: Quicksilver Swords" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bc18-4df9-1a28-2df9" name="无尽法术: 水银剑阵" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e19-66ea-d689-4ae3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b191-e4f0-c10b-2543" name="Summon Quicksilver Swords" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="b191-e4f0-c10b-2543" name="召唤水银剑阵" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Quicksilver Swords model wholly within 10寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者10 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="035d-bc7f-cc14-3cc0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="035d-bc7f-cc14-3cc0" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Quicksilver Swords is a predatory 无尽法术. It can move up to 8寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动8 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="0f8f-9119-6422-7799" name="Volley of Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="0f8f-9119-6422-7799" name="剑刃齐射" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">布置此模型的玩家可以立即移动一次此模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="c023-e731-5488-7bf0" name="Dancing Blades" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="c023-e731-5488-7bf0" name="刃舞" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, you can pick 1 单位 within 6寸 of it and roll 12 dice. For each roll of 6+ that 单位 suffers 1 mortal wound. If the 单位 being rolled for is a 混沌 单位, it suffers 1 mortal wound for each roll of 5+ instead.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型移动后，选择6 寸内一个单位，投12D6，每有一个6+（若是【混沌】单位则为5+），那个单位受到1 点致命伤害。</characteristic>
           </characteristics>
         </profile>
-        <profile id="ead7-9952-e01f-b3b3" name="Empowered by Chamon" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="ead7-9952-e01f-b3b3" name="查蒙强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Metal, you can roll 15 dice for this model’s Dancing Blades ability instead of 12.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在金属界查蒙，则投15D6 而不是12D6。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1269,42 +1280,42 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d12a-56b2-d233-8d17" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="8724-127d-eb92-f9d0" name="CHAMON" hidden="false" targetId="97c8-2ca9-2b12-327f" primary="false"/>
+        <categoryLink id="8724-127d-eb92-f9d0" name="查蒙" hidden="false" targetId="97c8-2ca9-2b12-327f" primary="false"/>
         <categoryLink id="29f1-5754-fb05-5361" name="QUICKSILVER SWORDS" hidden="false" targetId="65dc-260f-90f3-8a5a" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a99d-b987-6fa6-96f6" name="无尽法术: Ravenak&apos;s Gnashing Jaws" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a99d-b987-6fa6-96f6" name="无尽法术: 瑞文纳克大嘴" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88dc-7fbb-a0af-313d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8123-c8c4-8bc6-cf0f" name="Summon Ravenak&apos;s Gnashing Jaws" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="8123-c8c4-8bc6-cf0f" name="召唤大嘴" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">8</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Ravenak’s Gnashing Jaws model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者6 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="0222-5edd-ad18-48a4" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="0222-5edd-ad18-48a4" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Ravenak’s Gnashing Jaws is a predatory 无尽法术. It can move up to 12寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动12 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="983f-75f4-4a12-f26b" name="Endless Appetite" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="983f-75f4-4a12-f26b" name="无底胃口" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">布置此模型的玩家可以立即移动一次此模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="2237-adf9-c281-2916" name="Ravening Hunger" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="2237-adf9-c281-2916" name="掠食饥饿" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, suffers D3 mortal wounds. In addition, subtract 1 from the Bravery characteristic of each 单位 that each 单位 that has any models it passed across until the end of the battle round.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型移动后，经过的所有单位，以及1 寸内的单位都受到D3 致命伤害，且本轮勇气值-1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="d633-25a6-2f08-6116" name="Empowered by Ghur" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="d633-25a6-2f08-6116" name="辜尔强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Beasts, this model can move up to D6+12寸 instead of 12寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在野兽界辜尔，则可以额外移动D6 寸。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1313,150 +1324,150 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8e10-5498-a55f-0a68" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="abfa-4fae-5cbd-f9fc" name="GHUR" hidden="false" targetId="c33b-1c2d-83d9-53df" primary="false"/>
+        <categoryLink id="abfa-4fae-5cbd-f9fc" name="辜尔" hidden="false" targetId="c33b-1c2d-83d9-53df" primary="false"/>
         <categoryLink id="8064-0362-4e5d-1ed0" name="RAVENAK&apos;S GNASHING JAWS" hidden="false" targetId="8b8e-c0b7-d668-19f2" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58a3-4afb-62c5-dd39" name="无尽法术: Shards of Valagharr" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="58a3-4afb-62c5-dd39" name="无尽法术: 瓦拉哈尔碎片" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0021-b32d-ca2b-f4f9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6b93-3b5f-92bd-87df" name="Summon Shards of Valagharr" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="6b93-3b5f-92bd-87df" name="召唤碎片" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Shards of Valagharr model wholly within 6寸 of the caster, and then set up the second Shards of Valagharr model wholly within 12寸 of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，先将一个模型完全置于施法者6 寸内，再将第二个模型完全置于第一个模型12 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="01e5-7b2f-ac0e-5ec3" name="Ensnaring Soul-drain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="01e5-7b2f-ac0e-5ec3" name="摄魂陷阱" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, draw an imaginary straight line 1mm wide between the closest parts of the bases of the two Shards of Valagharr models from this 无尽法术. Each 单位 passed across by this line is ensnared until the end of that turn. Halve the Move characteristic of a 单位 that is ensnared. In addition, subtract 1 from hit rolls for attacks made by units that are ensnared.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在移动阶段开始时，在这两个模型底盘的最近点之间画一条连线，连线经过的单位本回合移动值减半，且攻击命中-1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="77e0-b51d-00d4-aa72" name="Twilight Translocation" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="77e0-b51d-00d4-aa72" name="暮光移形" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battle round, after determining who has the first turn, the players must roll off. The winner can remove one Shards of Valagharr model from this 无尽法术 from the battlefield and set it up again anywhere on the battlefield wholly within 12寸 of the 其他 Shards of Valagharr model from this 无尽法术.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">每个战斗轮次开始时，在决定先后手之后，双方玩家拼点。胜者可以将此法术的一个模型重新完全布置于另一个模型的12 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="fac8-201d-3681-0dac" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="fac8-201d-3681-0dac" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the first Shards of Valagharr model can be set up wholly within 12寸 of the caster, instead of 6寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则在召唤时可以完全布置于施法者12 寸而不是6 寸内。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="057a-08ae-cbb8-08b7" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="1a41-5fe0-2b91-319a" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="1a41-5fe0-2b91-319a" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
         <categoryLink id="430e-40d4-1072-bd3a" name="SHARDS OF VALAGHARR" hidden="false" targetId="cff6-06c5-3294-b74b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98da-d52f-7608-3034" name="无尽法术: Soulscream Bridge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="98da-d52f-7608-3034" name="无尽法术: 魂啸之桥" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb75-934b-daee-022e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8bc3-efdf-b033-2e24" name="Summon Soulscream Bridge" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="8bc3-efdf-b033-2e24" name="召唤魂啸之桥" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Soulscream Bridge model wholly within 6寸 of the caster, and then set up the second Soulscream Bridge model wholly within 12寸 of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，先将一个模型完全置于施法者6 寸内，再将第二个模型完全置于第一个模型12 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="3cd2-74a2-532b-25a5" name="Deathly Passage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="3cd2-74a2-532b-25a5" name="死亡通道" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your movement phase, friendly units wholly within 6寸 of one Soulscream Bridge model from this 无尽法术 can travel across the Soulscream Bridge. If they do so, remove that 单位 from the battlefield and set it up again wholly within 6寸 of the 其他 Soulscream Bridge model from this 无尽法术, more than 9寸 from any enemy units. That 单位 cannot make a normal move that phase. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在你的移动阶段，完全位于一座魂桥6 寸内的任意数量友方单位可以走过魂桥，将走过魂桥的单位重新布置于另一座魂桥6 寸内，且要位于任意敌方单位9 寸外。如此移动的单位不能再在此移动阶段中正常移动。</characteristic>
           </characteristics>
         </profile>
-        <profile id="eb78-8010-9568-2703" name="Nightmarish Construct" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="eb78-8010-9568-2703" name="噩梦造物" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Subtract 1 from the Bravery characteristic of enemy units while they are within 6寸 of a Soulscream Bridge model. This ability has no effect on DEATH units.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此法术6 寸内的单位勇气值-1。对【死亡】单位无效。</characteristic>
           </characteristics>
         </profile>
-        <profile id="01c1-54ee-b341-4681" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="01c1-54ee-b341-4681" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second Soulscream Bridge model can be set up wholly within 24寸 of the first, instead of within 12寸 of the first.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则第二个模型可以完全放置在第一个模型24 寸而不是12 寸内。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="4201-3b80-3b82-7bc5" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
         <categoryLink id="173d-484d-26a5-168a" name="SOULSCREAM BRIDGE" hidden="false" targetId="1d34-b962-7c7b-f287" primary="false"/>
-        <categoryLink id="c390-75ad-8a01-32d9" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="c390-75ad-8a01-32d9" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec18-8377-8f6b-2591" name="无尽法术: Soulsnare Shackles" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec18-8377-8f6b-2591" name="无尽法术: 摄魂镣铐" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a82-fc9b-c487-a064" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f12d-a1e0-5270-2892" name="Summon Soulsnare Shackles" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="f12d-a1e0-5270-2892" name="召唤摄魂镣铐" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Soulsnare Shackles model wholly within 12寸 of the caster, then set up the second and third Soulsnare Shackles models wholly within 6寸 of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，先将一个模型完全置于施法者12 寸内，再将第二个和第三个模型完全置于第一个模型6 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="0df7-ad58-26dc-d044" name="Bound for the Great Oubliette" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="0df7-ad58-26dc-d044" name="巨牢囚禁" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the movement phase, roll a dice for each 单位 within 6寸 of any Soulsnare Shackles models. On a 3+ halve the move characteristic of that 单位 until the end of that phase. On a 6 that 单位 also suffers D3 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">移动阶段开始时，为每个位于此法术6 寸内的单位投D6，3+则对应单位本阶段移动值减半，若6+则还会受到D3 致命伤害。</characteristic>
           </characteristics>
         </profile>
-        <profile id="33a8-200f-b7a1-472b" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="33a8-200f-b7a1-472b" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, the second and third Soulsnare Shackles models can be set up wholly within 9寸 of the first, instead of 6寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则第二个和第三个模型可以完全放置在第一个模型9寸而不是6 寸内。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="5096-dc8d-80b5-d6bf" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="e50d-523f-1fd1-b8f5" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="e50d-523f-1fd1-b8f5" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
         <categoryLink id="b32d-20d2-77e4-2013" name="SOULSNARE SHACKLES" hidden="false" targetId="4949-2041-939a-baa6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6de-646a-4dcc-e37d" name="无尽法术: Suffocating﻿﻿ Gravetide﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6de-646a-4dcc-e37d" name="无尽法术: 窒息墓潮" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d42-657b-97ab-f23f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="09f9-9e4f-449d-b8f2" name="Summon Suffocating﻿﻿ Gravetide﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="09f9-9e4f-449d-b8f2" name="召唤窒息墓潮" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Suffocating Gravetide model wholly within 4寸 of the caster. </characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者4 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="2bc2-6e1b-9c63-97c5" name="Necrotic Tide" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="2bc2-6e1b-9c63-97c5" name="死灵之潮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">布置此模型的玩家可以立即移动一次此模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="9421-3b1a-c93b-4ecc" name="Pulled to the Grave" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="9421-3b1a-c93b-4ecc" name="拉向坟墓" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across suffers D3 mortal wounds. In addition, subtract 1 from the Bravery characteristic of each 单位 that has any models it passed across until the end of the battle round.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型移动后，经过的所有单位都受到D3 致命伤害，且本轮勇气值-1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="5c60-1bf5-7aab-1539" name="Rolling Barricade" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="5c60-1bf5-7aab-1539" name="杂乱壁垒" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When a 射击武器 targets a 单位 that has all of its models within 1寸 of this model, the target 单位 receives the benefit of cover if the attacking 单位 is closer to this model than it is to the target 单位. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在射击时，若攻击的单位距离此模型比目标单位更近，且目标单位的所有模型都在此模型1 寸内，则目标单位获得掩体（保护+1）。掩体效果不能叠加。</characteristic>
           </characteristics>
         </profile>
-        <profile id="4846-a1b3-6a09-82f7" name="Empowered by Shyish" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="4846-a1b3-6a09-82f7" name="煞伊许强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Death, this model can move up to 12寸 instead of 8寸.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在死亡界煞伊许，则可以移动12 寸而不是8 寸。</characteristic>
           </characteristics>
         </profile>
-        <profile id="3a60-d81a-79c4-dee0" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="3a60-d81a-79c4-dee0" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">A Suffocating Gravetide is a predatory 无尽法术. It can move up to 8寸 and can fly. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动8 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1465,47 +1476,47 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="27d3-7de8-58e3-bea7" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="a275-1818-5888-8a79" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="a275-1818-5888-8a79" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
         <categoryLink id="7c7b-031f-df94-fe46" name="SUFFOCATING GRAVETIDE" hidden="false" targetId="8e84-834f-0c7d-0d45" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad9-857b-32ff-e44e" name="无尽法术: The B﻿urning Head﻿﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ad9-857b-32ff-e44e" name="无尽法术: 燃烧之颅" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99ee-e3e1-6970-f451" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d37a-5a1b-11ad-fb89" name="Summon B﻿urning Head﻿﻿﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="d37a-5a1b-11ad-fb89" name="召唤燃烧之颅" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up a Burning Head model wholly within 3寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，将此模型完全置于施法者3 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="c2a1-0a2c-f5ce-467b" name="Predatory" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="c2a1-0a2c-f5ce-467b" name="掠食" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">The Burning Head is a predatory 无尽法术. It can move up to 9寸 and can fly.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以移动9 寸且可以飞行。</characteristic>
           </characteristics>
         </profile>
-        <profile id="7de4-5c93-a18e-9d5f" name="Fiery Missile" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="7de4-5c93-a18e-9d5f" name="烈火飞行" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When this model is set up, the player who set it up can immediately make a move with it. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">布置此模型的玩家可以立即移动一次此模型。</characteristic>
           </characteristics>
         </profile>
-        <profile id="c7f4-81b1-042a-8e6e" name="Flaming Skull" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="c7f4-81b1-042a-8e6e" name="烈焰之颅" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">After this model has moved, each 单位 that has any models it passed across, and each 其他 单位 that is within 1寸 of it at the end of its move, suffers D3 mortal wounds. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型移动后，经过的所有单位，以及1 寸内的所有单位都受到D3 致命伤害。</characteristic>
           </characteristics>
         </profile>
-        <profile id="637c-9ac5-610d-9f17" name="Wrathful Aura" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="637c-9ac5-610d-9f17" name="燃怒光环" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for attacks made by units while they are wholly within 9寸 of this model. </characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">完全位于此模型9 寸内的单位可以重投命中的1。</characteristic>
           </characteristics>
         </profile>
-        <profile id="6171-ca22-0e67-91db" name="Empowered by Aqshy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="6171-ca22-0e67-91db" name="阿奎夏强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Fire, add 1 to the number of mortal wounds inflicted by the Flaming Skull ability.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在火焰界阿奎夏，则烈焰之颅造成的致命伤害+1。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1514,38 +1525,40 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="45c3-0350-c231-e9b8" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="93e5-b28e-ad25-98e9" name="AQSHY" hidden="false" targetId="f760-2ebe-1af7-ff48" primary="false"/>
+        <categoryLink id="93e5-b28e-ad25-98e9" name="阿奎夏" hidden="false" targetId="f760-2ebe-1af7-ff48" primary="false"/>
         <categoryLink id="ec33-7fb2-331b-c7cb" name="THE BURNING HEAD" hidden="false" targetId="3115-9f9c-85db-1d63" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="分" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="无尽法术: Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d2dc-7e1a-c2e7-4cff" name="无尽法术: 本影法术之门" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="339b-832b-1f41-84f3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c3e6-0504-1147-d44a" name="Summon Umbral Sp﻿ellporta﻿l﻿﻿" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
+        <profile id="c3e6-0504-1147-d44a" name="召唤法术之门" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">5</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, set up the first Umbral Spellportal model wholly within 12寸 of the caster, and then set up the second Umbral Spellportal model wholly within 18寸 of the first.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">若施放成功，先将第一个模型完全置于施法者12 寸内，再将第二个模型完全置于第一个模型18 寸内。</characteristic>
           </characteristics>
         </profile>
-        <profile id="0a1a-1532-0887-c5d7" name="Arcane Passage" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="0a1a-1532-0887-c5d7" name="奥术通道" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If a 法师 successfully casts a 法术 while they are within 1寸 of an Umbral Spellportal model, the range and visibility of the 法术 can be measured from the 其他 Umbral Spellportal model from this 无尽法术. After the range and visibility for a 法术 has been measured from an Umbral Spellportal, you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase. If a predatory 无尽法术 finishes a move within 6寸 of an Umbral Spellportal model, remove it from the battlefield and set it up again anywhere within 6寸 of the 其他 Umbral Spellportal model from this 无尽法术. After an 无尽法术 finishes a move within 6寸 of an Umbral Spellportal and is set up again, it cannot move again in that phase, and you cannot use the Arcane Passage ability again for that Umbral Spellportal in that phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此能力每个阶段只能使用一次，且只能使用一种效果：
+&gt;若一个【法师】在一个法术之门1 寸内成功施放一个法术且未被成功破法，则这个法术的距离可以从另一个法术之门（而不是从施法者）开始测量。
+&gt;若一个掠食性无尽法术移动到一个法术之门6 寸内，则移动的玩家可以将那个无尽法术重新布置于另一个法术之门6 寸内，但那个无尽法术本回合不能再移动。</characteristic>
           </characteristics>
         </profile>
-        <profile id="f61c-06bd-bd2e-6ce5" name="Empowered by Ulgu" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="f61c-06bd-bd2e-6ce5" name="乌尔枯强化" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If your battle is taking place in the Realm of Shadow, the second Umbral Spellportal model can be set up anywhere on the battlefield, instead of within 18寸 of the first.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若战场在暗影界乌尔枯，则第二个法术传送门模型可以放置于战场的任何位置。</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="9713-d6b1-54c8-4ee4" name="New CategoryLink" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="2e53-4dfd-098a-3465" name="ULGU" hidden="false" targetId="3f66-cb68-8afb-ce99" primary="false"/>
+        <categoryLink id="2e53-4dfd-098a-3465" name="乌尔枯" hidden="false" targetId="3f66-cb68-8afb-ce99" primary="false"/>
         <categoryLink id="5724-bd35-df7f-13c8" name="UMBRAL SPELLPORTAL" hidden="false" targetId="82b0-19da-b868-9f6c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2468,7 +2481,7 @@
       <selectionEntries>
         <selectionEntry id="3da0-3ef8-866e-3ab5" name="1. Bronzed Flesh" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="409a-1a19-61fc-ebab" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+            <profile id="409a-1a19-61fc-ebab" name="Bronzed Flesh" hidden="false" typeId="eed7-4131-0a52-0668" typeName="祈祷">
               <characteristics>
                 <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. You can add 1 to the save rolls for the 单位 you picked until the start of your next 英雄阶段.</characteristic>
               </characteristics>
@@ -2480,7 +2493,7 @@
         </selectionEntry>
         <selectionEntry id="23fd-8b31-0d59-0674" name="2. Blood Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="933a-c947-9fb0-e0a6" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+            <profile id="933a-c947-9fb0-e0a6" name="Blood Sacrifice" hidden="false" typeId="eed7-4131-0a52-0668" typeName="祈祷">
               <characteristics>
                 <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 3寸 of the 祭司. The 单位 you picked immediately suffers D3 mortal wounds, but you gain 1 Blood Tithe point.</characteristic>
               </characteristics>
@@ -2492,7 +2505,7 @@
         </selectionEntry>
         <selectionEntry id="a089-13dc-617b-2eab" name="3. Resanguination" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="bb1e-a8e5-4e0f-1fe6" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+            <profile id="bb1e-a8e5-4e0f-1fe6" name="Resanguination" hidden="false" typeId="eed7-4131-0a52-0668" typeName="祈祷">
               <characteristics>
                 <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 英雄 from your army that is within 16寸 of the 祭司 and which is visible to them. The model you picked immediately heals D3 wounds lost earlier in the battle.</characteristic>
               </characteristics>
@@ -2504,7 +2517,7 @@
         </selectionEntry>
         <selectionEntry id="d9d0-8915-d319-7a99" name="4. Brazen Fury" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="a821-00f5-c6fc-2645" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+            <profile id="a821-00f5-c6fc-2645" name="Brazen Fury" hidden="false" typeId="eed7-4131-0a52-0668" typeName="祈祷">
               <characteristics>
                 <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. The 单位 that you picked does not have t take battleshock tests until your next 英雄阶段.</characteristic>
               </characteristics>
@@ -2516,7 +2529,7 @@
         </selectionEntry>
         <selectionEntry id="e5ab-1394-46b7-55df" name="5. Killing Frenzy" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="4cd3-aaf5-0845-37e4" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+            <profile id="4cd3-aaf5-0845-37e4" name="Killing Frenzy" hidden="false" typeId="eed7-4131-0a52-0668" typeName="祈祷">
               <characteristics>
                 <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, pick either the 祭司 or a 恐虐 单位 from your army that is within 16寸 of the 祭司 and which is visible to them. Add 1 to the hit rolls of the 单位 you picked until your next 英雄阶段.</characteristic>
               </characteristics>
@@ -2528,7 +2541,7 @@
         </selectionEntry>
         <selectionEntry id="e9ec-b172-d5a2-81b0" name="6. Magebane Hex" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
-            <profile id="ffb7-f9aa-a104-73af" name="Magebane Hex" hidden="false" typeId="eed7-4131-0a52-0668" typeName="Prayer">
+            <profile id="ffb7-f9aa-a104-73af" name="Magebane Hex" hidden="false" typeId="eed7-4131-0a52-0668" typeName="祈祷">
               <characteristics>
                 <characteristic name="描述" typeId="0746-6cfb-5e15-53cb">If this prayer is successful, then until your next 英雄阶段, the 祭司 can attempt to unbind one additional 法术 in each enemy 英雄阶段 in the same manner as a 法师.</characteristic>
               </characteristics>
@@ -2540,7 +2553,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="37b0-af21-630c-d8af" name="Realm Artefacts of Power" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="37b0-af21-630c-d8af" name="位面神器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2552,23 +2565,23 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a1d-788e-288d-9971" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="b698-c91c-04c4-4ec0" name="武器 of Ghyran" hidden="false" collective="false" import="true" targetId="541f-8308-ce85-6f3d" type="selectionEntryGroup"/>
-        <entryLink id="5b4c-2c28-bf39-b7fe" name="Relics of Ghyran" hidden="false" collective="false" import="true" targetId="692b-77fc-05c5-d070" type="selectionEntryGroup"/>
-        <entryLink id="03c2-028c-05f3-7e1b" name="Relics of Ghur" hidden="false" collective="false" import="true" targetId="463d-7799-7dca-4724" type="selectionEntryGroup"/>
-        <entryLink id="c34e-037e-4770-d4fc" name="武器 of Ghur" hidden="false" collective="false" import="true" targetId="9ef0-62f7-ba83-0dab" type="selectionEntryGroup"/>
-        <entryLink id="ca16-6c24-a367-b23f" name="Relics of Aqshy" hidden="false" collective="false" import="true" targetId="dff7-19b4-9850-89a7" type="selectionEntryGroup"/>
-        <entryLink id="3e9e-cd54-55b9-b535" name="武器 of Aqshy" hidden="false" collective="false" import="true" targetId="f4d9-1997-cea0-5804" type="selectionEntryGroup"/>
-        <entryLink id="8ef1-c77e-a64f-32c9" name="Relics of Chamon" hidden="false" collective="false" import="true" targetId="302c-ef0b-a9d6-685e" type="selectionEntryGroup"/>
-        <entryLink id="96bb-c7ed-f76f-14fb" name="武器 of Chamon" hidden="false" collective="false" import="true" targetId="b611-7315-706b-82ef" type="selectionEntryGroup"/>
-        <entryLink id="4aaf-139c-3837-ac1d" name="武器 of Hysh" hidden="false" collective="false" import="true" targetId="b7ad-b3d0-d9c3-8cd6" type="selectionEntryGroup"/>
-        <entryLink id="6266-f4be-74ac-9535" name="Relics of Hysh" hidden="false" collective="false" import="true" targetId="0823-7018-722c-3bcb" type="selectionEntryGroup"/>
-        <entryLink id="d992-0fe3-4bcc-0506" name="Relics of Shyish" hidden="false" collective="false" import="true" targetId="f685-ff72-7c6d-d0f5" type="selectionEntryGroup"/>
-        <entryLink id="509c-7cf5-9abc-9903" name="武器 of Shyish" hidden="false" collective="false" import="true" targetId="666d-dbde-1db1-c29c" type="selectionEntryGroup"/>
-        <entryLink id="5e7a-a472-6882-6005" name="Relics of Ulgu" hidden="false" collective="false" import="true" targetId="158b-c95d-0272-ca62" type="selectionEntryGroup"/>
-        <entryLink id="b545-af79-b1d1-1721" name="武器 of Ulgu" hidden="false" collective="false" import="true" targetId="f33b-19f2-d190-7659" type="selectionEntryGroup"/>
+        <entryLink id="b698-c91c-04c4-4ec0" name="武器 of 纪伦" hidden="false" collective="false" import="true" targetId="541f-8308-ce85-6f3d" type="selectionEntryGroup"/>
+        <entryLink id="5b4c-2c28-bf39-b7fe" name="Relics of 纪伦" hidden="false" collective="false" import="true" targetId="692b-77fc-05c5-d070" type="selectionEntryGroup"/>
+        <entryLink id="03c2-028c-05f3-7e1b" name="Relics of 辜尔" hidden="false" collective="false" import="true" targetId="463d-7799-7dca-4724" type="selectionEntryGroup"/>
+        <entryLink id="c34e-037e-4770-d4fc" name="武器 of 辜尔" hidden="false" collective="false" import="true" targetId="9ef0-62f7-ba83-0dab" type="selectionEntryGroup"/>
+        <entryLink id="ca16-6c24-a367-b23f" name="Relics of 阿奎夏" hidden="false" collective="false" import="true" targetId="dff7-19b4-9850-89a7" type="selectionEntryGroup"/>
+        <entryLink id="3e9e-cd54-55b9-b535" name="武器 of 阿奎夏" hidden="false" collective="false" import="true" targetId="f4d9-1997-cea0-5804" type="selectionEntryGroup"/>
+        <entryLink id="8ef1-c77e-a64f-32c9" name="Relics of 查蒙" hidden="false" collective="false" import="true" targetId="302c-ef0b-a9d6-685e" type="selectionEntryGroup"/>
+        <entryLink id="96bb-c7ed-f76f-14fb" name="武器 of 查蒙" hidden="false" collective="false" import="true" targetId="b611-7315-706b-82ef" type="selectionEntryGroup"/>
+        <entryLink id="4aaf-139c-3837-ac1d" name="武器 of 海希" hidden="false" collective="false" import="true" targetId="b7ad-b3d0-d9c3-8cd6" type="selectionEntryGroup"/>
+        <entryLink id="6266-f4be-74ac-9535" name="Relics of 海希" hidden="false" collective="false" import="true" targetId="0823-7018-722c-3bcb" type="selectionEntryGroup"/>
+        <entryLink id="d992-0fe3-4bcc-0506" name="Relics of 煞伊许" hidden="false" collective="false" import="true" targetId="f685-ff72-7c6d-d0f5" type="selectionEntryGroup"/>
+        <entryLink id="509c-7cf5-9abc-9903" name="武器 of 煞伊许" hidden="false" collective="false" import="true" targetId="666d-dbde-1db1-c29c" type="selectionEntryGroup"/>
+        <entryLink id="5e7a-a472-6882-6005" name="Relics of 乌尔枯" hidden="false" collective="false" import="true" targetId="158b-c95d-0272-ca62" type="selectionEntryGroup"/>
+        <entryLink id="b545-af79-b1d1-1721" name="武器 of 乌尔枯" hidden="false" collective="false" import="true" targetId="f33b-19f2-d190-7659" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="541f-8308-ce85-6f3d" name="武器 of Ghyran" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="541f-8308-ce85-6f3d" name="纪伦武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2580,14 +2593,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c719-1b09-bb28-6adf" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="69f0-ec99-78e5-b06a" name="1. Entangling Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="69f0-ec99-78e5-b06a" name="1. 缠绕之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d8d-e8db-1240-e506" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f306-24f5-fc80-aef9" name="Entangling Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="f306-24f5-fc80-aef9" name="缠绕之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Entangling Blade. If the bearer scores 1 or more hits on an enemy 英雄 or 怪兽 with that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase in which the hits were scored.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为缠绕之刃。若装备者用这把武器对敌军英雄或者怪兽造成一个或更多命中，在该阶段那个目标的命中骰子-1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2598,14 +2611,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="54c8-4897-57f2-4500" name="6. Arboreal Stave" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="54c8-4897-57f2-4500" name="6. 林木法杖" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2df3-57f8-b219-e14a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e387-e771-770f-df3f" name="Arboreal Stave" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="e387-e771-770f-df3f" name="林木法杖" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, you can pick an enemy 英雄 within 3寸 of the bearer that is visible to them and roll a dice. On a 5+ that 英雄 cannot make a pile-in move this combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在近战阶段开始时，选择装备者视野3 寸内一个敌方英雄，投D6，5+则其本阶段不能切入</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2616,14 +2629,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1c8a-477f-17b5-5520" name="5. Ghyrstrike" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1c8a-477f-17b5-5520" name="5. 纪伦之击" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ca9-b4e2-30fa-550b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4afd-f2e6-b490-8661" name="Ghyrstrike" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="4afd-f2e6-b490-8661" name="纪伦之击" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Ghyrstrike. Add 1 to hit and wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的武器成为纪伦之击，其命中和造伤+1。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2634,14 +2647,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bb2f-c070-85ff-60eb" name="4. The Sunderblade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bb2f-c070-85ff-60eb" name="4. 碎裂刀锋" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4644-d7bc-62a4-8755" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0a70-7426-d0e2-f62c" name="The Sunderblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="0a70-7426-d0e2-f62c" name="碎裂刀锋" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 6+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，为装备者9 寸内的每个敌方单位投D6，6+受到1 点致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2652,14 +2665,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d7e-107a-1d2d-53c8" name="2. Jadewound Thorn" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1d7e-107a-1d2d-53c8" name="2. 玉伤棘刺" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e04-fbf0-ebd9-51f2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8efc-9cae-f0f0-ee85" name="Jadewound Thorn" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="8efc-9cae-f0f0-ee85" name="玉伤棘刺" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be the Jadewound Thorn. If the hit roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为碎玉棘刺。如果这件武器的命中为6+则该次攻击在原伤害上额外多造成一点致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2670,14 +2683,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="72be-ec0c-894a-fc00" name="3. Blade of Hammerhal Ghyra" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="72be-ec0c-894a-fc00" name="3. 纪伦锤堡之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f79-a08c-e0c5-5f78" type="max"/>
           </constraints>
           <profiles>
-            <profile id="87eb-d74e-a1e9-06fa" name="Blade of Hammerhal Ghyra" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="87eb-d74e-a1e9-06fa" name="纪伦锤堡之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Hammerhal Ghyra. Add 1 to the Attacks characteristic of this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为神锤堡之刃。为其攻击次数+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2690,50 +2703,50 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0d51-8ed8-dcf5-76a0" name="Realm of Origin" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0d51-8ed8-dcf5-76a0" name="位面之源" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f1-eb73-a419-b92e" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0476-58c6-f5ef-f2f3" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2b64-08f8-641d-be66" name="Origin: Ghyran" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2b64-08f8-641d-be66" name="源自: 纪伦" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4c81-5c75-b32a-c854" name="Origin: Ghur" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4c81-5c75-b32a-c854" name="源自: 辜尔" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e938-2bcb-c732-9572" name="Origin: Chamon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e938-2bcb-c732-9572" name="源自: 查蒙" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="804d-fbe5-0759-58ce" name="Origin: Aqshy" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="804d-fbe5-0759-58ce" name="源自: 阿奎夏" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="916b-8d03-321f-4845" name="Origin: Shyish" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="916b-8d03-321f-4845" name="源自: 煞伊许" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="689f-c36d-3382-5eca" name="Origin: Ulgu" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="689f-c36d-3382-5eca" name="源自: 乌尔枯" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="52b1-a41c-c680-c537" name="Origin: Hysh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="52b1-a41c-c680-c537" name="源自: 海希" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="692b-77fc-05c5-d070" name="Relics of Ghyran" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="692b-77fc-05c5-d070" name="纪伦遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2745,14 +2758,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a52-d7d8-ace3-3ce7" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="7730-ae84-c481-cc6c" name="1. Hypersnare Seeds" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7730-ae84-c481-cc6c" name="1. 超魅之种" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6ce-6ea7-f5fe-f036" type="max"/>
           </constraints>
           <profiles>
-            <profile id="07f6-7fa7-96a2-ab12" name="Hypersnare Seeds" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="07f6-7fa7-96a2-ab12" name="超魅之种" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of your opponent’s 射击阶段, pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 5+ that 单位 may not charge in the subsequent charge phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的对手的射击阶段结束时选择装备者视野8 寸的一个敌方单位，投D6，5+则那个单位在接下来的冲锋阶段中无法冲锋。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2763,14 +2776,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="07bb-d221-2a3b-506b" name="6. Wand of Restoration" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="07bb-d221-2a3b-506b" name="6. 恢复魔杖" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ddff-ea79-f1a9-1c3f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f52-e252-90f1-7993" name="Wand of Restoration" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="0f52-e252-90f1-7993" name="恢复魔杖" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, pick a friendly model within 6寸 of the bearer that is visible to them. Heal 1 wound allocated to that model.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段，选择一个装备者视野6 寸内的友方模型，为其回复一点生命值。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2781,14 +2794,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2391-76ae-60e1-9d73" name="5. Ghyrropian Gauntlets" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2391-76ae-60e1-9d73" name="5. 纪伦护手" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1df8-8660-f931-de26" type="max"/>
           </constraints>
           <profiles>
-            <profile id="97ae-8b59-27cd-47b4" name="Ghyrropian Gauntlets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="97ae-8b59-27cd-47b4" name="纪伦护手" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can move an extra 3寸 when making a pile-in move.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者切入时可多移动三寸。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2799,14 +2812,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3c09-25d7-d1dd-588a" name="4. Greenglade Flask" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3c09-25d7-d1dd-588a" name="4. 绿沼之瓶" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b66c-7f8e-871f-59cb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="10d8-dc26-5c81-537c" name="Greenglade Flask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="10d8-dc26-5c81-537c" name="绿沼之瓶" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, the bearer can drink from the Greenglade Flask. If they do, heal D6 wounds allocated to them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果，在你的英雄阶段，装备者喝下瓶中魔药，回复D6 生命值。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2817,14 +2830,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="66c8-af5a-7b1a-992d" name="2. Verdant Mantle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="66c8-af5a-7b1a-992d" name="2. 翠绿斗篷" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3fe-fa5f-053c-607c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b38d-8da2-4b98-14be" name="Verdant Mantle" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="b38d-8da2-4b98-14be" name="翠绿斗篷" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, the bearer may attempt to dispel one 无尽法术 in the same manner as a 法师 . If the bearer is a 法师 , this does not prevent them from casting any spells during this phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段，装备者可如法师一样驱散一个无尽法术，若装备者是法师，则本次驱散不影响其本阶段施法</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2835,14 +2848,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3acc-7b56-47f8-9c73" name="3. Jade Diadem" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3acc-7b56-47f8-9c73" name="3. 青玉宝冠" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4db-6ced-82f1-46aa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d11d-df26-af25-0ff6" name="Jade Diadem" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="d11d-df26-af25-0ff6" name="青玉宝冠" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the unmodified save roll for an attack that targets the bearer is 6, heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每次装备者的保护为未修正的6，回复其一点生命值。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2855,7 +2868,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9ef0-62f7-ba83-0dab" name="武器 of Ghur" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9ef0-62f7-ba83-0dab" name="辜尔武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2867,14 +2880,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3d0-9bc8-6ff6-cded" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="59f0-3391-2b67-5f6f" name="1. Stonehorn Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="59f0-3391-2b67-5f6f" name="1. 石角之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf63-430b-8f5e-a4bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5979-efc9-1495-26a1" name="Stonehorn Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="5979-efc9-1495-26a1" name="石角之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Stonehorn Blade. Roll a dice at the end of any phase in which any wounds were inflicted by that weapon. On a 5+ you can pick an enemy 单位 within 3寸 of the bearer. That 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为石角之刃，在这件武器造成伤害的阶段结束时，投D6，5+则你可以选择装备者3 寸内的一个敌方单位受到D3 致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2885,14 +2898,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="82f7-06d7-505d-320c" name="6. Rockjaws" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="82f7-06d7-505d-320c" name="6. 岩石蛮颚" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04ad-2173-dcf9-8033" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1475-454d-4ebe-654e" name="Rockjaws" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="1475-454d-4ebe-654e" name="岩石蛮颚" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer that is visible to them and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，你可以选择一个装备者8 寸内可见的敌方单位，投D6，3+则那个单位受到D3 致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2903,14 +2916,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="efd0-3f4d-7378-7685" name="5. Rageblade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="efd0-3f4d-7378-7685" name="5. 狂怒之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77d7-2719-3825-ec96" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd7f-43a8-2330-ecc0" name="Rageblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="bd7f-43a8-2330-ecc0" name="狂怒之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Rageblade. Add 1 to the attacks characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为狂怒之刃。这件武器攻击次数+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2921,14 +2934,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="da04-d621-d130-6fe3" name="4. Blade of Carving" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="da04-d621-d130-6fe3" name="4. 解肉刀刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53a1-be5a-cc2b-52df" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a085-d9fc-4c50-ef31" name="Blade of Carving" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="a085-d9fc-4c50-ef31" name="解肉刀刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Carving. If a hit roll for an attack with this weapon is 6+ the wound roll for that attack is automatically successful.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为解肉刀刃。若这件武器命中为6+则造伤自动成功。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2939,14 +2952,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f6fb-6bfa-ba52-33c7" name="2. Anraheir&apos;s Claw" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f6fb-6bfa-ba52-33c7" name="2. 安拉海尔之爪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5bb-1d41-ae77-67a4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6732-0f63-f666-6932" name="Anraheir&apos;s Claw" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="6732-0f63-f666-6932" name="安拉海尔之爪" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Anraheirs’s Claw. If the wound roll for that weapon is 6+ add 2 to the Damage characteristic of that weapon for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为安拉海尔之爪，若其造伤为6+则伤害+2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2957,14 +2970,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="aff9-0ce2-3166-5e59" name="3. Amberglaive" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aff9-0ce2-3166-5e59" name="3. 琥珀长刀" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="96d1-33fb-55f6-a0b9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7c3d-188b-a685-d7dd" name="Amberglaive" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="7c3d-188b-a685-d7dd" name="琥珀长刀" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Amberglaive. Add 1寸 to the Range characteristic of that weapon (to a maximum of 3寸). In addition, add 1 to hit rolls for that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为琥珀长刀。为其攻击范围和命中各+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2977,7 +2990,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="463d-7799-7dca-4724" name="Relics of Ghur" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="463d-7799-7dca-4724" name="辜尔遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2989,14 +3002,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5940-4140-d3d3-ab11" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="66d3-8efa-52b7-22c2" name="1. Beastcaller&apos;s Bones" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="66d3-8efa-52b7-22c2" name="1. 唤兽者之骨" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f80a-af57-50cf-5e1d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="73e1-9ac6-3ab2-9103" name="Beastcaller&apos;s Bones" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="73e1-9ac6-3ab2-9103" name="唤兽者之骨" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, roll a dice for each 怪兽 within 3寸 of the bearer. On a 5+ the 怪兽 being rolled for cannot attack this phase. If the 怪兽 is a mount, the rider may still attack with their own 武器 as normal.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在近战阶段开始时，为每个装备者三寸内的怪兽投D6，5+则那个怪兽不能攻击，如果怪兽为坐骑，则骑手仍可以攻击。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3007,14 +3020,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b620-c40f-1d1c-0f1b" name="6. Tuskhelm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b620-c40f-1d1c-0f1b" name="6. 尖牙头盔" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a8d-ceab-9559-733e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="336b-2f8f-56b8-f5ff" name="Tuskhelm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="336b-2f8f-56b8-f5ff" name="尖牙头盔" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice for each enemy 单位 within 1寸 of the bearer after the bearer completes a charge move. On a 4+ the 单位 being rolled for suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者冲锋后，为每个位于其1 寸内的敌方单位投D6，4+受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3025,14 +3038,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="618d-f9ee-ab56-a4e9" name="5. Shardfist Pelt" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="618d-f9ee-ab56-a4e9" name="5. 碎拳毛皮" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c23-d223-917e-6c4e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9adf-c38a-2a1b-2d13" name="Shardfist Pelt" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="9adf-c38a-2a1b-2d13" name="碎拳毛皮" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time you make a save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在近战阶段，每次装备者的保护投出6+，所有攻击结算之后那个攻击单位受到1点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3043,14 +3056,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c5d7-e7c4-b337-6e7e" name="4. Gargant-bone Dice" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c5d7-e7c4-b337-6e7e" name="4. 巨人骨骰" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a87a-9f06-0158-e674" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e127-3966-4632-879b" name="Gargant-bone Dice" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="e127-3966-4632-879b" name="巨人骨骰" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 英雄阶段, you can declare that the bearer will roll their Gargant-bone Dice. If you do so, roll three dice. For each roll of a 5+ each enemy 单位 within 6寸 of the bearer suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果，在你的英雄阶段，你可以宣布装备者投掷巨人骨骰，若如此，投3个骰子，每个5+使装备者6 寸内的敌方单位受到D3 致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3061,14 +3074,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="de85-aed2-1790-61d5" name="2. Drakeforged Plate" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="de85-aed2-1790-61d5" name="2. 龙铸战甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8cca-3474-bf8a-3528" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f5e-cd66-e51d-3710" name="Drakeforged Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="0f5e-cd66-e51d-3710" name="龙铸战甲" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll save rolls of 1 for the bearer against attacks that have a random Damage characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">为伤害值为随机的攻击重投为1 的保护。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3079,14 +3092,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4501-c14b-1eff-9f70" name="3. Gryph-feather Charm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4501-c14b-1eff-9f70" name="3. 鹫羽魔饰" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dee-6d40-df13-c28e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bd37-7c2e-fe55-314e" name="Gryph-feather Charm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="bd37-7c2e-fe55-314e" name="鹫羽魔饰" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks that target the bearer. In addition, add 1寸 to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">对装备者的攻击-1 命中，装备者移动+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3099,7 +3112,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="302c-ef0b-a9d6-685e" name="Relics of Chamon" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="302c-ef0b-a9d6-685e" name="查蒙遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3111,14 +3124,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abf1-8434-c8fc-1e30" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="eee1-fd9e-9a24-be79" name="1. Gildenbane" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eee1-fd9e-9a24-be79" name="1. 鎏金灾祸" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dc0-356e-ed39-b1c5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f1af-fc4b-0e18-82f1" name="Gildenbane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="f1af-fc4b-0e18-82f1" name="鎏金灾祸" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If an enemy model is the bearer of an 魔法道具 of power, they cannot use the rules for their 魔法道具 of power while they are within 3寸 of the bearer of Gildenbane.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者三寸的敌方模型的神器无效</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3129,14 +3142,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1188-3b82-444f-9457" name="6. Alchemical Chain" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1188-3b82-444f-9457" name="6. 炼金锁链" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3516-d49f-2a49-1eba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8aac-bf2d-7064-bea6" name="Alchemical Chain" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="8aac-bf2d-7064-bea6" name="炼金锁链" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can attempt to unbind a single 法术 in each enemy 英雄阶段 in the same manner as a 法师 . If the bearer is already a 法师 , they can attempt to unbind 1 additional 法术 instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者可在敌方英雄阶段如同法师一样破法。若装备者为法师，则可以额外破法一次</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3147,14 +3160,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1456-df51-b3d0-8ec5" name="5. Bejeweled Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1456-df51-b3d0-8ec5" name="5. 宝石护手" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a64-51c1-30b8-16bf" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6c8b-0efe-002c-ab0a" name="Bejeweled Gauntlet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="6c8b-0efe-002c-ab0a" name="宝石护手" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the end of the combat phase, pick an enemy 单位 within 1寸 of the bearer and roll a dice. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">近战阶段结束时，选择一个装备者1 寸内的敌方单位，投D6，3+则那个单位受到1 点致命伤害（只受一点伤害）</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3165,14 +3178,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="67a6-2298-7df0-9ec1" name="4. Godwrought Helm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="67a6-2298-7df0-9ec1" name="4. 神铸头盔" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8bc-3159-ffef-5722" type="max"/>
           </constraints>
           <profiles>
-            <profile id="681d-11ee-2651-fc0c" name="Godwrought Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="681d-11ee-2651-fc0c" name="神铸头盔" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每次装备者受到1 点非致命伤害，投D6，6+则无视那点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3183,14 +3196,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f715-2087-6630-b11e" name="2. Argent Armor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f715-2087-6630-b11e" name="2. 亮银铠甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad1a-d53f-d829-3f08" type="max"/>
           </constraints>
           <profiles>
-            <profile id="daff-8374-2b48-a90f" name="Argent Armor" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="daff-8374-2b48-a90f" name="亮银铠甲" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks for 肉搏 武器 that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">对装备者的近战攻击命中-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3201,14 +3214,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9c7b-05ba-1d3a-caff" name="3. Hydroxskin Cloak" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9c7b-05ba-1d3a-caff" name="3. 龙皮斗篷" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b32e-2ae8-af9a-0a2e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="edc9-b33c-3caf-0e93" name="Hydroxskin Cloak" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="edc9-b33c-3caf-0e93" name="龙皮斗篷" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">The bearer can fly. After the bearer has made a normal move, you can pick 1 单位 that has any models that the bearer has passed across and roll a dice. On a 3+ that 单位 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者可以飞行，在移动之后可选择装备者经过的一个单位，投D6，3+则那个单位受到D3 致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3221,7 +3234,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b611-7315-706b-82ef" name="武器 of Chamon" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="b611-7315-706b-82ef" name="查蒙武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3233,14 +3246,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3157-7da8-f48f-d724" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="af2e-9e84-098a-4219" name="1. Aiban&apos;s Hidden Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="af2e-9e84-098a-4219" name="1. 埃班隐刀" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53c8-48d5-f4a9-3737" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ec22-73f5-abca-9fee" name="Aiban&apos;s Hidden Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="ec22-73f5-abca-9fee" name="埃班隐刀" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Aiban’s Hidden Blade. If the hit roll for that weapon is 6+ add 1 to the Damage characteristic of that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为埃班隐刀。若命中为6+则该次攻击伤害+1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3251,14 +3264,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2922-c584-6fa1-1c16" name="6. Argentine&apos;s Tooth" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2922-c584-6fa1-1c16" name="6. 闪银之牙" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a91-11c8-c268-0ff1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1cd0-e539-5fe9-3c0f" name="Argentine&apos;s Tooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="1cd0-e539-5fe9-3c0f" name="闪银之牙" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Argentine’s Tooth. Re-roll hit rolls of 1 for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选一件装备者的武器成为闪银之牙。这把武器可以重投为1 的命中</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3269,14 +3282,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="faa8-f0c4-277f-a544" name="5. Chamonite Darts" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="faa8-f0c4-277f-a544" name="5. 金石标枪" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4d5-934d-7410-dca3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dac3-1f3f-5859-60ff" name="Chamonite Darts" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="dac3-1f3f-5859-60ff" name="金石标枪" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，选择装备者8 寸内的一个敌方单位投6D6，每个6+那个单位受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3287,14 +3300,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="995a-e41e-8588-5b77" name="4. Crucible of Molten Silver" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="995a-e41e-8588-5b77" name="4. 熔银坩埚" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b67-5020-6474-8226" type="max"/>
           </constraints>
           <profiles>
-            <profile id="97d2-ab76-2365-b932" name="Crucible of Molten Silver" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="97d2-ab76-2365-b932" name="熔银坩埚" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, in your 射击阶段, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果。在你的射击阶段，选择装备者9 寸内可见的一个点，在点与装备者之间画一条线，线经过的单位受到D3 致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3305,14 +3318,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6910-46ba-6955-6476" name="2. Flowstone Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6910-46ba-6955-6476" name="2. 流石之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a337-5148-0b5a-d20f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8f69-2c69-046d-e4d9" name="Flowstone Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="8f69-2c69-046d-e4d9" name="流石之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Flowstone Blade. Each time you roll a hit roll of 6+ for this weapon, add 1 to the wound roll for that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为流石之刃。若命中为6+则造伤+1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3323,14 +3336,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fbd5-a623-b866-a1cd" name="3. Rune Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fbd5-a623-b866-a1cd" name="3. 符文之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9de7-644a-9097-85a2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac94-fe36-5248-e9db" name="Rune Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="ac94-fe36-5248-e9db" name="符文之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Rune Blade. That weapon has a Rend characteristic of -3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为符文之刃。那把武器破甲为-3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3343,7 +3356,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f4d9-1997-cea0-5804" name="武器 of Aqshy" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f4d9-1997-cea0-5804" name="阿奎夏武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3355,14 +3368,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e7-5acd-c1e6-fd69" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="8cb1-9a2d-bdbc-139f" name="1. Ruby Ring" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8cb1-9a2d-bdbc-139f" name="1. 红宝石指环" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7948-5d93-5f5c-3d50" type="max"/>
           </constraints>
           <profiles>
-            <profile id="93d9-7128-bb82-235f" name="Ruby Ring" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="93d9-7128-bb82-235f" name="红宝石指环" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 英雄阶段, you can pick the closest enemy 单位 within 18寸 of the bearer and roll a dice. On a 5+ that 单位 suffers D3 mortal wounds. If two or more enemy units are equally close to the bearer, you can pick any of them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的英雄阶段，选择一个离装备者最近的敌方单位，投D6，5+则那个单位受到D3 致命伤害，若有多个单位同时离装备者最近，则你可以选择任意一个</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3373,14 +3386,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="58c5-5363-e6df-18a7" name="6. Exile Torch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="58c5-5363-e6df-18a7" name="6. 放逐火炬" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b873-a40d-66bf-800b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fee8-91fb-5c1a-3af6" name="Exile Torch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="fee8-91fb-5c1a-3af6" name="放逐火炬" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">At the start of the combat phase, pick an enemy 英雄 within 3寸 of the bearer and roll a dice. On a 6+ that 英雄 suffers 1 mortal wound and may not fight or be chosen as the target of an attack until the end of the turn.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在近战阶段开始时，选择一个装备者3 寸内的敌方英雄，投D6，6+则那个英雄受到1 点致命伤害且不能攻击也不能被选为攻击对象直到回合结束</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3391,14 +3404,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3060-6f01-f57d-ea2e" name="5. Onyx Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3060-6f01-f57d-ea2e" name="5. 玛瑙战刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3f5-34e3-6135-d2de" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cb07-b23f-91f9-48a7" name="Onyx Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="cb07-b23f-91f9-48a7" name="玛瑙战刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be an Onyx Blade. Add 1 to wound rolls for that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为玛瑙战刃。这把武器造伤+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3409,14 +3422,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="083a-22af-c049-0c9a" name="4. Purefire Brazier" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="083a-22af-c049-0c9a" name="4. 纯火焊炉" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d569-06e0-0031-e678" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5d56-f515-1091-90e8" name="Purefire Brazier" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="5d56-f515-1091-90e8" name="纯火焊炉" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, roll a dice for each enemy 单位 within 9寸 of the bearer. On a 5+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，为装备者9 寸内的每一个敌方单位投D6，5+则受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3427,14 +3440,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="98ab-afd6-284a-e71f" name="2. Magmaforged Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="98ab-afd6-284a-e71f" name="2. 岩浆战刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d294-9fe2-5efd-8832" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fbdb-35e7-6e56-ee1c" name="Magmaforged Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="fbdb-35e7-6e56-ee1c" name="岩浆战刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Magmaforged Blade. If the wound roll for that weapon is 6+ that attack inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为岩浆战刃。如果这件武器的造伤为6+则该次攻击在原伤害上额外多造成一点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3445,14 +3458,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6c58-255e-26d4-7017" name="3. 熔岩龙蜥 Blood Vials" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6c58-255e-26d4-7017" name="3. 龙血药剂" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce16-cc51-f797-fc89" type="max"/>
           </constraints>
           <profiles>
-            <profile id="14b4-4b1b-7b05-c9c5" name="熔岩龙蜥 Blood Vials" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="14b4-4b1b-7b05-c9c5" name="龙血药剂" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll a dice. On a 4+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，你可以选择装备者8 寸内的一个敌方单位投D6，4+则那个单位受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3465,7 +3478,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dff7-19b4-9850-89a7" name="Relics of Aqshy" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="dff7-19b4-9850-89a7" name="阿奎夏遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3477,14 +3490,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a2b-0c1a-55a2-1130" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c17a-4a8a-0041-6aa4" name="1. Essence of Vulcatrix" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c17a-4a8a-0041-6aa4" name="1. 沃卡翠克精华" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b558-0ae0-a88e-a88d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3285-b445-7ff8-02eb" name="Essence of Vulcatrix" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="3285-b445-7ff8-02eb" name="沃卡翠克精华" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer may drink the Essence of Vulcatrix. If they do so, roll a dice. On a 1, the bearer suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the bearer until your next 英雄阶段.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果，在你的英雄阶段开始，装备者可饮下沃卡翠克的精华，投D6，为1则装备者受到D3 致命伤害，为2+则装备者获得+1 命中和造伤，直到下个你的英雄阶段</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3495,14 +3508,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5e6b-a904-d91c-5cd9" name="6. Cleansing Brooch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5e6b-a904-d91c-5cd9" name="6. 净化胸章" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eccf-b2b8-03bc-dc64" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3fb7-1565-42eb-b97f" name="Cleansing Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="3fb7-1565-42eb-b97f" name="净化胸章" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, you may declare that the bearer will activate the brooch. If you do so, heal D3 wounds allocated to them.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果，在你的英雄阶段使用此神器，装备者恢复D3 生命值</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3513,14 +3526,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e304-52a2-d708-c8ed" name="5. Crown of Flames" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e304-52a2-d708-c8ed" name="5. 烈焰王冠" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc61-0a36-9831-afa0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2bf3-ec82-8dd2-cc1f" name="Crown of Flames" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="2bf3-ec82-8dd2-cc1f" name="烈焰王冠" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 1 to the Bravery characteristic of friendly units while they are wholly within 9寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">所有完全位于装备者9 寸内的友方单位+1 士气</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3531,14 +3544,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c2ec-ef72-e71e-14d3" name="4. Ignax&apos;s Scales" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c2ec-ef72-e71e-14d3" name="4. 伊格纳斯之鳞" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="923b-53a1-4c44-e763" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8bd6-b3bc-010b-bed5" name="Ignax&apos;s Scales" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="8bd6-b3bc-010b-bed5" name="伊格纳斯之鳞" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每次装备者受到一点致命伤害，投D6，4+则无视那点致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3549,14 +3562,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2796-36b9-60fc-24f5" name="2. Thermalrider Cloak" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2796-36b9-60fc-24f5" name="2. 热航者斗蓬" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3c1-1961-4182-32b8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ea0e-bc83-fe89-0e82" name="Thermalrider Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="ea0e-bc83-fe89-0e82" name="热航者斗蓬" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 4 to the bearer’s Movement characteristic. In addition, the bearer may fly.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者移动+4 且可以飞行</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3567,14 +3580,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cf45-f3d5-d8db-f702" name="3. Smouldering Helm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cf45-f3d5-d8db-f702" name="3. 阴燃头盔" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f542-d148-4014-35b5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="26e5-1179-3359-2812" name="Smouldering Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="26e5-1179-3359-2812" name="阴燃头盔" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time you make a successful save roll of 6+ for the bearer in the combat phase, the attacking 单位 suffers 1 mortal wound after all of its attacks have been made.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在近战阶段，每次装备者的保护为6+，所有攻击结算之后那个攻击单位受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3587,7 +3600,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f685-ff72-7c6d-d0f5" name="Relics of Shyish" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f685-ff72-7c6d-d0f5" name="煞伊许遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3599,14 +3612,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5cf-8707-c545-4378" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="6b68-0515-abda-2f10" name="1. Cronehair Fetish" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6b68-0515-abda-2f10" name="1. 枯发神像" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4e7-b413-ab20-71ee" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8a2a-4de2-c167-4df5" name="Cronehair Fetish" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="8a2a-4de2-c167-4df5" name="枯发神像" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can add or subtract 1 from the result of any roll on the Shyish Realmscape Features table.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在沙许地形版上你可以为任意一颗骰子+1 或-1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3617,14 +3630,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9329-b3ee-9346-c9f8" name="6. Goblet of Draining" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9329-b3ee-9346-c9f8" name="6. 流逝圣杯" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32db-c91f-34ca-cf2b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4aeb-19ce-6f47-c88d" name="Goblet of Draining" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="4aeb-19ce-6f47-c88d" name="流逝圣杯" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If 1 or more wounds are inflicted on an enemy 英雄 by the bearer, roll a dice. On a 5+ that 英雄 suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">若装备者对敌方英雄造成了1 点或更多伤害，投D6，5+则敌方英雄受到D3 致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3635,14 +3648,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5202-af59-260c-df5a" name="5. The Ragged Cloak" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5202-af59-260c-df5a" name="5. 破败斗篷" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd3d-a3e5-402e-1f4b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c5e0-bf9f-2d10-bcd4" name="The Ragged Cloak" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="c5e0-bf9f-2d10-bcd4" name="破败斗篷" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your opponent’s 射击阶段, you can declare that bearer will shroud themselves with the Ragged Cloak. If you do so, the bearer may not be chosen as the target of an attack until the end of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果，在你对手的射击阶段，装备者可宣布披上斗篷，如此则不能被选为射击目标直到回合结束。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3653,14 +3666,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5e4b-90f7-6a80-6ac2" name="4. Amethyst Blindmask" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5e4b-90f7-6a80-6ac2" name="4. 紫晶面罩" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a42a-d543-7398-6aa4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8fb6-5c3f-3567-f7fd" name="Amethyst Blindmask" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="8fb6-5c3f-3567-f7fd" name="紫晶面罩" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of the bearer. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者阵亡时，为3 寸内每个敌方单位投D6，3+则受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3671,14 +3684,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="49a7-5b8c-27ca-ee12" name="2. Ethereal Amulet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="49a7-5b8c-27ca-ee12" name="2. 虚无神符" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae7a-c769-9010-9310" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c780-531f-252f-5a02" name="Ethereal Amulet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="c780-531f-252f-5a02" name="虚无神符" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Ignore modifiers (positive or negative) when making save rolls for this model.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者投掷保护时无视所有修正。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3689,14 +3702,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7df7-3cb3-327b-c146" name="3. Sepulchral Plate" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7df7-3cb3-327b-c146" name="3. 葬仪铠甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80bc-615a-4652-6901" type="max"/>
           </constraints>
           <profiles>
-            <profile id="52b5-d07d-09f9-e305" name="Sepulchral Plate" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="52b5-d07d-09f9-e305" name="葬仪铠甲" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每次装备者受到1 点非致命伤害，投D6，6+则无视那点伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3709,7 +3722,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="666d-dbde-1db1-c29c" name="武器 of Shyish" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="666d-dbde-1db1-c29c" name="煞伊许武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3721,14 +3734,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca0-933d-8985-a3d1" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="bbde-9daa-cdcd-4335" name="1. Blade of Endings" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bbde-9daa-cdcd-4335" name="1. 终焉之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="28f0-483d-e8ee-4315" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c842-d02d-a8f6-a676" name="Blade of Endings" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="c842-d02d-a8f6-a676" name="终焉之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Endings. If the hit roll for that weapon is 6+ add 2 to the Damage characteristic of that attack.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为终焉之刃。这把武器的命中为6+时伤害+2。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3739,14 +3752,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="75c6-4c80-702f-bb3c" name="6. Splintertooth" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="75c6-4c80-702f-bb3c" name="6. 碎裂尖牙" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3722-e8b0-62f1-c62a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="94d7-9348-e0d0-6957" name="Splintertooth" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="94d7-9348-e0d0-6957" name="碎裂尖牙" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, pick an enemy 单位 within 8寸 of the bearer and roll three dice. If two dice have the same roll, that enemy 单位 suffers D3 mortal wounds. If all three dice have the same roll, that enemy 单位 suffers D6 mortal wounds instead.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，选择一个装备者8 寸内的敌方单位，投3D3，若有两个相同，那个单位受到D3 致命伤害，三个相同则为D6 致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3757,14 +3770,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6f88-548f-0fc1-3a08" name="5. Wraithbow" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6f88-548f-0fc1-3a08" name="5. 巫灵之弓" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="849c-cf96-7783-4fa3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f786-d277-8f65-aca1" name="Wraithbow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="f786-d277-8f65-aca1" name="巫灵之弓" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, pick an enemy 单位 within 18寸 of the bearer and roll six dice. For each 6+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，选择一个装备者18 寸内的敌方单位，投6D6，每个6+那个单位受到1 点致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3775,14 +3788,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="86c2-d74e-9264-40c4" name="4. Sliver of Decrepitude" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="86c2-d74e-9264-40c4" name="4. 衰朽银刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aabb-d75f-6baa-692d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fc9e-5278-ce47-398d" name="Sliver of Decrepitude" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="fc9e-5278-ce47-398d" name="衰朽银刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sliver of Decrepitude. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds by that weapon are inflicted on an enemy 英雄 or 怪兽 , subtract 2寸 from that 英雄 or 怪兽 ’s Move characteristic for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成衰朽银刃。装备者攻击时，优先结算这把武器造成的伤害。若这把武器对敌方英雄或怪兽造成1 点或更多伤害，那个英雄或怪兽在接下来的游戏中-2 移动</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3793,14 +3806,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1002-e26a-a6a2-9f8c" name="2. Banshee Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1002-e26a-a6a2-9f8c" name="2. 女妖刀锋" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="06f1-ef91-b955-bf2f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f03a-98cd-4056-e1ce" name="Banshee Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="f03a-98cd-4056-e1ce" name="女妖刀锋" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Banshee Blade. Each time you roll a hit roll of 6+ for this weapon, roll 2D6. If the roll is equal to or more than the target’s Bravery characteristic, that attack inflicts D3 mortal wounds in addition to its normal damage.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为女妖刀锋。每次这把武器的命中为6+，投2D6，若大于目标的勇气值，目标额外受到D3 致命伤害</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3811,14 +3824,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d73f-b922-f27d-6d81" name="3. Lifebane" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d73f-b922-f27d-6d81" name="3. 生灵之灾" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8702-02cc-eda1-d0fa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="537a-251e-b855-960b" name="Lifebane" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="537a-251e-b855-960b" name="生灵之灾" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be Lifebane. Add 1 to wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为生灵之灾。这把武器造伤+1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3831,7 +3844,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f33b-19f2-d190-7659" name="武器 of Ulgu" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f33b-19f2-d190-7659" name="乌尔枯武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3843,14 +3856,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb80-35de-3725-ec5a" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="3b97-d4bb-f1ed-9b53" name="1. Miasmatic Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3b97-d4bb-f1ed-9b53" name="1. 迷雾之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="40f8-9a63-59a7-81ad" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c013-997e-c57b-0567" name="Miasmatic Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="c013-997e-c57b-0567" name="迷雾之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Miasmatic Blade. Subtract 1 from hit rolls for attacks that target the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为迷雾之刃。对装备者的攻击命中-1。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3861,14 +3874,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="503a-423c-b819-0463" name="6. Sword of Judgement" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="503a-423c-b819-0463" name="6. 审判之剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a6f-4fb0-8c72-e199" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9c5c-9a42-9b6e-b026" name="Sword of Judgement" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="9c5c-9a42-9b6e-b026" name="审判之剑" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sword of Judgement. If the hit roll for an attack with that weapon against a 英雄 or 怪兽 is 6+, that attack inflicts D6 mortal wounds and the attack sequence ends (do not make a wound or save roll).</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为审判之剑。若这把武器对英雄或怪兽的攻击命中为6+，则此次攻击造成D6 致命伤害且攻击结束（不投造伤和保护）。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3879,14 +3892,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e6f8-0cdc-df85-fd8a" name="5. Dimensional Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e6f8-0cdc-df85-fd8a" name="5. 次元之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc65-1f01-0530-d9cb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9671-85c4-632c-b37c" name="Dimensional Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="9671-85c4-632c-b37c" name="次元之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Dimensional Blade. Change the Rend characteristic of this weapon to -3.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为次元之刃。这把武器破甲变为-3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3897,14 +3910,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4607-16be-833e-c760" name="4. Blade of Secrets" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4607-16be-833e-c760" name="4. 奥秘之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d35a-d4cf-c376-4db3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1408-0bfe-b262-29a0" name="Blade of Secrets" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="1408-0bfe-b262-29a0" name="奥秘之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Secrets. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 法师 by that weapon, pick one 法术 that 法师 knows. That 法师 may not attempt to cast that 法术 again during that battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为奥秘之刃。优先计算这把武器造成的伤害。若这把武器对敌方法师造成一点或更多伤害，选择让敌方法师遗忘其所知的一个法术。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3915,14 +3928,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7b75-945d-f1ee-28af" name="2. Blade of the Thirteen Dominions" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7b75-945d-f1ee-28af" name="2. 十三国度之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="104f-1d3d-e5de-7ce9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="211b-014f-0519-3057" name="Blade of the Thirteen Dominions" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="211b-014f-0519-3057" name="十三国度之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of the Thirteen Dominions. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, subtract 1 from hit rolls for attacks made by that 单位 until the end of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为十三界之刃。优先计算这把武器造成的伤害，若这把武器对敌方单位造成一点或更多伤害，则受伤的敌方单位本阶段攻击命中-1。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3933,14 +3946,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2a9a-55aa-0422-eabf" name="3. Blade of Folded Shadow" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2a9a-55aa-0422-eabf" name="3. 多重暗影之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6bc-f64f-e52f-1c6a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cc98-df0e-8937-08cf" name="Blade of Folded Shadow" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="cc98-df0e-8937-08cf" name="多重暗影之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Folded Shadows. Add 1 to hit rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择一件装备者的近战武器成为多重暗影之刃。这把武器命中+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3953,7 +3966,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="158b-c95d-0272-ca62" name="Relics of Ulgu" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="158b-c95d-0272-ca62" name="乌尔枯遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3965,14 +3978,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e82f-9be2-4b51-34ea" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="37a9-a1d5-b66f-fb9e" name="1. Spellmirror" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="37a9-a1d5-b66f-fb9e" name="1. 法术透镜" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b8f-5a62-0312-2c50" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b5ec-7501-6226-de38" name="Spellmirror" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="b5ec-7501-6226-de38" name="法术透镜" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If a friendly 单位 within 6寸 of the bearer is affected by a 法术, you can roll a dice. On a 5+ that 单位 is not affected by the 法术. On a 1 the Spellmirror may not be used for the rest of the battle.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">当装备者6 寸内一个友方单位受到法术影响时，你可以投D6，若为5+，则那个友方单位不受法术效果影响，若为1，则这个神器永久失效</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3983,14 +3996,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fd17-d428-7cc8-0c87" name="6. Talisman of the Watcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fd17-d428-7cc8-0c87" name="6. 守望者神符" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f45d-b9e4-878a-d641" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d17f-c2f2-b06b-e153" name="Talisman of the Watcher" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="d17f-c2f2-b06b-e153" name="守望者神符" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is not within 3寸 of an enemy 单位 at the start of the combat phase, pick a friendly 单位 within 9寸 of the bearer. You can re-roll save rolls of 1 for that 单位 until the end of that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">若近战阶段开始时装备者3 寸内没有敌方模型，则本阶段装备者可以重投保护的1。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4001,14 +4014,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7e05-cd53-def8-b5a2" name="5. Betrayer&apos;s Crown" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7e05-cd53-def8-b5a2" name="5. 背叛者之冠" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8658-708c-2c8f-d114" type="max"/>
           </constraints>
           <profiles>
-            <profile id="03b7-b8e8-9cd0-04f2" name="Betrayer&apos;s Crown" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="03b7-b8e8-9cd0-04f2" name="背叛者之冠" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, pick an enemy 单位 within 3寸 of the bearer that has two or more models. Roll a dice for each model in that enemy 单位. For each 5+ that enemy 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果。近战阶段开始时，选择一个装备者3 寸内的有2+模型的敌方单位，为其中每个模型投D6，每个5+，敌方单位受到一点致命伤。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4019,14 +4032,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e23f-4a06-14f5-f374" name="4. Doppelganger Cloak" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e23f-4a06-14f5-f374" name="4. 幽灵斗篷" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73f4-9623-bf27-6e0f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7da8-f3cc-2a76-58ac" name="Doppelganger Cloak" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="7da8-f3cc-2a76-58ac" name="幽灵斗篷" publicationId="e51d-b1a3-pubETJDK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can say that the bearer will put on the cloak. If you do so, the bearer cannot be chosen as the target of attacks made with 肉搏 武器 unless the bearer has made any attacks earlier in that phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果。装备者没有在近战阶段攻击过时，不能被选为近战攻击目标。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4037,14 +4050,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2aed-d3ae-5042-05a6" name="2. Trickster&apos;s Helm" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2aed-d3ae-5042-05a6" name="2. 诡术师头盔" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="195f-2405-c56f-14b3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f5cb-68c4-4298-578d" name="Trickster&apos;s Helm" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="f5cb-68c4-4298-578d" name="诡术师头盔" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Re-roll successful casting rolls for enemy WIZARDS while they are within 8寸 of the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者8 寸内的敌方法师必须重投成功的施法。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4055,14 +4068,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c658-8a97-884c-f03d" name="3. Wristbands of Illusion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c658-8a97-884c-f03d" name="3. 幻术手环" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="76ea-e727-dc73-5706" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ac19-7456-e50e-e378" name="Wristbands of Illusion" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="ac19-7456-e50e-e378" name="幻术手环" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a wound to the bearer. On a 6+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每当装备者受到一点非致命伤害，投D6，6+则无视那点伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4075,7 +4088,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0823-7018-722c-3bcb" name="Relics of Hysh" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0823-7018-722c-3bcb" name="海希遗物" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -4087,14 +4100,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3706-a482-187c-1677" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="aca2-8b74-8482-75ab" name="1. Atherquartz Brooch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aca2-8b74-8482-75ab" name="1. 以太石英胸针" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2867-20b7-9e06-73f1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6509-98f3-7470-cf89" name="Atherquartz Brooch" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="6509-98f3-7470-cf89" name="以太石英胸针" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Each time you spend a command point, roll a dice. On a 5+ you receive 1 command point.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每当你使用一点指挥点数，投D6，5+则回复一点指挥点数。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4105,14 +4118,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="11cc-f63e-bf15-ce1e" name="6. Sash of the Ten Paradises" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="11cc-f63e-bf15-ce1e" name="6. 十重天堂腰带" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fe7-29a8-88f4-39c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="535b-e357-2fa2-64d2" name="Sash of the Ten Paradises" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="535b-e357-2fa2-64d2" name="十重天堂腰带" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 2寸 to the bearer’s Move characteristic.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者移动+2.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4123,14 +4136,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="056e-659f-8866-c36e" name="5. Guardian&apos;s Coronet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="056e-659f-8866-c36e" name="5. 守护者之冠" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6e2-8cd0-5c27-d633" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c510-7073-87cb-e034" name="Guardian&apos;s Coronet" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="c510-7073-87cb-e034" name="守护者之冠" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of your 英雄阶段, the bearer can call upon the guardian spirits. If they do so, until your next 英雄阶段, roll a dice each time you allocate a wound to the bearer. On a 4+ the wound is negated.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果，在你的英雄阶段开始时使用。每当装备者受到一点非致命伤害，投D6，4+则无视那点伤害，效果持续到你的下个英雄阶段。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4141,14 +4154,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7b85-1d3a-a8ef-710f" name="4. Lightshard" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7b85-1d3a-a8ef-710f" name="4. 光明残片" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="efde-839b-e586-88b1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d99f-8005-1a6e-1c64" name="Lightshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="d99f-8005-1a6e-1c64" name="光明残片" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">If the bearer is slain, before removing the model, roll a dice for each enemy 单位 within 6寸 of them. On a 3+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者被消灭时，移除模型之前，为装备者6 寸内每个敌方单位投D6，3+则对应单位受到一点致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4159,14 +4172,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bb14-f48b-91ca-089e" name="2. Lens of Refraction" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bb14-f48b-91ca-089e" name="2. 反射透镜" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dbce-b3dc-1775-f2c9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="04d2-fb64-23c3-6aa9" name="Lens of Refraction" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="04d2-fb64-23c3-6aa9" name="反射透镜" publicationId="e51d-b1a3-pubEFCFK" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle round, the first time a friendly 单位 within 6寸 of the bearer suffers any mortal wounds inflicted by a 法术 or 无尽法术, roll a D3 and reduce the number of mortal wounds suffered by the roll.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一个轮次一次，每当6 寸内友方单位受到敌方法师的法术伤害，那个伤害减少D3点。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4177,14 +4190,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2d9b-887b-232e-3955" name="3. Mirrored Curiass" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2d9b-887b-232e-3955" name="3. 反射镜胸甲" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69a3-788a-6fc9-64ba" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d743-5950-4bec-bf00" name="Mirrored Curiass" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="d743-5950-4bec-bf00" name="反射镜胸甲" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Roll a dice each time you allocate a mortal wound to the bearer. On a 5+ the wound is negated. On a 6+ you can also pick an enemy 单位 within 6寸 of the bearer. That 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">每当装备者受到一点致命伤害，投D6，5+则无视那点致命伤害，若为6+，则还可以选择装备者6 寸内一个敌方单位受到一点致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4197,7 +4210,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b7ad-b3d0-d9c3-8cd6" name="武器 of Hysh" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="b7ad-b3d0-d9c3-8cd6" name="海希武器" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -4209,14 +4222,14 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5986-6cc3-20c9-07ab" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="44cd-7d35-8aa2-fe5b" name="1. Blade of Symmetry" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="44cd-7d35-8aa2-fe5b" name="1. 对称之刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1f24-a08d-53e4-6e1b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3d5f-f193-f463-5b95" name="Blade of Symmetry" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="3d5f-f193-f463-5b95" name="对称之刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Blade of Symmetry. Add 1 to the Damage characteristic of that weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一把近战武器，那把武器伤害+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4232,9 +4245,9 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1943-3fb2-31af-d68d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="33f0-ffe3-8a05-b0d7" name="Prism Amyntok" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="33f0-ffe3-8a05-b0d7" name="阿米托克棱镜" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">In your 射击阶段, you can pick an enemy 单位 within 8寸 of the bearer and roll four dice. For each 6+ that 单位 suffers 1 mortal wound.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，选择装备者8 寸内一个敌方单位，投4D6，每个6+其受到一点致命伤害。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4245,14 +4258,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4e65-81f7-0865-a385" name="5. Crystalline Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4e65-81f7-0865-a385" name="5. 水晶战刃" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e4c-f4c4-62c5-4f86" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dbdc-638f-1b85-d78b" name="Crystalline Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="dbdc-638f-1b85-d78b" name="水晶战刃" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Crystalline Blade. Add 1 to wound rolls for this weapon.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一把近战武器，那把武器造伤+1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4263,14 +4276,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ccd0-e22d-6c13-2c01" name="4. Sunblade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ccd0-e22d-6c13-2c01" name="4. 烈日神剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a589-9e3e-a4fc-081b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e5c1-8bd0-bde5-1e27" name="Sunblade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="e5c1-8bd0-bde5-1e27" name="烈日神剑" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Sunblade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 英雄 or 怪兽 by that weapon, subtract 1 from hit rolls for that enemy 英雄 or 怪兽 until the end of the phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一把近战武器，优先计算这把武器造成的伤害，若这把武器对英雄或怪兽造成了1 点或更多伤害，受到伤害的英雄或怪兽本阶段命中-1。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4281,14 +4294,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2c10-8afb-5484-0a53" name="2. Gleaming Blade" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2c10-8afb-5484-0a53" name="2. 闪光神剑" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="243a-1a34-3ac4-2843" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ada3-9c56-e746-9935" name="Gleaming Blade" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="ada3-9c56-e746-9935" name="闪光神剑" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Pick one of the bearer’s 肉搏 武器 to be a Gleaming Blade. Allocate wounds inflicted by that weapon before allocating wounds inflicted by any 其他 attacks made by the bearer. If 1 or more wounds are inflicted on an enemy 单位 by that weapon, heal 1 wound allocated to the bearer.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一把近战武器，优先计算这把武器造成的伤害，若这把武器造成了1点或更多伤害，则装备者回复一点血量。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4299,14 +4312,14 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bb40-99c1-db7f-4eaa" name="3. Luminary Rod" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bb40-99c1-db7f-4eaa" name="3. 光辉之杖" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="055f-28b6-4b0c-fe5e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="62d4-4ab1-2fdb-6758" name="Luminary Rod" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="62d4-4ab1-2fdb-6758" name="光辉之杖" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, pick a point on the battlefield within 9寸 of the bearer that is visible to them and draw an imaginary straight line 1mm wide between that point and the closest part of the bearer. Each 单位 其他 than the bearer that has models passed across by this line suffers D3 mortal wounds.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性效果。选择装备者视野9 寸内一点，在装备者之间画一条宽1mm 的线，线穿过的单位受到D3 致命伤。</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4451,7 +4464,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3277-c810-a600-3a73" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ba2b-ec63-fa08-88ef" name="Battle: Aqshy" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ba2b-ec63-fa08-88ef" name="Battle: 阿奎夏" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="dbea-58cc-3513-1868" name="Stoke Rage" publicationId="e51d-b1a3-pubEKHGM" page="75" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4494,7 +4507,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ed53-d347-e94c-2431" name="Battle: Chamon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ed53-d347-e94c-2431" name="Battle: 查蒙" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="2c42-d061-a087-9527" name="Rain of Lead" publicationId="e51d-b1a3-pubEHOGM" page="74" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4537,7 +4550,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="afb2-6845-cd03-2596" name="Battle: Ghur" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="afb2-6845-cd03-2596" name="Battle: 辜尔" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="4980-8f82-01df-d8c1" name="The Amber Spear" publicationId="e51d-b1a3-pubEHOGM" page="73" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4580,7 +4593,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="286a-bfe7-f725-ca75" name="Battle: Ghyran" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="286a-bfe7-f725-ca75" name="Battle: 纪伦" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="bf34-4284-e813-d06a" name="Whipvines" publicationId="e51d-b1a3-pubEKHGM" page="72" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4623,7 +4636,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="632b-73ed-9385-2491" name="Battle: Hysh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="632b-73ed-9385-2491" name="Battle: 海希" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="6a62-fd42-aa4d-5e6a" name="Exorcising Beam" publicationId="e51d-b1a3-pubEKHGM" page="78" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4666,7 +4679,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="098f-0986-2570-bece" name="Battle: Shyish" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="098f-0986-2570-bece" name="Battle: 煞伊许" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="6e51-da62-4ca8-04ad" name="Word of Ending" publicationId="e51d-b1a3-pubEKHGM" page="76" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
@@ -4709,7 +4722,7 @@
             <cost name="分" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3923-b6b9-c500-1062" name="Battle: Ulgu" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3923-b6b9-c500-1062" name="Battle: 乌尔枯" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
             <profile id="7b58-9346-d870-903a" name="Labyrinth of Sorrows" publicationId="e51d-b1a3-pubEKHGM" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>

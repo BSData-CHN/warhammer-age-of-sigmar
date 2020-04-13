@@ -3255,7 +3255,7 @@
       <categoryLinks>
         <categoryLink id="3121-caa0-03ab-fd18" name="CORPSEMARE STAMPEDE" hidden="false" targetId="50f4-2b4e-b140-919f" primary="false"/>
         <categoryLink id="e59f-9bee-a9a7-dd26" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="4467-9c01-c7fa-088b" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="4467-9c01-c7fa-088b" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
@@ -3281,7 +3281,7 @@
       <categoryLinks>
         <categoryLink id="e7fa-3a8d-e8af-ba6f" name="CHALICE OF USHORAN" hidden="false" targetId="64bd-85af-1388-5eb6" primary="false"/>
         <categoryLink id="68f5-930c-079d-d09b" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="491d-6f39-a4fb-cb1f" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="491d-6f39-a4fb-cb1f" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -3312,7 +3312,7 @@
       <categoryLinks>
         <categoryLink id="d139-fcd4-323e-13ed" name="CADAVEROUS BARRICADE" hidden="false" targetId="8c31-0d92-7dd5-4e92" primary="false"/>
         <categoryLink id="a994-2686-89f0-3e87" name="无尽法术" hidden="false" targetId="31f4-2067-3ade-e6f8" primary="false"/>
-        <categoryLink id="2e7f-3b48-d52f-f093" name="SHYISH" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
+        <categoryLink id="2e7f-3b48-d52f-f093" name="煞伊许" hidden="false" targetId="2cc9-0867-b2e3-da55" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="40.0"/>
@@ -3620,7 +3620,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cb13-70b6-0f23-dc52" name="Eye of Hysh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cb13-70b6-0f23-dc52" name="Eye of 海希" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="c349-1bb0-fc74-39ee" value="1">
               <conditions>
@@ -3643,7 +3643,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7da3-4924-09b9-0d7f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cda1-3c7d-7e13-ea62" name="Eye of Hysh" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="cda1-3c7d-7e13-ea62" name="Eye of 海希" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
                 <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Subtract 1 from hit rolls for attacks made with missile 武器 that target a friendly BLISTERSKIN 单位 wholly within 6寸 of the bearer.</characteristic>
               </characteristics>
@@ -3653,7 +3653,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5620-3abe-0edb-1064" name="Ghurish Mawshard" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5620-3abe-0edb-1064" name="辜尔ish Mawshard" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="1dd1-0f8f-f360-0a5f" value="1">
               <conditions>
@@ -3676,7 +3676,7 @@
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c6cc-4092-ed92-78e0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="370d-bc95-f7eb-970f" name="Ghurish Mawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
+            <profile id="370d-bc95-f7eb-970f" name="辜尔ish Mawshard" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
                 <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase, you can pick 1 enemy model within 1寸 of the bearer and roll a dice.  If the roll is greater than that model&apos;s Wounds characteristic, that model is slain.</characteristic>
               </characteristics>

@@ -23,7 +23,7 @@
     <categoryEntry id="9304-00ac-b0eb-8741" name="FLAGELLANTS" hidden="false"/>
     <categoryEntry id="d2e0-123f-1dd2-7992" name="COLLEGIATE ARCANE" hidden="false"/>
     <categoryEntry id="18e1-27b1-33f8-2955" name="BATTLEMAGE" hidden="false"/>
-    <categoryEntry id="0cda-4c8e-b048-9cfe" name="LUMINARK OF HYSH" hidden="false"/>
+    <categoryEntry id="0cda-4c8e-b048-9cfe" name="LUMINARK OF 海希" hidden="false"/>
     <categoryEntry id="0160-a43b-3ac7-570d" name="CELESTIAL HURRICANUM" hidden="false"/>
     <categoryEntry id="cccb-89cd-393f-5839" name="CITIES OF SIGMAR" hidden="false"/>
     <categoryEntry id="7fe9-bc03-2c82-0a00" name="精灵" hidden="false"/>
@@ -328,7 +328,7 @@
     </forceEntry>
   </forceEntries>
   <entryLinks>
-    <entryLink id="d1b4-4124-e5f1-ddf5" name="Luminark of Hysh" hidden="false" collective="false" import="true" targetId="c2cb-f59d-ec38-10c8" type="selectionEntry"/>
+    <entryLink id="d1b4-4124-e5f1-ddf5" name="Luminark of 海希" hidden="false" collective="false" import="true" targetId="c2cb-f59d-ec38-10c8" type="selectionEntry"/>
     <entryLink id="48f8-0cd0-c224-e202" name="Freeguild 主将" hidden="false" collective="false" import="true" targetId="aada-2a08-7231-2d0e" type="selectionEntry"/>
     <entryLink id="e1ec-efa7-67c0-03bc" name="Freeguild 主将 on Griffon" hidden="false" collective="false" import="true" targetId="f97b-a868-659a-a9e5" type="selectionEntry"/>
     <entryLink id="fda5-33e1-17e6-3b70" name="Decimators" hidden="false" collective="false" import="true" targetId="5330-8a21-c53d-7aa3" type="selectionEntry"/>
@@ -1389,18 +1389,18 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                   <characteristics>
                     <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If a CITIES OF SIGMAR 法师 successfully casts an 无尽法术 and that 法术 has any of the abilities listed below, those abilities are in effect for that 法术 regardless of the realm in which the battle is taking place.
 
-• Empowered by Aqshy
-• Empowered by Chamon
-• Empowered by Ghur
-• Empowered by Ghyran
-• Empowered by Hysh
-• Empowered by Shyish
-• Empowered by Ulgu</characteristic>
+• Empowered by 阿奎夏
+• Empowered by 查蒙
+• Empowered by 辜尔
+• Empowered by 纪伦
+• Empowered by 海希
+• Empowered by 煞伊许
+• Empowered by 乌尔枯</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="d9e3-9e7b-a36b-304d" name="Warriors of the Realms" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">The battle traits for each City of Sigmar will list the Mortal Realm in which the city is located. If you are using the rules from Warhammer 西格玛时代: Malign Sorcery, your army must be from the same Mortal Realm as the one in which the city is based. In the case of Hammerhal, your army can be from either Aqshy or Ghyran.</characteristic>
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">The battle traits for each City of Sigmar will list the Mortal Realm in which the city is located. If you are using the rules from Warhammer 西格玛时代: Malign Sorcery, your army must be from the same Mortal Realm as the one in which the city is based. In the case of Hammerhal, your army can be from either 阿奎夏 or 纪伦.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="6ce6-000d-8d40-711a" name="Honoured Retinue" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1440,7 +1440,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                       <profiles>
                         <profile id="be17-c78c-410a-999d" name="A City of Two Realms" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Hammerhal army can be from either Aqshy or Ghyran.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Hammerhal army can be from either 阿奎夏 or 纪伦.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="527e-7fcf-aa60-2795" name="Banners Held High" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1472,7 +1472,7 @@ If a model already has a city keyword on its warscroll, it cannot gain another o
                       <profiles>
                         <profile id="c275-7b87-98b9-12a8" name="Deep in Thyria" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Living City army must be from Ghyran.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Living City army must be from 纪伦.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="24b9-fba8-9be8-2b2b" name="The City Wargroves" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -1506,7 +1506,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                       <profiles>
                         <profile id="4ba0-9313-4338-3c1d" name="Amidst the Ghoul Mere" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Greywater Fastness army must be from Ghyran.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Greywater Fastness army must be from 纪伦.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="22fc-7cf5-04fb-0f6a" name="Rune Lore" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1538,7 +1538,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                       <profiles>
                         <profile id="dd04-e821-161a-01f3" name="At the Foot of Quogmia Mountain" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Phoenicium army must be from Ghyran.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Phoenicium army must be from 纪伦.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="0345-59eb-ce6c-75a0" name="Vengeful Revenants" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1565,7 +1565,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                       <profiles>
                         <profile id="507d-8c1c-28b2-0100" name="In the Shimmering Abyss" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Hallowheart army must be from Aqshy.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Hallowheart army must be from 阿奎夏.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="4145-7c28-5937-6e75" name="Eldritch Attunement" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -1592,7 +1592,7 @@ At the end of your movement phase, you can set up 1 or more of these units on th
                       <profiles>
                         <profile id="677f-4ec7-faf7-6f4c" name="On the Shores of the Searing Sea" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">An Anvilgard army must be from Aqshy.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">An Anvilgard army must be from 阿奎夏.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="e4b1-1834-840a-3a50" name="Illicit Dealings" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
@@ -1627,7 +1627,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                       <profiles>
                         <profile id="dc9e-0dad-00c5-38a5" name="Atop Titanspear Mountain" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Tempest’s Eye army must be from Aqshy.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">A Tempest’s Eye army must be from 阿奎夏.</characteristic>
                           </characteristics>
                         </profile>
                         <profile id="02eb-f5c5-6482-a9fb" name="Alert and Forewarned" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
@@ -3889,7 +3889,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="e613-9b48-6368-e43c" name="Magic of the Realms" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you select this model to be part of your army, you must choose the realm that your Battlemage comes from. You can choose from the following realms: Aqshy, Azyr, Chamon, Ghur, Ghyran, Hysh, Shyish or Ulgu. Add 1 to casting rolls for this model if the battle is taking place in the realm it comes from</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">When you select this model to be part of your army, you must choose the realm that your Battlemage comes from. You can choose from the following realms: 阿奎夏, Azyr, 查蒙, 辜尔, 纪伦, 海希, 煞伊许 or 乌尔枯. Add 1 to casting rolls for this model if the battle is taking place in the realm it comes from</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3959,7 +3959,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6595-ed87-6292-fa10" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c943-07d5-a5a2-c0ea" name="Chamon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c943-07d5-a5a2-c0ea" name="查蒙" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="db1b-93cb-1ff5-eeef" name="Transmutation of Lead" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -3972,7 +3972,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b325-2aed-68b6-39fa" name="Ulgu" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b325-2aed-68b6-39fa" name="乌尔枯" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="d6c0-169a-3442-d911" name="Mystifying Miasma" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -3985,7 +3985,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6561-228a-ee56-5f4f" name="Aqshy" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6561-228a-ee56-5f4f" name="阿奎夏" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="ac6b-4426-8e11-d42b" name="Fireball" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -4011,7 +4011,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3c58-9142-e38f-8808" name="Shyish" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3c58-9142-e38f-8808" name="煞伊许" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="4e59-02a6-e7cd-0ca8" name="Pall of Doom" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -4024,7 +4024,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d475-6b10-d063-784e" name="Hysh" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d475-6b10-d063-784e" name="海希" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="a93e-10f8-c5a4-d281" name="Pha’s Protection" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -4050,7 +4050,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4fd2-8266-0ced-bc0a" name="Ghyran" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4fd2-8266-0ced-bc0a" name="纪伦" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="14c2-e6d8-29c0-7bbf" name="Shield of Thorns" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -4063,7 +4063,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ac42-d24d-c17f-f3a3" name="Ghur" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ac42-d24d-c17f-f3a3" name="辜尔" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="304a-ccde-ae54-1928" name="Wildform" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
                   <characteristics>
@@ -4287,7 +4287,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         <cost name="pts" typeId="points" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c2cb-f59d-ec38-10c8" name="Luminark of Hysh" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c2cb-f59d-ec38-10c8" name="Luminark of 海希" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
         <modifierGroup>
           <conditions>
@@ -4301,7 +4301,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile id="b0de-8216-e8f7-7a7f" name="Luminark of Hysh" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="b0de-8216-e8f7-7a7f" name="Luminark of 海希" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
           <characteristics>
             <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
             <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">11</characteristic>
@@ -4311,12 +4311,12 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
         </profile>
         <profile id="9bdf-104b-ccb9-5606" name="Aura of Protection" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly CITIES OF SIGMAR model within range of the Aura of Protection ability of any friendly LUMINARKS OF HYSH. On a 6+, that wound or mortal wound is negated. The range of the Aura of Protection ability for this model is shown on the 损伤表.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Roll a dice each time you allocate a wound or mortal wound to a friendly CITIES OF SIGMAR model within range of the Aura of Protection ability of any friendly LUMINARKS OF 海希. On a 6+, that wound or mortal wound is negated. The range of the Aura of Protection ability for this model is shown on the 损伤表.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1597-306b-02e3-c159" name="Locus of Hysh" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
+        <profile id="1597-306b-02e3-c159" name="Locus of 海希" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to unbinding rolls for friendly COLLEGIATE ARCANE WIZARDS wholly within 12寸 of any friendly LUMINARKS OF HYSH.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to unbinding rolls for friendly COLLEGIATE ARCANE WIZARDS wholly within 12寸 of any friendly LUMINARKS OF 海希.</characteristic>
           </characteristics>
         </profile>
         <profile id="6bb8-7ad8-dcd4-e1f7" name="Wounds0" hidden="false" typeId="90d1-a434-348d-a861" typeName="损伤表">
@@ -4472,7 +4472,7 @@ You can choose 1 additional friendly ANVILGARD DRAGON, ANVILGARD KHARIBDYSS or A
                 </profile>
                 <profile id="7b83-a3a3-e204-a6cf" name="White Battlemage" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for this model if the battle is taking place in Hysh.</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to casting rolls for this model if the battle is taking place in 海希.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8289,7 +8289,7 @@ The Rocket Battery and its crew are treated as a single model, using the charact
           <entryLinks>
             <entryLink id="f771-92d8-45b6-2496" name="Battlemage" hidden="false" collective="false" import="true" targetId="e803-f69f-40ca-f348" type="selectionEntry"/>
             <entryLink id="ed7c-d763-3e37-bc13" name="Battlemage on Griffon" hidden="false" collective="false" import="true" targetId="6e22-8a2b-42e3-af27" type="selectionEntry"/>
-            <entryLink id="4885-93f0-0fd0-d464" name="Luminark of Hysh" hidden="false" collective="false" import="true" targetId="c2cb-f59d-ec38-10c8" type="selectionEntry"/>
+            <entryLink id="4885-93f0-0fd0-d464" name="Luminark of 海希" hidden="false" collective="false" import="true" targetId="c2cb-f59d-ec38-10c8" type="selectionEntry"/>
             <entryLink id="1b06-7385-a66d-6f06" name="Celestial Hurricanum" hidden="false" collective="false" import="true" targetId="9329-90d0-1c0a-eb4b" type="selectionEntry"/>
             <entryLink id="ead8-8753-5732-65dc" name="Sorceress on Black Dragon" hidden="false" collective="false" import="true" targetId="dcad-577b-ccd1-7412" type="selectionEntry"/>
             <entryLink id="519b-7579-d77f-699e" name="Sorceress" hidden="false" collective="false" import="true" targetId="845e-4dc4-d7cd-0dad" type="selectionEntry"/>
@@ -9976,7 +9976,7 @@ If the roll is equal to or greater than the number of wounds currently allocated
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6b40-3bf4-f61a-1698" name="武器 of Ghyran" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="6b40-3bf4-f61a-1698" name="武器 of 纪伦" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10153,11 +10153,11 @@ If the roll is equal to or greater than the number of wounds currently allocated
           <profiles>
             <profile id="51a8-1a70-c4c2-1e1c" name="The Twinstone" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can use this 魔法道具 in each of your 英雄 phases. If you do so, pick its Aqshy aspect or its Ghyran aspect.
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">You can use this 魔法道具 in each of your 英雄 phases. If you do so, pick its 阿奎夏 aspect or its 纪伦 aspect.
 
-Aqshy Aspect: Until the start of your next 英雄阶段, add 1 to hit rolls for attacks made with 肉搏 武器 by friendly Hammerhal units while they are wholly within 12寸 of the bearer.
+阿奎夏 Aspect: Until the start of your next 英雄阶段, add 1 to hit rolls for attacks made with 肉搏 武器 by friendly Hammerhal units while they are wholly within 12寸 of the bearer.
 
-Ghyran Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12寸 of the bearer. On a 4+, you can heal up to D3 wounds allocated to that 单位.</characteristic>
+纪伦 Aspect: Roll 1 dice for each friendly HAMMERHAL 单位 wholly within 12寸 of the bearer. On a 4+, you can heal up to D3 wounds allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>

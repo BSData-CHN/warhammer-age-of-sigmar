@@ -35,13 +35,13 @@ Chaos - Warriors of Chaos.cat
 
 Chaos Data.cat
 
-Death - Flesh-eater Courts.cat
+Death - 食肉王廷.cat
 
 Death - Legions of Nagash.cat
 
-Death - Legions of Nagash and Nighthaunt Data.cat
+Death - Legions of Nagash and 午夜凶灵 Data.cat
 
-Death - Nighthaunt.cat
+Death - 午夜凶灵.cat
 
 Death - Ossiarch Bonereapers.cat
 

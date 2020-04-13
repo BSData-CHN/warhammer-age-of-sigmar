@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e37a-2f18-f168-6ed3" name="Death: 纳加什军团 and Nighthaunt 数据" revision="1" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e37a-2f18-f168-6ed3" name="死亡: 纳加什军团 and 午夜凶灵 数据" revision="1" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="e320-d5ec-pubN65537" name="军书: 纳加什军团 和 军书: Nighthaunt"/>
-    <publication id="e320-d5ec-pubN65555" name="军书: Nighthaunt"/>
+    <publication id="e320-d5ec-pubN65537" name="军书: 纳加什军团 和 军书: 午夜凶灵"/>
+    <publication id="e320-d5ec-pubN65555" name="军书: 午夜凶灵"/>
     <publication id="e320-d5ec-pubN90237" name="大阵营: Death"/>
     <publication id="e320-d5ec-pubN95707" name="纳加什军团"/>
     <publication id="e320-d5ec-pubN101284" name="军书: 纳加什军团"/>
@@ -10,7 +10,7 @@
     <publication id="e320-d5ec-pubN126193" name="Soul Wars"/>
     <publication id="e320-d5ec-pubN143137" name="Warhammer Underworlds: Nightvault"/>
     <publication id="e320-d5ec-pubN155726" name="Tomb Kings: Warscroll Compendium"/>
-    <publication id="241a-2f06-84ad-d21d" name="Death军书: Nighthaunt"/>
+    <publication id="241a-2f06-84ad-d21d" name="Death军书: 午夜凶灵"/>
   </publications>
   <profileTypes>
     <profileType id="c098-3f9a-28af-206d" name="Mourngul Wounds Suffered">
@@ -194,7 +194,7 @@
             <entryLink id="aff6-f3f7-4f0e-d61a" name="阵营: Legion of Night" hidden="false" collective="false" import="true" targetId="8037-0ed4-af4b-dcf3" type="selectionEntry"/>
             <entryLink id="0f2a-bc55-0944-940a" name="阵营: Soulblight" hidden="false" collective="false" import="true" targetId="3980-0249-eb07-3efd" type="selectionEntry"/>
             <entryLink id="bf01-6c42-f136-e321" name="阵营: Legion of Blood" hidden="false" collective="false" import="true" targetId="bf25-6b9f-6f44-5911" type="selectionEntry"/>
-            <entryLink id="97ec-ec28-f398-2dbd" name="阵营: Nighthaunt" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
+            <entryLink id="97ec-ec28-f398-2dbd" name="阵营: 午夜凶灵" hidden="false" collective="false" import="true" targetId="0595-259c-9405-8b88" type="selectionEntry"/>
             <entryLink id="4a7c-011c-dd6f-b62d" name="阵营: Grand Host of 纳加什" hidden="false" collective="false" import="true" targetId="0758-0294-87aa-6054" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -1449,7 +1449,7 @@
         <categoryLink id="9f39-2f10-072b-0ab6" name="死亡" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="b0ab-9060-0c62-d6f9" name="HEXWRAITH" hidden="false" targetId="26aa-8516-a4e4-c1fc" primary="false"/>
         <categoryLink id="1389-e637-d599-dc9d" name="MALIGNANT" hidden="false" targetId="c21c-0e74-70a9-18bb" primary="false"/>
-        <categoryLink id="cd65-a28d-db6c-add8" name="NIGHTHAUNT" hidden="false" targetId="c352-dff7-7050-6f8d" primary="false"/>
+        <categoryLink id="cd65-a28d-db6c-add8" name="午夜凶灵" hidden="false" targetId="c352-dff7-7050-6f8d" primary="false"/>
         <categoryLink id="2385-c7b4-f4b5-1f1d" name="SUMMONABLE" hidden="false" targetId="d51a-b7de-3b60-a231" primary="false"/>
         <categoryLink id="d06e-cd2a-045a-9686" name="New CategoryLink" hidden="false" targetId="065e-fda7-fd27-1f40" primary="true"/>
       </categoryLinks>
@@ -5347,7 +5347,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="9210-3e10-6e97-3238" name="Spectral Overseer" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to hit rolls for friendly NIGHTHAUNT units while they are wholly within 12寸 of that model in that combat phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly model with this command ability. Add 1 to hit rolls for friendly 午夜凶灵 units while they are wholly within 12寸 of that model in that combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5433,12 +5433,12 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <profiles>
         <profile id="628a-403f-2515-ddc9" name="Captured Soul Energy" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battleshock phase, if 3 or more enemy models were slain that turn, pick a friendly NIGHTHAUNT 单位 within 6寸 of this model and heal D3 wounds that have been allocated to that 单位. If 3 or more enemy STORMCAST ETERNAL models were slain that turn, heal 3 wounds instead of D3 wounds. Alternatively, instead of healing the 单位 you picked, if models from that 单位 have been slain, you can return them to the 单位. Roll a D3; you can return any slain models to that 单位 that have a combined Wounds characteristic of less than or equal to the number you rolled. If your army includes more than one SPIRIT TORMENT, at least 3 enemy models must have been slain during the turn for each SPIRIT TORMENT that uses this ability, and no SPIRIT TORMENT can use this ability more than once in the same battleshock phase.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of the battleshock phase, if 3 or more enemy models were slain that turn, pick a friendly 午夜凶灵 单位 within 6寸 of this model and heal D3 wounds that have been allocated to that 单位. If 3 or more enemy STORMCAST ETERNAL models were slain that turn, heal 3 wounds instead of D3 wounds. Alternatively, instead of healing the 单位 you picked, if models from that 单位 have been slain, you can return them to the 单位. Roll a D3; you can return any slain models to that 单位 that have a combined Wounds characteristic of less than or equal to the number you rolled. If your army includes more than one SPIRIT TORMENT, at least 3 enemy models must have been slain during the turn for each SPIRIT TORMENT that uses this ability, and no SPIRIT TORMENT can use this ability more than once in the same battleshock phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="021e-f61b-ee74-cd00" name="纳加什&apos;s Bidding" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly NIGHTHAUNT units while they are wholly within 12寸 of any friendly Spirit Torments.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Re-roll hit rolls of 1 for friendly 午夜凶灵 units while they are wholly within 12寸 of any friendly Spirit Torments.</characteristic>
           </characteristics>
         </profile>
         <profile id="e1f1-1661-e337-80e8" name="Spirit Torment" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
@@ -5505,7 +5505,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="2aa2-018a-0039-4a1c" name="Nightmare Lantern" publicationId="241a-2f06-84ad-d21d" page="77" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made with 肉搏 武器 used by friendly NIGHTHAUNT units that are wholly within 12寸 of this model.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to wound rolls for attacks made with 肉搏 武器 used by friendly 午夜凶灵 units that are wholly within 12寸 of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="3bf2-1a1c-378a-c121" name="Guardian of Souls" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
@@ -5543,7 +5543,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             <profile id="60fb-7778-30a4-b137" name="Spectral Lure" publicationId="241a-2f06-84ad-d21d" page="77" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly SUMMONABLE NIGHTHAUNT 单位 wholly within 24寸 of the caster. You can either heal D6 wounds that have been allocated to that 单位 or, if no wounds have been allocated to the 单位, you can return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D6.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly SUMMONABLE 午夜凶灵 单位 wholly within 24寸 of the caster. You can either heal D6 wounds that have been allocated to that 单位 or, if no wounds have been allocated to the 单位, you can return a number of slain models to it that have a combined Wounds characteristic equal to or less than the roll of a D6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6207,7 +6207,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="8c7c-c645-cb3b-b17b" name="No Rest for the Wicked" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model is your 主将 and is on the battlefield. If you do so, you can return 1 slain model to each friendly SUMMONABLE NIGHTHAUNT 单位 that is within 12寸 of a friendly model with this command ability.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability in your 英雄阶段 if this model is your 主将 and is on the battlefield. If you do so, you can return 1 slain model to each friendly SUMMONABLE 午夜凶灵 单位 that is within 12寸 of a friendly model with this command ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6320,7 +6320,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="4ca6-f384-98d7-d362" name="Lord of Gheists" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly Nighthaunt 单位 that is wholly within 18寸 of this model. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 in that combat phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of the combat phase. If you do so, pick a friendly 午夜凶灵 单位 that is wholly within 18寸 of this model. Add 1 to the Attacks characteristic of that 单位’s 肉搏 武器 in that combat phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6699,7 +6699,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         </profile>
         <profile id="688c-f0b4-4c85-c1e9" name="Another Link in the Chain" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">While this 单位 is wholly within 12寸 of a friendly Spirit Torment, 可以重投命中骰的1 for friendly Nighthaunt units while they are wholly within 12寸 of this 单位.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">While this 单位 is wholly within 12寸 of a friendly Spirit Torment, 可以重投命中骰的1 for friendly 午夜凶灵 units while they are wholly within 12寸 of this 单位.</characteristic>
           </characteristics>
         </profile>
         <profile id="84ba-4dce-49d1-4e9f" name="Sweeping Blows" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -6991,7 +6991,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <profiles>
         <profile id="967a-b269-646d-7e39" name="Spectral Spearhead" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to charge rolls from units from this 阵型. In addition, if you make an unmodified charge roll of 9+ for a 单位 from this 阵型, it can fight immediately after you complete the charge move. This does not stop the 单位 from being picked to fight in the combat phase of the same turn. If this 阵型 is part of a Nighthaunt army, this ability replaces the Wave of Terror 战斗特性 for all units in this 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Add 1 to charge rolls from units from this 阵型. In addition, if you make an unmodified charge roll of 9+ for a 单位 from this 阵型, it can fight immediately after you complete the charge move. This does not stop the 单位 from being picked to fight in the combat phase of the same turn. If this 阵型 is part of a 午夜凶灵 army, this ability replaces the Wave of Terror 战斗特性 for all units in this 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7080,11 +7080,11 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4766-64b7-70de-195d" name="Super-阵型: Nighthaunt Procession" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4766-64b7-70de-195d" name="Super-阵型: 午夜凶灵 Procession" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="c6a7-dc2d-ddb9-a324" name="Bound Beneath Indomitable Will" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Roll a dice each time you allocate a wound or mortal wound to a friendly NIGHTHAUNT model from this 阵型 within 12寸 of your 主将 or a friendly NIGHTHAUNT 英雄 from the 阵型. On a 6+ the wound is negated. If this 阵型 is part of a Nighthaunt army, this ability replaces the Deathless Spirits 战斗特性 for all units in this 阵型.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">Roll a dice each time you allocate a wound or mortal wound to a friendly 午夜凶灵 model from this 阵型 within 12寸 of your 主将 or a friendly 午夜凶灵 英雄 from the 阵型. On a 6+ the wound is negated. If this 阵型 is part of a 午夜凶灵 army, this ability replaces the Deathless Spirits 战斗特性 for all units in this 阵型.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7217,7 +7217,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
       <categoryLinks>
         <categoryLink id="0641-f79d-c2f0-b1bd" name="New CategoryLink" hidden="false" targetId="6cdf-dd4f-0e91-e9c4" primary="false"/>
         <categoryLink id="67a2-1e89-8038-802a" name="New CategoryLink" hidden="false" targetId="be17-6bbd-b857-3f43" primary="true"/>
-        <categoryLink id="29e7-a706-719b-7b93" name="NIGHTHAUNT" hidden="false" targetId="c352-dff7-7050-6f8d" primary="false"/>
+        <categoryLink id="29e7-a706-719b-7b93" name="午夜凶灵" hidden="false" targetId="c352-dff7-7050-6f8d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5d06-dc25-54e0-c213" name="1 Knight of Shrouds or Reikenor the Grimhailer" hidden="false" collective="false" import="true">
@@ -7269,7 +7269,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="be6c-8155-ebb2-3b13" name="Summon Mortalis Terminexus" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Mortalis Terminexus. If successfully cast, set up a Mortalis Terminexus model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and 午夜凶灵 Wizards can attempt to cast Summon Mortalis Terminexus. If successfully cast, set up a Mortalis Terminexus model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="0313-e551-7f1e-5d28" name="Keeper of Mortality" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -7309,7 +7309,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="54fc-91a8-4a94-c99e" name="Summon 煞伊许 Reaper" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">7</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon 煞伊许 Reaper. [...] If successfully cast, set up a 煞伊许 Reaper model wholly within 6寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and 午夜凶灵 Wizards can attempt to cast Summon 煞伊许 Reaper. [...] If successfully cast, set up a 煞伊许 Reaper model wholly within 6寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="2493-7e1b-d06f-c02b" name="Empowered by 煞伊许" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -7354,7 +7354,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <profile id="1a30-4b26-6471-e0f3" name="Summon Vault of Souls" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
           <characteristics>
             <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and Nighthaunt Wizards can attempt to cast Summon Vault of Souls. [...] If successfully cast, set up a Vault of Souls model wholly within 18寸 of the caster.</characteristic>
+            <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">Only 纳加什, Supreme Lord of the Undead and 午夜凶灵 Wizards can attempt to cast Summon Vault of Souls. [...] If successfully cast, set up a Vault of Souls model wholly within 18寸 of the caster.</characteristic>
           </characteristics>
         </profile>
         <profile id="fd4a-2405-b6a8-3747" name="Empowered by 煞伊许" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -7517,7 +7517,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             </profile>
             <profile id="c207-d730-169f-e2d5" name="1. Nimbus of Power" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
               <characteristics>
-                <characteristic name="Ability" typeId="0968-4539-05b1-823e">In each 英雄 pase, heal D3 wounds that have been allocated to this model. In addition at the start of your 英雄阶段, pick 1 riendly SUMMONABLE NIGHTHAUNT 单位 wholly within 12寸 pf this model and return D3 slain models to that 单位. The returning models must be setup within 12寸 of this model.</characteristic>
+                <characteristic name="Ability" typeId="0968-4539-05b1-823e">In each 英雄 pase, heal D3 wounds that have been allocated to this model. In addition at the start of your 英雄阶段, pick 1 riendly SUMMONABLE 午夜凶灵 单位 wholly within 12寸 pf this model and return D3 slain models to that 单位. The returning models must be setup within 12寸 of this model.</characteristic>
               </characteristics>
             </profile>
             <profile id="2090-6e15-28a1-a183" name="4. Insubstantial Form" hidden="false" typeId="6d48-1590-a7ff-4516" typeName="Evocation of Death Level">
@@ -7883,7 +7883,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
             <profile id="1cd3-1a9e-40b2-f928" name="Temporal Translocation" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfullly cast, pick a friendly NIGHTHAUNT 单位 wholly within 24&apos; of the caster. You can make a normal move of up to 6寸 with that 单位. If that 单位 retreats as part of this move, it can still charge in the same turn.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfullly cast, pick a friendly 午夜凶灵 单位 wholly within 24&apos; of the caster. You can make a normal move of up to 6寸 with that 单位. If that 单位 retreats as part of this move, it can still charge in the same turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7984,36 +7984,36 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0595-259c-9405-8b88" name="阵营: Nighthaunt" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0595-259c-9405-8b88" name="阵营: 午夜凶灵" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="934b-374d-6c6e-0d57" name="Deathless Spirits" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice for each wound or mortal wound inflicted on a friendly NIGHTHAUNT 单位 wholly within 12寸 of your 主将 or a friendly NIGHTHAUNT 英雄 from your army. On a 6+ the wound is negated.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Roll a dice for each wound or mortal wound inflicted on a friendly 午夜凶灵 单位 wholly within 12寸 of your 主将 or a friendly 午夜凶灵 英雄 from your army. On a 6+ the wound is negated.</characteristic>
           </characteristics>
         </profile>
         <profile id="f383-083e-3e1d-f92b" name="Aura of Dread" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Subtract 1 from the Bravery characteristic of enemy units while they are within 6寸 of any friendly NIGHTHAUNT units.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Subtract 1 from the Bravery characteristic of enemy units while they are within 6寸 of any friendly 午夜凶灵 units.</characteristic>
           </characteristics>
         </profile>
         <profile id="a5dc-58fa-8248-ffb8" name="From the Underworlds They Come" publicationId="e320-d5ec-pubN65555" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a NIGHTHAUNT 单位 on the battlefield, you can place it to one side and say that it is in the underworlds as a reserve 单位. You can set up one 单位 in the underworlds for each unkit you set up on the batlefield. At the end of your movement phase you can set up any of these models ore than 9寸 from any enemy models. This counts as thei move for that turn. Any units which are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Instead of setting up a 午夜凶灵 单位 on the battlefield, you can place it to one side and say that it is in the underworlds as a reserve 单位. You can set up one 单位 in the underworlds for each unkit you set up on the batlefield. At the end of your movement phase you can set up any of these models ore than 9寸 from any enemy models. This counts as thei move for that turn. Any units which are not set up on the battlefield before the start of the fourth battle round are slain.</characteristic>
           </characteristics>
         </profile>
         <profile id="bf18-12c2-0d57-88d1" name="Wave of Terror" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If you make an unmodified charge roll of 10+ for a friendly NIGHTHAUNT 单位, it can fight immediately after you complete the charge move. This does not stop the 单位 from being picked to fight in the combat phase of the same turn.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">If you make an unmodified charge roll of 10+ for a friendly 午夜凶灵 单位, it can fight immediately after you complete the charge move. This does not stop the 单位 from being picked to fight in the combat phase of the same turn.</characteristic>
           </characteristics>
         </profile>
         <profile id="1039-2664-ee8d-ade2" name="Feed on Terror" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
           <characteristics>
-            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time an enemy 单位 fails a battleshock test, pick one friendly NIGHTHAUNT 英雄 within 6寸 of that enemy 单位. Heal 1 wound that has been allocated to that 英雄.</characteristic>
+            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">Each time an enemy 单位 fails a battleshock test, pick one friendly 午夜凶灵 英雄 within 6寸 of that enemy 单位. Heal 1 wound that has been allocated to that 英雄.</characteristic>
           </characteristics>
         </profile>
         <profile id="0293-f479-ce94-3df3" name="Spectral Summons" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase. If you do so, pick a friendly NIGHTHAUNT 单位 that is on the battlefield. Remove that 单位 from the battlefield, and then set it up wholly within 12&apos; of your 主将 and more than 9寸 from any enemy models. This counts as their move for that movement phase.</characteristic>
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">You can use this command ability at the start of your movement phase. If you do so, pick a friendly 午夜凶灵 单位 that is on the battlefield. Remove that 单位 from the battlefield, and then set it up wholly within 12&apos; of your 主将 and more than 9寸 from any enemy models. This counts as their move for that movement phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8054,7 +8054,7 @@ Mystic Shield any number of times in the same 英雄阶段, even if another 法�
                     <characteristic name="需要" typeId="bc6e-e731-eed7-c384">Any</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="448d-0759-6b51-d5a1" name="NIGHTHAUNT" hidden="false" typeId="823d-e366-580b-9b07" typeName="阵型 Organization">
+                <profile id="448d-0759-6b51-d5a1" name="午夜凶灵" hidden="false" typeId="823d-e366-580b-9b07" typeName="阵型 Organization">
                   <characteristics>
                     <characteristic name="需要" typeId="bc6e-e731-eed7-c384">Any</characteristic>
                   </characteristics>
@@ -8442,7 +8442,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="02e5-e3fe-ab52-8bcf" name="Relics of the Underworld (Nighthaunt)" hidden="false" collective="false" import="true" targetId="3113-73d1-4b73-452c" type="selectionEntryGroup">
+        <entryLink id="02e5-e3fe-ab52-8bcf" name="Relics of the Underworld (午夜凶灵)" hidden="false" collective="false" import="true" targetId="3113-73d1-4b73-452c" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -8471,7 +8471,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="0aa8-97e5-4f79-c8d6" name="武器 of the Damned (Nighthaunt)" hidden="false" collective="false" import="true" targetId="93e1-80cd-e655-89d4" type="selectionEntryGroup">
+        <entryLink id="0aa8-97e5-4f79-c8d6" name="武器 of the Damned (午夜凶灵)" hidden="false" collective="false" import="true" targetId="93e1-80cd-e655-89d4" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9425,7 +9425,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
           <profiles>
             <profile id="83e7-89ca-e3f5-198c" name="Pendant of the Fell Wind" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to normal moves made by friendly NIGHTHAUNT units that are wholly within 12寸 of the bearer at the start of that normal move.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Add 3寸 to normal moves made by friendly 午夜凶灵 units that are wholly within 12寸 of the bearer at the start of that normal move.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9635,7 +9635,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
           <profiles>
             <profile id="b22f-f277-da05-0ae5" name="Ruler of the Spirit Host" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
               <characteristics>
-                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, you can pick a friendly SUMMONABLE NIGHTHAUNT 单位 within 9寸 of this 主将 and return D3 slain models to that 单位 The returning models must be setup within 9寸 of this 主将.</characteristic>
+                <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">At the start of your 英雄阶段, you can pick a friendly SUMMONABLE 午夜凶灵 单位 within 9寸 of this 主将 and return D3 slain models to that 单位 The returning models must be setup within 9寸 of this 主将.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9947,7 +9947,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7614-f2ea-1e82-2e5d" name="Endless Spells: Nighthaunt" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7614-f2ea-1e82-2e5d" name="Endless Spells: 午夜凶灵" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c51-d12d-c688-e65b" type="min"/>
       </constraints>
@@ -10053,7 +10053,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
           <profiles>
             <profile id="d795-9d88-e6b2-bd78" name="Lightshard of the Harvest Moon" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
               <characteristics>
-                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can use this 魔法道具. If they do so, you can re-roll failed hit rolls for attacks made by friendly NIGHTHAUNT units that are wholly within 12寸 of the bearer when they attack in the combat phase.</characteristic>
+                <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">Once per battle, at the start of the combat phase the bearer can use this 魔法道具. If they do so, you can re-roll failed hit rolls for attacks made by friendly 午夜凶灵 units that are wholly within 12寸 of the bearer when they attack in the combat phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10102,7 +10102,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
             <profile id="949b-4293-c682-a532" name="Spectral Tether" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly NIGHTHAUNT 英雄 within 12寸 of the caster. Heal D3 wounds that have been allocated to that 单位.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 午夜凶灵 英雄 within 12寸 of the caster. Heal D3 wounds that have been allocated to that 单位.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10118,7 +10118,7 @@ In addition, roll a dice before you allocate a wound or mortal wound to your 主
             <profile id="8cfe-fc78-eef0-7816" name="Shademist" hidden="false" typeId="2e81-5e22-c6e1-73cb" typeName="法术">
               <characteristics>
                 <characteristic name="施法值" typeId="2508-b604-1258-a920">6</characteristic>
-                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly NIGHTHAUNT 单位 wholly within 12寸 of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
+                <characteristic name="描述" typeId="76ff-781d-b8e6-5f27">If successfully cast, pick a friendly 午夜凶灵 单位 wholly within 12寸 of the caster that is visible to them. Subtract 1 from wound rolls for attacks that target that 单位 until the start of your next 英雄阶段.</characteristic>
               </characteristics>
             </profile>
           </profiles>

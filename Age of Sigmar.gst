@@ -152,8 +152,8 @@
     <categoryEntry id="0aa0-da78-a43c-3e8c" name="SKRYRE" hidden="false"/>
     <categoryEntry id="8f8a-7c29-799e-ace9" name="斯卡文" hidden="false"/>
     <categoryEntry id="7d12-f4c5-3832-0f19" name="奸奇" hidden="false"/>
-    <categoryEntry id="6b35-0508-c6cc-6592" name="FLESH-EATER COURTS" hidden="false"/>
-    <categoryEntry id="c352-dff7-7050-6f8d" name="NIGHTHAUNT" hidden="false"/>
+    <categoryEntry id="6b35-0508-c6cc-6592" name="食肉王廷" hidden="false"/>
+    <categoryEntry id="c352-dff7-7050-6f8d" name="午夜凶灵" hidden="false"/>
     <categoryEntry id="7bf1-507e-d551-9b60" name="SOULBLIGHT" hidden="false"/>
     <categoryEntry id="233f-0198-1947-eacd" name="GRAND HOST OF 纳加什" hidden="false"/>
     <categoryEntry id="2691-54ce-d160-1694" name="LEGION OF BLOOD" hidden="false"/>

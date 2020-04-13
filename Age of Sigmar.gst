@@ -134,7 +134,7 @@
     <categoryEntry id="6cdf-dd4f-0e91-e9c4" name="死亡" hidden="false"/>
     <categoryEntry id="d963-a5fb-c348-2371" name="毁灭" hidden="false"/>
     <categoryEntry id="2654-58fb-a46f-b28d" name="卡拉顿天空霸主" hidden="false"/>
-    <categoryEntry id="9efd-7c5d-dc14-2302" name="DAUGHTERS OF KHAINE" hidden="false"/>
+    <categoryEntry id="9efd-7c5d-dc14-2302" name="凯恩之女" hidden="false"/>
     <categoryEntry id="b396-0600-80d6-cee9" name="雷铸神兵" hidden="false"/>
     <categoryEntry id="de6f-3fcb-09b2-a59e" name="树海灵木" hidden="false"/>
     <categoryEntry id="1f30-24b4-f90b-c2c2" name="DARKLING COVENS" hidden="false"/>

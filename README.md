@@ -55,7 +55,7 @@ Destruction - Beastclaw Raiders.cat
 
 Destruction - Gitmob Grots.cat
 
-Destruction - Gloomspite Gitz.cat
+Destruction - 黯怨地精.cat
 
 Destruction - Greenskinz.cat
 

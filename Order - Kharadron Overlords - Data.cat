@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3981-271d-5871-845b" name="秩序 - 卡拉顿天空霸主 - 数据" revision="111" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3981-271d-5871-845b" name="秩序 - 卡拉顿天空霸主 - 数据" revision="111" battleScribeVersion="2.03" authorName="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" authorContact="@BSData-CHN" authorUrl="https://github.com/BSData-CHN/WH-AOS-Chinese-Localization" library="true" gameSystemId="e51d-b1a3-75fc-dc33" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e23c-3deb-pubN65537" name="秩序军书: 卡拉顿天空霸主"/>
     <publication id="e23c-3deb-pubN66862" name="秩序官方FAQ和勘误, 版本 1.4"/>
@@ -58,7 +58,7 @@
   <sharedSelectionEntries>
     <selectionEntry id="129e-f84a-5017-ca90" name="以太化学家" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2e83-3b67-430d-36db" name="以太化学家" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="2e83-3b67-430d-36db" name="以太化学家" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="7">
               <conditions>
@@ -67,10 +67,10 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">5</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="9047-8912-877b-71e6" name="以太强化" hidden="true" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
@@ -82,7 +82,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段，你可以选择完全位于此模型 12 寸内的一个友方旅空单位，使其可以重投结果为 1 的造伤骰，直到你的下个英雄阶段。一种武器一回合只能被强化一次。
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段，你可以选择完全位于此模型 12 寸内的一个友方旅空单位，使其可以重投结果为 1 的造伤骰，直到你的下个英雄阶段。一种武器一回合只能被强化一次。
 &gt;此模型在驻守时不能使用此能力，此能力也不能将驻守中的单位作为目标。</characteristic>
           </characteristics>
         </profile>
@@ -165,7 +165,7 @@
     </selectionEntry>
     <selectionEntry id="68fb-1a1e-6c58-b1f5" name="以太领航员" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c9a1-bd1d-0517-80bb" name="以太领航员" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="c9a1-bd1d-0517-80bb" name="以太领航员" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="7">
               <conditions>
@@ -174,20 +174,20 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">5</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="191c-9392-271f-ff17" name="以太视野" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型可在敌方英雄阶段尝试破法一次，在己方英雄阶段尝试驱散一次无尽法术。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可在敌方英雄阶段尝试破法一次，在己方英雄阶段尝试驱散一次无尽法术。</characteristic>
           </characteristics>
         </profile>
         <profile id="13b3-1cf2-4e73-9a55" name="以太风暴" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在己方英雄阶段，你可以选择位于此模型 36 寸内为其可见的一个敌方飞行单位，投 D6：
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在己方英雄阶段，你可以选择位于此模型 36 寸内为其可见的一个敌方飞行单位，投 D6：
 &gt;若结果为 1-2，无事发生；
 &gt;若结果为 3-5，则那个单位移动力减半；
 &gt;若结果为 6，则那个单位移动力减半，且受到 D3 致命伤害。
@@ -196,7 +196,7 @@
         </profile>
         <profile id="e76a-dc9b-9ebb-b510" name="解读风向" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型未移动且未使用以太风暴的回合，所有为其可见的友方天舰本回合可以重投奔跑骰和冲锋骰。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型未移动且未使用以太风暴的回合，所有为其可见的友方天舰本回合可以重投奔跑骰和冲锋骰。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -220,10 +220,10 @@
             <profile id="14b4-f77a-fbbc-dbc9" name="测距手枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">15寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">15寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -242,10 +242,10 @@
             <profile id="dee4-4289-0e58-f890" name="顺风视镜" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -267,7 +267,7 @@
     </selectionEntry>
     <selectionEntry id="44ad-2801-441f-6b44" name="航空提督" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="70d5-4a18-40c2-2c83" name="航空提督" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="70d5-4a18-40c2-2c83" name="航空提督" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="8">
               <conditions>
@@ -276,27 +276,27 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">6</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">8</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="9dbb-f5be-9761-26d6" name="成事只能靠自己" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型攻击英雄或怪兽时可以重投肉搏攻击中结果为 1 的命中骰和结果为 1 的造伤骰。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型攻击英雄或怪兽时可以重投肉搏攻击中结果为 1 的命中骰和结果为 1 的造伤骰。</characteristic>
           </characteristics>
         </profile>
         <profile id="1b25-8639-3f13-473e" name="天空之主" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="描述" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型驻守的一艘友方天舰
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型驻守的一艘友方天舰
 ·使用时机：在你的射击阶段开始时
 ·能力效果：本阶段中，此天舰即使本回合进行过奔跑，也可以正常射击。</characteristic>
           </characteristics>
         </profile>
         <profile id="f720-3b06-6e15-d83f" name="保护首长！" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">完全位于此模型 12 寸内的友方卡拉顿天空霸主单位不进行震慑测试。
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">完全位于此模型 12 寸内的友方卡拉顿天空霸主单位不进行震慑测试。
 
 此模型 3 寸内有任意数量 5+模型的友方卡拉顿天空霸主单位时，此模型获得以下能力：
 
@@ -305,21 +305,21 @@
         </profile>
         <profile id="3a00-a96f-d28e-dc0c" name="冲上去干！" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="描述" typeId="1b71-4c83-4e8c-093f">·作用对象：完全位于此模型 12 寸内一个友方旅空单位
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">·作用对象：完全位于此模型 12 寸内一个友方旅空单位
 ·使用时机：在你的冲锋阶段开始时
 ·能力效果：本阶段中，那个旅空单位可以重投冲锋骰。</characteristic>
           </characteristics>
         </profile>
         <profile id="7b2c-016d-b035-bbfb" name="保卫甲板！" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="描述" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型驻守的一艘友方天舰
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型驻守的一艘友方天舰
 ·使用时机：你的肉搏阶段开始时
 ·能力效果：本阶段中，此天舰以及驻守在此天舰中的所有模型命中骰结果+1。</characteristic>
           </characteristics>
         </profile>
         <profile id="cab7-c88d-a372-716c" name="听我命令，开炮！" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="描述" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型驻守的一艘友方天舰
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型驻守的一艘友方天舰
 ·使用时机：在你的射击阶段开始时
 ·能力效果：本阶段中，此天舰可以重投结果为 1 的命中骰。</characteristic>
           </characteristics>
@@ -345,10 +345,10 @@
             <profile id="200f-ab15-5d88-217f" name="领袖战锤" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
               </characteristics>
@@ -367,10 +367,10 @@
             <profile id="de41-bd37-8e99-b680" name="连发手枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -392,31 +392,31 @@
     </selectionEntry>
     <selectionEntry id="7d60-6000-c3d0-0a22" name="航空连队" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c30c-2c71-2392-bb49" name="航空连队" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="c30c-2c71-2392-bb49" name="航空连队" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">1</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">6</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">6</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="682c-91c4-0500-2e9a" name="追寻荣耀" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位完全位于一个目标点 9 寸内时，可以重投震慑测试骰，且所有命中骰结果+1。在驻守时此能力无效。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位完全位于一个目标点 9 寸内时，可以重投震慑测试骰，且所有命中骰结果+1。在驻守时此能力无效。</characteristic>
           </characteristics>
         </profile>
         <profile id="fb50-090a-57d2-f197" name="航空连长" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为航空连长，他可以将自己的掠空手枪替换为以太手枪或连发手枪.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为航空连长，他可以将自己的掠空手枪替换为以太手枪或连发手枪.</characteristic>
           </characteristics>
         </profile>
         <profile id="c725-a74f-7c5e-0f03" name="航空砍刀 (航空连长)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
           <characteristics>
             <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-            <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+            <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
             <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-            <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-            <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+            <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+            <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
             <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
             <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
           </characteristics>
@@ -466,10 +466,10 @@
                 <profile id="d744-014f-4240-0623" name="航空砍刀" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -477,10 +477,10 @@
                 <profile id="223c-e2e6-1661-e317" name="掠空手枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -519,10 +519,10 @@
                     <profile id="9682-14be-160a-c874" name="轻型天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                       <characteristics>
                         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                       </characteristics>
@@ -566,10 +566,10 @@
                     <profile id="141d-8e09-9aee-5c11" name="天空战矛" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                       <characteristics>
                         <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
+                        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                       </characteristics>
@@ -594,10 +594,10 @@
                 <profile id="fcb2-213e-4950-9718" name="以太手枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -612,10 +612,10 @@
                 <profile id="648e-d803-8083-c507" name="连发手枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -641,17 +641,17 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="ad67-9539-4010-4b55" name="航空护卫舰" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="ad67-9539-4010-4b55" name="航空护卫舰" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">*</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">14</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">8</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">*</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">14</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="4d7e-5fbf-f376-1c8c" name="载人空舰 (护卫舰)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型可以飞行。且可以驻守最多 15 个友方航空水兵模型。
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以飞行。且可以驻守最多 15 个友方航空水兵模型。
 
 有 11+模型驻守在此模型内时，此模型移动力减半，且不能使用升空能力。此模型升空或进行移动的同一 能力 阶段，驻守的模型不能离开，其他模型也不能驻守进此模型。驻守的模型在争夺目标点时不计算在内。
 
@@ -686,10 +686,10 @@
             <profile id="229d-6566-3d15-a1a7" name="以太卡宾枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
               </characteristics>
@@ -770,10 +770,10 @@
                 <profile id="bfe7-b255-b907-2d14" name="重型天空炮: 轰击弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
                   </characteristics>
@@ -781,17 +781,17 @@
                 <profile id="f6d8-9b57-2364-2ca4" name="重型天空炮: 破片弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="8929-a22e-bdcc-4fd9" name="重型天空炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">重型天空炮每次射击时必须选择此次射击采用的弹药。</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">重型天空炮每次射击时必须选择此次射击采用的弹药。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -804,17 +804,17 @@
                 <profile id="0b88-0d3d-9fc8-501c" name="重型天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="5a15-d584-9be0-f377" name="重型天钩" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">装备此武器的模型冲锋骰结果+2</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">装备此武器的模型冲锋骰结果+2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -834,17 +834,17 @@
     </selectionEntry>
     <selectionEntry id="fc3c-8879-dd3f-9e53" name="航空铁甲舰" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6675-ede3-c683-9333" name="航空铁甲舰" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="6675-ede3-c683-9333" name="航空铁甲舰" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">8寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">18</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">8</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">8寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">18</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="a2d7-4ff9-9b80-d20a" name="载人空舰 (铁甲舰)" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型可以飞行。且可以驻守最多 25 个友方航空水兵模型。
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型可以飞行。且可以驻守最多 25 个友方航空水兵模型。
 
 有 16+ 模型驻守在此模型内时，此模型移动力减半，且不能使用升空能力。此模型升空或进行移动的同一 能力 阶段，驻守的模型不能离开，其他模型也不能驻守进此模型。驻守的模型在争夺目标点时不计算在内。
 
@@ -879,10 +879,10 @@
             <profile id="8ac5-acba-80bf-2f85" name="以太飞弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
               </characteristics>
@@ -901,10 +901,10 @@
             <profile id="8c24-8c91-3832-99a6" name="以太卡宾枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">8</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
               </characteristics>
@@ -985,10 +985,10 @@
                 <profile id="a38e-6c9b-6069-2119" name="巨型天空炮: 轰击弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">30寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">6</characteristic>
                   </characteristics>
@@ -996,17 +996,17 @@
                 <profile id="fa1b-69d3-0bec-663f" name="巨型天空炮: 破片弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="d040-a1ad-847a-d3f8" name="巨型天空炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">巨型天空炮每次射击时必须选择此次射击采用的弹药。</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">巨型天空炮每次射击时必须选择此次射击采用的弹药。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1019,17 +1019,17 @@
                 <profile id="9f30-96c6-5437-8121" name="巨型天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">6</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="bf1e-3a1a-7a16-bbf8" name="巨型天钩" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">装备此武器的模型冲锋骰结果+2</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">装备此武器的模型冲锋骰结果+2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1042,10 +1042,10 @@
                 <profile id="54e6-db93-079c-1fc8" name="巨型连射炮" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4D6</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -1067,9 +1067,9 @@
     </selectionEntry>
     <selectionEntry id="c6e7-1ed8-8e56-6d3a" name="超级阵型: 无敌舰队" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fd36-3c97-bfc3-64ba" name="制宪专家" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
+        <profile id="fd36-3c97-bfc3-64ba" name="制宪专家" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">一次性能力，若此阵型的航空提督或布洛克·格朗森位于桌面上，则你可以使用一次之前已经使用过的脚注效果。</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">一次性能力，若此阵型的航空提督或布洛克·格朗森位于桌面上，则你可以使用一次之前已经使用过的脚注效果。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1126,9 +1126,9 @@
     </selectionEntry>
     <selectionEntry id="bbea-50e0-5b3b-60e5" name="阵型: 锤击护航队" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a74e-eaf3-7fc7-ff61" name="集中火力" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
+        <profile id="a74e-eaf3-7fc7-ff61" name="集中火力" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">在你的射击阶段开始时，你可以选择一个敌方单位，本阶段中，此阵型中的单位攻击那个单位时，可以重投结果为 1 的命中骰。</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">在你的射击阶段开始时，你可以选择一个敌方单位，本阶段中，此阵型中的单位攻击那个单位时，可以重投结果为 1 的命中骰。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1197,9 +1197,9 @@
     </selectionEntry>
     <selectionEntry id="f897-fdb5-ba26-606c" name="阵型: 铁穹指挥部" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2afc-d2a9-2f11-394c" name="空天之主" page="" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
+        <profile id="2afc-d2a9-2f11-394c" name="空天之主" page="" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">友方卡拉顿天空霸主单位完全位于同阵型的航空铁甲舰 18 寸内时不进行震慑测试。</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">友方卡拉顿天空霸主单位完全位于同阵型的航空铁甲舰 18 寸内时不进行震慑测试。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1288,9 +1288,9 @@
     </selectionEntry>
     <selectionEntry id="f09d-15d1-c470-cceb" name="阵型: 铁穹攻击中队" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a1f0-b462-456f-d9d3" name="掠空勇士" page="" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
+        <profile id="a1f0-b462-456f-d9d3" name="掠空勇士" page="" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">此阵型中的航空连队驻守在同阵型的航空护卫舰中时，即使驻守的航空护卫舰在本回合中已经移动过，也可以正常离舰，且在离舰的同回合的冲锋阶段，冲锋时投掷 3D6 而不是 2D6。</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">此阵型中的航空连队驻守在同阵型的航空护卫舰中时，即使驻守的航空护卫舰在本回合中已经移动过，也可以正常离舰，且在离舰的同回合的冲锋阶段，冲锋时投掷 3D6 而不是 2D6。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1330,29 +1330,29 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="33b9-2486-f405-b8ab" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3e20-36d5-a440-713e" name="布洛克·格朗森，纳尔港财阀领主" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="3e20-36d5-a440-713e" name="布洛克·格朗森，纳尔港财阀领主" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">12寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">8</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">8</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="d985-e9a4-235f-62b2" name="格朗森第一守则" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
           <characteristics>
-            <characteristic name="描述" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型
+            <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">·作用对象：此模型
 ·使用时机：在你的冲锋阶段开始时，且此模型仍位于桌面上，你才可以使用此能力
 ·能力效果：完全位于此模型 24 寸内的友方纳尔港单位可以重投冲锋骰。</characteristic>
           </characteristics>
         </profile>
         <profile id="302d-b664-50a8-5d54" name="定制装甲" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型冲锋后，选择 1 寸内的一个敌方单位，投 D6，若结果为 2+，则那个单位受到 D3 致命伤害。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型冲锋后，选择 1 寸内的一个敌方单位，投 D6，若结果为 2+，则那个单位受到 D3 致命伤害。</characteristic>
           </characteristics>
         </profile>
         <profile id="0607-d2f0-3155-856c" name="以太链锯剑" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">命中骰投出未修正的 6 时，这下攻击直接造成 3 点致命伤害</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">命中骰投出未修正的 6 时，这下攻击直接造成 3 点致命伤害</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1380,10 +1380,10 @@
             <profile id="b821-10ab-bde1-3ba6" name="以太爆能枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -1414,10 +1414,10 @@
             <profile id="d5a3-8973-c328-179b" name="格朗森自耀" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
               </characteristics>
@@ -1436,10 +1436,10 @@
             <profile id="53bd-31f5-8609-e8ec" name="财阀决断者" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -1459,7 +1459,7 @@
     </selectionEntry>
     <selectionEntry id="b35b-ad7f-1673-0c71" name="引擎大师-装备引擎调试器" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="caea-f43e-027c-8675" name="引擎大师-装备引擎调试器" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="caea-f43e-027c-8675" name="引擎大师-装备引擎调试器" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="8">
               <conditions>
@@ -1468,15 +1468,15 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">6</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">6</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="9bb3-1b29-8d89-ae57" name="以太大力锤" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">命中骰投出未修正的 6 时，这下攻击直接造成 3 点致命伤害。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">命中骰投出未修正的 6 时，这下攻击直接造成 3 点致命伤害。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1504,10 +1504,10 @@
             <profile id="e2f0-e397-49dc-e24e" name="以太大力锤" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
               </characteristics>
@@ -1548,22 +1548,22 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1552-6ef3-09fe-f9b0" name="引擎机工" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="1552-6ef3-09fe-f9b0" name="引擎机工" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">12寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">2</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="877a-515d-abe1-2c17" name="引擎技工" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段开始时，你可以选择此单位 1 寸内的一艘友方天舰，此单位中每有一个模型，就投一个 D6，每投出一个 4+，那艘天舰可以回复一点生命值。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段开始时，你可以选择此单位 1 寸内的一艘友方天舰，此单位中每有一个模型，就投一个 D6，每投出一个 4+，那艘天舰可以回复一点生命值。</characteristic>
           </characteristics>
         </profile>
         <profile id="5e76-5332-99fc-43f7" name="后桅哨长" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为后桅哨长，他的肉搏武器攻击次数+1。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为后桅哨长，他的肉搏武器攻击次数+1。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1640,10 +1640,10 @@
                 <profile id="4649-523b-5c1e-87e2" name="速射钉枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -1651,10 +1651,10 @@
                 <profile id="1fa1-0f6e-71d5-a294" name="以太链锯剑" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                   </characteristics>
@@ -1726,23 +1726,23 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1244-eac5-17c6-a815" name="锤击炮艇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="1244-eac5-17c6-a815" name="锤击炮艇" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">12寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">10</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">10</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="3b70-c749-42d6-1d37" name="护卫舰艇" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">友方天舰（锤击炮艇除外）3 寸内有此模型时获得以下能力：
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">友方天舰（锤击炮艇除外）3 寸内有此模型时获得以下能力：
 ·每受到一点伤害或致命伤害，投 D6，若结果为 6，则无视那点伤害或致命伤害</characteristic>
           </characteristics>
         </profile>
         <profile id="2bae-1f83-570d-68d2" name="全速前进" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">一次性能力。在你的任意移动阶段开始时，你可以宣布此模型本阶段中移动力+6。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">一次性能力。在你的任意移动阶段开始时，你可以宣布此模型本阶段中移动力+6。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1771,10 +1771,10 @@
             <profile id="56ae-c901-888b-9719" name="以太卡宾枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -1793,10 +1793,10 @@
             <profile id="b1bf-c87e-ec53-8170" name="舰载武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -1819,26 +1819,26 @@
                 <profile id="18aa-c0f5-c7e2-0903" name="天空炮: 破片弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D6</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">2</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9eaa-7d1d-5d7c-35b9" name="天空炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">天空炮每次射击时必须选择此次射击采用的弹药。</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">天空炮每次射击时必须选择此次射击采用的弹药。</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="f1d9-d5d9-c510-2dd1" name="天空炮: 轰击弹" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D6</characteristic>
                   </characteristics>
@@ -1853,17 +1853,17 @@
                 <profile id="718e-9437-0c95-3016" name="钻头炮" page="" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">36寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">36寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-3</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="c9e5-fd01-8ec0-0582" name="钻头炮" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 钻头炮 is 5+, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 钻头炮 is 5+, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1890,27 +1890,27 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b568-e50b-5326-93df" name="锤击雷鸣枪手" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="b568-e50b-5326-93df" name="锤击雷鸣枪手" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">2</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="f57e-f883-0d2b-91d0" name="枪炮中士" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为枪炮中士，他的装备为双管以太步枪+枪托+钻头机械鸟</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为枪炮中士，他的装备为双管以太步枪+枪托+钻头机械鸟</characteristic>
           </characteristics>
         </profile>
         <profile id="39f3-aab7-1670-7fea" name="压制！炸碎！了结敌人！" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">若此单位中同时存在装备了以太炮的模型、装备了锤击迫击炮的模型、装备了扫堂排炮的模型，则那些模型的远程武器命中骰结果+1。在驻守时此能力无效。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若此单位中同时存在装备了以太炮的模型、装备了锤击迫击炮的模型、装备了扫堂排炮的模型，则那些模型的远程武器命中骰结果+1。在驻守时此能力无效。</characteristic>
           </characteristics>
         </profile>
         <profile id="6779-6056-880d-a808" name="击退敌人！" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位 3 寸内有敌方单位时，所有远程武器攻击次数+1。在驻守时此能力无效。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位 3 寸内有敌方单位时，所有远程武器攻击次数+1。在驻守时此能力无效。</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1960,7 +1960,7 @@
           <profiles>
             <profile id="983d-7566-35a1-7977" name="荣誉旗手" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
               <characteristics>
-                <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">每 5 个模型可有一个成为荣誉旗手，包含荣誉旗手的单位可以重投震慑测试骰.</characteristic>
+                <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">每 5 个模型可有一个成为荣誉旗手，包含荣誉旗手的单位可以重投震慑测试骰.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1977,10 +1977,10 @@
             <profile id="e1df-dc50-eb48-f0a7" name="双管以太步枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -1988,10 +1988,10 @@
             <profile id="9a2f-e61c-3b0d-4628" name="钻头机械鸟" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">3寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -2026,10 +2026,10 @@
                 <profile id="fe24-85e4-76f7-5738" name="以太步枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -2054,17 +2054,17 @@
                 <profile id="4f93-4da1-542a-d128" name="以太喷射器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">D3</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="a78e-67a7-b4e5-9b8b" name="窒息毒雾" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
                   <characteristics>
-                    <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">敌方模型位于装备以太喷射器的模型 3 寸内时命中骰结果-1。在驻守时此能力无效。</characteristic>
+                    <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">敌方模型位于装备以太喷射器的模型 3 寸内时命中骰结果-1。在驻守时此能力无效。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2087,10 +2087,10 @@
                 <profile id="24da-2df2-bbac-3616" name="扫堂排炮" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -2115,10 +2115,10 @@
                 <profile id="acee-0d1d-7169-e312" name="以太炮" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                   </characteristics>
@@ -2143,10 +2143,10 @@
                 <profile id="8ee1-0086-daf4-f949" name="锤击迫击炮" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                   </characteristics>
@@ -2172,27 +2172,27 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="dca9-25fb-19f5-4855" name="天空守卫" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="dca9-25fb-19f5-4855" name="天空守卫" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">12寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">2</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">2</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="8ef0-6bbd-8351-2bfc" name="空雷" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">敌方飞行单位冲锋到此单位 1 寸内时，那个单位中每有一个模型投 D6，每投出一个 6，那个单位受到 1 点致命伤害。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">敌方飞行单位冲锋到此单位 1 寸内时，那个单位中每有一个模型投 D6，每投出一个 6，那个单位受到 1 点致命伤害。</characteristic>
           </characteristics>
         </profile>
         <profile id="84e2-8c8e-6905-a85c" name="定时炸弹" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位进行撤退移动前，为 3 寸内每一个敌方单位投 D6，若结果为 4+，则对应敌方单位受到 D3 致命伤害。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位进行撤退移动前，为 3 寸内每一个敌方单位投 D6，若结果为 4+，则对应敌方单位受到 D3 致命伤害。</characteristic>
           </characteristics>
         </profile>
         <profile id="6140-6bb5-428b-60d4" name="天空近卫" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为天空近卫，他的肉搏武器攻击次数+1</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此单位中的一个模型可以成为天空近卫，他的肉搏武器攻击次数+1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2268,10 +2268,10 @@
                 <profile id="11af-f6a3-2331-a582" name="硫化手枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
                   </characteristics>
@@ -2279,10 +2279,10 @@
                 <profile id="44f9-20b6-e0c7-5f76" name="天空战矛" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
                   <characteristics>
                     <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                    <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
+                    <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                     <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                    <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                    <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                    <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                    <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                     <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                     <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
                   </characteristics>
@@ -2366,19 +2366,20 @@
               <profiles>
                 <profile id="9ba4-d20e-985e-d96e" name="以太金分成" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                   <characteristics>
-                    <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">游戏开始时，下述三种友方单位都可以各自获得一份以太金分成
-1）卡拉顿天空霸主英雄
-2）卡拉顿天空霸主天舰
-3）有 10+模型的友方卡拉顿天空霸主单位
-
+                    <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">以太金分成：以太金乃是卡拉顿社会之命脉， 这种轻于空气的金属使他们的城市得以漂浮在空中， 给他们的
+舰船提供燃料， 也是他们的诸多武器的动力之源。
+游戏开始时，下述三种友方单位都可以各自获得一份以太金分成
+1）卡拉顿空霸英雄
+2）卡拉顿空霸天舰
+3）有 10+模型的友方卡拉顿空霸单位
 一个阶段一次，你可以宣布一个持有以太金的单位消耗其持有的以太金分成，选择使用以下一项效果：
-&gt;选择此单位进行射击或肉搏时使用，本阶段此单位可以重投命中骰。
-&gt;选择此单位进行射击或肉搏时使用，本阶段此单位可以重投造伤骰。
+&gt;选择此单位进行射击或近战时使用，本阶段此单位可以重投命中骰。
+&gt;选择此单位进行射击或近战时使用，本阶段此单位可以重投造伤骰。
 &gt;此单位投掷保护骰前使用，本阶段此单位可以重投保护骰。
 &gt;此单位进行震慑测试前使用，本阶段此单位不进行震慑测试。
 &gt;此单位投掷冲锋骰或奔跑骰前使用，本阶段此单位可以重投其奔跑骰或冲锋骰。
 &gt;此单位使用指挥能力时使用，本阶段此英雄可以不消耗指挥点数使用一次指挥能力。
-
+以上提供重投的能力都必须在那次投骰前宣布使用。
 消耗了自己的以太金分成的单位在接下来的整场游戏中勇气值-1。</characteristic>
                   </characteristics>
                 </profile>
@@ -2394,7 +2395,7 @@
                       <profiles>
                         <profile id="ef2a-c75d-2439-3ab6" name="宏伟天舰" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">你的军队中可有额外一艘天舰获得引擎精工。</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">你的军队中可有额外一艘天舰获得引擎精工。</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2435,7 +2436,7 @@
                           <profiles>
                             <profile id="b8ea-df06-e9f1-0a3b" name="微风总在可寻处" hidden="false" typeId="6bee-9bbf-1847-2f14" typeName="3) 脚注">
                               <characteristics>
-                                <characteristic name="细节" typeId="928f-ca19-9ee0-38c3">一次性能力。在你的英雄阶段，一艘友方天舰可以进行一次普通移动（可以奔跑、撤退和脱离）。</characteristic>
+                                <characteristic name="细节" typeId="928f-ca19-9ee0-38c3">一次性能力。在你的英雄阶段，一艘友方齐尔芬港可以进行一次普通移动（可以奔跑、撤退和脱离）。</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2452,7 +2453,7 @@
                       <profiles>
                         <profile id="a3fa-aa72-81c4-532f" name="说不如做" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">友方旅空单位冲锋的同回合中，肉搏攻击造伤骰结果+1，若为天空守卫单位，则肉搏攻击命中骰结果也+1.</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">友方旅空单位冲锋的同回合中，肉搏攻击造伤骰结果+1，若为天空守卫单位，则肉搏攻击命中骰结果也+1.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2510,7 +2511,7 @@
                       <profiles>
                         <profile id="4a89-2072-a1e2-f1c1" name="贸易之城" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">乌巴兹港单位消耗自己的以太金分成后，不会受到勇气值-1 的惩罚。</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">乌巴兹港单位消耗自己的以太金分成后，不会受到勇气值-1 的惩罚。</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2568,7 +2569,7 @@
                       <profiles>
                         <profile id="2056-8ef1-dcf8-7006" name="恐怖空掠者" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">敌方单位位于友方莫纳尔港单位 6 寸内时勇气值-1。</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">敌方单位位于友方莫纳尔港单位 6 寸内时勇气值-1。</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2626,7 +2627,7 @@
                       <profiles>
                         <profile id="afd1-4c8d-44e8-73b3" name="惊人坚忍" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">友方旅空模型在敌方单位 3 寸内被杀死时，在移出桌面之前，投 D6，若结果为 4+，则那个模型在移出桌面之前可以攻击一轮。</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">友方旅空模型在敌方单位 3 寸内被杀死时，在移出桌面之前，投 D6，若结果为 4+，则那个模型在移出桌面之前可以攻击一轮。</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2811,7 +2812,7 @@
                       <profiles>
                         <profile id="9dd1-246e-9ee8-994e" name="学者统领" hidden="false" typeId="c137-4d1f-9d1a-524d" typeName="战斗特性">
                           <characteristics>
-                            <characteristic name="描述" typeId="9fdd-b4b1-5f7a-0970">在第一个大回合开始前，桌面上每有一个友方纳尔港英雄（包括驻守中的英雄），就投一个 D6，每投出一个 4+，你获得一点指挥点数</characteristic>
+                            <characteristic name="战斗特性细节" typeId="9fdd-b4b1-5f7a-0970">在第一个大回合开始前，桌面上每有一个友方纳尔港英雄（包括驻守中的英雄），就投一个 D6，每投出一个 4+，你获得一点指挥点数</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2896,12 +2897,12 @@
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aaa7-c851-617d-d8d2" type="min"/>
       </constraints>
       <profiles>
-        <profile id="a6c8-8d46-cb75-d717" name="比约根·桑德里克" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="a6c8-8d46-cb75-d717" name="比约根·桑德里克" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">5</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">5</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2967,22 +2968,22 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37c7-8e86-b145-d189" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1a99-cc04-842d-7be4" name="桑德里克寻宝队" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="1a99-cc04-842d-7be4" name="桑德里克寻宝队" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">4寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">1</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">7</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">4寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">1</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">7</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="b34e-5dc6-78ab-a11d" name="卡泽冈·猎龙者" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">卡泽冈·猎龙者：此模型生命值+1 且可以飞行。</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">卡泽冈·猎龙者：此模型生命值+1 且可以飞行。</characteristic>
           </characteristics>
         </profile>
         <profile id="e963-44a8-b125-8aef" name="桑德里克寻宝队" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
           <characteristics>
-            <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for attacks made by this 单位 and re-roll battleshock tests for this 单位 while it is wholly within 9寸 of 比约根·桑德里克. This ability cannot be used if this 单位 is part of a garrison.</characteristic>
+            <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">You can add 1 to hit rolls for attacks made by this 单位 and re-roll battleshock tests for this 单位 while it is wholly within 9寸 of 比约根·桑德里克. This ability cannot be used if this 单位 is part of a garrison.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3005,10 +3006,10 @@
             <profile id="6f56-cd0a-eef5-d8c1" name="以太连发枪 (恩里克·铁颂)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">5+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3027,10 +3028,10 @@
             <profile id="a7da-7107-a134-1501" name="以太步枪 (死眼·伦德)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3049,10 +3050,10 @@
             <profile id="1031-7687-a89b-2a87" name="掠空手枪 (加洛德·阿朗森)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3071,10 +3072,10 @@
             <profile id="155b-fa59-503d-0429" name="硫化手枪 (卡泽冈·猎龙者)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3093,10 +3094,10 @@
             <profile id="2165-9ed0-2ee2-a86c" name="航空砍刀 (加洛德·阿朗森)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3115,10 +3116,10 @@
             <profile id="6083-b93b-667d-6c38" name="枪托 (恩里克·铁颂 和 死眼·伦德)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">5+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3137,10 +3138,10 @@
             <profile id="0de5-424a-a1ce-8094" name="天空战矛 (卡泽冈·猎龙者)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">2寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
               </characteristics>
@@ -3157,7 +3158,7 @@
     </selectionEntry>
     <selectionEntry id="81fb-5851-087f-131d" name="引擎大师-装备浮空装甲" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="72ad-8b66-f0a2-d50a" name="引擎大师-装备浮空装甲" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="unit">
+        <profile id="72ad-8b66-f0a2-d50a" name="引擎大师-装备浮空装甲" hidden="false" typeId="1960-ca8e-67ce-2014" typeName="单位">
           <modifiers>
             <modifier type="set" field="cd0e-fea6-411f-904d" value="10">
               <conditions>
@@ -3166,10 +3167,10 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="移动" typeId="8655-6213-2824-1752">12寸</characteristic>
-            <characteristic name="血量" typeId="cd0e-fea6-411f-904d">8</characteristic>
-            <characteristic name="勇气" typeId="0c85-bf79-836b-759e">8</characteristic>
-            <characteristic name="保护" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
+            <characteristic name="移动力" typeId="8655-6213-2824-1752">12寸</characteristic>
+            <characteristic name="生命值" typeId="cd0e-fea6-411f-904d">8</characteristic>
+            <characteristic name="勇气值" typeId="0c85-bf79-836b-759e">8</characteristic>
+            <characteristic name="保护值" typeId="f8dd-4f2a-8543-4f36">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3223,10 +3224,10 @@
             <profile id="dbb2-adb4-5610-0d3c" name="装甲武器平台" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">18寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
               </characteristics>
@@ -3245,10 +3246,10 @@
             <profile id="f805-537a-6864-93de" name="以太炮" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
               <characteristics>
                 <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-                <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+                <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
                 <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-                <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-                <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+                <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+                <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
                 <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
                 <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
               </characteristics>
@@ -3289,9 +3290,9 @@
     </selectionEntry>
     <selectionEntry id="0cb8-ad19-8612-9cd8" name="阵型: 无畏勘探者" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="12da-ac0a-5a97-ae8f" name="尽快工作" publicationId="9f8c-de34-da67-5e71" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="战斗阵型能力">
+        <profile id="12da-ac0a-5a97-ae8f" name="尽快工作" publicationId="9f8c-de34-da67-5e71" hidden="false" typeId="bdc6-78da-3796-60a3" typeName="阵型能力">
           <characteristics>
-            <characteristic name="描述" typeId="08e0-9ead-1dbe-c801">部署结束第一轮开始之前,你可以移动此阵型中单位6寸.</characteristic>
+            <characteristic name="阵型能力细节" typeId="08e0-9ead-1dbe-c801">部署结束第一轮开始之前,你可以移动此阵型中单位6寸.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3446,7 +3447,7 @@
               <profiles>
                 <profile id="8afd-98ae-c1da-a990" name="佐恩巴集团“交易中止”撞角" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰冲锋后，选择 1 寸内的一个敌方单位，投掷相当于此次冲锋骰数量的 D6，每投出一个 4+，那个单位受到 1 点致命伤害</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰冲锋后，选择 1 寸内的一个敌方单位，投掷相当于此次冲锋骰数量的 D6，每投出一个 4+，那个单位受到 1 点致命伤害</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3461,7 +3462,7 @@
               <profiles>
                 <profile id="48ef-f4a0-5299-8501" name="赫格松万事屋“靠谱老货”船体" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰生命值+2</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰生命值+2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3498,7 +3499,7 @@
               <profiles>
                 <profile id="5fd5-6734-5d28-1bdf" name="浮空助剂" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰在即使驻守有 16+模型时也可以使用升空能力</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰在即使驻守有 16+模型时也可以使用升空能力</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3513,7 +3514,7 @@
               <profiles>
                 <profile id="5d36-7902-d096-bd81" name="临终赠言" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在敌方冲锋阶段结束时，选择本阶段冲锋到此舰 3 寸内的一个敌方单位，此舰可以用装备的巨型天空炮或巨型天钩或巨型连射炮射击那个单位一轮</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在敌方冲锋阶段结束时，选择本阶段冲锋到此舰 3 寸内的一个敌方单位，此舰可以用装备的巨型天空炮或巨型天钩或巨型连射炮射击那个单位一轮</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3542,7 +3543,7 @@
               <profiles>
                 <profile id="0dee-c0fa-9077-14b5" name="伊格里德-卡斯的 MK.IV 动力注剂引擎" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰进行普通移动时，移动力+D3，你也可以选择+2D3，但是一旦 2D3 投出两个一样的结果，则此舰受到 1点致命伤害</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰进行普通移动时，移动力+D3，你也可以选择+2D3，但是一旦 2D3 投出两个一样的结果，则此舰受到 1点致命伤害</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3557,7 +3558,7 @@
               <profiles>
                 <profile id="e68b-1535-fe26-be26" name="煤胡的可拆隔间" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰可以如其他舰种一般供友方航空水兵模型驻守，但是最多只能驻守 5 个模型。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰可以如其他舰种一般供友方航空水兵模型驻守，但是最多只能驻守 5 个模型。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3572,7 +3573,7 @@
               <profiles>
                 <profile id="b58f-8b08-d054-d8ee" name="佐恩巴集团“讨债者”侧翼鱼雷" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰在整场游戏中第一次冲锋移动后，选择此舰 1 寸内的一个敌方单位，投 D6，若结果为 2+，则那个单位受到 D6 致命伤害。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰在整场游戏中第一次冲锋移动后，选择此舰 1 寸内的一个敌方单位，投 D6，若结果为 2+，则那个单位受到 D6 致命伤害。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3623,7 +3624,7 @@
               <profiles>
                 <profile id="ad4b-34e1-a4b9-8f9b" name="恶煞空雷" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。任意肉搏阶段开始时，选择此舰 6 寸内的一个敌方单位，投 D6，若结果为 2-3，那个单位受到 D3致命伤害，若结果为 4+，则改为 D6 致命伤害。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。任意肉搏阶段开始时，选择此舰 6 寸内的一个敌方单位，投 D6，若结果为 2-3，那个单位受到 D3致命伤害，若结果为 4+，则改为 D6 致命伤害。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3664,7 +3665,7 @@
               <profiles>
                 <profile id="1265-a428-b617-6925" name="莫格里姆之息" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，选择一个敌方单位，那个敌方单位每有一个模型位于此天舰 6 寸内，投一个 D6，每投出一个 6，那个敌方单位受到一点致命伤害。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">在你的射击阶段，选择一个敌方单位，那个敌方单位每有一个模型位于此天舰 6 寸内，投一个 D6，每投出一个 6，那个敌方单位受到一点致命伤害。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3716,9 +3717,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64f-d038-a326-3134" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7c98-b408-9ec8-ff99" name="高超指挥" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="7c98-b408-9ec8-ff99" name="高超指挥" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将每消耗指挥点数使用自己规则上的指挥能力时，投 D6，若结果为 5+，你获得一点指挥点数。</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将每消耗指挥点数使用自己规则上的指挥能力时，投 D6，若结果为 5+，你获得一点指挥点数。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3736,9 +3737,9 @@
             </selectionEntry>
             <selectionEntry id="bd8c-d77e-0c11-655a" name="6. 航空员学者" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="afa6-adf5-f691-a6c1" name="航空员学者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="afa6-adf5-f691-a6c1" name="航空员学者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">你可以为你的军队额外选择一条不同的脚注</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">你可以为你的军队额外选择一条不同的脚注</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3748,9 +3749,9 @@
             </selectionEntry>
             <selectionEntry id="5df9-ad37-e97e-b182" name="4. 狡猾司令" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="fccc-1ee1-98b4-7faf" name="狡猾司令" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="fccc-1ee1-98b4-7faf" name="狡猾司令" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，第一个大回合开始前，一艘友方天舰可以进行一次普通移动，若不是航空铁甲舰，则也可以选择进行升空</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，第一个大回合开始前，一艘友方天舰可以进行一次普通移动，若不是航空铁甲舰，则也可以选择进行升空</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3760,9 +3761,9 @@
             </selectionEntry>
             <selectionEntry id="4c3b-e0c0-d3a5-109f" name="5. 身负战痕" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="32e2-76cf-087f-5c55" name="身负战痕" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="32e2-76cf-087f-5c55" name="身负战痕" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，为此主将投 D6，若结果为 1，则此主将命中骰结果-1，直到你的下个英雄阶段，若结果为 2+，则你获得一点指挥点数</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，为此主将投 D6，若结果为 1，则此主将命中骰结果-1，直到你的下个英雄阶段，若结果为 2+，则你获得一点指挥点数</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3831,9 +3832,9 @@
             </selectionEntry>
             <selectionEntry id="8aa1-a7ba-9fc0-2918" name="6. 工程教授" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="7166-a88d-d1ae-5d4a" name="工程教授" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="7166-a88d-d1ae-5d4a" name="工程教授" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">一回合一次，在你的英雄阶段，此主将可以不消耗指挥点数使用一次其格朗尼在上啊！我可盯着你呢！能力</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">一回合一次，在你的英雄阶段，此主将可以不消耗指挥点数使用一次其格朗尼在上啊！我可盯着你呢！能力</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3843,9 +3844,9 @@
             </selectionEntry>
             <selectionEntry id="a20e-7970-f5e7-28dd" name="5. 大修补匠" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="91cd-6c96-b4fe-8a7d" name="大修补匠" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="91cd-6c96-b4fe-8a7d" name="大修补匠" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将的格朗尼凝视攻击次数+2</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将的格朗尼凝视攻击次数+2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3855,9 +3856,9 @@
             </selectionEntry>
             <selectionEntry id="53fa-fe46-fdd3-4796" name="4. 机工宗师" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="f4b4-5719-2416-0387" name="机工宗师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="f4b4-5719-2416-0387" name="机工宗师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将使用引擎大师能力时，可回复的血量值+1</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将使用引擎大师能力时，可回复的血量值+1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3904,9 +3905,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07f9-942e-c14a-e142" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7012-a9d2-38b0-c580" name="进步冠军" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="7012-a9d2-38b0-c580" name="进步冠军" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">友方纳尔港单位完全位于此主将 12 寸内时不进行震慑测试。</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">友方纳尔港单位完全位于此主将 12 寸内时不进行震慑测试。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3932,9 +3933,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3df-84f1-9f36-e4f4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ff68-485d-fea3-4c41" name="背负铁星" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="ff68-485d-fea3-4c41" name="背负铁星" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将第一次被杀死时，在移出桌面之前，投 D6，若结果为 2+，则此主将不被杀死，回复 D3 点生命值且无视所有待分配的伤害。</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将第一次被杀死时，在移出桌面之前，投 D6，若结果为 2+，则此主将不被杀死，回复 D3 点生命值且无视所有待分配的伤害。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3960,9 +3961,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6af-6e91-6046-50ed" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a269-1dde-add0-ae8a" name="投机空盗" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="a269-1dde-add0-ae8a" name="投机空盗" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">在双方军队布置完成后，第一个大回合开始前，若此主将驻守在一艘友方天舰中，则你可以将这艘天舰移出桌面并重新布置到任意敌方的 9 寸外的位置，若如此重新布置，此天舰在第一个大回合中无法进行普通移动，驻守其中的单位也不能离舰</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">在双方军队布置完成后，第一个大回合开始前，若此主将驻守在一艘友方天舰中，则你可以将这艘天舰移出桌面并重新布置到任意敌方的 9 寸外的位置，若如此重新布置，此天舰在第一个大回合中无法进行普通移动，驻守其中的单位也不能离舰</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3988,9 +3989,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a5-51ba-6d31-586b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="caf8-2601-51c5-5160" name="极其坚忍" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="caf8-2601-51c5-5160" name="极其坚忍" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将的惊人坚忍能力只需 2+就可以生效。</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将的惊人坚忍能力只需 2+就可以生效。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4030,9 +4031,9 @@
             </selectionEntry>
             <selectionEntry id="7c51-bb36-8ae0-18ab" name="6. 探金师" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="b774-1bc0-323c-2654" name="探金师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="b774-1bc0-323c-2654" name="探金师" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一片地形，友方卡拉顿天空霸主单位完全位于那片地形 12 寸内时不进行震慑测试</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一片地形，友方卡拉顿天空霸主单位完全位于那片地形 12 寸内时不进行震慑测试</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4042,9 +4043,9 @@
             </selectionEntry>
             <selectionEntry id="b847-125f-486f-08e3" name="5. 质疑魔法" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="620b-1509-97a9-379b" name="质疑魔法" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="620b-1509-97a9-379b" name="质疑魔法" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将破法骰和驱散骰结果+1</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将破法骰和驱散骰结果+1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4054,9 +4055,9 @@
             </selectionEntry>
             <selectionEntry id="88b3-1968-84c7-b86b" name="4. 驭风而行" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="e16d-c1f4-2181-f066" name="驭风而行" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="e16d-c1f4-2181-f066" name="驭风而行" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">有此主将驻守的天舰移动力+3</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">有此主将驻守的天舰移动力+3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4066,9 +4067,9 @@
             </selectionEntry>
             <selectionEntry id="b769-a837-272a-ef17" name="3. 唤风者" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3153-525b-d760-33c4" name="唤风者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="3153-525b-d760-33c4" name="唤风者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将使用以太风暴能力时，可以重投决定效果的骰子</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将使用以太风暴能力时，可以重投决定效果的骰子</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4113,9 +4114,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e519-017b-d9fb-c089" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0025-2dbc-17cb-0eb4" name="首席化学家" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="0025-2dbc-17cb-0eb4" name="首席化学家" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">主将为以太化学家时才必须选用此特性
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">主将为以太化学家时才必须选用此特性
 此主将在使用以太强化能力时，可以选择最多 2 个符合条件的友方旅空单位为目标。</characteristic>
                   </characteristics>
                 </profile>
@@ -4150,9 +4151,9 @@
             </selectionEntry>
             <selectionEntry id="c526-6a3b-a3bb-e367" name="6. 攒金能手" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="517d-563b-c34b-0cc2" name="攒金能手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="517d-563b-c34b-0cc2" name="攒金能手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">若此主将拥有魔法道具，则你军队中可以有额外一个英雄获得魔法道具</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">若此主将拥有魔法道具，则你军队中可以有额外一个英雄获得魔法道具</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4162,9 +4163,9 @@
             </selectionEntry>
             <selectionEntry id="e56b-b760-eb63-f0e9" name="5. 发明天才" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="811c-5211-c1b4-89f9" name="发明天才" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="811c-5211-c1b4-89f9" name="发明天才" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将的以太强化范围从 12 寸变为 18 寸</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将的以太强化范围从 12 寸变为 18 寸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4174,9 +4175,9 @@
             </selectionEntry>
             <selectionEntry id="f56a-e0c9-1fcf-3978" name="4. 淘金熟手" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c6f5-3fca-4aff-aae6" name="淘金熟手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+                <profile id="c6f5-3fca-4aff-aae6" name="淘金熟手" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
                   <characteristics>
-                    <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，投 D6，若结果为 5+，则此主将获得一份以太金分成</characteristic>
+                    <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">在你的英雄阶段，投 D6，若结果为 5+，则此主将获得一份以太金分成</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4212,7 +4213,7 @@
               <profiles>
                 <profile id="eb82-7cd1-87cb-8d40" name="精工装甲" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者每受到一点伤害或致命伤害，投 D6，若结果为 6，则无视那点伤害或致命伤害</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者每受到一点伤害或致命伤害，投 D6，若结果为 6，则无视那点伤害或致命伤害</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4227,7 +4228,7 @@
               <profiles>
                 <profile id="714d-f5e4-fa84-b941" name="扩音面具" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一个大回合一次，装备者可以不消耗指挥点数使用一次自己规则上的指挥能力</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一个大回合一次，装备者可以不消耗指挥点数使用一次自己规则上的指挥能力</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4242,7 +4243,7 @@
               <profiles>
                 <profile id="1829-dfd5-e49b-04eb" name="陈年琥珀威士忌" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。你可以在你的英雄阶段中使用此魔法道具；
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。你可以在你的英雄阶段中使用此魔法道具；
 选择为装备者回复 D6 点生命值或是 2 点生命值。</characteristic>
                   </characteristics>
                 </profile>
@@ -4258,7 +4259,7 @@
               <profiles>
                 <profile id="c8c1-9d87-b2b3-fdb1" name="标记符文" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">双方军队布置完毕后，选择一个敌方英雄，在那个英雄被杀死时，移出桌面之前，距离那个英雄最近的 3 个友方卡拉顿天空霸主单位可以各获得一份以太金分成</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">双方军队布置完毕后，选择一个敌方英雄，在那个英雄被杀死时，移出桌面之前，距离那个英雄最近的 3 个友方卡拉顿天空霸主单位可以各获得一份以太金分成</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4273,7 +4274,7 @@
               <profiles>
                 <profile id="c4db-72bd-45a1-981f" name="盖特森无尽连发枪" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者的连发手枪攻击次数+2</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者的连发手枪攻击次数+2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4288,7 +4289,7 @@
               <profiles>
                 <profile id="9b77-d767-8ec3-b297" name="以太神力锤" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择装备者的一件肉搏武器获得此效果：命中骰投出未修正的 6 时，这下攻击额外造成 1 点致命伤害</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一件肉搏武器获得此效果：命中骰投出未修正的 6 时，这下攻击额外造成 1 点致命伤害</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4317,7 +4318,7 @@
               <profiles>
                 <profile id="87aa-8c02-7412-dfe0" name="紧急排气板" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。在敌方射击阶段开始，你可以宣布使用此道具，如此则本阶段中，对装备者，以及对完全位于装备者 6 寸内的友方单位的攻击命中骰结果-1</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。在敌方射击阶段开始，你可以宣布使用此道具，如此则本阶段中，对装备者，以及对完全位于装备者 6 寸内的友方单位的攻击命中骰结果-1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4332,7 +4333,7 @@
               <profiles>
                 <profile id="f0d3-cb6d-5882-ccbb" name="瓶中法术" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。装备者可以自动施放一个无尽法术（不能被破法），无视施放此无尽法术的限制，但仍需要将此无尽法术写入军表并支付分数。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。装备者可以自动施放一个无尽法术（不能被破法），无视施放此无尽法术的限制，但仍需要将此无尽法术写入军表并支付分数。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4347,7 +4348,7 @@
               <profiles>
                 <profile id="341a-0031-c7e0-389e" name="腐蚀飞刀" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。在任意肉搏阶段开始，为装备者 6 寸内的每个敌方模型投 D6，若结果为 5+，则对应模型所在的单位受到 1 点致命伤害</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。在任意肉搏阶段开始，为装备者 6 寸内的每个敌方模型投 D6，若结果为 5+，则对应模型所在的单位受到 1 点致命伤害</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4388,7 +4389,7 @@
               <profiles>
                 <profile id="2749-ea79-3f3f-4d13" name="强震击拳套" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者冲锋后，你可以选择装备者 1 寸内的一个敌方单位，投 D6，若结果为 2+则那个单位受到 D3 致命伤害。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者冲锋后，你可以选择装备者 1 寸内的一个敌方单位，投 D6，若结果为 2+则那个单位受到 D3 致命伤害。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4410,7 +4411,7 @@
               <profiles>
                 <profile id="896c-f911-ec48-f134" name="齿轮目镜" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一个阶段一次，装备者可以重投一颗命中骰或造伤骰或保护骰。一个阶段只能用此道具重投一颗骰子。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一个阶段一次，装备者可以重投一颗命中骰或造伤骰或保护骰。一个阶段只能用此道具重投一颗骰子。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4432,7 +4433,7 @@
               <profiles>
                 <profile id="4317-3d08-ef0a-bca7" name="以太石英单片镜" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者的格朗尼凝视射程变为 18 寸</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者的格朗尼凝视射程变为 18 寸</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4454,7 +4455,7 @@
               <profiles>
                 <profile id="1516-9cf4-4936-e87e" name="以太注剂加速器" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者进行撤退时，可以使用锤击炮艇规则上的脱离和升空能力。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者进行撤退时，可以使用锤击炮艇规则上的脱离和升空能力。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4476,7 +4477,7 @@
               <profiles>
                 <profile id="aff8-7dae-3f80-d4cf" name="磷火炸弹" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。在你的射击阶段，你可以选择装备者 6 寸内的一个敌方单位，投 D6，若结果为 2+，则那个单位受到 1 点致命伤害，然后重复如上过程，直到 D6 结果不为 2+为止</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。在你的射击阶段，你可以选择装备者 6 寸内的一个敌方单位，投 D6，若结果为 2+，则那个单位受到 1 点致命伤害，然后重复如上过程，直到 D6 结果不为 2+为止</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4498,7 +4499,7 @@
               <profiles>
                 <profile id="defb-c831-cabd-6664" name="小型以太斥力场" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者每受到一个法术或无尽法术的影响，投 D6，若结果为 3+则无视那个法术或无尽法术对装备者的影响。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者每受到一个法术或无尽法术的影响，投 D6，若结果为 3+则无视那个法术或无尽法术对装备者的影响。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4545,7 +4546,7 @@
               <profiles>
                 <profile id="bf34-3880-6d11-8802" name="暴风长杖" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">第一个选择魔法道具的英雄为以太领航员时才必须选用此道具
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">第一个选择魔法道具的英雄为以太领航员时才必须选用此道具
 在敌方冲锋阶段开始时，你可以选择装备者 12 寸内的一个敌方单位，那个单位本阶段冲锋骰结果减半。</characteristic>
                   </characteristics>
                 </profile>
@@ -4561,7 +4562,7 @@
               <profiles>
                 <profile id="fc93-35af-8736-0459" name="飓风测速器" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">装备者的以太风暴判定骰结果+1</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">装备者的以太风暴判定骰结果+1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4576,7 +4577,7 @@
               <profiles>
                 <profile id="2448-2b9f-75ea-12fe" name="虚空石球" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。装备者使用其以太视野能力时，那次驱散或破法直接成功（无需投骰）。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。装备者使用其以太视野能力时，那次驱散或破法直接成功（无需投骰）。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4591,7 +4592,7 @@
               <profiles>
                 <profile id="ddc4-c74c-1e80-4596" name="斯瓦雷格·斯坦因的“点灯器”信号枪" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">整场游戏中，装备者的测距手枪第一次命中敌方单位时，本阶段中，所有友方卡拉顿天空霸主可以重投对那个单位的攻击的命中骰</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">整场游戏中，装备者的测距手枪第一次命中敌方单位时，本阶段中，所有友方卡拉顿天空霸主可以重投对那个单位的攻击的命中骰</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4640,7 +4641,7 @@
               <profiles>
                 <profile id="16ae-bceb-ddda-b3bf" name="仇恨战锤" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">第一个选择魔法道具的英雄有旅空时才必须选用此道具
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">第一个选择魔法道具的英雄有旅空时才必须选用此道具
 选择装备者的一件肉搏武器，这件武器命中骰结果+1，且攻击结怨目标时，若造伤骰投出未修正 6，则这下攻击额外造成 D3 致命伤害。</characteristic>
                   </characteristics>
                 </profile>
@@ -4669,7 +4670,7 @@
               <profiles>
                 <profile id="19e7-46df-500e-177f" name="以太速击锤" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择装备者的一件肉搏武器，这件武器攻击次数+2。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一件肉搏武器，这件武器攻击次数+2。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4697,7 +4698,7 @@
               <profiles>
                 <profile id="19f2-4aad-6875-f22c" name="优化目镜" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">选择装备者的一件远程武器，这件武器命中骰结果+1。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">选择装备者的一件远程武器，这件武器命中骰结果+1。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4725,7 +4726,7 @@
               <profiles>
                 <profile id="8b67-c2ff-e1ff-bf3a" name="以太充能符文" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
                   <characteristics>
-                    <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">一次性道具。你可以把装备者的一颗命中骰或一颗保护骰改为你想要的结果。</characteristic>
+                    <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">一次性道具。你可以把装备者的一颗命中骰或一颗保护骰改为你想要的结果。</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4741,7 +4742,7 @@
   <sharedProfiles>
     <profile id="dd2e-337c-b58d-1990" name="顺风搭乘" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在一艘友方天舰使用升空（见天舰规则）能力前，若此单位完全位于那艘友方天舰 6 寸内，且此单位本回合未曾移动，则你可以让此单位顺风搭乘那艘天舰，以此代替此单位本回合的普通移动。
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在一艘友方天舰使用升空（见天舰规则）能力前，若此单位完全位于那艘友方天舰 6 寸内，且此单位本回合未曾移动，则你可以让此单位顺风搭乘那艘天舰，以此代替此单位本回合的普通移动。
 
 若选择顺风搭乘，在那艘天舰使用升空能力重新布置后，将此单位移出桌面，再重新完全布置到那艘天舰 6 寸内，任意地形 1 寸外，任意敌方单位 9 寸外的位置。
 
@@ -4751,33 +4752,33 @@
     <profile id="70e6-5a48-61e1-ab98" name="格朗尼凝视" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
       </characteristics>
     </profile>
     <profile id="25df-f5c8-0470-3d7c" name="引擎大师" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, you can pick 1 friendly SKYVESSEL within 1寸 of this model. Heal 3 wounds allocated to that SKYVESSEL.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, you can pick 1 friendly SKYVESSEL within 1寸 of this model. Heal 3 wounds allocated to that SKYVESSEL.</characteristic>
       </characteristics>
     </profile>
     <profile id="e873-a35a-fbf1-333c" name="以太链锯剑" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">4</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">3+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">2+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">3+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">2+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
       </characteristics>
     </profile>
     <profile id="dd25-a58f-595f-f611" name="格朗尼在上啊！我可盯着你呢！" hidden="false" typeId="f71f-b0a4-730e-ced3" typeName="指挥能力">
       <characteristics>
-        <characteristic name="描述" typeId="1b71-4c83-4e8c-093f">·作用对象：完全一个具有此能力的友方模型 18 寸内的一个友方引擎机工单位
+        <characteristic name="指挥能力细节" typeId="1b71-4c83-4e8c-093f">·作用对象：完全一个具有此能力的友方模型 18 寸内的一个友方引擎机工单位
 ·使用时机：在你的英雄阶段开始时，上述引擎机工单位使用其引擎技工（见规则）能力之前
 ·能力效果：上述单位可以重投其引擎技工能力中决定是否可以回复生命值的判定骰。</characteristic>
       </characteristics>
@@ -4785,10 +4786,10 @@
     <profile id="1237-93a8-9a08-68eb" name="枪托" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">5+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">5+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
@@ -4796,10 +4797,10 @@
     <profile id="32c3-b317-f5fc-c3ee" name="以太连发枪 (航空连队)" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">12寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">5+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">5+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
@@ -4807,10 +4808,10 @@
     <profile id="694c-8767-6019-7412" name="以太毒气" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">9寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">3D6</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
@@ -4818,83 +4819,83 @@
     <profile id="ebf3-1b11-b294-2d63" name="沉重工具" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">2</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
     </profile>
     <profile id="663f-9447-ec21-cf8f" name="以太强化" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段，你可以选择完全位于此模型 12 寸内的一个友方旅空单位，使其可以重投结果为 1 的造伤骰，直到你的下个英雄阶段。一种武器一回合只能被强化一次。
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段，你可以选择完全位于此模型 12 寸内的一个友方旅空单位，使其可以重投结果为 1 的造伤骰，直到你的下个英雄阶段。一种武器一回合只能被强化一次。
 &gt;此模型在驻守时不能使用此能力，此能力也不能将驻守中的单位作为目标。</characteristic>
       </characteristics>
     </profile>
     <profile id="19ed-5fb4-c4e2-ff7f" name="隔绝大气" page="" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">敌方模型位于任意具有此能力的模型 3 寸内时所有命中骰结果-1。此模型在驻守时此能力无效。</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">敌方模型位于任意具有此能力的模型 3 寸内时所有命中骰结果-1。此模型在驻守时此能力无效。</characteristic>
       </characteristics>
     </profile>
     <profile id="9af5-3294-a7d1-26e5" name="舰载武器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">肉搏</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">1寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">*</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
     </profile>
     <profile id="e557-841e-f594-c1a0" name="脱离" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">若此模型在撤退开始时 3 寸内无敌方飞行单位，则此模型以及驻守在此模型内的模型在此模型撤退的同回合仍可以射击。</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">若此模型在撤退开始时 3 寸内无敌方飞行单位，则此模型以及驻守在此模型内的模型在此模型撤退的同回合仍可以射击。</characteristic>
       </characteristics>
     </profile>
     <profile id="44dc-f03a-55ea-c1ba" name="升空" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">此模型要进行普通移动时，你可以宣布此模型升空，并代替本次普通移动。若宣布升空，则将此模型移出桌面，并重新布置于任意地形和任务点 1 寸外，任意敌方单位 9 寸外的位置。</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">此模型要进行普通移动时，你可以宣布此模型升空，并代替本次普通移动。若宣布升空，则将此模型移出桌面，并重新布置于任意地形和任务点 1 寸外，任意敌方单位 9 寸外的位置。</characteristic>
       </characteristics>
     </profile>
     <profile id="4694-70b9-900d-96ff" name="投弹架" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在肉搏阶段开始时，你可以选择此模型 1 寸内的一个敌方单位，投 D6，若结果为 4+，那个单位受到 D3 致命伤害。</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在肉搏阶段开始时，你可以选择此模型 1 寸内的一个敌方单位，投 D6，若结果为 4+，那个单位受到 D3 致命伤害。</characteristic>
       </characteristics>
     </profile>
     <profile id="0d90-036d-60f8-b510" name="以太领航 和 引擎机工" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段，此模型可以回复 1 点生命值。此模型可以重投奔跑骰。</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">在你的英雄阶段，此模型可以回复 1 点生命值。此模型可以重投奔跑骰。</characteristic>
       </characteristics>
     </profile>
     <profile id="1182-8137-62d4-da48" name="Endrincraft" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, you can pick 1 friendly Skyvessel within 1寸 of this 单位 and roll 1 dice for each model in this 单位. For each 4+, heal 1 wound allocated to that Skyvessel.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">At the start of your 英雄阶段, you can pick 1 friendly Skyvessel within 1寸 of this 单位 and roll 1 dice for each model in this 单位. For each 4+, heal 1 wound allocated to that Skyvessel.</characteristic>
       </characteristics>
     </profile>
     <profile id="b36d-3a09-bd80-f888" name="抓钩发射器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Enemy units cannot retreat if they are within 3寸 of any models from this 单位 armed with a 抓钩发射器.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Enemy units cannot retreat if they are within 3寸 of any models from this 单位 armed with a 抓钩发射器.</characteristic>
       </characteristics>
     </profile>
     <profile id="88bc-f22c-e0a8-9853" name="天钩" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to charge rolls for this 单位 if any models from this 单位 are armed with a 天钩.</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">Add 1 to charge rolls for this 单位 if any models from this 单位 are armed with a 天钩.</characteristic>
       </characteristics>
     </profile>
     <profile id="1a76-8c3f-0661-bc75" name="钻头发射器" hidden="false" typeId="c924-5a68-471a-2fd5" typeName="单位能力">
       <characteristics>
-        <characteristic name="描述" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 钻头发射器 is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
+        <characteristic name="能力细节" typeId="d4dc-8e81-bc0e-b8f0">If the unmodified hit roll for an attack made with a 钻头发射器 is 6, that attack inflicts 3 mortal wounds on the target and the attack sequence ends (do not make a wound or save roll).</characteristic>
       </characteristics>
     </profile>
     <profile id="7526-d8d0-ee2a-fab1" name="钻头发射器" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-3</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">D3</characteristic>
       </characteristics>
@@ -4902,10 +4903,10 @@
     <profile id="bc64-1e96-817b-df63" name="抓钩发射器 或 天钩" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">1</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">3+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">3+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-2</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">3</characteristic>
       </characteristics>
@@ -4913,10 +4914,10 @@
     <profile id="a9b2-7f29-648a-91e0" name="以太连发枪" hidden="false" typeId="96df-ab28-5d72-bbb3" typeName="武器">
       <characteristics>
         <characteristic name="类型" typeId="655c-362e-a663-3e50">射击</characteristic>
-        <characteristic name="攻击范围" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
+        <characteristic name="攻击距离" typeId="ee32-7f8e-ccd7-b7b0">24寸</characteristic>
         <characteristic name="攻击次数" typeId="0bd7-bded-a0e0-19a0">6</characteristic>
-        <characteristic name="命中" typeId="87f2-fb99-33f9-7269">4+</characteristic>
-        <characteristic name="造伤" typeId="8842-17f1-9794-4efc">4+</characteristic>
+        <characteristic name="命中骰" typeId="87f2-fb99-33f9-7269">4+</characteristic>
+        <characteristic name="造伤骰" typeId="8842-17f1-9794-4efc">4+</characteristic>
         <characteristic name="破甲" typeId="f578-d2a5-f0d3-b707">-1</characteristic>
         <characteristic name="伤害" typeId="b5b6-4cbd-661d-1b70">1</characteristic>
       </characteristics>
@@ -4941,29 +4942,29 @@
         <characteristic name="细节" typeId="b7b8-2932-5eae-1dd0">友方莫卡拉顿天空霸主单位在奔跑的同回合仍可以射击。</characteristic>
       </characteristics>
     </profile>
-    <profile id="aa03-fe11-36bb-8ba2" name="富有以太金" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+    <profile id="aa03-fe11-36bb-8ba2" name="富有以太金" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
       <characteristics>
-        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将可以获得 2 份以太金分成。</characteristic>
+        <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将可以获得 2 份以太金分成。</characteristic>
       </characteristics>
     </profile>
-    <profile id="6849-f269-fde1-941d" name="坚韧不拔" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+    <profile id="6849-f269-fde1-941d" name="坚韧不拔" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
       <characteristics>
-        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">此主将血量值+2</characteristic>
+        <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">此主将血量值+2</characteristic>
       </characteristics>
     </profile>
-    <profile id="42e8-50ef-2e5e-943b" name="负仇者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="Command Trait">
+    <profile id="42e8-50ef-2e5e-943b" name="负仇者" hidden="false" typeId="c749-bae4-71a8-0c36" typeName="主将特性">
       <characteristics>
-        <characteristic name="Command Trait Details" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一个敌方英雄，此主将攻击那个英雄时武器伤害值翻倍</characteristic>
+        <characteristic name="主将特性细节" typeId="ee96-6f3a-e5ca-2350">双方军队布置完毕后，选择一个敌方英雄，此主将攻击那个英雄时武器伤害值翻倍</characteristic>
       </characteristics>
     </profile>
     <profile id="bd2f-9c3d-18be-804a" name="逃生滑道" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
       <characteristics>
-        <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰被消灭时，所有驻守的模型都无需投 D6 确认是否存活</characteristic>
+        <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰被消灭时，所有驻守的模型都无需投 D6 确认是否存活</characteristic>
       </characteristics>
     </profile>
     <profile id="3c46-71cc-0fee-a2d6" name="万能全望镜" hidden="false" typeId="0ac4-aacb-2481-8e72" typeName="魔法道具">
       <characteristics>
-        <characteristic name="描述" typeId="0918-c47a-d84e-c0cf">此舰移动力+2。</characteristic>
+        <characteristic name="魔法道具细节" typeId="0918-c47a-d84e-c0cf">此舰移动力+2。</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

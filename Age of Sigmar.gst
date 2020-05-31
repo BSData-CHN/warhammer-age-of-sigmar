@@ -167,7 +167,9 @@
     <categoryEntry id="be2b-5e91-b381-5671" name="TROGGOTH" hidden="false"/>
     <categoryEntry id="1422-e165-b7d0-b2d9" name="OGOR" hidden="false"/>
     <categoryEntry id="c91f-5c40-bec0-1a93" name="DRAGON" hidden="false"/>
-    <categoryEntry id="6ec4-4931-4d7f-006b" name="IDONETH DEEPKIN" hidden="false"/>
+    <categoryEntry id="6ec4-4931-4d7f-006b" name="深渊海灵" hidden="false">
+      <comment>IDONETH DEEPKIN</comment>
+    </categoryEntry>
     <categoryEntry id="be2f-aa63-6d82-e2fc" name="阵营: 恐虐" hidden="false"/>
     <categoryEntry id="1974-3f49-7f0b-8422" name="游戏选项" hidden="false"/>
     <categoryEntry id="fd9f-428a-177d-c765" name="先锋" hidden="false"/>

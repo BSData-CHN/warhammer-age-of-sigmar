@@ -95,7 +95,7 @@ Order - Empire.cat
 
 Order - High Elves.cat
 
-Order - Idoneth Deepkin - Data.cat
+* Order - Idoneth Deepkin - Data.cat
 
 Order - Ironweld Arsenal.cat
 
